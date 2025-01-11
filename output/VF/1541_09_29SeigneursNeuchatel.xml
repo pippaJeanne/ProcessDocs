@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="conseilNeuchatelSept41">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Lettre aux seigneurs de Neuchâtel</title>
+<editor role="Modernisation et encodage">Yanet Hernández Pedraza</editor>
+<editor role="Relecture">Rudy Chaulet (ISTA - Université de Franche-Comté)</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+   <availability status="free">
+     <licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+          3.0 Unported License</licence>
+   </availability>
+</publicationStmt>
+<sourceDesc>
+ <bibl>
+  <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
+  <author><name>
+    <forename>Jean</forename>
+    <surname>Calvin</surname>
+   </name><date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+   </author>, éd.
+  <editor>
+   <name>
+    <forename>Jules</forename>
+    <surname>Bonnet</surname>
+   </name>
+  </editor>,
+ <pubPlace>Paris</pubPlace>,
+ <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+ <date when="1854">1854</date>.
+ <affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+  <facsimile corresp='74-78'>
+ <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f74/info.json"/>
+ <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f75/info.json"/>
+ <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f76/info.json"/>
+ <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f77/info.json"/>
+ <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f78/info.json"/>
+</facsimile>
+ </bibl>
+  <msDesc>
+   <msIdentifier>
+  <settlement>Genève</settlement>
+  <repository>Bibliothèque de Genève</repository>
+  <idno type="cote">Ms. fr. 145 (f. 30-34)</idno>
+ </msIdentifier>
+ <facsimile>
+ <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f157r.jpg"/>
+ <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f157v.jpg"/>
+ <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f158r.jpg"/>
+ <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f158v.jpg"/>
+ <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f159r.jpg"/>
+</facsimile>
+   </msDesc>
+ <notesStmt>
+          <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 
+            sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+ </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Jean Calvin</persName>
+  <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
+  <date when="1541-09-29"> 29 septembre 1541</date>
+ </correspAction>
+ <correspAction type="received">
+  <name type="collectivité" key="Consistoire de Neuchâtel" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-neuchatel">Aux Seigneurs de Neuchâtel</name>
+  <settlement key="Neuchâtel" ref="https://www.wikidata.org/wiki/Q69345" corresp="#neuchatel">Neuchâtel</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+<desc>Lettre de la part des ministres de Genève, y compris Calvin, adressée à ceux de Nauchâtel afin de les persuader de ne pas déposer Guillaume Farel après avoir censuré publiquement une dame de qualité. Cette lettre a été portée par Pierre Viret et contient des instructions de Calvin pour son intervention devant la seigneurie de Neuchâtel.</desc>
+<list xml:id="tags">
+<term>défense</term>
+<term>conseil</term>
+<term>ministres</term>
+<term>instructions</term>
+</list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>Aux <persName type="collectivité" key="Consistoire de Neuchâtel" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-neuchatel">Seigneurs de Neuchâtel</persName><note n="*" place="bottom"><p>Au dos: De la main de Viret: « Lettres envoyées à ceulx de Neufchastel quant on vouloit chasser Farel leur ministre, portées par Viret, envoyé de la part des ministres de Genève avec les instructions suyvantes pour leur monstrer en leur conseil. »</p> 
+<p>Inflexible dans l'exercice des devoirs de son ministère, Farel avait publiquement censuré, dans un de ses discours, une dame de qualité dont la conduite était un sujet de scandale pour l'église de Neuchâtel. Irrités de cette censure, les parents de cette dame émurent une partie de la bourgeoisie contre le courageux ministre, et en obtinrent une sentence de révocation qui ne fut annulée que par l'intervention des seigneurs de Berne, et des principales églises suisses. Ruchat : <hi rend="italic">Histoire de la Réformation en Suisse</hi>, t. V, p. 164 et suivantes.</p></note></addrLine>
+</address>
+<dateline xml:id="opener"><placeName key="Neuchâtel" ref="https://www.wikidata.org/wiki/Q69345" corresp="#neuchatel">Neuchâtel</placeName>, le <date when="1541-09-29">29 septembre 1541</date>
+</dateline>
+<hi rend="bold"><label type='nature'>Orig. autographe</label>. Bibl. de Genève. Vol. 145.</hi>
+<hi xml:id="editorNote">
+[Maintenant sous la cote Ms. fr. 145 (f. 30-34)]</hi>
+<salute><choice><orig>Magnificques</orig><reg>Magnifiques</reg></choice>, honorables seigneurs,</salute>
+</opener>
+<p>ayant entendu que <choice><orig>vostre</orig><reg>votre</reg></choice> <choice><orig>Eglise</orig><reg>Église</reg></choice> n'est pas encore délivrée des troubles et <choice><orig>fascheries</orig><reg>fâcheries</reg></choice> qui y sont naguère advenu, nous avons pensé que c'<choice><orig>estoit</orig><reg>était</reg></choice> de <choice><orig>nostre</orig><reg>notre</reg></choice> <choice><orig>debvoir</orig><reg>devoir</reg></choice> envoyer <choice><orig>quelquesuns</orig><reg>quelques uns</reg></choice> de <choice><orig>nostre</orig><reg>notre</reg></choice> <choice><orig>compaignie</orig><reg>compagnie</reg></choice> pour <choice><orig>se offrir</orig><reg>s'offrir</reg></choice> à vous, si l'occasion s'<choice><orig>offroit</orig><reg>offrait</reg></choice> que nous vous <choice><orig>peussions</orig><reg>puissions</reg></choice> servir en <choice><orig>cest</orig><reg>cet</reg></choice>  <choice><orig>endroict</orig><reg>endroit</reg></choice>, en tant que <choice><orig>nostre</orig><reg>notre</reg></choice> vocation et office porte, à <choice><orig>esteindre</orig><reg>éteindre</reg></choice> ce scandale que le diable a suscité entre vous. Pourtant nous avons <choice><orig>advisé</orig><reg>avisé</reg></choice> de vous envoyer <choice><orig>nostre</orig><reg>notre</reg></choice> bon frère et fidèle ministre de Jésus-Christ, et ancien pasteur de <choice><orig>vostre</orig><reg>votre</reg></choice> <choice><orig>Eglise</orig><reg>Église</reg></choice>, pour vous donner à entendre le désir que nous avons de vous faire service en <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur, et la solicitude que nous portons pour le salut de <choice><orig>vostre</orig><reg>votre</reg></choice> <choice><orig>Eglise</orig><reg>Église</reg></choice>, vous suppliant, <choice><orig>magnificques</orig><reg>magnifiques</reg></choice> seigneurs, que <choice><orig>vostre</orig><reg>votre</reg></choice> bon plaisir soit l'<choice><orig>escouter</orig><reg>écouter</reg></choice>, en ce qu'il vous dira au nom de <choice><orig>nostre</orig><reg>notre</reg></choice> assemblée, pour satisfaire à <choice><orig>nostre</orig><reg>notre</reg></choice> conscience, selon le <choice><orig>debvoir</orig><reg>devoir</reg></choice> de <choice><orig>nostre</orig><reg>notre</reg></choice> ministère qui nous oblige et <choice><orig>contrainct</orig><reg>contraint</reg></choice> de nous <choice><orig>entremectre</orig><reg>entremettre</reg></choice> en <choice><orig>ceste</orig><reg>cette</reg></choice> cause, <choice><orig>veu</orig><reg>vu</reg></choice> qu'elle est ecclésiastique et ainsi nous <choice><orig>attouche</orig><reg>concerne</reg></choice>, en tant que nous sommes membres d'un <choice><orig>mesme</orig><reg>même</reg></choice> corps. A tant <choice><orig>magnificques</orig><reg>magnifiques</reg></choice> et honorables seigneurs, après nous <choice><orig>estre</orig><reg>être</reg></choice> humblement recommandé à vos bonnes graces, nous supplions le Seigneur Jésus, seul bon pasteur et gouverneur de son <choice><orig>Eglise</orig><reg>Église</reg></choice>, de vous bien conseiller en <choice><orig>ceste</orig><reg>cette</reg></choice> cause, comme elle est de grosse importance, et après avoir bien appaisé les troubles que le diable <choice><orig>tasche</orig><reg>tâche</reg></choice> de semer en <choice><orig>vostre</orig><reg>votre</reg></choice> <choice><orig>Eglise</orig><reg>Église</reg></choice> pour ruiner l'œuvre et édification du Père céleste, nous le prions aussi qu'il vous vueille <choice><orig>tousjours</orig><reg>toujours</reg></choice> maintenir en bonne prospérité.</p>
+<closer>
+      <dateline>De <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve"><choice><orig>Genesve</orig><reg>Genève</reg></choice></placeName><date when="1541-09-29">, ce XXIX de septembre 1541.</date>
+      </dateline>
+<salute>Vos humbles serviteurs en <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur.</salute>
+<signed><persName key="Jean Calvin" ref="#"><choice><orig>JÉHAN</orig><reg>JEAN</reg></choice> CALVIN</persName></signed>
+<signed><persName key="Aimé Champereau">AYMÉ CHAMPEREAU</persName>.</signed>
+<signed><persName key="Jacques Bernard">JACQUES BERNARD</persName>.</signed>
+    </closer>
+<postscript>
+<p>La somme des choses que nous désirons que <choice><orig>nostre</orig><reg>notre</reg></choice> frère <choice><orig>maistre</orig><reg>maître</reg></choice> <persName key="Pierre Viret" ref="https://www.wikidata.org/wiki/Q123337" corresp="#viret">Pierre Viret</persName> <choice><orig>remonstre</orig><reg>remontre</reg></choice> à la seigneurie de <placeName key="Neuchâtel" ref="https://www.wikidata.org/wiki/Q69345" corresp="#neuchatel"><choice><orig>Neufchastel</orig><reg>Neuchâtel</reg></choice></placeName> en <choice><orig>nostre</orig><reg>notre</reg></choice> nom, le <choice><orig>pryant</orig><reg>priant</reg></choice> de suivre ce qui sera <choice><orig>icy contre</orig><reg>ci-contre</reg></choice>, comme instruction.</p>
+
+<p>Premièrement il aura à faire <choice><orig>nostre</orig><reg>notre</reg></choice> excuse de ce que nous nous <choice><orig>entremeslons</orig><reg>entremêlons</reg></choice> de <choice><orig>cest</orig><reg>cette</reg></choice> affaire, leur déclairant que cela est du <choice><orig>debvoir</orig><reg>devoir</reg></choice> de <choice><orig>nostre</orig><reg>notre</reg></choice> office, car la communion des <choice><orig>sainct</orig><reg>saint</reg></choice>s emporte cela principallement que les <choice><orig>Eglise</orig><reg>Église</reg></choice>s voisines ayent solicitude mutuelle de se <choice><orig>confermer</orig><reg>confirmer</reg></choice> l'une l'<choice><orig>aultre</orig><reg>autre</reg></choice>. Et <choice><orig>quant</orig><reg>quand</reg></choice> il survient quelque nécessité à l'une, que l'<choice><orig>aultre</orig><reg>autre</reg></choice> <choice><orig>luy</orig><reg>lui</reg></choice> subvienne. Or <choice><orig>que oultre</orig><reg>qu'outre</reg></choice> cela, nous avons encore en singulière recommandation leur <choice><orig>Eglise</orig><reg>Église</reg></choice>, et qu'elle nous <choice><orig>attouche</orig><reg>concerne</reg></choice> de plus près pour plusieurs causes lesquelles il pourra réciter.</p> 
+<p>Après leur <choice><orig>remonstre</orig><reg>remontre</reg></choice>ra quel ordre nous pensons <choice><orig>debvoir</orig><reg>devoir</reg></choice> <choice><orig>estre</orig><reg>être</reg></choice> tenu en l'<choice><orig>Eglise</orig><reg>Église</reg></choice> à déposer un ministre, <choice><orig>assavoir</orig><reg>savoir</reg></choice> qu'on y procède, comme l'<choice><orig>Escriture</orig><reg>Écriture</reg></choice> commande, par forme de jugement, voire spirituel, et non point par sédition <choice><orig>ne</orig><reg>ni</reg></choice> tumulte. Et <choice><orig>quant</orig><reg>quand</reg></choice> il se <choice><orig>faict</orig><reg>fait</reg></choice> <choice><orig>aultre</orig><reg>autre</reg></choice>ment, que c'est déshonorer Dieu et troubler la police de sa <choice><orig>sainct</orig><reg>saint</reg></choice>e cité.</p>
+<p>Que si on <choice><orig>oste</orig><reg>ôte</reg></choice> un homme de son lieu sans cause et raison juste, et qu'on le <choice><orig>contraingne</orig><reg>contraint</reg></choice> d'abandonner l'<choice><orig>Esglise</orig><reg>Église</reg></choice> laquelle il a fidèlement servie, et par ainsi qu'on le retire injustement de la vocation en laquelle il a <choice><orig>esté</orig><reg>été</reg></choice> constitué de Dieu, que l'homme n'est pas seulement <choice><orig>oultragé</orig><reg>outragé</reg></choice> par ce moyen, mais Dieu aussi, <choice><orig>veu</orig><reg>vu</reg></choice> que sa vocation légitime est violée et <choice><orig>faicte</orig><reg>faite</reg></choice> vaine.</p>
+<p>Item quelle opinion nous avons de <persName type="surname" key="Guillaume Farel" ref="https://www.wikidata.org/wiki/Q435456" corresp="#farel">Farel</persName>, et en quelle estime il est envers tous fidèles, c'est que nous le jugeons avoir bien et <choice><orig>loyaulment</orig><reg>loyalement</reg></choice> <choice><orig>tousjours</orig><reg>toujours</reg></choice> versé en l'œuvre de <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur, et pourtant qu'on ne le <choice><orig>peult</orig><reg>peut</reg></choice> priver du ministère, <choice><orig>jusques à</orig><reg>jusqu'à</reg></choice> ce qu'il <choice><orig>apparoistra</orig><reg>apparaîtra</reg></choice> du contraire, sinon contre <choice><orig>droict</orig><reg>droit</reg></choice> et raison.</p>
+<p>Les advertir des inconvénients qui en pourront advenir tant en la ville, comme dehors. Singulièrement les scandales qui s'en ensuivront. Que ce sera pour diffamer l'Evangile de <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur entre les <choice><orig>meschan</orig><reg>méchant</reg></choice>s; offenser tous les bons, troubler les infirmes, et que comme leur <choice><orig>Esglise</orig><reg>Église</reg></choice> a <choice><orig>esté</orig><reg>été</reg></choice> bien renommée, qu'elle sera d'<choice><orig>aultant</orig><reg>autant</reg></choice> plus <choice><orig>descrié</orig><reg>décrié</reg></choice>e.</p>
+<p>Que dedans leur ville les cendres s'en pourront <choice><orig>enflamber</orig><reg>enflammer</reg></choice> d'<choice><orig>advantaige</orig><reg>avantage</reg></choice>, <choice><orig>jusque à</orig><reg>jusqu'à</reg></choice> mutineries et <choice><orig>basterie</orig><reg>batterie</reg></choice>s. Et <choice><orig>mesme</orig><reg>même</reg></choice> <choice><orig>que entre</orig><reg>qu'entre</reg></choice> les ministres il s'en <choice><orig>pourroit</orig><reg>pourrait</reg></choice> engendrer quelque schisme. Alléguer si bon <choice><orig>luy</orig><reg>lui</reg></choice> semble quelques exemples anciens, sans <choice><orig>attouche</orig><reg>concerne</reg></choice>r le temps présent. Finalement les admonester que c'est que l'ire de Dieu a <choice><orig>coustume</orig><reg>coutume</reg></choice> d'apporter, <choice><orig>quant</orig><reg>quand</reg></choice> nous la provocons, ainsi qu'on <choice><orig>feroit</orig><reg>ferait</reg></choice>, en <choice><orig>commectant</orig><reg>commettant</reg></choice> un tel désordre. </p>
+<p>Puis en son nom, il pourra <choice><orig>adjouster</orig><reg>ajouter</reg></choice> ce que bon <choice><orig>luy</orig><reg>lui</reg></choice> semblera, après avoir exposé ces choses de <choice><orig>par nous</orig><reg>notre part</reg></choice>.</p>
+</postscript>
+<closer>
+<signed><persName key="Jean Calvin"><choice><orig>JÉHAN</orig><reg>JEAN</reg></choice> CALVIN</persName></signed>
+</closer>
+  </body>
+ </text>
+</TEI>

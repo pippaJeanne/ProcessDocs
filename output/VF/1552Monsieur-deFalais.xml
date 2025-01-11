@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="M-Fallais-1552">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Lettre à Monsieur de Fallais</title>
+<editor role="Modernisation et encodage">Yanet Hernández Pedraza</editor>
+<editor role="Édition et relecture">Rudy Chaulet (ISTA - Université de Franche-Comté)</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+<availability status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+3.0 Unported License</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+  <bibl>
+     <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
+<author>
+        <name>
+           <forename>Jean</forename>
+           <surname>Calvin</surname>
+        </name>
+        <date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+</author>, éd.
+<editor>
+        <name>
+           <forename>Jules</forename>
+           <surname>Bonnet</surname>
+        </name>
+     </editor>,
+     <pubPlace>Paris</pubPlace>,
+<publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+<date when="1854">1854</date>.
+<affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+<facsimile corresp="398-401">
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f398/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f399/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f400/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f401/info.json"/>
+</facsimile>
+  </bibl>
+<msDesc>
+<msIdentifier>
+  <settlement>Genève</settlement>
+  <repository>Bibliothèque de Genève</repository>
+  <idno type="cote">Ms. lat. 107a, volume 2 (f. 342r-342v)</idno>
+</msIdentifier>
+<facsimile>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f342r.jpg"/>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f342v.jpg"/>
+
+</facsimile>
+</msDesc>
+  <notesStmt>
+     <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 
+      sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza. </note></notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Jean Calvin</persName>
+  <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Genève]</settlement>
+  <date when="1552-01">1552</date>
+ </correspAction>
+ <correspAction type="received">
+  <name type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">À Monsieur de Fallais</name>
+  <settlement cert="medium" key="Veigy-Foncenex" ref="https://www.wikidata.org/wiki/Q774121" corresp="#Berne">[Veigy-Foncenex]</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Dernière lettre de Calvin à M. de Fallais. Rupture de Calvin avec M. de Fallais quand ce dernier prit ouvertement le parti de Jérôme Bolsec contre Calvin.</desc>
+ <list xml:id="tags">
+ <term>rupture</term>
+ <term>schismes</term>
+ <term>amitié</term>
+ <term>théologie</term>
+ <term>doctrine</term>
+ <term>défense</term>
+ </list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>Au <persName type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Monsieur de Fallais</persName><note n="*" place="bottom"><p>Cette lettre, la dernière de Calvin à M. de Falais, répand une vive lumière sur les circonstances de leur rupture, dont le procès de Jérôme Bolsec fut l'occasion. Banni de Genève pour ses attaques contre la prédestination et ses invectives contre Calvin, Bolsec avait su intéresser à sa cause M. de Falais, dont il était le médecin, et qui intercéda vainement auprès de ses juges: – « Maistre Hierosme congnoit mon naturel plus à mon apaisement que nul aultre des médecins que je congnoisse... <hi rend="italic">C'est celuy après Dieu, duquel je tiens la vie.</hi> » – Arch. de Genève. Lettres du 9 et du 11 novembre 1551. Ces démarches, dictées par un sentiment d'humanité, n'auraient pas sans doute indisposé Calvin, si M. de Falais n'avait pris trop ouvertement le parti de Bolsec contre le réformateur. Calvin s'en plaignit avec amertume : – « <hi rend="italic">Scribat Fallesius hominem esse non malum, et in gratiam ignoti nebulonis famam suam ludibrio prostituat...</hi> <hi xml:id="trad">[Falais écrit que l'homme n'est pas mauvais, et en faveur de méchant inconnu prostitue avec moquerie sa réputation...]</hi>» – Lettre aux ministres de Bàle, janvier 1552. Expulsé de Genève et retiré à Thonon, Bolsec sut envenimer ce dissentiment que les souvenirs d'une longue amitié devaient apaiser, et qui se termina par une douloureuse rupture. Dans une lettre véhémente, Calvin, alors malade et souffrant, prit congé de son ancien ami, dont il raya le nom, quatre ans après, de la préface de son Commentaire sur la première épître aux Corinthiens, pour y substituer celui du marquis de Vico.</p></note>
+</addrLine>
+</address>
+<dateline xml:id="opener"><placeName></placeName>(<date when="1552-01">1552</date>)
+</dateline>
+<hi rend="bold"><label type='nature'>Minute autographe</label>. Bibl. de Genève. Vol. 107 a.</hi>
+<hi xml:id="editorNote">
+[Maintenant sous la cote Ms. lat. 107a, volume 2 (f. 342r-342v)]</hi>
+<salute>Monseigneur,</salute>
+</opener>
+<p>puisque vous pensez avoir bonne cause <choice><orig>par devers</orig><reg>par-devers</reg></choice> <choice><orig>moy</orig><reg>moi</reg></choice>, je ne vous puis satisfaire en confessant que j'<choice><orig>aye</orig><reg>aie</reg></choice> tort, ce qui ne <choice><orig>seroit</orig><reg>serait</reg></choice> qu'hypocrisie. Car je <choice><orig>sçay</orig><reg>sais</reg></choice> que <choice><orig>moy</orig><reg>moi</reg></choice>-<choice><orig>mesme</orig><reg>même</reg></choice> <choice><orig>desjà</orig><reg>déjà</reg></choice> de <choice><orig>long temps</orig><reg>longtemps</reg></choice> vous <choice><orig>ay</orig><reg>ai</reg></choice> <choice><orig>déclairé</orig><reg>déclaré</reg></choice> de l'homme ce qui en <choice><orig>estoit</orig><reg>était</reg></choice>, et ça <add>a</add> <choice><orig>esté</orig><reg>été</reg></choice> chose trop commune des actes qu'il a <choice><orig>faict</orig><reg>fait</reg></choice>s. Depuis ce temps-là vous l'avez tellement loué, que <choice><orig>celluy</orig><reg>celui</reg></choice> qui me le <choice><orig>récitoit</orig><reg>récitait</reg></choice> <choice><orig>usast</orig><reg>usât</reg></choice> de ces mots, qu'il n'<choice><orig>avoit</orig><reg>avait</reg></choice> <choice><orig>ouy</orig><reg>ouï</reg></choice> jamais faire si grand cas d'homme du monde. <choice><orig>Quant</orig><reg>Quand</reg></choice> vous en veniez <choice><orig>jusques</orig><reg>jusqu'à</reg></choice> là, <choice><orig>estant</orig><reg>étant</reg></choice> <choice><orig>desjà</orig><reg>déjà</reg></choice> <choice><orig>adverty</orig><reg>averti</reg></choice> par <choice><orig>moy</orig><reg>moi</reg></choice>, il <choice><orig>falloit</orig><reg>fallait</reg></choice> bien que vous le missiez si <choice><orig>hault</orig><reg>haut</reg></choice> pour nous faire condamner avec toute <choice><orig>nostre</orig><reg>notre</reg></choice> doctrine, de laquelle il s'est <choice><orig>monstré</orig><reg>montré</reg></choice> si mortel <choice><orig>ennemy</orig><reg>ennemi</reg></choice>, voire enragé et démoniaque, qu'il n'a pas eu honte d'<choice><orig>escrire</orig><reg>écrire</reg></choice> : <hi rend="italic">Deus Calvini est hypocrita, mendax, perfidus, injustus, fautor et patronus scelerum, et Diabolo ipso pejor</hi><note n="1" place="bottom"><p>Le Dieu de Calvin est hypocrite, menteur, perfide, injuste, défenseur et patron du mal, et pire que le diable lui-même.</p></note>. Ainsi il <choice><orig>fauldroit</orig><reg>faudrait</reg></choice> que pour vous qualifier je renonçasse à Dieu et à sa vérité, et au salut que j'en espère. <choice><orig>Vostre</orig><reg>Votre</reg></choice> intention n'est pas telle, je le <choice><orig>croy</orig><reg>crois</reg></choice>; mais si pour l'humanité et mansuétude de <choice><orig>vostre</orig><reg>votre</reg></choice> esprit, vous <choice><orig>estes</orig><reg>êtes</reg></choice> content d'ignorer quel est <choice><orig>celluy</orig><reg>celui</reg></choice> qui <choice><orig>faict</orig><reg>fait</reg></choice> la guerre à Dieu et <choice><orig>non-seulement</orig><reg>non seulement</reg></choice> cela, mais n'<choice><orig>adjoustant</orig><reg>ajoutant</reg></choice> nulle <choice><orig>foy</orig><reg>foi</reg></choice> à <choice><orig>nostre</orig><reg>notre</reg></choice> <choice><orig>tesmoignage</orig><reg>témoignage</reg></choice>, donnez occasion de nous rendre détestable, souffrez, je vous prie, que j'<choice><orig>aye</orig><reg>aie</reg></choice> quelque zèle de maintenir l'honneur de mon <choice><orig>maistre</orig><reg>maître</reg></choice>. Mais c'<choice><orig>estoit</orig><reg>était</reg></choice> pour le moins de vous en <choice><orig>advertir</orig><reg>avertir</reg></choice> : à <choice><orig>quoy</orig><reg>quoi</reg></choice> je <choice><orig>responds</orig><reg>réponds</reg></choice> qu'après avoir ainsi <choice><orig>esté</orig><reg>été</reg></choice> obliquement dégradé de vous, je me <choice><orig>voulois</orig><reg>voulais</reg></choice> garder de m'exposer à <choice><orig>mocqueries</orig><reg>moqueries</reg></choice>. Si j'eusse <choice><orig>esté</orig><reg>été</reg></choice> <choice><orig>adverty</orig><reg>averti</reg></choice> du propos que j'<choice><orig>ay</orig><reg>ai</reg></choice> récité dix heures <choice><orig>devant</orig><reg>avant</reg></choice>, ce m'<choice><orig>eust</orig><reg>eût</reg></choice> <choice><orig>esté</orig><reg>été</reg></choice> assez que vous en eussiez entendu ce que j'en <choice><orig>avois</orig><reg>avais</reg></choice> sur le <choice><orig>cueur</orig><reg>cœur</reg></choice>. L'occasion s'adonna que <choice><orig>vostre</orig><reg>votre</reg></choice> <choice><orig>amy</orig><reg>ami</reg></choice> <choice><orig>tantost</orig><reg>tantôt</reg></choice> après, ou le lendemain, me demanda si je vous <choice><orig>avois</orig><reg>avais</reg></choice> <choice><orig>veu</orig><reg>vu</reg></choice>. Je <choice><orig>dy</orig><reg>dis</reg></choice> que <choice><orig>ouy</orig><reg>oui</reg></choice>, dont je me <choice><orig>repentois</orig><reg>repentais</reg></choice>, et que si vous passiez cent fois, j'<choice><orig>aurois</orig><reg>aurais</reg></choice> moins d'accointance avec vous qu'avec tous ennemis manifestes, puisqu'en vous <choice><orig>monstrant</orig><reg>montrant</reg></choice> ainsi <choice><orig>familliers</orig><reg>familier</reg></choice>, vous <choice><orig>estiez</orig><reg>étiez</reg></choice>, selon qu'on m'<choice><orig>avoit</orig><reg>avait</reg></choice> rapporté depuis, les <choice><orig>prescheurs</orig><reg>prêcheurs</reg></choice> des louanges de <persName type="surname" key="Sébastien Castellion" ref="https://www.wikidata.org/wiki/Q919119" corresp="#castalion">Castalio</persName><note n="2" place="bottom"><p>Sébastien Castalion, ancien régent au collége de Genève, professeur à l'université de Bâle. II avait élevé des doutes sur la divinité des Ecritures, et attaque la doctrine de la prédestination.</p></note>, lequel est si pervers en toute impiété, que j'<choice><orig>aimerois</orig><reg>aimerais</reg></choice> cent fois mieux <choice><orig>estre</orig><reg>être</reg></choice> papiste, comme la vérité est. <choice><orig>Vostre</orig><reg>Votre</reg></choice> <choice><orig>amy</orig><reg>ami</reg></choice> lors me demanda si je <choice><orig>vouldrois</orig><reg>voudrais</reg></choice> bien que vous le <choice><orig>sceussiez</orig><reg>sussiez</reg></choice>. Je <choice><orig>luy</orig><reg>lui</reg></choice> <choice><orig>respondy</orig><reg>répondit</reg></choice> que c'<choice><orig>estoit</orig><reg>était</reg></choice> à <choice><orig>ceste</orig><reg>cette</reg></choice> intention que je <choice><orig>luy</orig><reg>lui</reg></choice> en <choice><orig>avois</orig><reg>avais</reg></choice> parlé, puisque je ne l'<choice><orig>avois</orig><reg>avais</reg></choice> pas <choice><orig>sceu</orig><reg>su</reg></choice> assez à temps. S'il l'a divulgué plus <choice><orig>oultre</orig><reg>outre</reg></choice>, ça <add>a</add> <choice><orig>esté</orig><reg>été</reg></choice> contre mon opinion et vouloir, et sa promesse <choice><orig>mesme</orig><reg>même</reg></choice>. D'avoir <choice><orig>dict</orig><reg>dit</reg></choice> que vous <choice><orig>estiez</orig><reg>étiez</reg></choice> tout infesté des erreurs de ce monstre, cela <choice><orig>tendoit</orig><reg>tendait</reg></choice> à l'opposite de mon propos, car je <choice><orig>luy</orig><reg>lui</reg></choice> <choice><orig>dy</orig><reg>dis</reg></choice> qu'il <choice><orig>falloit</orig><reg>fallait</reg></choice> bien que vous nous haïssiez <hi rend="italic">gratis</hi><note n="3" place="bottom"><p>gratuitement (du latin)</p></note>, de louer en <choice><orig>despit</orig><reg>dépit</reg></choice> de nous un tel monstre. La somme <choice><orig>estoit</orig><reg>était</reg></choice> que j'eusse porté plus douloureusement une telle injure de tous <choice><orig>aultres</orig><reg>autres</reg></choice> que de vous, attendu la <choice><orig>fiance</orig><reg>confiance</reg></choice> que j'<choice><orig>avois</orig><reg>avais</reg></choice> en <choice><orig>vostre</orig><reg>votre</reg></choice> intégrité; mais que j'<choice><orig>estois</orig><reg>étais</reg></choice> <choice><orig>encores</orig><reg>encore</reg></choice> plus <choice><orig>fasché</orig><reg>fâché</reg></choice> de vous voir adhérer, ne <choice><orig>scachant</orig><reg>sachant</reg></choice> pour<choice><orig>quoy</orig><reg>quoi</reg></choice>, à ce<choice><orig>luy</orig><reg>lui</reg></choice> qui est plus détestable que tous les papistes du monde. Et de <choice><orig>faict</orig><reg>fait</reg></choice> je <choice><orig>luy</orig><reg>lui</reg></choice> <choice><orig>dy</orig><reg>dis</reg></choice> plusieurs fois que je ne <choice><orig>sçavois</orig><reg>savais</reg></choice> comment et pour<choice><orig>quoy</orig><reg>quoi</reg></choice>, <choice><orig>ne</orig><reg>ni</reg></choice> que cela <choice><orig>vouloit</orig><reg>voulait</reg></choice> dire. Et puisqu'<choice><orig>encores</orig><reg>encore</reg></choice> à <choice><orig>ceste</orig><reg>cette</reg></choice> heure vous aimez de suivre une leçon toute contraire à celle que j'<choice><orig>ay</orig><reg>ai</reg></choice> <choice><orig>apprins</orig><reg>appris</reg></choice> en l'<choice><orig>eschole</orig><reg>école</reg></choice> de mon <choice><orig>Maistre</orig><reg>Maître</reg></choice> (Car vous <choice><orig>dict</orig><reg>dit</reg></choice>es que vous <choice><orig>estes</orig><reg>êtes</reg></choice> bien <choice><orig>ayse</orig><reg>aise</reg></choice> d'oublier le mal qui <choice><orig>pourroit</orig><reg>pourrait</reg></choice> <choice><orig>estre</orig><reg>être</reg></choice> en <choice><orig>luy</orig><reg>lui</reg></choice>; et il nous est <choice><orig>dict</orig><reg>dit</reg></choice> : <hi rend="italic">Videte canes, observate, notate, fugite, cavete...</hi><note n="4" place="bottom"><p>Voyez les hommes, regardez, remarquez, fuyez, prenez garde...</p></note>) je vous laisse vos délices! – Si j'<choice><orig>ay</orig><reg>ai</reg></choice> <choice><orig>esté</orig><reg>été</reg></choice> trop <choice><orig>aspre</orig><reg>âpre</reg></choice> et lourd, pardonnez-<choice><orig>moy</orig><reg>moi</reg></choice>, vous m'y avez <choice><orig>contrainct</orig><reg>contraint</reg></choice>. Et <choice><orig>affin</orig><reg>afin</reg></choice> que vous <choice><orig>sçachiez</orig><reg>sachiez</reg></choice> qu'il n'y a <choice><orig>ne</orig><reg>ni</reg></choice> colère, <choice><orig>ne</orig><reg>ni</reg></choice> malveillance, je vous <choice><orig>escrits</orig><reg>écrits</reg></choice> la présente comme m'<choice><orig>apprestant</orig><reg>apprêtant</reg></choice> de <choice><orig>comparoistre</orig><reg>comparaitre</reg></choice> devant Dieu, lequel m'afflige <choice><orig>de rechef</orig><reg>derechef</reg></choice> d'un mal qui m'est comme un <choice><orig>mirouer</orig><reg>miroir</reg></choice> de la mort devant les <choice><orig>yeulx</orig><reg>yeux</reg></choice>. Je le <choice><orig>supplieray</orig><reg>supplierai</reg></choice>, Monseigneur, qu'en <choice><orig>aiant</orig><reg>ayant</reg></choice> pitié de <choice><orig>moy</orig><reg>moi</reg></choice> et me recevant à <choice><orig>mercy</orig><reg>merci</reg></choice>, il vous conserve et guide par son Esprit, et vous augmente en toute prospérité avec <choice><orig>Madamoiselle</orig><reg>Mademoiselle</reg></choice> et toute <choice><orig>vostre</orig><reg>votre</reg></choice> famille<note n="5" place="bottom"><p>L'histoire de M. de Falais, depuis sa rupture avec Calvin, demeure environnée d'une profonde obscurité. Il quitta Genève pour aller s'établir à Berne, perdit sa femme en 1557, et contracta un second mariage. On ignore la date et le lieu de sa mort. Est-il vrai, comme l'affirme Bayle, que ce seigneur, attristé par le spectacle des divisions dont il avait été témoin à Genève, finit par rentrer dans l'Eglise catholique? Nous croyons plutôt, en nous fondant sur les témoignages de Calvin et de Bèze, indirectement confirmés par le silence des historiens brabançons, que tout en se séparant sur quelques points de la théologie calviniste, l'arrière-petit-fils de Philippe de Bourgogne n'abjura pas les croyances auxquelles il avait fait le sacrifice de sa fortune et de sa patrie. Voir Bayle, <hi rend="italic">Dict.</hi>, art. Philippe de Bourgogne, remarque G.; Calvin, <hi rend="italic">Comment. sur la 1<hi rend="superscript">re</hi> épître de saint Paul aux Corynthiens</hi>, dédicace au marquis de Vico, 24 janvier 1556; et la préface du <hi rend="italic">Commentaire</hi> de Calvin <hi rend="italic">sur Josué</hi>, par Théodore de Bèze.</p></note>.
+
+</p>
+ <closer>
+      <dateline><placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Genève]</placeName>, <date when="1552-01-01">(1552)</date>
+      </dateline> 
+      <salute><choice><orig>Vostre</orig><reg>Votre</reg></choice> serviteur,</salute>
+      <signed><persName key="Jean Calvin" ref="#"><choice><orig>JÉHAN</orig><reg>JEAN</reg></choice> CALVIN</persName>.</signed>
+      </closer>
+  </body>
+ </text>
+</TEI>

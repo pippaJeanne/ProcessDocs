@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="MmeBude-1546">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Lettre à Madame de Budé</title>
+<editor role="Modernisation et encodage">Yanet Hernández Pedraza</editor>
+<editor role="Relecture">Rudy Chaulet (ISTA - Université de Franche-Comté)</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+<availability status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+3.0 Unported License</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+  <bibl>
+     <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
+<author>
+        <name>
+           <forename>Jean</forename>
+           <surname>Calvin</surname>
+        </name>
+        <date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+</author>, éd.
+<editor>
+        <name>
+           <forename>Jules</forename>
+           <surname>Bonnet</surname>
+        </name>
+     </editor>,
+     <pubPlace>Paris</pubPlace>,
+<publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+<date when="1854">1854</date>.
+<affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+<facsimile corresp="215-220">
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f215/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f216/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f217/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f218/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f219/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f220/info.json"/>
+</facsimile>
+  </bibl>
+<msDesc>
+<msIdentifier>
+  <settlement>Genève</settlement>
+  <repository>Bibliothèque de Genève</repository>
+<idno type="cote">Ms. lat. 107 (f. 6r-7v)</idno>
+</msIdentifier>
+<facsimile>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f006r.jpg"/>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f006v.jpg"/>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f007r.jpg"/>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f007v.jpg"/>
+</facsimile>
+</msDesc>
+  <notesStmt>
+     <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 
+      sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+  </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Jean Calvin
+  <addName type="pseudonym">Charles d'Espeville</addName>
+  </persName>
+  <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
+  <date when="1546-01-20">[20 ** 1546]</date>
+ </correspAction>
+ <correspAction type="received">
+  <name type="individu" key="Madame de Budé" ref="#" corresp="#madame-bude">À Madame de Budé</name>
+  <settlement cert="low" key="Paris" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">Paris</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Calvin conseille Madame de Budé de se retirer à Genève.</desc>
+ <list xml:id="tags">
+ <term>conseil</term>
+ <term>exil</term>
+ <term>guide spirituel</term>
+ </list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>À <persName type="individu" key="Roberte Le Lyeur" ref="https://www.wikidata.org/wiki/Q108743308" corresp="#madame-bude">Madame de Budé</persName><note n="*" place="bottom"><p>La lettre originale est sans suscription. Mais on croit généralement qu'elle fut adressée par Calvin à la veuve du célèbre Guillaume Budé, arrière-petit-fils du secrétaire du roi Charles V, et l'un des plus doctes personnages de la Renaissance. Guillaume Budé ayant déclaré dans son testament qu'il voulait être enseveli sans cérémonie, cette circonstance fit supposer qu'il était mort dans les croyances de la foi réformée. Sa veuve ne pouvant les professer librement à Paris, alla s'établir à Genève, à la sollicitation de Calvin (juin 1549). Elle était accompagnée de sa fille et de trois de ses fils, Louis, François et Jean de Budé, qui occupèrent un rang distingué dans la République. Le plus connu des trois frères est Jean de Budé, sieur de Vérace, ami particulier de Calvin et de Théodore de Bèze. Il fut reçu habitant de Genève le 27 juin 1549, bourgeois le 2 mai 1555, membre des deux conseils en 1559, remplit plusieurs missions importantes auprès des princes protestants d'Allemagne, et mourut en 1589, après avoir rendu d'éclatants services à sa nouvelle patrie, et ajouté ainsi à l'illustration de sa famille dont les descendants habitent encore à Genève. Galiffe : <hi rend="italic">Notices généalogiques des familles genevoises, t. III, p. 83 et suivantes</hi>.</p>
+</note></addrLine>
+</address>
+<dateline xml:id="opener"><placeName></placeName><date when="1546-01-20">[20 ** 1546]</date>
+</dateline>
+<hi rend="bold"><label type='nature'>Orig. autographe</label>. Bibl. de Genève. Vol. 107.</hi>
+<hi xml:id="editorNote">
+[Maintenant sous la cote Ms. lat. 107 (f. 6r-7v)]</hi>
+<salute>Mademoiselle,</salute>
+</opener>
+<p><choice><orig>combien</orig><reg>bien</reg></choice> que j'<choice><orig>aye</orig><reg>aie</reg></choice> occasion de louer Dieu du bon zèle et de la constance qu'il vous donne, selon que j'<choice><orig>ay</orig><reg>ai</reg></choice> entendu par le porteur, toutefois pensant que mon exhortation ne vous <choice><orig>seroit</orig><reg>serait</reg></choice> point superflue, entre tant de diverses tentations et combats, je n'<choice><orig>ay</orig><reg>ai</reg></choice> pas voulu faillir à vous <choice><orig>escrire</orig><reg>écrire</reg></choice> par <choice><orig>luy</orig><reg>lui</reg></choice> quelques mots, et <choice><orig>sur tout</orig><reg>surtout</reg></choice> pour vous <choice><orig>ayder</orig><reg>aider</reg></choice> à vous <choice><orig>résouldre</orig><reg>résoudre</reg></choice> de la délibération qui vous est encore <choice><orig>aulcun</orig><reg>aucun</reg></choice>ement <choice><orig>doubte</orig><reg>doute</reg></choice>use. C'est de vous retirer par deçà, pour servir à Dieu en repos de conscience. S'il vous <choice><orig>estoit</orig><reg>était</reg></choice> possible de vous en acquitter où vous <choice><orig>estes</orig><reg>êtes</reg></choice>, je n'<choice><orig>auroys</orig><reg>aurais</reg></choice> garde de vous donner conseil d'en bouger. Mais je <choice><orig>sçay</orig><reg>sais</reg></choice> en quelle captivité vous <choice><orig>estes</orig><reg>êtes</reg></choice> détenue. <choice><orig>Quant</orig><reg>Quand</reg></choice> Dieu aussi vous <choice><orig>auroit</orig><reg>aurait</reg></choice> donné vertu et constance de vous préparer à la mort, et ne <choice><orig>fleschir</orig><reg>fléchir</reg></choice> pour nulle crainte des <choice><orig>dangiers</orig><reg>dangers</reg></choice> où vous <choice><orig>estes</orig><reg>êtes</reg></choice>, il n'y <choice><orig>auroit</orig><reg>aurait</reg></choice> rien meilleur que d'user de <choice><orig>ceste</orig><reg>cette</reg></choice> grâce. Mais si vous sentez que l'infirmité de <choice><orig>vostre</orig><reg>votre</reg></choice> chair surmonte et vous <choice><orig>empesche</orig><reg>empêche</reg></choice> de faire <choice><orig>vostre</orig><reg>votre</reg></choice> devoir, puisqu'il ne se <choice><orig>peult</orig><reg>peut</reg></choice> faire que <choice><orig>vostre</orig><reg>votre</reg></choice> conscience ne soit en trouble et torment continuel, il ne reste sinon de chercher remède convenable. Car ce n'est pas une petite perplexité, voire <choice><orig>mesme</orig><reg>même</reg></choice> <choice><orig>anguoisse</orig><reg>angoisse</reg></choice>, de nous sentir <choice><orig>coulpables</orig><reg>coupables</reg></choice> en une chose si grande; voire, et que le mal continue tellement que nous ne <choice><orig>facions</orig><reg>fassions</reg></choice> point de fin à offenser Dieu. <choice><orig>Combien</orig><reg>Bien</reg></choice> que plusieurs se <choice><orig>flastent</orig><reg>flattent</reg></choice> en <choice><orig>cest</orig><reg>cet</reg></choice> <choice><orig>endroist</orig><reg>endroit</reg></choice>, se faisant  <choice><orig>à croire</orig><reg>accroire</reg></choice> que c'est une <choice><orig>faulte</orig><reg>faute</reg></choice> légère que de se polluer aux superstitions qui sont répugnantes à la Parole de Dieu, et déroguent à son honneur, j'estime que l'honneur de ce<choice><orig>luy</orig><reg>lui</reg></choice> auquel nous devons tout, vous est si précieux, que ce vous est un regret <choice><orig>importable</orig><reg>insupportable</reg></choice> d'y contrevenir tous les jours comme vous y <choice><orig>estes</orig><reg>êtes</reg></choice> <choice><orig>contrainct</orig><reg>contraint</reg></choice>e. <choice><orig>Ainsy</orig><reg>Ainsi</reg></choice> je ne <choice><orig>doubte</orig><reg>doute</reg></choice> pas que <add>vous</add> n'ayez une singulière affection de sortir de telle <choice><orig>paoureté</orig><reg>pauvreté</reg></choice>, et cependant que vous y <choice><orig>estes</orig><reg>êtes</reg></choice>, que ne soyez en merveilleuse <choice><orig>solicitude</orig><reg>sollicitude</reg></choice> et tristesse. Considérez maintenant si ce n'est pas une malheureuse condition d'y languir sans fin. Je <choice><orig>sçay</orig><reg>sais</reg></choice> bien que plusieurs nous objectent, que nous ne sommes pas <choice><orig>icy</orig><reg>ici</reg></choice> anges non plus, et que nous offensons Dieu comme on <choice><orig>faict</orig><reg>fait</reg></choice> là; ce qui est <choice><orig>vray</orig><reg>vrai</reg></choice>. Mais comme <choice><orig>dict</orig><reg>dit</reg></choice> le proverbe : mal sur mal n'est pas santé. <choice><orig>Parquoy</orig><reg>C'est pourquoi</reg></choice> si nous défaillons par trop en d'autres sortes, <choice><orig>quel mestier est-il</orig><reg>avons-nous besoin</reg></choice> d'augmenter <choice><orig>nostre</orig><reg>notre</reg></choice> condamnation, en <choice><orig>adjoustant</orig><reg>ajoutant</reg></choice> au reste ce <choice><orig>pésché</orig><reg>péché</reg></choice> qui est tant <choice><orig>grief</orig><reg>grave</reg></choice>, <choice><orig>assavoir</orig><reg>à savoir</reg></choice> de ne donner point gloire au Fils de Dieu, qui s'est <choice><orig>anéanty</orig><reg>anéanti</reg></choice> pour <choice><orig>nostre</orig><reg>notre</reg></choice> salut?</p>
+
+<p>Au reste quand vous avez bien <choice><orig>tasché</orig><reg>tâché</reg></choice> par dissimulation à vous exempter des périls où vous <choice><orig>estes</orig><reg>êtes</reg></choice>, encore n'est-ce rien <choice><orig>faict</orig><reg>fait</reg></choice>; car les iniques <choice><orig>espient</orig><reg>épient</reg></choice> de près, et <add>vous</add> ne les pourriez jamais contenter qu'en renonceant Dieu du tout. <choice><orig>Parquoy</orig><reg>C'est pourquoi</reg></choice> vous n'<choice><orig>estes</orig><reg>êtes</reg></choice> en repos du corps, non plus que de l'âme. Et après avoir décliné de Dieu pour complaire au monde, vous n'avez rien profité, sinon de languir comme en transe. Vous me demanderez si <choice><orig>estant</orig><reg>étant</reg></choice> venue <choice><orig>icy</orig><reg>ici</reg></choice>, vous aurez repos <choice><orig>asseuré</orig><reg>assuré</reg></choice> pour <choice><orig>tousjours</orig><reg>toujours</reg></choice>. Je confesse que non. Car pendant que nous sommes en ce monde, il nous convient <choice><orig>estre</orig><reg>être</reg></choice> comme oiseaux sur la branche. Il <choice><orig>plaist</orig><reg>plaît</reg></choice> <choice><orig>ainsy</orig><reg>ainsi</reg></choice> à Dieu, et <add>il</add> nous est bon. Mais puisque <choice><orig>cest</orig><reg>cet</reg></choice> anglet vous est donné auquel vous puissiez achever le reste de <choice><orig>vostre</orig><reg>votre</reg></choice> vie en le servant, s'il lui <choice><orig>plaist</orig><reg>plaît</reg></choice>, ou bien profiter de plus en plus et vous <choice><orig>confermer</orig><reg>confirmer</reg></choice> en sa parole, <choice><orig>affin</orig><reg>afin</reg></choice> que vous <choice><orig>soiez</orig><reg>soyez</reg></choice> plus <choice><orig>prest</orig><reg>prêt</reg></choice>e à soutenir les persécutions quand il <choice><orig>luy</orig><reg>lui</reg></choice> plaira, ce n'est pas raison de le refuser. Nous avons <choice><orig>tousjours</orig><reg>toujours</reg></choice> à regarder de n'<choice><orig>estre</orig><reg>être</reg></choice> point cause de <choice><orig>nostre</orig><reg>notre</reg></choice> malheur, et le chercher à <choice><orig>nostre</orig><reg>notre</reg></choice> escient, et <choice><orig>faulte</orig><reg>faute</reg></choice> d'accepter les bons <choice><orig>moiens</orig><reg>moyens</reg></choice> que Dieu nous présente. Je <choice><orig>sçay</orig><reg>sais</reg></choice> que c'est une chose dure que de laisser le <choice><orig>païs</orig><reg>pays</reg></choice> de sa naissance, principalement à femme ancienne comme vous, et d'<choice><orig>estat</orig><reg>état</reg></choice>. Mais nous devons <choice><orig>repoulser</orig><reg>repousser</reg></choice> telles difficultés par meilleures considérations; c'est que nous préférions à <choice><orig>nostre</orig><reg>notre</reg></choice> <choice><orig>païs</orig><reg>pays</reg></choice> toute région où Dieu est purement adoré; que nous ne désirions meilleur repos de <choice><orig>nostre</orig><reg>notre</reg></choice> vieillesse, que d'habiter en son Eglise où il repose et <choice><orig>faict</orig><reg>fait</reg></choice> sa résidence; que nous <choice><orig>aymions</orig><reg>aimions</reg></choice> <choice><orig>mieulx</orig><reg>mieux</reg></choice> d'<choice><orig>estre</orig><reg>être</reg></choice> contemptibles en lieu où son nom soit glorifié par nous, que d'<choice><orig>estre</orig><reg>être</reg></choice> honorables devant les hommes, en le fraudant de l'honneur qui <choice><orig>luy</orig><reg>lui</reg></choice> appartient.</p>
+
+<p>Touchant les <choice><orig>doubtes</orig><reg>doutes</reg></choice> qui vous <choice><orig>peulvent</orig><reg>peuvent</reg></choice> venir en l'esprit, il <choice><orig>seroit</orig><reg>serait</reg></choice> trop long de <choice><orig>respondre</orig><reg>répondre</reg></choice> à tous. Mais que vous <choice><orig>aiez</orig><reg>ayez</reg></choice> <choice><orig>tousjours</orig><reg>toujours</reg></choice> ce point résolu, qu'il nous <choice><orig>fault</orig><reg>faut</reg></choice> <choice><orig>remectre</orig><reg>remettre</reg></choice> beaucoup de <choice><orig>solicitudes</orig><reg>sollicitudes</reg></choice> à la Providence de Dieu, espérant qu'il <choice><orig>proverra</orig><reg>pourvoira</reg></choice> aux choses où il ne nous <choice><orig>apparoit</orig><reg>apparait</reg></choice> nulle issue. Et de <choice><orig>faict</orig><reg>fait</reg></choice>, il n'y a que <choice><orig>doubter</orig><reg>douter</reg></choice> que si nous le cherchons, nous le trouverons. C'est-à-dire qu'il sera avec nous pour guider nos pas, et avoir le <choice><orig>soing</orig><reg>soin</reg></choice> de nos affaires, pour y donner bon ordre. <choice><orig>Vray</orig><reg>Vrai</reg></choice> est que nous ne laisserons pas d'<choice><orig>estre</orig><reg>être</reg></choice> <choice><orig>subjects</orig><reg>sujets</reg></choice> à plusieurs <choice><orig>fascheries</orig><reg>fâcheries</reg></choice> et <choice><orig>moleste</orig><reg>désagrément</reg></choice>s; mais prions-le qu'<choice><orig>estant</orig><reg>étant</reg></choice> fortifiés par sa parole, nous ayons de <choice><orig>quoy</orig><reg>quoi</reg></choice> les surmonter. Et <choice><orig>toutefoys</orig><reg>toutefois</reg></choice> vous avez beaucoup d'<choice><orig>aydes</orig><reg>aides</reg></choice> qui vous <choice><orig>ostent</orig><reg>ôtent</reg></choice> l'excuse qu'ont plusieurs <choice><orig>aultres</orig><reg>autres</reg></choice>. Quand il plaira à Dieu vous conduire, vous ne viendrez pas si <choice><orig>desnuée</orig><reg>dénuée</reg></choice> de bien, qu'il n'y ait pour vous sustenter, au lieu que beaucoup de <choice><orig>paoures</orig><reg>pauvres</reg></choice> gens n'ont que charge sans provision. Combien y <choice><orig>a-il</orig><reg>a-t-il</reg></choice> de femmes <choice><orig>chrestien</orig><reg>chrétien</reg></choice>nes qui sont tenues comme <choice><orig>captisves</orig><reg>captives</reg></choice> par leurs enfants? Or <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur vous a <choice><orig>faict</orig><reg>fait</reg></choice> <choice><orig>cest</orig><reg>cet</reg></choice> <choice><orig>advantaige</orig><reg>avantage</reg></choice>, que vous <choice><orig>aiez</orig><reg>ayez</reg></choice> des enfants qui <choice><orig>non-seulement</orig><reg>non seulement</reg></choice> se présentent à vous <choice><orig>délivréz</orig><reg>délivrer</reg></choice> de captivité, mais <choice><orig>aussy</orig><reg>aussi</reg></choice> vous y exhortent. Vous avez la liberté que plusieurs <choice><orig>souhaittent</orig><reg>souhaitent</reg></choice>, de laquelle vous devez user, pour vous employer tant plus franchement au service de Dieu. Entre les <choice><orig>aultres</orig><reg>autres</reg></choice> <choice><orig>empesche</orig><reg>empêche</reg></choice>ments qu'il semble que vous <choice><orig>aiez</orig><reg>ayez</reg></choice>, il y <choice><orig>auroit</orig><reg>aurait</reg></choice> <choice><orig>vostre</orig><reg>votre</reg></choice> fille pour ce qu'elle est à marier. Mais tant s'en <choice><orig>fault</orig><reg>faut</reg></choice> que je la compte pour <choice><orig>empesche</orig><reg>empêche</reg></choice>ment, qu'elle vous <choice><orig>doibt</orig><reg>doit</reg></choice> <choice><orig>plus tost</orig><reg>plutôt</reg></choice> servir d'<choice><orig>esperon</orig><reg>éperon</reg></choice> pour vous inciter <choice><orig>d'advantaige</orig><reg>davantage</reg></choice>. J'<choice><orig>entens</orig><reg>entends</reg></choice> que vous l'aimez non pas seulement de l'amour commun qu'ont les mères, mais d'une affection singulière. Or je vous <choice><orig>prye</orig><reg>prie</reg></choice> de bien considérer lequel <choice><orig>luy</orig><reg>lui</reg></choice> <choice><orig>vauldra</orig><reg>vaudra</reg></choice> <choice><orig>mieulx</orig><reg>mieux</reg></choice> d'<choice><orig>estre</orig><reg>être</reg></choice> là <choice><orig>lyé</orig><reg>lié</reg></choice>e en <choice><orig>mariaige</orig><reg>mariage</reg></choice> pour demeurer en servitude perpétuelle, ou d'<choice><orig>estre</orig><reg>être</reg></choice> par vous <choice><orig>conduict</orig><reg>conduit</reg></choice>e en lieu où il <choice><orig>luy</orig><reg>lui</reg></choice> soit libre de vivre <choice><orig>chrestiennement</orig><reg>chrétiennement</reg></choice> avec son <choice><orig>mary</orig><reg>mari</reg></choice>. Car il vous <choice><orig>fault</orig><reg>faut</reg></choice> avoir <choice><orig>ceste</orig><reg>cette</reg></choice> espérance que Dieu <choice><orig>luy</orig><reg>lui</reg></choice> adressera <choice><orig>party</orig><reg>parti</reg></choice> <choice><orig>honneste</orig><reg>honnête</reg></choice>, qui vous sera en consolation comme à elle<note n="1" place="bottom"><p>Catherine de Budé épousa, en 1550, Guillaume de Trie, seigneur de Varennes, gentilhomme du Lyonnais, réfugié à Genève pour cause de religion.</p></note>. Il y a une chose dont il est bon que vous <choice><orig>soiez</orig><reg>soyez</reg></choice> advertie <choice><orig>affin</orig><reg>afin</reg></choice> que rien ne vous <choice><orig>esmeuve</orig><reg>émeuve</reg></choice> comme nouveau et non <choice><orig>préveu</orig><reg>prévu</reg></choice>. C'est que <choice><orig>Sathan</orig><reg>Satan</reg></choice> vous suscitera beaucoup de troubles pour renverser ou retarder <choice><orig>vostre</orig><reg>votre</reg></choice> <choice><orig>saincte</orig><reg>sainte</reg></choice> entreprise. Mais quand vous aurez <choice><orig>prins</orig><reg>pris</reg></choice> <choice><orig>vostre</orig><reg>votre</reg></choice> conclusion <choice><orig>arresté</orig><reg>arrêté</reg></choice>e, il ne vous sera pas difficile de surmonter tout. Cependant usez de l'opportunité, ce pendant qu'elle vous est offerte. Car comme en une chose <choice><orig>saincte</orig><reg>sainte</reg></choice>, il nous convient <choice><orig>conclurre</orig><reg>conclure</reg></choice> en <choice><orig>brief</orig><reg>bref</reg></choice>, sans conseiller <choice><orig>ne</orig><reg>ni</reg></choice> varier longtemps, <choice><orig>aussy</orig><reg>aussi</reg></choice> est-il nécessaire d'exécuter <choice><orig>tantost</orig><reg>tantôt</reg></choice> ce que nous aurons <choice><orig>conclud</orig><reg>conclu</reg></choice>, craignant, selon la fragilité qui est en nous, de nous refroidir de <choice><orig>nostre</orig><reg>notre</reg></choice> bon propos.</p>
+
+<p>Pour faire fin, <choice><orig>sçachant</orig><reg>sachant</reg></choice> que toutes exhortations <choice><orig>seroient</orig><reg>seraient</reg></choice> vaines et inutiles de <choice><orig>moy</orig><reg>moi</reg></choice>, sinon que Dieu leur <choice><orig>donnat</orig><reg>donnât</reg></choice> vertu, les faisant entrer en votre cœur, je le <choice><orig>supplieray</orig><reg>supplierai</reg></choice> de vous instruire de <choice><orig>vraye</orig><reg>vraie</reg></choice> prudence pour juger ce qui vous sera expédient de faire, de vous donner constance ferme pour <choice><orig>obéyr</orig><reg>obéir</reg></choice> à sa volonté de vous tendre la main et se montrer <choice><orig>vostre</orig><reg>votre</reg></choice> conducteur, de vous faire <choice><orig>ceste</orig><reg>cette</reg></choice> grâce qu'en vous reposant sur <choice><orig>luy</orig><reg>lui</reg></choice> vous sentiez en tout et partout son assistance.</p>
+ <closer>
+      <dateline>Ce <placeName></placeName> <date when="1546">20 ** 1546</date><note n="2" place="bottom"><p>Au dos, d'une main étrangère : De 46. Je pense que ceste lettre soit à Mme Budé.</p></note>.
+      </dateline> 
+      <salute><choice><orig>Vostre</orig><reg>Votre</reg></choice> serviteur et humble frère,</salute>
+      <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES d'ESPEVILLE</persName></signed>
+      </closer>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,73 @@
+Liste des manuscrits (échantillon) pour l'entraînement des modèles HTR pour la correspondance française de Calvin
+
+Louis du Tilletz - Copies : Gallica 
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f36.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f37.item
+https://gallica.bnf.fr/ark:/12148/btv1b90076313/f38.item
+
+Version imprimée :
+https://gallica.bnf.fr/ark:/12148/btv1b90076313/f3.item
+https://gallica.bnf.fr/ark:/12148/btv1b90076313/f4.item
+https://gallica.bnf.fr/ark:/12148/btv1b90076313/f5.item
+
+C'est ne pas l'écriture de CALVIN - Lettre aux Seigneurs de Genève _ 1541-02-19
+
+https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fcorrespondance_ecclesiastiqueead%252Fms_fr_401%252Fms_fr_00401_f017_01.jpg
+https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fcorrespondance_ecclesiastiqueead%252Fms_fr_401%252Fms_fr_00401_f017_02.jpg
+https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fcorrespondance_ecclesiastiqueead%252Fms_fr_401%252Fms_fr_00401_f017_03.jpg
+
+
+
+https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f046r.jpg
+https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f046v.jpg
+https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f047r.jpg
+https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f047v.jpg
+
+Version imprimée :
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f71.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f72.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f73.item
+
+
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f389.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f390.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f391.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f392.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f393.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f394.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f395.item
+
+______
+
+Écriture de Calvin : 
+ 
+ https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f157r.jpg
+ https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f157v.jpg
+ https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f158r.jpg
+
+https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f003r.jpg
+ https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f003v.jpg
+
+https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_196%252Fms_fr_00196_f079r.jpg
+https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_196%252Fms_fr_00196_f079v.jpg
+https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_196%252Fms_fr_00196_f080r.jpg
+
+
+Version imprimée :
+
+ https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f74.item
+ https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f75.item
+ https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f76.item
+
+  https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f133.item
+ https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f134.item
+ https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f135.item
+
+ https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f78.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f79.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f80.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f81.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f82.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f83.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f84.item
+https://gallica.bnf.fr/ark:/12148/bpt6k209248w/f85.item

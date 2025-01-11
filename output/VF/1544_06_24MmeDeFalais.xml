@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="MmeFallais06-44">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Lettre à Madame de Fallais</title>
+<editor role="Modernisation et encodage">Yanet Hernández Pedraza</editor>
+<editor role="Relecture">Rudy Chaulet (ISTA - Université de Franche-Comté)</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+<availability status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+3.0 Unported License</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+  <bibl>
+     <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
+<author>
+        <name>
+           <forename>Jean</forename>
+           <surname>Calvin</surname>
+        </name>
+        <date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+</author>, éd.
+<editor>
+        <name>
+           <forename>Jules</forename>
+           <surname>Bonnet</surname>
+        </name>
+     </editor>,
+<pubPlace>Paris</pubPlace>,
+<publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+<date when="1854">1854</date>.
+<affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+<facsimile corresp="144-146">
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f144/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f145/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f146/info.json"/>
+</facsimile>
+  </bibl>
+<msDesc>
+<msIdentifier>
+  <settlement>Genève</settlement>
+  <repository>Bibliothèque de Genève</repository>
+  <idno type="cote">Ms. fr. 194 (f. 9r)</idno>
+</msIdentifier>
+<facsimile>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f009r.jpg"/>
+</facsimile>
+</msDesc>
+  <notesStmt>
+     <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 
+      sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+  </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Jean Calvin
+  <addName type="pseudonym">Charles d'Espeville</addName> <!--si signée sous pseudonyme, enlever sinon-->
+  </persName>
+  <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
+  <date when="1544-06-24">24 juin (1544)</date>
+ </correspAction>
+ <correspAction type="received">
+  <name type="individu" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">À Madame de Fallais</name>
+  <settlement cert="low" key="Cologne" ref="https://www.wikidata.org/wiki/Q365" corresp="#Cologne">Cologne</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Encouragement à Madame de Fallais dans sa nouvelle vie en liberté de conscience et de culte, après avoir suivi son mari à Cologne et à Strasbourg.</desc>
+ <list xml:id="tags">
+ <term>exil</term>
+ <term>encouragement</term>
+ </list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>À <persName type="individu" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Madame de Fallais</persName></addrLine>
+</address>
+<dateline xml:id="opener"><placeName></placeName><date when="1544-06-24">24 juin (1544)</date>
+</dateline>
+<hi rend="bold"><label type='nature'>Orig. autographe</label>. Bibl. de Genève. Vol. 145.</hi>
+<hi xml:id="editorNote">
+[Maintenant sous la cote Ms. fr. 145 (f. 9r)]</hi>
+<salute><choice><orig>Madamoiselle</orig><reg>Mademoiselle</reg></choice> et bien <choice><orig>aymée</orig><reg>aimée</reg></choice> <choice><orig>seur</orig><reg>sœur</reg></choice>,</salute>
+</opener>
+<p><choice><orig>combien</orig><reg>bien</reg></choice> que j'<choice><orig>aurois</orig><reg>aurais</reg></choice> un désir singulier de vous voir, et qu'il me <choice><orig>face</orig><reg>fasse</reg></choice> bien mal d'<choice><orig>estre</orig><reg>être</reg></choice> frustré de l'espérance que j'en <choice><orig>avoye</orig><reg>avais</reg></choice> <choice><orig>conceu</orig><reg>conçu</reg></choice>, toutefois je <choice><orig>rens</orig><reg>rends</reg></choice> grâces à <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur de l'ouverture qu'il vous a faite, que sans vous <choice><orig>eslongner</orig><reg>éloigner</reg></choice> des <choice><orig>vostres</orig><reg>votres</reg></choice>, il vous est permis de l'adorer en pure conscience, et hors des pollutions de l'idolâtrie en laquelle vous avez <choice><orig>esté</orig><reg>été</reg></choice> captive.</p>
+
+<p>Il y a l'<choice><orig>aultre</orig><reg>autre</reg></choice> bénédiction que vous pourrez dresser forme d'Eglise pour l'<choice><orig>invocquer</orig><reg>invoquer</reg></choice> en assemblée <choice><orig>chrestienne</orig><reg>chrétienne</reg></choice>; <choice><orig>estre</orig><reg>être</reg></choice> consolée par sa parole, et recevoir la sainte Cène pour <choice><orig>gaige</orig><reg>gage</reg></choice> de sa bonté, faisant aussi par <choice><orig>icelle</orig><reg>celle-ci</reg></choice> protestation de <choice><orig>vostre</orig><reg>votre</reg></choice> <choice><orig>foy</orig><reg>foi</reg></choice>. D'<choice><orig>aultant</orig><reg>autant</reg></choice> que vous aviez moins attendu une telle faculté, vous avez occasion de vous en <choice><orig>resjouir</orig><reg>réjouir</reg></choice>, <choice><orig>quant</orig><reg>quand</reg></choice> elle vous est donnée</p> 
+
+<p>J'espère que l'homme que nous vous <choice><orig>envoions</orig><reg>envoyons</reg></choice>, le seigneur <persName type="forename" key="David">David</persName> et <choice><orig>moy</orig><reg>moi</reg></choice>, sera selon <choice><orig>vostre</orig><reg>votre</reg></choice> <choice><orig>cueur</orig><reg>cœur</reg></choice>, car tant en doctrine qu'en <choice><orig>meurs</orig><reg>mœurs</reg></choice> il a une <choice><orig>vraye</orig><reg>vraie</reg></choice> simplicité <choice><orig>chrestienne</orig><reg>chrétienne</reg></choice>.</p>
+
+<p>Au reste, cependant, le désir me demeurera de jouir quelquefois de <choice><orig>vostre</orig><reg>votre</reg></choice> présence, et n'en <choice><orig>perderay</orig><reg>perderai</reg></choice> point l'espoir. Mais il y a ce bien qu'<choice><orig>estans</orig><reg>étant</reg></choice> <choice><orig>absens</orig><reg>absents</reg></choice> les uns des <choice><orig>aultres</orig><reg>autres</reg></choice>, nous ne laisserons point de nous entrevoir en <choice><orig>esperit</orig><reg>esprit</reg></choice>, <choice><orig>estans</orig><reg>étant</reg></choice> unis en <choice><orig>celluy</orig><reg>celui</reg></choice> qui <choice><orig>conjoinct</orig><reg>conjoint</reg></choice> les choses <choice><orig>eslongné</orig><reg>éloigné</reg></choice>es. <choice><orig>Pource</orig><reg>Parce</reg></choice> que le porteur servira de lettres en partie, je ne vous <choice><orig>fascheray</orig><reg>fâcherai</reg></choice> de plus longs propos, et ainsi, mademoiselle et très <choice><orig>aymée</orig><reg>aimée</reg></choice> <choice><orig>seur</orig><reg>sœur</reg></choice>, après m'<choice><orig>estre</orig><reg>être</reg></choice> humblement recommandé à <choice><orig>vostre</orig><reg>votre</reg></choice> bonne souvenance en vos prières, je <choice><orig>supplye</orig><reg>supplie</reg></choice> le Père de toute miséricorde d'<choice><orig>eslargir</orig><reg>élargir</reg></choice> de plus en plus sa main pour vous <choice><orig>despartir</orig><reg>départir</reg></choice> de ses grâces, faisant que vous continuiez d'<choice><orig>estre</orig><reg>être</reg></choice> un instrument <choice><orig>esleu</orig><reg>élu</reg></choice> de sa gloire <choice><orig>jusque en</orig><reg>jusqu'à</reg></choice> la fin.</p> 
+
+<p>Je ne sais pas la <choice><orig>compaignie</orig><reg>compagnie</reg></choice> qui est présentement avec vous, mais si ceux que le seigneur <persName type="forename" key="David">David</persName> y laissa avec <choice><orig>celluy</orig><reg>celui</reg></choice> qu'on <choice><orig>attendoit</orig><reg>attendait</reg></choice> y <choice><orig>estoient</orig><reg>étaient</reg></choice>, je <choice><orig>souhaiste</orig><reg>souhaite</reg></choice> d'<choice><orig>estre</orig><reg>être</reg></choice> recommandé à leur bonne grâce, <choice><orig>aultant</orig><reg>autant</reg></choice> affectueusement qu'il est possible. Non pas que je vous vueille donner <choice><orig>ceste</orig><reg>cette</reg></choice> <choice><orig>poine</orig><reg>peine</reg></choice>, mais eux-<choice><orig>mesme</orig><reg>même</reg></choice>s pourront bien recevoir les recommandations que je désire leur <choice><orig>estre</orig><reg>être</reg></choice> présentées. <choice><orig>De rechef</orig><reg>Derechef</reg></choice> je prie <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur de vous guider <choice><orig>tousjours</orig><reg>toujours</reg></choice>, comme il a <choice><orig>faict</orig><reg>fait</reg></choice> <choice><orig>jusque icy</orig><reg>jusqu'ici</reg></choice>.</p>
+
+ <closer>
+      <dateline>Le <placeName></placeName><date when="1544-06-24">24 de juin (1544)</date>.
+      </dateline> 
+      <salute><choice><orig>Vostre</orig><reg>Votre</reg></choice> serviteur et humble frère à jamais,</salute>
+      <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES d'ESPEVILLE</persName>.</signed>
+      </closer>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,162 @@
+[
+       {
+              "name": "Bienne",
+              "desc": "ville et commune du canton de Berne en Suisse",
+              "url": "http://www.wikidata.org/entity/Q1034",
+              "coord": {
+                     "lat": "47.137222222",
+                     "lon": "7.247222222"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/CH%20Biel%20Altstadt-7.JPG"
+       },
+       {
+              "name": "Ferrare",
+              "desc": "commune italienne",
+              "url": "http://www.wikidata.org/entity/Q13362",
+              "coord": {
+                     "lat": "44.835297",
+                     "lon": "11.619865"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Castello%20esterno.jpg"
+       },
+       {
+              "name": "Worms",
+              "desc": "ville d'Allemagne",
+              "url": "http://www.wikidata.org/entity/Q3852",
+              "coord": {
+                     "lat": "49.631944444",
+                     "lon": "8.365277777"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Wormser%20T%C3%BCrme.JPG"
+       },
+       {
+              "name": "Italie",
+              "desc": "pays d'Europe du Sud",
+              "url": "http://www.wikidata.org/entity/Q38",
+              "coord": {
+                     "lat": "42.5",
+                     "lon": "12.5"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Colosseo%202020.jpg"
+       },
+       {
+              "name": "Strasbourg",
+              "desc": "ville et commune française (préfecture du Bas-Rhin, chef-lieu de la collectivité européenne d'Alsace et de la région Grand-Est)",
+              "url": "http://www.wikidata.org/entity/Q6602",
+              "coord": {
+                     "lat": "48.573333333",
+                     "lon": "7.752222222"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Strasburg.jpg"
+       },
+       {
+              "name": "Neuchâtel",
+              "desc": "ville de Suisse et chef-lieu du canton de Neuchâtel",
+              "url": "http://www.wikidata.org/entity/Q69345",
+              "coord": {
+                     "lat": "46.990277777",
+                     "lon": "6.930555555"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Vuevilledeneuchatel.jpg"
+       },
+       {
+              "name": "Fallais",
+              "desc": "section de Braives, Belgique",
+              "url": "http://www.wikidata.org/entity/Q1575050",
+              "coord": {
+                     "lat": "50.6111",
+                     "lon": "5.1711"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/FallaisVillage.JPG"
+       },
+       {
+              "name": "Veigy-Foncenex",
+              "desc": "commune française du département de la Haute-Savoie",
+              "url": "http://www.wikidata.org/entity/Q774121",
+              "coord": {
+                     "lat": "46.271944444",
+                     "lon": "6.258888888"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/OGolfpractice.jpg"
+       },
+       {
+              "name": "Genève",
+              "desc": "ville de Suisse et chef-lieu du canton de Genève",
+              "url": "http://www.wikidata.org/entity/Q71",
+              "coord": {
+                     "lat": "46.2",
+                     "lon": "6.15"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Geneva%20from%20Mount%20Sal%C3%A8ve.jpg"
+       },
+       {
+              "name": "Berne",
+              "desc": "capitale fédérale de la Suisse et chef-lieu du canton de Berne",
+              "url": "http://www.wikidata.org/entity/Q70",
+              "coord": {
+                     "lat": "46.94798",
+                     "lon": "7.44743"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bern%20luftaufnahme.png"
+       },
+       {
+              "name": "Zurich",
+              "desc": "ville de la Suisse et chef-lieu du canton de Zurich",
+              "url": "http://www.wikidata.org/entity/Q72",
+              "coord": {
+                     "lat": "47.374444444",
+                     "lon": "8.541111111"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Zuerich%20Fraumuenster%20St%20Peter.jpg"
+       },
+       {
+              "name": "Paris",
+              "desc": "capitale de la France",
+              "url": "http://www.wikidata.org/entity/Q90",
+              "coord": {
+                     "lat": "48.856666666",
+                     "lon": "2.352222222"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Paris%20-%20Eiffelturm%20und%20Marsfeld2.jpg"
+       },
+       {
+              "name": "Angoulême",
+              "desc": "commune française du département de la Charente (chef-lieu)",
+              "url": "http://www.wikidata.org/entity/Q134346",
+              "coord": {
+                     "lat": "45.649444444",
+                     "lon": "0.159444444"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Angouleme.jpg"
+       },
+       {
+              "name": "Londres",
+              "desc": "capitale de l'Angleterre et du Royaume-Uni",
+              "url": "http://www.wikidata.org/entity/Q84",
+              "coord": {
+                     "lat": "51.507222222",
+                     "lon": "-0.1275"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20Tower%20Bridge%2022.jpg"
+       },
+       {
+              "name": "Bâle",
+              "desc": "ville de Suisse et chef-lieu du canton de Bâle-Ville",
+              "url": "http://www.wikidata.org/entity/Q78",
+              "coord": {
+                     "lat": "47.560555555",
+                     "lon": "7.590555555"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Rhine%20Rhein%20Basel%202006%20871.JPG"
+       },
+       {
+              "name": "Cologne",
+              "desc": "quatrième ville d'Allemagne par sa population",
+              "url": "http://www.wikidata.org/entity/Q365",
+              "coord": {
+                     "lat": "50.942222222",
+                     "lon": "6.957777777"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stadtbild%20K%C3%B6ln%20%2850MP%29.jpg"
+       }
+]

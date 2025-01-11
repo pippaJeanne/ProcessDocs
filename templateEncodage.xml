@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="M-Falais14_10_43">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Lettre à Monsieur de Falais</title>
+<editor role="Modernisation et encodage">Yanet Hernández Pedraza (Doctorante en littérature option humanités numériques - UdeM)</editor>
+<editor role="#"></editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+<availability status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed under a Creative Commons Attribution-ShareAlike
+3.0 Unported License</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+  <bibl>
+     <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
+<author>
+        <name>
+           <forename>Jean</forename>
+           <surname>Calvin</surname>
+        </name>
+        <date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+</author>, éd.
+<editor>
+        <name>
+           <forename>Jules</forename>
+           <surname>Bonnet</surname>
+        </name>
+     </editor>,
+     <pubPlace>Paris</pubPlace>,
+<publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+<date when="1854">1854</date>.
+<affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+<facsimile xml:id="43-46"> <!--  changer-->               <!--  changer-->
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f43/info.json"/>
+
+</facsimile>
+  </bibl>
+<msDesc>
+<msIdentifier>
+    <settlement>Genève</settlement>
+    <repository>Bibliothèque de Genève</repository>
+    <idno type="cote">Ms.  (f. )</idno>
+</msIdentifier>
+<facsimile>
+<graphic url="#"/>
+<graphic url="#"/>
+</facsimile>
+</msDesc>
+  <notesStmt>
+     <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 
+      sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+  </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Jean Calvin
+    <!-- seulement au cas échéant-->
+  <addName type="pseudonym">Charles d'Espeville</addName>
+</persName>
+  <settlement key="#" ref="#" corresp="#"></settlement>
+  <date when="1500-00-00"></date>
+ </correspAction>
+ <correspAction type="received">
+  <name type="individu|collectivité" key="#" ref="#" corresp="#"></name>
+  <settlement cert="low" key="#" ref="#" corresp="#"></settlement>
+ </correspAction>
+ <correspContext>
+               <ref type="prev" target="#">
+                  <persName/>
+                  <date from="1500" to="1600"/>
+               </ref>
+               <ref type="next" target="#">
+                  <persName/>
+                  <date/>
+               </ref>
+ </correspContext>
+ </correspDesc>
+ <desc></desc>
+ <list xml:id="tags">
+ <term></term>
+ <term></term>
+ <term></term>
+ <term></term>
+ </list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+    <opener>
+        <address><addrLine>  <persName type="individu|collectivité" key="#" ref="#" corresp="#"></persName>
+        <note n="*" place="bottom"><p></p></note>
+        </addrLine>
+        </address>
+        <dateline xml:id="opener"><placeName key="#" ref="#" corresp="#"></placeName><date when="1500-00-00"></date>
+        </dateline>
+        <hi rend="bold"><label type='nature'> </label>.
+        [Maintenant sous la cote ]</hi>
+        <salute> ,</salute>
+    </opener>
+    <p></p>
+<!--[Note éditoriale] only if that is the case | if there's a @source write it like this [Note éditoriale, @source : texte (url)]-->
+    <p><note n="#" place="bottom"><p>texte. [Note éditoriale]</p></note></p>
+
+    <p> <hi rend="italic">citation ou titre d'ouvrage</hi> 
+        <hi xml:id="latinq" rend="italic">passage ou citation en latin</hi><note n="#" xml:id="tradLat" place="bottom"><p>Traduction
+
+         <hi xml:id="latinq" rend="italic">passage ou citation en latin</hi>
+         <hi xml:id="trad">passage ou citation en latin</hi>
+        </p></note>
+    </p>
+<!-- For persName: add @corresp for addressees and people mentioned in the letters which are listed in the Index of names | if the person is mentioned in the notes and has some kind of uri then a @ref attribute is added and the transformation will add that link instead of the link to the Index of Names-->
+    <p></p>
+ <closer>
+    <dateline><placeName key="#" ref="#" corresp="#"></placeName>
+     <date when="1500-00-00"></date>
+    </dateline> 
+    <salute></salute>
+    <signed>
+      <persName key="#" ref="#" type="pseudonym|forename|surname|fullname" corresp="#"></persName>.
+    </signed>
+  </closer>
+  </body>
+ </text>
+</TEI>

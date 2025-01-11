@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="convertiJuin48">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Lettre à un nouveau converti</title>
+<editor role="Modernisation et encodage">Yanet Hernández Pedraza</editor>
+<editor role="Relecture">Rudy Chaulet (ISTA - Université de Franche-Comté)</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+  <availability status="free">
+    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+         3.0 Unported License</licence>
+  </availability>
+</publicationStmt>
+<sourceDesc>
+ <bibl>
+  <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
+  <author><name>
+    <forename>Jean</forename>
+    <surname>Calvin</surname>
+   </name><date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+   </author>, éd.
+  <editor>
+   <name>
+    <forename>Jules</forename>
+    <surname>Bonnet</surname>
+   </name>
+  </editor>,
+ <pubPlace>Paris</pubPlace>,
+ <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+ <date when="1854">1854</date>.
+ <affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+ <facsimile corresp='287-289'>
+ <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f287/info.json"/>
+ <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f288/info.json"/>
+ <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f289/info.json"/>
+</facsimile>
+ </bibl>
+ <msDesc>
+   <msIdentifier>
+  <settlement>Genève</settlement>
+  <repository>Bibliothèque de Genève</repository>
+  <idno type="cote">Ms. lat. 107a, volume 2 (f.347)]</idno>
+ </msIdentifier>
+ <facsimile>
+ <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f357r.jpg"/>
+</facsimile>
+   </msDesc>
+ <notesStmt>
+          <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 
+            sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+ </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Jean Calvin
+  </persName>
+  <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
+  <date when="1548-06-13">13 juin [1548]</date>
+ </correspAction>
+ <correspAction type="received">
+  <name type="individu" ref="#">À un nouveau converti</name>
+  <settlement cert="low" key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Genève]</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Réponse à une question sur la messe et encouragement dans la foi.</desc>
+<list xml:id="tags">
+<term>encouragement</term>
+<term>messe</term>
+</list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>À un <persName type="individu">nouveau converti</persName><note n="*" place="bottom"><p>Lettre sans indication de personne et d'année.</p></note></addrLine>
+</address>
+<dateline xml:id="opener"><placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</placeName> <date when="1548-06-13">13 juin [1548]</date>
+</dateline>
+<hi rend="bold"><label type='nature'>Minute originale</label>. Bibl. de Genève. Vol. 107 a.</hi>
+<hi xml:id="editorNote">
+[Maintenant sous la cote Ms. lat. 107a, volume 2 (f. 347)]</hi>
+<hi>La dilection de Dieu <choice><orig>nostre</orig><reg>notre</reg></choice> <choice><orig>Pere</orig><reg>Père</reg></choice> et la grâce de <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur Jésus-Christ soit et demeure <choice><orig>tousjours</orig><reg>toujours</reg></choice> sur vous par la communication de son Esprit.</hi>
+<salute>Très cher frère,</salute>
+</opener>
+<p>je loue <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur de ce qu'il vous a <choice><orig>réduyt</orig><reg>réduit</reg></choice> à la pure et simple <choice><orig>cognoissance</orig><reg>connaissance</reg></choice> de sa vérité, vous délivrant des erreurs où il permet les siens <choice><orig>mesmes</orig><reg>même</reg></choice> tomber quelquefois, afin de les humilier. Maintenant <choice><orig>advisez</orig><reg>avisez</reg></choice> de cheminer en <choice><orig>ceste</orig><reg>cette</reg></choice> simplicité de la <choice><orig>Foy</orig><reg>Foi</reg></choice>, <choice><orig>affin</orig><reg>afin</reg></choice> que Dieu vous y conforme de plus en plus, et qu'<choice><orig>estant</orig><reg>étant</reg></choice> uni en ce monde avec <choice><orig>nostre</orig><reg>notre</reg></choice> chef Jésus-Christ, et <choice><orig>estant</orig><reg>étant</reg></choice> membre de son corps, comme il a pris <choice><orig>nostre</orig><reg>notre</reg></choice> chair, <choice><orig>affin</orig><reg>afin</reg></choice> d'<choice><orig>avoyr</orig><reg>avoir</reg></choice> <choice><orig>plaine</orig><reg>pleine</reg></choice> fraternité avec nous, et vivant en l'obéissance de son Evangile qui nous enseigne de chercher en <choice><orig>luy</orig><reg>lui</reg></choice> tout <choice><orig>nostre</orig><reg>notre</reg></choice> salut, vous parveniez à la vie qui est promise aux <choice><orig>fidelle</orig><reg>fidèle</reg></choice>s, en attendant qu'il nous resuscite tous ensemble à sa gloire comme il nous <choice><orig>fault</orig><reg>faut</reg></choice> avoir espérance que cependant que nos corps dorment en terre, que nos âmes vivent avec <choice><orig>luy</orig><reg>lui</reg></choice>.</p>
+
+<p>Au reste quant à la question que vous me demandez, <choice><orig>assavoir</orig><reg>à savoir</reg></choice> s'il n'est point licite à <choice><orig>ung</orig><reg>un</reg></choice> homme <choice><orig>chrestien</orig><reg>chrétien</reg></choice> de communiquer à la Cène de Jésus-Christ qui se <choice><orig>faict</orig><reg>fait</reg></choice> au lieu où vous <choice><orig>estes</orig><reg>êtes</reg></choice>, la <choice><orig>responce</orig><reg>réponse</reg></choice> <choice><orig>seroit</orig><reg>serait</reg></choice> facile que <choice><orig>ouy</orig><reg>oui</reg></choice>, moyennant qu'il y <choice><orig>eust</orig><reg>eût</reg></choice> Cène de Jésus-Christ. Mais <choice><orig>quant</orig><reg>quand</reg></choice> vous aurez bien tout regardé, il n'y a nulle conformité <choice><orig>ny</orig><reg>ni</reg></choice> similitude entre la Cène et la messe <choice><orig>papalle</orig><reg>papale</reg></choice>, non plus qu'entre le feu et l'eau. Il est <choice><orig>vray</orig><reg>vrai</reg></choice> que les ordonnances de Dieu ne peuvent <choice><orig>estre</orig><reg>être</reg></choice> empirées par la malice <choice><orig>ny</orig><reg>ni</reg></choice> ignorance des hommes. Mais je vous <choice><orig>nye</orig><reg>nie</reg></choice> que Jésus-Christ ait institué la messe, mais <choice><orig>plustôt</orig><reg>plutôt</reg></choice> comme en dépit de <choice><orig>luy</orig><reg>lui</reg></choice> elle a <choice><orig>esté</orig><reg>été</reg></choice> forgée de <choice><orig>Sathan</orig><reg>Satan</reg></choice>, <choice><orig>affin</orig><reg>afin</reg></choice> de destruire la <choice><orig>sainct</orig><reg>saint</reg></choice>e Cène, car c'est une chose toute contraire, <choice><orig>d'aultant</orig><reg>parce</reg></choice> qu'ils en font un sacrifice, attribuant à un acte follement inventé la vertu de la mort et passion de Jésus-Christ. Il y a <choice><orig>d'avantaige</orig><reg>davantage</reg></choice> des <choice><orig>ydolatrie</orig><reg>idolâtrie</reg></choice>s manifestes, <choice><orig>non-seulement</orig><reg>non seulement</reg></choice> en ce que le pain y est adoré mais qu'on y prie pour les <choice><orig>trespassé</orig><reg>trépassé</reg></choice>s, qu'on a son refuge au mérite et intercession des <choice><orig>sainct</orig><reg>saint</reg></choice>s, qu'on y <choice><orig>faict</orig><reg>fait</reg></choice> beaucoup de choses semblables, que Dieu repousse. <choice><orig>Parquoy</orig><reg>C'est pourquoi</reg></choice> il n'est non plus permis aux <choice><orig>fidelle</orig><reg>fidèle</reg></choice>s de communiquer à une telle superstition, qu'il <choice><orig>estoit</orig><reg>était</reg></choice> anciennement de sacrifier en Béthel. Car cela contredit <choice><orig>plaine</orig><reg>pleine</reg></choice>ment à la confession de <choice><orig>foy</orig><reg>foi</reg></choice> que Dieu demande de nous. Mais pour ce que <choice><orig>cest</orig><reg>cet</reg></choice> argument est <choice><orig>desduit</orig><reg>déduit</reg></choice> plus au long, aux livres qui en sont expressément <choice><orig>escrit</orig><reg>écrit</reg></choice>, je vous prie de les lire diligemment, vous recommandant à Dieu, à ce qu'il <choice><orig>luy</orig><reg>lui</reg></choice> plaise vous montrer sa <choice><orig>vollonté</orig><reg>volonté</reg></choice>, et vous ouvrir les yeux pour bien discerner le blanc d'avec le noir, et <choice><orig>allors</orig><reg>alors</reg></choice> je <choice><orig>croy</orig><reg>crois</reg></choice> que vous aurez de <choice><orig>quoy</orig><reg>quoi</reg></choice> contenter <choice><orig>vostre</orig><reg>votre</reg></choice> esprit, ne vous donnant plus licence de faire semblant en façon que ce <choice><orig>soyt</orig><reg>soit</reg></choice> d'approuver l'impiété des <choice><orig>meschans</orig><reg>méchants</reg></choice>. Sur <choice><orig>quoy</orig><reg>quoi</reg></choice> je <choice><orig>prieray</orig><reg>prierai</reg></choice> <choice><orig>nostre</orig><reg>notre</reg></choice> bon Dieu qu'il vous augmente de plus en plus sa grâce, et après qu'il vous aura déclaré ce qui est bon, qu'il vous donne vertu et constance de le <choice><orig>suyvre</orig><reg>suivre</reg></choice> et y adhérer.</p>
+ <closer>
+      <dateline>De <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve"><choice><orig>Genesve</orig><reg>Genève</reg></choice></placeName>, ce <date when="1548-06-13">13 jour de <choice><orig>Juing</orig><reg>juin</reg></choice> (1548?)</date>.
+      </dateline> 
+      <salute><choice><orig>Vostre</orig><reg>Votre</reg></choice> bon frère,</salute>
+      <signed><persName key="Jean Calvin"><choice><orig>JÉHAN</orig><reg>JEAN</reg></choice> CALVIN</persName></signed>
+      </closer>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,355 @@
+{
+       "events": [
+              {
+                     "slug": "1538_01LouisduTillet",
+                     "media": {
+                            "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b90076313/f3.jpeg",
+                            "thumbnail": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b90076313/f3.jpeg"
+                     },
+                     "start_date": {
+                            "year": "1538",
+                            "month": "01",
+                            "day": "31"
+                     },
+                     "display_date": "31 janvier 1538",
+                     "text": {
+                            "headline": "À Louis du Tilletz",
+                            "text": "Réponse de Jean Calvin à Louis de Tilletz après avoir reçu la lettre où Louis de Tilletz lui informaient de sa décision de retourner à la foi catholique."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Strasbourg",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     }
+              },
+              {
+                     "slug": "1538_10_07LuoisDuTillets",
+                     "media": {
+                            "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b90076313/f18.jpeg",
+                            "thumbnail": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b90076313/f18.jpeg"
+                     },
+                     "start_date": {
+                            "year": "1538",
+                            "month": "07",
+                            "day": "10"
+                     },
+                     "display_date": "10 juillet 1538",
+                     "text": {
+                            "headline": "À Louis du Tilletz",
+                            "text": "Lettre de Calvin à Louis du Tilletz où Calvin parle de son exil de Genève et déplacement à Strasbourg."
+                     },
+                     "scr_location": {
+                            "name": "Strasbourg",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     },
+                     "dest_location": {
+                            "name": "Paris",
+                            "lat": "48.856666666",
+                            "lon": "2.352222222"
+                     }
+              },
+              {
+                     "slug": "1541_02_19SeigneursGeneve",
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fcorrespondance_ecclesiastiqueead%252Fms_fr_401%252Fms_fr_00401_f017_01.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fcorrespondance_ecclesiastiqueead%252Fms_fr_401%252Fms_fr_00401_f017_01.jpg"
+                     },
+                     "start_date": {
+                            "year": "1541",
+                            "month": "02",
+                            "day": "19"
+                     },
+                     "display_date": " 19 février 1541",
+                     "text": {
+                            "headline": "Aux Seigneurs de Genève",
+                            "text": "Dans le contexte du colloque de Ratisbonne, qui fut un important débat théologique entre les catholiques et les protestants, Jean Calvin, après avoir été appelé par Guillaume Farel à retourner à Genève, explique les raisons de son arrivée tardive et réaffirme son engagement avec l’église."
+                     },
+                     "scr_location": {
+                            "name": "Strasbourg",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     },
+                     "dest_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     }
+              },
+              {
+                     "slug": "1541_09_29SeigneursNeuchatel",
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f157r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f157r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1541",
+                            "month": "09",
+                            "day": "29"
+                     },
+                     "display_date": " 29 septembre 1541",
+                     "text": {
+                            "headline": "Aux Seigneurs de Neuchâtel",
+                            "text": "Lettre de la part des ministres de Genève, y compris Calvin, adressée à ceux de Nauchâtel afin de les persuader de ne pas déposer Guillaume Farel après avoir censuré publiquement une dame de qualité. Cette lettre a été portée par Pierre Viret et contient des instructions de Calvin pour son intervention devant la seigneurie de Neuchâtel."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Neuchâtel",
+                            "lat": "46.990277777",
+                            "lon": "6.930555555"
+                     }
+              },
+              {
+                     "slug": "1541_10DuchesseFerrare",
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_196%252Fms_fr_00196_f079r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_196%252Fms_fr_00196_f079r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1541",
+                            "month": "10",
+                            "day": "01"
+                     },
+                     "display_date": "[octobre 1541]",
+                     "text": {
+                            "headline": "À la Duchesse de Ferrare",
+                            "text": "Calvin instruit des erreurs de la messe."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Ferrare]",
+                            "lat": "44.835297",
+                            "lon": "11.619865"
+                     }
+              },
+              {
+                     "slug": "1543_10_14MadameDeFalais",
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f003r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f003r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1543",
+                            "month": "10",
+                            "day": "14"
+                     },
+                     "display_date": "14 octobre (1543)",
+                     "text": {
+                            "headline": "À Madame de Fallais",
+                            "text": "Encouragement de Calvin à Madame de Fallais qui partageait les sentiments de son époux."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Fallais]",
+                            "lat": "50.6111",
+                            "lon": "5.1711"
+                     }
+              },
+              {
+                     "slug": "1543_10_14Monsieur-deFalais",
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f001r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f001r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1543",
+                            "month": "10",
+                            "day": "14"
+                     },
+                     "display_date": "14 octobre 1543",
+                     "text": {
+                            "headline": "À Monsieur de Fallais",
+                            "text": "Calvin donne son conseil à Monsieur de Fallais qui délibérait de quitter les Pays-Bas."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Fallais]",
+                            "lat": "50.6111",
+                            "lon": "5.1711"
+                     }
+              },
+              {
+                     "slug": "1544_06_24MmeDeFalais",
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f009r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f009r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1544",
+                            "month": "06",
+                            "day": "24"
+                     },
+                     "display_date": "24 juin (1544)",
+                     "text": {
+                            "headline": "À Madame de Fallais",
+                            "text": "Encouragement à Madame de Fallais dans sa nouvelle vie en liberté de conscience et de culte, après avoir suivi son mari à Cologne et à Strasbourg."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Cologne",
+                            "lat": "50.942222222",
+                            "lon": "6.957777777"
+                     }
+              },
+              {
+                     "slug": "1546MadameDEBude",
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f006r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f006r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1546",
+                            "month": "01",
+                            "day": "20"
+                     },
+                     "display_date": "[20 ** 1546]",
+                     "text": {
+                            "headline": "À Madame de Budé",
+                            "text": "Calvin conseille Madame de Budé de se retirer à Genève."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Paris",
+                            "lat": "48.856666666",
+                            "lon": "2.352222222"
+                     }
+              },
+              {
+                     "slug": "1548_06NouveauConverti",
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f357r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f357r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1548",
+                            "month": "06",
+                            "day": "13"
+                     },
+                     "display_date": "13 juin [1548]",
+                     "text": {
+                            "headline": "À un nouveau converti",
+                            "text": "Réponse à une question sur la messe et encouragement dans la foi."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Genève]",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     }
+              },
+              {
+                     "slug": "1552Monsieur-deFalais",
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f342r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f342r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1552",
+                            "month": "01",
+                            "day": "01"
+                     },
+                     "display_date": "1552",
+                     "text": {
+                            "headline": "À Monsieur de Fallais",
+                            "text": "Dernière lettre de Calvin à M. de Fallais. Rupture de Calvin avec M. de Fallais quand ce dernier prit ouvertement le parti de Jérôme Bolsec contre Calvin."
+                     },
+                     "scr_location": {
+                            "name": "[Genève]",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Veigy-Foncenex]",
+                            "lat": "46.271944444",
+                            "lon": "6.258888888"
+                     }
+              },
+              {
+                     "slug": "1552_10_06SeigeursDeGeneve",
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f046r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f046r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1552",
+                            "month": "10",
+                            "day": "06"
+                     },
+                     "display_date": "6 octobre 1552",
+                     "text": {
+                            "headline": "Aux Seigneurs de Genève",
+                            "text": "Réponse de Calvin aux accusations de Jean Trolliet concernant sa doctrine."
+                     },
+                     "scr_location": {
+                            "name": "[Genève]",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     }
+              },
+              {
+                     "slug": "1553_03_12RoiDAngleterre",
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f035r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f035r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1553",
+                            "month": "03",
+                            "day": "12"
+                     },
+                     "display_date": "12 de mars 1553",
+                     "text": {
+                            "headline": "Au roi d'Angleterre",
+                            "text": "Intercession de Calvin auprès du roi d'Angleterre en faveur d'un gentilhomme persécuté pour la religion."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Londres",
+                            "lat": "51.507222222",
+                            "lon": "-0.1275"
+                     }
+              }
+       ]
+}

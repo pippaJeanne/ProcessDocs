@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" n="testms" xml:id="Tilletz01-38">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Carta a Louis de Tillet</title>
+<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+  <availability status="free">
+    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+         3.0 Unported License</licence>
+  </availability></publicationStmt>
+<sourceDesc corresp="Tilletz01-38">
+ <bibl>
+  Traducción de la versión modernizada de
+  <title level="a" rend="underline">Lettre à Louis du Tillet (31 janvier 1538)</title> editada por 
+ <editor><name>
+    <forename>Yanet</forename>
+    <surname>Hernández Pedraza</surname></name></editor>.
+ </bibl>
+ <notesStmt>
+          <note>Las notas provienen de la edición de Jules Bonnet de 1854 
+          a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+ </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Juan Calvino
+  <addName type="pseudonym">Charles d'Espeville</addName></persName>
+  <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
+  <date when="1538-01-31">31 de enero de 1538</date>
+ </correspAction>
+ <correspAction type="received">
+   <name type='individuo|grupo' key="Louis du Tillet" ref="https://www.wikidata.org/wiki/Q3263586">Louis du Tillet</name>
+  <settlement key="Estrasburgo" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Respuesta de Juan Calvino a Louis du Tillet después de haber recibido la carta donde Louis du Tillet le informaba de su decisión de regresar a la fe católica.</desc>
+<list xml:id="tags">
+<term>fe</term>
+<term>teología</term>
+<term>iglesia</term>
+<term>iglesia reformada</term>
+</list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>A <persName key="Louis du Tillet" ref="https://www.wikidata.org/wiki/Q3263586" corresp="#louis-tilletz">Louis du Tillet</persName><note n="*" place="bottom"><p></p></note></addrLine>
+</address>
+<dateline xml:id="opener"><placeName key="Estrasburgo" corresp="#Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName><date when="1538-01-31"> 31 de enero de 1538</date>
+</dateline>
+
+<hi rend="bold"><label type='nature'>Copia</label>. Biblioteca imperial de París. Mss. français. Baluzc. 8069-r.</hi>
+<hi xml:id="editorNote">
+[Ahora Biblioteca National de Francia (BNF). Gallica. Français 2391]</hi>
+<salute>Señor:</salute>
+</opener>
+  <p> <persName type="forename" key="Jean du Tillet" ref="https://www.wikidata.org/wiki/Q3175826" corresp="#jean_tillet">Jean</persName><note n="1" place="bottom">
+   <p></p></note></p>
+    
+ <p><note n="2" place="bottom"><p><persName key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucero">Bucero</persName> y <persName key="Wolfgang Capito" ref="https://www.wikidata.org/wiki/Q1368362" corresp="#capito">Capito</persName>, reformadores de Estrasburgo</p></note> 
+ </p>
+
+
+<p> </p>
+
+
+      <closer>
+       <dateline>Desde <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Villefranche</placeName><note n="5" place="bottom"><p>ciudad liberada (Ginebra)</p></note><date when="1538-01-31">, este último de enero (1538<note n="6" place="bottom"><p>El año comenzaba en Ginebra el 25 de diciembre, día de Navidad, en contra de la práctica seguida en Francia, que contaba el año a partir de la Pascua</p></note>)</date>.
+      </dateline> 
+      <salute>Su humilde servidor y hermano,</salute>
+       <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName><note n="7" place="bottom"><p>Nombre adoptado por Calvino durante su retiro en Angulema y su viaje a Italia (1534, 1536)</p></note>
+      </signed>
+      </closer>
+  </body>
+ </text>
+</TEI>

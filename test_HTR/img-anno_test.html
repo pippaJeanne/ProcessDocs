@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="annotorious.min.css">
+        <script src="openseadragon/openseadragon.2.4.2.min.js"></script>
+        <script src="openseadragon-annotorious.min.js"></script>
+    </head>
+    <body>
+        <div id="openseadragon1"  style="width: 98%; height: 500px;background-color: #fcfcfc; display: block; margin-left: auto; margin-right: auto;"></div>
+        <script>
+            window.onload = function() {
+              var viewer = OpenSeadragon({
+                id: "openseadragon1",
+                prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
+                tileSources: [
+                "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f78/info.json"
+                ]
+              });
+          
+              // Initialize the Annotorious plugin
+              var anno = OpenSeadragon.Annotorious(viewer);
+          
+              // Load annotations in W3C WebAnnotation format
+              anno.loadAnnotations('annotations.w3c.json');
+          
+              // Attach handlers to listen to events
+              anno.on('createAnnotation', function(a) {
+                // Do something
+              });
+            }
+          </script>
+    </body>
+</html>

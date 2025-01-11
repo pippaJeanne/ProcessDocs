@@ -1,0 +1,303 @@
+{
+       "persons": [
+              {
+                     "name": "Charles d'Espeville",
+                     "thumbnail": "",
+                     "desc": "Pseudonyme adopté par Calvin durant sa retraite à Angoulême et son voyage en Italie (1534, 1536). [@source : note 7, Lettre du 31 janvier 1538 à Louis du Tillet]",
+                     "letters": [
+                            {
+                                   "slug": "1538_01LouisduTillet",
+                                   "date": "31 janvier 1538",
+                                   "headline": "À Louis du Tillet"
+                            },
+                            {
+                                   "slug": "1538_10_07LuoisDuTillets",
+                                   "date": "10 juillet 1538",
+                                   "headline": "À Louis du Tillet"
+                            },
+                            {
+                                   "slug": "1543_10_14MadameDeFalais",
+                                   "date": "14 octobre (1543)",
+                                   "headline": "À Madame de Fallais"
+                            },
+                            {
+                                   "slug": "1543_10_14Monsieur-deFalais",
+                                   "date": "14 octobre 1543",
+                                   "headline": "À Monsieur de Fallais"
+                            },
+                            {
+                                   "slug": "1544_06_24MmeDeFalais",
+                                   "date": "24 juin (1544)",
+                                   "headline": "À Madame de Fallais"
+                            },
+                            {
+                                   "slug": "1546MadameDEBude",
+                                   "date": "[20 ** 1546]",
+                                   "headline": "À Madame de Budé"
+                            }
+                     ],
+                     "id": "#espeville"
+              },
+              {
+                     "name": "Consistoire de Neuchâtel",
+                     "thumbnail": "",
+                     "desc": "Conseil ecclésiastique du canton de Neuchâtel du XVIe au XVIIIe siècle",
+                     "letters": [
+                            {
+                                   "slug": "1541_09_29SeigneursNeuchatel",
+                                   "date": " 29 septembre 1541",
+                                   "headline": "Aux Seigneurs de Neuchâtel"
+                            }
+                     ],
+                     "id": "#conseil-neuchatel"
+              },
+              {
+                     "name": "Martin Bucer (1491 - 1551)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Buzer%20%28Bucer%29.jpg",
+                     "desc": "réformateur protestant alsacien",
+                     "letters": [
+                            {
+                                   "slug": "1538_01LouisduTillet",
+                                   "date": "31 janvier 1538",
+                                   "headline": "À Louis du Tillet"
+                            },
+                            {
+                                   "slug": "1538_10_07LuoisDuTillets",
+                                   "date": "10 juillet 1538",
+                                   "headline": "À Louis du Tillet"
+                            }
+                     ],
+                     "id": "#bucer"
+              },
+              {
+                     "name": "Yolande de Brederode",
+                     "thumbnail": "",
+                     "desc": "Aristocrate de la maison des comtes de Hollande et épouse de Jacques de Bourgogne",
+                     "letters": [
+                            {
+                                   "slug": "1543_10_14MadameDeFalais",
+                                   "date": "14 octobre (1543)",
+                                   "headline": "À Madame de Fallais"
+                            },
+                            {
+                                   "slug": "1544_06_24MmeDeFalais",
+                                   "date": "24 juin (1544)",
+                                   "headline": "À Madame de Fallais"
+                            }
+                     ],
+                     "id": "#jolande_brederode"
+              },
+              {
+                     "name": "Louis du Tillet",
+                     "thumbnail": "",
+                     "desc": "prêtre catholique français",
+                     "letters": [
+                            {
+                                   "slug": "1538_01LouisduTillet",
+                                   "date": "31 janvier 1538",
+                                   "headline": "À Louis du Tillet"
+                            },
+                            {
+                                   "slug": "1538_10_07LuoisDuTillets",
+                                   "date": "10 juillet 1538",
+                                   "headline": "À Louis du Tillet"
+                            }
+                     ],
+                     "id": "#louis-tilletz"
+              },
+              {
+                     "name": "Antoine de Bourbon (1518 - 1562)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20-%20Portrait%20of%20Anthony%20of%20Bourbon%20%281518%E2%80%931562%29%2C%20King%20of%20Navarre%20-%20MNK%20XII-294%20-%20National%20Museum%20Krak%C3%B3w.jpg",
+                     "desc": "Roi consort de Navarre",
+                     "letters": [
+                            {
+                                   "slug": "1553_03_12RoiDAngleterre",
+                                   "date": "12 de mars 1553",
+                                   "headline": "Au roi d'Angleterre"
+                            }
+                     ],
+                     "id": "#vendome"
+              },
+              {
+                     "name": "Wolfgang Fabricius Köpfel Capiton (1478 - 1541)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/WolfgangCapito.jpg",
+                     "desc": "réformateur et théologien alsacien (1478-1541)",
+                     "letters": [
+                            {
+                                   "slug": "1538_01LouisduTillet",
+                                   "date": "31 janvier 1538",
+                                   "headline": "À Louis du Tillet"
+                            },
+                            {
+                                   "slug": "1538_10_07LuoisDuTillets",
+                                   "date": "10 juillet 1538",
+                                   "headline": "À Louis du Tillet"
+                            }
+                     ],
+                     "id": "#capiton"
+              },
+              {
+                     "name": "Édouard VI d'Angleterre (1537 - 1553)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20VI%20of%20England%20c.%201546.jpg",
+                     "desc": "roi d'Angleterre de 1547 à 1553",
+                     "letters": [
+                            {
+                                   "slug": "1553_03_12RoiDAngleterre",
+                                   "date": "12 de mars 1553",
+                                   "headline": "Au roi d'Angleterre"
+                            }
+                     ],
+                     "id": "#edouard-VI"
+              },
+              {
+                     "name": "Jean du Tillet",
+                     "thumbnail": "",
+                     "desc": "Évêque de Saint-Brieuc et Meaux",
+                     "letters": [
+                            {
+                                   "slug": "1538_01LouisduTillet",
+                                   "date": "31 janvier 1538",
+                                   "headline": "À Louis du Tillet"
+                            },
+                            {
+                                   "slug": "1538_10_07LuoisDuTillets",
+                                   "date": "10 juillet 1538",
+                                   "headline": "À Louis du Tillet"
+                            }
+                     ],
+                     "id": "#jehan"
+              },
+              {
+                     "name": "Guillaume Farel (1489 - 1565)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/William-Farel.jpg",
+                     "desc": "réformateur d'origine dauphinoise en Suisse romande",
+                     "letters": [
+                            {
+                                   "slug": "1541_09_29SeigneursNeuchatel",
+                                   "date": " 29 septembre 1541",
+                                   "headline": "Aux Seigneurs de Neuchâtel"
+                            }
+                     ],
+                     "id": "#farel"
+              },
+              {
+                     "name": "Renée de France (1510 - 1574)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Renee%20de%20france.jpg",
+                     "desc": "aristocrate française",
+                     "letters": [
+                            {
+                                   "slug": "1541_10DuchesseFerrare",
+                                   "date": "[octobre 1541]",
+                                   "headline": "À la Duchesse de Ferrare"
+                            }
+                     ],
+                     "id": "#renee-de-france"
+              },
+              {
+                     "name": "Consistoire de Genève",
+                     "thumbnail": "",
+                     "desc": "Conseil ecclésiastique suisse du XVIe, XVIIe et XVIIIe siècles",
+                     "letters": [
+                            {
+                                   "slug": "1541_02_19SeigneursGeneve",
+                                   "date": " 19 février 1541",
+                                   "headline": "Aux Seigneurs de Genève"
+                            },
+                            {
+                                   "slug": "1552_10_06SeigeursDeGeneve",
+                                   "date": "6 octobre 1552",
+                                   "headline": "Aux Seigneurs de Genève"
+                            }
+                     ],
+                     "id": "#conseil-geneve"
+              },
+              {
+                     "name": "Jacques de Bourgogne",
+                     "thumbnail": "",
+                     "desc": "Seigneur de Fallais et de Bréda en Brabant, noble flamand et correspondant de Calvin qui a initialement soutenu le réformateur",
+                     "letters": [
+                            {
+                                   "slug": "1543_10_14Monsieur-deFalais",
+                                   "date": "14 octobre 1543",
+                                   "headline": "À Monsieur de Fallais"
+                            },
+                            {
+                                   "slug": "1552Monsieur-deFalais",
+                                   "date": "1552",
+                                   "headline": "À Monsieur de Fallais"
+                            }
+                     ],
+                     "id": "#jacques-bourgogne"
+              },
+              {
+                     "name": "Philippe Mélanchthon (1497 - 1560)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg",
+                     "desc": "humaniste, philosophe et réformateur protestant allemand",
+                     "letters": [
+                            {
+                                   "slug": "1552_10_06SeigeursDeGeneve",
+                                   "date": "6 octobre 1552",
+                                   "headline": "Aux Seigneurs de Genève"
+                            }
+                     ],
+                     "id": "#melanchthon"
+              },
+              {
+                     "name": "Sébastien Castellion (1515 - 1563)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/SebastianCastellio.jpg",
+                     "desc": "humaniste, bibliste et théologien protestant français",
+                     "letters": [
+                            {
+                                   "slug": "1552Monsieur-deFalais",
+                                   "date": "1552",
+                                   "headline": "À Monsieur de Fallais"
+                            }
+                     ],
+                     "id": "#castalion"
+              },
+              {
+                     "name": "Pierre Viret (1511 - 1571)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/PierreViret.jpg",
+                     "desc": "Réformateur vaudois",
+                     "letters": [
+                            {
+                                   "slug": "1541_02_19SeigneursGeneve",
+                                   "date": " 19 février 1541",
+                                   "headline": "Aux Seigneurs de Genève"
+                            },
+                            {
+                                   "slug": "1541_09_29SeigneursNeuchatel",
+                                   "date": " 29 septembre 1541",
+                                   "headline": "Aux Seigneurs de Neuchâtel"
+                            }
+                     ],
+                     "id": "#viret"
+              },
+              {
+                     "name": "Anne de Parthenay",
+                     "thumbnail": "",
+                     "desc": "Aristocrate française et érudite qui a été associée à Calvin, dame de compagnie de la duchesse d'Este",
+                     "letters": [
+                            {
+                                   "slug": "1541_10DuchesseFerrare",
+                                   "date": "[octobre 1541]",
+                                   "headline": "À la Duchesse de Ferrare"
+                            }
+                     ],
+                     "id": "#annePartenay"
+              },
+              {
+                     "name": "Roberte Le Lyeur",
+                     "thumbnail": "",
+                     "desc": "épouse de Guillaume Budé",
+                     "letters": [
+                            {
+                                   "slug": "1546MadameDEBude",
+                                   "date": "[20 ** 1546]",
+                                   "headline": "À Madame de Budé"
+                            }
+                     ],
+                     "id": "#madame-bude"
+              }
+       ]
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="M-Fallais14_10_43">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Lettre à Monsieur de Fallais</title>
+<editor role="Modernisation et encodage">Yanet Hernández Pedraza</editor>
+<editor role="Édition et relecture">Rudy Chaulet (ISTA - Université de Franche-Comté)</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+<availability status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+3.0 Unported License</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+  <bibl>
+     <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
+<author>
+        <name>
+           <forename>Jean</forename>
+           <surname>Calvin</surname>
+        </name>
+        <date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+</author>, éd.
+<editor>
+        <name>
+           <forename>Jules</forename>
+           <surname>Bonnet</surname>
+        </name>
+     </editor>,
+     <pubPlace>Paris</pubPlace>,
+<publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+<date when="1854">1854</date>.
+<affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+<facsimile corresp="128-133">
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f128/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f129/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f130/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f131/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f132/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f133/info.json"/>
+</facsimile>
+  </bibl>
+<msDesc>
+<msIdentifier>
+  <settlement>Genève</settlement>
+  <repository>Bibliothèque de Genève</repository>
+  <idno type="cote">Ms. fr. 194 (f.1r-2r)</idno>
+</msIdentifier>
+<facsimile>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f001r.jpg"/>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f001v.jpg"/>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f002r.jpg"/>
+</facsimile>
+</msDesc>
+  <notesStmt>
+     <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 
+      sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+  </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Jean Calvin
+  <addName type="pseudonym">Charles d'Espeville</addName></persName>
+  <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
+  <date when="1543-10-14">14 octobre 1543</date>
+ </correspAction>
+ <correspAction type="received">
+  <name type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">À Monsieur de Fallais</name>
+  <settlement cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Calvin donne son conseil à Monsieur de Fallais qui délibérait de quitter les Pays-Bas.</desc>
+ <list xml:id="tags">
+ <term>exil</term>
+ <term>conseil</term>
+ </list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>Au <persName type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Monsieur de Fallais</persName><note n="*" place="bottom"><p>Au dos : A mon bon seigneur et amy sire Jacques Le Franc. – Jacques de Bourgogne, seigneur de Falais et de Bréda en Brabant, arrière-petit-fils naturel de Philippe le Beau, duc de Bourgogne. Elevé à la cour de Charles-Quint, ce seigneur adopta, dès sa jeunesse, la foi réformée, et ne pouvant la professer librement sous le régime espagnol, il quitta sa patrie, d'après les conseils de Calvin, abandonnant tous ses biens qui furent confisqués par un arrêt de la cour de Malines. Voué dès lors à un perpétuel exil, il habita successivement Cologne, Strasbourg, Bâle, Genève, et entretint une correspondance active avec le réformateur qui le combla des marques de son amitié, et lui dédia en 1546 son Commentaire sur la première épître de saint Paul aux Corinthiens. Ces bonnes relations furent malheureusement troublées à la suite du procès de Jérôme Boisée, dont M. de Falais prit ouvertement le parti contre Calvin. Ce dernier ressentit vivement cet acte d'hostilité de la part d'un ami, avec lequel il rompit sans retour en 1552. Les lettres de Calvin à M. de Falais ont été publiées en 1744, à Amsterdam, d'après les originaux longtemps conservés dans cette ville. On les reproduit ici, dans un ordre chronologique plus éxact, revues et corrigées avec soin sur les originaux actuellement déposés à la Bibliothèque de Genève, en y joignant plusieurs pièces inédites.</p></note>
+</addrLine>
+</address>
+<dateline xml:id="opener"><placeName></placeName>(<date when="1543-10-14">14 octobre 1543</date>)
+</dateline>
+<hi rend="bold"><label type='nature'>Orig. Autographe</label>. Bibl. de Genève. Vol. 194.</hi>
+<hi xml:id="editorNote">
+[Maintenant sous la cote Ms. fr. 194 (f. 1r-2r)]</hi>
+<salute>Monsieur,</salute>
+</opener>
+<p><choice><orig>combien</orig><reg>bien</reg></choice> que ce soit contre la façon <choice><orig>acoustumé</orig><reg>accoutumé</reg></choice>e des hommes, que <choice><orig>je use</orig><reg>j'use</reg></choice> de telle <choice><orig>privaulté</orig><reg>privauté</reg></choice> envers vous de vous <choice><orig>escrire</orig><reg>écrire</reg></choice> familièrement, <choice><orig>devant que</orig><reg>avant de</reg></choice> vous <choice><orig>estre</orig><reg>être</reg></choice> beaucoup <choice><orig>congneu</orig><reg>connu</reg></choice>, <choice><orig>toutesfois</orig><reg>toutefois</reg></choice> puisque je me tiens <choice><orig>asseuré</orig><reg>assuré</reg></choice> que mes lettres seront <choice><orig>bien venues</orig><reg>bienvenues</reg></choice> vers vous, ce <choice><orig>seroit</orig><reg>serait</reg></choice> hypocrisie à <choice><orig>moy</orig><reg>moi</reg></choice> d'en faire longues excuses comme si j'en <choice><orig>doubtoye</orig><reg>doutais</reg></choice>. Pourtant je <choice><orig>feray</orig><reg>ferai</reg></choice> en <choice><orig>cest</orig><reg>cet</reg></choice> endroit comme l'un de vos <choice><orig>amy</orig><reg>ami</reg></choice>s, sans <choice><orig>aultre</orig><reg>autre</reg></choice> préface.</p>
+<p>La matière dont j'ai à <choice><orig>traicter</orig><reg>traiter</reg></choice> avec vous <choice><orig>requerroit</orig><reg>requerrait</reg></choice> bien que nous <choice><orig>feussions</orig><reg>fussions</reg></choice> ensemble, pour deviser au moins un <choice><orig>demy</orig><reg>demi</reg></choice> jour. Et de <choice><orig>faict</orig><reg>fait</reg></choice>, j'ai <choice><orig>souventesfois</orig><reg>maintes fois</reg></choice> désiré depuis quatre ou cincq mois, que ce <choice><orig>feust</orig><reg>fût</reg></choice> le bon plaisir de Dieu de nous donner <choice><orig>ceste</orig><reg>cette</reg></choice> opportunité. Encore <choice><orig>ay</orig><reg>ai</reg></choice>-je <choice><orig>doubté</orig><reg>douté</reg></choice> à présent, si pour meilleur conseil je vous <choice><orig>devoye</orig><reg>devais</reg></choice> prier d'entreprendre un voyage, afin que nous <choice><orig>peussions</orig><reg>pussions</reg></choice> après avoir <choice><orig>veu</orig><reg>vu</reg></choice> et considéré de plus près constituer ce qu'il <choice><orig>seroit</orig><reg>serait</reg></choice> de faire. Car s'il <choice><orig>estoit</orig><reg>était</reg></choice> question de mettre la chose en délibération comme <choice><orig>doubteuse</orig><reg>douteuse</reg></choice>, il y <choice><orig>auroit</orig><reg>aurait</reg></choice> bien à objecter et <choice><orig>réplicquer</orig><reg>répliquer</reg></choice> <choice><orig>devant que</orig><reg>avant de</reg></choice> vous en pouvoir <choice><orig>résouldre</orig><reg>résoudre</reg></choice>; il <choice><orig>seroit</orig><reg>serait</reg></choice> quasi folie et inconsidération à <choice><orig>moy</orig><reg>moi</reg></choice> de tenter à faire cela par lettres. Mais en la fin j'ai regardé d'<choice><orig>aultre</orig><reg>autre</reg></choice> part si <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur vous a <choice><orig>desjà</orig><reg>déjà</reg></choice> donné le <choice><orig>couraige</orig><reg>courage</reg></choice> de nous visiter à bon escient, pour vous reposer en <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur avec nous, que ce <choice><orig>seroit</orig><reg>serait</reg></choice> <choice><orig>poine</orig><reg>peine</reg></choice> perdue, et <choice><orig>aultant</orig><reg>autant</reg></choice> <choice><orig>d'attarge et recullement</orig><reg>de retard et recul</reg></choice> de vous conseiller d'y venir seulement voir quel il y <choice><orig>faict</orig><reg>fait</reg></choice>, pour vous <choice><orig>adviser</orig><reg>aviser</reg></choice> sur cela. <choice><orig>Parquoy</orig><reg>C'est pourquoi</reg></choice> je ne <choice><orig>seroye</orig><reg>serais</reg></choice> point de <choice><orig>cest</orig><reg>cet</reg></choice> <choice><orig>advis</orig><reg>avis</reg></choice>, que vous <choice><orig>prinssiez</orig><reg>prissiez</reg></choice> <choice><orig>ceste</orig><reg>cette</reg></choice> <choice><orig>poine</orig><reg>peine</reg></choice> superflue pour en <choice><orig>estre</orig><reg>être</reg></choice> par après à recommencer, voire possible <choice><orig>quant</orig><reg>quand</reg></choice> l'opportunité n'y <choice><orig>seroit</orig><reg>serait</reg></choice> pas telle, comme elle est pour <choice><orig>ceste</orig><reg>cette</reg></choice> heure.</p>
+
+<p>Je pense bien à la difficulté où vous <choice><orig>estes</orig><reg>êtes</reg></choice>, si vous regardez le monde, et les considérations qui vous peuvent là retenir. Mais il vous faut faire une conclusion certaine pour <choice><orig>repoulser</orig><reg>repousser</reg></choice> tout ce qui vous viendra au devant pour y contredire. Il est <choice><orig>vray</orig><reg>vrai</reg></choice> qu'elle ne se doit pas prendre à la volée, c'est à dire sans fondement; et ne <choice><orig>sçachant</orig><reg>sachant</reg></choice> <choice><orig>pourquoy</orig><reg>pourquoi</reg></choice>. Mais –<choice><orig>quant</orig><reg>quand</reg></choice> vous avez <choice><orig>vostre</orig><reg>votre</reg></choice> conscience <choice><orig>asseuré</orig><reg>assuré</reg></choice>e d'un <choice><orig>tesmoignage</orig><reg>témoignage</reg></choice> qui est meilleur et plus ferme que tout le monde ne le vous <choice><orig>sçauroit</orig><reg>saurait</reg></choice> donner, il vous faut acquiescer là du tout, et estimer que tous les <choice><orig>empeschemens</orig><reg>empêchement</reg></choice>s qui surviennent pour vous <choice><orig>destourner</orig><reg>détourner</reg></choice>, sont scandales que <choice><orig>Sathan</orig><reg>Satan</reg></choice> vous présente pour vous rompre le chemin. <choice><orig>Combien</orig><reg>Bien</reg></choice>, à mon semblant, qu'il <choice><orig>n'est pas grand mestier</orig><reg>n'a pas vraiment besoin</reg></choice> d'alléguer beaucoup de raisons pour vous montrer ce qui est de faire selon Dieu. Je répute que cela vous est <choice><orig>desjà</orig><reg>déjà</reg></choice> tout liquide. Il y a seulement le regret de ce que vous laissez d'une part, de l'autre la crainte de ne rencontrer pas ce qui <choice><orig>seroit</orig><reg>serait</reg></choice> à désirer. Mais tous les regrets du monde se peuvent vaincre par <choice><orig>ceste</orig><reg>cette</reg></choice> pensée, qu'il n'y a plus malheureuse condition que de vivre <choice><orig>és</orig><reg>des</reg></choice> troubles d'esprit, et avoir une guerre continuelle en <choice><orig>soy</orig><reg>soi</reg></choice>-<choice><orig>mesme</orig><reg>même</reg></choice>, ou <choice><orig>plustost</orig><reg>plutôt</reg></choice> <choice><orig>estre</orig><reg>être</reg></choice> <choice><orig>tormenté</orig><reg>tourmenté</reg></choice> d'une <choice><orig>géhenne</orig><reg>supplice</reg></choice> intérieure sans <choice><orig>aulcune</orig><reg>aucune</reg></choice> <choice><orig>relasche</orig><reg>relâche</reg></choice>.</p>
+
+<p>Or <choice><orig>advisez</orig><reg>avisez</reg></choice> si vous pouvez avoir paix avec Dieu et <choice><orig>vostre</orig><reg>votre</reg></choice> conscience, persévérant en l'<choice><orig>estat</orig><reg>état</reg></choice> où vous <choice><orig>estes</orig><reg>êtes</reg></choice>. Si l'espérance de mieux vous retient, pour le premier vous <choice><orig>voiez</orig><reg>voyez</reg></choice> à l'œil que l'<choice><orig>abysme</orig><reg>abîme</reg></choice> <choice><orig>croist</orig><reg>croît</reg></choice> <choice><orig>tousjours</orig><reg>toujours</reg></choice> et que vous y entrez avec le temps plus profondément.</p>
+
+<p>Secondement s'il <choice><orig>plaisoit</orig><reg>plaisait</reg></choice> à Dieu d'amender le désordre qui est à présent, quelle <choice><orig>joye</orig><reg>joie</reg></choice> vous <choice><orig>seroit</orig><reg>serait</reg></choice>-ce de dire – : Cependant que mon <choice><orig>maistre</orig><reg>maître</reg></choice> a été <choice><orig>banny</orig><reg>banni</reg></choice> de ce <choice><orig>païs</orig><reg>pays</reg></choice>, je m'en suis bien voulu <choice><orig>exclurre</orig><reg>exclure</reg></choice> de mon bon gré pour l'aller servir; maintenant qu'il y est rentré, j'y reviens <choice><orig>luy</orig><reg>lui</reg></choice> rendre louanges? <choice><orig>Combien</orig><reg>Bien</reg></choice> qu'il n'y a pas <choice><orig>encor</orig><reg>encore</reg></choice> apparence que cela se doive faire en <choice><orig>brief</orig><reg>bref</reg></choice>. Pourtant le plus expédient est de vous en retirer, <choice><orig>devant qu</orig><reg>avant d</reg></choice>'<choice><orig>estre</orig><reg>être</reg></choice> plongé si avant en la fange, que de ne vous en pouvoir <choice><orig>arrascher</orig><reg>arracher</reg></choice>. <choice><orig>Mesme</orig><reg>Même</reg></choice> le plus <choice><orig>tost</orig><reg>tôt</reg></choice> est le meilleur. Car en telle chose, il <choice><orig>fault</orig><reg>faut</reg></choice> prendre l'occasion <choice><orig>quant</orig><reg>quand</reg></choice> elle s'offre, estimant que <choice><orig>quant</orig><reg>quand</reg></choice> le Seigneur nous donne le moyen, c'est comme s'il nous <choice><orig>ouvroit</orig><reg>ouvrait</reg></choice> la porte ainsi il convient <choice><orig>adoncq</orig><reg>alors</reg></choice> entrer sans plus <choice><orig>dellayer</orig><reg>délayer</reg></choice>, de peur qu'elle ne soit fermée, cependant que nous varions en consultant.</p>
+
+<p>Or la principale occasion je la prends en ce qu'il a rompu les <choice><orig>lyens</orig><reg>liens</reg></choice> du <choice><orig>cueur</orig><reg>cœur</reg></choice>, tant de vous que de <choice><orig>vostre</orig><reg>votre</reg></choice> <choice><orig>compaignie</orig><reg>compagnie</reg></choice>, en vous rendant facile par la bonne affection qu'il a <choice><orig>esmeue</orig><reg>émue</reg></choice> en vous, ce qui semble <choice><orig>aultre</orig><reg>autre</reg></choice>ment tant plein de difficulté. En tel cas, nous devons, selon l'exhortation du saint <choice><orig>Apostre</orig><reg>Apôtre</reg></choice>, faire valoir les dons de l'<choice><orig>Esperit</orig><reg>Esprit</reg></choice>, les <choice><orig>mectans</orig><reg>mettant</reg></choice> en <choice><orig>effect</orig><reg>effet</reg></choice> et en exécution, et ne les pas laisser amortir de <choice><orig>paour</orig><reg>peur</reg></choice> qu'ils ne s'<choice><orig>esteingnent</orig><reg>éteignent</reg></choice> du tout par <choice><orig>nostre</orig><reg>notre</reg></choice> nonchalance. D'avoir jamais toute commodité à <choice><orig>souhet</orig><reg>souhait</reg></choice>, il ne le <choice><orig>fault</orig><reg>faut</reg></choice> attendre, car <choice><orig>quant</orig><reg>quand</reg></choice> ainsi <choice><orig>seroit</orig><reg>serait</reg></choice>, quelle expérience de <choice><orig>vostre</orig><reg>votre</reg></choice> <choice><orig>foy</orig><reg>foi</reg></choice> y <choice><orig>auroit</orig><reg>aurait</reg></choice>-il ? Il n'est à <choice><orig>doubter</orig><reg>douter</reg></choice> que <choice><orig>nostre</orig><reg>notre</reg></choice> Père Abraham n'<choice><orig>eust</orig><reg>eût</reg></choice> merveilleuse résistance <choice><orig>quant</orig><reg>quand</reg></choice> il fallut <choice><orig>desloger</orig><reg>déloger</reg></choice> de son <choice><orig>païs</orig><reg>pays</reg></choice>, et qu'il n'<choice><orig>avoit</orig><reg>avait</reg></choice> pas toutes choses à son <choice><orig>ayse</orig><reg>aise</reg></choice>; <choice><orig>néantmoins</orig><reg>néanmoins</reg></choice> il se <choice><orig>dépesche</orig><reg>dépêche</reg></choice> incontinent. Si nous sommes ses <choice><orig>enfans</orig><reg>enfants</reg></choice>, il le nous convient <choice><orig>ensuivre</orig><reg>suivre</reg></choice>. Nous n'avons pas révélation expresse de quitter le <choice><orig>païs</orig><reg>pays</reg></choice>, mais puisque nous avons commandement d'honorer Dieu et de corps et d'âme partout où nous sommes, que voulons-nous plus? C'est <choice><orig>doncque</orig><reg>donc</reg></choice> aussi bien à nous que ces lettres s'addressent : <hi rend="italic">Sorts hors du <choice><orig>païs</orig><reg>pays</reg></choice> de ta nativité</hi>, <choice><orig>quant</orig><reg>quand</reg></choice> nous sommes là <choice><orig>contrainct</orig><reg>contraint</reg></choice>s de faire contre <choice><orig>nostre</orig><reg>notre</reg></choice> conscience, et ne pouvons vivre à la gloire de <choice><orig>nostre</orig><reg>notre</reg></choice> Dieu. Au reste, du moyen <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur vous donnera la prudence de le disposer, et <choice><orig>estes</orig><reg>être</reg></choice> sur le lieu pour mieux pouvoir discerner ce que vos affaires portent. <choice><orig>Tant y a</orig><reg>Pour conclure</reg></choice> que je <choice><orig>désireroye</orig><reg>désirerais</reg></choice> bien que vous tendissiez à ce but de vous <choice><orig>desvelopper</orig><reg>développer</reg></choice> tant qu'il vous sera possible, <choice><orig>affin</orig><reg>afin</reg></choice> de pouvoir <choice><orig>estre</orig><reg>être</reg></choice> plus allègre et plus libre, après vous <choice><orig>estre</orig><reg>être</reg></choice> <choice><orig>deppétré</orig><reg>depêtré</reg></choice> des <choice><orig>fillé</orig><reg>filé</reg></choice>s, avec les bons <choice><orig>amy</orig><reg>ami</reg></choice>s que vous avez avec vous <choice><orig>de par de là</orig><reg>par là</reg></choice>, qui sont pour vous <choice><orig>ayder</orig><reg>aider</reg></choice> tant du conseil que de leur <choice><orig>poyne</orig><reg>peine</reg></choice>.</p>
+
+<p>Le bon seigneur que vous avez tant désiré pour vous <choice><orig>prester</orig><reg>prêter</reg></choice> la main<note n="1" place="bottom"><p>David de Busanton, seigneur du Hainaut, retiré à Genève.</p></note> s'y en va, s'offrant à faire tout ce qu'il pourra de son <choice><orig>costé</orig><reg>côté</reg></choice>, <choice><orig>affin</orig><reg>afin</reg></choice> de s'acquitter de son devoir; et certes le zèle qu'il a vous doit bien inciter et <choice><orig>estre</orig><reg>être</reg></choice> comme un <choice><orig>aguilon</orig><reg>aiguillon</reg></choice> nouveau, pour augmenter et <choice><orig>enflamber</orig><reg>enflammer</reg></choice> la bonne donation que <choice><orig>desjà</orig><reg>déjà</reg></choice> vous avez.</p>
+
+<p>Or pour ce que le reste ne se <choice><orig>peult</orig><reg>peut</reg></choice> bonnement <choice><orig>dépescher</orig><reg>dépêcher</reg></choice> par lettres, je prierai cependant <choice><orig>nostre</orig><reg>notre</reg></choice> bon Père céleste, qu'il lui plaise de vous ouvrir de plus en plus les yeux pour pouvoir contempler ce que <choice><orig>desjà</orig><reg>déjà</reg></choice> il vous a donné en partie, vous donnant aussi la force et constance de suivre la <choice><orig>voye</orig><reg>voie</reg></choice> qu'il vous <choice><orig>monstre</orig><reg>montre</reg></choice>. Finalement qu'il vous dirige en tout et partout par son <choice><orig>sainct</orig><reg>saint</reg></choice> <choice><orig>Esperit</orig><reg>Esprit</reg></choice>, vous conservant en sa protection. Sur ce je me <choice><orig>recommanderay</orig><reg>recommanderai</reg></choice> humblement à <choice><orig>vostre</orig><reg>votre</reg></choice> bonne grâce, sans oublier la bonne <choice><orig>compaignie</orig><reg>compagnie</reg></choice> des bons seigneurs qui sont avec.</p>
+ <closer>
+      <dateline><placeName></placeName>(<date when="1543-10-14">14 octobre 1543</date>)
+      </dateline> 
+      <salute><choice><orig>Vostre</orig><reg>Votre</reg></choice> serviteur humble frère et entier <choice><orig>amy</orig><reg>ami</reg></choice>,</salute>
+      <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES d'ESPEVILLE</persName>.</signed>
+      </closer>
+  </body>
+ </text>
+</TEI>

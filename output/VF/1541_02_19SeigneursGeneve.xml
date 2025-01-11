@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" n="testms">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Lettre aux Seigneurs de Genève</title>
+<editor role="Modernisation et encodage">Yanet Hernández Pedraza</editor>
+<editor role="Relecture">Rudy Chaulet (ISTA - Université de Franche-Comté)</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+<availability status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+3.0 Unported License</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+  <bibl>
+     <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
+<author>
+        <name>
+           <forename>Jean</forename>
+           <surname>Calvin</surname>
+        </name>
+        <date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+</author>, éd.
+<editor>
+        <name>
+           <forename>Jules</forename>
+           <surname>Bonnet</surname>
+        </name>
+     </editor>,
+     <pubPlace>Paris</pubPlace>,
+<publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+<date when="1854">1854</date>.
+<affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+<facsimile corresp="71-73">
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f71/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f72/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f73/info.json"/>
+</facsimile>
+  </bibl>
+<msDesc>
+<msIdentifier>
+  <settlement>Genève</settlement>
+  <repository>Bibliothèque de Genève</repository>
+  <idno type="cote">Ms. fr. 401 (f. 17-17bis)</idno>
+</msIdentifier>
+<facsimile>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fcorrespondance_ecclesiastiqueead%252Fms_fr_401%252Fms_fr_00401_f017_01.jpg"/>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fcorrespondance_ecclesiastiqueead%252Fms_fr_401%252Fms_fr_00401_f017_02.jpg"/>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fcorrespondance_ecclesiastiqueead%252Fms_fr_401%252Fms_fr_00401_f017_03.jpg"/>
+</facsimile>
+</msDesc>
+  <notesStmt>
+     <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 
+      sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+  </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Jean Calvin</persName>
+  <settlement key="Strasbourg" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Strasbourg</settlement>
+  <date when="1541-02-19"> 19 février 1541</date>
+ </correspAction>
+ <correspAction type="received">
+  <name type="collectivité" key="Consistoire de Genève" ref="https://www.wikidata.org/wiki/Q2994627" corresp="#conseil-geneve">Aux Seigneurs de Genève</name>
+  <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Dans le contexte du colloque de Ratisbonne, qui fut un important débat théologique entre les catholiques et les protestants, Jean Calvin, après avoir été appelé par Guillaume Farel à retourner à Genève, explique les raisons de son arrivée tardive et réaffirme son engagement avec l’église.</desc>
+ <list xml:id="tags">
+ <term>engagement</term>
+ <term>église</term>
+ <term>explication</term>
+ </list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>Aux <persName type="collectivité" key="Consistoire de Genève" ref="https://www.wikidata.org/wiki/Q2994627" corresp="#conseil-geneve">Seigneurs de Genève</persName></addrLine>
+</address>
+<dateline xml:id="opener"><placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</placeName>, le <date when="1541-02-19">19 février 1541</date>
+</dateline>
+<hi rend="bold"><label type="nature">Original</label>. Signature autographe. Bibl. de Genève. Porter. I.</hi>
+<hi xml:id="editorNote">
+[Maintenant sous la cote Ms. fr. 401 (f. 17-17bis)]</hi>
+<salute>Nobles, honorables et <choice><orig>puissans</orig><reg>puissants</reg></choice> seigneurs,</salute>
+</opener>
+<p><choice><orig>suyvant</orig><reg>suivant</reg></choice> la <choice><orig>responce</orig><reg>réponse</reg></choice> <choice><orig>faicte</orig><reg>faite</reg></choice> à vos ambassadeurs par messieurs de <choice><orig>ceste</orig> <reg>cette</reg></choice> ville, incontinent après <choice><orig>nostre</orig><reg>notre</reg></choice> retour de <placeName key="Worms" ref="https://www.wikidata.org/wiki/Q3852"><choice><orig>Wormes</orig><reg>Worms</reg></choice></placeName>, j'<choice><orig>ay</orig><reg>ai</reg></choice> procuré qu'on <choice><orig>regardast</orig><reg>regardât</reg></choice> de subvenir à <choice><orig>vostre</orig><reg>votre</reg></choice> Eglise, comme je <choice><orig>doibs</orig><reg>dois</reg></choice> avoir en recommandation qu'elle soit <choice><orig>deuement</orig><reg>dûment</reg></choice> <choice><orig>pourveue</orig><reg>pourvue</reg></choice>. Et s'il <choice><orig>eust</orig><reg>eût</reg></choice> <choice><orig>esté</orig><reg>été</reg></choice> trouvé bon que <choice><orig>je y</orig><reg>j'y</reg></choice> feusse allé, je me <choice><orig>feusse</orig><reg>fusse</reg></choice> mis en mon <choice><orig>debvoir</orig><reg>devoir</reg></choice>, car <choice><orig>combien</orig><reg>bien</reg></choice> que la charge de gouverner une telle Eglise me <choice><orig>fust</orig><reg>fût</reg></choice> fort difficile, <choice><orig>toutesfois</orig><reg>toutefois</reg></choice> pour ce que je suis à Dieu et non pas à <choice><orig>moy-mesme</orig><reg>moi-même</reg></choice>, je suis <choice><orig>tousjours</orig><reg>toujours</reg></choice> <choice><orig>prest</orig><reg>prêt</reg></choice> de m'<choice><orig>emploier</orig><reg>employer</reg></choice> là où bon <choice><orig>luy</orig><reg>lui</reg></choice> semblera de m'appeler. Et <choice><orig>aussy</orig><reg>aussi</reg></choice> puisqu'il vous a <choice><orig>pleu</orig><reg>plu</reg></choice> d'avoir tant de <choice><orig>fiance</orig><reg>confiance</reg></choice> en <choice><orig>moy</orig><reg>moi</reg></choice>, je me sens tenu de satisfaire en tant <choice><orig>que en</orig><reg>qu'en</reg></choice> <choice><orig>moy</orig><reg>moi</reg></choice> <choice><orig>seroit</orig><reg>serait</reg></choice> à <choice><orig>vostre</orig><reg>votre</reg></choice> désir, <choice><orig>oultre</orig><reg>outre</reg></choice> l'obligation perpétuelle que j'<choice><orig>ay</orig><reg>ai</reg></choice> envers <choice><orig>vostre</orig><reg>votre</reg></choice> Eglise à laquelle <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur m'a une fois donné. <choice><orig>Toutesfois</orig><reg>Toutefois</reg></choice> il est intervenu un <choice><orig>empeschement</orig><reg>empêchement</reg></choice> qui ne m'a permis de <choice><orig>poursuyvre</orig><reg>poursuivre</reg></choice> plus <choice><orig>oultre</orig><reg>outre</reg></choice>, c'est <choice><orig>que on</orig><reg>qu'on</reg></choice> m'a dellégué pour aller à la journée de Regesbourg<note n="1" place="bottom"><p><placeName key="Ratisbonne" ref="https://www.wikidata.org/wiki/Q6602" corresp="#Ratisbonne">Ratisbonne</placeName> | La journée de Ratisbonne fait référence à la <orgName key="Diète d'Empire" ref="https://fr.wikipedia.org/wiki/Diète_d%27Empire">Diète d'Empire</orgName> de 1541 qui a eu lieu à Ratisbonne. Dans cette occasion les représentants de la Réforme et du catholicisme ont tenté de trouver un compromis sans succès. [Note éditoriale, @source : « Ratisbonne ». 2024. In Wikipédia. https://fr.wikipedia.org/wiki/Ratisbonne.
+]</p></note> laquelle vocation je ne puis éviter, <choice><orig>veu</orig><reg>vu</reg></choice> <choice><orig>que en</orig><reg>qu'en</reg></choice> <choice><orig>icelle</orig><reg>celle-ci</reg></choice> je sers à <choice><orig>vostre</orig><reg>votre</reg></choice> Eglise, comme à celle de <choice><orig>ceste</orig> <reg>cette</reg></choice> ville, en tant que c'est une cause commune. Cependant j'<choice><orig>ay</orig><reg>ai</reg></choice> <choice><orig>esté</orig><reg>été</reg></choice> fort <choice><orig>joyeulx</orig><reg>joyeux</reg></choice> d'entendre que <choice><orig>nostre</orig><reg>notre</reg></choice> frère <choice><orig>maistre</orig><reg>maître</reg></choice> <persName key="Pierre Viret" ref="https://www.wikidata.org/wiki/Q123337" corresp="#viret">Pierre Viret</persName> avait <choice><orig>prins</orig><reg>pris</reg></choice> la charge de vous instruire en la parole de Dieu<note n="2" place="bottom"><p>L'église de Lausanne venait d'accorder pour six mois le ministre <persName key="Pierre Viret" ref="https://www.wikidata.org/wiki/Q123337" corresp="#viret">Pierre Viret</persName> à l'église de Genève</p></note>, car il est de telle fidélité et prudence <choice><orig>que en</orig><reg>qu'en</reg></choice> l'ayant vous n'<choice><orig>estes</orig><reg>êtes</reg></choice> pas <choice><orig>despourveus</orig><reg>despourvus</reg></choice>. <choice><orig>Parquoy</orig><reg>Parquoi</reg></choice>, Messieurs, il vous plaira m'avoir pour excusé de ce que je ne viens à vous puisque <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur me tire ailleurs, et <choice><orig>toutes fois</orig><reg>toutefois</reg></choice> en tel lieu que c'est sans me retirer de vous, <choice><orig>veu</orig><reg>vu</reg></choice> que de cœur et d'affection je suis toujours <choice><orig>conjoinct</orig><reg>conjoint</reg></choice> avec vous, et espère de jamais ne en <choice><orig>estre</orig><reg>être</reg></choice> séparé davantage. Je vous prie <choice><orig>de aviser</orig><reg>d'aviser</reg></choice> tous les moyens de bien constituer <choice><orig>vostre</orig><reg>votre</reg></choice> Eglise afin qu'elle soit régie selon l'ordre de <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur. Nous espérons <choice><orig>par deçà</orig><reg>de ce côté-ci</reg></choice>, à ce que nous avons entendu, que les controversies que vous avez avec messieurs de Berne seront en <choice><orig>brief</orig><reg>bref</reg></choice> appaisées, dont nous rendons grâce à Dieu, <choice><orig>congnoissant</orig><reg>connaissant</reg></choice> qu'il n'y a rien en ce monde qui vous soit plus <choice><orig>proffitable</orig><reg>profitable</reg></choice> que d'entretenir la bonne <choice><orig>amytié</orig><reg>amitié</reg></choice> que Dieu a ordonné entre vous.</p>
+<p>Nobles, <choice><orig>puissans</orig><reg>puissants</reg></choice> et honnorables seigneurs, après m'<choice><orig>estre</orig><reg>être</reg></choice> humblement recommandé à <choice><orig>vostre</orig><reg>votre</reg></choice> bonne grâce, je prie <choice><orig>nostre</orig><reg>notre</reg></choice> bon Dieu de vous entretenir premièrement en l'<choice><orig>obéyssance</orig><reg>obéissance</reg></choice> de sa <choice><orig>saincte</orig><reg>sainte</reg></choice> parole, et vous confirmer de plus en plus en son esprit pour vous diriger en <choice><orig>vraye</orig><reg>vrai</reg></choice> prudence et justice pour bien gouverner <choice><orig>vostre</orig><reg>votre</reg></choice> ville, vous faisant prospérer en tout bien.</p>
+ <closer>
+      <dateline>De <placeName key="Strasbourg" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Strasbourg</placeName>, <date when="1541-02-19">ce dix-<choice><orig>neufviesme</orig><reg>neufvième</reg></choice> de <choice><orig>febvrier</orig><reg>février</reg></choice> mil cinq <choice><orig>cens</orig><reg>cent</reg></choice> <choice><orig>quarante et ung</orig><reg>quarante-et-un</reg></choice></date>.
+      </dateline> 
+      <salute><choice><orig>Vostre</orig><reg>Votre</reg></choice> humble serviteur et entier <choice><orig>amy</orig><reg>ami</reg></choice>,</salute>
+      <signed><persName key="Jean Calvin"><choice><orig>JÉHAN</orig><reg>JEAN</reg></choice> CALVIN</persName></signed>
+      </closer>
+  </body>
+ </text>
+</TEI>
