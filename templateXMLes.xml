@@ -74,12 +74,25 @@
 </opener>
   <p> <persName type="forename" key="Jean du Tillet" ref="https://www.wikidata.org/wiki/Q3175826" corresp="#jean_tillet">Jean</persName><note n="1" place="bottom">
    <p></p></note></p>
+   
+   <!--[Note éditoriale] only if that is the case | if there's a @source write it like this [Note éditoriale, @source : texte (url)]-->
+    <p><note n="#" place="bottom" type="editorial"><p>texte. [Note éditoriale]</p></note></p>
+
+    <p> <hi rend="italic">citation ou titre d'ouvrage</hi> 
+        <hi xml:lang="latinq" rend="italic">passage ou citation en latin</hi><note n="#" type="tradLat" place="bottom"><p>Traduction
+         <add type="editorial">| texte</add>
+         <hi xml:lang="latinq" rend="italic">passage ou citation en latin</hi>
+         <hi xml:lang="trad">passage ou citation en latin</hi>
+        </p></note>
+    </p>
     
  <p><note n="2" place="bottom"><p><persName key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucero">Bucero</persName> y <persName key="Wolfgang Capito" ref="https://www.wikidata.org/wiki/Q1368362" corresp="#capito">Capito</persName>, reformadores de Estrasburgo</p></note> 
  </p>
 
 
-<p> </p>
+<p><!-- Title of work in text => add rend="italic" , @key & @ref -->
+    <title key="Institución de la religión cristiana" ref="https://es.wikipedia.org/wiki/Institución_de_la_religión_cristiana" rend="italic">Institución Cristiana</title>
+     </p>
 
 
       <closer>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="M-Falais14_10_43">
 <teiHeader>
 <fileDesc>
@@ -106,17 +106,24 @@
     </opener>
     <p></p>
 <!--[Note éditoriale] only if that is the case | if there's a @source write it like this [Note éditoriale, @source : texte (url)]-->
-    <p><note n="#" place="bottom"><p>texte. [Note éditoriale]</p></note></p>
+<!--No unnecessary space within note !important!!!-->
+    <p>
+    <note n="#" place="bottom" type="editorial"><p>texte. [Note éditoriale]</p></note></p>
 
     <p> <hi rend="italic">citation ou titre d'ouvrage</hi> 
-        <hi xml:id="latinq" rend="italic">passage ou citation en latin</hi><note n="#" xml:id="tradLat" place="bottom"><p>Traduction
+        <hi xml:lang="latinq" rend="italic">passage ou citation en latin</hi><note n="#" type="tradLat" place="bottom"><p>Traduction
 
-         <hi xml:id="latinq" rend="italic">passage ou citation en latin</hi>
-         <hi xml:id="trad">passage ou citation en latin</hi>
+        <!-- Optional: if an editorial note is added inside or alongside a source note-->
+        <add type="editorial">| texte</add>
+         <hi xml:lang="latinq" rend="italic">passage ou citation en latin</hi>
+         <hi xml:lang="trad">passage ou citation en latin</hi>
         </p></note>
     </p>
+    <!-- Title inline  -->
 <!-- For persName: add @corresp for addressees and people mentioned in the letters which are listed in the Index of names | if the person is mentioned in the notes and has some kind of uri then a @ref attribute is added and the transformation will add that link instead of the link to the Index of Names-->
-    <p></p>
+    <p><!-- Title of work in text or note if important and likely to have a ref => add rend="italic" , @key & @ref -->
+    <title key="Institution de la religion chrétienne" ref="https://fr.wikipedia.org/wiki/Institution_de_la_religion_chrétienne" rend="italic">Institution chrétienne</title>
+    </p>
  <closer>
     <dateline><placeName key="#" ref="#" corresp="#"></placeName>
      <date when="1500-00-00"></date>
