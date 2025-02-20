@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Carta a la Señora de Fallais</title>
+<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+  <availability status="free">
+    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+         3.0 Unported License</licence>
+  </availability></publicationStmt>
+<sourceDesc corresp="MmeFallais06-44">
+ <bibl>
+  Traducción de la versión modernizada de  
+  <title level="a" rend="underline">Lettre à Madame de Fallais (24 juin (1544))</title> editada por 
+ <editor><name> 
+    <forename>Yanet</forename>
+    <surname>Hernández Pedraza</surname></name></editor>.
+ </bibl>
+ <notesStmt>
+          <note>Las notas provienen de la edición de Jules Bonnet de 1854 
+            a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+ </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Juan Calvino
+  <addName type="pseudonym">Charles D'Espeville</addName> <!--si firmada bajo seudónimo, sino borrar-->
+  </persName>
+  <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
+  <date when="1544-06-24">24 de junio de 1544</date>
+ </correspAction>
+ <correspAction type="received">
+  <name type="individuo" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Señora de Fallais</name>
+  <settlement cert="low" key="Colonia" ref="https://www.wikidata.org/wiki/Q365" corresp="#Colonia">Colonia</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+  <desc>Ánimo a la señora de Fallais en su nueva vida de libertad de conciencia y de culto luego de haber seguido a su marido a Colonia y a Estrasburgo.</desc>
+ <list xml:id="tags">
+ <term>exil</term>
+ <term>encouragement</term>
+ </list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>A la <persName type="individuo" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Señora de Fallais</persName></addrLine>
+</address>
+<dateline xml:id="opener"><placeName cert="low" key="Colonia" ref="https://www.wikidata.org/wiki/Q365" corresp="#Colonia">Colonia</placeName>, <date when="1544-06-24">24 de junio de 1544</date>
+</dateline>
+<hi rend="bold"><label type='nature'>Autógrafo original</label>. Bibl. de Genève. Vol. 145</hi>
+<hi xml:id="editorNote">[Ahora bajo la cota Ms. fr. 145 (f. 31)].</hi>
+<salute>Señorita y bien amada hermana:</salute>
+</opener>
+
+<p>Aunque tengo un singular deseo de verle, y me duele mucho ver frustrada la esperanza que había concebido de ello, agradezco, sin embargo, a nuestro Señor la apertura que le ha hecho de que, sin apartarle de los suyos, se le permita rendirle culto con la conciencia limpia, y libre de las contaminaciones de la idolatría en que ha estado cautiva.</p>
+
+<p>Existe la otra bendición de que podrá establecer una iglesia para invocarlo en una asamblea cristiana, ser reconfortada por Su palabra, y recibir la Cena del Señor como una muestra de Su bondad, demostrando también por ella su fe. En la medida en que Usted esperaba menos esa facultad, tiene ocasión de regocijarse en ella cuando le es concedida.</p>
+
+<p>Espero que el hombre que le enviamos, el Señor <persName>David</persName> y yo, sea conforme a su corazón, pues posee verdadera sencillez cristiana tanto en la doctrina como en la moral.</p>
+
+<p>Pero seguiré queriendo disfrutar de su presencia de vez en cuando, y no perderé la esperanza de hacerlo. Pero hay esta cosa buena que, estando ausentes unos de otros, no nos dejaremos de ver en espíritu, estando unidos en aquel que une las cosas distantes. Como el portador de la presente servirá como parte de las cartas, no le molestaré con un discurso más largo, y así, señorita y amadísima hermana, después de haberme encomendado humildemente a su buena memoria en sus oraciones, ruego al Padre de toda misericordia que extienda más y más su mano para concederle a Usted sus gracias, de modo que Usted siga siendo un instrumento elegido de su gloria hasta el final.</p>
+
+<p>No conozco quiénes están ahora en su compañía, pero si estuvieran allí los que el Señor <persName type="forename" key="David">David</persName> dejara con el que esperábamos, deseo ser encomendado a su buena gracia, tan afectuosamente como sea posible. No es que me parezca oportuno darle esta molestia, sino que ellos mismos pueden recibir las recomendaciones que deseo que se les presenten. De nuevo pido a nuestro Señor que le guíe siempre, como lo ha hecho hasta ahora.</p>
+
+ <closer>
+      <dateline>El <placeName></placeName><date when="1544-06-24">24 de junio (de 1544)</date>.
+      </dateline> 
+      <salute>Su servidor y humilde hermano por siempre,</salute>
+      <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName></signed>
+      </closer>
+  </body>
+ </text>
+</TEI>

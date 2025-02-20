@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Carta a los Señores de Neuchâtel</title>
+<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza (M2 Rare Books and Digital Humanities - UBFC)</editor>
+</titleStmt>
+<publicationStmt>
+ <publisher>TEI Consortium</publisher>
+  <availability status="free">
+    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+         3.0 Unported License</licence>
+  </availability></publicationStmt>
+<sourceDesc corresp="conseilNeuchatelSept41">
+ <bibl>
+  Traducción de la versión modernizada de
+  <title level="a" rend="underline">Lettre aux seigneurs de Neuchâtel (29 septembre 1541)</title> editada por 
+ <editor><name>
+    <forename>Yanet</forename>
+    <surname>Hernández Pedraza</surname></name></editor>.
+ </bibl>
+ <notesStmt>
+          <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+ </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Juan Calvino</persName>
+  <settlement>Ginebra</settlement>
+  <date when="1538-09-29"> 29 de septiembre de 1541</date>
+ </correspAction>
+ <correspAction type="received">
+  <name type="grupo" key="Consistorio de Neuchâtel" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-neuchatel">A los señores de Neuchâtel</name>
+  <settlement key="Neuchâtel" ref="https://www.wikidata.org/wiki/Q69345" corresp="#neuchatel">Neuchâtel</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Carta de los ministros de Ginebra, entre los que se incluye Calvino, dirigida a los de Neuchâtel para persuadirles de no deponer a Guillaume Farel luego de haber censurado públicamente una dama de sociedad. Esta carta fue enviada con Pierre Viret y contiene instrucciones de Calvino para su intervención delante del Consistorio de Neuchâtel.</desc>
+ <list xml:id="tags">
+ <term>defensa</term>
+ <term>consejo</term>
+ <term>ministros</term>
+ <term>instrucciones</term>
+ </list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>A los <persName type="grupo" key="Consistorio de Neuchâtel" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-neuchatel">Señores de Neuchâtel</persName><note n="*" place="bottom"><p>Al dorso: De la mano de Viret: «Cartas enviadas a aquellos de Neuchâtel cuando se quería expulsar a Farel su ministro, llevadas por Viret, enviadas en nombre de los ministros de Ginebra con las siguientes instrucciones para mostrarlas en su consejo».</p> 
+<p>Inflexible en el ejercicio de su ministerio, Farel había censurado públicamente, en uno de sus discursos, a una dama de sociedad cuya conducta era un escándalo para la iglesia de Neuchâtel. Irritados por esta censura, los familiares de la dama azuzaron a algunos burgueses contra el valiente ministro, y obtuvieron una sentencia de revocación que solo fue anulada por la intervención de los señores de Berna, y de las principales iglesias suizas. Ruchat: <title key="Histoire de la Réformation en Suisse" rend="italic">Histoire de la Réformation en Suisse</title>, t. V, pág. 164 en adelante.</p></note></addrLine>
+</address>
+<dateline xml:id="opener"><placeName key="Neuchâtel" ref="https://www.wikidata.org/wiki/Q69345" corresp="#neuchatel">Neuchâtel</placeName><date when="1541-09-29"> 29 de septiembre de 1541</date>
+</dateline>
+<hi rend="bold"><label type='nature'>Original</label>. Autógrafo. Bibl. de Ginebra. Vol. 145</hi> 
+<hi xml:id="editorNote">[Ahora bajo la cota Ms. fr. 145 (f. 30-34)]</hi>
+<salute>Magníficos, honorables señores:</salute>
+</opener>
+<p>Habiendo escuchado que su Iglesia no está todavía libre de los problemas y pecados que han ocurrido recientemente en ella, hemos considerado nuestro deber enviar a algunos de los nuestros para ofrecerse a ustedes, si se presentara la oportunidad de que pudiéramos servirles en este lugar, en la medida de nuestra vocación y oficio, para extinguir este escándalo que el diablo ha suscitado entre ustedes. Sin embargo, hemos considerado enviales a nuestro buen hermano y fiel ministro de Jesucristo, y antiguo pastor de su Iglesia, para darles a conocer el deseo que tenemos de servirles en nuestro Señor, y la solicitud que tenemos por la salvación de su Iglesia, suplicándoles, magníficos señores, que tengan en bien escuchar lo que él les presentará en nombre de nuestra asamblea, a fin de satisfacer nuestra conciencia, según el deber de nuestro ministerio que nos obliga y constriñe a interponernos en esta causa, ya que es eclesiástica y, por tanto, nos concierne, como miembros del mismo cuerpo. A tan magníficos y honorables señores, después de habernos encomendado humildemente a su buena gracia, rogamos al Señor Jesús, único buen pastor y gobernador de su Iglesia, que les aconseje bien en esta causa, por ser de gran importancia, y después de haber mitigado los problemas que el demonio intenta sembrar en su Iglesia para arruinar la obra y la edificación del Padre celestial, le rogamos también que procure que se mantengan siempre en buena prosperidad.</p>
+<closer>
+      <dateline>Desde <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</placeName>, <date when="1541-09-29">este 29 de septiembre de 1541</date>.
+      </dateline> 
+      <salute>Sus humildes servidores en nuestro Señor.</salute>
+      <signed><persName key="Jean Calvin" ref="#"><choice><orig>JÉHAN</orig><reg>JEAN</reg></choice> CALVIN</persName></signed>
+<signed><persName key="Aimé Champereau">AYMÉ CHAMPEREAU</persName>.</signed>
+<signed><persName key="Jacques Bernard">JACQUES BERNARD</persName>.</signed>
+      </closer>
+      <postscript>
+<p>La suma de las cosas que deseamos que nuestro hermano y maestro <persName key="Pierre Viret" ref="https://www.wikidata.org/wiki/Q123337" corresp="#viret">Pierre Viret</persName> presente a la señoría de <placeName key="Neuchâtel" ref="https://www.wikidata.org/wiki/Q69345" corresp="#neuchatel">Neuchâtel</placeName> en nuestro nombre, pidiéndole que siga lo que viene a continuación como instrucción.</p>
+<p>En primer lugar tendrá que excusar nuestra injerencia en este asunto, declarándoles que es el deber de nuestro oficio, pues la comunión de los santos implica que principalmente las Iglesias vecinas tengan la mutua solicitud de fortalecerse entre sí. Y cuando surja alguna necesidad de la una, que la otra provea. Pero que además de esto, tenemos por demás en singular recomendación su Iglesia, y que nos concierne más de cerca por varias causas que este podrá citar.</p>
+<p>Después les presentará qué orden creemos que debe guardarse en la Iglesia al deponer a un ministro, a saber, que debe hacerse, como mandan las Escrituras, en forma de juicio, incluso espiritual, y no de sedición ni tumulto. Y cuando se hace lo contrario, que es una deshonra para Dios y una perturbación de la vigilancia de su santa ciudad.</p>
+<p>Que si un hombre es removido de su lugar sin justa causa y razón, y es obligado a abandonar la Iglesia a la que ha servido fielmente, y así es retirado injustamente de la vocación en la que ha sido constituido por Dios, ese hombre no solo es ultrajado por este medio, sino también Dios, ya que su legítima vocación es violada y hecha vana.</p>
+<p>Igualmente qué opinión tenemos de <persName type="surname" key="Guillaume Farel" ref="https://www.wikidata.org/wiki/Q435456" corresp="#farel">Farel</persName>, y en qué estima le tienen todos los fieles: es que juzgamos que siempre se ha entregado bien y fielmente a la obra de nuestro Señor, y sin embargo, que no se le puede privar del ministerio, hasta que aparezca indicio de lo contrario, sino es contra derecho y razón.</p>
+<p>Advertirles de los inconvenientes que pueden surgir tanto en la ciudad como fuera de ella. Sobre todo por los escándalos que se producirán. Que será para difamar el Evangelio de nuestro Señor entre los malvados; para ofender a todos los justos, para perturbar a los que no están firmes en la fe, y que como su Iglesia ha sido bien conocida, que será tanto más denostada.</p>
+<p>Que en su ciudad se podrán inflamar aun más los ánimos, hasta el punto de haber motines y enfrentamientos. E incluso que entre los ministros podría surgir algún cisma. Alegar si lo considera oportuno algunos ejemplos antiguos, sin referirse a la época actual. Por último, advertirles qué es lo que la ira de Dios suele acarrear, cuando la provocamos, como lo haríamos cometiendo tales desórdenes.</p>
+<p>Luego, en su nombre, él podrá añadir lo que le plazca, después de haber declarado estas cosas en nuestro nombre.</p>
+</postscript>
+ <closer>
+      <signed><persName key="Juan Calvino">JUAN CALVINO</persName></signed>
+      </closer>
+  </body>
+ </text>
+</TEI>

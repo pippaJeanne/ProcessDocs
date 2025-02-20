@@ -48,12 +48,13 @@
 <msIdentifier>
   <settlement>Genève</settlement>
   <repository>Bibliothèque de Genève</repository>
-  <idno type="cote">Ms. fr. 194 (f.1r-2r)</idno>
+  <idno type="cote">Ms. fr. 194 (f. 15-18)</idno>
 </msIdentifier>
 <facsimile>
 <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f001r.jpg"/>
 <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f001v.jpg"/>
 <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f002r.jpg"/>
+<graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f002v.jpg"/>
 </facsimile>
 </msDesc>
   <notesStmt>
@@ -71,7 +72,7 @@
   <date when="1543-10-14">14 octobre 1543</date>
  </correspAction>
  <correspAction type="received">
-  <name type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">À Monsieur de Fallais</name>
+  <name type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Monsieur de Fallais</name>
   <settlement cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</settlement>
  </correspAction>
  <correspContext>
@@ -95,14 +96,14 @@
 <text>
 <body>
 <opener>
-<address><addrLine>Au <persName type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Monsieur de Fallais</persName><note n="*" place="bottom"><p>Au dos : A mon bon seigneur et amy sire Jacques Le Franc. – Jacques de Bourgogne, seigneur de Falais et de Bréda en Brabant, arrière-petit-fils naturel de Philippe le Beau, duc de Bourgogne. Elevé à la cour de Charles-Quint, ce seigneur adopta, dès sa jeunesse, la foi réformée, et ne pouvant la professer librement sous le régime espagnol, il quitta sa patrie, d'après les conseils de Calvin, abandonnant tous ses biens qui furent confisqués par un arrêt de la cour de Malines. Voué dès lors à un perpétuel exil, il habita successivement Cologne, Strasbourg, Bâle, Genève, et entretint une correspondance active avec le réformateur qui le combla des marques de son amitié, et lui dédia en 1546 son Commentaire sur la première épître de saint Paul aux Corinthiens. Ces bonnes relations furent malheureusement troublées à la suite du procès de Jérôme Boisée, dont M. de Falais prit ouvertement le parti contre Calvin. Ce dernier ressentit vivement cet acte d'hostilité de la part d'un ami, avec lequel il rompit sans retour en 1552. Les lettres de Calvin à M. de Falais ont été publiées en 1744, à Amsterdam, d'après les originaux longtemps conservés dans cette ville. On les reproduit ici, dans un ordre chronologique plus éxact, revues et corrigées avec soin sur les originaux actuellement déposés à la Bibliothèque de Genève, en y joignant plusieurs pièces inédites.</p></note>
+<address><addrLine>À <persName type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Monsieur de Fallais</persName><note n="*" place="bottom"><p>Au dos : A mon bon seigneur et amy sire Jacques Le Franc. – Jacques de Bourgogne, seigneur de Falais et de Bréda en Brabant, arrière-petit-fils naturel de Philippe le Beau, duc de Bourgogne. Elevé à la cour de Charles-Quint, ce seigneur adopta, dès sa jeunesse, la foi réformée, et ne pouvant la professer librement sous le régime espagnol, il quitta sa patrie, d'après les conseils de Calvin, abandonnant tous ses biens qui furent confisqués par un arrêt de la cour de Malines. Voué dès lors à un perpétuel exil, il habita successivement Cologne, Strasbourg, Bâle, Genève, et entretint une correspondance active avec le réformateur qui le combla des marques de son amitié, et lui dédia en 1546 son Commentaire sur la première épître de saint Paul aux Corinthiens. Ces bonnes relations furent malheureusement troublées à la suite du procès de Jérôme Boisée, dont M. de Falais prit ouvertement le parti contre Calvin. Ce dernier ressentit vivement cet acte d'hostilité de la part d'un ami, avec lequel il rompit sans retour en 1552. Les lettres de Calvin à M. de Falais ont été publiées en 1744, à Amsterdam, d'après les originaux longtemps conservés dans cette ville. On les reproduit ici, dans un ordre chronologique plus éxact, revues et corrigées avec soin sur les originaux actuellement déposés à la Bibliothèque de Genève, en y joignant plusieurs pièces inédites.</p></note>
 </addrLine>
 </address>
-<dateline xml:id="opener"><placeName></placeName>(<date when="1543-10-14">14 octobre 1543</date>)
+<dateline xml:id="opener"><placeName cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</placeName>, (<date when="1543-10-14">14 octobre 1543</date>)
 </dateline>
 <hi rend="bold"><label type='nature'>Orig. Autographe</label>. Bibl. de Genève. Vol. 194.</hi>
 <hi xml:id="editorNote">
-[Maintenant sous la cote Ms. fr. 194 (f. 1r-2r)]</hi>
+[Maintenant sous la cote Ms. fr. 194 (f. 15-18)]</hi>
 <salute>Monsieur,</salute>
 </opener>
 <p><choice><orig>combien</orig><reg>bien</reg></choice> que ce soit contre la façon <choice><orig>acoustumé</orig><reg>accoutumé</reg></choice>e des hommes, que <choice><orig>je use</orig><reg>j'use</reg></choice> de telle <choice><orig>privaulté</orig><reg>privauté</reg></choice> envers vous de vous <choice><orig>escrire</orig><reg>écrire</reg></choice> familièrement, <choice><orig>devant que</orig><reg>avant de</reg></choice> vous <choice><orig>estre</orig><reg>être</reg></choice> beaucoup <choice><orig>congneu</orig><reg>connu</reg></choice>, <choice><orig>toutesfois</orig><reg>toutefois</reg></choice> puisque je me tiens <choice><orig>asseuré</orig><reg>assuré</reg></choice> que mes lettres seront <choice><orig>bien venues</orig><reg>bienvenues</reg></choice> vers vous, ce <choice><orig>seroit</orig><reg>serait</reg></choice> hypocrisie à <choice><orig>moy</orig><reg>moi</reg></choice> d'en faire longues excuses comme si j'en <choice><orig>doubtoye</orig><reg>doutais</reg></choice>. Pourtant je <choice><orig>feray</orig><reg>ferai</reg></choice> en <choice><orig>cest</orig><reg>cet</reg></choice> endroit comme l'un de vos <choice><orig>amy</orig><reg>ami</reg></choice>s, sans <choice><orig>aultre</orig><reg>autre</reg></choice> préface.</p>

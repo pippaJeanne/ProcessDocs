@@ -1,15 +1,5 @@
 [
        {
-              "name": "Bienne",
-              "desc": "ville et commune du canton de Berne en Suisse",
-              "url": "http://www.wikidata.org/entity/Q1034",
-              "coord": {
-                     "lat": "47.137222222",
-                     "lon": "7.247222222"
-              },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/CH%20Biel%20Altstadt-7.JPG"
-       },
-       {
               "name": "Ferrare",
               "desc": "commune italienne",
               "url": "http://www.wikidata.org/entity/Q13362",
@@ -60,6 +50,16 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Vuevilledeneuchatel.jpg"
        },
        {
+              "name": "Noyon",
+              "desc": "commune française du département de l'Oise",
+              "url": "http://www.wikidata.org/entity/Q49831",
+              "coord": {
+                     "lat": "49.581111111",
+                     "lon": "2.998888888"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cath%C3%A9drale%20de%20Noyon.JPG"
+       },
+       {
               "name": "Fallais",
               "desc": "section de Braives, Belgique",
               "url": "http://www.wikidata.org/entity/Q1575050",
@@ -80,14 +80,14 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/OGolfpractice.jpg"
        },
        {
-              "name": "Genève",
-              "desc": "ville de Suisse et chef-lieu du canton de Genève",
-              "url": "http://www.wikidata.org/entity/Q71",
+              "name": "Bienne",
+              "desc": "ville et commune du canton de Berne en Suisse",
+              "url": "http://www.wikidata.org/entity/Q1034",
               "coord": {
-                     "lat": "46.2",
-                     "lon": "6.15"
+                     "lat": "47.137222222",
+                     "lon": "7.247222222"
               },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Geneva%20from%20Mount%20Sal%C3%A8ve.jpg"
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Picswiss%20BE-98-20%20Biel-%20Stadthaus%20und%20Polizei%20%28Burgplatz%29.jpg"
        },
        {
               "name": "Berne",
@@ -98,6 +98,16 @@
                      "lon": "7.44743"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bern%20luftaufnahme.png"
+       },
+       {
+              "name": "Genève",
+              "desc": "ville de Suisse et chef-lieu du canton de Genève",
+              "url": "http://www.wikidata.org/entity/Q71",
+              "coord": {
+                     "lat": "46.2",
+                     "lon": "6.15"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Geneva%20from%20Mount%20Sal%C3%A8ve.jpg"
        },
        {
               "name": "Zurich",

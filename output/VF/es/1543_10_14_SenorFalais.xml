@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Carta al Señor de Fallais</title>
+<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+  <availability status="free">
+    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+         3.0 Unported License</licence>
+  </availability></publicationStmt>
+<sourceDesc corresp="M-Fallais14_10_43">
+ <bibl>
+  Traducción de la versión modernizada de  
+  <title level="a" rend="underline">Lettre à Monsieur de Fallais (14 octobre 1543)</title> editada por 
+ <editor><name> 
+    <forename>Yanet</forename>
+    <surname>Hernández Pedraza</surname></name></editor>.
+ </bibl>
+ <notesStmt>
+          <note>Las notas provienen de la edición de Jules Bonnet de 1854 
+            a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+ </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Juan Calvino</persName>
+  <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Ginebra]</settlement>
+  <date when="1543-10-14">[14 de octubre de 1543]</date>
+ </correspAction>
+ <correspAction type="received">
+  <name type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</name>
+  <settlement cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Calvino le da su consejo al señor de Fallais quien consideraba dejar los Países Bajos.</desc>
+ <list xml:id="tags">
+ <term>exilio</term>
+ <term>consejo</term>
+ </list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>Al <persName type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</persName><note n="*" place="bottom"><p>Al dorso: A mi buen señor y amigo sir Jacques Le Franc. -Jacques de Bourgogne, señor de Fallais y Bréda en Brabante, bisnieto natural de Filipe el Hermoso, duque de Borgoña. Criado en la corte de Carlos V, este señor adoptó la fe reformada en su juventud, y al no poder profesarla libremente bajo el régimen español, abandonó su patria, siguiendo el consejo de Calvino, abandonando todos sus bienes que fueron confiscados por una sentencia del tribunal de Malinas. Condenado desde entonces al exilio perpetuo, vivió sucesivamente en Colonia, Estrasburgo, Basilea y Ginebra. Mantuvo una activa correspondencia con el reformador, que le colmó de muestras de su amistad, y en 1546 le dedicó su Comentario a la Primera Epístola de San Pablo a los Corintios. Estas buenas relaciones se vieron desgraciadamente perturbadas por el proceso de Jerome Boisée, en el que el Sr. de Fallais se puso abiertamente en contra de Calvino. Este último sintió mucho este acto de hostilidad por parte de un amigo, con el que rompió sin retorno en 1552. Las cartas de Calvino al Sr. de Fallais fueron publicadas en 1744, en Ámsterdam, según los originales conservados durante mucho tiempo en esa ciudad. Se reproducen aquí, en un orden cronológico más exacto, revisado y corregido con cuidado sobre los originales ahora depositados en la Biblioteca de Ginebra, y con la adición de varias piezas inéditas.</p></note></addrLine>
+</address>
+<dateline xml:id="opener"><placeName cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</placeName>, (<date when="1543-10-14">14 de octubre de 1543</date>)
+</dateline>
+<hi rend="bold"><label type='nature'>Autógrafo original</label>. Bibl. de Ginebra. Vol. 194</hi>
+<hi xml:id="editorNote">
+[Ahora bajo la cota Ms. fr. 194 (f. 15-18)]</hi>
+<salute>Señor:</salute>
+</opener>
+<p>Aunque va en contra de la manera habitual de los hombres que yo utilice tal intimidad hacia usted para escribirle con familiaridad antes de ser muy conocido por usted, aun así, ya que estoy seguro de que mis cartas serán para Usted bienvenidas, sería una hipocresía de mi parte hacer largas excusas como si lo dudara. Sin embargo, lo haré en este lugar como uno de sus amigos, sin más preámbulos.</p>
+
+<p>El asunto que tengo que tratar con Usted requeriría que estuviéramos juntos para hablar por al menos medio día. Y, de hecho, he deseado repetidamente durante cuatro o cinco meses que Dios tuviera a bien darnos esta oportunidad. Pero he dudado si debería pedirle a Usted que emprendiera un viaje para que pudiéramos, luego de haber visto y considerado todo más en detalle, decidir lo que se debería hacer. Porque si se tratara de poner el asunto a discusión como dudoso, habría mucho que objetar y replicar antes de que pudiera resolverlo; sería casi una locura y una desconsideración por mi parte intentar hacerlo por carta. Pero al final he considerado que, por otro lado, si nuestro Señor ya le ha dado el valor de visitarnos sabiamente para que pueda descansar en nuestro Señor con nosotros, sería una pérdida de tiempo, y tanta demora y retraso aconsejarle de venir solo para ver cómo es, como para aconsejarle sobre esto. Por eso no sería de la opinión de que se tome esta molestia superflua para después volver a empezar, o incluso posible cuando la oportunidad no sea tal, como lo es en este momento.</p>
+
+<p>Soy muy consciente de la dificultad en la que se encuentra, si mira al mundo, y las consideraciones que pueden allí retenerle. Pero tiene que llegar a una conclusión firme para dejar de lado todo lo que se le presente para contradecirla. Es cierto que no debe tomarse a la ligera, es decir, sin fundamento; y sin saber por qué. Pero cuando tenga su conciencia asegurada con un testimonio mejor y más firme que el que pueda darle cualquier otro, debe aceptarlo por completo, y considerar que todos los impedimentos que surgen para desviarle son escándalos que Satanás le presenta para apartarle de su camino. Aunque, a mi entender, no necesita alegar muchas razones para mostrarle a Usted lo que se debe hacer según Dios. Creo que esto ya lo tiene Usted muy claro. Solo existe, por un lado, el arrepentimiento de lo que deja, por otro, el miedo a no encontrar lo que sería de desear. Pero todos los pesares del mundo pueden ser superados por este pensamiento, que no hay condición más desafortunada que vivir en la agitación de la mente, y tener una guerra continua dentro de uno mismo, o más bien ser atormentado por un tormento interior que no da tregua.</p>
+
+<p>Ahora pues, considere si puede tener paz con Dios y con su conciencia, perseverando en el estado en que se encuentra. Si la esperanza de algo mejor le retiene, en cuanto a lo primero le es obvio que el abismo siempre está creciendo y que se adentra en él más profundamente con el tiempo.</p>
+
+<p>En segundo lugar, si Dios quisiera enmendar el desorden actual, ¿qué alegría le a Usted daría decir – : Aunque mi amo fue desterrado de este país, estuve dispuesto a dejarlo para servirle; ahora que ha regresado, vuelvo para darle alabanzas? Aunque todavía no parezca que deba hacerse en breve. Sin embargo, lo más conveniente es retirarse de él, antes de que se sumerja Usted tanto en el fango que no pueda salir de él. Cuanto antes, mejor. Porque en tales cosas debemos aprovechar la oportunidad cuando se nos ofrece, considerando que cuando el Señor nos da los medios, es como si nos abriera la puerta, para que entonces entremos sin más demora, no sea que se cierre, aunque variemos en la consulta.</p>
+
+<p>Ahora bien, la ocasión principal la tomo en que él ha roto los lazos del corazón, tanto de Usted como de los que le acompañan, haciéndole fácil por el buen afecto que ha movido en usted, lo que de otro modo parece tan lleno de dificultad. En tal caso, debemos, según la exhortación del santo Apóstol, hacer uso de los dones del Espíritu, poniéndolos en práctica y ejecución, y no permitir que se amortigüen para que no se extingan del todo por nuestra despreocupación. Tener todas las comodidades a voluntad no es de esperar, porque cuando esto es así, ¿qué experiencia de su fe habría? No hay que dudar que nuestro padre Abraham opuso gran resistencia cuando hubo que dejar su país, y que no lo tenía todo a su alcance; sin embargo, se apresura a obedecer enseguida. Si somos sus hijos, es conveniente que le sigamos. No tenemos ninguna revelación expresa para salir del país, pero ya que se nos ordena honrar a Dios con el cuerpo y el alma dondequiera que estemos, ¿qué más queremos? Por eso estas cartas se dirigen también a nosotros: <hi rend="italic">Salid de la tierra que os vio nacer</hi>, cuando allí nos vemos obligados a actuar contra nuestra conciencia, y no podemos vivir para gloria de nuestro Dios. Además, nuestro Señor le dará la prudencia de disponer del medio, y de estar en el lugar adecuado para poder discernir mejor lo que los negocios de Usted dan. Para terminar, me gustaría que se esforzara en desarrollase lo más posible, para que pueda estar más alegre y libre, después de haberse desecho de los lazos que le atan, con los buenos amigos que tiene allí, que le ayudarán tanto con sus consejos como con sus esfuerzos.</p>
+
+<p>El buen señor que tanto ha deseado que le eche a Usted una mano<note n="1" place="bottom"><p>David de Busanton, señor de Hainaut, se retiró a Ginebra.</p></note> se va, ofreciéndose a hacer todo lo que pueda por su parte para cumplir con su deber; y ciertamente el celo que él tiene debe animarle y ser como un nuevo acicate, para aumentar e inflamar la buena donación que ya Usted posee.</p>
+
+<p>Ahora bien, puesto que lo demás no puede apresurarse por medio de cartas, me gustaría, no obstante, rogar a nuestro buen Padre celestial, que se complazca en abrir más y más sus ojos para poder contemplar lo que ya le ha dado en parte, dándole también la fuerza y la constancia para seguir el camino que le muestra. Por último, que le dirija en todo y en todas partes por su Espíritu Santo, manteniéndole en su protección. Con esto me encomiendo humildemente a su buena gracia, sin olvidar la buena compañía de los buenos señores que a Usted le acompañan.</p>
+
+ <closer>
+      <dateline><placeName></placeName>(<date when="1543-10-14">14 de octubre de 1543</date>)
+      </dateline> 
+      <salute>Su servidor, humilde hermano y completo amigo,</salute>
+      <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES d'ESPEVILLE</persName>.</signed>
+      </closer>
+  </body>
+ </text>
+</TEI>

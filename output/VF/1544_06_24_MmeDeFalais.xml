@@ -45,7 +45,7 @@
 <msIdentifier>
   <settlement>Genève</settlement>
   <repository>Bibliothèque de Genève</repository>
-  <idno type="cote">Ms. fr. 194 (f. 9r)</idno>
+  <idno type="cote">Ms. fr. 194 (f. 31)</idno>
 </msIdentifier>
 <facsimile>
 <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f009r.jpg"/>
@@ -67,7 +67,7 @@
   <date when="1544-06-24">24 juin (1544)</date>
  </correspAction>
  <correspAction type="received">
-  <name type="individu" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">À Madame de Fallais</name>
+  <name type="individu" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Madame de Fallais</name>
   <settlement cert="low" key="Cologne" ref="https://www.wikidata.org/wiki/Q365" corresp="#Cologne">Cologne</settlement>
  </correspAction>
  <correspContext>
@@ -93,11 +93,11 @@
 <opener>
 <address><addrLine>À <persName type="individu" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Madame de Fallais</persName></addrLine>
 </address>
-<dateline xml:id="opener"><placeName></placeName><date when="1544-06-24">24 juin (1544)</date>
+<dateline xml:id="opener"><placeName cert="low" key="Cologne" ref="https://www.wikidata.org/wiki/Q365" corresp="#Cologne">Cologne</placeName>, le <date when="1544-06-24">24 juin (1544)</date>
 </dateline>
 <hi rend="bold"><label type='nature'>Orig. autographe</label>. Bibl. de Genève. Vol. 145.</hi>
 <hi xml:id="editorNote">
-[Maintenant sous la cote Ms. fr. 145 (f. 9r)]</hi>
+[Maintenant sous la cote Ms. fr. 145 (f. 31)]</hi>
 <salute><choice><orig>Madamoiselle</orig><reg>Mademoiselle</reg></choice> et bien <choice><orig>aymée</orig><reg>aimée</reg></choice> <choice><orig>seur</orig><reg>sœur</reg></choice>,</salute>
 </opener>
 <p><choice><orig>combien</orig><reg>bien</reg></choice> que j'<choice><orig>aurois</orig><reg>aurais</reg></choice> un désir singulier de vous voir, et qu'il me <choice><orig>face</orig><reg>fasse</reg></choice> bien mal d'<choice><orig>estre</orig><reg>être</reg></choice> frustré de l'espérance que j'en <choice><orig>avoye</orig><reg>avais</reg></choice> <choice><orig>conceu</orig><reg>conçu</reg></choice>, toutefois je <choice><orig>rens</orig><reg>rends</reg></choice> grâces à <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur de l'ouverture qu'il vous a faite, que sans vous <choice><orig>eslongner</orig><reg>éloigner</reg></choice> des <choice><orig>vostres</orig><reg>votres</reg></choice>, il vous est permis de l'adorer en pure conscience, et hors des pollutions de l'idolâtrie en laquelle vous avez <choice><orig>esté</orig><reg>été</reg></choice> captive.</p>
@@ -111,7 +111,7 @@
 <p>Je ne sais pas la <choice><orig>compaignie</orig><reg>compagnie</reg></choice> qui est présentement avec vous, mais si ceux que le seigneur <persName type="forename" key="David">David</persName> y laissa avec <choice><orig>celluy</orig><reg>celui</reg></choice> qu'on <choice><orig>attendoit</orig><reg>attendait</reg></choice> y <choice><orig>estoient</orig><reg>étaient</reg></choice>, je <choice><orig>souhaiste</orig><reg>souhaite</reg></choice> d'<choice><orig>estre</orig><reg>être</reg></choice> recommandé à leur bonne grâce, <choice><orig>aultant</orig><reg>autant</reg></choice> affectueusement qu'il est possible. Non pas que je vous vueille donner <choice><orig>ceste</orig><reg>cette</reg></choice> <choice><orig>poine</orig><reg>peine</reg></choice>, mais eux-<choice><orig>mesme</orig><reg>même</reg></choice>s pourront bien recevoir les recommandations que je désire leur <choice><orig>estre</orig><reg>être</reg></choice> présentées. <choice><orig>De rechef</orig><reg>Derechef</reg></choice> je prie <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur de vous guider <choice><orig>tousjours</orig><reg>toujours</reg></choice>, comme il a <choice><orig>faict</orig><reg>fait</reg></choice> <choice><orig>jusque icy</orig><reg>jusqu'ici</reg></choice>.</p>
 
  <closer>
-      <dateline>Le <placeName></placeName><date when="1544-06-24">24 de juin (1544)</date>.
+      <dateline><placeName></placeName>Le <date when="1544-06-24">24 de juin (1544)</date>.
       </dateline> 
       <salute><choice><orig>Vostre</orig><reg>Votre</reg></choice> serviteur et humble frère à jamais,</salute>
       <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES d'ESPEVILLE</persName>.</signed>

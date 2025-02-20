@@ -30,12 +30,6 @@
               "img": ""
        },
        {
-              "name": "Antoine de Bourbon (1518 - 1562)",
-              "desc": "Roi consort de Navarre",
-              "url": "http://www.wikidata.org/entity/Q310334",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20-%20Portrait%20of%20Anthony%20of%20Bourbon%20%281518%E2%80%931562%29%2C%20King%20of%20Navarre%20-%20MNK%20XII-294%20-%20National%20Museum%20Krak%C3%B3w.jpg"
-       },
-       {
               "name": "Renée de France (1510 - 1575)",
               "desc": "aristocrate française",
               "url": "http://www.wikidata.org/entity/Q235841",
@@ -46,6 +40,12 @@
               "desc": "réformateur et théologien alsacien (1478-1541)",
               "url": "http://www.wikidata.org/entity/Q1368362",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/WolfgangCapito.jpg"
+       },
+       {
+              "name": "François Ier de France (1494 - 1547)",
+              "desc": "roi de France de 1515 à 1547",
+              "url": "http://www.wikidata.org/entity/Q129857",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ier%20Louvre.jpg"
        },
        {
               "name": "Édouard VI d'Angleterre (1537 - 1553)",
@@ -60,10 +60,10 @@
               "img": ""
        },
        {
-              "name": "François Ier (1494 - 1547)",
-              "desc": "roi de France de 1515 à 1547",
-              "url": "http://www.wikidata.org/entity/Q129857",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ier%20Louvre.jpg"
+              "name": "Antoine de Bourbon (1518 - 1562)",
+              "desc": "roi consort de Navarre",
+              "url": "http://www.wikidata.org/entity/Q310334",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20-%20Portrait%20of%20Anthony%20of%20Bourbon%20%281518%E2%80%931562%29%2C%20King%20of%20Navarre%20-%20MNK%20XII-294%20-%20National%20Museum%20Krak%C3%B3w.jpg"
        },
        {
               "name": "Guillaume Farel (1489 - 1565)",

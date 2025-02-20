@@ -69,7 +69,7 @@
   <date when="1541-09-29"> 29 septembre 1541</date>
  </correspAction>
  <correspAction type="received">
-  <name type="collectivité" key="Consistoire de Neuchâtel" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-neuchatel">Aux Seigneurs de Neuchâtel</name>
+  <name type="collectivité" key="Consistoire de Neuchâtel" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-neuchatel">Seigneurs de Neuchâtel</name>
   <settlement key="Neuchâtel" ref="https://www.wikidata.org/wiki/Q69345" corresp="#neuchatel">Neuchâtel</settlement>
  </correspAction>
  <correspContext>
@@ -83,7 +83,7 @@
   </ref>
 </correspContext>
  </correspDesc>
-<desc>Lettre de la part des ministres de Genève, y compris Calvin, adressée à ceux de Nauchâtel afin de les persuader de ne pas déposer Guillaume Farel après avoir censuré publiquement une dame de qualité. Cette lettre a été portée par Pierre Viret et contient des instructions de Calvin pour son intervention devant la seigneurie de Neuchâtel.</desc>
+<desc>Lettre de la part des ministres de Genève, y compris Calvin, adressée à ceux de Neuchâtel afin de les persuader de ne pas déposer Guillaume Farel après avoir censuré publiquement une dame de qualité. Cette lettre a été portée par Pierre Viret et contient des instructions de Calvin pour son intervention devant la seigneurie de Neuchâtel.</desc>
 <list xml:id="tags">
 <term>défense</term>
 <term>conseil</term>
@@ -96,7 +96,7 @@
 <body>
 <opener>
 <address><addrLine>Aux <persName type="collectivité" key="Consistoire de Neuchâtel" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-neuchatel">Seigneurs de Neuchâtel</persName><note n="*" place="bottom"><p>Au dos: De la main de Viret: « Lettres envoyées à ceulx de Neufchastel quant on vouloit chasser Farel leur ministre, portées par Viret, envoyé de la part des ministres de Genève avec les instructions suyvantes pour leur monstrer en leur conseil. »</p> 
-<p>Inflexible dans l'exercice des devoirs de son ministère, Farel avait publiquement censuré, dans un de ses discours, une dame de qualité dont la conduite était un sujet de scandale pour l'église de Neuchâtel. Irrités de cette censure, les parents de cette dame émurent une partie de la bourgeoisie contre le courageux ministre, et en obtinrent une sentence de révocation qui ne fut annulée que par l'intervention des seigneurs de Berne, et des principales églises suisses. Ruchat : <hi rend="italic">Histoire de la Réformation en Suisse</hi>, t. V, p. 164 et suivantes.</p></note></addrLine>
+<p>Inflexible dans l'exercice des devoirs de son ministère, Farel avait publiquement censuré, dans un de ses discours, une dame de qualité dont la conduite était un sujet de scandale pour l'église de Neuchâtel. Irrités de cette censure, les parents de cette dame émurent une partie de la bourgeoisie contre le courageux ministre, et en obtinrent une sentence de révocation qui ne fut annulée que par l'intervention des seigneurs de Berne, et des principales églises suisses. Ruchat : <title key="Histoire de la Réformation en Suisse" rend="italic">Histoire de la Réformation en Suisse</title>, t. V, p. 164 et suivantes.</p></note></addrLine>
 </address>
 <dateline xml:id="opener"><placeName key="Neuchâtel" ref="https://www.wikidata.org/wiki/Q69345" corresp="#neuchatel">Neuchâtel</placeName>, le <date when="1541-09-29">29 septembre 1541</date>
 </dateline>

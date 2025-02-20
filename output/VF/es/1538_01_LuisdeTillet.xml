@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" n="testms" xml:id="Tilletz01-38">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Carta a Louis de Tillet</title>
+<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+  <availability status="free">
+    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+         3.0 Unported License</licence>
+  </availability></publicationStmt>
+<sourceDesc corresp="Tilletz01-38">
+ <bibl>
+  Traducción de la versión modernizada de
+  <title level="a" rend="underline">Lettre à Louis du Tillet (31 janvier 1538)</title> editada por 
+ <editor><name>
+    <forename>Yanet</forename>
+    <surname>Hernández Pedraza</surname></name></editor>.
+ </bibl>
+ <notesStmt>
+          <note>Las notas provienen de la edición de Jules Bonnet de 1854 
+          a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+ </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Juan Calvino
+  <addName type="pseudonym">Charles d'Espeville</addName></persName>
+  <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
+  <date when="1538-01-31">31 de enero de 1538</date>
+ </correspAction>
+ <correspAction type="received">
+   <name type='individuo' key="Louis de Tillet" ref="https://www.wikidata.org/wiki/Q3263586">Louis de Tillet</name>
+  <settlement key="Estrasburgo" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Respuesta de Juan Calvino a Louis de Tillet después de haber recibido la carta donde Louis de Tillet le informaba de su decisión de regresar a la fe católica.</desc>
+<list xml:id="tags">
+<term>fe</term>
+<term>teología</term>
+<term>iglesia</term>
+<term>iglesia reformada</term>
+</list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>A <persName key="Louis de Tillet" ref="https://www.wikidata.org/wiki/Q3263586" corresp="#louis-tilletz">Louis de Tillet</persName><note n="*" place="bottom"><p>Louis de Tillet, párroco de Claix en Poitou, canónigo y archidiácono de Angoulême. Era hermano de Jean de Tillet, el famoso secretario del Parlamento de París, y de este otro de Tillet que se convirtió en obispo de Saint-Brieuc y Meaux. Consacrado a la carrera eclesiástica, sus primeras inclinaciones le llevaron a la Reforma. Conoció a Calvino en la Universidad de París, se hizo amigo de él, compartió sus peligros y lo recibió, en 1534, en Angulema, en su propia casa. Unido desde entonces al joven reformador por la comunidad de creencias, renunció a su parroquia de Claix para seguirlo, bajo el nombre de Haulmont a Estrasburgo, a Baie y a Italia. Este se encontraba en Ginebra (agosto de 1536) cuando Calvino fue detenido allí por las vehementes súplicas de Farel. Pero las luchas a las que fue condenado el reformador a partir de ese momento poco se ajustaban al alma contemplativa y amable de Louis de Tillet. Atormentado por la duda, abandonó en secreto Ginebra y se fue a Estrasburgo, donde sus incertidumbres cesaron solo con su regreso a la fe católica. Le escribió a Calvino para informarle de este cambio y para presentarle sus escrúpulos sobre la legitimidad del ministerio en las iglesias reformadas. Calvino respondió, y esta polémica, libre, sincera, pero moderada por el respeto, marcó las últimas relaciones de estos dos hombres, unidos al principio y demasiado pronto separados por la revolución religiosa del siglo XVI.</p></note></addrLine>
+</address>
+<dateline xml:id="opener"><placeName key="Estrasburgo" corresp="#Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>, <date when="1538-01-31">31 de enero de 1538</date>
+</dateline>
+
+<hi rend="bold"><label type='nature'>Copia</label>. Biblioteca imperial de París. Mss. français. Baluzc. 8069-r.</hi>
+<hi xml:id="editorNote">
+[Ahora Biblioteca National de Francia (BNF). Gallica. Français 2391]</hi>
+<salute>Señor:</salute>
+</opener>
+  <p>Ocho días antes de recibir las cartas que había usted dejado a su partida para que me fuesen enviadas, <persName type="forename" key="Jean de Tillet" ref="https://www.wikidata.org/wiki/Q3175826" corresp="#jean_tillet">Jean</persName><note n="1" place="bottom">
+   <p>Jean de Tillet, hermano de Louis, más tarde elevado a los honores del episcopado. Educado en lenguas antiguas y en arqueología sagrada, le habían sido confiadas varias misiones científicas por Francisco I, y había visitado Ginebra en uno de sus viajes.</p></note> ya estaba aquí; de manera que algunas semanas antes de recibir noticia alguna de usted, el rumor de 
+   su partida llegaba hasta aquí. Si bien tal incertidumbre me contrarió bastante, me abstenía, sin embargo, de emitir mi juicio 
+   cuanto me era posible. Lo que más me molestaba y atormentaba era el temor de haberle ofendido por mi imprudencia, como conozco y 
+   reconozco que no tuve hacia usted la moderación que le debo. Bien que es cierto que su compañía y conversación me era de tal 
+   provecho que la ausencia no me podía ser agradable; pero dado que le veía languidecer aquí, sobrellevaba pacientemente lo que me 
+   desfallecía, ya que estimaba su consuelo como recompensa suficiente. Al final, cuando sus cartas llegaron de los dos 
+   lados, por estas llegué a conocer parte de su intención a usted. Sin embargo, si bien es evidente que mi compañía no podía serle 
+   agradable ante la falta de educación y rudeza que le demostraba, yo confío, no obstante, que esta causa no le haya alienado ni 
+   apartado de nosotros, lo que se deriva más de la prudencia que ha mostrado al soportarme en tal momento, que de un comportamiento correcto de mi parte.</p>
+    <p>No le puedo disimular que haya estado considerablemente atónito después de conocer su intención e incluso las razones contenidas junto a la declaración de esta en sus cartas. Lo que más me sorprende es que yo le estimaba tan firme y resuelto en estos asuntos que no fuera posible, de ninguna manera, hacerle a usted cambiar de opinión; y aun cuando usted no hubiese tenido un sólido fundamento en el camino que ya había emprendido, este cambio tan súbito me resulta realmente extraño, vista la constancia y firmeza que usted demostraba. Dios quiera, sin embargo, que sea asumido por los demás de la misma manera en que yo me esfuerzo por hacerlo.
+    </p>
+ <p>En cuanto a las razones que le movieron en esta deliberación, no puedo percibirlas como muy perentorias. Sé muy bien que mi conciencia está bastante segura ante Dios de lo contrario, y espero que así sea hasta el día en que tenga que comparecer ante Dios. Además, o mucho me equivoco o he declarado tanto la razón de mi causa que todos deben estar contentos, solo algunos se perdonan con demasiada facilidad, a los demás les gustaría dar entrada a Jesucristo por los caminos por los que este no quiere de manera alguna andar. No tengo ninguna duda de que las ilustres personas que usted menciona<note n="2" place="bottom"><p><persName key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucero">Bucero</persName> y <persName key="Wolfgang Capito" ref="https://www.wikidata.org/wiki/Q1368362" corresp="#capito">Capito</persName>, reformadores de Estrasburgo</p></note> no le hubieran ayudado, sin pensarlo, a llegar a tal conclusión, aunque al tocar este asunto en cartas a mí dirigidas, lo disimulan. Y ciertamente la gran doctrina y piedad que hay en ellos tiene gran apariencia de dar autoridad a sus consejos. Pero estoy seguro de que en este asunto tendré, además de los brillantes argumentos, más color que ellos, cuando me haya puesto una máscara para hacerme parecer a ellos. Ambos me obligan por su manera de hacer las cosas, a desear en ellos mayor firmeza y consistencia. Cualquiera que sea el mérito que uno tenga, nunca se siente bien ser tan liberal al difundir el bien de los demás, y si tenemos que tener cuidado de dar generosamente a expensas de los hombres, ¿qué garantía debe tener el precio de gastar la verdad de Dios?, la cual no se nos encomienda para disminuir en nada. Ruego al Señor que quiera darnos la inteligencia necesaria para entender que no quiere ser servido a medias, como nuestra insensatez quiere dividir su porción, sino plenamente de acuerdo con su voluntad.</p> 
+      
+      <p>Si reconoce como Iglesias de Dios a aquellas que nos aborrecen, eso se lo dejo a usted. Pero estaríamos muy mal si así fuese. Porque ciertamente no puede darles este título a menos que nos considere cismáticos, y en tal caso debe considerar cómo va a concertar su opinión con la sentencia de nuestro maestro: <hi rend="italic">
+       Quodcumque ligaveritis</hi><note n="3" place="bottom" type="tradLat"><p>Todo lo que atares cf. Mateo 18:18</p></note>, etc. Si usted escucha que siempre quedan allí algunas reliquias de la bendición de Dios, como San Pablo afirma de los israelitas, bien puede escuchar que estoy de acuerdo con usted, ya que a veces le he declarado que tal es mi juicio, incluso hasta a las Iglesias griegas. Pero esto no quiere decir que en la asamblea deba reconocerse la Iglesia. Y si la reconocemos allí, esta será nuestra, no de Jesucristo, que marca la suya con otros signos, cuando dice: 
+       <hi rend="italic">Oves meœ vocem meam audiunt</hi><note n="4" place="bottom" type="tradLat"><p>Mis ovejas oyen mi voz</p></note>, y San Pablo cuando la llama «<hi rend="italic">Columna de verdad</hi>». Me responderá que esta no se encontrará en ninguna parte, ya que en todas partes hay ignorancia: pero la ignorancia es tal entre los hijos de Dios que no les impide seguir su voluntad.</p>
+
+       <p>Cuando se trata de comparar tales compañías con las sinagogas de los judíos, me da miedo insultarlos al no preferirlos a los otros, o al menos al relegarlos, porque la idolatría no es tal allí, ni tan horribles las abominaciones. Lo que podemos ver de bueno es común entre los dos, excepto que parece ser una gran ventaja que el nombre de Jesucristo sea confesado por los unos, no por los otros. Pero la virtud no está menos abolida. O si queremos encontrar una comparación más limpia, es un estado como el que había en el pueblo de Israel, bajo Jeroboam, o incluso bajo Acab, cuando los espíritus por larga costumbre eran más corruptos: no les digo estas cosas sin causa, porque percibo cuántos empiezan (?) a adularse bajo el título de Iglesia, condenando audazmente todo lo que no se les parece; de lo que darán cuenta. Que vean con qué derecho lo hacen, porque sé muy bien que nuestra seguridad es demasiado acertada para ceder a vanas objeciones. En cuanto a usted, no considero que nos estime de otra manera que como si entablara conversación con nosotros, pero es un paso hacia una separación de la Iglesia de Dios, cuando uno se une a lo que le es contrario. Además, creo conocer en usted tal temor de Dios que tendría que ver grandes argumentos para privarme de la persuasión de lo que he concebido. Sin embargo, tenga la seguridad de que los primeros informes leves no tendrán tanto poder sobre mí como para revertir la experiencia que he tenido de usted durante tantos años. Pero, aunque le apoyo en esta enfermedad, y no le opongo más resistencia que si usted estuviera entre nosotros, de ninguna manera puedo dar mi consentimiento a esta empresa. Y prefiero abandonar el mundo por amarga muerte, que aprobar este hecho de usted, que sé que es condenable en sí mismo, y además de eso, lleno de ruina, o al menos de maravillosas ofensas para muchos, con lo que percibo como la prontitud que tenemos de inducir a otros a hacer lo mismo para justificarnos. Sin embargo, de aquellas cosas de las que por el momento está usted decidido, no voy a discutir mucho. Prefiero rogar al Señor para que le plazca liberarle de todo escrúpulo, y que su camino le sea a usted simple y abierto en este lugar, a la espera de la oportunidad que se le ofrecerá.</p>
+
+<p>En cuanto a la partida de <persName>Loïs Dartois</persName>, nunca sospeché que procediese de usted, especialmente cuando se me informó recientemente de lo contrario. Pero fue una débil astucia de su parte esconder de mí las cosas en las que no puede engañar a Dios, porque no es cosa ligera el tentar a Dios; los que lo hacen de manera voluntaria, retornan al cautiverio. Las bolsas húmedas con las que estamos acostumbrados a cubrirnos delante de los hombres no pueden soportar el calor del juicio de Dios.</p>
+
+<p>Hace tiempo me ha dado a conocer que el suyo era mío de su gracia. Quiera Dios que le pueda estar bien agradecido a usted. Mis compañeros se encomiendan a usted, cuyo juicio es como el mío, aunque he intentado, sin mostrar sus cartas, obviar todas las ofensas. No podía dar otro consejo a <persName type="forename" key="Jean de Tillet" ref="https://www.wikidata.org/wiki/Q3175826" corresp="#jean_tillet">Jean</persName> que el que dictaba mi conciencia, si no quería pecar de traidor a la verdad de Dios y su salvación, cosa que no tomará a mal. Le ruego que se acuerde de especial manera de nosotros en sus oraciones, y aunque el conocimiento que tiene de nuestra enfermedad le debe incitar lo suficiente, sin embargo, las dificultades que atravesamos le deben inflamar aún más, las cuales son más grandes que nunca.</p>
+
+<p>Después de encomendarme humildemente a su gracia, ruego al Señor que le tenga en su santa protección y que le dirija de manera que no decline en el camino resbaladizo en que se encontra hasta que le haya mostrado la completa liberación.</p>
+
+<p>Perdóneme si la presente está escrita de manera bastante confusa, en parte a causa de poco tiempo, y en parte a los problemas que tenemos, además de ser un asunto que no me era apropiado tratar. </p>
+
+
+      <closer>
+       <dateline>Desde <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Villefranche</placeName><note n="5" place="bottom"><p>ciudad liberada (Ginebra)</p></note><date when="1538-01-31">, este último de enero (1538<note n="6" place="bottom"><p>El año comenzaba en Ginebra el 25 de diciembre, día de Navidad, en contra de la práctica seguida en Francia, que contaba el año a partir de la Pascua</p></note>)</date>.
+      </dateline> 
+      <salute>Su humilde servidor y hermano,</salute>
+       <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName><note n="7" place="bottom"><p>Nombre adoptado por Calvino durante su retiro en Angulema y su viaje a Italia (1534, 1536)</p></note>
+      </signed>
+      </closer>
+  </body>
+ </text>
+</TEI>

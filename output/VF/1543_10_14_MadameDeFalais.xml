@@ -64,7 +64,7 @@
   <date when="1543-10-14">14 octobre (1543)</date>
  </correspAction>
  <correspAction type="received">
-  <name type="individu" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">À Madame de Fallais</name>
+  <name type="individu" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Madame de Fallais</name>
   <settlement cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</settlement>
  </correspAction>
  <correspContext>
@@ -90,7 +90,7 @@
 <opener>
 <address><addrLine>À <persName type="individu" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Madame de Fallais</persName><note n="*" place="bottom"><p>Au dos: A Madame et bonne seur Madame Katerine Le Franc.</p><p>Jolande de Bréderode, de l'antique et illustre maison des comtes de Hollande, tante de Henri de Bréderode qui présenta, en 1566, la requête des quatre cents nobles réformés des Pays-Bas à Marguerite d'Autriche, et posa ainsi les fondements de la liberté des Provinces-Unies. Ame stoïque et généreuse, Madame de Fallais partageait les sentiments de son mari, et elle s'associa noblement aux sacrifices qu'il accomplit pour obtenir la liberté de conscience.</p></note></addrLine>
 </address>
-<dateline xml:id="opener"><placeName></placeName><date when="1543-10-14">14 octobre (1543)</date>
+<dateline xml:id="opener"><placeName cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</placeName>, le <date when="1543-10-14">14 octobre (1543)</date>
 </dateline>
 <hi rend="bold"><label type='nature'>Orig. Autographe</label>. Bibl. de Genève. Vol. 194.</hi>
 <hi xml:id="editorNote">
@@ -104,7 +104,7 @@
 <p>Si ces lettres vous <choice><orig>devoient</orig><reg>doivent</reg></choice> <choice><orig>estre</orig><reg>être</reg></choice> présentées par un messager <choice><orig>estrange</orig><reg>étrange</reg></choice>, je <choice><orig>seroye</orig><reg>serait</reg></choice> possible plus long; mais quand le <choice><orig>messaiger</orig><reg>messager</reg></choice> peut lui-même <choice><orig>supplyer</orig><reg>supplier</reg></choice> au dé<choice><orig>fault</orig><reg>faut</reg></choice> de lettres, il ne <choice><orig>luy</orig><reg>lui</reg></choice> <choice><orig>fault</orig><reg>faut</reg></choice> pas faire ce déshonneur d'<choice><orig>escrire</orig><reg>écrire</reg></choice> tout ce qu'on <choice><orig>veult</orig><reg>veut</reg></choice> faire <choice><orig>sçavoir</orig><reg>savoir</reg></choice>, comme s'il n'<choice><orig>avoit</orig><reg>avait</reg></choice> point de bouche pour parler. A <choice><orig>ceste</orig><reg>cette</reg></choice> cause je <choice><orig>feray</orig><reg>ferai</reg></choice> fin à ces présentes, après m'<choice><orig>estre</orig><reg>être</reg></choice> affectueusement recommandé à <choice><orig>vostre</orig><reg>votre</reg></choice> bonne grâce, et avoir <choice><orig>pryé</orig><reg>prié</reg></choice> <choice><orig>nostre</orig><reg>notre</reg></choice> Seigneur de vouloir <choice><orig>poursuyvre</orig><reg>poursuivre</reg></choice> son œuvre en vous, en vous conduisant par son <choice><orig>Sainct</orig><reg>Saint</reg></choice> <choice><orig>Esperit</orig><reg>Esprit</reg></choice>, tant à la <choice><orig>congnoissance</orig><reg>connaissance</reg></choice> qu'à l'obéissance de sa bonne volonté, donnant aussi la force et la prudence à <choice><orig>cellui</orig><reg>celui</reg></choice> qui <choice><orig>doibt</orig><reg>doit</reg></choice> <choice><orig>estre</orig><reg>être</reg></choice> <choice><orig>vostre</orig><reg>votre</reg></choice> guide, de vous précéder pour vous inciter par son exemple, et vous faisant aussi la grâce d'<choice><orig>estre</orig><reg>être</reg></choice> son <choice><orig>ayde</orig><reg>aide</reg></choice> comme il l'a ordonné. J'<choice><orig>attenderay</orig><reg>attenderai</reg></choice> le retour du bon sieur présent porteur, non sans grand désir de vous voir.</p> 
 
  <closer>
-      <dateline>Ce<placeName></placeName> <date when="1543-10-14">14 octobre (1543)</date>.
+      <dateline><placeName></placeName>Ce <date when="1543-10-14">14 octobre (1543)</date>.
       </dateline> 
       <salute><choice><orig>Vostre</orig><reg>Votre</reg></choice> serviteur, humble frère et entier <choice><orig>amy</orig><reg>ami</reg></choice>,</salute>
       <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName></signed>
