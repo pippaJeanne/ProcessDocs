@@ -66,7 +66,7 @@
   <date when="1553-03-12">12 de mars 1553</date>
  </correspAction>
  <correspAction type="received">
-  <name type="individu" key="Édouard VI" ref="https://www.wikidata.org/wiki/Q83229" corresp="#edouard-VI">Au roi d'Angleterre</name>
+  <name type="individu" key="Édouard VI" ref="https://www.wikidata.org/wiki/Q83229" corresp="#edouard-VI">roi d'Angleterre</name>
   <settlement cert="medium" key="Londres" ref="https://www.wikidata.org/wiki/Q84" corresp="#londres">Londres</settlement>
  </correspAction>
  <correspContext>

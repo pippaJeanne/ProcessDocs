@@ -67,7 +67,7 @@
   <date when="1552-01">(1552)</date>
  </correspAction>
  <correspAction type="received">
-  <name type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">À Monsieur de Fallais</name>
+  <name type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Monsieur de Fallais</name>
   <settlement cert="medium" key="Veigy-Foncenex" ref="https://www.wikidata.org/wiki/Q774121" corresp="#Veigy">[Veigy-Foncenex]</settlement>
  </correspAction>
  <correspContext>
