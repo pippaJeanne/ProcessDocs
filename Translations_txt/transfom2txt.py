@@ -1,8 +1,9 @@
 # pip install saxonche
 from saxonche import *
 from saxonche import PySaxonProcessor
+import re
 #path to input xml file
-doc = "output/VF/1543_fin_MFalais.xml" #Change file path
+doc = "output/VF/1538_07_10_LuoisDuTillets.xml" #Change file path
 slices = doc.split("/")
 name = slices[-1].replace(".xml",".txt") #Change format txt | md
 print(name)
@@ -16,7 +17,9 @@ with PySaxonProcessor(license=False) as proc:
    executable = xsltproc.compile_stylesheet(stylesheet_file=xsltfile)
    output = executable.transform_to_string(xdm_node=document)
    #write name of output file
-   outfile = open(f"{outpath}{name}", 'w', encoding='utf8') 
-   outfile.write(output)
+   txtOk = re.sub("\s+\n+\s", "\n\n", output)
+   txtOk1 = re.sub("\s{2,}", "\n", txtOk)
+   outfile = open(f"{outpath}{name}", 'w', encoding='utf8')
+   outfile.write(txtOk1)
    
 print("Done!")

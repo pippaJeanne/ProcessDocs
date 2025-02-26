@@ -11,7 +11,7 @@
 </xsl:template>
 
 <xsl:template match="text/*">
-   <xsl:apply-templates/>
+    <xsl:value-of select="."/>
 </xsl:template>
 
 <xsl:template match="profileDesc/*">
@@ -25,15 +25,15 @@
 <xsl:text>
 </xsl:text><xsl:apply-templates/>
 </xsl:template>
-
-<xsl:template match="choice/orig">
+<!--
+<xsl:template match="//choice/orig">
 </xsl:template>
 
-<xsl:template match="choice/sic">
+<xsl:template match="//choice/sic">
 </xsl:template>
 
-<xsl:template match="del">
+<xsl:template match="//del">
 </xsl:template>
-
+-->
 
 </xsl:stylesheet>
