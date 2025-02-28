@@ -24,6 +24,8 @@
 <xsl:template match="body//note">
 <xsl:text>
 </xsl:text><xsl:apply-templates/>
+<xsl:text>
+</xsl:text>
 </xsl:template>
 <!--
 <xsl:template match="//choice/orig">
