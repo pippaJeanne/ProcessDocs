@@ -52,11 +52,11 @@ with PySaxonProcessor(license=False) as proc:
 
 for i in range(len(setfr)):
      for o in range(len(setes)):
-        sets = []
-        if i == o and setfr[i] not in sets and setes[o] not in sets:
-             sets.append(setfr[i])
-             sets.append(setes[o])
-        if sets != []:
+        sets = {}
+        if i == o: # and setfr[i] not in sets and setes[o] not in sets:
+             sets["input"] = (setfr[i])
+             sets["output"] = (setes[o])
+        if sets != {}:
             training_data.append(sets) 
 #print(train_set)
 jsonfile = json.dumps(training_data, indent=3, ensure_ascii = False)
