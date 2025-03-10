@@ -4,7 +4,7 @@ import json
 from SPARQLWrapper import SPARQLWrapper, JSON
 #get json file contianing the data
 placedata = {}
-with open("data_json/wikiIds.json", "r") as indexData:
+with open("data_json/wikiIds_es.json", "r") as indexData:
   placedata = json.load(indexData) 
 # Preparing data for query
 # Getting access keys 
@@ -42,7 +42,7 @@ for w in wikilist:
 # To execute query | Pass values for queries
 urlWikidata = "https://query.wikidata.org/sparql"
 sparql_wiki = SPARQLWrapper(urlWikidata)
-query = "\n PREFIX wdt: <http://www.wikidata.org/prop/direct/> \n PREFIX wd: <http://www.wikidata.org/entity/> \n PREFIX wikibase: <http://wikiba.se/ontology#> \n PREFIX geof: <http://www.opengis.net/def/geosparql/function/> \n SELECT DISTINCT ?item ?itemLabel ?itemDescription ?coord ?lon ?lat ?img \n  WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr' } \n }"
+query = "\n PREFIX wdt: <http://www.wikidata.org/prop/direct/> \n PREFIX wd: <http://www.wikidata.org/entity/> \n PREFIX wikibase: <http://wikiba.se/ontology#> \n PREFIX geof: <http://www.opengis.net/def/geosparql/function/> \n SELECT DISTINCT ?item ?itemLabel ?itemDescription ?coord ?lon ?lat ?img \n  WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'es' } \n }"
 print(query)
 sparql_wiki.setQuery(query)
 sparql_wiki.setReturnFormat(JSON)
@@ -86,7 +86,7 @@ if len(wikilist) > limit:
 "PREFIX wikibase: <http://wikiba.se/ontology#> \n"
 "PREFIX geof: <http://www.opengis.net/def/geosparql/function/> \n "
 "SELECT DISTINCT ?item ?itemLabel ?itemDescription ?coord ?lon ?lat ?img\n "
-"WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr' } \n"
+"WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'es' } \n"
 "}"
 )
   sparql_wiki.setReturnFormat(JSON)
@@ -116,14 +116,14 @@ if len(wikilist) > limit:
 jsonfile = places
 print(jsonfile)
 json_obj = json.dumps(jsonfile, indent=7, ensure_ascii = False)
-with open("data_json/placeData_MapIndex.json", "w") as outfile:
+with open("data_json/placeData_MapIndex_es.json", "w") as outfile:
     outfile.write(json_obj)
     print("Done!")
 
 # Create files for query
 jsonfile1 = query
 json_obj1 = json.dumps(jsonfile1, indent=7, ensure_ascii = False)
-with open("placesQuery.txt", "w") as outfile:
+with open("placesQueryEs.txt", "w") as outfile:
     outfile.write(json_obj1)
     print("Done!")
 

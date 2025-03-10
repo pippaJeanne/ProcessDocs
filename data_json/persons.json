@@ -8,37 +8,37 @@
                             {
                                    "slug": "1538_01_LouisduTillet",
                                    "date": "31 janvier 1538",
-                                   "headline": "À Louis du Tillet"
+                                   "headline": "Louis du Tillet"
                             },
                             {
                                    "slug": "1538_07_10_LuoisDuTillets",
                                    "date": "10 juillet 1538",
-                                   "headline": "À Louis du Tillet"
+                                   "headline": "Louis du Tillet"
                             },
                             {
                                    "slug": "1543_10_14_MadameDeFalais",
                                    "date": "14 octobre (1543)",
-                                   "headline": "À Madame de Fallais"
+                                   "headline": "Madame de Fallais"
                             },
                             {
                                    "slug": "1543_10_14_MonsieurFalais",
-                                   "date": "14 octobre 1543",
-                                   "headline": "À Monsieur de Fallais"
+                                   "date": "[14 octobre 1543]",
+                                   "headline": "Monsieur de Fallais"
                             },
                             {
                                    "slug": "1543_fin_MFalais",
-                                   "date": "fin 1543",
+                                   "date": "[fin 1543]",
                                    "headline": "Monsieur de Fallais"
                             },
                             {
                                    "slug": "1544_06_24_MmeDeFalais",
                                    "date": "24 juin (1544)",
-                                   "headline": "À Madame de Fallais"
+                                   "headline": "Madame de Fallais"
                             },
                             {
-                                   "slug": "1546_MadameDEBude",
+                                   "slug": "1546_01_20_MadameDEBude",
                                    "date": "[20 ** 1546]",
-                                   "headline": "À Madame de Budé"
+                                   "headline": "Madame de Budé"
                             }
                      ],
                      "id": "#espeville"
@@ -51,7 +51,7 @@
                             {
                                    "slug": "1541_09_29_SeigneursNeuchatel",
                                    "date": " 29 septembre 1541",
-                                   "headline": "Aux Seigneurs de Neuchâtel"
+                                   "headline": "Seigneurs de Neuchâtel"
                             }
                      ],
                      "id": "#conseil-neuchatel"
@@ -59,17 +59,17 @@
               {
                      "name": "Martin Bucer (1491 - 1551)",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Buzer%20%28Bucer%29.jpg",
-                     "desc": "Réformateur protestant alsacien",
+                     "desc": "réformateur protestant alsacien",
                      "letters": [
                             {
                                    "slug": "1538_01_LouisduTillet",
                                    "date": "31 janvier 1538",
-                                   "headline": "À Louis du Tillet"
+                                   "headline": "Louis du Tillet"
                             },
                             {
                                    "slug": "1538_07_10_LuoisDuTillets",
                                    "date": "10 juillet 1538",
-                                   "headline": "À Louis du Tillet"
+                                   "headline": "Louis du Tillet"
                             }
                      ],
                      "id": "#bucer"
@@ -82,12 +82,12 @@
                             {
                                    "slug": "1543_10_14_MadameDeFalais",
                                    "date": "14 octobre (1543)",
-                                   "headline": "À Madame de Fallais"
+                                   "headline": "Madame de Fallais"
                             },
                             {
                                    "slug": "1544_06_24_MmeDeFalais",
                                    "date": "24 juin (1544)",
-                                   "headline": "À Madame de Fallais"
+                                   "headline": "Madame de Fallais"
                             }
                      ],
                      "id": "#jolande_brederode"
@@ -95,17 +95,17 @@
               {
                      "name": "Louis du Tillet",
                      "thumbnail": "",
-                     "desc": "Prêtre catholique français",
+                     "desc": "prêtre catholique français",
                      "letters": [
                             {
                                    "slug": "1538_01_LouisduTillet",
                                    "date": "31 janvier 1538",
-                                   "headline": "À Louis du Tillet"
+                                   "headline": "Louis du Tillet"
                             },
                             {
                                    "slug": "1538_07_10_LuoisDuTillets",
                                    "date": "10 juillet 1538",
-                                   "headline": "À Louis du Tillet"
+                                   "headline": "Louis du Tillet"
                             }
                      ],
                      "id": "#louis-tilletz"
@@ -113,17 +113,17 @@
               {
                      "name": "Wolfgang Fabricius Köpfel Capiton (1478 - 1541)",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/WolfgangCapito.jpg",
-                     "desc": "Réformateur et théologien alsacien (1478-1541)",
+                     "desc": "réformateur et théologien alsacien (1478-1541)",
                      "letters": [
                             {
                                    "slug": "1538_01_LouisduTillet",
                                    "date": "31 janvier 1538",
-                                   "headline": "À Louis du Tillet"
+                                   "headline": "Louis du Tillet"
                             },
                             {
                                    "slug": "1538_07_10_LuoisDuTillets",
                                    "date": "10 juillet 1538",
-                                   "headline": "À Louis du Tillet"
+                                   "headline": "Louis du Tillet"
                             }
                      ],
                      "id": "#capiton"
@@ -131,12 +131,12 @@
               {
                      "name": "Édouard VI d'Angleterre (1537 - 1553)",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20VI%20of%20England%20c.%201546.jpg",
-                     "desc": "Roi d'Angleterre de 1547 à 1553",
+                     "desc": "roi d'Angleterre de 1547 à 1553",
                      "letters": [
                             {
                                    "slug": "1553_03_12_RoiDAngleterre",
                                    "date": "12 de mars 1553",
-                                   "headline": "Au roi d'Angleterre"
+                                   "headline": "roi d'Angleterre"
                             }
                      ],
                      "id": "#edouard-VI"
@@ -149,12 +149,12 @@
                             {
                                    "slug": "1538_01_LouisduTillet",
                                    "date": "31 janvier 1538",
-                                   "headline": "À Louis du Tillet"
+                                   "headline": "Louis du Tillet"
                             },
                             {
                                    "slug": "1538_07_10_LuoisDuTillets",
                                    "date": "10 juillet 1538",
-                                   "headline": "À Louis du Tillet"
+                                   "headline": "Louis du Tillet"
                             }
                      ],
                      "id": "#jehan"
@@ -162,12 +162,12 @@
               {
                      "name": "Antoine de Bourbon (1518 - 1562)",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20-%20Portrait%20of%20Anthony%20of%20Bourbon%20%281518%E2%80%931562%29%2C%20King%20of%20Navarre%20-%20MNK%20XII-294%20-%20National%20Museum%20Krak%C3%B3w.jpg",
-                     "desc": "Roi consort de Navarre",
+                     "desc": "roi consort de Navarre",
                      "letters": [
                             {
                                    "slug": "1553_03_12_RoiDAngleterre",
                                    "date": "12 de mars 1553",
-                                   "headline": "Au roi d'Angleterre"
+                                   "headline": "roi d'Angleterre"
                             }
                      ],
                      "id": "#vendome"
@@ -175,12 +175,12 @@
               {
                      "name": "Guillaume Farel (1489 - 1565)",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/William-Farel.jpg",
-                     "desc": "Réformateur d'origine dauphinoise en Suisse romande",
+                     "desc": "réformateur d'origine dauphinoise en Suisse romande",
                      "letters": [
                             {
                                    "slug": "1541_09_29_SeigneursNeuchatel",
                                    "date": " 29 septembre 1541",
-                                   "headline": "Aux Seigneurs de Neuchâtel"
+                                   "headline": "Seigneurs de Neuchâtel"
                             }
                      ],
                      "id": "#farel"
@@ -188,12 +188,12 @@
               {
                      "name": "Renée de France (1510 - 1574)",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Renee%20de%20france.jpg",
-                     "desc": "Aristocrate française",
+                     "desc": "aristocrate française",
                      "letters": [
                             {
                                    "slug": "1541_10_DuchesseFerrare",
                                    "date": "[octobre 1541]",
-                                   "headline": "À la Duchesse de Ferrare"
+                                   "headline": "Duchesse de Ferrare"
                             }
                      ],
                      "id": "#renee-de-france"
@@ -206,12 +206,12 @@
                             {
                                    "slug": "1541_02_19_SeigneursGeneve",
                                    "date": " 19 février 1541",
-                                   "headline": "Aux Seigneurs de Genève"
+                                   "headline": "Seigneurs de Genève"
                             },
                             {
                                    "slug": "1552_10_06_SeigeursDeGeneve",
-                                   "date": "6 octobre 1552",
-                                   "headline": "Aux Seigneurs de Genève"
+                                   "date": "[6 octobre 1552]",
+                                   "headline": "Seigneurs de Genève"
                             }
                      ],
                      "id": "#conseil-geneve"
@@ -223,18 +223,18 @@
                      "letters": [
                             {
                                    "slug": "1543_10_14_MonsieurFalais",
-                                   "date": "14 octobre 1543",
-                                   "headline": "À Monsieur de Fallais"
+                                   "date": "[14 octobre 1543]",
+                                   "headline": "Monsieur de Fallais"
                             },
                             {
                                    "slug": "1543_fin_MFalais",
-                                   "date": "fin 1543",
+                                   "date": "[fin 1543]",
                                    "headline": "Monsieur de Fallais"
                             },
                             {
                                    "slug": "1552_Monsieur-deFalais",
-                                   "date": "1552",
-                                   "headline": "À Monsieur de Fallais"
+                                   "date": "[1552]",
+                                   "headline": "Monsieur de Fallais"
                             }
                      ],
                      "id": "#jacques-bourgogne"
@@ -242,12 +242,12 @@
               {
                      "name": "Philippe Mélanchthon (1497 - 1560)",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg",
-                     "desc": "Humaniste, philosophe et réformateur protestant allemand",
+                     "desc": "humaniste, philosophe et réformateur protestant allemand",
                      "letters": [
                             {
                                    "slug": "1552_10_06_SeigeursDeGeneve",
-                                   "date": "6 octobre 1552",
-                                   "headline": "Aux Seigneurs de Genève"
+                                   "date": "[6 octobre 1552]",
+                                   "headline": "Seigneurs de Genève"
                             }
                      ],
                      "id": "#melanchthon"
@@ -255,12 +255,12 @@
               {
                      "name": "Sébastien Castellion (1515 - 1563)",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/SebastianCastellio.jpg",
-                     "desc": "Humaniste, bibliste et théologien protestant français",
+                     "desc": "humaniste, bibliste et théologien protestant français",
                      "letters": [
                             {
                                    "slug": "1552_Monsieur-deFalais",
-                                   "date": "1552",
-                                   "headline": "À Monsieur de Fallais"
+                                   "date": "[1552]",
+                                   "headline": "Monsieur de Fallais"
                             }
                      ],
                      "id": "#castalion"
@@ -273,12 +273,12 @@
                             {
                                    "slug": "1541_02_19_SeigneursGeneve",
                                    "date": " 19 février 1541",
-                                   "headline": "Aux Seigneurs de Genève"
+                                   "headline": "Seigneurs de Genève"
                             },
                             {
                                    "slug": "1541_09_29_SeigneursNeuchatel",
                                    "date": " 29 septembre 1541",
-                                   "headline": "Aux Seigneurs de Neuchâtel"
+                                   "headline": "Seigneurs de Neuchâtel"
                             }
                      ],
                      "id": "#viret"
@@ -291,7 +291,7 @@
                             {
                                    "slug": "1541_10_DuchesseFerrare",
                                    "date": "[octobre 1541]",
-                                   "headline": "À la Duchesse de Ferrare"
+                                   "headline": "Duchesse de Ferrare"
                             }
                      ],
                      "id": "#annePartenay"
@@ -299,12 +299,12 @@
               {
                      "name": "Roberte Le Lyeur",
                      "thumbnail": "",
-                     "desc": "Épouse de Guillaume Budé",
+                     "desc": "épouse de Guillaume Budé",
                      "letters": [
                             {
-                                   "slug": "1546_MadameDEBude",
+                                   "slug": "1546_01_20_MadameDEBude",
                                    "date": "[20 ** 1546]",
-                                   "headline": "À Madame de Budé"
+                                   "headline": "Madame de Budé"
                             }
                      ],
                      "id": "#madame-bude"

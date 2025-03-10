@@ -1,0 +1,326 @@
+{
+       "events": [
+              {
+                     "slug": "1538_01_LuisdeTillet",
+                     "start_date": {
+                            "year": "1538",
+                            "month": "01",
+                            "day": "31"
+                     },
+                     "display_date": "31 de enero de 1538",
+                     "text": {
+                            "headline": "Louis de Tillet",
+                            "text": "Respuesta de Juan Calvino a Louis de Tillet después de haber recibido la carta donde Louis de Tillet le informaba de su decisión de regresar a la fe católica."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Estrasburgo",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     }
+              },
+              {
+                     "slug": "1538_07_10_LouisTillet",
+                     "start_date": {
+                            "year": "1538",
+                            "month": "07",
+                            "day": "10"
+                     },
+                     "display_date": "10 de julio de 1538",
+                     "text": {
+                            "headline": "Louis de Tillet",
+                            "text": "Carta de Calvino a Louis de Tillet en la que Calvino habla de su exilio de Ginebra y de su traslado a Estrasburgo."
+                     },
+                     "scr_location": {
+                            "name": "Estrasburgo",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     },
+                     "dest_location": {
+                            "name": "París",
+                            "lat": "48.856666666",
+                            "lon": "2.352222222"
+                     }
+              },
+              {
+                     "slug": "1541_02_19_senoresGinebra",
+                     "start_date": {
+                            "year": "1541",
+                            "month": "02",
+                            "day": "19"
+                     },
+                     "display_date": " 19 de febrero de 1541",
+                     "text": {
+                            "headline": "Señores de Ginebra",
+                            "text": "En el contexto del Coloquio de Ratisbona, el cual fue un importante debate teológico entre los católicos y los protestantes, Juan Calvino, luego de que Guillaume Farel solicitara su regreso a Ginebra, explica las razones de su llegada tardía y reafirma su compromiso con la iglesia."
+                     },
+                     "scr_location": {
+                            "name": "Estrasburgo",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     },
+                     "dest_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     }
+              },
+              {
+                     "slug": "1541_09_29_senoresNeuchatel",
+                     "start_date": {
+                            "year": "1538",
+                            "month": "09",
+                            "day": "29"
+                     },
+                     "display_date": " 29 de septiembre de 1541",
+                     "text": {
+                            "headline": "A los señores de Neuchâtel",
+                            "text": "Carta de los ministros de Ginebra, entre los que se incluye Calvino, dirigida a los de Neuchâtel para persuadirles de no deponer a Guillaume Farel luego de haber censurado públicamente una dama de sociedad. Esta carta fue enviada con Pierre Viret y contiene instrucciones de Calvino para su intervención delante del Consistorio de Neuchâtel."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Neuchâtel",
+                            "lat": "46.990277777",
+                            "lon": "6.930555555"
+                     }
+              },
+              {
+                     "slug": "1541_10_duquesaFerrara",
+                     "start_date": {
+                            "year": "1541",
+                            "month": "10",
+                            "day": "01"
+                     },
+                     "display_date": "[octubre 1541]",
+                     "text": {
+                            "headline": "A la duquesa de Ferrara",
+                            "text": "Calvino instruye acerca de los errores de la misa."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Ferrara]",
+                            "lat": "44.835297",
+                            "lon": "11.619865"
+                     }
+              },
+              {
+                     "slug": "1543_10_14_SenorFalais",
+                     "start_date": {
+                            "year": "1543",
+                            "month": "10",
+                            "day": "14"
+                     },
+                     "display_date": "[14 de octubre de 1543]",
+                     "text": {
+                            "headline": "Señor de Fallais",
+                            "text": "Calvino le da su consejo al señor de Fallais quien consideraba dejar los Países Bajos."
+                     },
+                     "scr_location": {
+                            "name": "[Ginebra]",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Fallais]",
+                            "lat": "50.6111",
+                            "lon": "5.1711"
+                     }
+              },
+              {
+                     "slug": "1543_10_14_SenoraFalais",
+                     "start_date": {
+                            "year": "1543",
+                            "month": "10",
+                            "day": "14"
+                     },
+                     "display_date": "14 de octubre de (1543)",
+                     "text": {
+                            "headline": "Señora de Fallais",
+                            "text": "Calvino da aliento a la Señora de Fallais quien compartía los sentimientos de su esposo con respecto a la religión reformada."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Fallais]",
+                            "lat": "50.6111",
+                            "lon": "5.1711"
+                     }
+              },
+              {
+                     "slug": "1543_finales_SenorDeFalais",
+                     "start_date": {
+                            "year": "1543",
+                            "month": "12",
+                            "day": "01"
+                     },
+                     "display_date": "[finales de 1543]",
+                     "text": {
+                            "headline": "Señor de Fallais",
+                            "text": "Carta de Calvino al señor de Fallais en la que Calvino nuevamente anima este último a abandonar su país debido a sus creencias religiosas."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Fallais]",
+                            "lat": "50.6111",
+                            "lon": "5.1711"
+                     }
+              },
+              {
+                     "slug": "1544_06_24_SraDeFalais",
+                     "start_date": {
+                            "year": "1544",
+                            "month": "06",
+                            "day": "24"
+                     },
+                     "display_date": "24 de junio de 1544",
+                     "text": {
+                            "headline": "Señora de Fallais",
+                            "text": "Ánimo a la señora de Fallais en su nueva vida de libertad de conciencia y de culto luego de haber seguido a su marido a Colonia y a Estrasburgo."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Colonia",
+                            "lat": "50.942222222",
+                            "lon": "6.957777777"
+                     }
+              },
+              {
+                     "slug": "1546_01_20_SraDeBude",
+                     "start_date": {
+                            "year": "1546",
+                            "month": "01",
+                            "day": "20"
+                     },
+                     "display_date": "[20 ** 1546]",
+                     "text": {
+                            "headline": "Señora de Budé",
+                            "text": "Calvino aconseja a la señora de Budé retirarse a Ginebra."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "París",
+                            "lat": "48.856666666",
+                            "lon": "2.352222222"
+                     }
+              },
+              {
+                     "slug": "1548_06_NuevoCreyente",
+                     "start_date": {
+                            "year": "1548",
+                            "month": "06",
+                            "day": "13"
+                     },
+                     "display_date": "13 de junio de [1548]",
+                     "text": {
+                            "headline": "Nuevo creyente",
+                            "text": "Respuesta a una pregunta acerca de la misa y aliento en la fe."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     }
+              },
+              {
+                     "slug": "1552_10_06_SenoresDeGinebra",
+                     "start_date": {
+                            "year": "1552",
+                            "month": "10",
+                            "day": "06"
+                     },
+                     "display_date": "[6 de octubre de 1552]",
+                     "text": {
+                            "headline": "Señores de Ginebra",
+                            "text": "Respuesta de Calvino a las acusaciones de Jean Trolliet concerniendo su doctrina."
+                     },
+                     "scr_location": {
+                            "name": "[Ginebra]",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     }
+              },
+              {
+                     "slug": "1552_SrDeFalais",
+                     "start_date": {
+                            "year": "1552",
+                            "month": "01",
+                            "day": "01"
+                     },
+                     "display_date": "[1552]",
+                     "text": {
+                            "headline": "Señor de Fallais",
+                            "text": "Última carta de Calvino al señor de Fallais. Ruptura de Calvino con el señor de Fallais cuando este último tomó abiertamente el partido de Jérôme Bolsec contra Calvino."
+                     },
+                     "scr_location": {
+                            "name": "[Ginebra]",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Veigy-Foncenex]",
+                            "lat": "46.271944444",
+                            "lon": "6.258888888"
+                     }
+              },
+              {
+                     "slug": "1553_03_12_ReyInglaterra",
+                     "start_date": {
+                            "year": "1553",
+                            "month": "03",
+                            "day": "12"
+                     },
+                     "display_date": "12 de marzo de 1553",
+                     "text": {
+                            "headline": "Rey de Inglaterra",
+                            "text": "Intercesión de Calvino ante el rey de Inglaterra a favor de un gentilhombre perseguido a causa de la religión."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Londres",
+                            "lat": "51.507222222",
+                            "lon": "-0.1275"
+                     }
+              }
+       ]
+}

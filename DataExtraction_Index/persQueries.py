@@ -190,6 +190,6 @@ with open("data_json/persIndex.json", "w") as outfile:
 # Create files for query
 jsonfile1 = query_wiki
 #query_text = json.dumps(jsonfile1, indent=7, ensure_ascii = False)
-with open("persQuery.txt", "w") as outfile:
+with open("persQueryes.txt", "w") as outfile:
     outfile.write(jsonfile1)
     print("Done!")

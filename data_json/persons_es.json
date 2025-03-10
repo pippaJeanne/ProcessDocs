@@ -1,0 +1,220 @@
+{
+       "persons_es": [
+              {
+                     "name": "Charles d'Espeville",
+                     "thumbnail": "",
+                     "desc": "Seudónimo adoptado por Calvino durante su retiro en Angulema y su viaje a Italia (1534, 1536). [@fuente: nota 7, Carta del 31 de enero de 1538 a Louis de Tillet]",
+                     "letters": [
+                            {
+                                   "slug": "1538_01_LuisdeTillet",
+                                   "date": "31 de enero de 1538",
+                                   "headline": "Louis de Tillet"
+                            },
+                            {
+                                   "slug": "1538_07_10_LouisTillet",
+                                   "date": "10 de julio de 1538",
+                                   "headline": "Louis de Tillet"
+                            },
+                            {
+                                   "slug": "1543_10_14_SenorFalais",
+                                   "date": "[14 de octubre de 1543]",
+                                   "headline": "Señor de Fallais"
+                            },
+                            {
+                                   "slug": "1543_10_14_SenoraFalais",
+                                   "date": "14 de octubre de (1543)",
+                                   "headline": "Señora de Fallais"
+                            },
+                            {
+                                   "slug": "1543_finales_SenorDeFalais",
+                                   "date": "[finales de 1543]",
+                                   "headline": "Señor de Fallais"
+                            },
+                            {
+                                   "slug": "1544_06_24_SraDeFalais",
+                                   "date": "24 de junio de 1544",
+                                   "headline": "Señora de Fallais"
+                            },
+                            {
+                                   "slug": "1546_01_20_SraDeBude",
+                                   "date": "[20 ** 1546]",
+                                   "headline": "Señora de Budé"
+                            }
+                     ],
+                     "id": "#espeville"
+              },
+              {
+                     "name": "Consistorio de Neuchâtel",
+                     "thumbnail": "",
+                     "desc": "Consejo eclesiástico de Neuchâtel del siglo XVI al XVIII",
+                     "letters": [
+                            {
+                                   "slug": "1541_09_29_senoresNeuchatel",
+                                   "date": " 29 de septiembre de 1541",
+                                   "headline": "A los señores de Neuchâtel"
+                            }
+                     ],
+                     "id": "#conseil-neuchatel"
+              },
+              {
+                     "name": "Wolfgang Capito (1478 - 1541)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/WolfgangCapito.jpg",
+                     "desc": "reformador y teólogo alemán",
+                     "letters": [
+                            {
+                                   "slug": "1538_01_LuisdeTillet",
+                                   "date": "31 de enero de 1538",
+                                   "headline": "Louis de Tillet"
+                            },
+                            {
+                                   "slug": "1538_07_10_LouisTillet",
+                                   "date": "10 de julio de 1538",
+                                   "headline": "Louis de Tillet"
+                            }
+                     ],
+                     "id": "#capito"
+              },
+              {
+                     "name": "Jacques de Bourgogne",
+                     "thumbnail": "",
+                     "desc": "Noble flamenco y corresponsal de Calvino quien le apoyó inicialmente",
+                     "letters": [
+                            {
+                                   "slug": "1543_10_14_SenorFalais",
+                                   "date": "[14 de octubre de 1543]",
+                                   "headline": "Señor de Fallais"
+                            },
+                            {
+                                   "slug": "1543_finales_SenorDeFalais",
+                                   "date": "[finales de 1543]",
+                                   "headline": "Señor de Fallais"
+                            },
+                            {
+                                   "slug": "1552_SrDeFalais",
+                                   "date": "[1552]",
+                                   "headline": "Señor de Fallais"
+                            }
+                     ],
+                     "id": "#jacques-bourgogne"
+              },
+              {
+                     "name": "Yolande de Brederode",
+                     "thumbnail": "",
+                     "desc": "Aristócrata de la casa de los condes de Holanda y esposa de Jacques de Bourgogne",
+                     "letters": [
+                            {
+                                   "slug": "1544_06_24_SraDeFalais",
+                                   "date": "24 de junio de 1544",
+                                   "headline": "Señora de Fallais"
+                            }
+                     ],
+                     "id": "#jolande_brederode"
+              },
+              {
+                     "name": "Consistorio de Ginebra",
+                     "thumbnail": "",
+                     "desc": "Consejo eclesiástico suizo vigente del siglo XVI al XVIII",
+                     "letters": [
+                            {
+                                   "slug": "1541_02_19_senoresGinebra",
+                                   "date": " 19 de febrero de 1541",
+                                   "headline": "Señores de Ginebra"
+                            },
+                            {
+                                   "slug": "1552_10_06_SenoresDeGinebra",
+                                   "date": "[6 de octubre de 1552]",
+                                   "headline": "Señores de Ginebra"
+                            }
+                     ],
+                     "id": "#conseil-geneve"
+              },
+              {
+                     "name": "Eduardo VI de Inglaterra (1537 - 1553)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20VI%20of%20England%20c.%201546.jpg",
+                     "desc": "Rey de Inglaterra (1547–1553)",
+                     "letters": [
+                            {
+                                   "slug": "1553_03_12_ReyInglaterra",
+                                   "date": "12 de marzo de 1553",
+                                   "headline": "Rey de Inglaterra"
+                            }
+                     ],
+                     "id": "#edouard-VI"
+              },
+              {
+                     "name": "Renata de Francia (1510 - 1574)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Renee%20de%20france.jpg",
+                     "desc": "Aristócrata francesa",
+                     "letters": [
+                            {
+                                   "slug": "1541_10_duquesaFerrara",
+                                   "date": "[octubre 1541]",
+                                   "headline": "A la duquesa de Ferrara"
+                            }
+                     ],
+                     "id": "#renee-de-france"
+              },
+              {
+                     "name": "Pierre Viret (1511 - 1571)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/PierreViret.jpg",
+                     "desc": "Teólogo suizo",
+                     "letters": [
+                            {
+                                   "slug": "1541_02_19_senoresGinebra",
+                                   "date": " 19 de febrero de 1541",
+                                   "headline": "Señores de Ginebra"
+                            },
+                            {
+                                   "slug": "1541_09_29_senoresNeuchatel",
+                                   "date": " 29 de septiembre de 1541",
+                                   "headline": "A los señores de Neuchâtel"
+                            }
+                     ],
+                     "id": "#viret"
+              },
+              {
+                     "name": "Guillaume Farel (1489 - 1565)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/William-Farel.jpg",
+                     "desc": "teólogo y reformador francés en la Suiza francesa, defensor del calvinismo",
+                     "letters": [
+                            {
+                                   "slug": "1541_09_29_senoresNeuchatel",
+                                   "date": " 29 de septiembre de 1541",
+                                   "headline": "A los señores de Neuchâtel"
+                            }
+                     ],
+                     "id": "#farel"
+              },
+              {
+                     "name": "Martín Bucero (1491 - 1551)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Buzer%20%28Bucer%29.jpg",
+                     "desc": "teólogo reformista alemán",
+                     "letters": [
+                            {
+                                   "slug": "1538_01_LuisdeTillet",
+                                   "date": "31 de enero de 1538",
+                                   "headline": "Louis de Tillet"
+                            },
+                            {
+                                   "slug": "1538_07_10_LouisTillet",
+                                   "date": "10 de julio de 1538",
+                                   "headline": "Louis de Tillet"
+                            }
+                     ],
+                     "id": "#bucero"
+              },
+              {
+                     "name": "Sebastián Castellion (1515 - 1563)",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/SebastianCastellio.jpg",
+                     "desc": "Teólogo y humanista reformado francés",
+                     "letters": [
+                            {
+                                   "slug": "1552_SrDeFalais",
+                                   "date": "[1552]",
+                                   "headline": "Señor de Fallais"
+                            }
+                     ],
+                     "id": "#castalion"
+              }
+       ]
+}

@@ -109,7 +109,7 @@
                      "Cologne": "https://www.wikidata.org/wiki/Q365"
               }
        },
-       "output/VF/1546_MadameDEBude.xml": {
+       "output/VF/1546_01_20_MadameDEBude.xml": {
               "persons": {
                      "Roberte Le Lyeur": "https://www.wikidata.org/wiki/Q108743308",
                      "Charles d'Espeville": "#"
@@ -142,7 +142,8 @@
               },
               "places": {
                      "Genève": "https://www.wikidata.org/wiki/Q71",
-                     "Veigy-Foncenex": "https://www.wikidata.org/wiki/Q774121"
+                     "Veigy-Foncenex": "https://www.wikidata.org/wiki/Q774121",
+                     "Berne": "https://www.wikidata.org/wiki/Q70"
               }
        },
        "output/VF/1553_03_12_RoiDAngleterre.xml": {

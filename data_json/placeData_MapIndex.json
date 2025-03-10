@@ -10,16 +10,6 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Castello%20esterno.jpg"
        },
        {
-              "name": "Worms",
-              "desc": "ville d'Allemagne",
-              "url": "http://www.wikidata.org/entity/Q3852",
-              "coord": {
-                     "lat": "49.631944444",
-                     "lon": "8.365277777"
-              },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Wormser%20T%C3%BCrme.JPG"
-       },
-       {
               "name": "Italie",
               "desc": "pays d'Europe du Sud",
               "url": "http://www.wikidata.org/entity/Q38",
@@ -90,16 +80,6 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Picswiss%20BE-98-20%20Biel-%20Stadthaus%20und%20Polizei%20%28Burgplatz%29.jpg"
        },
        {
-              "name": "Berne",
-              "desc": "capitale fédérale de la Suisse et chef-lieu du canton de Berne",
-              "url": "http://www.wikidata.org/entity/Q70",
-              "coord": {
-                     "lat": "46.94798",
-                     "lon": "7.44743"
-              },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bern%20luftaufnahme.png"
-       },
-       {
               "name": "Genève",
               "desc": "ville de Suisse et chef-lieu du canton de Genève",
               "url": "http://www.wikidata.org/entity/Q71",
@@ -110,6 +90,16 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Geneva%20from%20Mount%20Sal%C3%A8ve.jpg"
        },
        {
+              "name": "Berne",
+              "desc": "capitale fédérale de la Suisse et chef-lieu du canton de Berne",
+              "url": "http://www.wikidata.org/entity/Q70",
+              "coord": {
+                     "lat": "46.94798",
+                     "lon": "7.44743"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bern%20luftaufnahme.png"
+       },
+       {
               "name": "Zurich",
               "desc": "ville de la Suisse et chef-lieu du canton de Zurich",
               "url": "http://www.wikidata.org/entity/Q72",
@@ -118,6 +108,16 @@
                      "lon": "8.541111111"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Zuerich%20Fraumuenster%20St%20Peter.jpg"
+       },
+       {
+              "name": "Worms",
+              "desc": "ville d'Allemagne",
+              "url": "http://www.wikidata.org/entity/Q3852",
+              "coord": {
+                     "lat": "49.6302618",
+                     "lon": "8.3620898"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Wormser%20T%C3%BCrme.JPG"
        },
        {
               "name": "Paris",

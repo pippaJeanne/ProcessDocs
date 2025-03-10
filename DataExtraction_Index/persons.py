@@ -69,7 +69,7 @@ for pers in persdata:
     if obj not in arr and obj["letters"] != [] and obj["id"] != "":
         arr.append(obj)
 result = {}
-result["persons"] = arr
+result["persons"] = arr  # persons | persons_es for the French and Spanish versions respectively 
 print(result)
 json_obj = json.dumps(result, indent=7, ensure_ascii = False)
 with open("data_json/persons.json", "w") as outfile:
