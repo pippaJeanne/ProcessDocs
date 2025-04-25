@@ -13,7 +13,7 @@
                      "display_date": "31 janvier 1538",
                      "text": {
                             "headline": "<a href='/fr/lettres/1538_01_LouisduTillet'>Louis du Tillet</a>",
-                            "text": "Réponse de Jean Calvin à Louis du Tillet après avoir reçu la lettre où Louis de Tillet lui informaient de sa décision de retourner à la foi catholique."
+                            "text": "Réponse de Jean Calvin à Louis du Tillet après avoir reçu la lettre où Louis du Tillet lui informaient de sa décision de retourner à la foi catholique."
                      },
                      "background": {
                             "url": "https://gallica.bnf.fr/ark:/12148/btv1b90076313/f3.jpeg",
@@ -97,6 +97,26 @@
                      },
                      "background": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_196%252Fms_fr_00196_f079r.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1542",
+                            "month": "05",
+                            "day": "01"
+                     },
+                     "display_date": "[mai 1542]",
+                     "text": {
+                            "headline": "<a href='/fr/lettres/1542_05_M_le_curéX'>Monsieur le curé</a>",
+                            "text": "Défense de la doctrine de l'église réformée contre l'accusation d'être la cause de la peste à Genève. Instruction de recourir à Dieu seul pour la délivrance."
+                     },
+                     "background": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg",
                             "color": "#5e5e52"
                      }
               },

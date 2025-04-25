@@ -94,15 +94,16 @@
 <text>
 <body>
     <opener>
-        <address><addrLine>  <persName type="individu|collectivité" key="#" ref="#" corresp="#"></persName>
+        <address><addrLine>À <persName type="individu|collectivité" key="#" ref="#" corresp="#"></persName>
         <note n="*" place="bottom"><p></p></note>
         </addrLine>
         </address>
         <dateline xml:id="opener"><placeName key="#" ref="#" corresp="#"></placeName><date when="1500-00-00"></date>
         </dateline>
-        <hi rend="bold"><label type='nature'> </label>.
-        [Maintenant sous la cote ]</hi>
-        <salute> ,</salute>
+        <hi rend="bold"><label type='nature'>Copie|Orig. autographe| Minute originale </label>. Bibliothèque ...   </hi>
+        <hi xml:id="editorNote">
+        [Maintenant sous la cote ... (f. 12-35)]</hi>
+        <salute> Monsieur| Mademoiselle,</salute>
     </opener>
     <p></p>
 <!--[Note éditoriale] only if that is the case | if there's a @source write it like this [Note éditoriale, @source : texte (url)]-->
@@ -111,18 +112,24 @@
     <note n="#" place="bottom" type="editorial"><p>texte. [Note éditoriale]</p></note></p>
 
     <p> <hi rend="italic">citation ou titre d'ouvrage</hi> 
-        <hi xml:lang="latinq" rend="italic">passage ou citation en latin</hi><note n="#" type="tradLat" place="bottom"><p>Traduction
+        <hi xml:lang="lat" rend="italic">passage ou citation en latin</hi><note n="#" type="tradLat" place="bottom"><p>Traduction</p></note>
 
         <!-- Optional: if an editorial note is added inside or alongside a source note-->
         <add type="editorial">| texte</add>
+        <note n="#" place="bottom">
+        <p> <!-- If we have latin phrases or quotes inside a note then encode it as follows-->
          <hi xml:lang="latinq" rend="italic">passage ou citation en latin</hi>
-         <hi xml:lang="trad">passage ou citation en latin</hi>
+         <hi xml:lang="trad">[traduction]</hi>
         </p></note>
     </p>
     <!-- Title inline  -->
 <!-- For persName: add @corresp for addressees and people mentioned in the letters which are listed in the Index of names | if the person is mentioned in the notes and has some kind of uri then a @ref attribute is added and the transformation will add that link instead of the link to the Index of Names-->
     <p><!-- Title of work in text or note if important and likely to have a ref => add rend="italic" , @key & @ref -->
     <title key="Institution de la religion chrétienne" ref="https://fr.wikipedia.org/wiki/Institution_de_la_religion_chrétienne" rend="italic">Institution chrétienne</title>
+
+    <!-- Add bibl tag if more complete and structured refence provided-->
+    <bibl><author>Bayle</author>, <title key="Diccionario histórico y crítico" ref="https://artflsrv04.uchicago.edu/philologic4.7/bayle/navigate/1/562" rend="italic">Dict. art</title>. <biblScope>Philippe de Bourgogne, remarque G</biblScope>.</bibl>
+
     </p>
  <closer>
     <dateline><placeName key="#" ref="#" corresp="#"></placeName>

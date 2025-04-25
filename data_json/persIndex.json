@@ -1,6 +1,30 @@
 [
        {
-              "name": "Charles d'Espeville",
+              "name": "Aimé Champereau",
+              "desc": "",
+              "url": "",
+              "img": ""
+       },
+       {
+              "name": "Jacques Bernard",
+              "desc": "",
+              "url": "",
+              "img": ""
+       },
+       {
+              "name": "François",
+              "desc": "",
+              "url": "",
+              "img": ""
+       },
+       {
+              "name": "Curé anonyme",
+              "desc": "",
+              "url": "",
+              "img": ""
+       },
+       {
+              "name": "Pierre Blanchet",
               "desc": "",
               "url": "",
               "img": ""
@@ -12,21 +36,21 @@
               "img": ""
        },
        {
-              "name": "Martin Bucer (1491 - 1551)",
-              "desc": "réformateur protestant alsacien",
-              "url": "http://www.wikidata.org/entity/Q318622",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Buzer%20%28Bucer%29.jpg"
-       },
-       {
-              "name": "Yolande de Brederode",
-              "desc": "Aristocrate de la maison des comtes de Hollande et épouse de Jacques de Bourgogne",
-              "url": "http://www.wikidata.org/entity/Q56000839",
-              "img": ""
+              "name": "Henri VIII (1491 - 1547)",
+              "desc": "roi d'Angleterre et d'Irlande, de 1509 à 1547",
+              "url": "http://www.wikidata.org/entity/Q38370",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Holbein%2C%20the%20Younger%2C%20Around%201497-1543%20-%20Portrait%20of%20Henry%20VIII%20of%20England%20-%20Google%20Art%20Project.jpg"
        },
        {
               "name": "Louis du Tillet",
               "desc": "prêtre catholique français",
               "url": "http://www.wikidata.org/entity/Q3263586",
+              "img": ""
+       },
+       {
+              "name": "Lilio Gregorio Giraldi",
+              "desc": "humaniste italien",
+              "url": "http://www.wikidata.org/entity/Q448191",
               "img": ""
        },
        {
@@ -36,16 +60,16 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/WolfgangCapito.jpg"
        },
        {
+              "name": "Martin Bucer (1491 - 1551)",
+              "desc": "Réformateur protestant alsacien",
+              "url": "http://www.wikidata.org/entity/Q318622",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Buzer%20%28Bucer%29.jpg"
+       },
+       {
               "name": "François Ier de France (1494 - 1547)",
               "desc": "roi de France de 1515 à 1547",
               "url": "http://www.wikidata.org/entity/Q129857",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ier%20Louvre.jpg"
-       },
-       {
-              "name": "Édouard VI d'Angleterre (1537 - 1553)",
-              "desc": "roi d'Angleterre de 1547 à 1553",
-              "url": "http://www.wikidata.org/entity/Q83229",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20VI%20of%20England%20c.%201546.jpg"
        },
        {
               "name": "Jean du Tillet",
@@ -54,16 +78,16 @@
               "img": ""
        },
        {
-              "name": "Antoine de Bourbon (1518 - 1562)",
-              "desc": "roi consort de Navarre",
-              "url": "http://www.wikidata.org/entity/Q310334",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20-%20Portrait%20of%20Anthony%20of%20Bourbon%20%281518%E2%80%931562%29%2C%20King%20of%20Navarre%20-%20MNK%20XII-294%20-%20National%20Museum%20Krak%C3%B3w.jpg"
-       },
-       {
               "name": "Guillaume Farel (1489 - 1565)",
               "desc": "réformateur d'origine dauphinoise en Suisse romande",
               "url": "http://www.wikidata.org/entity/Q435456",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/William-Farel.jpg"
+       },
+       {
+              "name": "Jean IV de Parthenay",
+              "desc": "seigneur de Soubise (circa 1480-1512)",
+              "url": "http://www.wikidata.org/entity/Q102816184",
+              "img": ""
        },
        {
               "name": "Renée de France (1510 - 1574)",
@@ -72,34 +96,40 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Renee%20de%20france.jpg"
        },
        {
+              "name": "Antoine de Pons (1505 - 1586)",
+              "desc": "comte de Marennes",
+              "url": "http://www.wikidata.org/entity/Q107736995",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Antoine%2C%20sire%20de%20Pons.jpg"
+       },
+       {
+              "name": "Sébastien Castellion (1515 - 1563)",
+              "desc": "Humaniste, bibliste et théologien protestant français",
+              "url": "http://www.wikidata.org/entity/Q919119",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/SebastianCastellio.jpg"
+       },
+       {
               "name": "Consistoire de Genève",
               "desc": "Conseil ecclésiastique suisse du XVIe, XVIIe et XVIIIe siècles",
               "url": "http://www.wikidata.org/entity/Q2994627",
               "img": ""
        },
        {
-              "name": "Jacques de Bourgogne",
-              "desc": "Seigneur de Fallais et de Bréda en Brabant, noble flamand et correspondant de Calvin qui a initialement soutenu le réformateur",
-              "url": "http://www.wikidata.org/entity/Q6120956",
+              "name": "Louis XII (1462 - 1515)",
+              "desc": "roi de France de 1498 à 1515",
+              "url": "http://www.wikidata.org/entity/Q58514",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Louis-xii-roi-de-france.jpg"
+       },
+       {
+              "name": "Michelle de Saubonne",
+              "desc": "secrétaire d'Anne de Bretagne",
+              "url": "http://www.wikidata.org/entity/Q3311480",
               "img": ""
        },
        {
-              "name": "Philippe Mélanchthon (1497 - 1560)",
-              "desc": "humaniste, philosophe et réformateur protestant allemand",
-              "url": "http://www.wikidata.org/entity/Q76325",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg"
-       },
-       {
-              "name": "Sébastien Castellion (1515 - 1563)",
-              "desc": "humaniste, bibliste et théologien protestant français",
-              "url": "http://www.wikidata.org/entity/Q919119",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/SebastianCastellio.jpg"
-       },
-       {
-              "name": "Laurent de Normandie (1510 - 1569)",
-              "desc": "juriste franco-genevois",
-              "url": "http://www.wikidata.org/entity/Q15967055",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Laurent%20de%20Normandie.jpg"
+              "name": "Clément Marot (1495 - 1544)",
+              "desc": "poète français",
+              "url": "http://www.wikidata.org/entity/Q108926",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/ClementMarot.jpg"
        },
        {
               "name": "Pierre Viret (1511 - 1571)",
@@ -108,10 +138,142 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PierreViret.jpg"
        },
        {
+              "name": "Marguerite de Valois-Angoulême (1492 - 1549)",
+              "desc": "sœur aînée du roi François Ier, femme de lettres, diplomate, protectrice d'écrivains et d'artistes, reine de Navarre (1492-1549)",
+              "url": "http://www.wikidata.org/entity/Q190058",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Clouet%20%28Attributed%29%20-%20Portrait%20of%20Marguerite%20of%20Navarre%20-%20Google%20Art%20Project.jpg"
+       },
+       {
               "name": "Anne de Parthenay",
-              "desc": "Aristocrate française et érudite qui a été associée à Calvin, dame de compagnie de la duchesse d'Este",
+              "desc": "aristocrate française et érudite qui a été associée à Calvin, dame de compagnie de la duchesse d'Este",
               "url": "http://www.wikidata.org/entity/Q99539414",
               "img": ""
+       },
+       {
+              "name": "Anne de Bretagne (1477 - 1514)",
+              "desc": "duchesse de Bretagne et deux fois reine de France (1477-1514)",
+              "url": "http://www.wikidata.org/entity/Q201143",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/BNF%20-%20Latin%209474%20-%20Jean%20Bourdichon%20-%20Grandes%20Heures%20d%27Anne%20de%20Bretagne%20-%20f.%203r%20-%20Anne%20de%20Bretagne%20entre%20trois%20saintes%20%28d%C3%A9tail%29.jpg"
+       },
+       {
+              "name": "Charles Quint (1500 - 1558)",
+              "desc": "monarque et empereur d'origine flamande",
+              "url": "http://www.wikidata.org/entity/Q32500",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Charles%20V%2C%20Holy%20Roman%20Emperor%2C%20seated%20%281500%E2%80%931558%29%2C%20formerly%20attributed%20to%20Titian%20%28Alte%20Pinakothek%2C%20Munich%29.jpg"
+       },
+       {
+              "name": "Charles d'Espeville",
+              "desc": "Pseudonyme adopté par Calvin durant sa retraite à Angoulême et son voyage en Italie (1534, 1536)",
+              "url": "http://www.wikidata.org/entity/Q133821751",
+              "img": ""
+       },
+       {
+              "name": "Philippe IV de France (1268 - 1314)",
+              "desc": "roi de France (1285-1314) et roi de Navarre (1284-1305)",
+              "url": "http://www.wikidata.org/entity/Q130969",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Philip%20iv%20and%20family.%202%20%28detail%20crop%29.jpg"
+       },
+       {
+              "name": "Marie ( - 0100)",
+              "desc": "mère de Jésus de Nazareth",
+              "url": "http://www.wikidata.org/entity/Q345",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Duccio%20The-Madonna-and-Child-128.jpg"
+       },
+       {
+              "name": "Yolande de Brederode",
+              "desc": "aristocrate de la maison des comtes de Hollande et épouse de Jacques de Bourgogne",
+              "url": "http://www.wikidata.org/entity/Q56000839",
+              "img": ""
+       },
+       {
+              "name": "Théodore De Bèze (1519 - 1605)",
+              "desc": "théologien protestant français (1519-1605)",
+              "url": "http://www.wikidata.org/entity/Q314981",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Theodore-de-Beze-2.jpg"
+       },
+       {
+              "name": "Jérémie ( - )",
+              "desc": "prophète du Tanakh dans l'hébraïque ou de l'Ancien Testament pour les chrétiens",
+              "url": "http://www.wikidata.org/entity/Q158825",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo%20Buonarroti%20027%20detalle.jpg"
+       },
+       {
+              "name": "Pierre (0000 - 0065)",
+              "desc": "apôtre du Christ et premier pape de l'Église catholique",
+              "url": "http://www.wikidata.org/entity/Q33923",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pope-peter%20pprubens.jpg"
+       },
+       {
+              "name": "Galeazzo Caracciolo (1517 - 1586)",
+              "desc": "Aristocrate et théologien italien",
+              "url": "http://www.wikidata.org/entity/Q869836",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Galeacius%20Caracciolus.png"
+       },
+       {
+              "name": "Lactance (0240 - 0320)",
+              "desc": "rhéteur et apologète chrétien",
+              "url": "http://www.wikidata.org/entity/Q209102",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lactantius.jpg"
+       },
+       {
+              "name": "Édouard VI d'Angleterre (1537 - 1553)",
+              "desc": "roi d'Angleterre de 1547 à 1553",
+              "url": "http://www.wikidata.org/entity/Q83229",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20VI%20of%20England%20c.%201546.jpg"
+       },
+       {
+              "name": "Antoine de Bourbon (1518 - 1562)",
+              "desc": "roi consort de Navarre",
+              "url": "http://www.wikidata.org/entity/Q310334",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20-%20Portrait%20of%20Anthony%20of%20Bourbon%20%281518%E2%80%931562%29%2C%20King%20of%20Navarre%20-%20MNK%20XII-294%20-%20National%20Museum%20Krak%C3%B3w.jpg"
+       },
+       {
+              "name": "Philippe Mélanchthon (1497 - 1560)",
+              "desc": "Humaniste, philosophe et réformateur protestant allemand",
+              "url": "http://www.wikidata.org/entity/Q76325",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg"
+       },
+       {
+              "name": "Jules Bonnet",
+              "desc": "historien français",
+              "url": "http://www.wikidata.org/entity/Q3188439",
+              "img": ""
+       },
+       {
+              "name": "Augustin d’Hippone (0354 - 0430)",
+              "desc": "théologien, philosophe chrétien et évêque d’Afrique du Nord, saint et docteur de l’Église catholique",
+              "url": "http://www.wikidata.org/entity/Q8018",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Augustine%20Lateran.jpg"
+       },
+       {
+              "name": "Jeanne Seymour (1508 - 1537)",
+              "desc": "troisième épouse de Henri VIII, reine consort d'Angleterre de 1536 à 1537",
+              "url": "http://www.wikidata.org/entity/Q182637",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Holbein%20d.%20J.%20032b.jpg"
+       },
+       {
+              "name": "Paul de Tarse (0005 - 0066)",
+              "desc": "apôtre et missionnaire des premiers chrétiens (vers 5 après J.-C. – vers 64/65)",
+              "url": "http://www.wikidata.org/entity/Q9200",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Francesco%20Barbieri%20-%20Saint%20Paul.jpg"
+       },
+       {
+              "name": "Jacques de Bourgogne",
+              "desc": "seigneur de Fallais et de Bréda en Brabant, noble flamand et correspondant de Calvin qui a initialement soutenu le réformateur",
+              "url": "http://www.wikidata.org/entity/Q6120956",
+              "img": ""
+       },
+       {
+              "name": "Laurent de Normandie (1510 - 1569)",
+              "desc": "juriste franco-genevois",
+              "url": "http://www.wikidata.org/entity/Q15967055",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Laurent%20de%20Normandie.jpg"
+       },
+       {
+              "name": "Pierre Bayle (1647 - 1706)",
+              "desc": "philosophe et écrivain français (1647-1706)",
+              "url": "http://www.wikidata.org/entity/Q214816",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Bayle%20by%20Louis%20Ferdinand%20Elle.jpg"
        },
        {
               "name": "Roberte Le Lyeur",
@@ -120,9 +282,9 @@
               "img": ""
        },
        {
-              "name": "Charles Quint (1500 - 1558)",
-              "desc": "monarque et empereur d'origine flamande",
-              "url": "http://www.wikidata.org/entity/Q32500",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Charles%20V%2C%20Holy%20Roman%20Emperor%2C%20seated%20%281500%E2%80%931558%29%2C%20formerly%20attributed%20to%20Titian%20%28Alte%20Pinakothek%2C%20Munich%29.jpg"
+              "name": "Marie ( - 0048)",
+              "desc": "mère de Jésus de Nazareth",
+              "url": "http://www.wikidata.org/entity/Q345",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Duccio%20The-Madonna-and-Child-128.jpg"
        }
 ]

@@ -79,10 +79,14 @@
     <p><note n="#" place="bottom" type="editorial"><p>texte. [Note éditoriale]</p></note></p>
 
     <p> <hi rend="italic">citation ou titre d'ouvrage</hi> 
-        <hi xml:lang="latinq" rend="italic">passage ou citation en latin</hi><note n="#" type="tradLat" place="bottom"><p>Traduction
-         <add type="editorial">| texte</add>
+        <hi xml:lang="lat" rend="italic">passage ou citation en latin</hi><note n="#" type="tradLat" place="bottom"><p>Traduction</p></note>
+
+        <!-- Optional: if an editorial note is added inside or alongside a source note-->
+        <add type="editorial">| texte</add>
+        <note n="#" place="bottom">
+        <p> <!-- If we have latin phrases or quotes inside a note then encode it as follows-->
          <hi xml:lang="latinq" rend="italic">passage ou citation en latin</hi>
-         <hi xml:lang="trad">passage ou citation en latin</hi>
+         <hi xml:lang="trad">[traduction]</hi>
         </p></note>
     </p>
     
@@ -92,16 +96,21 @@
 
 <p><!-- Title of work in text => add rend="italic" , @key & @ref -->
     <title key="Institución de la religión cristiana" ref="https://es.wikipedia.org/wiki/Institución_de_la_religión_cristiana" rend="italic">Institución Cristiana</title>
+
+    <!-- Add bibl tag if more complete and structured refence provided-->
+    <bibl>Bayle, <title key="Dictionnaire historique et critique" ref="https://artflsrv04.uchicago.edu/philologic4.7/bayle/navigate/1/562"><hi rend="italic">Dict.</hi> art</title>. <biblScope>Philippe de Bourgogne, nota G</biblScope>.</bibl>
+
      </p>
 
-
       <closer>
-       <dateline>Desde <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Villefranche</placeName><note n="5" place="bottom"><p>ciudad liberada (Ginebra)</p></note><date when="1538-01-31">, este último de enero (1538<note n="6" place="bottom"><p>El año comenzaba en Ginebra el 25 de diciembre, día de Navidad, en contra de la práctica seguida en Francia, que contaba el año a partir de la Pascua</p></note>)</date>.
-      </dateline> 
-      <salute>Su humilde servidor y hermano,</salute>
-       <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName><note n="7" place="bottom"><p>Nombre adoptado por Calvino durante su retiro en Angulema y su viaje a Italia (1534, 1536)</p></note>
-      </signed>
-      </closer>
+    <dateline><placeName key="#" ref="#" corresp="#"></placeName>
+     <date when="1500-00-00"></date>
+    </dateline> 
+    <salute></salute>
+    <signed>
+      <persName key="#" ref="#" type="pseudonym|forename|surname|fullname" corresp="#"></persName>.
+    </signed>
+  </closer>
   </body>
  </text>
 </TEI>

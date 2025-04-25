@@ -13,8 +13,8 @@
                      },
                      "display_date": "31 janvier 1538",
                      "text": {
-                            "headline": "À Louis du Tillet",
-                            "text": "Réponse de Jean Calvin à Louis du Tillet après avoir reçu la lettre où Louis de Tillet lui informaient de sa décision de retourner à la foi catholique."
+                            "headline": "Louis du Tillet",
+                            "text": "Réponse de Jean Calvin à Louis du Tillet après avoir reçu la lettre où Louis du Tillet lui informaient de sa décision de retourner à la foi catholique."
                      },
                      "scr_location": {
                             "name": "Genève",
@@ -40,7 +40,7 @@
                      },
                      "display_date": "10 juillet 1538",
                      "text": {
-                            "headline": "À Louis du Tillet",
+                            "headline": "Louis du Tillet",
                             "text": "Lettre de Calvin à Louis du Tillet où Calvin parle de son exil de Genève et déplacement à Strasbourg."
                      },
                      "scr_location": {
@@ -67,7 +67,7 @@
                      },
                      "display_date": " 19 février 1541",
                      "text": {
-                            "headline": "Aux Seigneurs de Genève",
+                            "headline": "Seigneurs de Genève",
                             "text": "Dans le contexte du colloque de Ratisbonne, qui fut un important débat théologique entre les catholiques et les protestants, Jean Calvin, après avoir été appelé par Guillaume Farel à retourner à Genève, explique les raisons de son arrivée tardive et réaffirme son engagement avec l’église."
                      },
                      "scr_location": {
@@ -94,8 +94,8 @@
                      },
                      "display_date": " 29 septembre 1541",
                      "text": {
-                            "headline": "Aux Seigneurs de Neuchâtel",
-                            "text": "Lettre de la part des ministres de Genève, y compris Calvin, adressée à ceux de Nauchâtel afin de les persuader de ne pas déposer Guillaume Farel après avoir censuré publiquement une dame de qualité. Cette lettre a été portée par Pierre Viret et contient des instructions de Calvin pour son intervention devant la seigneurie de Neuchâtel."
+                            "headline": "Seigneurs de Neuchâtel",
+                            "text": "Lettre de la part des ministres de Genève, y compris Calvin, adressée à ceux de Neuchâtel afin de les persuader de ne pas déposer Guillaume Farel après avoir censuré publiquement une dame de qualité. Cette lettre a été portée par Pierre Viret et contient des instructions de Calvin pour son intervention devant la seigneurie de Neuchâtel."
                      },
                      "scr_location": {
                             "name": "Genève",
@@ -121,7 +121,7 @@
                      },
                      "display_date": "[octobre 1541]",
                      "text": {
-                            "headline": "À la Duchesse de Ferrare",
+                            "headline": "Duchesse de Ferrare",
                             "text": "Calvin instruit des erreurs de la messe."
                      },
                      "scr_location": {
@@ -133,6 +133,33 @@
                             "name": "[Ferrare]",
                             "lat": "44.835297",
                             "lon": "11.619865"
+                     }
+              },
+              {
+                     "slug": "1542_05_M_le_cureX",
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1542",
+                            "month": "05",
+                            "day": "01"
+                     },
+                     "display_date": "[mai 1542]",
+                     "text": {
+                            "headline": "Monsieur le curé",
+                            "text": "Défense de la doctrine de l'église réformée contre l'accusation d'être la cause de la peste à Genève. Instruction de recourir à Dieu seul pour la délivrance."
+                     },
+                     "scr_location": {
+                            "name": "[Genève]",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Genève]",
+                            "lat": "46.2",
+                            "lon": "6.15"
                      }
               },
               {
@@ -148,7 +175,7 @@
                      },
                      "display_date": "14 octobre (1543)",
                      "text": {
-                            "headline": "À Madame de Fallais",
+                            "headline": "Madame de Fallais",
                             "text": "Encouragement de Calvin à Madame de Fallais qui partageait les sentiments de son époux quant à la religion réformée."
                      },
                      "scr_location": {
@@ -173,9 +200,9 @@
                             "month": "10",
                             "day": "14"
                      },
-                     "display_date": "14 octobre 1543",
+                     "display_date": "[14 octobre 1543]",
                      "text": {
-                            "headline": "À Monsieur de Fallais",
+                            "headline": "Monsieur de Fallais",
                             "text": "Calvin donne son conseil à Monsieur de Fallais qui délibérait de quitter les Pays-Bas."
                      },
                      "scr_location": {
@@ -200,7 +227,7 @@
                             "month": "12",
                             "day": "01"
                      },
-                     "display_date": "fin 1543",
+                     "display_date": "[fin 1543]",
                      "text": {
                             "headline": "Monsieur de Fallais",
                             "text": "Lettre de Calvin à Monsieur de Fallais où Calvin encourage à nouveau ce dernier à quitter son pays en raison de ses croyances religieuses."
@@ -229,7 +256,7 @@
                      },
                      "display_date": "24 juin (1544)",
                      "text": {
-                            "headline": "À Madame de Fallais",
+                            "headline": "Madame de Fallais",
                             "text": "Encouragement à Madame de Fallais dans sa nouvelle vie en liberté de conscience et de culte, après avoir suivi son mari à Cologne et à Strasbourg."
                      },
                      "scr_location": {
@@ -244,7 +271,7 @@
                      }
               },
               {
-                     "slug": "1546_MadameDEBude",
+                     "slug": "1546_01_20_MadameDEBude",
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f006r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f006r.jpg"
@@ -256,7 +283,7 @@
                      },
                      "display_date": "[20 ** 1546]",
                      "text": {
-                            "headline": "À Madame de Budé",
+                            "headline": "Madame de Budé",
                             "text": "Calvin conseille Madame de Budé de se retirer à Genève."
                      },
                      "scr_location": {
@@ -283,7 +310,7 @@
                      },
                      "display_date": "13 juin [1548]",
                      "text": {
-                            "headline": "À un nouveau converti",
+                            "headline": "Nouveau converti",
                             "text": "Réponse à une question sur la messe et encouragement dans la foi."
                      },
                      "scr_location": {
@@ -308,9 +335,9 @@
                             "month": "10",
                             "day": "06"
                      },
-                     "display_date": "6 octobre 1552",
+                     "display_date": "[6 octobre 1552]",
                      "text": {
-                            "headline": "Aux Seigneurs de Genève",
+                            "headline": "Seigneurs de Genève",
                             "text": "Réponse de Calvin aux accusations de Jean Trolliet concernant sa doctrine."
                      },
                      "scr_location": {
@@ -319,7 +346,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Genève",
+                            "name": "[Genève]",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -335,9 +362,9 @@
                             "month": "01",
                             "day": "01"
                      },
-                     "display_date": "1552",
+                     "display_date": "[1552]",
                      "text": {
-                            "headline": "À Monsieur de Fallais",
+                            "headline": "Monsieur de Fallais",
                             "text": "Dernière lettre de Calvin à M. de Fallais. Rupture de Calvin avec M. de Fallais quand ce dernier prit ouvertement le parti de Jérôme Bolsec contre Calvin."
                      },
                      "scr_location": {
@@ -364,7 +391,7 @@
                      },
                      "display_date": "12 de mars 1553",
                      "text": {
-                            "headline": "Au roi d'Angleterre",
+                            "headline": "roi d'Angleterre",
                             "text": "Intercession de Calvin auprès du roi d'Angleterre en faveur d'un gentilhomme persécuté pour la religion."
                      },
                      "scr_location": {

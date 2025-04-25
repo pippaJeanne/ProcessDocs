@@ -3,13 +3,19 @@
               "persons": {
                      "Louis de Tillet": "https://www.wikidata.org/wiki/Q3263586",
                      "Jean de Tillet": "https://www.wikidata.org/wiki/Q3175826",
+                     "Guillaume Farel": "https://www.wikidata.org/wiki/Q435456",
                      "Martín Bucero": "https://www.wikidata.org/wiki/Q318622",
                      "Wolfgang Capito": "https://www.wikidata.org/wiki/Q1368362",
-                     "Charles d'Espeville": "#"
+                     "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
               },
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
-                     "Estrasburgo": "https://www.wikidata.org/wiki/Q6602"
+                     "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
+                     "Angulema": "https://www.wikidata.org/wiki/Q134346",
+                     "Parlamento de París": "https://www.wikidata.org/wiki/Q1242473",
+                     "Universidad de París": "https://www.wikidata.org/wiki/Q2845896",
+                     "Basilea": "https://www.wikidata.org/wiki/Q78",
+                     "Italia": "https://www.wikidata.org/wiki/Q38"
               }
        },
        "output/VF/es/1538_07_10_LouisTillet.xml": {
@@ -18,9 +24,9 @@
                      "Jean de Tillet": "https://www.wikidata.org/wiki/Q3175826",
                      "Martín Bucero": "https://www.wikidata.org/wiki/Q318622",
                      "Wolfgang Capito": "https://www.wikidata.org/wiki/Q1368362",
-                     "Francisco I": "https://www.wikidata.org/wiki/Q129857",
+                     "Francisco I de Francia": "https://www.wikidata.org/wiki/Q129857",
                      "Carlos V": "https://www.wikidata.org/wiki/Q32500",
-                     "Charles d'Espeville": "#"
+                     "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
               },
               "places": {
                      "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
@@ -47,9 +53,12 @@
        "output/VF/es/1541_09_29_senoresNeuchatel.xml": {
               "persons": {
                      "Consistorio de Neuchâtel": "https://www.wikidata.org/wiki/Q131694038",
-                     "Jean Calvin": "#",
                      "Pierre Viret": "https://www.wikidata.org/wiki/Q123337",
-                     "Guillaume Farel": "https://www.wikidata.org/wiki/Q435456"
+                     "Guillaume Farel": "https://www.wikidata.org/wiki/Q435456",
+                     "Consistorio de Berna": "https://www.wikidata.org/wiki/Q131694038",
+                     "Jean Calvin": "#",
+                     "Aimé Champereau": "#",
+                     "Jacques Bernard": "#"
               },
               "places": {
                      "Neuchâtel": "https://www.wikidata.org/wiki/Q69345",
@@ -59,27 +68,70 @@
        "output/VF/es/1541_10_duquesaFerrara.xml": {
               "persons": {
                      "Renata de Francia": "https://www.wikidata.org/wiki/Q235841",
-                     "Anne de Parthenay": "https://www.wikidata.org/wiki/Q99539414"
+                     "Luis XII": "https://www.wikidata.org/wiki/Q58514",
+                     "Ana de Bretaña": "https://www.wikidata.org/wiki/Q201143",
+                     "Hércules II de Este": "https://www.wikidata.org/wiki/Q38370",
+                     "Margarita de Angulema": "https://www.wikidata.org/wiki/Q190058",
+                     "Clément Marot": "https://www.wikidata.org/wiki/Q108926",
+                     "François": "#",
+                     "Anne de Parthenay": "https://www.wikidata.org/wiki/Q99539414",
+                     "Jean IV de Parthenay": "https://www.wikidata.org/wiki/Q102816184",
+                     "Michelle de Saubonne": "https://www.wikidata.org/wiki/Q3311480",
+                     "Antoine de Pons": "https://www.wikidata.org/wiki/Q107736995",
+                     "Lilio Gregorio Giraldi": "https://www.wikidata.org/wiki/Q448191",
+                     "Wolfgang Capito": "https://www.wikidata.org/wiki/Q1368362",
+                     "Enrique VIII de Inglaterra": "https://www.wikidata.org/wiki/Q38370"
               },
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
-                     "Ferrara": "https://www.wikidata.org/wiki/Q13362"
+                     "Ferrara": "https://www.wikidata.org/wiki/Q13362",
+                     "Castillo de Blois": "https://www.wikidata.org/wiki/Q4055",
+                     "castillo de Montargis": "https://www.wikidata.org/wiki/Q20669750",
+                     "Italia": "https://www.wikidata.org/wiki/Q38",
+                     "Santa Sede": "https://www.wikidata.org/wiki/Q159583",
+                     "Francia": "https://www.wikidata.org/wiki/Q142",
+                     "Soubise": "https://www.wikidata.org/wiki/Q816315"
+              }
+       },
+       "output/VF/es/1542_05_Al_senor_cura.xml.xml": {
+              "persons": {
+                     "Párroco anónimo": "#",
+                     "Sebastián Castellion": "https://www.wikidata.org/wiki/Q919119",
+                     "Pierre Blanchet": "#",
+                     "Consistorio de Ginebra": "https://www.wikidata.org/wiki/Q2994627",
+                     "Jeremías": "https://www.wikidata.org/wiki/Q158825",
+                     "Virgen María": "https://www.wikidata.org/wiki/Q345",
+                     "Lactancio": "https://www.wikidata.org/wiki/Q209102",
+                     "Agustín de Hipona": "https://www.wikidata.org/wiki/Q8018",
+                     "Pablo de Tarso": "https://www.wikidata.org/wiki/Q9200",
+                     "Pedro": "https://www.wikidata.org/wiki/Q33923"
+              },
+              "places": {
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "Saboya": "https://www.wikidata.org/wiki/Q14118",
+                     "Israel": "https://www.wikidata.org/wiki/Q801"
               }
        },
        "output/VF/es/1543_10_14_SenorFalais.xml": {
               "persons": {
                      "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
-                     "Charles d'Espeville": "#"
+                     "Felipe IV de Francia": "https://www.wikidata.org/wiki/Q130969",
+                     "Carlos I de España": "https://www.wikidata.org/wiki/Q32500",
+                     "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
               },
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
-                     "Fallais": "https://www.wikidata.org/wiki/Q1575050"
+                     "Fallais": "https://www.wikidata.org/wiki/Q1575050",
+                     "Colonia": "https://www.wikidata.org/wiki/Q365",
+                     "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
+                     "Basilea": "https://www.wikidata.org/wiki/Q78",
+                     "Àmsterdam": "https://www.wikidata.org/wiki/Q727"
               }
        },
        "output/VF/es/1543_10_14_SenoraFalais.xml": {
               "persons": {
                      "Yolanda de Bréderode": "https://www.wikidata.org/wiki/Q56000839",
-                     "Charles d'Espeville": "#"
+                     "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
               },
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
@@ -89,7 +141,7 @@
        "output/VF/es/1543_finales_SenorDeFalais.xml": {
               "persons": {
                      "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
-                     "Charles d'Espeville": "#"
+                     "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
               },
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
@@ -99,7 +151,7 @@
        "output/VF/es/1544_06_24_SraDeFalais.xml": {
               "persons": {
                      "Yolande de Brederode": "https://www.wikidata.org/wiki/Q56000839",
-                     "Charles d'Espeville": "#"
+                     "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
               },
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
@@ -108,7 +160,8 @@
        },
        "output/VF/es/1546_01_20_SraDeBude.xml": {
               "persons": {
-                     "Charles d'Espeville": "#"
+                     "Roberte Le Lyeur": "https://www.wikidata.org/wiki/Q108743308",
+                     "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
               },
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
@@ -124,6 +177,7 @@
        "output/VF/es/1552_10_06_SenoresDeGinebra.xml": {
               "persons": {
                      "Consistorio de Ginebra": "https://www.wikidata.org/wiki/Q2994627",
+                     "Felipe Melanchthon": "https://www.wikidata.org/wiki/Q76325",
                      "Philipp Mélanchthon": "https://www.wikidata.org/wiki/Q76325"
               },
               "places": {
@@ -133,25 +187,33 @@
        "output/VF/es/1552_SrDeFalais.xml": {
               "persons": {
                      "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "Galeazzo Caraccioli": "https://www.wikidata.org/wiki/Q869836",
                      "Sebastián Castellion": "https://www.wikidata.org/wiki/Q919119",
+                     "Yolande de Brederode": "https://www.wikidata.org/wiki/Q56000839",
+                     "Pierre Bayle": "https://www.wikidata.org/wiki/Q214816",
                      "Juan Calvino": "#"
               },
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
                      "Veigy-Foncenex": "https://www.wikidata.org/wiki/Q774121",
+                     "Basilea": "https://www.wikidata.org/wiki/Q70",
+                     "Thonon": "https://www.wikidata.org/wiki/Q206165",
                      "Berna": "https://www.wikidata.org/wiki/Q70"
               }
        },
        "output/VF/es/1553_03_12_ReyInglaterra.xml": {
               "persons": {
-                     "Eduardo VI": "https://www.wikidata.org/wiki/Q83229",
+                     "Eduardo VI de Inglaterra": "https://www.wikidata.org/wiki/Q83229",
+                     "Enrique VIII de Inglaterra": "https://www.wikidata.org/wiki/Q38370",
+                     "Juana Seymour": "https://www.wikidata.org/wiki/Q182637",
                      "Laurent de Normandie": "https://www.wikidata.org/wiki/Q15967055",
-                     "Antoine de Bourbon": "https://www.wikidata.org/wiki/Q310334",
+                     "Antonio de Borbón": "https://www.wikidata.org/wiki/Q310334",
                      "Juan Calvino": "#"
               },
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
                      "Londres": "https://www.wikidata.org/wiki/Q84",
+                     "París": "https://www.wikidata.org/wiki/Q90",
                      "Noyon": "https://www.wikidata.org/wiki/Q49831"
               }
        }

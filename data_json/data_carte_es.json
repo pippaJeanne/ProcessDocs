@@ -116,6 +116,29 @@
                      }
               },
               {
+                     "slug": "1542_05_Al_senor_cura",
+                     "start_date": {
+                            "year": "1542",
+                            "month": "05",
+                            "day": "01"
+                     },
+                     "display_date": "[mayo de 1542]",
+                     "text": {
+                            "headline": "Párroco anónimo",
+                            "text": "Defensa de la doctrina de la iglesia reformada contra la acusación de ser la causa de la peste en Ginebra. Instrucción de recurrir solo a Dios por liberación."
+                     },
+                     "scr_location": {
+                            "name": "[Ginebra]",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Ginebra]",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     }
+              },
+              {
                      "slug": "1543_10_14_SenorFalais",
                      "start_date": {
                             "year": "1543",

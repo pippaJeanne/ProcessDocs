@@ -4,7 +4,7 @@ import json
 from SPARQLWrapper import SPARQLWrapper, JSON
 #get json file contianing the data
 persdata = {}
-with open("data_json/wikiIds.json", "r") as indexData:
+with open("data_json/wikiIds_es.json", "r") as indexData:
   persdata = json.load(indexData) 
 # Preparing data for query
 # Getting access keys 
@@ -64,7 +64,7 @@ sparql_db.setQuery("\n"
 "PREFIX dct: <http://purl.org/dc/terms/> \n"
 "PREFIX foaf: <http://xmlns.com/foaf/0.1/> \n "
 "SELECT DISTINCT ?abstract, ?img \n "
-"WHERE { \n" + query_db + "\n FILTER ( LANG ( ?abstract ) = 'fr'  ) \n"
+"WHERE { \n" + query_db + "\n FILTER ( LANG ( ?abstract ) = 'es'  ) \n"
 "} "  
 )
 sparql_wiki.setQuery("\n"
@@ -72,7 +72,7 @@ sparql_wiki.setQuery("\n"
 "PREFIX wd: <http://www.wikidata.org/entity/> \n"
 "PREFIX wikibase: <http://wikiba.se/ontology#> \n"
 "SELECT DISTINCT ?item ?itemLabel ?itemDescription ?birthDate ?deathDate ?img \n "
-"WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr' } \n"
+"WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'es' } \n"
 "}"
 )
 sparql_wiki.setReturnFormat(JSON)
@@ -140,7 +140,7 @@ if len(wikilist) > limit:
 "PREFIX wd: <http://www.wikidata.org/entity/> \n"
 "PREFIX wikibase: <http://wikiba.se/ontology#> \n"
 "SELECT DISTINCT ?item ?itemLabel ?itemDescription ?birthDate ?deathDate ?img \n "
-"WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr' } \n"
+"WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'es' } \n"
 "}"
 )
   sparql_wiki.setReturnFormat(JSON)
@@ -182,7 +182,7 @@ for pers in persons:
 
 
 json_obj = json.dumps(jsonfile, indent=7, ensure_ascii = False)
-with open("data_json/persIndex.json", "w") as outfile:
+with open("data_json/persIndex_es.json", "w") as outfile:
     outfile.write(json_obj)
     print("Done!")
 

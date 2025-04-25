@@ -7,16 +7,45 @@ client = genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
 # Get list of tuned models
 for model_info in client.tunings.list():
     print(model_info.tuned_model.model)
-text = open("Translations_txt/1538_07_10_LuoisDuTillets.txt", "r").read()
 
-# To use base model, uncomment | run following lines.
+# Use base model
+# To help in the encoding of the structure of the letter given the template with the editorial protocol
+template = open("templateEncodage.xml", "r").read()
+text = open("TextLettreTour.txt", "r").read()
 
 response = client.models.generate_content(
-    model='gemini-2.0-flash', contents=f"Traduis le texte suivant vers l'espagnol.\nTexte : {text}")
-with open("Translations_txt/1538_07_10-test.md", "w", encoding="utf8") as outfile:
-    outfile.write(response.text)
+    model='gemini-2.0-flash', contents=f"En prenant le modèle d'encodage TEI dans {template}, prends le texte océrisé dans {text} et fais l'encodage TEI du text océrisé en suivant le modèle fourni. Produis le contenu dans fichier XML-TEI.")
+with open("input/1538_10_20_LouisTillet.xml", "w", encoding="utf8") as outfile:
+    outfile.write(response.text) #change name of file
 
-file = open("output_finetuning.json", "r")
+
+# text to translate
+text = open("Translations_txt/1538_01_LouisduTillet.txt", "r").read()
+
+# generate content with the tuned model
+# Segmenting text to fit the token limit
+limit = 4000
+nloops = len(text)//limit
+# output file
+outfile = open("Translations_txt/1538_01_LouisduTilletES.txt", "a", encoding="utf8")
+for i in range(0,nloops+1):
+    milestone = i * limit
+    if milestone < len(text):
+        substring = text[milestone:milestone+limit]
+        i = i + limit
+    #if i < nloops:
+    #    substring = text[i:i+limit]
+        
+        response = client.models.generate_content(
+            model="tunedModels/tradcalvinfres-zm83p0nr9sh1",
+    #model=tuning_job.tuned_model.model,
+    contents=f"Traduis le texte suivant vers l'espagnol.\nTexte : {substring}",
+)
+        outfile.write(response.text)
+
+
+#For finetuning the model
+file = open("output_finetuning.json", "r") #dataset
 training_dataset = json.load(file)
 # print(training_dataset)
 #for i in training_dataset:
@@ -45,38 +74,19 @@ tuning_job = client.tunings.tune(
 #for model_info in client.models.list():
 #    print(model_info.name)
 
-# text to translate
-text = open("Translations_txt/1543_fin_MFalais.txt", "r").read()
-
-
-# generate content with the tuned model
-# Segmenting text to fit the token limit
-limit = 4000
-nloops = len(text)//limit
-# output file
-outfile = open("Translations_txt/sectioning_test.txt", "a", encoding="utf8")
-for i in range(0,nloops):
-    print(i)
-    if i < nloops:
-        substring = text[i:i+limit]
-
-        response = client.models.generate_content(
-            model="tunedModels/tradcalvinfres-zm83p0nr9sh1",
-    #model=tuning_job.tuned_model.model,
-    contents=f"Traduis le texte suivant vers l'espagnol.\nTexte : {substring}",
-)
-        outfile.write(response.text)
 
 # Translating remaining text
-laststr = text[limit * nloops - 10:len(text)]        
-response = client.models.generate_content(
-    model="tunedModels/tradcalvinfres-zm83p0nr9sh1",
+#laststr = text[limit * nloops - 10:len(text)] 
+
+#response = client.models.generate_content(
+#    model="tunedModels/tradcalvinfres-zm83p0nr9sh1",
     #model=tuning_job.tuned_model.model,
-    contents=f"Traduis le texte suivant vers l'espagnol.\nTexte : {laststr}",
-)
-outfile.write(f"\n {response.text}")
+#    contents=f"Traduis le texte suivant vers l'espagnol.\nTexte : {laststr}",
+#)
+# print(response.text)
+#outfile.write(f"\n {response.text}")
 
-
+######################
 # Segmenting text to fit the token limit
 #limit = 4000
 #nloops = len(text)//limit
