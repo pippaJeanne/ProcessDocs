@@ -1,3 +1,4 @@
+####### Adding only new data to translation traning set
 # pip install saxonche
 from saxonche import *
 from saxonche import PySaxonProcessor
@@ -5,27 +6,20 @@ import json
 import re
 import os
 import xml.etree.ElementTree as ET
-inputpathFr = "output/VF/"
-inputpathEs = "output/VF/es/"
+inputpathFr = "output/VF/1542_05_M_le_cureX.xml"  # XML file in French
+inputpathEs = "output/VF/es/1542_05_Al_senor_cura.xml" #XML file in Spanish
 xsltfileFr = "Translations_txt/2txt.xslt" #path to xslt file
 xsltfileEs = "Translations_txt/txtES.xslt"
-outpath = "output_finetuning01.json"
-#doc = "input/0M-Falais24_06_44.xml" #path to input xml file
-#slices = doc.split("/")
-#name = slices[-1]
+outpath = "trainingdata_finetuning_expanded.json"
 
-#outfile = open(f"{outpath}modernisation/{name}", 'w', encoding='utf8') 
-#outfile.write(output)
-training_data = []
+data_file = open("output_finetuning01.json", "r", encoding='utf8')
+training_data = json.load(data_file)
+#print(training_data)
 setfr = []
 setes = []
 with PySaxonProcessor(license=False) as proc:
-    for dirpath, dirnames, filenames in os.walk(inputpathFr):
-        filenames.sort()
-        for filename in filenames:
-               if filename.endswith('.xml'):
                     xsltproc = proc.new_xslt30_processor()
-                    dom = proc.parse_xml(xml_file_name=inputpathFr + filename)
+                    dom = proc.parse_xml(xml_file_name=inputpathFr)
                     xslt = xsltproc.compile_stylesheet(stylesheet_file=xsltfileFr)
                     output = xslt.transform_to_string(xdm_node=dom)
                     #infile = str(newdom)
@@ -37,12 +31,8 @@ with PySaxonProcessor(license=False) as proc:
                     #outfile.write(txtOk1)
 
 with PySaxonProcessor(license=False) as proc:
-    for dirpath, dirnames, filenames in os.walk(inputpathEs):
-        filenames.sort()
-        for filename in filenames:
-               if filename.endswith('.xml'):
                     xsltproc = proc.new_xslt30_processor()
-                    doc = proc.parse_xml(xml_file_name=inputpathEs + filename)
+                    doc = proc.parse_xml(xml_file_name=inputpathEs)
                     xslt = xsltproc.compile_stylesheet(stylesheet_file=xsltfileEs)
                     output = xslt.transform_to_string(xdm_node=doc)
                     #infile = str(newdom)
