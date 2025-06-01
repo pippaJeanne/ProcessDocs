@@ -53,8 +53,8 @@
  </correspDesc>
   <desc>Ánimo a la señora de Fallais en su nueva vida de libertad de conciencia y de culto luego de haber seguido a su marido a Colonia y a Estrasburgo.</desc>
  <list xml:id="tags">
- <term>exil</term>
- <term>encouragement</term>
+ <term>exilio</term>
+ <term>aliento</term>
  </list>
 </profileDesc>
 </teiHeader>
@@ -72,11 +72,11 @@
 
 <p>Aunque tengo un singular deseo de verle, y me duele mucho ver frustrada la esperanza que había concebido de ello, agradezco, sin embargo, a nuestro Señor la apertura que le ha hecho de que, sin apartarle de los suyos, se le permita rendirle culto con la conciencia limpia, y libre de las contaminaciones de la idolatría en que ha estado cautiva.</p>
 
-<p>Existe la otra bendición de que podrá establecer una iglesia para invocarlo en una asamblea cristiana, ser reconfortada por Su palabra, y recibir la Cena del Señor como una muestra de Su bondad, demostrando también por ella su fe. En la medida en que Usted esperaba menos esa facultad, tiene ocasión de regocijarse en ella cuando le es concedida.</p>
+<p>Existe la otra bendición de que podrá establecer una iglesia para invocarlo en una asamblea cristiana, ser reconfortada por Su palabra, y recibir la Cena del Señor como una muestra de Su bondad, demostrando también por ella su fe. En la medida en que usted esperaba menos esa facultad, tiene ocasión de regocijarse en ella cuando le es concedida.</p>
 
 <p>Espero que el hombre que le enviamos, el Señor <persName>David</persName> y yo, sea conforme a su corazón, pues posee verdadera sencillez cristiana tanto en la doctrina como en la moral.</p>
 
-<p>Pero seguiré queriendo disfrutar de su presencia de vez en cuando, y no perderé la esperanza de hacerlo. Pero hay esta cosa buena que, estando ausentes unos de otros, no nos dejaremos de ver en espíritu, estando unidos en aquel que une las cosas distantes. Como el portador de la presente servirá como parte de las cartas, no le molestaré con un discurso más largo, y así, señorita y amadísima hermana, después de haberme encomendado humildemente a su buena memoria en sus oraciones, ruego al Padre de toda misericordia que extienda más y más su mano para concederle a Usted sus gracias, de modo que Usted siga siendo un instrumento elegido de su gloria hasta el final.</p>
+<p>Pero seguiré queriendo disfrutar de su presencia de vez en cuando, y no perderé la esperanza de hacerlo. Pero hay esta cosa buena que, estando ausentes unos de otros, no nos dejaremos de ver en espíritu, estando unidos en aquel que une las cosas distantes. Como el portador de la presente servirá como parte de las cartas, no le molestaré con un discurso más largo, y así, señorita y amadísima hermana, después de haberme encomendado humildemente a su buena memoria en sus oraciones, ruego al Padre de toda misericordia que extienda más y más su mano para concederle a usted sus gracias, de modo que usted siga siendo un instrumento elegido de su gloria hasta el final.</p>
 
 <p>No conozco quiénes están ahora en su compañía, pero si estuvieran allí los que el Señor <persName type="forename" key="David">David</persName> dejara con el que esperábamos, deseo ser encomendado a su buena gracia, tan afectuosamente como sea posible. No es que me parezca oportuno darle esta molestia, sino que ellos mismos pueden recibir las recomendaciones que deseo que se les presenten. De nuevo pido a nuestro Señor que le guíe siempre, como lo ha hecho hasta ahora.</p>
 
@@ -84,7 +84,7 @@
       <dateline>El <placeName></placeName><date when="1544-06-24">24 de junio (de 1544)</date>.
       </dateline> 
       <salute>Su servidor y humilde hermano por siempre,</salute>
-      <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName></signed>
+      <signed><persName key="Charles d'Espeville" ref="https://www.wikidata.org/wiki/Q133821751" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName></signed>
       </closer>
   </body>
  </text>

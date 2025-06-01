@@ -37,7 +37,7 @@ for i in range(0,nloops+1):
     #    substring = text[i:i+limit]
         
         response = client.models.generate_content(
-            model="tunedModels/tradcalvinfres-zm83p0nr9sh1",
+            model="tunedModels/tradcalvinfres-jeclu1o78weer7wramhdpb312",
     #model=tuning_job.tuned_model.model,
     contents=f"Traduis le texte suivant vers l'espagnol.\nTexte : {substring}",
 )
@@ -45,13 +45,14 @@ for i in range(0,nloops+1):
 
 
 #For finetuning the model
-file = open("output_finetuning.json", "r") #dataset
+file = open("output_finetuning01.json", "r") #dataset
 training_dataset = json.load(file)
 # print(training_dataset)
-#for i in training_dataset:
-#    print(len(i["input"]))
-#    print(len(i["output"]))
-
+#To check length of strings (has to be < 5000)
+for i in range(len(training_dataset)):
+    print(f"{i} {len(training_dataset[i]['input'])}")
+    print(f"{i} {len(training_dataset[i]['output'])}")
+    
 training_dataset=types.TuningDataset(
         examples=[
             types.TuningExample(
@@ -71,15 +72,16 @@ tuning_job = client.tunings.tune(
         tuned_model_display_name="trad_Calvin_FR-ES"
     )
 )
-#for model_info in client.models.list():
-#    print(model_info.name)
+# Check models list
+for model_info in client.models.list():
+    print(model_info.name)
 
 
 # Translating remaining text
 #laststr = text[limit * nloops - 10:len(text)] 
 
 #response = client.models.generate_content(
-#    model="tunedModels/tradcalvinfres-zm83p0nr9sh1",
+#    model="tunedModels/tradcalvinfres-jeclu1o78weer7wramhdpb312",
     #model=tuning_job.tuned_model.model,
 #    contents=f"Traduis le texte suivant vers l'espagnol.\nTexte : {laststr}",
 #)

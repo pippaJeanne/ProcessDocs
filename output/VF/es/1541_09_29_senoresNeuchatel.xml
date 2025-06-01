@@ -5,7 +5,7 @@
 <fileDesc>
 <titleStmt>
 <title>Carta a los Señores de Neuchâtel</title>
-<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza (M2 Rare Books and Digital Humanities - UBFC)</editor>
+<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza</editor>
 </titleStmt>
 <publicationStmt>
  <publisher>TEI Consortium</publisher>
@@ -60,12 +60,12 @@
 <text>
 <body>
 <opener>
-<address><addrLine>A los <persName type="grupo" key="Consistorio de Neuchâtel" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-neuchatel">Señores de Neuchâtel</persName><note n="*" place="bottom"><p>Al dorso: De la mano de Viret: «Cartas enviadas a aquellos de Neuchâtel cuando se quería expulsar a Farel su ministro, llevadas por Viret, enviadas en nombre de los ministros de Ginebra con las siguientes instrucciones para mostrarlas en su consejo».</p> 
-<p>Inflexible en el ejercicio de su ministerio, Farel había censurado públicamente, en uno de sus discursos, a una dama de sociedad cuya conducta era un escándalo para la iglesia de Neuchâtel. Irritados por esta censura, los familiares de la dama azuzaron a algunos burgueses contra el valiente ministro, y obtuvieron una sentencia de revocación que solo fue anulada por la intervención de los señores de Berna, y de las principales iglesias suizas. Ruchat: <title key="Histoire de la Réformation en Suisse" rend="italic">Histoire de la Réformation en Suisse</title>, t. V, pág. 164 en adelante.</p></note></addrLine>
+<address><addrLine>A los <persName type="grupo" key="Consistorio de Neuchâtel" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-neuchatel">Señores de Neuchâtel</persName><note n="*" place="bottom"><p>Al dorso: De la mano de <persName type="surname" key="Pierre Viret" ref="https://www.wikidata.org/wiki/Q123337" corresp="#viret">Viret</persName>: «Cartas enviadas a aquellos de Neuchâtel cuando se quería expulsar a Farel su ministro, llevadas por Viret, enviadas en nombre de los ministros de Ginebra con las siguientes instrucciones para mostrarlas en su consejo».</p> 
+<p>Inflexible en el ejercicio de su ministerio, <persName type="surname" key="Guillaume Farel" ref="https://www.wikidata.org/wiki/Q435456" corresp="#farel">Farel</persName> había censurado públicamente, en uno de sus discursos, a una dama de sociedad cuya conducta era un escándalo para la iglesia de Neuchâtel. Irritados por esta censura, los familiares de la dama azuzaron a algunos burgueses contra el valiente ministro, y obtuvieron una sentencia de revocación que solo fue anulada por la intervención de los <persName type="collectivité" key="Consistorio de Berna" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-Berne">señores de Berna</persName>, y de las principales iglesias suizas. Ruchat: <title key="Histoire de la Réformation en Suisse" rend="italic">Histoire de la Réformation en Suisse</title>, t. V, pág. 164 en adelante.</p></note></addrLine>
 </address>
-<dateline xml:id="opener"><placeName key="Neuchâtel" ref="https://www.wikidata.org/wiki/Q69345" corresp="#neuchatel">Neuchâtel</placeName><date when="1541-09-29"> 29 de septiembre de 1541</date>
+<dateline xml:id="opener"><placeName key="Neuchâtel" ref="https://www.wikidata.org/wiki/Q69345" corresp="#neuchatel">Neuchâtel</placeName>, <date when="1541-09-29">29 de septiembre de 1541</date>
 </dateline>
-<hi rend="bold"><label type='nature'>Original</label>. Autógrafo. Bibl. de Ginebra. Vol. 145</hi> 
+<hi rend="bold"><label type='nature'>Autógrafo original</label>. Bibl. de Ginebra. Vol. 145</hi> 
 <hi xml:id="editorNote">[Ahora bajo la cota Ms. fr. 145 (f. 30-34)]</hi>
 <salute>Magníficos, honorables señores:</salute>
 </opener>
@@ -75,11 +75,11 @@
       </dateline> 
       <salute>Sus humildes servidores en nuestro Señor.</salute>
       <signed><persName key="Jean Calvin" ref="#"><choice><orig>JÉHAN</orig><reg>JEAN</reg></choice> CALVIN</persName></signed>
-<signed><persName key="Aimé Champereau">AYMÉ CHAMPEREAU</persName>.</signed>
-<signed><persName key="Jacques Bernard">JACQUES BERNARD</persName>.</signed>
+<signed><persName key="Aimé Champereau" ref="#">AYMÉ CHAMPEREAU</persName>.</signed>
+<signed><persName key="Jacques Bernard" ref="#">JACQUES BERNARD</persName>.</signed>
       </closer>
       <postscript>
-<p>La suma de las cosas que deseamos que nuestro hermano y maestro <persName key="Pierre Viret" ref="https://www.wikidata.org/wiki/Q123337" corresp="#viret">Pierre Viret</persName> presente a la señoría de <placeName key="Neuchâtel" ref="https://www.wikidata.org/wiki/Q69345" corresp="#neuchatel">Neuchâtel</placeName> en nuestro nombre, pidiéndole que siga lo que viene a continuación como instrucción.</p>
+<p>La suma de las cosas que deseamos que nuestro hermano y maestro <persName key="Pierre Viret" ref="https://www.wikidata.org/wiki/Q123337" corresp="#viret">Pierre Viret</persName> presente a <persName type="grupo" key="Consistorio de Neuchâtel" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-neuchatel">la señoría de Neuchâtel</persName> en nuestro nombre, pidiéndole que siga lo que viene a continuación como instrucción.</p>
 <p>En primer lugar tendrá que excusar nuestra injerencia en este asunto, declarándoles que es el deber de nuestro oficio, pues la comunión de los santos implica que principalmente las Iglesias vecinas tengan la mutua solicitud de fortalecerse entre sí. Y cuando surja alguna necesidad de la una, que la otra provea. Pero que además de esto, tenemos por demás en singular recomendación su Iglesia, y que nos concierne más de cerca por varias causas que este podrá citar.</p>
 <p>Después les presentará qué orden creemos que debe guardarse en la Iglesia al deponer a un ministro, a saber, que debe hacerse, como mandan las Escrituras, en forma de juicio, incluso espiritual, y no de sedición ni tumulto. Y cuando se hace lo contrario, que es una deshonra para Dios y una perturbación de la vigilancia de su santa ciudad.</p>
 <p>Que si un hombre es removido de su lugar sin justa causa y razón, y es obligado a abandonar la Iglesia a la que ha servido fielmente, y así es retirado injustamente de la vocación en la que ha sido constituido por Dios, ese hombre no solo es ultrajado por este medio, sino también Dios, ya que su legítima vocación es violada y hecha vana.</p>

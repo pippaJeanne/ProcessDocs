@@ -119,7 +119,7 @@
       <dateline>Ce <placeName></placeName> <date when="1546">20 ** 1546</date><note n="2" place="bottom"><p>Au dos, d'une main étrangère : De 46. Je pense que ceste lettre soit à Mme Budé.</p></note>.
       </dateline> 
       <salute><choice><orig>Vostre</orig><reg>Votre</reg></choice> serviteur et humble frère,</salute>
-      <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES d'ESPEVILLE</persName></signed>
+      <signed><persName key="Charles d'Espeville" ref="https://www.wikidata.org/wiki/Q133821751" type="pseudonym" corresp="#espeville">CHARLES d'ESPEVILLE</persName></signed>
       </closer>
   </body>
  </text>

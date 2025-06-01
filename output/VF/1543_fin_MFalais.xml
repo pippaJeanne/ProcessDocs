@@ -66,7 +66,7 @@
   <addName type="pseudonym">Charles d'Espeville</addName> <!--si signée sous pseudonyme, enlever sinon-->
   </persName>
   <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
-  <date when="1543-12">fin 1543</date>
+  <date when="1543-12">[fin 1543]</date>
  </correspAction>
  <correspAction type="received">
   <name type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Monsieur de Fallais</name>
@@ -114,7 +114,7 @@
       <dateline><placeName></placeName><date when="1543-12">(1543-44.)</date>
       </dateline> 
       <salute><choice><orig>Vostre</orig><reg>Votre</reg></choice> humble frère et serviteur à jamais,</salute>
-      <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES d'ESPEVILLE</persName>.</signed>
+      <signed><persName key="Charles d'Espeville" ref="https://www.wikidata.org/wiki/Q133821751" type="pseudonym" corresp="#espeville">CHARLES d'ESPEVILLE</persName>.</signed>
       </closer>
   </body>
  </text>

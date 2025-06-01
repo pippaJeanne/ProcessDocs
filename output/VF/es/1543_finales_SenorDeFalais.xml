@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Carta al Señor de Fallais</title>
+<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+  <availability status="free">
+    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+         3.0 Unported License</licence>
+  </availability></publicationStmt>
+<sourceDesc corresp="M_Falai_fin_43">
+ <bibl>
+  Traducción de la versión modernizada de  
+  <title level="a" rend="underline">Lettre à Monsieur de Fallais ([fin 1543])</title> editada por 
+ <editor><name> 
+    <forename>Yanet</forename>
+    <surname>Hernández Pedraza</surname></name></editor>.
+ </bibl>
+ <notesStmt>
+          <note>Las notas provienen de la edición de Jules Bonnet de 1854 
+            a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+ </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Juan Calvino
+  <addName type="pseudonym">Charles d'Espeville</addName> <!--si firmada bajo seudónimo, sino borrar-->
+  </persName>
+  <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
+  <date when="1543-12">[finales de 1543]</date>
+ </correspAction>
+ <correspAction type="received">
+  <name type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</name>
+  <settlement cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Carta de Calvino al señor de Fallais en la que Calvino nuevamente anima este último a abandonar su país debido a sus creencias religiosas.</desc>
+ <list xml:id="tags">
+ <term>exilio</term>
+ <term>decisión</term>
+ <term>aliento</term>
+ <term>lucha espiritual</term>
+ </list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>Al <persName type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</persName><note n="*" place="bottom"><p>Esta carta no tiene fecha, pero Calvino debió escribirla, poco después de las dos anteriores, para vencer las últimas vacilaciones del señor de Fallais, que estaba a punto de abandonar su fortuna y su país.</p></note></addrLine>
+</address>
+<dateline xml:id="opener"><placeName cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</placeName>, [<date when="1543-12">finales de 1543</date>]
+</dateline>
+<hi rend="bold"><label type='nature'>Autógrafo original</label>. Bibl. de Ginebra. </hi>
+<hi xml:id="editorNote">Vol. 194. [Ahora bajo la cota Ms. fr. 194 (f. 23-24)]</hi>
+<salute>Señor:</salute>
+</opener>
+<p>Confío en nuestro buen Dios, que así como le ha conducido hasta ahora, dándole la gracia de superar muchas dificultades que podrían desviarle del buen camino, también le dará la fuerza en el futuro para resistir todos los asaltos que Satanás pueda hacer contra usted; no obstante, cuando pienso en el peligro en que se encontra ahora, ya en un estado de mucha tentación, como yo lo veo, no puedo dejar de recordarle que los bienes que Dios ha hecho para nosotros son dignos de preferir su honor a todas las cosas del mundo, y que la esperanza de salvación que tenemos por medio de su Evangelio es tan preciosa que debemos dejar todas estas cosas bajas en la medida en que nos impidan buscarla, y que debemos estar tan contentos de complacerle que, aunque desagrademos a todos para obedecer su placer, esto no nos perjudicará. No es que Él no se lo recuerde sin mis advertencias. Porque estoy bien seguro de que, previendo la aparición de tentaciones, no ha dejado de armarse y guardarse meditando en todas estas cosas. Y no sabría decirle mucho más que no haya incluso impreso en su corazón. Pero sé que todavía le beneficia escuchar algunas palabras de exhortación de sus amigos, y que esto sirve como una gran confirmación. Porque yo mismo lo he experimentado a veces. Por otro lado, si no hubiera otro asunto que tratar más que por este medio le declare la preocupación que por usted sentimos por acá, esta es razón suficiente para mí. Ahora bien, esto debe ser al mismo tiempo para usted un argumento del deseo que tenemos de recibir buenas noticias de usted, para que tengamos ocasión de dar gracias a Dios, oyendo que le ha dispensado, o bien que le ha probado tanto, que sin embargo le ha dado el valor de vencer todas las maquinaciones del diablo. Si tiene que luchar, y esto es la voluntad de Dios, considere que es una tormenta pasajera, y que sin embargo debe buscar refugio. Pero no tenemos otro refugio que el de nuestro Dios. Escondámonos allí y estaremos a salvo. La esperanza que podemos tener de reforma por medio de los hombres es aún muy pequeña. No nos arrepintamos, pues, de habernos adelantado y de no haber esperado a seguir a Dios hasta que todo el mundo haya pasado por delante de nosotros. E incluso ahora, no nos volvamos atrás por esta consideración. Porque quien lo haga hallará que se ha equivocado. Esperemos con valentía que el Señor se apiade de su Iglesia al final. Pero que cada uno vaya como es llamado, y que el que tiene más gracia muestre el camino a los demás. Esto es lo que debe pensar, que está tanto más obligado a correr más deprisa que muchos otros, porque nuestro Señor, habiéndole dado la facultad, le ha conducido también al lugar, del que no le es lícito volver atrás. Y, en efecto, una vez que el hombre se ha retirado una vez de este abismo de cautiverio espiritual, o más bien ha sido liberado de él por la mano de Dios, si le sucede que se ve envuelto de nuevo en él, y se aleja de la libertad que Dios le había dado, este queda todo sorprendido cuando se encuentra en una confusión de la que no le es posible escapar.</p>
+
+<p>No lo digo porque tema que le pueda pasar a usted, ni porque desconfíe de usted. Porque como he protestado desde el principio, estoy seguro de que nada le hará tambalear. Pero no podemos dejar de animarnos mutuamente, por muy buenos que sean nuestros afectos. Y más que deliberar sobre nosotros mismos, nos alegramos de que nuestros amigos nos tomen de la mano para fortalecernos. En resumen, estoy haciendo lo que me gustaría que hiciera por mí, si yo estuviera en su lugar; y no tengo duda de que lo tomará por su parte de la manera que crea conveniente.</p>
+
+<p>Con esto en mente, señor, habiéndome encomendado humildemente a su buena gracia y a la de la señorita, le ruego a nuestro buen Dios que se muestre como su protector en todo momento y que rechace todas las maquinaciones de Satanás para que, teniendo plena esperanza en Él, no tenga usted otra consideración que la de glorificar Su nombre; y que le llene de tal constancia que no se mueva usted por el temor de los hombres, ni se asombre por el ruido que hagan, sino que usted lo santifique de modo que Él sea su palacio y santificación.</p>
+
+ <closer>
+      <dateline><placeName></placeName><date when="1543-12">(1543-44.)</date>.
+      </dateline> 
+      <salute>Su humilde hermano y servidor por siempre,</salute>
+      <signed><persName key="Charles d'Espeville" ref="https://www.wikidata.org/wiki/Q133821751" type="pseudonym" corresp="#espeville">CHARLES d'ESPEVILLE</persName>.</signed>
+      </closer>
+  </body>
+ </text>
+</TEI>

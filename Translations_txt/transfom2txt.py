@@ -3,11 +3,11 @@ from saxonche import *
 from saxonche import PySaxonProcessor
 import re
 #path to input xml file
-doc = "output/VF/1538_07_10_LuoisDuTillets.xml" #Change file path
+doc = "output/VF/1541_10_DuchesseFerrare.xml" #Change file path
 slices = doc.split("/")
 name = slices[-1].replace(".xml",".txt") #Change format txt | md
 print(name)
-xsltfile = "Translations_txt/2txt.xslt" #path to xslt file
+xsltfile = "Translations_txt/2txt_diplom.xslt" #path to xslt file
 outpath = "Translations_txt/"
 
 # Create a Saxon processor instance

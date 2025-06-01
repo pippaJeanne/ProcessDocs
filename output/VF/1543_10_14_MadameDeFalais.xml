@@ -78,7 +78,7 @@
   </ref>
 </correspContext>
  </correspDesc>
- <desc>Encouragement de Calvin à Madame de Fallais qui partageait les sentiments de son époux quant à la religion réformée.</desc>
+ <desc>Encouragement de Calvin à Madame de Fallais qui partageait les sentiments de son époux à propos de la religion réformée.</desc>
 <list xml:id="tags">
 <term>encouragement</term>
 <term>foi</term>
@@ -107,7 +107,7 @@
       <dateline><placeName></placeName>Ce <date when="1543-10-14">14 octobre (1543)</date>.
       </dateline> 
       <salute><choice><orig>Vostre</orig><reg>Votre</reg></choice> serviteur, humble frère et entier <choice><orig>amy</orig><reg>ami</reg></choice>,</salute>
-      <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName></signed>
+      <signed><persName key="Charles d'Espeville" ref="https://www.wikidata.org/wiki/Q133821751" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName></signed>
       </closer>
   </body>
  </text>

@@ -2,15 +2,15 @@
 # for installing spacy : https://spacy.io/usage 
 # Import of modules and language models for NER
 import spacy
-#nlp = spacy.load('fr_dep_news_trf') #French model
+nlp = spacy.load('fr_core_news_lg') #French model
 #nlp = spacy.load('en_core_web_trf') #EN model 
-nlp = spacy.load('xx_ent_wiki_sm') # multilingual model 
+#nlp = spacy.load('xx_ent_wiki_sm') # multilingual model 
 
 import re
 # This module will help us manage the xml structure and use xpath for retreiving the text 
 import xml.etree.ElementTree as ET
 # path for the file
-file = "output/modernisation/M-Falais24_06_44.xml"
+file = "output/modernisation/1542_05_M_le_curéX.xml"
 # parsing the file
 root = ET.parse(file)
 string = ""
@@ -52,10 +52,10 @@ def replace(input, output): # passing the input and output files
             newLine = line # pass value to variable previously established
           # same for remaining labels
           if new_ls_ent[l] == "GPE" or new_ls_ent[l] == "LOC" and l in line:
-            line = re.sub(l,f"<placeName key='{l}' ref='' corresp=\"#{l}\">{l}</placeName>", line)
+            line = re.sub(l,f"<placeName key=\"{l}\" ref=\"\" corresp=\"#{l}\">{l}</placeName>", line)
             newLine = line 
           if new_ls_ent[l] == "WORK_OF_ART" and l in line:
-            line = re.sub(l,f"<title>{l}</title>", line)
+            line = re.sub(l,f"<title key=\"{l}\" ref=\"\" rend=\"italic\">{l}</title>", line)
             newLine = line
           if new_ls_ent[l] == "DATE" and l in line:
             line = re.sub(l,f"<date>{l}</date>", line)
@@ -67,9 +67,9 @@ def replace(input, output): # passing the input and output files
         file_towrite.write(origline) 
         file_towrite.write(newLine) 
     # the values of origline and newLine will reset when entering the entities loop
-    print("Done!")
+  print("Done!")
 
 
-input = "output/modernisation/M-Falais24_06_44.xml"
-output = "output/outNER/M-Falais24_06_44Ner.xml"
+input = "output/modernisation/1542_05_M_le_curéX.xml"
+output = "output/outNER/1542_05_M_le_curéX.xml"
 replace(input, output)

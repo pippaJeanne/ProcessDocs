@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" xml:id="SraFallais10-43">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -13,7 +13,7 @@
     <licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
          3.0 Unported License</licence>
   </availability></publicationStmt>
-<sourceDesc corresp="MmeFallais10-43">
+<sourceDesc corresp="MmeFalais10-43">
  <bibl>
   Traducción de la versión modernizada de  
   <title level="a" rend="underline">Lettre à Madame de Fallais (14 octobre 1543)</title> editada por 
@@ -36,7 +36,7 @@
   <date when="1543-10-14">14 de octubre de (1543)</date>
  </correspAction>
  <correspAction type="received">
-  <name type="individuo" key="Yolanda de Bréderode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande-brederode">Señora de Fallais</name>
+  <name type="individuo" key="Yolanda de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande-brederode">Señora de Fallais</name>
   <settlement cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</settlement>
  </correspAction>
  <correspContext>
@@ -70,16 +70,16 @@
 [Ahora bajo la cota Ms. fr. 194 (f. 19-20)]</hi>
 <salute>Señorita y querida hermana:</salute>
 </opener>
-<p>Tengo pocos motivos para escribirle en este momento, salvo para hacerle saber que he recibido sus cartas, que me dan un buen motivo para dar gracias a nuestro Señor por tantas gracias que a Usted le ha hecho, y especialmente por el hecho de que le haya dispuesto a dejar y renunciar a todo para dedicarse enteramente a servirle. Esto es algo que todos deberíamos hacer sin duda, y de hecho es como la primera lección de nuestro cristianismo. Pero la mayoría lo cumple muy mal. Alabo, pues, a nuestro Señor por haberle hecho sentir lo que vale la gloria de su nombre, de modo que la prefiera a todo lo demás, y también la felicidad que supone servirle con la conciencia tranquila, de modo que la considere el mayor tesoro que pueda llegar a sus manos. Porque sería superfluo exhortarle mucho, cuando veo que ya está plenamente resuelta en este camino, según me parece, sino que me esmero en confirmarle en este santo propósito. Ahora bien, espero que nuestro Señor no haya encendido en Usted tal celo y deseo que no considere oportuno darle la gracia de llegar al punto al que le conduce. Y además ya ha mostrado tan buenos comienzos, que debemos confiar en Él, en que los perfeccionará.</p>
+<p>Tengo pocos motivos para escribirle en este momento, salvo para hacerle saber que he recibido sus cartas, que me dan un buen motivo para dar gracias a nuestro Señor por tantas gracias que a usted le ha hecho, y especialmente por el hecho de que le haya dispuesto a dejar y renunciar a todo para dedicarse enteramente a servirle. Esto es algo que todos deberíamos hacer sin duda, y de hecho es como la primera lección de nuestro cristianismo. Pero la mayoría lo cumple muy mal. Alabo, pues, a nuestro Señor por haberle hecho sentir lo que vale la gloria de su nombre, de modo que la prefiera a todo lo demás, y también la felicidad que supone servirle con la conciencia tranquila, de modo que la considere el mayor tesoro que pueda llegar a sus manos. Porque sería superfluo exhortarle mucho, cuando veo que ya está plenamente resuelta en este camino, según me parece, sino que me esmero en confirmarle en este santo propósito. Ahora bien, espero que nuestro Señor no haya encendido en usted tal celo y deseo que no considere oportuno darle la gracia de llegar al punto al que le conduce. Y además ya ha mostrado tan buenos comienzos, que debemos confiar en Él, en que los perfeccionará.</p>
 
-<p>Es cierto que por su parte tiene grandes obstáculos que se lo impiden, y el caballero por la suya aún más. Pero al armarse Usted con la fuerza de nuestro Señor, los vencerá muy fácilmente, pasando por encima de ellos sin dificultad, no según la carne, sino de tal manera que sabrá que se verifica en usted lo que dice el profeta: <hi rend="italic">El Señor dispone de mis pies como de un ciervo.</hi> Solo tenga cuidado de no dejar que se enfríe el celo que el Señor le ha dado; más bien considere que es Él mismo quien le impulsa y le apresura. Y cuando haya alguna debilidad en Usted, pídale primeramente que tenga a bien corregirla, y por su parte Usted esfuércese en luchar contra ella, para vencerla. En segundo lugar, ruéguele que cuando vea que se retrasa en el camino, le quiera más bien tirar de la mano y casi a la fuerza liberarle. No cabe duda de que Sara fue un gran alivio para nuestro padre Abraham cuando tuvo que emprender su viaje. Sígala como una de sus hijas, pues de mirar atrás, vemos que está en el ejemplo de la esposa de Lot. Cuánta seguridad tengo de que no ha puesto la mano en el arado, para mirar atrás.</p>
+<p>Es cierto que por su parte tiene grandes obstáculos que se lo impiden, y el caballero por la suya aún más. Pero al armarse usted con la fuerza de nuestro Señor, los vencerá muy fácilmente, pasando por encima de ellos sin dificultad, no según la carne, sino de tal manera que sabrá que se verifica en usted lo que dice el profeta: <hi rend="italic">El Señor dispone de mis pies como de un ciervo.</hi> Solo tenga cuidado de no dejar que se enfríe el celo que el Señor le ha dado; más bien considere que es Él mismo quien le impulsa y le apresura. Y cuando haya alguna debilidad en usted, pídale primeramente que tenga a bien corregirla, y por su parte usted esfuércese en luchar contra ella, para vencerla. En segundo lugar, ruéguele que cuando vea que se retrasa en el camino, le quiera más bien tirar de la mano y casi a la fuerza liberarle. No cabe duda de que Sara fue un gran alivio para nuestro padre Abraham cuando tuvo que emprender su viaje. Sígala como una de sus hijas, pues de mirar atrás, vemos que está en el ejemplo de la esposa de Lot. Cuánta seguridad tengo de que no ha puesto la mano en el arado, para mirar atrás.</p>
 
-<p>Si estas cartas le fueran presentadas por un mensajero extraño, podría extenderme más; pero cuando el propio mensajero puede rogar en ausencia de cartas, no debe hacer el deshonor de escribir todo lo que desea que se sepa, como si no tuviera boca para hablar. Por esta razón pondré fin a estas presentes cartas, después de haberme encomendado afectuosamente a su buena gracia, y de haber rogado a nuestro Señor que esté dispuesto a continuar su obra en Usted, conduciéndole por su Espíritu Santo tanto al conocimiento como a la obediencia de su buena voluntad, dando también fuerza y prudencia al que ha de ser su guía, para que le preceda a fin de incitarle con su ejemplo, y dándole también la gracia de ser su ayudante como Él lo ha mandado. Esperaré el regreso del buen caballero que ahora es portador, no sin un gran deseo de verle.</p>
+<p>Si estas cartas le fueran presentadas por un mensajero extraño, podría extenderme más; pero cuando el propio mensajero puede rogar en ausencia de cartas, no debe hacer el deshonor de escribir todo lo que desea que se sepa, como si no tuviera boca para hablar. Por esta razón pondré fin a estas presentes cartas, después de haberme encomendado afectuosamente a su buena gracia, y de haber rogado a nuestro Señor que esté dispuesto a continuar su obra en usted, conduciéndole por su Espíritu Santo tanto al conocimiento como a la obediencia de su buena voluntad, dando también fuerza y prudencia al que ha de ser su guía, para que le preceda a fin de incitarle con su ejemplo, y dándole también la gracia de ser su ayudante como Él lo ha mandado. Esperaré el regreso del buen caballero que ahora es portador, no sin un gran deseo de verle.</p>
  <closer>
       <dateline><placeName></placeName>Este <date when="1543-10-14">14 de octubre de (1543)</date>.
       </dateline> 
       <salute>Su servidor, humilde hermano y completo amigo,</salute>
-      <signed><persName key="Charles d'Espeville" ref="#" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName></signed>
+      <signed><persName key="Charles d'Espeville" ref="https://www.wikidata.org/wiki/Q133821751" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName></signed>
       </closer>
   </body>
  </text>

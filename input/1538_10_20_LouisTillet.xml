@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="M-Falais14_10_43">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre à Louis du Tillet</title>
+        <editor role="Modernisation et encodage">Yanet Hernández Pedraza (Doctorante en littérature option humanités numériques - UdeM)</editor>
+        <editor role="#"></editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed under a Creative Commons Attribution-ShareAlike
+            3.0 Unported License</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
+          <author>
+            <name>
+              <forename>Jean</forename>
+              <surname>Calvin</surname>
+            </name>
+            <date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+          </author>, éd.
+          <editor>
+            <name>
+              <forename>Jules</forename>
+              <surname>Bonnet</surname>
+            </name>
+          </editor>,
+          <pubPlace>Paris</pubPlace>,
+          <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+          <date when="1854">1854</date>.
+          <affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+          <facsimile xml:id="43-46">
+            <!--  changer-->
+            <!--  changer-->
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f43/info.json"/>
+
+          </facsimile>
+        </bibl>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Genève</settlement>
+            <repository>Bibliothèque de Genève</repository>
+            <idno type="cote">Ms. (f. )</idno>
+          </msIdentifier>
+          <facsimile>
+            <graphic url="#"/>
+            <graphic url="#"/>
+          </facsimile>
+        </msDesc>
+        <notesStmt>
+          <note>Les notes proviennent de l'édition de Jules Bonnet de 1854
+            sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+        </notesStmt>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Jean Calvin
+            <!-- seulement au cas échéant-->
+            <addName type="pseudonym">Charles d'Espeville</addName>
+          </persName>
+          <settlement key="#" ref="#" corresp="#"></settlement>
+          <date when="1538-10-20">20 d'octobre 1538</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="individu|collectivité" key="#" ref="#" corresp="#">Louis du Tillet</persName>
+          <settlement cert="low" key="#" ref="#" corresp="#"></settlement>
+        </correspAction>
+        <correspContext>
+          <ref type="prev" target="#">
+            <persName/>
+            <date from="1500" to="1600"/>
+          </ref>
+          <ref type="next" target="#">
+            <persName/>
+            <date/>
+          </ref>
+        </correspContext>
+      </correspDesc>
+      <desc/>
+      <list xml:id="tags">
+        <term/>
+        <term/>
+        <term/>
+        <term/>
+      </list>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <opener>
+        <address>
+          <addrLine>
+            <persName type="individu|collectivité" key="#" ref="#" corresp="#">Monsieur de Falais</persName>
+            <note n="*" place="bottom">
+              <p/>
+            </note>
+          </addrLine>
+        </address>
+        <dateline xml:id="opener">
+          <placeName key="#" ref="#" corresp="#"></placeName>
+          <date when="1538-10-20"></date>
+        </dateline>
+        <hi rend="bold">
+          <label type='nature'> </label>.
+          [Maintenant sous la cote ]</hi>
+        <salute> ,</salute>
+      </opener>
+      <p/>
+      <!--[Note éditoriale] only if that is the case | if there's a @source write it like this [Note éditoriale, @source : texte (url)]-->
+      <!--No unnecessary space within note !important!!!-->
+      <p> Copie. Bibliothèque impériale de Paris. Mss. français. Fpnds Baluze. 8069-5.</p>
+      <p>Longtemps a que nostre Seigneur m'avoit tellement faict sentir en moy-mesmes les exportations et remonstrances qui sont en vostre lettre, que je ne les eusse peu prendre que bien, si je ne voulois contredire à ma conscience. J'entens en ce que vous me exhortez qu'en ce que nostre Seigneur a besoigné envers moy, je prenne matière et occasion de recongnoistre mes faultes. Et ne me suis pas contenté de les réputer en moy-mesmes, mais, comme mon debvoir estoit, je n'ay faict difficulté de les confesser devant ceulx qui eussent esté plus contans de me justifier que de penser qu'il y eust à redire Dans une nouvelle lettre à Calvin (7 septembre 1538), Louis du Tillet avait cru devoir signaler les événements récents de Genève, comme un châtiment providentiel, destiné à rappeler son ancien ami de la voie du schisme: « J'estime bien, disait-il, que les choses qui vous sont advenues ont esté traictées et poursuivies par maulvaise affection de personnes qui tendent plus aux fins de ce monde qu'ils n'ont considération de Dieu. Mais, ce que je vous supplie ne prendre que bien, je croy que vous avez plus à considérer de vostre part si nostre Seigneur ne vous veult point advertir par là de penser s'il n'y a rien eu à reprendre en vostre administration, et de vous humilier envers luy, et que, par ce moien, les grans dons et grâces que nostre Seigneur vous a eslargis, soient droictement employés à sa gloire, au salut de ses eslus, et vous soient pour ceste cause toujours de plus en plus augmentées.» Calvin répond à cette objection, et en appelle de « la sentence des sages » au tribunal de Dieu.</p>
+
+      <p>A <persName>LOUIS DU TILLET</persName></p>
+
+      <p>en moy. Vray est que au regard de nos adversaires j'ay bien tousjours maintenu mon innocence, telle que je pouvois la testifier devant Dieu. Pareillement je n'ay pas tousjours accordé à ceux qui asseoient jugement téméraire, comme la plus part s'advancent de déterminer de l'espèce de la maladie, n'en congnoissant pas la racine. Mais si je n'ay-je pas laissé de dire ne en public ne en particulier qu'il nous falloit prendre ceste calamité comme en châtiment notable de nostre ignorance, et aultres vices qui en avoient mestier. Quelles sont mes faultes en particulier, combien que j'en aperçoive beaucoup, j'estime bien toutes fois que je ne voy les plus grosses, ne le plus grand nombre. Pourtant je prie le Seigneur qu'il me les vueille de jour en jour plus évi'demment manifester; celles que vous notez, ne me sont point de mise. S'il estoit question de disputer de ma vocation, je crois que vous n'avez pas telles raysons pour l'impugner que le Seigneur ne m'en donne de plus fermes pour me confermer en icelle. Si elle vous est en doubte, ce m'est assez qu'elle me soit certaine, etnon-seulement cela, mais que je la puisse approuver à ceulx qui vouldront submettre leurs censures à la vérité. Vous ne me admonestez pas sans cause qu'il est mal de se confier trop à son sens, car je congnois ma portée telle que je ne sçauroys si petit présumer de moy, que ce ne soit trop. Mais je désirerois que vous eussiez ceste opinion que les plainctes que vous avez aultrefois ouyes de moy, ne venoient pas de feintise, lesquelles testifioient qu'il s'en falloit beaucoup que je feusse capable de soustenir la charge que j'avois.</p>
+
+      <p>Vous vous arrestez beaucoup à ce point qu'il y a dan-</p>
+
+      <p>gier qu'il ne nous fasse mal de rétracter avec quelque honte de légièreté, quand nous avons précipité nostre sentence devant le temps. De ma part comme j'entens bien que à bon droict je doibs craindre que ceste folle ambition me soit un bandeau pour m'ernpescher de voir droictement, aussy d'aultre part j'espère que nostre Seigneur ne me laissera tomber en cest orgueil que pour avoir mon honneur entier; je m'obstine voluntairement contre sa vérité. J'ai discuté de ceste matière avec quelques personnages que vous congnoissez. Je ne puis encores voir aultre chose que ce que j'en ay déclaré. Je ne scé si le tesmoing qui y estoit présent vous en aurait fait quelque rapport à travers champs, comme il a bonne coustume de renverser et brouiller.</p>
+
+      <p>Touchant de condamner aultruy, je suis contrainct de vous dire ung mot, qui ne vous plaira possible pas. Je vouldroys que vous prinssiez une partie de ces exhortations pour vous. Car eu appelant <hi rend="italic">tenebras lucem</hi> en toute vostre lettre, vous condamnez ceulx qui cheminent plus droictement que tous les vostres en cest endroit. Je n'entreré pas en dispute, pour ce aussi que ce n'est vostre intention, mais je vouldroys bien sçavoir quelle équité c'est qu'une personne face des arretz en un cabinet pour condamner tous ceux qui maintiénnent journellement leur doctrine devant tout le monde, et cependant estimer estre présumption à eulx d'oser condamner les ennemys manifestes de Dieu et de sa majesté. Je prens ce que vous dictes en ceste matière comme procédant d'un bon cueur, mais je l'attribue à un autre esperitque celluy de Dieu. Touchant de ma retraicte, je vous confesse que j'ay trouvé estrange le premier motque vous en dites, chercher</p>
+
+      <p>le moyen de rentrer où je serois comme en un enfer. La terre est au Seigneur, direz-vous. Il est vray, mais je vous prye de me permestre suivre la reiglé de ma conscience laquelle je sçais estre plus certaine que la vostre. Quant est de reprendre charge, j'eusse bien désiré en estre creu, et si je ne eusse eu à fere que à ceulx que vous pouviez estimer estre trop aspres et inconsidérez à mettre les gens en besoigne, je m'en fusse encore aulcunement despesché mais quand les plus modérés me menacent que le Seigneur me trouveroit aussi bien que Jonas, et quand ils viennent jusques à ces parolles <hi xml:lang="lat" rend="italic">Finge tua unius culpâ perditam Ecclesiam. Quœ tamen melior pœnitentiœ ratio, quam ùt te Domino totum exhibeas ? Tu istis dôtibus prœditus, qua conscientia oblatum ministerium repudies, etc.</hi>
+        <note n="#" type="tradLat" place="bottom">
+          <p>Traduction: Imagine que l'Eglise est perdue par ta seule faute. Mais quelle meilleure façon de se repentir que de se présenter tout entier au Seigneur ? Toi qui es doté de tels dons, avec quelle conscience repousses-tu le ministère qui t'est offert?
+          </p>
+        </note> Je n'ai sçeu que fere, sinon de leur proposer mes raisons qui me desmouvoiérit afin de suivre mon propos avec leur consentement. Après que cela n'a valu, j'ay pensé estre nécessaire en telle perplexité de suivre ce que je pensoys in'estre monstre par les serviteurs de Dieu. Je vous asseure bien que la solicitude du corps ne m'eust pas amené à ce poinct, car j'avôys bien délibéré tascher de gaigner ma vie en estat privé, ce que je pensoys ne m'estre du tout impossible; mais j'ay jugé que la volunté de Dieu me menoit aultré part. Si j'ay failly, je vous prye me reprendre, mais que ce ne soit par simple et précise condamnation, à laquelle je ne pourroys donner authorité contre tant de raisons et tesmoignages de personnages qui ne sont pas contemptibles, et ne vous le doibvent estre.</p>
+
+      <p>Vous me faictes un offre dont je ne puis vous assez remercier, et ne suis pas tant inhumain que je n'en</p>
+
+      <p>sente la gratuité si grande, que mesmes ne l'acceptant point, je ne pourrois jamais satisfère à l'obligation qui luy est deue de moy. Mais je m'abstiendray dé charger tant que possible ün chascung, mais principalement vous, lequel en avez eu trop de charge lé temps passe. Pour le présent, ma nourriture ne me côuste rien. Aux nécessitez qui sont oultre la bouche fournira l'argent des livres, car j'espère bien que vous daignerez m'en donner d'aultres au besoing. Si vous eussiez tellement adressé vos propos à moy, qu'il n'y eust eu note que sur ma personne, je l'eusse facilement enduré. Mais d'aultant que vous ne pardonnez à la vérité de Dieu, ne à ses serviteurs, il m'a esté nécessaire de vous respondre en peu de parolles, afin qu'il ne vous semblast advis que je voulsisse vous accorder. Je croy que vous avez estimé nostre affliction estre suffisante pour me mettre en perplexité extrême, jusques à despriser tout le précédent estat. Il est vray que j'ay esté grandement affligé, mais non pas jusques à dire <hi xml:lang="latin" rend="italic">Nescio ubi sint viœ Domini</hi>; par quoy en vain ces tentations me sont objectées. L'un de mes compagnons est maintenant devant Dieu pour rendre compte de la cause que luy a esté commune avec nous. Quand nous viendrons là, on congnoistra de quel costé aura esté la témérité ou escartement. C'est là où j'appelle de la sentence de tous les sages, lesquels pensent leur simple parolle avoir assez de poix pour nostre condamnation. Là les anges de Dieu rendront tesmoignage, lesquels sont schismatiques. L'ancien moine Augustin Courault, zélé prédicateur de là Réforme à Paris et à Genève: Banni de cette dernière ville avec Calvin et Farel, il était mort à Orbe (4 octobre 1538).</p>
+
+      <p>Après m'estre humblement recommandé à vostre bonne grâce, je prieray notre Seigneur qu'il vous vueille maintenir et conserver en sa saincte protection, vous dirigeant tellement que vous ne décliniez de sa voie. De Strasbourg, ce 20 d'octobre (1538).</p>
+      <closer>
+        <dateline>
+          <placeName key="#" ref="#" corresp="#">Strasbourg</placeName>
+          <date when="1538-10-20">ce 20 d'octobre 1538</date>
+        </dateline>
+        <salute>Vostre humble serviteur et amy entièrement</salute>
+        <signed>
+          <persName key="#" ref="#" type="pseudonym" corresp="#">CHARLES D'ESPEVILLE</persName>.
+        </signed>
+      </closer>
+    </body>
+  </text>
+</TEI>
