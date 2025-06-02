@@ -34,7 +34,7 @@
   <date when="1542-05">[mayo de 1542]</date>
  </correspAction>
   <correspAction type="received">
-  <name type="individu" key="Párroco anónimo" ref="#" corresp="#cure">Párroco anónimo</name>
+  <name type="individuo" key="Párroco anónimo" ref="#" corresp="#cure">Párroco anónimo</name>
   <settlement cert="low" key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Ginebra]</settlement>
  </correspAction>
  <correspContext>
