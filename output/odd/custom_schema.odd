@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Schéma personnalisé pour l'édition numérique de la correspondance de Jean Calvin</title>
+        <author>Yanet Hernandez Pedraza</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication numérique</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Né numérique</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div1>
+      	<head>Schéma personnalisé pour l'édition numérique de la correspondance de Jean Calvin</head>
+        <schemaSpec ident="Calvin_Corresp" start="TEI">
+
+          <moduleRef key="tei"/>
+          <moduleRef key="header" except="title"/>                                         
+          <moduleRef key="core"/>
+          <moduleRef key="textstructure" />
+          <moduleRef key="linking" />
+          <moduleRef key="namesdates" />
+          <moduleRef key="verse" />
+          <moduleRef key="figures"/>
+          <moduleRef key="tagdocs"/> 
+          <moduleRef key="msdescription"/>
+          <moduleRef key="transcr"/>
+
+<!--  #### Elements customisation #### -->  
+
+    <elementSpec ident="sourceDesc" mode="change">
+        <content>
+          <alternate>
+           <classRef key="model.pLike" minOccurs="1"
+            maxOccurs="unbounded"/>
+           <alternate minOccurs="1"
+            maxOccurs="unbounded">
+            <classRef key="model.biblLike"/>
+            <classRef key="model.sourceDescPart"/>
+            <classRef key="model.listLike"/>
+           </alternate>
+          </alternate>
+          <alternate minOccurs="0" maxOccurs="1">
+        <elementRef key="notesStmt" />
+          </alternate>
+      </content>
+    </elementSpec>
+     <elementSpec ident="bibl" mode="change">
+      <content>
+          <alternate minOccurs="0"
+           maxOccurs="unbounded">
+           <textNode/>
+           <classRef key="model.gLike"/>
+           <classRef key="model.highlighted"/>
+           <classRef key="model.pPart.data"/>
+           <classRef key="model.pPart.edit"/>
+           <classRef key="model.segLike"/>
+           <classRef key="model.ptrLike"/>
+           <classRef key="model.biblPart"/>
+           <classRef key="model.global"/>
+           <elementRef key="facsimile" />
+        </alternate>
+      </content>
+     </elementSpec>
+     <elementSpec ident="msDesc" mode="change">
+      <content>
+        <sequence>
+          <elementRef key="msIdentifier"/>
+          <classRef key="model.headLike"
+           minOccurs="0" maxOccurs="unbounded"/>
+          <alternate>
+           <classRef key="model.pLike"
+            minOccurs="1" maxOccurs="unbounded"/>
+           <alternate minOccurs="0"
+            maxOccurs="unbounded">
+            <elementRef key="msContents"/>
+            <elementRef key="physDesc"/>
+            <elementRef key="history"/>
+            <elementRef key="additional"/>
+            <elementRef key="msPart"/>
+            <elementRef key="msFrag"/>
+            <elementRef key="facsimile"/>
+           </alternate>
+          </alternate>
+         </sequence>
+      </content>
+     </elementSpec>
+     <elementSpec ident="profileDesc" mode="change">
+      <content>
+        <classRef key="model.profileDescPart" minOccurs="0" maxOccurs="unbounded"/>
+          <sequence minOccurs="0" maxOccurs="1">
+            <elementRef key="desc"/>
+            <elementRef key="list"/>
+          </sequence>
+      </content>
+    </elementSpec>
+    <elementSpec ident="list" mode="change">
+      <content>
+        <alternate minOccurs="0" maxOccurs="unbounded">
+          <elementRef key="term"/>
+        </alternate>
+      </content>
+    </elementSpec>
+</schemaSpec>
+      </div1>
+    </body>
+  </text>
+</TEI>

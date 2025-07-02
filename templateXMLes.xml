@@ -89,7 +89,10 @@
          <hi xml:lang="trad">[traduction]</hi>
         </p></note>
     </p>
-    
+      
+      <!-- For persName: add @corresp for addressees and people mentioned in the letters which are listed in the Index of names | if the person is mentioned in the notes and has some kind of uri then a @ref attribute is added and the transformation will add that link instead of the link to the Index of Names -->
+      <!-- placeNames in text (in the body inside paragraphs) do not have a @corresp attribute since they are not indexed in the Index of Places (only the placeNames inside dataline are)-->
+      
  <p><note n="2" place="bottom"><p><persName key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucero">Bucero</persName> y <persName key="Wolfgang Capito" ref="https://www.wikidata.org/wiki/Q1368362" corresp="#capito">Capito</persName>, reformadores de Estrasburgo</p></note> 
  </p>
 

@@ -59,10 +59,10 @@ def compile():
             obj["text"] = {}
             addressee = el.text
             #print(addressee)
-            obj["text"]["headline"] = "<a href='/fr/lettres/" + slug + "'>" + addressee + "</a>"
+            obj["text"]["headline"] = addressee
         for el in root.findall(".//{http://www.tei-c.org/ns/1.0}desc"):
             desc = el.text
-            obj["text"]["text"] = desc
+            obj["text"]["text"] = f"<div><p>{desc}</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/{slug}' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>" 
         for el in root.findall(".//{http://www.tei-c.org/ns/1.0}facsimile[1]/{http://www.tei-c.org/ns/1.0}graphic[1]"):
             url = el.get('url')
             img = url.replace("/info.json", ".jpeg").replace("iiif/", "")

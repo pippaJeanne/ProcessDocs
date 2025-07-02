@@ -8,8 +8,8 @@
                      },
                      "display_date": "31 de enero de 1538",
                      "text": {
-                            "headline": "<a href='/es/cartas/1538_01_LuisdeTillet'>Louis de Tillet</a>",
-                            "text": "Respuesta de Juan Calvino a Louis de Tillet después de haber recibido la carta donde Louis de Tillet le informaba de su decisión de regresar a la fe católica."
+                            "headline": "Louis de Tillet",
+                            "text": "<div><p>Respuesta de Juan Calvino a Louis de Tillet después de haber recibido la carta donde Louis de Tillet le informaba de su decisión de regresar a la fe católica.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1538_01_LuisdeTillet' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://gallica.bnf.fr/ark:/12148/btv1b90076313/f3.jpeg",
@@ -28,8 +28,8 @@
                      },
                      "display_date": "10 de julio de 1538",
                      "text": {
-                            "headline": "<a href='/es/cartas/1538_07_10_LouisTillet'>Louis de Tillet</a>",
-                            "text": "Carta de Calvino a Louis de Tillet en la que Calvino habla de su exilio de Ginebra y de su traslado a Estrasburgo."
+                            "headline": "Louis de Tillet",
+                            "text": "<div><p>Carta de Calvino a Louis de Tillet en la que Calvino habla de su exilio de Ginebra y de su traslado a Estrasburgo.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1538_07_10_LouisTillet' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://gallica.bnf.fr/ark:/12148/btv1b90076313/f18.jpeg",
@@ -48,8 +48,8 @@
                      },
                      "display_date": " 19 de febrero de 1541",
                      "text": {
-                            "headline": "<a href='/es/cartas/1541_02_19_senoresGinebra'>Señores de Ginebra</a>",
-                            "text": "En el contexto del Coloquio de Ratisbona, el cual fue un importante debate teológico entre los católicos y los protestantes, Juan Calvino, luego de que Guillaume Farel solicitara su regreso a Ginebra, explica las razones de su llegada tardía y reafirma su compromiso con la iglesia."
+                            "headline": "Señores de Ginebra",
+                            "text": "<div><p>En el contexto del Coloquio de Ratisbona, el cual fue un importante debate teológico entre los católicos y los protestantes, Juan Calvino, luego de que Guillaume Farel solicitara su regreso a Ginebra, explica las razones de su llegada tardía y reafirma su compromiso con la iglesia.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1541_02_19_senoresGinebra' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fcorrespondance_ecclesiastiqueead%252Fms_fr_401%252Fms_fr_00401_f017_01.jpg",
@@ -62,14 +62,22 @@
               },
               {
                      "start_date": {
-                            "year": "1538",
+                            "year": "1541",
                             "month": "09",
                             "day": "29"
                      },
                      "display_date": " 29 de septiembre de 1541",
                      "text": {
-                            "headline": "<a href='/es/cartas/1541_09_29_senoresNeuchatel'>A los señores de Neuchâtel</a>",
-                            "text": "Carta de los ministros de Ginebra, entre los que se incluye Calvino, dirigida a los de Neuchâtel para persuadirles de no deponer a Guillaume Farel luego de haber censurado públicamente una dama de sociedad. Esta carta fue enviada con Pierre Viret y contiene instrucciones de Calvino para su intervención delante del Consistorio de Neuchâtel."
+                            "headline": "A los señores de Neuchâtel",
+                            "text": "<div><p>Carta de los ministros de Ginebra, entre los que se incluye Calvino, dirigida a los de Neuchâtel para persuadirles de no deponer a Guillaume Farel luego de haber censurado públicamente una dama de sociedad. Esta carta fue enviada con Pierre Viret y contiene instrucciones de Calvino para su intervención delante del Consistorio de Neuchâtel.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1541_09_29_senoresNeuchatel' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
+                     },
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f157r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f157r.jpg"
+                     },
+                     "background": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f157r.jpg",
+                            "color": "#5e5e52"
                      }
               },
               {
@@ -80,8 +88,8 @@
                      },
                      "display_date": "[octubre 1541]",
                      "text": {
-                            "headline": "<a href='/es/cartas/1541_10_duquesaFerrara'>A la duquesa de Ferrara</a>",
-                            "text": "Calvino instruye acerca de los errores de la misa."
+                            "headline": "A la duquesa de Ferrara",
+                            "text": "<div><p>Calvino instruye acerca de los errores de la misa.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1541_10_duquesaFerrara' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_196%252Fms_fr_00196_f079r.jpg",
@@ -100,8 +108,8 @@
                      },
                      "display_date": "[mayo de 1542]",
                      "text": {
-                            "headline": "<a href='/es/cartas/1542_05_Al_senor_cura'>Párroco anónimo</a>",
-                            "text": "Defensa de la doctrina de la iglesia reformada contra la acusación de ser la causa de la peste en Ginebra. Instrucción de recurrir solo a Dios por liberación."
+                            "headline": "Párroco anónimo",
+                            "text": "<div><p>Defensa de la doctrina de la iglesia reformada contra la acusación de ser la causa de la peste en Ginebra. Instrucción de recurrir solo a Dios por liberación.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1542_05_Al_senor_cura' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg",
@@ -120,8 +128,8 @@
                      },
                      "display_date": "[14 de octubre de 1543]",
                      "text": {
-                            "headline": "<a href='/es/cartas/1543_10_14_SenorFalais'>Señor de Fallais</a>",
-                            "text": "Calvino le da su consejo al señor de Fallais quien consideraba dejar los Países Bajos."
+                            "headline": "Señor de Fallais",
+                            "text": "<div><p>Calvino le da su consejo al señor de Fallais quien consideraba dejar los Países Bajos.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1543_10_14_SenorFalais' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f001r.jpg",
@@ -140,8 +148,8 @@
                      },
                      "display_date": "14 de octubre de (1543)",
                      "text": {
-                            "headline": "<a href='/es/cartas/1543_10_14_SenoraFalais'>Señora de Fallais</a>",
-                            "text": "Calvino da aliento a la Señora de Fallais quien compartía los sentimientos de su esposo con respecto a la religión reformada."
+                            "headline": "Señora de Fallais",
+                            "text": "<div><p>Calvino da aliento a la Señora de Fallais quien compartía los sentimientos de su esposo con respecto a la religión reformada.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1543_10_14_SenoraFalais' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f001r.jpg",
@@ -160,8 +168,8 @@
                      },
                      "display_date": "[finales de 1543]",
                      "text": {
-                            "headline": "<a href='/es/cartas/1543_finales_SenorDeFalais'>Señor de Fallais</a>",
-                            "text": "Carta de Calvino al señor de Fallais en la que Calvino nuevamente anima este último a abandonar su país debido a sus creencias religiosas."
+                            "headline": "Señor de Fallais",
+                            "text": "<div><p>Carta de Calvino al señor de Fallais en la que Calvino nuevamente anima este último a abandonar su país debido a sus creencias religiosas.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1543_finales_SenorDeFalais' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF=%2Fhome%2Fhttpd%2Fbge%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f005r.jpg",
@@ -180,8 +188,8 @@
                      },
                      "display_date": "24 de junio de 1544",
                      "text": {
-                            "headline": "<a href='/es/cartas/1544_06_24_SraDeFalais'>Señora de Fallais</a>",
-                            "text": "Ánimo a la señora de Fallais en su nueva vida de libertad de conciencia y de culto luego de haber seguido a su marido a Colonia y a Estrasburgo."
+                            "headline": "Señora de Fallais",
+                            "text": "<div><p>Ánimo a la señora de Fallais en su nueva vida de libertad de conciencia y de culto luego de haber seguido a su marido a Colonia y a Estrasburgo.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1544_06_24_SraDeFalais' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f009r.jpg",
@@ -200,8 +208,8 @@
                      },
                      "display_date": "[20 ** 1546]",
                      "text": {
-                            "headline": "<a href='/es/cartas/1546_01_20_SraDeBude'>Señora de Budé</a>",
-                            "text": "Calvino aconseja a la señora de Budé retirarse a Ginebra."
+                            "headline": "Señora de Budé",
+                            "text": "<div><p>Calvino aconseja a la señora de Budé retirarse a Ginebra.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1546_01_20_SraDeBude' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f006r.jpg",
@@ -220,8 +228,8 @@
                      },
                      "display_date": "13 de junio de [1548]",
                      "text": {
-                            "headline": "<a href='/es/cartas/1548_06_NuevoCreyente'>Nuevo creyente</a>",
-                            "text": "Respuesta a una pregunta acerca de la misa y aliento en la fe."
+                            "headline": "Nuevo creyente",
+                            "text": "<div><p>Respuesta a una pregunta acerca de la misa y aliento en la fe.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1548_06_NuevoCreyente' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f357r.jpg",
@@ -238,10 +246,10 @@
                             "month": "10",
                             "day": "06"
                      },
-                     "display_date": "[6 de octubre de 1552]",
+                     "display_date": "(6 de octubre de 1552)",
                      "text": {
-                            "headline": "<a href='/es/cartas/1552_10_06_SenoresDeGinebra'>Señores de Ginebra</a>",
-                            "text": "Respuesta de Calvino a las acusaciones de Jean Trolliet concerniendo su doctrina."
+                            "headline": "Señores de Ginebra",
+                            "text": "<div><p>Respuesta de Calvino a las acusaciones de Jean Trolliet concerniendo su doctrina.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1552_10_06_SenoresDeGinebra' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f046r.jpg",
@@ -260,8 +268,8 @@
                      },
                      "display_date": "[1552]",
                      "text": {
-                            "headline": "<a href='/es/cartas/1552_SrDeFalais'>Señor de Fallais</a>",
-                            "text": "Última carta de Calvino al señor de Fallais. Ruptura de Calvino con el señor de Fallais cuando este último tomó abiertamente el partido de Jérôme Bolsec contra Calvino."
+                            "headline": "Señor de Fallais",
+                            "text": "<div><p>Última carta de Calvino al señor de Fallais. Ruptura de Calvino con el señor de Fallais cuando este último tomó abiertamente el partido de Jérôme Bolsec contra Calvino.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1552_SrDeFalais' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f342r.jpg",
@@ -280,8 +288,8 @@
                      },
                      "display_date": "12 de marzo de 1553",
                      "text": {
-                            "headline": "<a href='/es/cartas/1553_03_12_ReyInglaterra'>Rey de Inglaterra</a>",
-                            "text": "Intercesión de Calvino ante el rey de Inglaterra a favor de un gentilhombre perseguido a causa de la religión."
+                            "headline": "Rey de Inglaterra",
+                            "text": "<div><p>Intercesión de Calvino ante el rey de Inglaterra a favor de un gentilhombre perseguido a causa de la religión.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1553_03_12_ReyInglaterra' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
                      },
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f035r.jpg",

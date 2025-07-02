@@ -2,8 +2,8 @@ from google import genai
 from google.genai import types
 import json
 import os
-
 client = genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
+
 # Get list of tuned models
 for model_info in client.tunings.list():
     print(model_info.tuned_model.model)
@@ -11,14 +11,25 @@ for model_info in client.tunings.list():
 # Use base model
 # To help in the encoding of the structure of the letter given the template with the editorial protocol
 template = open("templateEncodage.xml", "r").read()
-text = open("TextLettreTour.txt", "r").read()
+text = open("ToProcess.txt", "r").read()
 
 response = client.models.generate_content(
-    model='gemini-2.0-flash', contents=f"En prenant le modèle d'encodage TEI dans {template}, prends le texte océrisé dans {text} et fais l'encodage TEI du text océrisé en suivant le modèle fourni. Produis le contenu dans fichier XML-TEI.")
+    model='gemini-2.0-flash', contents=f"En prenant le modèle d'encodage TEI dans {template}, prends le texte océrisé dans {text} et fais l'encodage TEI du text océrisé en suivant le modèle fourni. Produis le contenu dans un fichier XML-TEI.")
 with open("input/1538_10_20_LouisTillet.xml", "w", encoding="utf8") as outfile:
-    outfile.write(response.text) #change name of file
+    outfile.write(response.text) #change name of file following the model => 1538_10_20_NomDestinataire.xml
 
+#####
+    # To help in the encoding of the structure of set of letters given the template with the editorial protocol 
+for i in range(1,5): #number for last argument of range depends on number of letters in the 'text' doc plus 1 (no index 0).
+    template = open("templateEncodage.xml", "r").read()
+    text = open("ToProcess.txt", "r").read()
 
+    response = client.models.generate_content(
+        model='gemini-2.0-flash', contents=f"En prenant le modèle d'encodage TEI dans {template}, prends le texte océrisé dans {text} de la lettre correspondant au numéro {i} en ordre (les lettres ont été divisées par des lignes pointillées) et fais l'encodage TEI du text océrisé en suivant le modèle fourni. Produis le contenu dans un fichier XML-TEI.")
+    with open(f"input/{i}.xml", "w", encoding="utf8") as outfile:
+        outfile.write(response.text) #change name of file following the model => 1538_10_20_NomDestinataire.xml
+
+#####    
 # text to translate
 text = open("Translations_txt/1538_01_LouisduTillet.txt", "r").read()
 
@@ -32,7 +43,7 @@ for i in range(0,nloops+1):
     milestone = i * limit
     if milestone < len(text):
         substring = text[milestone:milestone+limit]
-        i = i + limit
+        #i = i + limit
     #if i < nloops:
     #    substring = text[i:i+limit]
         

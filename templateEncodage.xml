@@ -4,8 +4,8 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>Lettre à Monsieur de Falais</title>
-<editor role="Modernisation et encodage">Yanet Hernández Pedraza (Doctorante en littérature option humanités numériques - UdeM)</editor>
+<title>Lettre à destinataire</title> <!-- substitute 'destinataire' for the name of the addressee; e.g.: Monsieur de Fallais-->
+<editor role="Modernisation et encodage">Yanet Hernández Pedraza</editor>
 <editor role="#"></editor>
 </titleStmt>
 <publicationStmt>
@@ -15,6 +15,7 @@
 3.0 Unported License</licence>
 </availability>
 </publicationStmt>
+      <!-- For printed source (Jules Bonnet's edition of 1854)-->
 <sourceDesc>
   <bibl>
      <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
@@ -35,11 +36,13 @@
 <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
 <date when="1854">1854</date>.
 <affiliation>Provenance : Bibliothèque nationale de France</affiliation>
-<facsimile xml:id="43-46"> <!--  changer-->               <!--  changer-->
+<facsimile xml:id="43-46"> <!--  changer value of @xml:id-->               
+      <!--  change value of @url and add the corresponding number of graphic tags-->
 <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f43/info.json"/>
 
 </facsimile>
   </bibl>
+        <!-- For manuscript | primary sources -->
 <msDesc>
 <msIdentifier>
     <settlement>Genève</settlement>
@@ -61,7 +64,7 @@
  <correspDesc>
   <correspAction type="sent">
   <persName>Jean Calvin
-    <!-- seulement au cas échéant-->
+    <!-- add tag @type pseudonym only if letter signed with a pseudonym. Erase otherwise -->
   <addName type="pseudonym">Charles d'Espeville</addName>
 </persName>
   <settlement key="#" ref="#" corresp="#"></settlement>
@@ -106,10 +109,12 @@
         <salute> Monsieur| Mademoiselle,</salute>
     </opener>
     <p></p>
-<!--[Note éditoriale] only if that is the case | if there's a @source write it like this [Note éditoriale, @source : texte (url)]-->
-<!--No unnecessary space within note !important!!!-->
+
     <p>
-    <note n="#" place="bottom" type="editorial"><p>texte. [Note éditoriale]</p></note></p>
+        <!--[Note éditoriale] only if that is the case | if there's a @source write it like this [Note éditoriale, @source : texte (url)]-->
+        <!--No unnecessary space within note !important!!!-->
+    <note n="#" place="bottom" type="editorial"><p>texte. [Note éditoriale]</p></note>
+    </p>
 
     <p> <hi rend="italic">citation ou titre d'ouvrage</hi> 
         <hi xml:lang="lat" rend="italic">passage ou citation en latin</hi><note n="#" type="tradLat" place="bottom"><p>Traduction</p></note>
@@ -121,10 +126,14 @@
          <hi xml:lang="latinq" rend="italic">passage ou citation en latin</hi>
          <hi xml:lang="trad">[traduction]</hi>
         </p></note>
-    </p>
-    <!-- Title inline  -->
-<!-- For persName: add @corresp for addressees and people mentioned in the letters which are listed in the Index of names | if the person is mentioned in the notes and has some kind of uri then a @ref attribute is added and the transformation will add that link instead of the link to the Index of Names-->
-    <p><!-- Title of work in text or note if important and likely to have a ref => add rend="italic" , @key & @ref -->
+    </p>  
+   
+<!-- For persName: add @corresp for addressees and people mentioned in the letters which are listed in the Index of names | if the person is mentioned in the notes and has some kind of uri then a @ref attribute is added and the transformation will add that link instead of the link to the Index of Names -->
+<!-- placeNames in text (in the body inside paragraphs) do not have a @corresp attribute since they are not indexed in the Index of Places (only the placeNames inside dataline are)-->      
+<note n="2" place="bottom"><p><persName key="Martin Bucer" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucer">Bucero</persName> y <persName key="Wolfgang Capito" ref="https://www.wikidata.org/wiki/Q1368362" corresp="#capito">Capito</persName>, reformadores de Estrasburgo</p></note>      
+
+      <!-- Title inline  -->
+    <p><!-- Title of work in text or note if important and likely to have a @ref => add rend="italic" , @key & @ref -->
     <title key="Institution de la religion chrétienne" ref="https://fr.wikipedia.org/wiki/Institution_de_la_religion_chrétienne" rend="italic">Institution chrétienne</title>
 
     <!-- Add bibl tag if more complete and structured refence provided-->

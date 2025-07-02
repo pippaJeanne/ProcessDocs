@@ -16,7 +16,7 @@
 <sourceDesc corresp="conseilNeuchatelSept41">
  <bibl>
   Traducción de la versión modernizada de
-  <title level="a" rend="underline">Lettre aux seigneurs de Neuchâtel (29 septembre 1541)</title> editada por 
+  <title level="a" rend="underline">Lettre aux Seigneurs de Neuchâtel (29 septembre 1541)</title> editada por 
  <editor><name>
     <forename>Yanet</forename>
     <surname>Hernández Pedraza</surname></name></editor>.
@@ -31,7 +31,7 @@
   <correspAction type="sent">
   <persName>Juan Calvino</persName>
   <settlement>Ginebra</settlement>
-  <date when="1538-09-29"> 29 de septiembre de 1541</date>
+  <date when="1541-09-29"> 29 de septiembre de 1541</date>
  </correspAction>
  <correspAction type="received">
   <name type="grupo" key="Consistorio de Neuchâtel" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-neuchatel">A los señores de Neuchâtel</name>

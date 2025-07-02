@@ -45,7 +45,7 @@
 <msIdentifier>
   <settlement>Genève</settlement>
   <repository>Bibliothèque de Genève</repository>
-  <idno type="cote">Ms. lat. 107 (f. 35)</idno>
+  <idno type="cote">Ms. lat. 107 (f. 79)</idno>
 </msIdentifier>
 <facsimile>
 <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f035r.jpg"/>
@@ -95,9 +95,10 @@
 </address>
 <dateline xml:id="opener"><placeName cert="medium" key="Londres" ref="https://www.wikidata.org/wiki/Q84" corresp="#londres">Londres</placeName>, le <date when="1553-03-12">12 mars 1553</date>
 </dateline>
-  <hi rend="bold">Copie. Bibl. imp. Coll. Dupuy, vol. 102.</hi>
+  <hi rend="bold">Copie. Bibl. imp. Coll. Dupuy, vol. 102. </hi>
   <hi xml:id="editorNote"> 
-  [<label type='nature'>Original</label> dans le Ms. lat. 107 (f. 35). Bibl. de Genève] <lb/>
+  <hi rend="italic">Maintenant à la BNF [Gallica] sous la côte <ref target="https://gallica.bnf.fr/ark:/12148/btv1b100342104/f20.item">Recueil de lettres de Calvin et d'autres théologiens du XVI siècle (f. 20)</ref></hi>
+  <hi>[<label type='nature'>Original</label> dans le Ms. lat. 107 (f. 35). Bibl. de Genève] </hi>
   <hi rend="italic"><hi rend="superscript">*</hi> Le dernier paragraphe et la signature manquent dans l'original ; le fueillet suivant contenant la fin manque.
   </hi></hi>
 <salute>Sire,</salute>

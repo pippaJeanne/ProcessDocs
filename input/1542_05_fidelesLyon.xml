@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="M-Lyon_Carme">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre aux fidèles de Lyon</title>
+        <!-- substitute 'destinataire' for the name of the addressee; e.g.: Monsieur de Fallais-->
+        <editor role="Modernisation et encodage">Yanet Hernández Pedraza</editor>
+        <editor role="#"></editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed under a Creative
+            Commons Attribution-ShareAlike
+            3.0 Unported License</licence>
+        </availability>
+      </publicationStmt>
+      <!-- For printed source (Jules Bonnet's edition of 1854)-->
+      <sourceDesc>
+        <bibl>
+          <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après
+            les ms. originaux par Jules Bonnet</title>. Par
+          <author>
+            <name>
+              <forename>Jean</forename>
+              <surname>Calvin</surname>
+            </name>
+            <date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+          </author>, éd.
+          <editor>
+            <name>
+              <forename>Jules</forename>
+              <surname>Bonnet</surname>
+            </name>
+          </editor>,
+          <pubPlace>Paris</pubPlace>,
+          <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+          <date when="1854">1854</date>.
+          <affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+          <facsimile xml:id="43-46">
+            <!--  changer value of @xml:id-->
+            <!--  change value of @url and add the corresponding number of graphic tags-->
+            <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f43/info.json"/>
+          </facsimile>
+        </bibl>
+        <!-- For manuscript | primary sources -->
+        <msDesc>
+          <msIdentifier>
+            <settlement>Genève</settlement>
+            <repository>Bibliothèque de Genève</repository>
+            <idno type="cote">Vol. 145.</idno>
+          </msIdentifier>
+          <facsimile>
+            <graphic url="#"/>
+            <graphic url="#"/>
+          </facsimile>
+        </msDesc>
+        <notesStmt>
+          <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+        </notesStmt>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Jean Calvin
+            <!-- add tag @type pseudonym only if letter signed with a pseudonym. Erase otherwise -->
+            <addName type="pseudonym">Charles d'Espeville</addName>
+          </persName>
+          <settlement key="Geneve" ref="#" corresp="#"></settlement>
+          <date when="1542-05-10"></date>
+        </correspAction>
+        <correspAction type="received">
+          <name type="individu|collectivité" key="Fidèles de Lyon" ref="#" corresp="#"></name>
+          <settlement cert="low" key="Lyon" ref="#" corresp="#"></settlement>
+        </correspAction>
+        <correspContext>
+          <ref type="prev" target="#">
+            <persName/>
+            <date from="1500" to="1600"/>
+          </ref>
+          <ref type="next" target="#">
+            <persName/>
+            <date/>
+          </ref>
+        </correspContext>
+      </correspDesc>
+      <desc></desc>
+      <list xml:id="tags">
+        <term>Réforme</term>
+        <term>Hérésie</term>
+        <term>Doctrine</term>
+        <term>Scandale</term>
+      </list>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <opener>
+        <address>
+          <addrLine>AUX FIDÈLES DE LYON
+            <note n="*" place="bottom">
+              <p>Au dos Lettre contre le Carme. Sans date. Une lettre latine de Calvin à Farel, du 10 mai 1542, relative au même sujet, nous fournit la date inconnue, et nous apprend que ce carme, passé dans les rangs de la Réforme, était de Lyon « Venit Carmelita lugdunensis a quo non frustra timuimus. » Calvin avertit les fidèles de cette ville de se tenir en garde contre ce faux frère.</p> <p>L'Eglise de Lyon, une des plus glorieuses de la Réforme française, dut son origine aux prédications d'un ancien moine jacobin, Alexandre Camus, surnommé Laurent de la Croix, qui souffrit le martyre à Paris en 1535. Les premiers membres de cette Eglisc furent des marchands « quelques orfévres et autres de la ville, » qui se réunissaient en secret. L'œuvre commencée par Alexandre Camus, fut courageusement poursuivie par Jean Fabri (Le Fèvre) qui trouva de pieux continuateurs dans les ministres Pierre Fournelet et Claude Monnier, avant l'époque des grandes persécutions.</p>
+            </note>
+          </addrLine>
+        </address>
+        <dateline xml:id="opener">
+          <placeName key="Geneve" ref="#" corresp="#">Genève</placeName>
+          <date when="1542-05-10">10 mai 1542</date>
+        </dateline>
+        <hi rend="bold">
+          <label type='nature'>Minute originale</label>. Bibliothèque ...
+        </hi>
+        <hi xml:id="editorNote">
+          [Maintenant sous la cote ... (f. 12-35)]</hi>
+        <salute>Très chers frères,</salute>
+      </opener>
+      <p>La grâce et la paix de Dieu nostre Père par nostre Seigneur Jésus-Christ, soit et demeure tousjours sur vous par la vertu de son Sainct-Esprit.</p>
+
+      <p>Très chers frères nous désirerions d'avoir matière de vous escripre qui vous vînt à plus grande consolation, car quant quelque autre vous contristeroit, nous serions les premiers qui voudrions mectre peine à vous resjouyr. Mais la nécessité nous contrainct pour ceste heure de user envers vous d'aultre argument que nostre vouloir ne porteroit, si c'estoit à nous à choisir. Toutesfois pource que nous espérons bien que nul de vous ne pensera que nostre intention soit aullt'e sinon de vous édifier, consoler et conformer en nostre Seigneur, nous ne ferons point plus longues excuses en cest endroict. Touchant le contenu des présentes, que vous ne preniez point en maulvaise part ce qu'il vous pourra apporter plus de fascherie que de resjouissance. Nous sçavons bien aussi que c'est chose odieuse de vitupérer ung homme qui non-seulement est en bonne réputation, mais a acquis quelque bruict et renommée. Mais quant vous aurez entendu les raisons qui nous meuvent à ce faire, nous ne doubtons point que vous ne vous teniez très contens de nous. Pour vous advertir en brief, nous avons à vous escripre quelques nouvelles touchant le carme qui a là presché le caresme dernier, lesquelles ne tourneront pas à sa louange. Ce que nous en faisons n'est point de cupidité que nous ayons de détracter de luy, car encores que nous ayons quelque occasion qui nous peult induire à cela, nostre courage n'est pas tel et n'en avons point la coustume. Mais quant nous vous aurons exposé la raison qui nous meut, elle vous pourra pleinement satisfaire. D'aultant qu'il s'en est retourné par devers vous mal content du recueil que luy avions faict, comme il a dict à quelques-ungs, nous pensons bien que estant par delà il vous pourra faire beaucoup de complainctes, et ne fust-ce que pour se purger de ce qu'il retourne de rechef en l'abisme dont le Seigneur l'avoit délivré. Or nous voyons d'aultre part quelle offense vous pourriez concevoir contre nous, si vous. n'estiez deuement advertis de toute l'affaire. En tant doncques que nous sommes tenus à vous à cause du lien auquel le Seigneur nous a conjoincts ensemble, et que nous serions coulpables devant Dieu envers vous, si nous né mections peine d'obvier à tous les scandales que le diable tasche d'esmouvoir pour nous séparer et aliéner dé l'unité que le Seigneur à mise ëritre nous, il nous à semblé advis boh de vous réciter simplement l'histoire du recueil et traictement que luy avons faict, et au contraire comment il s'est porté, pour vous laisser le jugement de ce qui l'a peu esmouvoir à se mescontenter de nous. Ce que nous vous en récite- rons sera comme devant Dieu, lequel nous appellons eh tesmoing le priant de manifester la vérité telle qu'elle est, et confondre ceulx qui vouldroient user de mensonge et calumnies aucunes.</p>
+      <closer>
+        <dateline>
+          <placeName key="Villefranche" ref="#" corresp="#">Villefranche</placeName>
+          <date when="1542-05">mai 1542</date>
+        </dateline>
+        <salute>Vos frère</salute>
+        <signed>
+          <persName key="Jean Calvin" ref="#" type="fullname" corresp="#">JÉHAN CALVIN</persName>.
+        </signed>
+      </closer>
+    </body>
+  </text>
+</TEI>

@@ -7,6 +7,7 @@ nlp = spacy.load('fr_core_news_lg') #French model
 #nlp = spacy.load('xx_ent_wiki_sm') # multilingual model 
 import pandas as pd 
 import numpy as num 
+import seaborn as sns
 #import scipy.stats.stats
 import matplotlib.pyplot as plt
 from collections import Counter
@@ -23,10 +24,17 @@ result = open(file).read()
 doc = nlp(result)
 # Remove stop words and punctuation symbols and count
 lemma = [token.lemma_ for token in doc if not token.is_stop and not token.is_punct and token.is_alpha and "\n" not in token.lemma_ ]
-words = [token.text for token in doc if not token.is_stop and not token.is_punct]
+words = [token.text for token in doc if not token.is_stop and not token.is_punct and token.is_alpha and "\n" not in token.text]
+all_words = [token.text for token in doc if not token.is_punct and token.is_alpha and "\n" not in token.text]
 w_list = nlp(" ".join(lemma))
 word_freq = Counter(lemma)
-#print(lemma)
+
+lemma_word = []
+for i in range(len(lemma)):
+    for j in range(len(words)):
+        if i == j:
+            lemma_word.append({lemma[i]: words[j]})
+#print(lemma_word)
 # return 5 commonly occurring words with their frequencies
 common_words = word_freq.most_common(12)
 print(common_words)
@@ -49,7 +57,7 @@ for common in common_words:
 simil["terms"] = terms
 simil["freq"] = freq
 simil["vector_val"] =vectors
-print(simil1)
+print(terms)
             
 output = "TextAna_output/1542_05_M_le_curéX.txt"
 with open(output, "w", encoding="utf-8") as newfile:
@@ -71,12 +79,36 @@ for i in range(len(lemma)):
             if token1.lemma_ == w1: 
                 for token2 in doc:
                     if token2.lemma_ == w2:
-                        val = [token1.text, token2.text, token1.similarity(token2)]
-                        if val[2] > 0.7:
-                            pair = [val[0],val[1]]
-                            simils[val[2]] = pair
-df = pd.DataFrame(simils)
-df.to_csv("TextAna_output/1542_05_M_le_curéX_simils.csv")
+                        val0 = [token1.lemma_, token2.lemma_, token1.similarity(token2)]
+                        if val0[2] > 0.7 and val0[2] != 1:
+                            pair = [val0[0],val0[1]]
+                            simils[tuple(pair)] = val0[2]
+
+sorted_simils=[[" <—> ".join(k), val] for k, val in simils.items()]
+sorted_simils = sorted(sorted_simils, key= lambda x:x[1], reverse=True)
+print(sorted_simils)
+mots = [key[0] for key in sorted_simils]
+simil_val = [value for value in sorted_simils[1]]
+
+# Most similar common words
+print([m for m in mots for freq_w in terms if freq_w.lower() in m])
+
+# Visualize most similar lemmas
+df = pd.DataFrame(sorted_simils)#, index=simils.keys())
+#df.to_csv("TextAna_output/1542_05_M_le_curéX_simils.csv")
+
+def plot_simils():
+    plt.figure(figsize=(8, 6))
+    sns.scatterplot(y=df[0], x=df[1], data=df, marker="d")#, label='Lemmes similaires', marker='d')
+    plt.title('Les paires de mots les plus similaires dans la lettre (avec SpaCy)') # Pairs of Most Similar Words (using SpaCy)
+    plt.ylabel('Lemmes') #Mots
+    plt.xlabel('Similarité cosinus') #Similarité cosinus
+    plt.xticks(rotation=65)
+    #plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+plot_simils()
 
 # Matrix of co-occurrence
 def co_occurrence(tokens, window_size):
@@ -96,7 +128,30 @@ def co_occurrence(tokens, window_size):
             meaningful[value] = key
     df = pd.DataFrame(meaningful)
     return df.to_csv("TextAna_output/1542_05_M_le_curéX_coOccur.csv")
-co_occ = co_occurrence(lemma, 2)
+co_occ = co_occurrence(lemma, 5)
+
+#Another way to see co-ocurrence of most common words: context of 5 previous words and 7 next words
+common_lemmas = [common_word[0] for common_word in common_words]
+common_6 = common_lemmas[0:6]
+def co_occurrences_context(doc, word_list, common):
+    with open(output, "a", encoding="utf-8") as newfile:
+        title = "\n Co-ocurrence of most common words\n\n"
+        newfile.write(title)
+        for token in doc:
+            for i in range(len(word_list)):
+                for c in common:
+                    if c == token.lemma_ and word_list[i] == token.text:
+                        # Collect co-occurrences with 'care' (3 words before and 7 words after)
+                        start_index = max(0, i - 3)
+                        end_index = min(len(word_list), i + 7)
+                        context_words = word_list[start_index:end_index]
+                        context_str = f"… {' '.join(context_words)} … \n"
+                        co_occur = f"{word_list[i]}:\n {context_str}"
+                        newfile.write(co_occur)
+        
+    print("Done!")
+co_occ1 = co_occurrences_context(doc, all_words, common_6)
+
 
 plt.show()
 #print(co_occ)

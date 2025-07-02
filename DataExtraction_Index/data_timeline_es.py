@@ -62,10 +62,10 @@ def compile():
             obj["text"] = {}
             addressee = el.text
             #print(addressee)
-            obj["text"]["headline"] = "<a href='/es/cartas/" + slug + "'>" + addressee + "</a>"
+            obj["text"]["headline"] = addressee
         for el in root.findall(".//{http://www.tei-c.org/ns/1.0}desc"):
             desc = el.text
-            obj["text"]["text"] = desc
+            obj["text"]["text"] = f"<div><p>{desc}</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/{slug}' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
         
         for file in files:
         #result["events"] = {}
