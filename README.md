@@ -1,1 +1,1 @@
-These are the files and scripts for part of the pipeline processing of the critical digital edition of John Calvin's French correspondence.
+These are the files and scripts for part of the pipeline processing of the [critical digital edition of John Calvin's French correspondence](https://lettres-calvin.netlify.app/).
