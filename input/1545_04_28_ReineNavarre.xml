@@ -38,9 +38,8 @@
                             <surname>Bonnet</surname>
                         </name>
                     </editor>
-                    ,
-                    <pubPlace>Paris</pubPlace>, <publisher>Librarie de Ch.
-                    Meyrueis et compagnie</publisher>, <date when="1854">1854</date>. <affiliation>Provenance
+                    , <pubPlace>Paris</pubPlace>, <publisher>Librarie de Ch.
+                        Meyrueis et compagnie</publisher>, <date when="1854">1854</date>. <affiliation>Provenance
                     : Bibliothèque nationale de France</affiliation>
                     <facsimile xml:id="43-46">
                         <!--  changer value of @xml:id-->
@@ -64,9 +63,8 @@
                     </facsimile>
                 </msDesc>
                 <notesStmt>
-                    <note>Les notes proviennent de l'édition de Jules Bonnet de 1854
-                        sauf indication contraire. Les notes appelées "éditoriales" ainsi que les
-                        notes des phrases
+                    <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 sauf indication
+                        contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases
                         latines ont été produites par l'auteure de ce projet : Yanet Hernández
                         Pedraza.
                     </note>
@@ -76,18 +74,18 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Jean Calvin <!-- add tag @type pseudonym only if letter signed with a pseudonym. Erase
-                        otherwise -->
+                    <persName>Jean Calvin <!-- add tag @type pseudonym only if letter signed with a
+                        pseudonym. Erase otherwise -->
                         <!--  <addName type="pseudonym">Charles d'Espeville</addName>-->
                     </persName>
-                    <settlement key="Genève" ref="https://www.geonames.org/2660646/geneva.html"
-                        corresp="#"></settlement>
+                    <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71"
+                        corresp="#geneve">Genève</settlement>
                     <date when="1545-04-28"></date>
                 </correspAction>
                 <correspAction type="received">
-                    <name type="individu" key="Marguerite de Navarre"
-                        ref="https://www.wikidata.org/wiki/Q229793" corresp="#reine_de_navarre">Marguerite
-                        de Navarre</name>
+                    <name type="individu" key="Marguerite de Valois-Angoulême"
+                        ref="https://www.wikidata.org/wiki/Q190058"
+                        corresp="[#marguerite_valois_angouleme]">Reine de Navarre</name>
                     <settlement cert="low" key="#" ref="#" corresp="#"></settlement>
                 </correspAction>
                 <correspContext>
@@ -114,9 +112,10 @@
         <body>
             <opener>
                 <address>
-                    <addrLine>À <persName type="individu" key="Marguerite de Navarre"
-                            ref="https://www.wikidata.org/wiki/Q229793" corresp="#reine_de_navarre">LA
-                        REINE DE NAVARRE</persName><note n="*" place="bottom">
+                    <addrLine>À <persName type="individu" key="Marguerite de Valois-Angoulême"
+                            ref="https://www.wikidata.org/wiki/Q190058"
+                            corresp="[#marguerite_valois_angouleme]">LA
+                            REINE DE NAVARRE</persName><note n="*" place="bottom">
                             <p>Marguerite de Valois, sœur de François Ier, reine de Navarre, née le
                         11 avril 1492, et morte le 21 décembre 4549. Douée d'un esprit élevé, d'une
                         imagination vive et brillante, cette princesse se montra de bonne heure amie
@@ -125,31 +124,30 @@
                         Nérac. Elle inclina, en avançant en âge, vers les doctrines mystiques qui
                         proclament l'indifférence des formes extérieures, et unit la profession du
                         culte catholique aux croyances d'une foi épurée. On a d'elle plusieurs
-                        ouvrages 1° L'Heptaméron, souvent attribué à Bonaventure Desperiers. 2°
-                        Marguerites de la Marguerite des princesses, recueil de poésies religieuses
-                        dont le Miroir de l'âme pécheresse forme la première partie. La
-                        correspondance de la reine de Navarre a été publiée par M. Génin: Lettres de
+                        ouvrages 1° L'Heptaméron, souvent attribué à Bonaventure
+                        Desperiers.2°Marguerites de la Marguerite des princesses, recueil de poésies
+                        religieuses dont le Miroir de l'âme pécheresse forme la première partie. La
+                        correspondance de la reine de Navarre a été publiée par M. Génin:Lettres de
                         Marguerite d'Angoulême. Paris, 4 841, in-8°. Nouvelles Lettres de la reine
-                        de Navarre. Paris, 1842, in-8°.</p>
+                                de Navarre. Paris, 1842, in-8°.</p>
                         </note>
                     </addrLine>
                 </address>
                 <dateline xml:id="opener">
-                    <placeName key="Genève" ref="https://www.geonames.org/2660646/geneva.html"
+                    <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71"
                         corresp="#">Genève</placeName>, <date when="1545-04-28">ce 28 d'avril 1545</date>
-                    .
-                </dateline>
+                    . </dateline>
                 <hi rend="bold">
                     <label type='nature'>Copie</label>. Bibl. de Genève. Vol. 107. </hi>
                 <salute>Madame,</salute>
             </opener>
             <p>j'ay reçeu lettres d'un homme de ceste ville, escriptes comme il dict de vostre
-                commandement, par lesquelles j'entends qu'estes fort mal contente de moy à cause
-                d'un certain livre par moy composé, lequel j'ay intitulé contre les Libertins <note
+                commandement, par lesquelles j'entends qu'estes fort mal contente de moy à
+                causend'un certain livre par moy composé, lequel j'ay intitulé contre les Libertins<note
                     n="1" place="bottom">
-                    <p>C'est le traité intitulé Contre la secte fantastique et furieuse des
-                Libertins qui se disent spirituels. 1544, in-8°. Cette secte, répandue surtout dans
-                les Pays-Bas, niait l'autorité, de la parole écrite, et par un faux spiritualisme
+                    <p>C'est le traité intitulé Contre la secte fantastique et furieuse de Libertins
+                qui se disent spirituels. 1544, in-8°. Cette secte, répandue surtout dans les
+                Pays-Bas, niait l'autorité, de la parole écrite, et par un faux spiritualisme
                 renversait les fondements de toutes les vérités chrétiennes. Deux de ses principaux
                 chefs, Ouintin et Pocquet, étaient attachés à la maison de la reine de Navarre.</p>
                 </note>.
@@ -237,20 +235,20 @@
                     place="bottom">
                     <p>Gérard Roussel, prédicateur de la reine de Navarre, un des premiers
                 missionnaires de la Réforme à Paris. Nommé abbé de Clairac et évêque d'Oleron, il
-                continua de prêcher les doctrines nouvelles, sans rompre avec l'église catholique,
-                et s'attira ainsi les plus après censures de Farel et de, Calvin. Ce dernier lui
+                continua de prêcher les doctrines nouvelles, sans rompre avec l'église catholique,et
+                s'attira ainsi les plus après censures de Farel et de, Calvin. Ce dernier lui
                 adressa, en 1536, une lettre intitulée Quel est l'office de l'homme chrestien en
                 administrant ou rejetant les bénéfices de l'église papale, et le pressa vainement de
                 se séparer de l'église romaine, à laquelle il demeura attaché jusqu'à sa mort
                 (1550). « Sa vie, dit un écrivain catholique, estoit sans reproche. Sa meute de
-                chiens et de levriers estoit un grand nombre de pauvres, ses chevaux et son train
-                une troupe' de jeunes enfans eslevés aux lettres. Il avoit beaucoup de créance parmy
-                le peuple auquel il engrava peu à peu une haine et mespris de la religion de leurs
-                pères. » Florimond de Rémond, Hist. de l'hérésie, L. VII, p. 850, 851. Voir surtout
-                l'ingénieuse et savante Biographie de Gérard Roussel, par M. Charles Schmidt,
-                Strasbourg, 1845, in-8°.</p>
-                </note> lequel vous pourra dire que
-                c'est une faulse calomnie qu'on m'impose, laquelle je ne doibs nullement porter,
+                chiens et de levriers estoit un grand nombre de pauvres, ses chevaux et son trainune
+                troupe' de jeunes enfans eslevés aux lettres. Il avoit beaucoup de créance parmy le
+                peuple auquel il engrava peu à peu une haine et mespris de la religion de leurs
+                pères. » Florimond de Rémond, Hist. de l'hérésie, L. VII, p. 850, 851. Voir
+                        surtout l'ingénieuse et savante Biographie de Gérard Roussel, par M. Charles
+                Schmidt, Strasbourg, 1845, in-8°.</p>
+                </note> lequel vous pourra dire
+                que c'est une faulse calomnie qu'on m'impose, laquelle je ne doibs nullement porter,
                 d'aultant que le nom de Dieu en seroyt blasphémé. Car combien que je ne soys rien,
                 toutesfois puisqu'il a pleu à Dieu d'user de moy, comme d'un de ses instrumens à
                 l'édification de son Eglise, je voy quelle conséquence tireroyt un tel blasme, s'il
@@ -268,14 +266,13 @@
 
             <closer>
                 <dateline>
-                    <placeName key="Genève" ref="https://www.geonames.org/2660646/geneva.html"
+                    <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71"
                         corresp="#">De Genève</placeName>, <date when="1545-04-28">ce 28 d'avril
-                    1545</date>. </dateline>
+                        1545</date>. </dateline>
                 <salute></salute>
                 <signed> Vostre très humble et obéyssant serviteur en nostre Seigneur, <persName
-                        key="Jean Calvin" ref="https://www.wikidata.org/wiki/Q9401" type="fullname"
-                        corresp="#">JÉHAN
-                        CALVIN</persName>. </signed>
+                        key="Jean Calvin" ref="#" type="fullname"
+                        corresp="#">JÉHAN CALVIN</persName>. </signed>
             </closer>
         </body>
     </text>
