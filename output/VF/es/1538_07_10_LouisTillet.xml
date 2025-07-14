@@ -36,7 +36,7 @@
  </correspAction>
  <correspAction type="received">
    <name type='individuo' key="Louis du Tillet" ref="https://www.wikidata.org/wiki/Q3263586">Louis de Tillet</name>
-  <settlement key="París" ref="https://www.wikidata.org/wiki/Q90" corresp="#Paris">París</settlement>
+  <settlement key="París" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">París</settlement>
  </correspAction>
  <correspContext>
   <ref type="prev" target="#">
@@ -63,7 +63,7 @@
 <opener>
 <address><addrLine>A <persName key="Louis de Tillet" ref="https://www.wikidata.org/wiki/Q3263586" corresp="#louis-tilletz">Louis de Tillet</persName><note n="*" place="bottom"><p>La primera carta de Calvino a de Tillet no quedó sin respuesta: «Si mi retiro a este país le causó gran molestia, como lo supe por su carta del último de enero, nunca lo pensé, creyendo que la ruptura de nuestra conversación y familiaridad habituales… no podría causarle tal molestia. Pero qué podía hacer yo, si después de dos años de estar allá no he podido apaciguar mi conciencia ante el hecho de que me retiré del lugar que no debía abandonar sin el mandato de Dios, por lo que me vi afectado por la languidez que observó, y por las grandes y continuas afecciones que mi espíritu sufrió en aquel momento, me volví inútil para todas las cosas...». - Esta carta, escrita desde París (10 de marzo), no llegó a Calvino, y fue durante un viaje a Estrasburgo que el reformador, expulsado de Ginebra (23 de abril de 1538) y retirado a Basilea, informó a su antiguo amigo de los acontecimientos que le condenaban a un nuevo exilio.</p></note></addrLine>
 </address>
-<dateline xml:id="opener"><placeName key="París" ref="https://www.wikidata.org/wiki/Q90" corresp="#Paris">París</placeName>, <date when="1538-07-10">10 de julio de 1538</date>
+<dateline xml:id="opener">[Eviada a <placeName key="París" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">París</placeName>]
 </dateline>
 
 <hi rend="bold"><label type='nature'>Copia</label>. Biblioteca imperial de París. Mss. français. Baluzc. 8069-r.</hi>

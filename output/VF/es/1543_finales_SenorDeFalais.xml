@@ -65,7 +65,7 @@
 <opener>
 <address><addrLine>Al <persName type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</persName><note n="*" place="bottom"><p>Esta carta no tiene fecha, pero Calvino debió escribirla, poco después de las dos anteriores, para vencer las últimas vacilaciones del señor de Fallais, que estaba a punto de abandonar su fortuna y su país.</p></note></addrLine>
 </address>
-<dateline xml:id="opener"><placeName cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</placeName>, [<date when="1543-12">finales de 1543</date>]
+<dateline xml:id="opener">[Enviada a <placeName cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</placeName>]
 </dateline>
 <hi rend="bold"><label type='nature'>Autógrafo original</label>. Bibl. de Ginebra. </hi>
 <hi xml:id="editorNote">Vol. 194. [Ahora bajo la cota Ms. fr. 194 (f. 23-24)]</hi>

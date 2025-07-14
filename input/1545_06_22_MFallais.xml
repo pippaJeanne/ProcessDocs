@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="M-Calvin_Fallais_1545-06-22">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Lettre à Monsieur de Fallais</title> <!-- substitute 'destinataire' for the name of the addressee; e.g.: Monsieur de Fallais-->
+<editor role="Modernisation et encodage">Yanet Hernández Pedraza</editor>
+<editor role="#"></editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+<availability status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed under a Creative Commons Attribution-ShareAlike
+3.0 Unported License</licence>
+</availability>
+</publicationStmt>
+      <!-- For printed source (Jules Bonnet's edition of 1854)-->
+<sourceDesc>
+  <bibl>
+     <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
+<author>
+        <name>
+           <forename>Jean</forename>
+           <surname>Calvin</surname>
+        </name>
+        <date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+</author>, éd.
+<editor>
+        <name>
+           <forename>Jules</forename>
+           <surname>Bonnet</surname>
+        </name>
+     </editor>,
+     <pubPlace>Paris</pubPlace>,
+<publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+<date when="1854">1854</date>.
+<affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+<facsimile xml:id="43-46"> <!--  changer value of @xml:id-->               
+      <!--  change value of @url and add the corresponding number of graphic tags-->
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f43/info.json"/>
+
+</facsimile>
+  </bibl>
+        <!-- For manuscript | primary sources -->
+<msDesc>
+<msIdentifier>
+    <settlement>Genève</settlement>
+    <repository>Bibliothèque de Genève</repository>
+    <idno type="cote">Ms. Vol. 194</idno>
+</msIdentifier>
+<facsimile>
+<graphic url="#"/>
+<graphic url="#"/>
+</facsimile>
+</msDesc>
+  <notesStmt>
+     <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 
+      sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+  </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName key="jean_calvin" corresp="#jean_calvin">Jean Calvin</persName>
+  <date when="1545-06-22"></date>
+ </correspAction>
+ <correspAction type="received">
+  <persName type="individu" key="fallais" corresp="#fallais">Monsieur de Fallais</persName>
+  <settlement cert="low" key="strasbourg" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Strasbourg</settlement>
+ </correspAction>
+ <correspContext>
+               <ref type="prev" target="#">
+                  <persName/>
+                  <date from="1500" to="1600"/>
+               </ref>
+               <ref type="next" target="#">
+                  <persName/>
+                  <date/>
+               </ref>
+ </correspContext>
+ </correspDesc>
+ <desc></desc>
+ <list xml:id="tags">
+ <term></term>
+ <term></term>
+ <term></term>
+ <term></term>
+ </list>
+</profileDesc>
+<standOff>
+    <listPerson>
+        <person xml:id="jean_calvin" sameAs="https://www.wikidata.org/wiki/Q37554">
+            <persName>Jean Calvin</persName>
+        </person>
+        <person xml:id="fallais">
+            <persName>Monsieur de Fallais</persName>
+        </person>
+        <person xml:id="fromont">
+            <persName>Jean, seigneur de Fromont</persName>
+        </person>
+        <person xml:id="busanton">
+            <persName>David de Busanton</persName>
+        </person>
+        <person xml:id="pierre_viret" sameAs="https://www.wikidata.org/wiki/Q123565">
+            <persName>Pierre Viret</persName>
+        </person>
+        <person xml:id="maldonad">
+            <persName>Maldonad</persName>
+        </person>
+        <person xml:id="saint-andre">
+            <persName>Saint-André</persName>
+        </person>
+    </listPerson>
+    <listPlace>
+        <place xml:id="geneve" sameAs="https://www.wikidata.org/wiki/Q6602">
+            <placeName>Genève</placeName>
+        </place>
+        <place xml:id="strasbourg" sameAs="https://www.wikidata.org/wiki/Q6602">
+            <placeName>Strasbourg</placeName>
+        </place>
+    </listPlace>
+</standOff>
+</teiHeader>
+<text>
+<body>
+    <opener>
+        <!-- Content in <addrLine> not uppercased  -->
+        <address><addrLine>À <persName type="individu" key="fallais" corresp="#fallais">Monsieur de Fallais</persName></addrLine>
+        </address>
+        <hi rend="bold"><label type='nature'>Orig. autographe</label>. Bibl. de Genève. Vol. 194.   </hi>
+        <salute>Monseigneur,</salute>
+    </opener>
+    <p>je vous escris en haste pource que je n'ay point esté adverty d'heure, mais je récompenseray en brief ceste faulte au plaisir de Dieu. Pour le présent, je vous advertiray seulement qu'après avoir advisé sur ce dont m'avez requis, nous trouvons bien qu'il y aura marchant prest quant il vous plaira d'achapter<note n="1" place="bottom" type="editorial"><p>Il s'agit ici de l'acquisition d'une maison à <placeName key="Geneve" ref="https://www.wikidata.org/wiki/Q6602">Genève</placeName>, pour <persName key="fallais" corresp="#fallais">M. de Falais</persName>.</p></note>. Mais de faire nul achapt, ny mesme d'en tenir propos, sinon que vous feussiez devant sur le lieu pour juger ce qui vous sera propre, nous n'y voions point grant ordre; parquoy s'il ne tient qu'à cela, le meilleur seroit, à mon advis, d'y regarder sans sonner mot, jusque à ce que feussiez arrivé. Combien que pour le présent il a deux places, dont l'une pourroit changer maistre, si on n'y prévient de bonne heure. Mais aussi je croy quant vous auriez arresté de venir, et que Dieu ne vous envoiat nul empeschement, incontinent après ces chaleurs passées, vous vous mecteriez en chemin.</p>
+
+    <p>Je n'ose dire combien je seroye joieulx que la conclusion en fust prinsé, de paour de vous estre suspect, si je venois à vous en donner conseil. Toutesfois je puis bien protester en vérité que le désir que j'auroye de jouir de la consolation que j'en attens, ne m'empescheroit pas de regarder à ce qui vous seroit bon. Et mesme ce qui m'incite le plus à désirer que feussiez icy, c'est affin que soiez en lieu où il y ait gens qui demandent de s'employer à vous faire service. Je m'estois advisé que si <persName key="fromont" corresp="#fromont">Monsieur de Fromont</persName><note n="2" place="bottom" type="editorial"><p><persName key="fromont" corresp="#fromont">Jean</persName>, seigneur de Fromont et de Han-sur-Sambre, frère de <persName key="fallais" corresp="#fallais">M. de Fallais</persName>.</p></note> estoit venu, et qu'il luy pleust se venir esbatre jusque icy, comme il est plus portatif, que son voiage vous serviroit pour advertissement. Mais en ce cas je supplierois qu'il vînt descendre droict chez nous.</p>
+
+    <p>Quant au bon seigneur <persName key="busanton" corresp="#busanton">David</persName>, c'est fait, si Dieu ne le retire comme du sépulchre par grâce miraculeuse. Mais je ne vous en escris point plus au long, jusque à ce que Dieu en ait disposé du tout<note n="3" place="bottom" type="editorial"><!--Do not erase this @type editorial attribute--><p><persName key="busanton" corresp="#busanton">David de Busanton</persName>, gentilhomme du Hainaut réfugié à <placeName key="Geneve" ref="https://www.wikidata.org/wiki/Q6602">Genève</placeName>. Il y mourut au mois de juillet 1545, dans les sentiments de la plus vive piété, comme on le voit par une lettre de Calvin à <persName key="pierre_viret" ref="https://www.wikidata.org/wiki/Q123565">Viret</persName> <hi xml:lang="latin" rend="italic">« Cum mihi redditæ sunt tuæ literæ, David noster animam agebat, quam paulo post reposuit in manum Christi, singulari adeoque mirabili constantia.Testamentum ejus, ubi veneris, leges. » Julii 1545</hi>. <persName key="busanton" corresp="#busanton">David de Busanton</persName> léguait par son testament mille écus aux pauvres de <placeName key="Strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Strasbourg</placeName>, autant à ceux de <placeName key="Geneve" ref="https://www.wikidata.org/wiki/Q6602">Genève</placeName>, et il désignait <persName key="jean_calvin" corresp="#jean_calvin">Calvin</persName> pour un de ses exécuteurs testamentaires. @source : <bibl>(<author>Bonnet</author> <date when="1854">1854</date>, <biblScope>120, note 1</biblScope>)</bibl></p></note>.</p>
+    <p>Sur ce, monseigneur, après m'estre humblement recommandé à vostre bonne grâce, et celle de Madamoiselle, et vous avoir présenté les humbles recommandations de ma femme, je prye nostre Seigneur de vous fortifier tous deux tant en corps qu'en esperit, tellement que sans défaillir nous accomplissions tous ensemble le voiage que nous avons à faire.</p>
+ <closer>
+    <dateline><date when="1545-06-22">Ce 22 de juing. (1545<note n="4" place="bottom"><p>Au dos, de la main de <persName key="fallais" corresp="#fallais">M. de Falais</persName>: Respondu le XVIII de juillet 1545, à <placeName key="Strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Strasbourg</placeName>.</p></note>)</date></dateline> 
+    <salute>Vostre serviteur, humble frère et entier amy,</salute>
+    <signed>
+      <persName key="Jean Calvin" corresp="#" type="fullname">JÉHAN CALVIN</persName>.
+    </signed>
+  </closer>
+  </body>
+ </text>
+</TEI>

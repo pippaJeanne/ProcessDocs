@@ -97,11 +97,12 @@
 <text>
 <body>
     <opener>
+        <!-- Content in <addrLine> not uppercased  -->
         <address><addrLine>À <persName type="individu|collectivité" key="#" ref="#" corresp="#"></persName>
         <note n="*" place="bottom"><p></p></note>
         </addrLine>
         </address>
-        <dateline xml:id="opener"><placeName key="#" ref="#" corresp="#"></placeName><date when="1500-00-00"></date>
+        <dateline xml:id="opener">[Envoyée à <placeName key="Strasbourg" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Strasbourg</placeName>]
         </dateline>
         <hi rend="bold"><label type='nature'>Copie|Orig. autographe| Minute originale </label>. Bibliothèque ...   </hi>
         <hi xml:id="editorNote">
@@ -141,7 +142,7 @@
 
     </p>
  <closer>
-    <dateline><placeName key="#" ref="#" corresp="#"></placeName>
+    <dateline>De <placeName key="#" ref="#" corresp="#"></placeName>
      <date when="1500-00-00"></date>
     </dateline> 
     <salute></salute>

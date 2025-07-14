@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="M-Falais14_10_43_L3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettre à Monsieur de Fallais</title>
+            <editor role="Modernisation et encodage">Yanet Hernández Pedraza</editor>
+            <editor role="#"/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>TEI Consortium</publisher>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed under a Creative Commons Attribution-ShareAlike
+                  3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
+               <author>
+                  <name>
+                     <forename>Jean</forename>
+                     <surname>Calvin</surname>
+                  </name>
+                  <date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+               </author>, éd.
+               <editor>
+                  <name>
+                     <forename>Jules</forename>
+                     <surname>Bonnet</surname>
+                  </name>
+               </editor>,
+               <pubPlace>Paris</pubPlace>,
+               <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+               <date when="1854">1854</date>.
+               <affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+            </bibl>
+            <!-- For manuscript | primary sources -->
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Genève</settlement>
+                  <repository>Bibliothèque de Genève</repository>
+                  <idno type="cote">Ms. Vol. 194</idno>
+               </msIdentifier>
+               <facsimile>
+                  <graphic url="#"/>
+                  <graphic url="#"/>
+               </facsimile>
+            </msDesc>
+            <notesStmt>
+               <note>Les notes proviennent de l'édition de Jules Bonnet de 1854
+                  sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+            </notesStmt>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="Jean_Calvin" ref="https://www.wikidata.org/wiki/Q37559" corresp="#calvin">Jean Calvin</persName>
+               <settlement key="Geneva" ref="https://www.wikidata.org/wiki/Q6602" corresp="#geneva">Genesve</settlement>
+               <date when="1545-08-05">1545-08-05</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="individu" key="Fallais" ref="#" corresp="#fallais">Monsieur de Fallais</persName>
+               <persName type="individu" key="Madame_de_Fallais" ref="#" corresp="#madame_de_fallais">Madamoiselle</persName>
+               <settlement cert="low" key="Strasbourg" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Strasbourg</settlement>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="#M-Falais_22_06_45">
+                  <persName key="Jean_Calvin">Jean Calvin</persName>
+                  <persName key="Fallais">Monsieur de Fallais</persName>
+                  <date when="1545-06-22">22 juin 1545</date>
+               </ref>
+            </correspContext>
+         </correspDesc>
+         <desc>Lettre de Calvin à Monsieur de Fallais concernant la santé de ce dernier, des nouvelles de Genève (notamment la peste), et des discussions sur l'acquisition d'une propriété à Genève.</desc>
+         <list xml:id="tags">
+            <term/>
+            <term/>
+            <term/>
+            <term/>
+         </list>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <address>
+               <addrLine>À <persName type="individu" key="Fallais" corresp="#fallais">MONSIEUR DE FALLAIS</persName></addrLine>
+            </address>
+            <hi rend="bold">
+               <label type="nature">Orig. autographe</label>. <bibl><repository>Bibl. de Genève</repository>. <idno>Vol. 194</idno>.</bibl>
+            </hi>
+            <salute>Monseigneur,</salute>
+         </opener>
+         <p>Je rends grâces à nostre bon Dieu de ce qu'il nous a resjouy des bonnes nouvelles de la santé qu'il vous a rendue, sans que nous ayons esté contristez de la maladie. Quant nous en eussions esté advertis à temps, nous l'eussions pryé, selon que nous y estions tenus. Mais puisqu'il a si bien besongné sans nous appeler à l'ayde, nous avons à le remercier doublement. Et mesme ma joye s'augmente de ce que j'entens que ceste visitation vous a servy à demy de médecine, pour vous rendre plus robuste. Quoy qu'il en soit, puisque nous avons un Dieu qui peult en un moment sans difficulté retirer les siens du sépulchre, il les pourra bien pourmener au bort tant qu'il vouldra; sans permectre qu'ils tombent dedans, jusqu'à ce qu'il en soit temps.</p>
+         <p>Si j'avais loysir d'escrire a <persName type="individu" key="Madame_de_Fallais" corresp="#madame_de_fallais">Madamoiselle</persName>, je luy manderois que ses lettres m'ont aprins qu'il est bon de lire jusque au bout devant que juger. Car j'ay cuidé estre surprins en la seconde lingne, où elle me mandoit du dangier où vous avez esté, combien que sa prudence m'a aydé à me retenir. Tant y a que j'ay esté singulièment consolé, devant qu'avoir eu le loysir de me fascher.</p>
+         <p>Quant à l'affaire dont vous m'avez escrit, vostre venue n'a point esté divulguée de par nous. Mais cependant le bruict vole, et ne sçavons dont il vient, sinon que le vent le porte. Quant on m'en parle, je laisse couller cela, sans mectre poine de le réfuter. Car il y est passé quelqu'un venant de <placeName key="Strasbourg" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Strasbourg</placeName> qui en a dict comme s'il avoit sceu vostre intention. Parquoy il m'est advis que ce seroit poine perdue de nyer, mais que le plus expédient est d'en laisser muser chascun ce qu'il vouldra. Tel est venu à moy, qui m'a racompté qu'un gentilhomme nommé ainsi, qui s'estoit retiré à <placeName key="Strasbourg" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Strasbourg</placeName>, etc., comme s'il en eust plus congneu plus que moy. Quant il me demandoit des choses manifestes, pource que c'eust esté impudence d'en faire de l'ignorant, je luy concédois aultant qu'il estoit nécessaire. Ainsi nous dissimulerons aultant que nous verrons qu'il pourra profiter. Cependant faictes vostre compte, qu'on devise de vostre estat en vostre absence, sans avoir commission de vous.</p>
+         <p>Touchant la place, le sire <persName>Nicolas</persName> en fera comme il le vous a promis, et nous avec luy. Seulement il y a une difficulté, que si on la haulsoit, ainsi que le bruict en est, non pas oultre sa juste valeur,.mais oultre le pris qu'il en vouldroit donner, qu'il seroit de faire en tel cas. Nous faisons nostre project que par raison elle viendra jusque à deux mille cinq centz escus. <persName>Nicolas</persName> ne vouldroit passer oultre les deux centz ou environ. Non pas que la pièce ne les vaille, mais pource que sa commodité ne s'estend que jusque-là. C'est desjà un scrupule qui nous moleste. Quant ce lieu-là ne vous duiroit, il y en a un aultre en bransle, à deux bonnes lieues loing. Mais je craindrois que ce fust trop loing, car c'est grande commodité d'estre voisin de la ville, combien que ce lieu que je dis est assez prochain du lac. En somme si c'estoit à souhaitter, je vouldrois bien que quelqu'un vous peult prester son œil de paour que les occasions ne nous eschappent.</p>
+         <p>J'entens bien par vos lettres qui c'est qui vous retient; mais je croy que de ceste doubte il en pourroit estre décidé à ceste heure. Quant je considère le tout, mon désir seroit que de première arrivée vous feussiez bien logé, et vostre cas tout bien ordonné. Mais en vostre absence, il est bien difficile de vous proveoir de lieu par achapt. De logis à louage en la ville, cela se peult faire sans grant intérest. Mais ce qui tire plus longue queue, ne se peult bonnement despescher, que la veue n'y soit. Car nostre contentement ne sera pas le vostre.</p>
+         <p>Pleust à Dieu que vous peussiez estre icy pour user de l'opportunité pendant qu'elle nous dure. Toutefois j'espère que si l'un ne vient à point, nous recourrerons à un aultre.</p>
+         <p>Je crains de vous retarder, si je vous dis que nostre Seigneur nous afflige aulcunement de peste <ptr target="#note1_L3"/>.</p>
+         <p>Mais j'ayme mieux que vous en soyez adverty de bonne heure pour vous asseurer, que d'estre surprins au déproveu. Du reste vous en estes duement informé, comme je pense, car je pryai bien <persName key="Maldonad" ref="https://www.wikidata.org/wiki/Q109312521" corresp="#maldonad">Maldonad</persName> <ptr target="#note2_L3"/> et <persName key="Saint-André" corresp="#saint-andre">Saint-André</persName> <ptr target="#note3_L3"/> de ne vous point tromper. Combien que vous sçavez de vous-mesme ce qui vault mieulx que toutes admonitions ny advertissements, du monde. C'est puisque nous cherchons Jésus-Christ, qu'il nous convient attendre de le trouver crucifié par tout où nous irons en ce monde. Mais j'espère que nostre bon Père vous donnera encor icy aultant de relasche qu'il sera expédient, pour là disposition de vostre corps. Nous attendrons par le premier certaines nouvelles de vous, et emportantes résolutions de ce que nous avons à faire.</p>
+         <p>Et sur ce, monseigneur, après m'estre humblement recommandé à vostre bonne grâce, et celle de <persName key="Madame_de_Fallais" corresp="#madame_de_fallais">Madamoiselle</persName>, et vous avoir présenté à tous deux les humbles recommandations de ma femme, je supplieray nostre bon Dieu de vous maintenir en sa protection, vous conduisant tousjours par son esprit, et vous envoiant ce qu'il congnoit vous estre salutaire.</p>
+         <closer>
+            <dateline>De <placeName key="Geneva" ref="https://www.wikidata.org/wiki/Q6602" corresp="#geneva">Genesve</placeName>, <date when="1545-08-05">ce 5 d'aoust (1545)</date>.
+            </dateline>
+            <salute>Vostre serviteur, humble frère et entier amy à jamais,</salute>
+            <signed><persName type="fullname" key="Jean Calvin" corresp="#">JÉHAN CALVIN</persName>.</signed>
+         </closer>
+      </body>
+      <back>
+         <div type="notes">
+            <note n="1" place="bottom" xml:id="note1_L3">
+               <p>Elle ne cessa d'exercer ses ravages à <placeName key="Geneva" ref="https://www.wikidata.org/wiki/Q6602" corresp="#geneva">Genève</placeName> qu'en 1546.</p>
+            </note>
+            <note n="2" place="bottom" xml:id="note2_L3">
+               <p><persName key="Maldonad" ref="https://www.wikidata.org/wiki/Q109312521" corresp="#maldonad">Gentilhomme</persName> du Hanovre, réfugié à <placeName key="Geneva" ref="https://www.wikidata.org/wiki/Q6602" corresp="#geneva">Genève</placeName>.</p>
+            </note>
+            <note n="3" place="bottom" xml:id="note3_L3">
+               <p>Autre réfugié, des <placeName key="Netherlands" ref="https://www.wikidata.org/wiki/Q29999" corresp="#netherlands">Pays-Bas</placeName>. Il fut admis, l'année suivante, au ministère.</p>
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

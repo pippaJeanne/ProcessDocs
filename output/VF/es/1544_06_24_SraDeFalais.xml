@@ -63,7 +63,7 @@
 <opener>
 <address><addrLine>A la <persName type="individuo" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Señora de Fallais</persName></addrLine>
 </address>
-<dateline xml:id="opener"><placeName cert="low" key="Colonia" ref="https://www.wikidata.org/wiki/Q365" corresp="#Colonia">Colonia</placeName>, <date when="1544-06-24">24 de junio de 1544</date>
+<dateline xml:id="opener">[Enviada a <placeName cert="low" key="Colonia" ref="https://www.wikidata.org/wiki/Q365" corresp="#Colonia">Colonia</placeName>]
 </dateline>
 <hi rend="bold"><label type='nature'>Autógrafo original</label>. Bibl. de Genève. Vol. 145</hi>
 <hi xml:id="editorNote">[Ahora bajo la cota Ms. fr. 145 (f. 31)].</hi>

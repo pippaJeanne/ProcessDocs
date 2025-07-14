@@ -62,7 +62,7 @@
 <opener>
 <address><addrLine>Al <persName type="individuo" key="Eduardo VI de Inglaterra" ref="https://www.wikidata.org/wiki/Q83229" corresp="#edouard-VI">Rey de Inglaterra</persName><note n="*" place="bottom"><p><persName key="Eduardo VI de Inglaterra" ref="https://www.wikidata.org/wiki/Q83229" corresp="#edouard-VI">Eduardo VI</persName>, hijo de <persName key="Enrique VIII de Inglaterra" ref="https://www.wikidata.org/wiki/Q38370">Enrique VIII</persName> y <persName key="Juana Seymour" ref="https://www.wikidata.org/wiki/Q182637">Juana Seymour</persName>, rey de Inglaterra en 1547, murió a los 16 años el 8 de julio de 1553. Diligente en el estudio y en los negocios, y con una extrema facilidad para el aprendizaje, fue instruido en las lenguas antiguas y en la literatura extranjera; dotado también de una razón precoz y de una aguda sensibilidad, hizo gala de un carácter amable y de una mente recta y amor por la justicia. Apoyaba la causa de la Reforma (...)[Nota de la editora: según la nota de la página 325 de la edición de Jules Bonnet de 1854 de las cartas de Calvino]</p></note></addrLine>
 </address>
-<dateline xml:id="opener"><placeName cert="medium" key="Londres" ref="https://www.wikidata.org/wiki/Q84" corresp="#londres">Londres</placeName>, el <date when="1553-03-12">12 de marzo de 1553</date>
+<dateline xml:id="opener">[Enviada a <placeName cert="medium" key="Londres" ref="https://www.wikidata.org/wiki/Q84" corresp="#londres">Londres</placeName>]
 </dateline>
 <hi rend="bold">Copia. Bibl. imp. Coll. Dupuy, vol. 102.</hi>
 <hi xml:id="editorNote"> 

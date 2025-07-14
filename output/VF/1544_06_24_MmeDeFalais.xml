@@ -93,7 +93,7 @@
 <opener>
 <address><addrLine>À <persName type="individu" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Madame de Fallais</persName></addrLine>
 </address>
-<dateline xml:id="opener"><placeName cert="low" key="Cologne" ref="https://www.wikidata.org/wiki/Q365" corresp="#Cologne">Cologne</placeName>, le <date when="1544-06-24">24 juin (1544)</date>
+<dateline xml:id="opener">[Envoyée à <placeName cert="low" key="Cologne" ref="https://www.wikidata.org/wiki/Q365" corresp="#Cologne">Cologne</placeName>]
 </dateline>
 <hi rend="bold"><label type='nature'>Orig. autographe</label>. Bibl. de Genève. Vol. 145.</hi>
 <hi xml:id="editorNote">

@@ -97,7 +97,7 @@
                </addrLine>
             </address>
             <dateline xml:id="opener">
-               <placeName key="Paris" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">Paris</placeName> <date when="1538-07-10">10 juillet 1538</date>
+               [Envoyée à <placeName key="Paris" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">Paris</placeName>]
             </dateline>
             <hi rend="bold"><label type='nature'>Copie</label>. Bibliothèque impériale de Paris. Mss. français. Baluzc, 8069-5.</hi>
             <hi xml:id="editorNote">[Maintenant Bibliothèque National de France (BNF). Gallica. Français 2391 (f.18-19)]</hi>

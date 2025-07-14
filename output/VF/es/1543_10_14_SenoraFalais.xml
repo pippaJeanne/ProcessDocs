@@ -63,7 +63,7 @@
 <address><addrLine>A <persName type="individuo" key="Yolanda de Bréderode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande-brederode">la Señora de Fallais</persName><note n="*" place="bottom"><p>En el reverso: A la señora y buena hermana Señora Katerina Le Franc.</p> 
 <p>Yolanda de Bréderode, de la antigua e ilustre casa de los condes de Holanda, tía de Henri de Bréderode, que presentó, en 1566, la petición de los cuatrocientos nobles reformados de los Países Bajos a Margarita de Austria, sentando así las bases de la libertad de las Provincias Unidas. La Señora de Fallais compartía los sentimientos de su marido y se asoció noblemente a los sacrificios que éste hizo para obtener la libertad de conciencia.</p></note></addrLine>
 </address>
-<dateline xml:id="opener"><placeName cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</placeName>, le <date when="1543-10-14">14 de octubre de (1543)</date>
+<dateline xml:id="opener">[Enviada a <placeName cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</placeName>]
 </dateline>
 <hi rend="bold"><label type='nature'>Autógrafo original</label>. Bibl. de Ginebra. Vol. 194</hi>
 <hi xml:id="editorNote"> 

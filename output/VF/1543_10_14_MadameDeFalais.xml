@@ -90,7 +90,7 @@
 <opener>
 <address><addrLine>À <persName type="individu" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Madame de Fallais</persName><note n="*" place="bottom"><p>Au dos: A Madame et bonne seur Madame Katerine Le Franc.</p><p>Jolande de Bréderode, de l'antique et illustre maison des comtes de Hollande, tante de Henri de Bréderode qui présenta, en 1566, la requête des quatre cents nobles réformés des Pays-Bas à Marguerite d'Autriche, et posa ainsi les fondements de la liberté des Provinces-Unies. Ame stoïque et généreuse, Madame de Fallais partageait les sentiments de son mari, et elle s'associa noblement aux sacrifices qu'il accomplit pour obtenir la liberté de conscience.</p></note></addrLine>
 </address>
-<dateline xml:id="opener"><placeName cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</placeName>, le <date when="1543-10-14">14 octobre (1543)</date>
+<dateline xml:id="opener">[Envoyée à <placeName cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</placeName>]
 </dateline>
 <hi rend="bold"><label type='nature'>Orig. Autographe</label>. Bibl. de Genève. Vol. 194.</hi>
 <hi xml:id="editorNote">

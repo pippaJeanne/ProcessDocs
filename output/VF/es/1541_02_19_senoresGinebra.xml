@@ -61,7 +61,7 @@
 <opener>
 <address><addrLine>A los <persName type="grupo" key="Consistorio de Ginebra" ref="https://www.wikidata.org/wiki/Q2994627" corresp="#conseil-geneve">Señores de Ginebra</persName></addrLine>
 </address>
-<dateline xml:id="opener"><placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</placeName> <date when="1538-01-31">19 de febrero de 1541</date>
+<dateline xml:id="opener">[Enviada a <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</placeName>]
 </dateline>
 <hi rend="bold"><label type='nature'>Original</label>. Firma autógrafa. Biblioteca de Ginebra. Porter. I.</hi> 
 <hi xml:id="editorNote">

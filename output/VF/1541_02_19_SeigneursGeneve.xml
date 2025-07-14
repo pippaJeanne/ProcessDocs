@@ -94,7 +94,7 @@
 <opener>
 <address><addrLine>Aux <persName type="collectivité" key="Consistoire de Genève" ref="https://www.wikidata.org/wiki/Q2994627" corresp="#conseil-geneve">Seigneurs de Genève</persName></addrLine>
 </address>
-<dateline xml:id="opener"><placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</placeName>, le <date when="1541-02-19">19 février 1541</date>
+<dateline xml:id="opener">[Envoyée à <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</placeName>]
 </dateline>
 <hi rend="bold"><label type="nature">Original</label>. Signature autographe. Bibl. de Genève. Porter. I.</hi>
 <hi xml:id="editorNote">

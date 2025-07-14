@@ -38,7 +38,7 @@
  </correspAction>
  <correspAction type="received">
   <name type="individuo" key="Roberte Le Lyeur" ref="https://www.wikidata.org/wiki/Q108743308" corresp="#madame-bude">Señora de Budé</name>
-  <settlement cert="low" key="París" ref="https://www.wikidata.org/wiki/Q90" corresp="#Paris">París</settlement>
+  <settlement cert="low" key="París" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">París</settlement>
  </correspAction>
  <correspContext>
   <ref type="prev" target="#">
@@ -64,7 +64,7 @@
 <opener>
 <address><addrLine>A la <persName type="individuo" key="Roberte Le Lyeur" ref="https://www.wikidata.org/wiki/Q108743308" corresp="#madame-bude">Señora de Budé</persName><note n="*" place="bottom"><p>La carta original no tiene subscripción. Pero generalmente se cree que fue dirigida por Calvino a la viuda del famoso Guillaume Budé, bisnieto del secretario del rey Carlos V, y una de las personas más cultas del Renacimiento. Al haber declarado Guillaume Budé en su testamento que deseaba ser enterrado sin ceremonia, esta circunstancia hizo suponer que había muerto en las creencias de la fe reformada. Su viuda, al no poder profesarlas libremente en París, se fue a vivir a Ginebra, a petición de Calvino (junio de 1549). La acompañaban su hija y tres de sus hijos, Louis, François y Jean de Budé, que ocuparon un rango distinguido en la República. El más conocido de los tres hermanos es Jean de Budé, señor de Vérace, amigo particular de Calvino y Teodoro de Bèze. Fue recibido como habitante de Ginebra el 27 de junio de 1549, burgués el 2 de mayo de 1555, miembro de los dos consejos en 1559, realizó varias misiones importantes ante los príncipes protestantes de Alemania, y murió en 1589, después de haber prestado brillantes servicios a su nueva patria, y de haber contribuido así a la ilustración de su familia, cuyos descendientes aún viven en Ginebra. Galiffe : <hi rend="italic">Notices généalogiques des familles genevoises, t. III, p. 83 y siguientes</hi>.</p></note></addrLine>
 </address>
-<dateline xml:id="opener"><settlement cert="low" key="París" ref="https://www.wikidata.org/wiki/Q90" corresp="#Paris">París</settlement>, <date when="1546-01-20">[20 de ** de 1546]</date>
+<dateline xml:id="opener">[Enviada a <placeName cert="low" key="París" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">París</placeName>]
 </dateline>
 <hi rend="bold"><label type='nature'>Autógrafo original</label>. Bibl. de Ginebra. Vol. 107</hi>
 <hi xml:id="editorNote"> 

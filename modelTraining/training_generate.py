@@ -14,18 +14,18 @@ template = open("templateEncodage.xml", "r").read()
 text = open("ToProcess.txt", "r").read()
 
 response = client.models.generate_content(
-    model='gemini-2.0-flash', contents=f"En prenant le modèle d'encodage TEI dans {template}, prends le texte océrisé dans {text} et fais l'encodage TEI du text océrisé en suivant le modèle fourni. Produis le contenu dans un fichier XML-TEI.")
+    model='gemini-2.5-flash', contents=f"En prenant le modèle d'encodage TEI dans {template}, prends le texte océrisé dans {text} et fais l'encodage TEI du text océrisé en suivant le modèle fourni. Produis le contenu dans un fichier XML-TEI.")
 with open("input/1538_10_20_LouisTillet.xml", "w", encoding="utf8") as outfile:
     outfile.write(response.text) #change name of file following the model => 1538_10_20_NomDestinataire.xml
 
 #####
     # To help in the encoding of the structure of set of letters given the template with the editorial protocol 
-for i in range(1,5): #number for last argument of range depends on number of letters in the 'text' doc plus 1 (no index 0).
+for i in range(1,4): #number for last argument of range depends on number of letters in the 'text' doc plus 1 (no index 0).
     template = open("templateEncodage.xml", "r").read()
     text = open("ToProcess.txt", "r").read()
 
     response = client.models.generate_content(
-        model='gemini-2.0-flash', contents=f"En prenant le modèle d'encodage TEI dans {template}, prends le texte océrisé dans {text} de la lettre correspondant au numéro {i} en ordre (les lettres ont été divisées par des lignes pointillées) et fais l'encodage TEI du text océrisé en suivant le modèle fourni. Produis le contenu dans un fichier XML-TEI.")
+        model='gemini-2.5-flash', contents=f"En prenant le modèle d'encodage TEI dans {template}, prends le texte océrisé dans {text} de la lettre correspondant au numéro {i} en ordre (les lettres ont été divisées par des lignes pointillées) et fais l'encodage TEI du text océrisé en suivant le modèle fourni. Produis le contenu dans un fichier XML-TEI.")
     with open(f"input/{i}.xml", "w", encoding="utf8") as outfile:
         outfile.write(response.text) #change name of file following the model => 1538_10_20_NomDestinataire.xml
 

@@ -56,8 +56,7 @@
         </msDesc>
         <notesStmt>
           <note>Les notes proviennent de l'édition de Jules Bonnet de 1854
-            sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des
-            phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+            sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
         </notesStmt>
       </sourceDesc>
     </fileDesc>
@@ -68,7 +67,7 @@
             Erase otherwise -->
   <addName type="pseudonym">Charles d'Espeville</addName>
           </persName>
-          <settlement key="Geneve" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
+          <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
           <date when="1544-06-24"></date>
         </correspAction>
         <correspAction type="received">
@@ -103,142 +102,25 @@
       <opener>
         <address>
           <addrLine>À <persName type="individu" key="Jacques de Bourgogne"
-              ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Monsieur de
-            Fallais</persName>
-        <note
-              n="*" place="bottom">
-              <p>M. de Fallais venait de quitter le Brabant, et d'arriver à Cologne, avec sa
-                famille, comme on le voit par sa requête à Charles Quint Ego vero primum diverti in
-            civitatem tuam Coloniensem, ubi innocenter et citra cujusquam defensionem ita vixi, ut
-            jure nemo de me queri possit. » A peine rendu à Cologne, il avait fait la demande d'un
-            ministre à Calvin. La guerre qui désolait alors les Pays-Bas, et qui rendait les
-            communications très difficiles, n'avait point permis au réformateur de satisfaire
-            immédiatement à ce désir.</p>
-            </note>
+              ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Monsieur de Fallais</persName>
+        <note n="*" place="bottom"> <p>M. de Fallais venait de quitter le Brabant, et d'arriver à Cologne, avec sa famille, comme on le voit par sa requête à Charles Quint :  <hi xml:lang="latinq" rend="italic">« Ego vero primum diverti in civitatem tuam Coloniensem, ubi innocenter et citra cujusquam defensionem ita vixi, ut jure nemo de me queri possit. »</hi><hi xml:lang="trad">[traduction]</hi> A peine rendu à Cologne, il avait fait la demande d'un ministre à Calvin. La guerre qui désolait alors les Pays-Bas, et qui rendait les communications très difficiles, n'avait point permis au réformateur de satisfaire immédiatement à ce désir.</p></note>
           </addrLine>
         </address>
-        <dateline xml:id="opener"></dateline>
+        <dateline xml:id="opener">
+          <placeName></placeName>
+        </dateline>
         <hi rend="bold"><label type='nature'>Orig. autographe</label>. Bibl. de Genève. Vol. 194. </hi>
+
         <salute>Monsieur,</salute>
       </opener>
-      <p>Je commenceray par vous faire nos excuses de ce que nous avons si longtemps différé à vous
-        faire sçavoir de nos nouvelles. Je vous asseure que si le temps vous a semblé long, ce n'a
-        pas esté sans languir de nostre costé, à cause que nous ne pouvions pas nous acquiter envers
-        vous selon vostre désir. Si les passages eussent esté ouverts, nous n'eussions pas esté en
-        ceste difficulté, mais il ne vous fault jà advertir quel a esté le temps depuis le retour du
-        bon seigneur <persName key="David" ref="#" corresp="#"></persName>. De vous envoier homme de
-        vostre nation, pendant que les choses estoient ainsi enflambées, nous n'y voions pas grant
-        propos. A ceste cause nous advisasmes d'envoier quérir un homme demeurant à Strasbourg,
-        lequel estoit vostre voisin, considérant aussi qu'il vous seroit plus propre qu'un aultre à
-        cause du païs. Or pource qu'il estoit allé faire un voyage, nous n'eusmes pas si tost
-        response de luy. Depuis en nous escrivant il nous remit au retour de <persName
-          key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucero">Bucer</persName>,
-        lequel estoit encore pour lors à Spire 1.</p>
+      <p>Je commenceray par vous faire nos excuses de ce que nous avons si longtemps différé à vous faire sçavoir de nos nouvelles. Je vous asseure que si le temps vous a semblé long, ce n'a pas esté sans languir de nostre costé, à cause que nous ne pouvions pas nous acquiter envers vous selon vostre désir. Si les passages eussent esté ouverts, nous n'eussions pas esté en ceste difficulté, mais il ne vous fault jà advertir quel a esté le temps depuis le retour du bon seigneur <persName key="David" ref="#" corresp="#"></persName>. De vous envoier homme de vostre nation, pendant que les choses estoient ainsi enflambées, nous n'y voions pas grant propos. A ceste cause nous advisasmes d'envoier quérir un homme demeurant à Strasbourg, lequel estoit vostre voisin, considérant aussi qu'il vous seroit plus propre qu'un aultre à cause du païs. Or pource qu'il estoit allé faire un voyage, nous n'eusmes pas si tost response de luy. Depuis en nous escrivant il nous remit au retour de <persName key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucero">Bucer</persName>, lequel estoit encore pour lors à Spire<note n="1" place="bottom"><p><persName key="Martin Bucer" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucero">Bucer</persName> s'était rendu à la diète qui eut lie dans cette ville en 1544. L'empereur, pressé par deux ennemis à la fois, Soliman et François 1er, y fit d'importantes concessions au parti protestant.</p> </note>.</p>
 
-      <p>
-        <note n="1" place="bottom">
-          <p><persName key="Martin Bucer" ref="https://www.wikidata.org/wiki/Q318622"
-              corresp="#bucero">Bucer</persName> s'était rendu à la diète qui eut lie dans cette
-            ville en 1544. L'empereur, pressé par deux ennemis à la fois, Soliman et François 1er, y
-            fit d'importantes concessions au parti protestant.</p>
-        </note>
-      </p>
+      <p> Voilà comme le temps s'est passé à nostre grand regret, d'aultant que nous n'avions pas entre mains de quoy vous contenter. Or comment il s'est fait que nostre espérance ait esté encor frustrée touchant cestuy-là, vous le pourrez voir par ses lettres et par un extraict des lettres de <persName key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucero">Bucer</persName> que je vous envoye.</p> <p>Le présent porteur nous a esté envoyé au lieu, oultre nostre opinion. Toutesfois nous n'en sommes pas marris. Car nous espérons bien, sire <persName key="David" ref="#" corresp="#"></persName> et moy, qu'il n'y aura rien de perdu en l'eschange. Il est seur en la doctrine qui est utile à édification. Car oultre ce qu'il l'a pure et saine, il y est bien exercé pour en respondre. Au reste, il est modeste, pour ne s'advancer point oultre sa mesure. Oultre plus, il n'est point adonné à gloire, ny a cupidité de se monstrer, qui est une maulvaise peste en beaucoup. Il monstre un zèle d'advancer le règne de nostre Seigneur <persName key="Jésus" ref="#" corresp="#"></persName>, tel qu'il doit estre en ses ministres. Il a quant et quant une vie pour approuver sa doctrine, et quant à sa façon, vous le trouverez traictable. Or affin de vous advertir.de ce qui pourroit défaillir en luy, il est vray qu'il n'est pas fort rusé aux sciences humaines, et n'est pas garny de la congnoissance des langues mesme en la langue latine il n'est pas des plus diserts, combien qu'il y soit instruict aultant que mestier est pour son estat, ce qui suffit. Sa langue maternelle ne vous sera possible fort plaisante du commencement, mais je nie tiens asseuré que cela ne vous empeschera à prendre plaisir à ses prédications, d'aultant que la substance récompensera bien ce deffault. Il craingnoit de n'estre pas assez bien apprins en civilité humaine, mais nous luy avons dict que ce ne seroit pas crime mortel envers vous. Il y a un bien; que vous le pourrez admonester privément de tout ce que vous semblera, sans doubter qu'il en soit offensé, et j'espère qu'il se rendra ductile. Brief il nous trompera bien, ou il fera tellement que nous n'aurons pas occasion de nous repentir de l'avoir envoyé, et n'en aurons point de plainte de vous. Touchant du traictement, nous ne luy en avons point parlé, sçachant bien que ce n'est pas cela où il s'arreste. Car aussi, quand il se chercheroit; son voyage ne sçauroit venir à profit. De mescontentement il n'y a nul dangier qu'il n'y en ait de sa part. Et de vous, je me tiens plus que certain que vous ne luy en donnerez occasion. Seulement, je vous prye, Monsieur, de le recevoir comme serviteur de Dieu, pour vous servir de ce que le Seigneur luy a donné avec vostre famille, à ce que son ministère ne soit pas inutile. De l'ordre et fasçon de procéder eh prédication, et en administrant les sacremens, nous en avons consulté, mais ce sera à vous d'en conclurre ensemble sur le lieu. Toutesfois il vous desclairera ce qui nous a semblé advis bon, affin que sur cela vous preniez conseil. Quant à cela nous avons nostre règle infallible, d'accommoder le tout à édification, Or pour discerner ce qui est propre à édifier, c'est au Seigneur de nous donner la prudence, auquel vous aurez recours. Maintenant, Monsieur, pour response de vos lettres, je. rens grâces à nostre Seigneur, de ce qu'il vous a fortifié en constance, pour vous faire surmonter toutes les tentations qui estoient pour vous empescher et distraire dé vous, venir rendre en lieu où vous le poussiez adorer purement; et n'a pas permis qu'avec la pluspart de ceux qu'il a illuminé en la congnoissance de son nom; vous ayez préféré le monde à son honneur, vous endormant en la fange, qui eust esté pour vous suffocquer en la fin. Or si ceste vertu de vous oublier et destourner vostre considération1 de toutes choses qui estoient à l'entour de.vousi et de rompre les lyens dont vous estiez détenu, a esté une singulière grâce de nostre bon Père céleste, comme il a commencé en cela l'œuvre de sa miséricorde en- vers vous, aussi l'a-il poursuivy, en vous mettant au çueur que ce n'estôit pas. assez de vous estre retiré des pollutions où vous estiez; sinon que vous eussiez journellement sa parole, pour vous confermer à persévérance, et vous inciter à marcher tousjours plus oultre.</p>
 
-      <p> Voilà comme le temps s'est passé à nostre grand regret, d'aultant que nous n'avions pas
-        entre mains de quoy vous contenter. Or comment il s'est fait que nostre espérance ait esté
-        encor frustrée touchant cestuy-là, vous le pourrez voir par ses lettres et par un extraict
-        des lettres de <persName key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622"
-          corresp="#bucero">Bucer</persName> que je vous envoye.</p>
-
-      <p>Le présent porteur nous a esté envoyé au lieu, oultre nostre opinion. Toutesfois nous n'en
-        sommes pas marris. Car nous espérons bien, sire <persName key="David" ref="#" corresp="#"></persName>
-        et moy, qu'il n'y aura rien de perdu en l'eschange. Il est seur en la doctrine qui est utile
-        à édification. Car oultre ce qu'il l'a pure et saine, il y est bien exercé pour en
-        respondre. Au reste, il est modeste, pour ne s'advancer point oultre sa mesure. Oultre plus,
-        il n'est point adonné à gloire, ny a cupidité de se monstrer, qui est une maulvaise peste en
-        beaucoup. Il monstre un zèle d'advancer le règne de nostre Seigneur <persName key="Jésus"
-          ref="#" corresp="#"></persName>, tel qu'il doit estre en ses ministres. Il a quant et
-        quant une vie pour approuver sa doctrine, et quant à sa façon, vous le trouverez traictable.
-        Or affin de vous advertir.de ce qui pourroit défaillir en luy, il est vray qu'il n'est pas
-        fort rusé aux sciences humaines, et n'est pas garny de la congnoissance des langues mesme en
-        la langue latine il n'est pas des plus diserts, combien qu'il y soit instruict aultant que
-        mestier est pour son estat, ce qui suffit. Sa langue maternelle ne vous sera possible fort
-        plaisante du commencement, mais je nie tiens asseuré que cela ne vous empeschera à prendre
-        plaisir à ses prédications, d'aultant que la substance récompensera bien ce deffault. Il
-        craingnoit de n'estre pas assez bien apprins en civilité humaine, mais nous luy avons dict
-        que ce ne seroit pas crime mortel envers vous. Il y a un bien; que vous le pourrez
-        admonester privément de tout ce que vous semblera, sans doubter qu'il en soit offensé, et
-        j'espère qu'il se rendra ductile. Brief il nous trompera bien, ou il fera tellement que nous
-        n'aurons pas occasion de nous repentir de l'avoir envoyé, et n'en aurons point de plainte de
-        vous. Touchant du traictement, nous ne luy en avons point parlé, sçachant bien que ce n'est
-        pas cela où il s'arreste. Car aussi, quand il se chercheroit; son voyage ne sçauroit venir à
-        profit. De mescontentement il n'y a nul dangier qu'il n'y en ait de sa part. Et de vous, je
-        me tiens plus que certain que vous ne luy en donnerez occasion. Seulement, je vous prye,
-        Monsieur, de le recevoir comme serviteur de Dieu, pour vous servir de ce que le Seigneur luy
-        a donné avec vostre famille, à ce que son ministère ne soit pas inutile. De l'ordre et
-        fasçon de procéder eh prédication, et en administrant les sacremens, nous en avons consulté,
-        mais ce sera à vous d'en conclurre ensemble sur le lieu. Toutesfois il vous desclairera ce
-        qui nous a semblé advis bon, affin que sur cela vous preniez conseil. Quant à cela nous
-        avons nostre règle infallible, d'accommoder le tout à édification, Or pour discerner ce qui
-        est propre à édifier, c'est au Seigneur de nous donner la prudence, auquel vous aurez
-        recours. Maintenant, Monsieur, pour response de vos lettres, je. rens grâces à nostre
-        Seigneur, de ce qu'il vous a fortifié en constance, pour vous faire surmonter toutes les
-        tentations qui estoient pour vous empescher et distraire dé vous, venir rendre en lieu où
-        vous le poussiez adorer purement; et n'a pas permis qu'avec la pluspart de ceux qu'il a
-        illuminé en la congnoissance de son nom; vous ayez préféré le monde à son honneur, vous
-        endormant en la fange, qui eust esté pour vous suffocquer en la fin. Or si ceste vertu de
-        vous oublier et destourner vostre considération1 de toutes choses qui estoient à l'entour
-        de.vousi et de rompre les lyens dont vous estiez détenu, a esté une singulière grâce de
-        nostre bon Père céleste, comme il a commencé en cela l'œuvre de sa miséricorde en- vers
-        vous, aussi l'a-il poursuivy, en vous mettant au çueur que ce n'estôit pas. assez de vous
-        estre retiré des pollutions où vous estiez; sinon que vous eussiez journellement sa parole,
-        pour vous confermer à persévérance, et vous inciter à marcher tousjours plus oultre.</p>
-
-      <p>
-        <note n="1" place="bottom">
-          <p>M. de Fallais avait d'abord l'intention de se retirer à Genève. Il s'était ensuite
-            décidé à fixer sa résidence à Strasbourg.</p>
-        </note>
-      </p>
-
-      <p>Nous expérimentons bien nostre fragilité estre telle que si nous. ne sommes poulsez d'heure
-        en heure, nous sommes incontinent refroidis de nostre zèle. Et c'est la cause, pourquoy il y
-        en a tant qui cheminent en escrevices, pource qu'estans déceus par faulse imagination que
-        c'est assez d'avoir une fois entendu la vérité, ils s'anonçha lissent, mesprisant l'exercice
-        quotidien qui nous est tant nécessaire à tous. Ainsi nous estans instruicts tant par leur
-        exemple que par nostre expérience propre, combien il nous est mestier d'avoir tousjours
-        sainctes exhortations de la parole de nostre Dieu comme un esperon pour nous picquer,
-        gardons bien de nous en reculler. Nous voyons comme <persName key="David" ref="#"
-          corresp="#"></persName> estant entre les Philistins, combien qu'il ne se contaminast pas
-        en idolâtrie, regrette qu'il ne se peult trouver au temple en Jérusalem, pour s'édifier tant
-        par la prédication de la loi et les sainctes ordonnances de Dieu, comme ce sont
-        confirmations pour ayder et subvenir à nostre foiblesse. Je prie doncq le Seigneur de vous
-        maintenir tousjours en ce propos, affin que soyez pleinement conforme à nostre père <persName
-          key="Abraham" ref="#" corresp="#"></persName>, lequel non-seulement abandonna le païs de
-        sa nativité pour suivre Dieu, mais estant venu en la terre de Chanaan dressa incontinent un
-        autel, pour s'exercer au service et en l'adoration de Dieu. Quant à ce que vous craingnez
-        que je trouve estrange, le changement de vostre délibération je seroys trop inhumain, si je
-        ne vous concédois d'user d'un tel et si bon moien, puisque nostre Seigneur vous l'a offert
-        oultre vostre espérance. Non pas que je n'eusse désiré de vous voir, pour jouir de la
-        consolation et joye que j'attendois de vostre présence, et qu'il ne me face mal d'estre
-        privé d'un tel bien. Mais je regarde d'aultre costé'que vous seriez comme ingrat à Dieu, en
-        n'acceptant point la condition, laquelle vous est présentée de luy plus que des hommes. Au
-        reste, je vous asseure bien que si j'estois en ma liberté, et que le Seigneur ne m'eust
-        point lyé icy, ou qu'il me donnast congé pour un temps, que je ne vouldrois faillir à vous
-        aller visiter, pour satisfaire à vostre désir et au mien. Quant à vous voir, encore n'en
-        ai-je pas perdu l'espérance, non pas que j'y voye grande aysance de mon costé, mais pource
-        que je me confie que nostre Seigneur en ouvrira quelque moien. Comment qu'il en soit, le
-        principal est que nous soyons tousjours conjoints ensemble en cellui qui est père de toute
-        unité, comme je m'en tiens pour asseuré, et non-seulement pour trois jours que nous avons à
-        vivre en ce monde, mais éternellement en son royaulme. Pour faire fin, Monsieur, après
-        m'estre humblement recommandé à vostre bonne grâce, je supplye ce bon Dieu de vous avoir
-        tousjours en sa protection avec vostre famille, vous acroissant les dons qu'il a mis en
-        vous, jusques à ce qu'il vous ait mené à la dernière perfection de ses enfans. Le 24 de
-        juing (1544).</p>
+      <p>Nous expérimentons bien nostre fragilité estre telle que si nous. ne sommes poulsez d'heure en heure, nous sommes incontinent refroidis de nostre zèle. Et c'est la cause, pourquoy il y en a tant qui cheminent en escrevices, pource qu'estans déceus par faulse imagination que c'est assez d'avoir une fois entendu la vérité, ils s'anonçha lissent, mesprisant l'exercice quotidien qui nous est tant nécessaire à tous. Ainsi nous estans instruicts tant par leur exemple que par nostre expérience propre, combien il nous est mestier d'avoir tousjours sainctes exhortations de la parole de nostre Dieu comme un esperon pour nous picquer, gardons bien de nous en reculler. Nous voyons comme <persName key="David" ref="#" corresp="#"></persName> estant entre les Philistins, combien qu'il ne se contaminast pas en idolâtrie, regrette qu'il ne se peult trouver au temple en Jérusalem, pour s'édifier tant par la prédication de la loi et les sainctes ordonnances de Dieu, comme ce sont confirmations pour ayder et subvenir à nostre foiblesse. Je prie doncq le Seigneur de vous maintenir tousjours en ce propos, affin que soyez pleinement conforme à nostre père <persName key="Abraham" ref="#" corresp="#"></persName>, lequel non-seulement abandonna le païs de sa nativité pour suivre Dieu, mais estant venu en la terre de Chanaan dressa incontinent un autel, pour s'exercer au service et en l'adoration de Dieu. Quant à ce que vous craingnez que je trouve estrange, le changement de vostre délibération je seroys trop inhumain, si je ne vous concédois d'user d'un tel et si bon moien, puisque nostre Seigneur vous l'a offert oultre vostre espérance. Non pas que je n'eusse désiré de vous voir, pour jouir de la consolation et joye que j'attendois de vostre présence, et qu'il ne me face mal d'estre privé d'un tel bien. Mais je regarde d'aultre costé'que vous seriez comme ingrat à Dieu, en n'acceptant point la condition, laquelle vous est présentée de luy plus que des hommes. Au reste, je vous asseure bien que si j'estois en ma liberté, et que le Seigneur ne m'eust point lyé icy, ou qu'il me donnast congé pour un temps, que je ne vouldrois faillir à vous aller visiter, pour satisfaire à vostre désir et au mien. Quant à vous voir, encore n'en ai-je pas perdu l'espérance, non pas que j'y voye grande aysance de mon costé, mais pource que je me confie que nostre Seigneur en ouvrira quelque moien. Comment qu'il en soit, le principal est que nous soyons tousjours conjoints ensemble en cellui qui est père de toute unité, comme je m'en tiens pour asseuré, et non-seulement pour trois jours que nous avons à vivre en ce monde, mais éternellement en son royaulme. Pour faire fin, Monsieur, après m'estre humblement recommandé à vostre bonne grâce, je supplye ce bon Dieu de vous avoir tousjours en sa protection avec vostre famille, vous acroissant les dons qu'il a mis en vous, jusques à ce qu'il vous ait mené à la dernière perfection de ses enfans.</p>
       <closer>
-        <dateline>
-          <placeName key="Geneve" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</placeName>
-          <date when="1544-06-24"></date>
+        <dateline>Le 
+          <date when="1544-06-24">24 de juing (1544)</date>.
         </dateline>
         <salute>Vostre serviteur, humble frère et entier amy à jamais,</salute>
         <signed>

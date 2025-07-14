@@ -93,7 +93,7 @@
 <opener>
 <address><addrLine>Au <persName type="individu" key="Édouard VI d'Angleterre"  ref="https://www.wikidata.org/wiki/Q83229" corresp="#edouard-VI">roi d'Angleterre</persName><note n="*" place="bottom" type="editorNote"><p><persName key="Édouard VI d'Angleterre"  ref="https://www.wikidata.org/wiki/Q83229" corresp="#edouard-VI">Edouard VI</persName>, fils d'<persName key="Henri VIII" ref="https://www.wikidata.org/wiki/Q38370">Henri VIII</persName> et de <persName key="Jeanne Seymour" ref="https://www.wikidata.org/wiki/Q182637">Jeanne Seymour</persName>, roi d'Angleterre en 1547, mort, dans sa seizième année, le 8 juillet 1553. Appliqué à l'étude et aux affaires et avec une extrême facilité pour apprendre, il a été instruit dans les langues anciennes et dans les littératures étrangères ; doué aussi d'une raison précoce et d'une sensibilité vive, il démontra un caractère doux et un esprit droit et amour pour la justice. Il soutenait la cause de la Réforme(...) [ Note de l'éditrice : d'après la note de la page 325 de l'édition de Jules Bonnet des lettres de Calvin parue en 1854 ]</p></note></addrLine>
 </address>
-<dateline xml:id="opener"><placeName cert="medium" key="Londres" ref="https://www.wikidata.org/wiki/Q84" corresp="#londres">Londres</placeName>, le <date when="1553-03-12">12 mars 1553</date>
+<dateline xml:id="opener">[Envoyée à <placeName cert="medium" key="Londres" ref="https://www.wikidata.org/wiki/Q84" corresp="#londres">Londres</placeName>]
 </dateline>
   <hi rend="bold">Copie. Bibl. imp. Coll. Dupuy, vol. 102. </hi>
   <hi xml:id="editorNote"> 
