@@ -1,0 +1,73 @@
+ {
+   "sources":{  
+    "BibliothequeGeneva": {
+         "ManuscriptsOriginaux": "66",
+         "Copies": "31",
+         "Total":"97"
+    },
+
+    "Archive_Etat_Neuchâtel": {
+        "ManuscriptsOriginaux": "1",
+        "Copies": "0",
+        "Total": "1"
+    },
+
+    "ArchivesGeneve": {
+        "ManuscriptsOriginaux" : "8" ,
+        "Copies": "1",
+      "Total":"9"  
+    },
+
+    "AutreSources":{
+        "Copies": [{
+            "source": "côte Français 2391 (BNF|Gallica): correspondance attribuée à ‘Espeville’ et ‘Haultmont’ sur la réligion Réformée selon la notice bibliographique",
+            "cantite": "3"
+        },{
+        "source": "Recueil de lettres de Calvin et d'autres théologiens du XVI siècle (BNF|Gallica): [contient la lettre de Calvin à Mademoiselle de Pons du 20 novembre 1553]",
+        "cantite": "1"
+        }],
+        "deSourcesImprimees":[{
+            "source": "Gachet d’Artigny, Antoine, 1704-1778, Nouveaux memoires d’histoire, de critique et de littérature. According to the author himself, comes from one of the rare manuscript copies left (note p.75) : lettre à Jean Frellon, 13 fevrier de 1546",
+            "cantite": "1"
+        },
+        {
+            "source": "Crespin, Histoire des martyrs, persecutez et mis a mort pour la verité de l’Euangile, depuis le temps des apostres iusques à l’an 1597. Comprise en douze liures, [Jean Crespin].",
+            "cantite": "6"
+        }],
+        "Total": "11"
+    },
+    "NonTrouves_AutographesOriginaux":{
+        "ManuscriptsOriginaux" :[
+            {"autographeOriginal": "aux seigneurs de Genève (mai de 1550)",
+            "sourceListee": "Collection de M. le chevalier Eynard, à Genève"
+            },
+            {"autographe0riginal": "à Christophe et Thomas Zollicoffre (28 mars de 1553)",
+            "sourceListee": "Bibliothèque de Saint-Gall. Vol. VII, p. 211"
+            }
+           ],
+        "Copies": [
+            {
+            "copie": "au Duc de Somerset (25 juillet 1551",
+            "sourceListee": "Bibl. de Zurich Coll. Simler vol. 75"
+            }, 
+            {
+            "copie": "aux fidèles des Iles (12 octobre 1553)",
+            "sourceListee": "Registres de la Compagnie de Genève Vol. A"
+            },
+            {
+            "copie": "aux Seigneurs de Berne (4 octobre 1554)",
+            "sourceListee": "Archives de M. le colonel Henri Tronchin à Lavigny"
+            }
+           ],
+        "Total": "5"
+    },
+
+   "Total":{
+    "ManuscriptsOriginaux": "77",
+    "Copies": "39",
+    "deSourcesImprimees":"7",
+    "Total": "123"
+    }
+ }
+
+}

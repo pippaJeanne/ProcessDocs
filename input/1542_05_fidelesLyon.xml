@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="M-Lyon1542_05_XX">
    <teiHeader>
       <fileDesc>
@@ -35,10 +35,18 @@
                Paris</pubPlace>, <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>, <date
                   when="1854">1854</date>. <affiliation>Provenance : Bibliothèque nationale de
                   France</affiliation>
-<facsimile xml:id="44-46">
-                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f44/info.json" />
-                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f45/info.json" />
-                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f46/info.json" />
+<facsimile xml:id="92-102">
+                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f92/info.json" />
+                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f93/info.json" />
+                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f94/info.json" />
+                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f95/info.json" />
+                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f96/info.json" />
+                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f97/info.json" />
+                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f98/info.json" />
+                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f99/info.json" />
+                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f100/info.json" />
+                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f101/info.json" />
+                  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f102/info.json" />
                </facsimile>
             </bibl>
             <!-- For manuscript | primary sources -->
@@ -46,18 +54,21 @@
                <msIdentifier>
                   <settlement>Genève</settlement>
                   <repository>Bibliothèque de Genève</repository>
-                  <idno type="cote">Ms. Vol. 145</idno>
+                  <idno type="cote">Ms. fr. 145 (f. 24-29)</idno>
                </msIdentifier>
                <facsimile>
-                  <graphic url="#" />
-                  <graphic url="#" />
+                  <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_145%2Fms_fr_00145_f133r.jpg" />
+                  <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_145%2Fms_fr_00145_f133v.jpg" />
+                  <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_145%2Fms_fr_00145_f134r.jpg" />
+                  <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_145%2Fms_fr_00145_f134v.jpg" />
+                  <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_145%2Fms_fr_00145_f135r.jpg" />
+                  <graphic url="https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_145%2Fms_fr_00145_f135v.jpg" />
+                  
                </facsimile>
             </msDesc>
             <notesStmt>
                <note>Les notes proviennent de l'édition de Jules Bonnet de 1854
-                  sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes
-                  des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández
-                  Pedraza.</note>
+                  sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
             </notesStmt>
          </sourceDesc>
       </fileDesc>
@@ -65,13 +76,11 @@
          <correspDesc>
             <correspAction type="sent">
                <persName>Jean Calvin</persName>
-               <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">
-                  Villefranche</settlement>
+               <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Villefranche</settlement>
                <date when="1542-05-01">mai 1542</date>
             </correspAction>
             <correspAction type="received">
-               <name type="collectivité" key="Fidèles de Lyon" corresp="#lyon-fidele">les Fidèles de
-                  Lyon</name>
+               <name type="collectivité" key="Fidèles de Lyon" corresp="#lyon-fidele">les Fidèles de Lyon</name>
                <settlement cert="high" key="Lyon" ref="https://www.wikidata.org/wiki/Q456"
                   corresp="#lyon"></settlement>
             </correspAction>
@@ -86,8 +95,7 @@
                </ref>
             </correspContext>
          </correspDesc>
-         <desc>Lettre avertissant les fidèles de Lyon des agissements d'un moine carme apostat ayant
-            prêché le carême précédent à Lyon et dénigrant Calvin et ses confrères.</desc>
+         <desc>Lettre avertissant les fidèles de Lyon des agissements d'un moine carme apostat ayant prêché le carême précédent à Lyon et dénigrant Calvin et ses confrères.</desc>
          <list xml:id="tags">
             <term>Lyon</term>
             <term>Carme</term>
@@ -102,264 +110,43 @@
          <opener>
             <!-- Content in <addrLine> not uppercased  -->
             <address>
-               <addrLine>À <persName type="collectivité" key="Fidèles de Lyon"
-                     corresp="#lyon-fidele">Aux Fidèles de Lyon</persName>
-        <note n="*" place="bottom"
-                     type="source">
-                     <p>Au dos Lettre contre le Carme. Sans date. Une lettre latine de <persName
+               <addrLine>Aux <persName type="collectivité" key="Fidèles de Lyon"
+                     corresp="#lyon-fidele">Fidèles de Lyon</persName>
+        <note n="*" place="bottom" type="source"> <p>Au dos Lettre contre le Carme. Sans date. Une lettre latine de <persName
                            key="Jean Calvin" ref="https://www.wikidata.org/wiki/Q37552"
                            corresp="#calvin">Calvin</persName> à <persName key="Guillaume Farel"
                            ref="https://www.wikidata.org/wiki/Q380482" corresp="#farel">Farel</persName>,
                   du 10 mai 1542, relative au même sujet, nous fournit la date inconnue, et nous
                   apprend que ce carme, passé dans les rangs de la Réforme, était de <placeName
                            key="Lyon" ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">Lyon</placeName>
-                  «<hi xml:lang="lat" rend="italic"> Venit Carmelita lugdunensis a quo non frustra
-                  timuimus. </hi>» <persName key="Jean Calvin" persName> avertit les fidèles de cette ville
-                  de se tenir en garde contre ce faux frère.<lb /> L'Eglise de <placeName key="Lyon"
-                           ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">Lyon</placeName>,
-                  une des plus glorieuses de la Réforme française, dut son origine aux prédications
-                  d'un ancien moine jacobin, <persName key="Alexandre Camus"
-                           corresp="#camus-alexandre">Alexandre Camus</persName>, surnommé <persName
-                           key="Laurent de la Croix" corresp="#la-croix-laurent">Laurent
-                           de la Croix</persName>, qui souffrit le martyre à <placeName key="Paris"
-                           ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">Paris</placeName>
-                  en 1535. Les premiers membres de cette Eglise furent des marchands « quelques
-                  orfévres et autres de la ville, » qui se réunissaient en secret. L'œuvre commencée
-                  par <persName key="Alexandre Camus" corresp="#camus-alexandre">Alexandre Camus</persName>,
-                  fut courageusement poursuivie par <persName key="Jean Fabri" ref="#"
-                           corresp="#fabri-jean">Jean
-                           Fabri</persName> (Le Fèvre) qui trouva de pieux continuateurs dans les
-                  ministres <persName
-                           key="Pierre Fournelet" corresp="#fournelet-pierre">Pierre Fournelet</persName>
-                  et <persName key="Claude Monnier" corresp="#monnier-claude">Claude Monnier</persName>,
-                  avant l'époque des grandes persécutions.</p>
+                  «<hi xml:lang="latinq" rend="italic"> Venit Carmelita lugdunensis a quo non frustra timuimus. </hi>» <hi xml:lang="trad">[Le carme de Lyon est venu, de qui nous n'avons pas eu en vain peur.]</hi> Jean Calvin avertit les fidèles de cette ville de se tenir en garde contre ce faux frère.<lb /> L'Eglise de <placeName key="Lyon"
+                           ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">Lyon</placeName>, une des plus glorieuses de la Réforme française, dut son origine aux prédications
+                  d'un ancien moine jacobin, <persName key="Alexandre Camus" ref="https://www.wikidata.org/wiki/Q2833517"  corresp="#camus">Alexandre Camus</persName>, surnommé <persName key="Alexandre Camus" ref="https://www.wikidata.org/wiki/Q2833517" corresp="#camus">Laurent de la Croix</persName>, qui souffrit le martyre à <placeName key="Paris" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">Paris</placeName> en 1535. Les premiers membres de cette Eglise furent des marchands « quelques
+                  orfévres et autres de la ville, » qui se réunissaient en secret. L'œuvre commencée par <persName key="Alexandre Camus" ref="https://www.wikidata.org/wiki/Q2833517" corresp="#camus">Alexandre Camus</persName>, fut courageusement poursuivie par <persName cert="low" key="Jean Le Fèvre" ref="https://www.wikidata.org/wiki/Q3173076">Jean Fabri (Le Fèvre)</persName> qui trouva de pieux continuateurs dans les ministres <persName key="Pierre Fournelet">Pierre Fournelet</persName> et <persName key="Claude Monnier">Claude Monnier</persName>, avant l'époque des grandes persécutions.</p>
                   </note>
                </addrLine>
             </address>
-            <dateline><placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">
-               Lyon</placeName>] </dateline>
-            <hi rend="bold"><label type='nature'>Minute originale</label>. Bibliothèque de Genève.
-               Vol. 145. </hi>
-            <salute>La grâce et la paix de Dieu nostre Père par nostre Seigneur Jésus-Christ, soit
-               et demeure tousjours sur vous par la vertu de son Sainct-Esprit.</salute>
+            <dateline>[Envoyée à <placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">Lyon</placeName>] </dateline>
+            <hi rend="bold"><label type='nature'>Minute originale</label>. Bibliothèque de Genève. Vol. 145. </hi>
+            <hi xml:id="editorNote">
+               [Maintenant sous la cote Ms. fr. 145 (f. 24-29)]</hi>
+            
+            <salute>La grâce et la paix de Dieu nostre Père par nostre Seigneur Jésus-Christ, soit et demeure tousjours sur vous par la vertu de son Sainct-Esprit.</salute>
          </opener>
-         <p>Très chers frères nous désirerions d'avoir matière de vous escrire qui vous vînt à plus
-            grande consolation, car quant quelque autre vous contristeroit, nous serions les
-            premiers qui voudrions mettre peine à vous resjouyr. Mais la nécessité nous contraint
-            pour ceste heure de user envers vous d'autre argument que nostre vouloir ne porteroit,
-            si c'estoit à nous à choisir. Toutesfois pource que nous espérons bien que nul de vous
-            ne pensera que nostre intention soit autre sinon de vous édifier, consoler et conformer
-            en nostre Seigneur, nous ne ferons point plus longues excuses en cest endroict. Touchant
-            le contenu des présentes, que vous ne preniez point en mauvaise part ce qu'il vous
-            pourra apporter plus de fascherie que de resjouissance. Nous sçavons bien aussi que
-            c'est chose odieuse de vitupérer ung homme qui non-seulement est en bonne réputation,
-            mais a acquis quelque bruit et renommée. Mais quant vous aurez entendu les raisons qui
-            nous meuvent à ce faire, nous ne doubtons point que vous ne vous teniez très contens de
-            nous. Pour vous advertir en brief, nous avons à vous escrire quelques nouvelles touchant
-            le carme qui a là presché le caresme dernier, lesquelles ne tourneront pas à sa louange.
-            Ce que nous en faisons n'est point de cupidité que nous ayons de détracter de luy, car
-            encores que nous ayons quelque occasion qui nous peult induire à cela, nostre courage
-            n'est pas tel et n'en avons point la coutume. Mais quant nous vous aurons exposé la
-            raison qui nous meut, elle vous pourra pleinement satisfaire. D'autant qu'il s'en est
-            retourné par devers vous mal content du recueil que luy avions fait, comme il a dict à
-            quelques-ungs, nous pensons bien que estant par delà il vous pourra faire beaucoup de
-            complainctes, et ne fust-ce que pour se purger de ce qu'il retourne de rechef en
-            l'abisme dont le Seigneur l'avoit délivré. Or nous voyons d'autre part quelle offense
-            vous pourriez concevoir contre nous, si vous n'estiez deuement advertis de toute
-            l'affaire. En tant doncques que nous sommes tenus à vous à cause du lien auquel le
-            Seigneur nous a conjoincts ensemble, et que nous serions coulpables devant Dieu envers
-            vous, si nous ne mettions peine d'obvier à tous les scandales que le <name>diable</name>
-            tasche d'émouvoir pour nous séparer et aliéner dé l'unité que le Seigneur à mise entre
-            nous, il nous à semblé advis bon de vous réciter simplement l'histoire du recueil et
-            traitement que luy avons fait, et au contraire comment il s'est porté, pour vous laisser
-            le jugement de ce qui l'a peu émouvoir à se mescontenter de nous. Ce que nous vous en
-            réciterons sera comme devant Dieu, lequel nous appellons en tesmoing le priant de
-            manifester la vérité telle qu'elle est, et confondre ceulx qui vouldroient user de
-            mensonge et calumnies aucunes.</p>
+         <p>Très chers frères nous désirerions d'avoir matière de vous escrire qui vous vînt à plus grande consolation, car quant quelque autre vous contristeroit, nous serions lespremiers qui voudrions mettre peine à vous resjouyr. Mais la nécessité nous contraint pour ceste heure de user envers vous d'autre argument que nostre vouloir ne porteroit, si c'estoit à nous à choisir. Toutesfois pource que nous espérons bien que nul de vous ne pensera que nostre intention soit autre sinon de vous édifier, consoler et conformer en nostre Seigneur, nous ne ferons point plus longues excuses en cest endroict. Touchant le contenu des présentes, que vous ne preniez point en mauvaise part ce qu'il vous pourra apporter plus de fascherie que de resjouissance. Nous sçavons bien aussi que c'est chose odieuse de vitupérer ung homme qui non-seulement est en bonne réputation, mais a acquis quelque bruit et renommée. Mais quant vous aurez entendu les raisons qui nous meuvent à ce faire, nous ne doubtons point que vous ne vous teniez très contens de nous. Pour vous advertir en brief, nous avons à vous escrire quelques nouvelles touchant le carme qui a là presché le caresme dernier, lesquelles ne tourneront pas à sa louange. Ce que nous en faisons n'est point de cupidité que nous ayons de détracter de luy, car encores que nous ayons quelque occasion qui nous peult induire à cela, nostre courage n'est pas tel et n'en avons point la coutume. Mais quant nous vous aurons exposé la raison qui nous meut, elle vous pourra pleinement satisfaire. D'autant qu'il s'en est retourné par devers vous mal content du recueil que luy avions fait, comme il a dict à quelques-ungs, nous pensons bien que estant par delà il vous pourra faire beaucoup de complainctes, et ne fust-ce que pour se purger de ce qu'il retourne de rechef en l'abisme dont le Seigneur l'avoit délivré. Or nous voyons d'autre part quelle offense vous pourriez concevoir contre nous, si vous n'estiez deuement advertis de toute l'affaire. En tant doncques que nous sommes tenus à vous à cause du lien auquel le Seigneur nous a conjoincts ensemble, et que nous serions coulpables devant Dieu envers vous, si nous ne mettions peine d'obvier à tous les scandales que le diable tasche d'émouvoir pour nous séparer et aliéner dé l'unité que le Seigneur à mise entre nous, il nous à semblé advis bon de vous réciter simplement l'histoire du recueil et traitement que luy avons fait, et au contraire comment il s'est porté, pour vous laisser le jugement de ce qui l'a peu émouvoir à se mescontenter de nous. Ce que nous vous en réciterons sera comme devant Dieu, lequel nous appellons en tesmoing le priant de manifester la vérité telle qu'elle est, et confondre ceulx qui vouldroient user de mensonge et calumnies aucunes.</p> 
+         
+         <p>Quelques jours après qu'il fust arrivé, ayant desja parlé à luy en particulier, et luy ayant montré signes de humanité et amitié, nous l'appellasmes estans ensemble pour sçavoir sa délibération. Après qu'il nous eust dict qu'il estoit venu pour servir à l'Eglise de Dieu, nous le priasmes de ne prendre point en mauvaise part ce que nous ne luy avions point présenté du premier jour la chaire. Pareillement le priasmes de nous vouloir excuser, si nous différions encores quelque temps, et luy remonstrasmes les causes qui nous einpeschoient de nous haster. Premièrement pource que nostre Seigneur nous a baillé nostre reigle par escript, laquelle il ne nous est licite de oultrepasser. C'est qu'il nous a défendu de recevoir homme au ministère devant que l'avoir bien et deuement approuvé, comme ceste reigle nous doibt estre inviolable, si nous voulons avoir bon ordre et police en l'Eglise. Nous l'admonestâmes de considérer combien la police du ministère nous estoit recommandée de Dieu, laquelle seroit vilipendée si on y recevoit ung homme à la volée sans observer forme légitime. Secondement nous luy remonstrasmes en quelle conséquence cela pourroit venir, si nous l'introduisions ainsi hastivement, à sçavoir qu'un aultre vouldroit estre receu à son exemple, et en quelque sorte qu'il en advînt que nous tomberions en une plus grande confusion qu'il n'y a eu le temps passé, faisans dispense à l'ung et la desnyant à l'aultre, laquelle inéqualité est une ruine mortelle en l'Eglise de Dieu. Tiercement nous lui dismes que quant nous aurions si mauvaise conscience de vouloir en sa faveur transgresser le commandement de Dieu, qu'il ne nous seroit point permis néantmoins, pource que nous avions nos loix ecclésiastiques réduites par escript lesquelles nous chantent une leçon toute diverse. Or il nous les -fault observer, veu que tout le peuple à nostre coutume s'y est obligé. Pour le quatriesme, nous luy remonstrasmes que c'estoit mesme son profict que la chose se fit mûrement, pour ce que ce pendant il auroit le plaisir de considérer combien la charge est difficile et fascheuse, afin de prendre conseil sur cela de ce qu'il auroit à faire. Semblablement de connaître nostre forme et manière afin de s'y accommoder, de peur de scandaliser le peuple lequel est tendre et délicat, car les plus rudes sont quelquefois plus difficiles à contenter. Néantmoins si luy donnasmes-nous bien à entendre que nostre intention n'estoit point de le tenir longtemps en suspend et faire languir, mais plus tost de regarder en brief, et plus tost que possible nous sera, de l'appliquer au service de Dieu. Sur cela nous le priasmes d'avoir encore ung petit de patience en attendant que les choses se fissent selon l'ordre de Dieu, et que cependant il usast de nous privément comme de ses frères, nous offrant de luy faire service et plaisir en toute chose que le Seigneur auroit mise en nostre main. Il nous sembloit bien que nos propos estoient si raisonnables qu'il les debvoit prendre en payement. Davantage nous parlions aultant amyablement qu'il eust sceu demander, et soiez certain que tout homme craignant Dieu et ayant bonne conscience, eust esté bien satisfaict. Qui plus est ung homme mesme de mauvais cœur, moyennant qu'il eust eu quelque honnesteté et n'eust pas esté du tout effronté, eust eu honte de contredire. Nostre moyne pour toute response nous somma de l'asseurer sur le champ, nonobstant toutes les raisons que nous avions alléguées. Et ce pour deux causes la première c'est qu'il avoit pour lors compaignie qui le pouvoit conduire seurement hors des dangers et luy fournir monture et argent, et qu'il n'auroit point tousjours cette opportunité en main. La seconde que s'il avoit à s'en retourner en <placeName key="France" ref="https://www.wikidata.org/wiki/Q142">France</placeName>, le plus tost seroit le meilleur, devant que le bruit de sa venue par deçà fust publié.</p>
 
-         <p>Quelques jours après qu'il fust arrivé, ayant desja parlé à luy en particulier, et luy
-            ayant montré signes de humanité et amitié, nous l'appellasmes estans ensemble pour
-            sçavoir sa délibération. Après qu'il nous eust dict qu'il estoit venu pour servir à
-            l'Eglise de Dieu, nous le priasmes de ne prendre point en mauvaise part ce que nous ne
-            luy avions point présenté du premier jour la chaire. Pareillement le priasmes de nous
-            vouloir excuser, si nous différions encores quelque temps, et luy remonstrasmes les
-            causes qui nous einpeschoient de nous haster. Premièrement pource que nostre Seigneur
-            nous a baillé nostre reigle par escript, laquelle il ne nous est licite de oultrepasser.
-            C'est qu'il nous a défendu de recevoir homme au ministère devant que l'avoir bien et
-            deuement approuvé, comme ceste reigle nous doibt estre inviolable, si nous voulons avoir
-            bon ordre et police en l'Eglise. Nous l'admonestâmes de considérer combien la police du
-            ministère nous estoit recommandée de Dieu, laquelle seroit vilipendée si on y recevoit
-            ung homme à la volée sans observer forme légitime. Secondement nous luy remonstrasmes en
-            quelle conséquence cela pourroit venir, si nous l'introduisions ainsi hastivement, à
-            sçavoir qu'un aultre vouldroit estre receu à son exemple, et en quelque sorte qu'il en
-            advînt que nous tomberions en une plus grande confusion qu'il n'y a eu le temps passé,
-            faisans dispense à l'ung et la desnyant à l'aultre, laquelle inéqualité est une ruine
-            mortelle en l'Eglise de Dieu. Tiercement nous lui dismes que quant nous aurions si
-            mauvaise conscience de vouloir en sa faveur transgresser le commandement de Dieu, qu'il
-            ne nous seroit point permis néantmoins, pource que nous avions nos loix ecclésiastiques
-            réduites par escript lesquelles nous chantent une leçon toute diverse. Or il nous les
-            -fault observer, veu que tout le peuple à nostre coutume s'y est obligé. Pour le
-            quatriesme, nous luy remonstrasmes que c'estoit mesme son profict que la chose se fit
-            mûrement, pour ce que ce pendant il auroit le plaisir de considérer combien la charge
-            est difficile et fascheuse, afin de prendre conseil sur cela de ce qu'il auroit à faire.
-            Semblablement de connaître nostre forme et manière afin de s'y accommoder, de peur de
-            scandaliser le peuple lequel est tendre et délicat, car les plus rudes sont quelquefois
-            plus difficiles à contenter. Néantmoins si luy donnasmes-nous bien à entendre que nostre
-            intention n'estoit point de le tenir longtemps en suspend et faire languir, mais plus
-            tost de regarder en brief, et plus tost que possible nous sera, de l'appliquer au
-            service de Dieu. Sur cela nous le priasmes d'avoir encore ung petit de patience en
-            attendant que les choses se fissent selon l'ordre de Dieu, et que cependant il usast de
-            nous privément comme de ses frères, nous offrant de luy faire service et plaisir en
-            toute chose que le Seigneur auroit mise en nostre main. Il nous sembloit bien que nos
-            propos estoient si raisonnables qu'il les debvoit prendre en payement. Davantage nous
-            parlions aultant amyablement qu'il eust sceu demander, et soiez certain que tout homme
-            craignant Dieu et ayant bonne conscience, eust esté bien satisfaict. Qui plus est ung
-            homme mesme de mauvais cœur, moyennant qu'il eust eu quelque honnesteté et n'eust pas
-            esté du tout effronté, eust eu honte de contredire. Nostre moyne pour toute response
-            nous somma de l'asseurer sur le champ, nonobstant toutes les raisons que nous avions
-            alléguées. Et ce pour deux causes la première c'est qu'il avoit pour lors compaignie qui
-            le pouvoit conduire seurement hors des dangers et luy fournir monture et argent, et
-            qu'il n'auroit point tousjours cette opportunité en main. La seconde que s'il avoit à
-            s'en retourner en <placeName key="France" ref="https://www.wikidata.org/wiki/Q142"
-               corresp="#france">France</placeName>, le plus tost seroit le meilleur, devant que le
-            bruit de sa venue par deçà fust publié.</p>
+         <p>Nous vismes bien par ceste response qu'il ne sçavoit que c'estoit ne de l'Eglise, ne du ministère, et que s'il avoit peu d'intelligence, encores avoit-il moins de cœur et de zèle. Toutes fois l'ayant fait retirer et ayant parlé ensemble entre nous, encores luy fismes-nous une response fort doulce et gracieuse, luy priant qu'il nous pardonnast si nous n'obtempérions point à sa requeste, veu que nos consciences estoient astreintes par la parole de Dieu, et ce qui luy avoit esté dict auparavant luy fust expliqué et con fermé davantage tant par tesmoignages de l'Escripture que les exemples de l'Eglise ancienne. On luy fist aussi des exportations qui le pouvoient bien rompre et réduire à meilleure raison, s'il n'eust esté par trop esgaré et affin qu'il ne luy semblast qu'on ne luy fist point l'honneur qui luy appartenoit, nous luy touschasmes qu'on avoit bien usé de telle forme envers ceulx qui le valoient, et que iceulx s'estoient vouluntiers assubjectis à cela.</p>
 
-         <p>Nous vismes bien par ceste response qu'il ne sçavoit que c'estoit ne de l'Eglise, ne du
-            ministère, et que s'il avoit peu d'intelligence, encores avoit-il moins de cœur et de
-            zèle. Toutes fois l'ayant fait retirer et ayant parlé ensemble entre nous, encores luy
-            fismes-nous une response fort doulce et gracieuse, luy priant qu'il nous pardonnast si
-            nous n'obtempérions point à sa requeste, veu que nos consciences estoient astreintes par
-            la parole de Dieu, et ce qui luy avoit esté dict auparavant luy fust expliqué et con
-            fermé davantage tant par tesmoignages de l'Escripture que les exemples de l'Eglise
-            ancienne. On luy fist aussi des exportations qui le pouvoient bien rompre et réduire à
-            meilleure raison, s'il n'eust esté par trop esgaré et affin qu'il ne luy semblast qu'on
-            ne luy fist point l'honneur qui luy appartenoit, nous luy touschasmes qu'on avoit bien
-            usé de telle forme envers ceulx qui le valoient, et que iceulx s'estoient vouluntiers
-            assubjectis à cela.</p>
+         <p>Luy au lieu de se ranger réplicqua plat et court que si nous pensions avoir l'esprit de Dieu, qu'il n'en estoit pas destitué, et monstra bien que tout ce que nous avions mis en avant, il le prenoit à mocquerie. Nous luy respondismes premièrement qu'en ceste matière nous avions la parole de Dieu tant clère que nos consciences estoient suffisamment asseurées. Et encores que la chose fust doubteuse pu que nous en eussions quelque scrupule, que nostre office estoit de ne rien attenter contre ce que nous penserions estre du vouloir de Dieu. Toutesfois que ce que nous alléguions estoit si cler qu'il n'estoit à mestier d'en faire plus longue dispute. Davantage qu'il se debvoit tenir plus tost pour suspect que nous à pause qu'il ne rendoit que son particulier, et que de nostre part nous n'avions autre considérant, sinon de suivre l'ordre de Dieu. Il nous réplicqua aussi que s'il fust venu devant le caresme, il eust bien souffert d'estre examiné, mais puis qu'il avoit presché en une Eglise si voisine<note n="1" place="bottom"> <p>l'Eglise de <placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">Lyon</placeName></p> </note> qu'on debvoit bien tenir cela pour approbation. Sur ce point nous lui dismes qu'il en advient en <placeName key="France" ref="https://www.wikidata.org/wiki/Q142">France</placeName>, comme dict <persName key="Salomon" ref="https://www.wikidata.org/wiki/Q37085" corresp="#salomon">Salomon</persName>, asçavoir qu'à une âme affamée les choses amères semblent estre doulces, car le pauvre peuple est là tant affamé de la vraye doctrine, que quant on luy en touche ung petit mot, ne fusse qu'à demy, il est tellement ravy et transporté qu'il n'a loisir de juger. Au reste touchant ce qu'il se vantoit d'avoir là presché, nous luy dismes qu'il n'en dressât point les cornes, et que nous sçavions bien en quelle infirmité ce avoit esté. Et toutes fois nous protestasmes que ce n'estoit point par reproche, et que nous ne sommes pas si inhumains que nous ne supportions ceulx qui sont aucunement. infirmes en tel danger, mais que c'estoit pour l'induire à se reconnaître afin qu'il ne s'enorgueillist point en vain, ayant plus de cause de s'humilier. En la fin nous taschasmes de rechef de l'adoucir et lui donner bon courage, et luy de sa part ne fist pas d'autre semblant d'estre irrité.</p>
 
-         <p>Luy au lieu de se ranger réplicqua plat et court que si nous pensions avoir l'esprit de
-            Dieu, qu'il n'en estoit pas destitué, et monstra bien que tout ce que nous avions mis en
-            avant, il le prenoit à mocquerie. Nous luy respondismes premièrement qu'en ceste matière
-            nous avions la parole de Dieu tant clère que nos consciences estoient suffisamment
-            asseurées. Et encores que la chose fust doubteuse pu que nous en eussions quelque
-            scrupule, que nostre office estoit de ne rien attenter contre ce que nous penserions
-            estre du vouloir de Dieu. Toutesfois que ce que nous alléguions estoit si cler qu'il
-            n'estoit à mestier d'en faire plus longue dispute. Davantage qu'il se debvoit tenir plus
-            tost pour suspect que nous à pause qu'il ne rendoit que son particulier, et que de
-            nostre part nous n'avions autre considérant, sinon de suivre l'ordre de Dieu. Il nous
-            réplicqua aussi que s'il fust venu devant le caresme, il eust bien souffert d'estre
-            examiné, mais puis qu'il avoit presché en une Eglise si voisine<note n="1"
-               place="bottom">
-               <p>l'Eglise de <placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456"
-                     corresp="#lyon">Lyon</placeName></p>
-            </note> qu'on debvoit bien
-            tenir cela pour approbation. Sur ce point nous lui dismes qu'il en advient en <placeName
-               key="France" ref="https://www.wikidata.org/wiki/Q142" corresp="#france">France</placeName>,
-            comme dict <persName key="Salomon" ref="#"
-               corresp="#salomon">Salomon</persName>, asçavoir qu'à une âme affamée les choses
-            amères semblent estre doulces, car le pauvre peuple est là tant affamé de la vraye
-            doctrine, que quant on luy en touche ung petit mot, ne fusse qu'à demy, il est tellement
-            ravy et transporté qu'il n'a loisir de juger. Au reste touchant ce qu'il se vantoit
-            d'avoir là presché, nous luy dismes qu'il n'en dressât point les cornes, et que nous
-            sçavions bien en quelle infirmité ce avoit esté. Et toutes fois nous protestasmes que ce
-            n'estoit point par reproche, et que nous ne sommes pas si inhumains que nous ne
-            supportions ceulx qui sont aucunement. infirmes en tel danger, mais que c'estoit pour
-            l'induire à se reconnaître afin qu'il ne s'enorgueillist point en vain, ayant plus de
-            cause de s'humilier. En la fin nous taschasmes de rechef de l'adoucir et lui donner bon
-            courage, et luy de sa part ne fist pas d'autre semblant d'estre irrité.</p>
+         <p>Le lendemain estant en une taverne en grande compagnie en laquelle il y avait environ une dizaine de prêcheurs d'icy alentour, après qu'on eust devisé de quelque matière, sans qu'il fust provoqué ne qu'il en eust occasion, comme s'il eust esté un contrerolleur de tout le monde, il dict qu'il n'y avoit point d'homme sçavant par deçà, et parla encores plus oultrageusement que nous ne disons, et comme la vérité vient tousjours en lumière avec le temps, nous avons esté depuis advertis que du premier jour qu'il estoit entré en ceste ville, il n'avoit cessé de médire maintenant de l'ungou de l'aultre, maintenant de tous, jusques à prononcer que ne trouvoit nul goust ne nulle édification en toutes nos prédications et lectures. Et toutesfois il estoit si effronté que ce pendant il osoit bien venir disner chez nous. Nous voyons bien quelle raison le menoit à cela, c'est que le pauvre homme est si affamé de gloire qu'il brusle tout, et ce pendant nous ne voyons pas qu'il ait rien en quoy il se puisse glorifier. Car quant on aura bien espeluché tout ce qu'il a au ventre, on n'y trouvera que pure asnerie. Il sçait un peu moins en la langue latine qu'un enfant de huit ans ne debvroit faire. En l'Escripture il y est aussi ignorant qu'un caffart, et toutesfois il est si enivré d'ambition qu'il ne se peult tenir sur ses pieds. Nous vous laissons à réciter plusieurs menées qu'il a tenté. Tant y a qu'il n'eust pas tenu à luy de troubler nostre Eglise, si le temps y eust esté disposé. Mais ce n'est pas ung exemple nouveau, car telle manière de gens a eu ses prédécesseurs dès le temps de  <persName key="Paul de Tarse" ref="https://www.wikidata.org/wiki/Q9200" type="forename" corresp="#paul">sainct Paul</persName>, qui, par semblable artifice, c'est à dire en se vantant d'eulx-mesmes et détractant le sainct apostre, troubloient tout pour s'advancer, comme nous pouvons voir aux <title key="Epîtres aux Corinthiens" ref="https://www.wikidata.org/wiki/Q109447302" rend="italic">Epîtres des Corynthiens</title> et des <title key="Epître aux Galates" ref="https://www.wikidata.org/wiki/Q128620" rend="italic">Galates</title>.</p>
+         <p>Sur la fin ce bon preudhomme ayant délibéré en son cœur de s'en partir, vint à l'ung de nous pour se purger, et premièrement se voulant justifier de tout ce qu'il avoit respondu, il luy fut dict que ce seroit son profict de bien considérer le tout devant Dieu pour s'accuser et condemner, et sans estre tant arresté à maintenir son honneur par parole, après l'avoir de fait et d'œuvre ainsi blessé, que s'il persévéroit à contendre ainsi contre raison et vérité, qu'il viendroit à mauvaise fin, d'autant qu'il fault que ceste sentence soit vraye, quiconque s'exalte sera humilié. Touchant de folles paroles qu'il avoit proférées en la taverne, il vouloit estre creu en les niant et que on estimast menteurs tous ceulx qui les avoyent ouyes. Il lui fust respondu qu'il plaidast doncques contre notre Seigneur qui a voulu qu'en la bouche de deux ou trois toute parole fust certaine. Et toutesfois qu'il n'estoit jà mestier de se débatre beaucoup de ce point, d'autant qu'il ne nous chaut pas beaucoup combien on prise et méprise nostre sçavoir, et que nostre principale gloire est d'estre serviteurs de Dieu. Ainsi que nous tenions cela pour une chose ridicule et de néant, mesme pour ce que nous ne luy différons pas tant que de le reconnaître pour juge compétent. Toutesfois que nous apercevions bien en telles paroles que son cœur estoit si enflé et quasi crevé de venin qu'il fust contrainct de le vomir en parlant ainsi, et que ce signe de malveillance nous offensoit, veu que nous ne luy en avions point donné d'occasion. Touchant le troisième poinct il ne peult pas nier qu'il n'eust médit en quelque sorte de nos prédications, combien que il étoit bien difficile qu'il en peult donner certain argument, encores qu'il eust eu sçavoir pour ce faire. Car jà soit qu'il y vint aucune fois par contenance, si est-ce que de peur d'estre veu escouter pour apprendre, il lisoit en ung livre à part, en quoy on peult voir sa folle ambition d'avoir si peur que sa réputation ne diminuast, quant il ne daignoit pas faire cest honneur à la parole de Dieu de luy donner audience.</p>
 
-         <p>Le lendemain estant en une taverne en grande compagnie en laquelle il y avait environ
-            une dizaine de prêcheurs d'icy alentour, après qu'on eust devisé de quelque matière,
-            sans qu'il fust provoqué ne qu'il en eust occasion, comme s'il eust esté un
-            contrerolleur de tout le monde, il dict qu'il n'y avoit point d'homme sçavant par deçà,
-            et parla encores plus oultrageusement que nous ne disons, et comme la vérité vient
-            tousjours en lumière avec le temps, nous avons esté depuis advertis que du premier jour
-            qu'il estoit entré en ceste ville, il n'avoit cessé de médire maintenant de l'ungou de
-            l'aultre, maintenant de tous, jusques à prononcer que ne trouvoit nul goust ne nulle
-            édification en toutes nos prédications et lectures. Et toutesfois il estoit si effronté
-            que ce pendant il osoit bien venir disner chez nous. Nous voyons bien quelle raison le
-            menoit à cela, c'est que le pauvre homme est si affamé de gloire qu'il brusle tout, et
-            ce pendant nous ne voyons pas qu'il ait rien en quoy il se puisse glorifier. Car quant
-            on aura bien espeluché tout ce qu'il a au ventre, on n'y trouvera que pure asnerie. Il
-            sçait un peu moins en la langue latine qu'un enfant de huit ans ne debvroit faire. En
-            l'Escripture il y est aussi ignorant qu'un caffart, et toutesfois il est si enivré
-            d'ambition qu'il ne se peult tenir sur ses pieds. Nous vous laissons à réciter plusieurs
-            menées qu'il a tenté. Tant y a qu'il n'eust pas tenu à luy de troubler nostre Eglise, si
-            le temps y eust esté disposé. Mais ce n'est pas ung exemple nouveau, car telle manière
-            de gens a eu ses prédécesseurs dès le temps de <persName key="Saint Paul"
-               ref="#" corresp="#paul">sainct Paul</persName>, qui, par semblable artifice, c'est à
-            dire en se vantant d'eulx-mesmes et détractant le sainct apostre, troubloient tout pour
-            s'advancer, comme nous pouvons voir aux <title
-               key="Epîtres aux Corinthiens" ref="#"
-               rend="italic">Epîtres des Corynthiens</title> et des <title key="Epître aux Galates"
-               ref="#" rend="italic">Galates</title>. Sur la fin ce bon preudhomme ayant délibéré en
-            son cœur de s'en partir, vint à l'ung de nous pour se purger, et premièrement se voulant
-            justifier de tout ce qu'il avoit respondu, il luy fut dict que ce seroit son profict de
-            bien considérer le tout devant Dieu pour s'accuser et condemner, et sans estre tant
-            arresté à maintenir son honneur par parole, après l'avoir de fait et d'œuvre ainsi
-            blessé, que s'il persévéroit à contendre ainsi contre raison et vérité, qu'il viendroit
-            à mauvaise fin, d'autant qu'il fault que ceste sentence soit vraye, quiconque s'exalte
-            sera humilié. Touchant de folles paroles qu'il avoit proférées en la taverne, il vouloit
-            estre creu en les niant et que on estimast menteurs tous ceulx qui les avoyent ouyes. Il
-            lui fust respondu qu'il plaidast doncques contre notre Seigneur qui a voulu qu'en la
-            bouche de deux ou trois toute parole fust certaine. Et toutesfois qu'il n'estoit jà
-            mestier de se débatre beaucoup de ce point, d'autant qu'il ne nous chaut pas beaucoup
-            combien on prise et méprise nostre sçavoir, et que nostre principale gloire est d'estre
-            serviteurs de Dieu. Ainsi que nous tenions cela pour une chose ridicule et de néant,
-            mesme pour ce que nous ne luy différons pas tant que de le reconnaître pour juge
-            compétent. Toutesfois que nous apercevions bien en telles paroles que son cœur estoit si
-            enflé et quasi crevé de venin qu'il fust contrainct de le vomir en parlant ainsi, et que
-            ce signe de malveillance nous offensoit, veu que nous ne luy en avions point donné
-            d'occasion. Touchant le troisième poinct il ne peult pas nier qu'il n'eust médit en
-            quelque sorte de nos prédications, combien que il étoit bien difficile qu'il en peult
-            donner certain argument, encores qu'il eust eu sçavoir pour ce faire. Car jà soit qu'il
-            y vint aucune fois par contenance, si est-ce que de peur d'estre veu escouter pour
-            apprendre, il lisoit en ung livre à part, en quoy on peult voir sa folle ambition
-            d'avoir si peur que sa réputation ne diminuast, quant il ne daignoit pas faire cest
-            honneur à la parole de Dieu de luy donner audience.</p>
-
-         <p>La fin de ce propos fust que celuy auquel il s'estoit adressé luy dict qu'il feroit
-            assembler ses compagnons pour parler à luy, et comme il luy donna bien à entendre qu'il
-            ne debvoit point craindre que nous voulsissions par vengeance le reculer, non plus que
-            s'il se fust gouverné bien saigement, sur cela il soupa avec ung de nos compaignons, et
-            luy fist acroire qu'il vouloit prendre logis pour s'arrester en ceste ville. Le
-            lendemain matin il monte à cheval, et en montant médit de nous à bride avalée plus que
-            jamais n'avoit fait. S'il a eu juste cause ou non, nous vous le laissons à juger, après
-            avoir leu ce récit que nous vous avons fait, lequel nous protestons devant Dieu estre
-            simplement fait à la vérité, sans y avoir rien adjousté, et prions le Seigneur de vous
-            donner esprit de discrétion pour connaître et droictement juger afin de ne vous point
-            scandaliser de quelque rapport qu'il vous face, car nous n'avons eu autre intention en
-            écrivant ces lettres, sinon de vous contenter comme nostre devoir est, afin qu'il ne
-            vous semblast que nous eussions esté trop inhumains envers luy. Car à la vérité pource
-            qu'il avoit pleu au Seigneur de se servir par delà de ses prédications, et que quelque
-            édification s'en estoit en suyvie, nostre vouloir et désir totalement estoit de ne le
-            point rejecter. Mais nostre conscience ne nous permectoit point de le recevoir
-            incontinent, jusques à ce que son orgueil fust ung peu abbatu, qu'il eust apris de se
-            fier ung peu plus en Dieu, et qu'il eust encore profité ung petit pour enseigner
-            fidèlement et purement, car il avoit trois choses lesquelles à bon droict nous
-            desplaisoient. Premièrement ceste bonne persuasion de soy-mesme. Secondement qu'il
-            estoit si adonné à la cuisine qu'il luy sembloit advis que terre luy devoit faillir,
-            comme s'il n'y avoit point de Dieu au ciel pour nourrir les siens. Troisièmement il y
-            avoit de l'ignorance dont nous fusmes fort esbahis, car en nostre congrégation où on
-            lisoit ung texte de <persName key="Saint Paul" ref="#" corresp="#paul">sainct Paul</persName>
-            qui contient belle matière et copieuse, et doibt estre fort connu à tous ceulx qui
-            preschent par delà, pource que c'est l'épître du premier dimenche de l'advant, quant il
-            vint à son tour, nonseulement il parla maigrement, mais il renversa tout ce que <persName
-               key="Saint Paul"
-               ref="#" corresp="#paul">sainct Paul</persName> disoit, non point par malice, comme
-            nous pensons, mais par pure bestise. Nous laissons d'aultres vices, comme la vanité
-            mondaine et semblables, afin qu'il ne semble que nous le poursuivions par haine et
-            inimitié; Ce que nous vous en disons, ç'est pour vous advertir de peur que vous ne soyez
-            abusez à vostre dommage. Quant est de luy, nous prions le Seigneur qu'il lui vueille
-            donner esprit d'humiliation et de mansuétude, corrigeant la haultesse et folle
-            présomption qu'il a, et surtout qu'il se' reconnaisse tel qu'il est, car lors il aura
-            bien occasion de s'abbatre. Pour faire fin, très chers frères, nous vous recommanderons
-            à la saincte sauvegarde de nostre Seigneur <persName>Jésus</persName> qui est le vray
-            pasteur de tous fidèles. </p>
+         <p>La fin de ce propos fust que celuy auquel il s'estoit adressé luy dict qu'il feroit assembler ses compagnons pour parler à luy, et comme il luy donna bien à entendre qu'il ne debvoit point craindre que nous voulsissions par vengeance le reculer, non plus que s'il se fust gouverné bien saigement, sur cela il soupa avec ung de nos compaignons, et luy fist acroire qu'il vouloit prendre logis pour s'arrester en ceste ville. Le lendemain matin il monte à cheval, et en montant médit de nous à bride avalée plus que jamais n'avoit fait. S'il a eu juste cause ou non, nous vous le laissons à juger, après avoir leu ce récit que nous vous avons fait, lequel nous protestons devant Dieu estre simplement fait à la vérité, sans y avoir rien adjousté, et prions le Seigneur de vous donner esprit de discrétion pour connaître et droictement juger afin de ne vous point scandaliser de quelque rapport qu'il vous face, car nous n'avons eu autre intention en écrivant ces lettres, sinon de vous contenter comme nostre devoir est, afin qu'il ne vous semblast que nous eussions esté trop inhumains envers luy. Car à la vérité pource qu'il avoit pleu au Seigneur de se servir par delà de ses prédications, et que quelque édification s'en estoit en suyvie, nostre vouloir et désir totalement estoit de ne le point rejecter. Mais nostre conscience ne nous permectoit point de le recevoir incontinent, jusques à ce que son orgueil fust ung peu abbatu, qu'il eust apris de se fier ung peu plus en Dieu, et qu'il eust encore profité ung petit pour enseigner fidèlement et purement, car il avoit trois choses lesquelles à bon droict nous desplaisoient. Premièrement ceste bonne persuasion de soy-mesme. Secondement qu'il estoit si adonné à la cuisine qu'il luy sembloit advis que terre luy devoit faillir, comme s'il n'y avoit point de Dieu au ciel pour nourrir les siens. Troisièmement il y avoit de l'ignorance dont nous fusmes fort esbahis, car en nostre congrégation où on lisoit ung texte de  <persName key="Paul de Tarse" ref="https://www.wikidata.org/wiki/Q9200" type="forename" corresp="#paul">sainct Paul</persName> qui contient belle matière et copieuse, et doibt estre fort connu à tous ceulx qui preschent par delà, pource que c'est l'épître du premier dimenche de l'advant, quant il vint à son tour, nonseulement il parla maigrement, mais il renversa tout ce que  <persName key="Paul de Tarse" ref="https://www.wikidata.org/wiki/Q9200" type="forename" corresp="#paul">sainct Paul</persName> disoit, non point par malice, comme nous pensons, mais par pure bestise. Nous laissons d'aultres vices, comme la vanité mondaine et semblables, afin qu'il ne semble que nous le poursuivions par haine et inimitié. Ce que nous vous en disons, ç'est pour vous advertir de peur que vous ne soyez abusez à vostre dommage. Quant est de luy, nous prions le Seigneur qu'il lui vueille donner esprit d'humiliation et de mansuétude, corrigeant la haultesse et folle présomption qu'il a, et surtout qu'il se' reconnaisse tel qu'il est, car lors il aura bien occasion de s'abbatre. Pour faire fin, très chers frères, nous vous recommanderons à la saincte sauvegarde de nostre Seigneur Jésus qui est le vray pasteur de tous fidèles. </p>
          <closer>
-            <dateline>De <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71"
-                  corresp="#geneve">Villefranche</placeName> <date when="1542-05-01">(may 1542)</date>
-               . </dateline>
+            <dateline>De <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Villefranche</placeName><note n="2" place="bottom"><p>Genève</p></note> <date when="1542-05-01">(may 1542)</date>. </dateline>
             <salute></salute>
             <signed>
                <persName key="Jean Calvin" ref="https://www.wikidata.org/wiki/Q37552"

@@ -15,7 +15,7 @@ text = open("ToProcess.txt", "r").read()
 
 response = client.models.generate_content(
     model='gemini-2.5-flash', contents=f"En prenant le modèle d'encodage TEI dans {template}, prends le texte océrisé dans {text} et fais l'encodage TEI du text océrisé en suivant le modèle fourni. Produis le contenu dans un fichier XML-TEI.")
-with open("input/1538_10_20_LouisTillet.xml", "w", encoding="utf8") as outfile:
+with open("input/1545_08_05_MFallais.xml", "w", encoding="utf8") as outfile:
     outfile.write(response.text) #change name of file following the model => 1538_10_20_NomDestinataire.xml
 
 #####

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../src/lib/odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="M_Falai_fin_43">
 <teiHeader>
 <fileDesc>
@@ -34,8 +34,8 @@
      <pubPlace>Paris</pubPlace>,
 <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
 <date when="1854">1854</date>.
-<p>Provenance : Bibliothèque nationale de France</p>
-<facsimile xml:id="136-138">
+<affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+<facsimile corresp="136-138">
 <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f136/info.json"/>
 <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f137/info.json"/>
 <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f138/info.json"/>
@@ -72,16 +72,16 @@
   <name type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Monsieur de Fallais</name>
   <settlement cert="low" key="Fallais" ref="https://www.wikidata.org/wiki/Q1575050" corresp="#Fallais">[Fallais]</settlement>
  </correspAction>
- <correspContext>
-  <ref type="prev"
-   target=""><persName></persName>
-  <date from="" to=""></date>
-  </ref>
-  <ref type="next"
-   target=""><persName></persName>
-  <date when=""></date>
-  </ref>
- </correspContext>
+        <correspContext>
+          <ref type="prev" target="#">
+            <persName/>
+            <date from="1500" to="1600"/>
+          </ref>
+          <ref type="next" target="#">
+            <persName/>
+            <date/>
+          </ref>
+        </correspContext>
  </correspDesc>
  <desc>Lettre de Calvin à Monsieur de Fallais où Calvin encourage à nouveau ce dernier à quitter son pays en raison de ses croyances religieuses.</desc>
  <list xml:id="tags">
