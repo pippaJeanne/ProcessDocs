@@ -70,7 +70,7 @@
                      "Renata de Francia": "https://www.wikidata.org/wiki/Q235841",
                      "Luis XII": "https://www.wikidata.org/wiki/Q58514",
                      "Ana de Bretaña": "https://www.wikidata.org/wiki/Q201143",
-                     "Hércules II de Este": "https://www.wikidata.org/wiki/Q38370",
+                     "Hércules II de Este": "https://www.wikidata.org/wiki/Q1348702",
                      "Margarita de Angulema": "https://www.wikidata.org/wiki/Q190058",
                      "Clément Marot": "https://www.wikidata.org/wiki/Q108926",
                      "François": "#",
@@ -93,7 +93,7 @@
                      "Soubise": "https://www.wikidata.org/wiki/Q816315"
               }
        },
-       "output/VF/es/1542_05_Al_senor_cura.xml.xml": {
+       "output/VF/es/1542_05_Al_senor_cura.xml": {
               "persons": {
                      "Párroco anónimo": "#",
                      "Sebastián Castellion": "https://www.wikidata.org/wiki/Q919119",
@@ -187,6 +187,7 @@
        "output/VF/es/1552_SrDeFalais.xml": {
               "persons": {
                      "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "Jérôme-Hermès Bolsec": "https://www.wikidata.org/wiki/Q677639",
                      "Galeazzo Caraccioli": "https://www.wikidata.org/wiki/Q869836",
                      "Sebastián Castellion": "https://www.wikidata.org/wiki/Q919119",
                      "Yolande de Brederode": "https://www.wikidata.org/wiki/Q56000839",

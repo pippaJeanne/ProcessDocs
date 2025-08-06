@@ -1,75 +1,18 @@
 {
        "persons": [
               {
-                     "name": "Curé anonyme",
-                     "wikiurl": "",
-                     "thumbnail": "",
-                     "desc": "",
+                     "name": "Renée de France (1510 - 1574)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q235841",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Renee%20de%20france.jpg",
+                     "desc": "aristocrate française",
                      "letters": [
-                            {
-                                   "slug": "1542_05_M_le_curéX",
-                                   "date": "[mai 1542]",
-                                   "headline": "Monsieur le curé"
-                            }
-                     ],
-                     "id": "#cure"
-              },
-              {
-                     "name": "Consistoire de Neuchâtel",
-                     "wikiurl": "http://www.wikidata.org/entity/Q131694038",
-                     "thumbnail": "",
-                     "desc": "Conseil ecclésiastique du canton de Neuchâtel du XVIe au XVIIIe siècle",
-                     "letters": [
-                            {
-                                   "slug": "1541_09_29_SeigneursNeuchatel",
-                                   "date": " 29 septembre 1541",
-                                   "headline": "Seigneurs de Neuchâtel"
-                            }
-                     ],
-                     "id": "#conseil-neuchatel"
-              },
-              {
-                     "name": "Louis du Tillet",
-                     "wikiurl": "http://www.wikidata.org/entity/Q3263586",
-                     "thumbnail": "",
-                     "desc": "prêtre catholique français",
-                     "letters": [
-                            {
-                                   "slug": "1538_01_LouisduTillet",
-                                   "date": "31 janvier 1538",
-                                   "headline": "Louis du Tillet"
-                            },
-                            {
-                                   "slug": "1538_07_10_LuoisDuTillets",
-                                   "date": "10 juillet 1538",
-                                   "headline": "Louis du Tillet"
-                            }
-                     ],
-                     "id": "#louis-tilletz"
-              },
-              {
-                     "name": "Wolfgang Fabricius Köpfel Capiton (1478 - 1541)",
-                     "wikiurl": "http://www.wikidata.org/entity/Q1368362",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/WolfgangCapito.jpg",
-                     "desc": "réformateur et théologien alsacien (1478-1541)",
-                     "letters": [
-                            {
-                                   "slug": "1538_01_LouisduTillet",
-                                   "date": "31 janvier 1538",
-                                   "headline": "Louis du Tillet"
-                            },
-                            {
-                                   "slug": "1538_07_10_LuoisDuTillets",
-                                   "date": "10 juillet 1538",
-                                   "headline": "Louis du Tillet"
-                            },
                             {
                                    "slug": "1541_10_DuchesseFerrare",
                                    "date": "[octobre 1541]",
                                    "headline": "Duchesse de Ferrare"
                             }
                      ],
-                     "id": "#capiton"
+                     "id": "#renee-de-france"
               },
               {
                      "name": "Martin Bucer (1491 - 1551)",
@@ -91,10 +34,10 @@
                      "id": "#bucer"
               },
               {
-                     "name": "Jean du Tillet",
-                     "wikiurl": "http://www.wikidata.org/entity/Q3175826",
+                     "name": "Louis du Tillet",
+                     "wikiurl": "http://www.wikidata.org/entity/Q3263586",
                      "thumbnail": "",
-                     "desc": "Évêque de Saint-Brieuc et Meaux",
+                     "desc": "prêtre catholique français",
                      "letters": [
                             {
                                    "slug": "1538_01_LouisduTillet",
@@ -107,121 +50,7 @@
                                    "headline": "Louis du Tillet"
                             }
                      ],
-                     "id": "#jehan"
-              },
-              {
-                     "name": "Guillaume Farel (1489 - 1565)",
-                     "wikiurl": "http://www.wikidata.org/entity/Q435456",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/William-Farel.jpg",
-                     "desc": "réformateur d'origine dauphinoise en Suisse romande",
-                     "letters": [
-                            {
-                                   "slug": "1538_01_LouisduTillet",
-                                   "date": "31 janvier 1538",
-                                   "headline": "Louis du Tillet"
-                            },
-                            {
-                                   "slug": "1541_09_29_SeigneursNeuchatel",
-                                   "date": " 29 septembre 1541",
-                                   "headline": "Seigneurs de Neuchâtel"
-                            }
-                     ],
-                     "id": "#farel"
-              },
-              {
-                     "name": "Renée de France (1510 - 1574)",
-                     "wikiurl": "http://www.wikidata.org/entity/Q235841",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Renee%20de%20france.jpg",
-                     "desc": "aristocrate française",
-                     "letters": [
-                            {
-                                   "slug": "1541_10_DuchesseFerrare",
-                                   "date": "[octobre 1541]",
-                                   "headline": "Duchesse de Ferrare"
-                            }
-                     ],
-                     "id": "#renee-de-france"
-              },
-              {
-                     "name": "Sébastien Castellion (1515 - 1563)",
-                     "wikiurl": "http://www.wikidata.org/entity/Q919119",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/SebastianCastellio.jpg",
-                     "desc": "Humaniste, bibliste et théologien protestant français",
-                     "letters": [
-                            {
-                                   "slug": "1542_05_M_le_curéX",
-                                   "date": "[mai 1542]",
-                                   "headline": "Monsieur le curé"
-                            },
-                            {
-                                   "slug": "1552_Monsieur-deFalais",
-                                   "date": "[1552]",
-                                   "headline": "Monsieur de Fallais"
-                            }
-                     ],
-                     "id": "#castalion"
-              },
-              {
-                     "name": "Consistoire de Genève",
-                     "wikiurl": "http://www.wikidata.org/entity/Q2994627",
-                     "thumbnail": "",
-                     "desc": "Conseil ecclésiastique suisse du XVIe, XVIIe et XVIIIe siècles",
-                     "letters": [
-                            {
-                                   "slug": "1541_02_19_SeigneursGeneve",
-                                   "date": " 19 février 1541",
-                                   "headline": "Seigneurs de Genève"
-                            },
-                            {
-                                   "slug": "1542_05_M_le_curéX",
-                                   "date": "[mai 1542]",
-                                   "headline": "Monsieur le curé"
-                            },
-                            {
-                                   "slug": "1552_10_06_SeigeursDeGeneve",
-                                   "date": "[6 octobre 1552]",
-                                   "headline": "Seigneurs de Genève"
-                            }
-                     ],
-                     "id": "#conseil-geneve"
-              },
-              {
-                     "name": "Pierre Viret (1511 - 1571)",
-                     "wikiurl": "http://www.wikidata.org/entity/Q123337",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/PierreViret.jpg",
-                     "desc": "Réformateur vaudois",
-                     "letters": [
-                            {
-                                   "slug": "1541_02_19_SeigneursGeneve",
-                                   "date": " 19 février 1541",
-                                   "headline": "Seigneurs de Genève"
-                            },
-                            {
-                                   "slug": "1541_09_29_SeigneursNeuchatel",
-                                   "date": " 29 septembre 1541",
-                                   "headline": "Seigneurs de Neuchâtel"
-                            },
-                            {
-                                   "slug": "1542_05_M_le_curéX",
-                                   "date": "[mai 1542]",
-                                   "headline": "Monsieur le curé"
-                            }
-                     ],
-                     "id": "#pierre"
-              },
-              {
-                     "name": "Anne de Parthenay",
-                     "wikiurl": "http://www.wikidata.org/entity/Q99539414",
-                     "thumbnail": "",
-                     "desc": "aristocrate française et érudite qui a été associée à Calvin, dame de compagnie de la duchesse d'Este",
-                     "letters": [
-                            {
-                                   "slug": "1541_10_DuchesseFerrare",
-                                   "date": "[octobre 1541]",
-                                   "headline": "Duchesse de Ferrare"
-                            }
-                     ],
-                     "id": "#annePartenay"
+                     "id": "#louis-tilletz"
               },
               {
                      "name": "Charles d'Espeville",
@@ -268,18 +97,189 @@
                      "id": "#espeville"
               },
               {
-                     "name": "Marie ( - 0100)",
-                     "wikiurl": "http://www.wikidata.org/entity/Q345",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Duccio%20The-Madonna-and-Child-128.jpg",
-                     "desc": "mère de Jésus de Nazareth",
+                     "name": "Consistoire de Genève",
+                     "wikiurl": "http://www.wikidata.org/entity/Q2994627",
+                     "thumbnail": "",
+                     "desc": "Conseil ecclésiastique suisse du XVIe, XVIIe et XVIIIe siècles",
                      "letters": [
                             {
-                                   "slug": "1542_05_M_le_curéX",
+                                   "slug": "1541_02_19_SeigneursGeneve",
+                                   "date": " 19 février 1541",
+                                   "headline": "Seigneurs de Genève"
+                            },
+                            {
+                                   "slug": "1542_05_M_le_cureX",
+                                   "date": "[mai 1542]",
+                                   "headline": "Monsieur le curé"
+                            },
+                            {
+                                   "slug": "1552_10_06_SeigeursDeGeneve",
+                                   "date": "6 octobre 1552",
+                                   "headline": "Seigneurs de Genève"
+                            }
+                     ],
+                     "id": "#conseil-geneve"
+              },
+              {
+                     "name": "Consistoire de Neuchâtel",
+                     "wikiurl": "http://www.wikidata.org/entity/Q131694038",
+                     "thumbnail": "",
+                     "desc": "Conseil ecclésiastique du canton de Neuchâtel du XVIe au XVIIIe siècle",
+                     "letters": [
+                            {
+                                   "slug": "1541_09_29_SeigneursNeuchatel",
+                                   "date": " 29 septembre 1541",
+                                   "headline": "Seigneurs de Neuchâtel"
+                            }
+                     ],
+                     "id": "#conseil-neuchatel"
+              },
+              {
+                     "name": "Wolfgang Fabricius Köpfel Capiton (1478 - 1541)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q1368362",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/WolfgangCapito.jpg",
+                     "desc": "réformateur et théologien alsacien (1478-1541)",
+                     "letters": [
+                            {
+                                   "slug": "1538_01_LouisduTillet",
+                                   "date": "31 janvier 1538",
+                                   "headline": "Louis du Tillet"
+                            },
+                            {
+                                   "slug": "1538_07_10_LuoisDuTillets",
+                                   "date": "10 juillet 1538",
+                                   "headline": "Louis du Tillet"
+                            },
+                            {
+                                   "slug": "1541_10_DuchesseFerrare",
+                                   "date": "[octobre 1541]",
+                                   "headline": "Duchesse de Ferrare"
+                            }
+                     ],
+                     "id": "#capiton"
+              },
+              {
+                     "name": "Sébastien Castellion (1515 - 1563)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q919119",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/SebastianCastellio.jpg",
+                     "desc": "Humaniste, bibliste et théologien protestant français",
+                     "letters": [
+                            {
+                                   "slug": "1542_05_M_le_cureX",
+                                   "date": "[mai 1542]",
+                                   "headline": "Monsieur le curé"
+                            },
+                            {
+                                   "slug": "1552_Monsieur-deFalais",
+                                   "date": "[1552]",
+                                   "headline": "Monsieur de Fallais"
+                            }
+                     ],
+                     "id": "#castalion"
+              },
+              {
+                     "name": "Anne de Parthenay",
+                     "wikiurl": "http://www.wikidata.org/entity/Q99539414",
+                     "thumbnail": "",
+                     "desc": "aristocrate française et érudite qui a été associée à Calvin, dame de compagnie de la duchesse d'Este",
+                     "letters": [
+                            {
+                                   "slug": "1541_10_DuchesseFerrare",
+                                   "date": "[octobre 1541]",
+                                   "headline": "Duchesse de Ferrare"
+                            }
+                     ],
+                     "id": "#annePartenay"
+              },
+              {
+                     "name": "Pierre Viret (1511 - 1571)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q123337",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/PierreViret.jpg",
+                     "desc": "Réformateur vaudois",
+                     "letters": [
+                            {
+                                   "slug": "1541_02_19_SeigneursGeneve",
+                                   "date": " 19 février 1541",
+                                   "headline": "Seigneurs de Genève"
+                            },
+                            {
+                                   "slug": "1541_09_29_SeigneursNeuchatel",
+                                   "date": " 29 septembre 1541",
+                                   "headline": "Seigneurs de Neuchâtel"
+                            },
+                            {
+                                   "slug": "1542_05_M_le_cureX",
                                    "date": "[mai 1542]",
                                    "headline": "Monsieur le curé"
                             }
                      ],
-                     "id": "#vierge_marie"
+                     "id": "#pierre"
+              },
+              {
+                     "name": "Guillaume Farel (1489 - 1565)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q435456",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Guillielmus%20Farellus%20%28BM%201874%2C1212.456%29.jpg",
+                     "desc": "réformateur d'origine dauphinoise en Suisse romande",
+                     "letters": [
+                            {
+                                   "slug": "1538_01_LouisduTillet",
+                                   "date": "31 janvier 1538",
+                                   "headline": "Louis du Tillet"
+                            },
+                            {
+                                   "slug": "1541_09_29_SeigneursNeuchatel",
+                                   "date": " 29 septembre 1541",
+                                   "headline": "Seigneurs de Neuchâtel"
+                            }
+                     ],
+                     "id": "#farel"
+              },
+              {
+                     "name": "Jean du Tillet",
+                     "wikiurl": "http://www.wikidata.org/entity/Q3175826",
+                     "thumbnail": "",
+                     "desc": "Évêque de Saint-Brieuc et Meaux",
+                     "letters": [
+                            {
+                                   "slug": "1538_01_LouisduTillet",
+                                   "date": "31 janvier 1538",
+                                   "headline": "Louis du Tillet"
+                            },
+                            {
+                                   "slug": "1538_07_10_LuoisDuTillets",
+                                   "date": "10 juillet 1538",
+                                   "headline": "Louis du Tillet"
+                            }
+                     ],
+                     "id": "#jehan"
+              },
+              {
+                     "name": "Édouard VI d'Angleterre (1537 - 1553)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q83229",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20VI%20of%20England%20c.%201546.jpg",
+                     "desc": "roi d'Angleterre de 1547 à 1553",
+                     "letters": [
+                            {
+                                   "slug": "1553_03_12_RoiDAngleterre",
+                                   "date": "12 de mars 1553",
+                                   "headline": "roi d'Angleterre"
+                            }
+                     ],
+                     "id": "#edouard-VI"
+              },
+              {
+                     "name": "Paul de Tarse (0005 - 0066)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q9200",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Francesco%20Barbieri%20-%20Saint%20Paul.jpg",
+                     "desc": "apôtre et missionnaire des premiers chrétiens (vers 5 après J.-C. – vers 64/65)",
+                     "letters": [
+                            {
+                                   "slug": "1542_05_M_le_cureX",
+                                   "date": "[mai 1542]",
+                                   "headline": "Monsieur le curé"
+                            }
+                     ],
+                     "id": "#paul"
               },
               {
                      "name": "Yolande de Brederode",
@@ -306,27 +306,13 @@
                      "id": "#jolande_brederode"
               },
               {
-                     "name": "Jérémie ( - )",
-                     "wikiurl": "http://www.wikidata.org/entity/Q158825",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo%20Buonarroti%20027%20detalle.jpg",
-                     "desc": "prophète du Tanakh dans l'hébraïque ou de l'Ancien Testament pour les chrétiens",
-                     "letters": [
-                            {
-                                   "slug": "1542_05_M_le_curéX",
-                                   "date": "[mai 1542]",
-                                   "headline": "Monsieur le curé"
-                            }
-                     ],
-                     "id": "#jeremie"
-              },
-              {
                      "name": "Pierre (0000 - 0065)",
                      "wikiurl": "http://www.wikidata.org/entity/Q33923",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Pope-peter%20pprubens.jpg",
                      "desc": "apôtre du Christ et premier pape de l'Église catholique",
                      "letters": [
                             {
-                                   "slug": "1542_05_M_le_curéX",
+                                   "slug": "1542_05_M_le_cureX",
                                    "date": "[mai 1542]",
                                    "headline": "Monsieur le curé"
                             }
@@ -334,32 +320,46 @@
                      "id": "#pierre"
               },
               {
-                     "name": "Lactance (0240 - 0320)",
-                     "wikiurl": "http://www.wikidata.org/entity/Q209102",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Lactantius.jpg",
-                     "desc": "rhéteur et apologète chrétien",
+                     "name": "Roberte Le Lyeur",
+                     "wikiurl": "http://www.wikidata.org/entity/Q108743308",
+                     "thumbnail": "",
+                     "desc": "épouse de Guillaume Budé",
                      "letters": [
                             {
-                                   "slug": "1542_05_M_le_curéX",
+                                   "slug": "1546_01_20_MadameDEBude",
+                                   "date": "[20 ** 1546]",
+                                   "headline": "Madame de Budé"
+                            }
+                     ],
+                     "id": "#madame-bude"
+              },
+              {
+                     "name": "Augustin d’Hippone (0354 - 0430)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q8018",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Augustine%20Lateran.jpg",
+                     "desc": "théologien, philosophe chrétien et évêque d’Afrique du Nord, saint et docteur de l’Église catholique",
+                     "letters": [
+                            {
+                                   "slug": "1542_05_M_le_cureX",
                                    "date": "[mai 1542]",
                                    "headline": "Monsieur le curé"
                             }
                      ],
-                     "id": "#lactance"
+                     "id": "#saint_augustin"
               },
               {
-                     "name": "Édouard VI d'Angleterre (1537 - 1553)",
-                     "wikiurl": "http://www.wikidata.org/entity/Q83229",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20VI%20of%20England%20c.%201546.jpg",
-                     "desc": "roi d'Angleterre de 1547 à 1553",
+                     "name": "Philippe Mélanchthon (1497 - 1560)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q76325",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg",
+                     "desc": "Humaniste, philosophe et réformateur protestant allemand",
                      "letters": [
                             {
-                                   "slug": "1553_03_12_RoiDAngleterre",
-                                   "date": "12 de mars 1553",
-                                   "headline": "roi d'Angleterre"
+                                   "slug": "1552_10_06_SeigeursDeGeneve",
+                                   "date": "6 octobre 1552",
+                                   "headline": "Seigneurs de Genève"
                             }
                      ],
-                     "id": "#edouard-VI"
+                     "id": "#melanchthon"
               },
               {
                      "name": "Antoine de Bourbon (1518 - 1562)",
@@ -376,46 +376,46 @@
                      "id": "#vendome"
               },
               {
-                     "name": "Philippe Mélanchthon (1497 - 1560)",
-                     "wikiurl": "http://www.wikidata.org/entity/Q76325",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg",
-                     "desc": "Humaniste, philosophe et réformateur protestant allemand",
+                     "name": "Lactance (0240 - 0320)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q209102",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Lactantius.jpg",
+                     "desc": "rhéteur et apologète chrétien",
                      "letters": [
                             {
-                                   "slug": "1552_10_06_SeigeursDeGeneve",
-                                   "date": "[6 octobre 1552]",
-                                   "headline": "Seigneurs de Genève"
-                            }
-                     ],
-                     "id": "#melanchthon"
-              },
-              {
-                     "name": "Augustin d’Hippone (0354 - 0430)",
-                     "wikiurl": "http://www.wikidata.org/entity/Q8018",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Augustine%20Lateran.jpg",
-                     "desc": "théologien, philosophe chrétien et évêque d’Afrique du Nord, saint et docteur de l’Église catholique",
-                     "letters": [
-                            {
-                                   "slug": "1542_05_M_le_curéX",
+                                   "slug": "1542_05_M_le_cureX",
                                    "date": "[mai 1542]",
                                    "headline": "Monsieur le curé"
                             }
                      ],
-                     "id": "#saint_augustin"
+                     "id": "#lactance"
               },
               {
-                     "name": "Paul de Tarse (0005 - 0066)",
-                     "wikiurl": "http://www.wikidata.org/entity/Q9200",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Francesco%20Barbieri%20-%20Saint%20Paul.jpg",
-                     "desc": "apôtre et missionnaire des premiers chrétiens (vers 5 après J.-C. – vers 64/65)",
+                     "name": "Jérémie ( - )",
+                     "wikiurl": "http://www.wikidata.org/entity/Q158825",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo%20Buonarroti%20027%20detalle.jpg",
+                     "desc": "prophète du Tanakh dans l'hébraïque ou de l'Ancien Testament pour les chrétiens",
                      "letters": [
                             {
-                                   "slug": "1542_05_M_le_curéX",
+                                   "slug": "1542_05_M_le_cureX",
                                    "date": "[mai 1542]",
                                    "headline": "Monsieur le curé"
                             }
                      ],
-                     "id": "#paul"
+                     "id": "#jeremie"
+              },
+              {
+                     "name": "Jérome-Hermès Bolsec",
+                     "wikiurl": "http://www.wikidata.org/entity/Q677639",
+                     "thumbnail": "",
+                     "desc": "troisième épouse de Henri VIII, reine consort d'Angleterre de 1536 à 1537",
+                     "letters": [
+                            {
+                                   "slug": "1552_Monsieur-deFalais",
+                                   "date": "[1552]",
+                                   "headline": "Monsieur de Fallais"
+                            }
+                     ],
+                     "id": "#bolsec"
               },
               {
                      "name": "Jacques de Bourgogne",
@@ -442,32 +442,32 @@
                      "id": "#jacques-bourgogne"
               },
               {
-                     "name": "Roberte Le Lyeur",
-                     "wikiurl": "http://www.wikidata.org/entity/Q108743308",
-                     "thumbnail": "",
-                     "desc": "épouse de Guillaume Budé",
-                     "letters": [
-                            {
-                                   "slug": "1546_01_20_MadameDEBude",
-                                   "date": "[20 ** 1546]",
-                                   "headline": "Madame de Budé"
-                            }
-                     ],
-                     "id": "#madame-bude"
-              },
-              {
                      "name": "Marie ( - 0048)",
                      "wikiurl": "http://www.wikidata.org/entity/Q345",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Duccio%20The-Madonna-and-Child-128.jpg",
                      "desc": "mère de Jésus de Nazareth",
                      "letters": [
                             {
-                                   "slug": "1542_05_M_le_curéX",
+                                   "slug": "1542_05_M_le_cureX",
                                    "date": "[mai 1542]",
                                    "headline": "Monsieur le curé"
                             }
                      ],
                      "id": "#vierge_marie"
+              },
+              {
+                     "name": "Augustin d’Hippone (0354 - 0430)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q8018",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Cappella%20Palatina%20%28Palermo%29%2016%2007%202019%2014.jpg",
+                     "desc": "théologien, philosophe chrétien et évêque d’Afrique du Nord, saint et docteur de l’Église catholique",
+                     "letters": [
+                            {
+                                   "slug": "1542_05_M_le_cureX",
+                                   "date": "[mai 1542]",
+                                   "headline": "Monsieur le curé"
+                            }
+                     ],
+                     "id": "#saint_augustin"
               }
        ]
 }

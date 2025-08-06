@@ -3,7 +3,7 @@ import json
 from os import listdir # install the "listdir" package (pip install dirlist)
 from os.path import isfile, join
 files =[]
-dir = "output/VF/es"
+dir = "output/VF"
 for file in listdir(dir): 
     if isfile(join(dir, file)):
         files.append(dir + "/" + file)
@@ -75,6 +75,6 @@ def compile():
 jsonfile = compile()
 print(jsonfile)
 json_obj = json.dumps(jsonfile, indent=7, ensure_ascii = False)
-with open("data_json/wikiIds_es.json", "w") as outfile:
+with open("data_json/wikiIds.json", "w") as outfile:
     outfile.write(json_obj)
     print("Done!")

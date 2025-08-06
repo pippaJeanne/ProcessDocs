@@ -4,7 +4,7 @@ from saxonche import PySaxonProcessor
 inputpath = "input/"
 xsltfile = "Modernisation/modernisation.xslt" #path to xslt file
 outpath = "output/"
-doc = "input/0M-Falais24_06_44.xml" #path to input xml file
+doc = "input/1538_10_20_LouisTillet.xml" #path to input xml file
 slices = doc.split("/")
 name = slices[-1]
 # Create a Saxon processor instance

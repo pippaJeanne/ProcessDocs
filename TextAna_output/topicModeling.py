@@ -28,7 +28,7 @@ import json
 more_stopwords = ["tel", "telle", "tels", "telles", "tant", "d'un", "d'une", "c'est", "qu'il", "qu'elle", "afin", "est-ce", "qu'est-ce'"]
 stopword.extend(more_stopwords)
 
-file = open("Translations_txt/1542_05_M_le_curéX.txt", encoding="utf-8")
+file = open("Translations_txt/1538_10_20_LouisTillet.txt", encoding="utf-8")
 text = file.read()
 list_of_text = text.split("\n")
 
@@ -200,7 +200,7 @@ def viz_embs():
     plt.show()
 viz_embs()
 
-# Scatterplot of embeddings with PCA (Pricipal Component Analysis) ^^Better in some ways^^
+# Scatterplot of embeddings with PCA (Pricipal Component Analysis) ^^Better in some ways^^ : Clearer and cleaner clusters
 pca = PCA(n_components=2)
 coords = pca.fit_transform(embeddings0)
 
@@ -230,7 +230,7 @@ axes = ["<—>".join(axis) for axis in filtered_corr.axes[0]]
 print(len(axes))
 
 vals = filtered_corr.values
-
+print(vals)
 
 
 

@@ -72,7 +72,7 @@
                      "Renée de France": "https://www.wikidata.org/wiki/Q235841",
                      "Louis XII": "https://www.wikidata.org/wiki/Q58514",
                      "Anne de Bretagne": "https://www.wikidata.org/wiki/Q201143",
-                     "Hercule II d'Este": "https://www.wikidata.org/wiki/Q38370",
+                     "Hercule II d'Este": "https://www.wikidata.org/wiki/Q1348702",
                      "Marguerite de Valois-Angoulême": "https://www.wikidata.org/wiki/Q190058",
                      "Clément Marot": "https://www.wikidata.org/wiki/Q108926",
                      "Anne de Parthenay": "https://www.wikidata.org/wiki/Q99539414",
@@ -96,7 +96,7 @@
                      "Marennes": "https://www.wikidata.org/wiki/Q3290413"
               }
        },
-       "output/VF/1542_05_M_le_curéX.xml": {
+       "output/VF/1542_05_M_le_cureX.xml": {
               "persons": {
                      "Curé anonyme": "#",
                      "Sébastien Castellion": "https://www.wikidata.org/wiki/Q919119",
@@ -190,6 +190,7 @@
        "output/VF/1552_Monsieur-deFalais.xml": {
               "persons": {
                      "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "Jérome-Hermès Bolsec": "https://www.wikidata.org/wiki/Q677639",
                      "Galeazzo Caracciolo": "https://www.wikidata.org/wiki/Q869836",
                      "Sébastien Castellion": "https://www.wikidata.org/wiki/Q919119",
                      "Yolande de Brederode": "https://www.wikidata.org/wiki/Q56000839",

@@ -4,7 +4,7 @@ import json
 from SPARQLWrapper import SPARQLWrapper, JSON
 #get json file contianing the data
 persdata = {}
-with open("data_json/wikiIds_es.json", "r") as indexData:
+with open("data_json/wikiIds.json", "r") as indexData:
   persdata = json.load(indexData) 
 # Preparing data for query
 # Getting access keys 
@@ -17,8 +17,8 @@ for f in files:
   if names is not None:
     for n in names:
       pers[n] = persdata[f]["persons"][n]
-      if n not in noms and pers[n] == "#" and n != 'Jean Calvin':
-        noms.append(n) 
+      if n not in noms and pers[n] != "#" and n != 'Juan Calvino': # n != 'Jean Calvin'  /  n != 'Juan Calvino' 
+        noms.append(n)
   #names_fict = list(persdata[f]["persons"]["fictional"].keys())
   #if names_fict is not None:
     #for n in names_fict:
@@ -32,12 +32,12 @@ for key in pers.keys():
   if pers[key].__contains__("wikidata"):
     spans = pers[key].split("/")
     uriswiki[key] = spans[-1]
-
+print(uriswiki)
 qdb = []
 qwiki = []
 dblist = list(urisdb.keys())
 wikilist = list(uriswiki.keys())
-#print(urisdb, uriswiki)
+print(len(wikilist))
 query_db = ""
 query_wiki = ""
 for db in dblist:
@@ -64,7 +64,7 @@ sparql_db.setQuery("\n"
 "PREFIX dct: <http://purl.org/dc/terms/> \n"
 "PREFIX foaf: <http://xmlns.com/foaf/0.1/> \n "
 "SELECT DISTINCT ?abstract, ?img \n "
-"WHERE { \n" + query_db + "\n FILTER ( LANG ( ?abstract ) = 'es'  ) \n"
+"WHERE { \n" + query_db + "\n FILTER ( LANG ( ?abstract ) = 'fr'  ) \n"
 "} "  
 )
 sparql_wiki.setQuery("\n"
@@ -72,7 +72,7 @@ sparql_wiki.setQuery("\n"
 "PREFIX wd: <http://www.wikidata.org/entity/> \n"
 "PREFIX wikibase: <http://wikiba.se/ontology#> \n"
 "SELECT DISTINCT ?item ?itemLabel ?itemDescription ?birthDate ?deathDate ?img \n "
-"WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'es' } \n"
+"WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr' } \n"
 "}"
 )
 sparql_wiki.setReturnFormat(JSON)
@@ -81,24 +81,8 @@ results = sparql_wiki.query().convert()
 results1 = sparql_db.query().convert()
 print(results)
 persons = []
-for nom in noms:
-        pers =  {"name":nom, "desc" : "", "url": "", "img": ""}
-        persons.append(pers)
-#print(persons)
-for result in results1["results"]["bindings"]:
-  img = ""
-  name = ""
-  abstract = result["abstract"]["value"]
-  for db in urisdb.keys():
-      if abstract.__contains__(db):
-        name = db
-  if result.__contains__("img"):
-      img = result["img"]["value"]
-      pers = {"name":name, "abstract" : abstract}
-  if img is not None or img != "":
-      pers["img"]=img
-  persons.append(pers)
-#print(persons)
+
+# Right one : wikidata results
 for result in results["results"]["bindings"]:
     img = ""
     url = result["item"]["value"]
@@ -121,11 +105,11 @@ for result in results["results"]["bindings"]:
     persons.append(pers)
 
 
-#print(len(qwiki))
+print(len(qwiki))
 
 # Do the rest (same limit)
 n = 2
-if len(wikilist) > limit:
+if len(wikilist) >= limit:
   qwiki = []
   newlimit = 25 * n
   for w in wikilist: 
@@ -140,18 +124,21 @@ if len(wikilist) > limit:
 "PREFIX wd: <http://www.wikidata.org/entity/> \n"
 "PREFIX wikibase: <http://wikiba.se/ontology#> \n"
 "SELECT DISTINCT ?item ?itemLabel ?itemDescription ?birthDate ?deathDate ?img \n "
-"WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'es' } \n"
+"WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr' } \n"
 "}"
 )
   sparql_wiki.setReturnFormat(JSON)
   #sparql_db.setReturnFormat(JSON)
-  results = sparql_wiki.query().convert()
+  resultsLoop = sparql_wiki.query().convert()
+  #print(results)
   #results1 = sparql_db.query().convert()
-  for result in results["results"]["bindings"]:
-      img =""
+  for result in resultsLoop["results"]["bindings"]:
+      #print(result)
+      img = ""
       url = result["item"]["value"]
       name = result["itemLabel"]["value"]
-      desc = result["itemDescription"]["value"]
+      if result.__contains__("itemDescription"):
+        desc = result["itemDescription"]["value"]
       pers =  {"name":name, "desc" : desc, "url": url}
       if result.__contains__("deathDate") or result.__contains__("birthDate"):
           birth = result["birthDate"]["value"]
@@ -167,22 +154,22 @@ if len(wikilist) > limit:
           pers["img"]=img
               #print(pers)  
       persons.append(pers)
-
+  
   limit = newlimit
   n+=1
-  #print(persons)
    
-#print(persons)
+print(persons)
+
 jsonfile = []
 for pers in persons:
    if pers not in jsonfile:
       jsonfile.append(pers)
 
-#print(jsonfile)
+print(jsonfile)
 
 
 json_obj = json.dumps(jsonfile, indent=7, ensure_ascii = False)
-with open("data_json/persIndex_es.json", "w") as outfile:
+with open("data_json/persIndex.json", "w") as outfile:
     outfile.write(json_obj)
     print("Done!")
 

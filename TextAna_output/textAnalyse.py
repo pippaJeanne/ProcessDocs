@@ -16,10 +16,10 @@ from collections import defaultdict
 # This module will help us manage the xml structure and use xpath for retreiving the text 
 #import xml.etree.ElementTree as ET
 # path for the file
-file = "Translations_txt/1542_05_M_le_curéX.txt"
+file = "Translations_txt/1538_10_20_LouisTillet.txt"
 # parsing the file
 result = open(file).read()
-#print(result)
+print(result)
 
 doc = nlp(result)
 # Remove stop words and punctuation symbols and count
@@ -59,7 +59,7 @@ simil["freq"] = freq
 simil["vector_val"] =vectors
 print(terms)
             
-output = "TextAna_output/1542_05_M_le_curéX.txt"
+output = "TextAna_output/1538_10_20_LouisTillet.txt"
 with open(output, "w", encoding="utf-8") as newfile:
     newfile.write(f"Liste de lemmas : {word_freq} \n\n Mots les plus fréquents : \n {common_words}")
 
@@ -127,8 +127,9 @@ def co_occurrence(tokens, window_size):
         if value > 0:
             meaningful[value] = key
     df = pd.DataFrame(meaningful)
-    return df.to_csv("TextAna_output/1542_05_M_le_curéX_coOccur.csv")
+    return df.to_csv("TextAna_output/1538_10_20_LouisTillet_coOccur.csv")
 co_occ = co_occurrence(lemma, 5)
+
 
 #Another way to see co-ocurrence of most common words: context of 5 previous words and 7 next words
 common_lemmas = [common_word[0] for common_word in common_words]
@@ -143,7 +144,7 @@ def co_occurrences_context(doc, word_list, common):
                     if c == token.lemma_ and word_list[i] == token.text:
                         # Collect co-occurrences with 'care' (3 words before and 7 words after)
                         start_index = max(0, i - 3)
-                        end_index = min(len(word_list), i + 7)
+                        end_index = min(len(word_list), i + 5)
                         context_words = word_list[start_index:end_index]
                         context_str = f"… {' '.join(context_words)} … \n"
                         co_occur = f"{word_list[i]}:\n {context_str}"

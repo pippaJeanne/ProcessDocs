@@ -36,7 +36,7 @@
 <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
 <date when="1854">1854</date>.
 <affiliation>Provenance : Bibliothèque nationale de France</affiliation>
-<facsimile xml:id="43-46"> <!--  changer value of @xml:id-->               
+<facsimile corresp="43-46"> <!--  changer value of @corresp-->               
       <!--  change value of @url and add the corresponding number of graphic tags-->
 <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f43/info.json"/>
 
