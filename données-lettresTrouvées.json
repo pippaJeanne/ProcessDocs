@@ -14,20 +14,20 @@
 
     "ArchivesGeneve": {
         "ManuscriptsOriginaux" : "8" ,
-        "Copies": "1",
-      "Total":"9"  
+        "Copies": "2",
+      "Total":"10"  
     },
 
     "AutreSources":{
         "Copies": [{
-            "source": "côte Français 2391 (BNF|Gallica): correspondance attribuée à ‘Espeville’ et ‘Haultmont’ sur la réligion Réformée selon la notice bibliographique",
+            "source": "Cote Français 2391 (BNF|Gallica): correspondance attribuée à 'Espeville' et 'Haultmont' sur la réligion Réformée selon la notice bibliographique",
             "cantite": "3"
         },{
         "source": "Recueil de lettres de Calvin et d'autres théologiens du XVI siècle (BNF|Gallica): [contient la lettre de Calvin à Mademoiselle de Pons du 20 novembre 1553]",
         "cantite": "1"
         }],
         "deSourcesImprimees":[{
-            "source": "Gachet d’Artigny, Antoine, 1704-1778, Nouveaux memoires d’histoire, de critique et de littérature. According to the author himself, comes from one of the rare manuscript copies left (note p.75) : lettre à Jean Frellon, 13 fevrier de 1546",
+            "source": "Gachet d’Artigny, Antoine, 1704-1778, Nouveaux memoires d’histoire, de critique et de littérature. D'après l'auteur, il s'agit de l'une des rares copies manuscrites restantes (note p. 75) : lettre à Jean Frellon, 13 février de 1546",
             "cantite": "1"
         },
         {
@@ -64,9 +64,9 @@
 
    "Total":{
     "ManuscriptsOriginaux": "77",
-    "Copies": "39",
+    "Copies": "40",
     "deSourcesImprimees":"7",
-    "Total": "123"
+    "Total": "124"
     }
  }
 

@@ -34,7 +34,7 @@
   <date when="1541-10">[octubre 1541]</date>
  </correspAction>
  <correspAction type="received">
-  <name type="individuo" key="Renata de Francia" ref="https://www.wikidata.org/wiki/Q235841" corresp="#renee-de-france">A la duquesa de Ferrara</name>
+  <name type="individuo" key="Renata de Francia" ref="https://www.wikidata.org/wiki/Q235841" corresp="#renee-de-france">Duquesa de Ferrara</name>
   <settlement cert="low" key="Ferrara" ref="https://www.wikidata.org/wiki/Q13362" corresp="#ferrare">[Ferrara]</settlement>
  </correspAction>
  <correspContext>

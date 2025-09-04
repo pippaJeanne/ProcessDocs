@@ -3,7 +3,7 @@ import json
 from os import listdir # install the "listdir" package (pip install dirlist)
 from os.path import isfile, join
 files =[]
-dir = "output/VF"
+dir = "output/VF/es"
 for file in listdir(dir): 
     if isfile(join(dir, file)):
         files.append(dir + "/" + file)
@@ -26,22 +26,25 @@ def compile():
         result[file]["places"] = {}
         #result[file]["org"] = {}
         #no = ""
-        #bibtitle = "" 
+        #bibtitle = ""
 
-        for el in root.findall(".//{http://www.tei-c.org/ns/1.0}persName[@key]"):
+        for el in root.findall(".//{http://www.tei-c.org/ns/1.0}addrLine/{http://www.tei-c.org/ns/1.0}persName[@key]"):
             key = el.get('key')
             ref = el.get('ref')
             if key is not None and ref is not None:
                 result[file]["persons"][key] = ref
-           # elif key is not None and string is None:
-            #    result[file]["persons"]["real"][key] = key
-        #for el in root.findall(".//{http://www.tei-c.org/ns/1.0}correspAction[@type='sent']//{http://www.tei-c.org/ns/1.0}settlement"):
-            #key = el.get('key')
-            #string = el.get('ref')
-            #if key is not None and string is not None:
-                #result[file]["persons"]["fictional"][key] = string
-           # elif key is not None and string is None:
-            #    result[file]["persons"]["fictional"][key] = key
+
+        for el in root.findall(".//{http://www.tei-c.org/ns/1.0}body/{http://www.tei-c.org/ns/1.0}p/{http://www.tei-c.org/ns/1.0}persName[@key]"):
+            key = el.get('key')
+            ref = el.get('ref')
+            if key is not None and ref is not None:
+                result[file]["persons"][key] = ref
+
+        for el in root.findall(".//{http://www.tei-c.org/ns/1.0}signed/{http://www.tei-c.org/ns/1.0}persName[@key]"):
+            key = el.get('key')
+            ref = el.get('ref')
+            if key is not None and ref is not None:
+                result[file]["persons"][key] = ref
         
         for el in root.findall(".//{http://www.tei-c.org/ns/1.0}correspAction//{http://www.tei-c.org/ns/1.0}settlement"):
             string = el.get('key')
@@ -75,6 +78,6 @@ def compile():
 jsonfile = compile()
 print(jsonfile)
 json_obj = json.dumps(jsonfile, indent=7, ensure_ascii = False)
-with open("data_json/wikiIds.json", "w") as outfile:
+with open("data_json/wikiIds_es.json", "w") as outfile:
     outfile.write(json_obj)
     print("Done!")

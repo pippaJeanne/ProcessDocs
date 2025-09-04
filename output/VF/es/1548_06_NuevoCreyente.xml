@@ -35,7 +35,7 @@
   <date when="1548-06-13">13 de junio de [1548]</date>
  </correspAction>
  <correspAction type="received">
-  <name type="individuo" ref="#">Nuevo creyente</name>
+  <name type="individuo" ref="#" key="Nuevo creyente">Nuevo creyente</name>
   <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
  </correspAction>
  <correspContext>
@@ -59,7 +59,7 @@
 <text>
 <body>
 <opener>
-<address><addrLine>A un <persName type="individuo" ref="#">nuevo creyente</persName><note n="*" place="bottom"><p>Carta sin indicación de persona ni año.</p></note></addrLine>
+<address><addrLine>A un <persName type="individuo" ref="#" key="Nuevo creyente" corresp="#converti">nuevo creyente</persName><note n="*" place="bottom"><p>Carta sin indicación de persona ni año.</p></note></addrLine>
 </address>
 <dateline xml:id="opener">[Enviada a <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</placeName>]
 </dateline>

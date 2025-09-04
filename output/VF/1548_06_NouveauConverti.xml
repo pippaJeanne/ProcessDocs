@@ -64,7 +64,7 @@
   <date when="1548-06-13">13 juin [1548]</date>
  </correspAction>
  <correspAction type="received">
-  <name type="individu" ref="#">Nouveau converti</name>
+  <name type="individu" key="Nouveau converti" ref="#">Nouveau converti</name>
   <settlement cert="low" key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Genève]</settlement>
  </correspAction>
  <correspContext>
@@ -88,7 +88,7 @@
 <text>
 <body>
 <opener>
-<address><addrLine>À un <persName type="individu">nouveau converti</persName><note n="*" place="bottom"><p>Lettre sans indication de personne et d'année.</p></note></addrLine>
+<address><addrLine>À un <persName type="individu" key="Nouveau converti" ref="#" corresp="#converti">nouveau converti</persName><note n="*" place="bottom"><p>Lettre sans indication de personne et d'année.</p></note></addrLine>
 </address>
 <dateline xml:id="opener">[Envoyée à <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</placeName>]
 </dateline>

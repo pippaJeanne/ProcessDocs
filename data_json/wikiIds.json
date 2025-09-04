@@ -3,10 +3,6 @@
               "persons": {
                      "Louis du Tillet": "https://www.wikidata.org/wiki/Q3263586",
                      "Jean du Tillet": "https://www.wikidata.org/wiki/Q3175826",
-                     "Guillaume Farel": "https://www.wikidata.org/wiki/Q435456",
-                     "François I de France": "https://www.wikidata.org/wiki/Q129857",
-                     "Martin Bucer": "https://www.wikidata.org/wiki/Q318622",
-                     "Wolfgang Fabricius Köpfel Capiton": "https://www.wikidata.org/wiki/Q1368362",
                      "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
               },
               "places": {
@@ -24,10 +20,6 @@
               "persons": {
                      "Louis du Tillet": "https://www.wikidata.org/wiki/Q3263586",
                      "Jean du Tillet": "https://www.wikidata.org/wiki/Q3175826",
-                     "Martin Bucer": "https://www.wikidata.org/wiki/Q318622",
-                     "Wolfgang Fabricius Köpfel Capiton": "https://www.wikidata.org/wiki/Q1368362",
-                     "François Ier de France": "https://www.wikidata.org/wiki/Q129857",
-                     "Charles-Quint": "https://www.wikidata.org/wiki/Q32500",
                      "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
               },
               "places": {
@@ -55,9 +47,6 @@
        "output/VF/1541_09_29_SeigneursNeuchatel.xml": {
               "persons": {
                      "Consistoire de Neuchâtel": "https://www.wikidata.org/wiki/Q131694038",
-                     "Pierre Viret": "https://www.wikidata.org/wiki/Q123337",
-                     "Guillaume Farel": "https://www.wikidata.org/wiki/Q435456",
-                     "Consistoire de Berne": "https://www.wikidata.org/wiki/Q131694038",
                      "Jean Calvin": "#",
                      "Aimé Champereau": "#",
                      "Jacques Bernard": "#"
@@ -70,19 +59,9 @@
        "output/VF/1541_10_DuchesseFerrare.xml": {
               "persons": {
                      "Renée de France": "https://www.wikidata.org/wiki/Q235841",
-                     "Louis XII": "https://www.wikidata.org/wiki/Q58514",
-                     "Anne de Bretagne": "https://www.wikidata.org/wiki/Q201143",
-                     "Hercule II d'Este": "https://www.wikidata.org/wiki/Q1348702",
-                     "Marguerite de Valois-Angoulême": "https://www.wikidata.org/wiki/Q190058",
-                     "Clément Marot": "https://www.wikidata.org/wiki/Q108926",
                      "Anne de Parthenay": "https://www.wikidata.org/wiki/Q99539414",
-                     "Jean IV de Parthenay": "https://www.wikidata.org/wiki/Q102816184",
-                     "Michelle de Saubonne": "https://www.wikidata.org/wiki/Q3311480",
-                     "Antoine de Pons": "https://www.wikidata.org/wiki/Q107736995",
-                     "Lilio Gregorio Giraldi": "https://www.wikidata.org/wiki/Q448191",
                      "François": "#",
-                     "Wolfgang Fabricius Köpfel Capiton": "https://www.wikidata.org/wiki/Q1368362",
-                     "Henri VIII": "https://www.wikidata.org/wiki/Q38370"
+                     "Wolfgang Fabricius Köpfel Capiton": "https://www.wikidata.org/wiki/Q1368362"
               },
               "places": {
                      "Genève": "https://www.wikidata.org/wiki/Q71",
@@ -99,15 +78,11 @@
        "output/VF/1542_05_M_le_cureX.xml": {
               "persons": {
                      "Curé anonyme": "#",
-                     "Sébastien Castellion": "https://www.wikidata.org/wiki/Q919119",
-                     "Pierre Blanchet": "#",
-                     "Consistoire de Genève": "https://www.wikidata.org/wiki/Q2994627",
                      "Paul de Tarse": "https://www.wikidata.org/wiki/Q9200",
                      "Jérémie": "https://www.wikidata.org/wiki/Q158825",
                      "Marie": "https://www.wikidata.org/wiki/Q345",
                      "Lactance": "https://www.wikidata.org/wiki/Q209102",
                      "Augustin d’Hippone": "https://www.wikidata.org/wiki/Q8018",
-                     "Jules Bonnet": " https://www.wikidata.org/wiki/Q3188439",
                      "Pierre": "https://www.wikidata.org/wiki/Q33923"
               },
               "places": {
@@ -129,8 +104,6 @@
        "output/VF/1543_10_14_MonsieurFalais.xml": {
               "persons": {
                      "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
-                     "Philippe IV de France": "https://www.wikidata.org/wiki/Q130969",
-                     "Charles Quint": "https://www.wikidata.org/wiki/Q32500",
                      "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
               },
               "places": {
@@ -173,7 +146,9 @@
               }
        },
        "output/VF/1548_06_NouveauConverti.xml": {
-              "persons": {},
+              "persons": {
+                     "Nouveau converti": "#"
+              },
               "places": {
                      "Genève": "https://www.wikidata.org/wiki/Q71"
               }
@@ -190,13 +165,8 @@
        "output/VF/1552_Monsieur-deFalais.xml": {
               "persons": {
                      "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
-                     "Jérome-Hermès Bolsec": "https://www.wikidata.org/wiki/Q677639",
-                     "Galeazzo Caracciolo": "https://www.wikidata.org/wiki/Q869836",
                      "Sébastien Castellion": "https://www.wikidata.org/wiki/Q919119",
                      "Yolande de Brederode": "https://www.wikidata.org/wiki/Q56000839",
-                     "Pierre Bayle": "https://www.wikidata.org/wiki/Q214816",
-                     "Théodore De Bèze": "https://www.wikidata.org/wiki/Q314981",
-                     "Philippe IV de France": "https://www.wikidata.org/wiki/Q130969",
                      "Jean Calvin": "#"
               },
               "places": {
@@ -210,9 +180,6 @@
        "output/VF/1553_03_12_RoiDAngleterre.xml": {
               "persons": {
                      "Édouard VI d'Angleterre": "https://www.wikidata.org/wiki/Q83229",
-                     "Henri VIII": "https://www.wikidata.org/wiki/Q38370",
-                     "Jeanne Seymour": "https://www.wikidata.org/wiki/Q182637",
-                     "Laurent de Normandie": "https://www.wikidata.org/wiki/Q15967055",
                      "Antoine de Bourbon": "https://www.wikidata.org/wiki/Q310334",
                      "Jean Calvin": "#"
               },

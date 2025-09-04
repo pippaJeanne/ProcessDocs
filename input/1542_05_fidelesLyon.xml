@@ -112,9 +112,7 @@
             <address>
                <addrLine>Aux <persName type="collectivité" key="Fidèles de Lyon"
                      corresp="#lyon-fidele">Fidèles de Lyon</persName>
-        <note n="*" place="bottom" type="source"> <p>Au dos Lettre contre le Carme. Sans date. Une lettre latine de <persName
-                           key="Jean Calvin" ref="https://www.wikidata.org/wiki/Q37552"
-                           corresp="#calvin">Calvin</persName> à <persName key="Guillaume Farel"
+        <note n="*" place="bottom" type="source"> <p>Au dos Lettre contre le Carme. Sans date. Une lettre latine de Calvin à <persName key="Guillaume Farel"
                            ref="https://www.wikidata.org/wiki/Q380482" corresp="#farel">Farel</persName>,
                   du 10 mai 1542, relative au même sujet, nous fournit la date inconnue, et nous
                   apprend que ce carme, passé dans les rangs de la Réforme, était de <placeName

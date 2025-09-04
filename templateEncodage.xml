@@ -113,7 +113,7 @@
 
     <p>
         <!--[Note éditoriale] only if that is the case | if there's a @source write it like this [Note éditoriale, @source : texte (url)]-->
-        <!--No unnecessary space within note !important!!!-->
+        <!--No unnecessary space or linebreaks within note !important!!!-->
     <note n="#" place="bottom" type="editorial"><p>texte. [Note éditoriale]</p></note>
     </p>
 
