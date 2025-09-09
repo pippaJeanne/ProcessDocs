@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="M-Falais14_10_43">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="Adressee_year_month_day">
 <teiHeader>
 <fileDesc>
 <titleStmt>

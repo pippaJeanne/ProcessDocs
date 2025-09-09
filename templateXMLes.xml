@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" n="testms" xml:id="Tilletz01-38">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" n="testms">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -13,7 +13,7 @@
     <licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
          3.0 Unported License</licence>
   </availability></publicationStmt>
-<sourceDesc corresp="Tilletz01-38">
+<sourceDesc corresp="Adressee_year_month_day">
  <bibl>
   Traducción de la versión modernizada de
   <title level="a" rend="underline">Lettre à Louis du Tillet (31 janvier 1538)</title> editada por 
