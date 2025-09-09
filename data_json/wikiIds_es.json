@@ -86,7 +86,7 @@
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
                      "Saboya": "https://www.wikidata.org/wiki/Q14118",
-                     "Israel": "https://www.wikidata.org/wiki/Q801"
+                     "Tierra de Israel": "https://www.wikidata.org/wiki/Q155321"
               }
        },
        "output/VF/es/1543_10_14_SenorFalais.xml": {
@@ -154,11 +154,14 @@
        "output/VF/es/1552_10_06_SenoresDeGinebra.xml": {
               "persons": {
                      "Consistorio de Ginebra": "https://www.wikidata.org/wiki/Q2994627",
+                     "Jean Trolliet": "#",
+                     "Pablo de Tarso": "https://www.wikidata.org/wiki/Q9200",
                      "Felipe Melanchthon": "https://www.wikidata.org/wiki/Q76325",
                      "Philipp Mélanchthon": "https://www.wikidata.org/wiki/Q76325"
               },
               "places": {
-                     "Ginebra": "https://www.wikidata.org/wiki/Q71"
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "Borgoña": "https://www.wikidata.org/wiki/Q1173"
               }
        },
        "output/VF/es/1552_SrDeFalais.xml": {

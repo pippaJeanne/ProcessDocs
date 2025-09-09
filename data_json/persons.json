@@ -23,7 +23,7 @@
                             {
                                    "slug": "1553_03_12_RoiDAngleterre",
                                    "date": "12 de mars 1553",
-                                   "headline": "roi d'Angleterre"
+                                   "headline": "Roi d'Angleterre"
                             }
                      ],
                      "id": "#vendome"
@@ -158,6 +158,20 @@
                      "id": "#jacques-bourgogne"
               },
               {
+                     "name": "Jean Trolliet",
+                     "wikiurl": "",
+                     "thumbnail": "",
+                     "desc": "",
+                     "letters": [
+                            {
+                                   "slug": "1552_10_06_SeigeursDeGeneve",
+                                   "date": "6 octobre 1552",
+                                   "headline": "Seigneurs de Genève"
+                            }
+                     ],
+                     "id": "#trolliet"
+              },
+              {
                      "name": "Jean du Tillet",
                      "wikiurl": "http://www.wikidata.org/entity/Q3175826",
                      "thumbnail": "",
@@ -261,6 +275,11 @@
                                    "slug": "1542_05_M_le_cureX",
                                    "date": "[mai 1542]",
                                    "headline": "Monsieur le curé"
+                            },
+                            {
+                                   "slug": "1552_10_06_SeigeursDeGeneve",
+                                   "date": "6 octobre 1552",
+                                   "headline": "Seigneurs de Genève"
                             }
                      ],
                      "id": "#paul"
@@ -396,7 +415,7 @@
                             {
                                    "slug": "1553_03_12_RoiDAngleterre",
                                    "date": "12 de mars 1553",
-                                   "headline": "roi d'Angleterre"
+                                   "headline": "Roi d'Angleterre"
                             }
                      ],
                      "id": "#edouard-VI"

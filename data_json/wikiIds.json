@@ -88,7 +88,7 @@
               "places": {
                      "Genève": "https://www.wikidata.org/wiki/Q71",
                      "Savoie": "https://www.wikidata.org/wiki/Q14118",
-                     "Israël": "https://www.wikidata.org/wiki/Q801"
+                     "Terre d'Israël": "https://www.wikidata.org/wiki/Q155321"
               }
        },
        "output/VF/1543_10_14_MadameDeFalais.xml": {
@@ -156,10 +156,13 @@
        "output/VF/1552_10_06_SeigeursDeGeneve.xml": {
               "persons": {
                      "Consistoire de Genève": "https://www.wikidata.org/wiki/Q2994627",
+                     "Jean Trolliet": "#",
+                     "Paul de Tarse": "https://www.wikidata.org/wiki/Q9200",
                      "Philippe Mélanchthon": "https://www.wikidata.org/wiki/Q76325"
               },
               "places": {
-                     "Genève": "https://www.wikidata.org/wiki/Q71"
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Bourgogne": "https://www.wikidata.org/wiki/Q1173"
               }
        },
        "output/VF/1552_Monsieur-deFalais.xml": {
