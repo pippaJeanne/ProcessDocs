@@ -28,7 +28,7 @@ for file in files:
     filename = f[-1]
     slug = filename.replace(".xml", "")
     obj["slug"] = slug
-
+    obj["places"] = []
     for el in root.findall(".//{http://www.tei-c.org/ns/1.0}facsimile[1]/{http://www.tei-c.org/ns/1.0}graphic[1]"):
         url = el.get('url')
         img = url.replace("/info.json", ".jpeg")
@@ -54,7 +54,12 @@ for file in files:
                 month = prep[1]
                 obj["start_date"]["year"] = year
                 obj["start_date"]["month"] = month 
-                obj["start_date"]["day"] = "01"
+                obj["start_date"]["day"] = "01" # default value
+            elif (len(prep) == 1):
+                year = prep[0]
+                obj["start_date"]["year"] = year
+                obj["start_date"]["month"] = "01" # default value
+                obj["start_date"]["day"] = "01" # default value
             obj["display_date"] = text
     for el in root.findall(".//{http://www.tei-c.org/ns/1.0}correspAction[@type='received']//{http://www.tei-c.org/ns/1.0}name"):
         obj["text"] = {}
@@ -66,7 +71,7 @@ for file in files:
         obj["text"]["text"] = desc
     for el in root.findall(".//{http://www.tei-c.org/ns/1.0}correspAction[@type='sent']//{http://www.tei-c.org/ns/1.0}settlement"):
         obj["scr_location"] = {}
-        placeSrc = el.text
+        placeSrc = el.get('key')
         print(placeSrc)
         obj["scr_location"]["name"] = placeSrc
         for place in placedata:
@@ -75,13 +80,27 @@ for file in files:
                 obj["scr_location"]["lon"] = place["coord"]["lon"]
     for el in root.findall(".//{http://www.tei-c.org/ns/1.0}correspAction[@type='received']//{http://www.tei-c.org/ns/1.0}settlement"):
         obj["dest_location"] = {}
-        placeD = el.text
+        placeD = el.get('key')
         print(placeD)
         obj["dest_location"]["name"] = placeD
         for place in placedata:
             if placeD.__contains__(place["name"]):
                 obj["dest_location"]["lat"] = place["coord"]["lat"]
                 obj["dest_location"]["lon"] = place["coord"]["lon"]
+    # For places in the letter body (not only sender and receiver)
+    for el in root.findall(".//{http://www.tei-c.org/ns/1.0}body//{http://www.tei-c.org/ns/1.0}placeName"):
+        lieu = {}
+        placeD = el.get('key')
+        print(placeD)
+        if placeD is not None:
+            for place in placedata:
+                if place['name'] is not None and place["name"].__contains__(placeD) and place.__contains__("coord"): # Some places coordinates cannot be retrieved for some reason : specifically "Saint-siège" and "Savoie". Even though they exist in the Wikidata page, the query results do not return the coordinates. (I'm guessing it's because they are an ecclesiatic jurisdiction (juridiction épiscopale) and a historical region respectivily?)
+                    lieu["name"] = placeD
+                    lieu["lat"] = place["coord"]["lat"]
+                    lieu["lon"] = place["coord"]["lon"]
+        print(lieu)
+        if lieu not in obj["places"] and lieu != {}:
+            obj["places"].append(lieu)
 
     print(obj)
     arr.append(obj)

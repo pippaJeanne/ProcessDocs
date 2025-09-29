@@ -51,12 +51,17 @@ def compile():
                     obj["start_date"]["year"] = year
                     obj["start_date"]["month"] = month
                     obj["start_date"]["day"] = day
-                elif (len(prep) == 2):
+                if (len(prep) == 2):
                     year = prep[0]
                     month = prep[1]
                     obj["start_date"]["year"] = year
                     obj["start_date"]["month"] = month 
                     obj["start_date"]["day"] = "01"
+                elif (len(prep) == 1):
+                    year = prep[0]
+                    obj["start_date"]["year"] = year
+                    obj["start_date"]["month"] = "01"  # default value
+                    obj["start_date"]["day"] = "01" # default value                    
                 obj["display_date"] = text
         for el in root.findall(".//{http://www.tei-c.org/ns/1.0}correspAction[@type='received']//{http://www.tei-c.org/ns/1.0}name"):
             obj["text"] = {}

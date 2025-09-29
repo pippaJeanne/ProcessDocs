@@ -7,8 +7,8 @@
                      "desc": "filósofo, teólogo y obispo romano",
                      "letters": [
                             {
-                                   "slug": "1542_05_Al_senor_cura",
-                                   "date": "[mayo de 1542]",
+                                   "slug": "1542_Al_senor_cura",
+                                   "date": "[1542]",
                                    "headline": "Párroco anónimo"
                             }
                      ],
@@ -59,6 +59,11 @@
                                    "headline": "Louis de Tillet"
                             },
                             {
+                                   "slug": "1538_10_20_LouisdeTillet",
+                                   "date": "20 de octubre de 1538",
+                                   "headline": "Louis de Tillet"
+                            },
+                            {
                                    "slug": "1543_10_14_SenorFalais",
                                    "date": "[14 de octubre de 1543]",
                                    "headline": "Señor de Fallais"
@@ -99,7 +104,7 @@
                             },
                             {
                                    "slug": "1552_10_06_SenoresDeGinebra",
-                                   "date": "(6 de octubre de 1552)",
+                                   "date": "[6 de octubre de 1552]",
                                    "headline": "Señores de Ginebra"
                             }
                      ],
@@ -141,16 +146,30 @@
                      "letters": [
                             {
                                    "slug": "1552_10_06_SenoresDeGinebra",
-                                   "date": "(6 de octubre de 1552)",
+                                   "date": "[6 de octubre de 1552]",
                                    "headline": "Señores de Ginebra"
                             },
                             {
                                    "slug": "1552_10_06_SenoresDeGinebra",
-                                   "date": "(6 de octubre de 1552)",
+                                   "date": "[6 de octubre de 1552]",
                                    "headline": "Señores de Ginebra"
                             }
                      ],
                      "id": "#melanchthon"
+              },
+              {
+                     "name": "Iglesia de Lyon",
+                     "wikiurl": "",
+                     "thumbnail": "",
+                     "desc": "",
+                     "letters": [
+                            {
+                                   "slug": "1542_05_fielesLyon",
+                                   "date": "mayo de 1542",
+                                   "headline": "Fieles de Lyon"
+                            }
+                     ],
+                     "id": "#eglise_Lyon"
               },
               {
                      "name": "Jacques de Bourgogne",
@@ -184,7 +203,7 @@
                      "letters": [
                             {
                                    "slug": "1552_10_06_SenoresDeGinebra",
-                                   "date": "(6 de octubre de 1552)",
+                                   "date": "[6 de octubre de 1552]",
                                    "headline": "Señores de Ginebra"
                             }
                      ],
@@ -207,21 +226,35 @@
                                    "headline": "Louis de Tillet"
                             }
                      ],
-                     "id": "#jehan"
+                     "id": "#jean_tillet"
               },
               {
                      "name": "Jeremías ( - )",
                      "wikiurl": "http://www.wikidata.org/entity/Q158825",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg",
-                     "desc": "personaje bíblico; profeta",
+                     "desc": "profeta mayor hebreo",
                      "letters": [
                             {
-                                   "slug": "1542_05_Al_senor_cura",
-                                   "date": "[mayo de 1542]",
+                                   "slug": "1542_Al_senor_cura",
+                                   "date": "[1542]",
                                    "headline": "Párroco anónimo"
                             }
                      ],
                      "id": "#jeremie"
+              },
+              {
+                     "name": "Jonás ( - )",
+                     "wikiurl": "http://www.wikidata.org/entity/Q2468262",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Jonah.jpg",
+                     "desc": "personaje de la Biblia y el Corán",
+                     "letters": [
+                            {
+                                   "slug": "1538_10_20_LouisdeTillet",
+                                   "date": "20 de octubre de 1538",
+                                   "headline": "Louis de Tillet"
+                            }
+                     ],
+                     "id": "#jonas"
               },
               {
                      "name": "Lactancio (0240 - 0320)",
@@ -230,8 +263,8 @@
                      "desc": "escritor latino y apologista cristiano",
                      "letters": [
                             {
-                                   "slug": "1542_05_Al_senor_cura",
-                                   "date": "[mayo de 1542]",
+                                   "slug": "1542_Al_senor_cura",
+                                   "date": "[1542]",
                                    "headline": "Párroco anónimo"
                             }
                      ],
@@ -252,9 +285,14 @@
                                    "slug": "1538_07_10_LouisTillet",
                                    "date": "10 de julio de 1538",
                                    "headline": "Louis de Tillet"
+                            },
+                            {
+                                   "slug": "1538_10_20_LouisdeTillet",
+                                   "date": "20 de octubre de 1538",
+                                   "headline": "Louis de Tillet"
                             }
                      ],
-                     "id": "#louis-tilletz"
+                     "id": "#louis-tillet"
               },
               {
                      "name": "Nuevo creyente",
@@ -277,13 +315,23 @@
                      "desc": "apóstol cristiano de origen judío",
                      "letters": [
                             {
-                                   "slug": "1542_05_Al_senor_cura",
-                                   "date": "[mayo de 1542]",
+                                   "slug": "1542_05_fielesLyon",
+                                   "date": "mayo de 1542",
+                                   "headline": "Fieles de Lyon"
+                            },
+                            {
+                                   "slug": "1542_05_fielesLyon",
+                                   "date": "mayo de 1542",
+                                   "headline": "Fieles de Lyon"
+                            },
+                            {
+                                   "slug": "1542_Al_senor_cura",
+                                   "date": "[1542]",
                                    "headline": "Párroco anónimo"
                             },
                             {
                                    "slug": "1552_10_06_SenoresDeGinebra",
-                                   "date": "(6 de octubre de 1552)",
+                                   "date": "[6 de octubre de 1552]",
                                    "headline": "Señores de Ginebra"
                             }
                      ],
@@ -296,8 +344,8 @@
                      "desc": "apóstol de Jesús y primer papa según la tradición católica",
                      "letters": [
                             {
-                                   "slug": "1542_05_Al_senor_cura",
-                                   "date": "[mayo de 1542]",
+                                   "slug": "1542_Al_senor_cura",
+                                   "date": "[1542]",
                                    "headline": "Párroco anónimo"
                             }
                      ],
@@ -324,8 +372,8 @@
                      "desc": "",
                      "letters": [
                             {
-                                   "slug": "1542_05_Al_senor_cura",
-                                   "date": "[mayo de 1542]",
+                                   "slug": "1542_Al_senor_cura",
+                                   "date": "[1542]",
                                    "headline": "Párroco anónimo"
                             }
                      ],
@@ -360,6 +408,20 @@
                      "id": "#madame-bude"
               },
               {
+                     "name": "Salomón ( - )",
+                     "wikiurl": "http://www.wikidata.org/entity/Q37085",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg",
+                     "desc": "rey de Israel, personaje de la Biblia",
+                     "letters": [
+                            {
+                                   "slug": "1542_05_fielesLyon",
+                                   "date": "mayo de 1542",
+                                   "headline": "Fieles de Lyon"
+                            }
+                     ],
+                     "id": "#salomon"
+              },
+              {
                      "name": "Sebastián Castellion (1515 - 1563)",
                      "wikiurl": "http://www.wikidata.org/entity/Q919119",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/SebastianCastellio.jpg",
@@ -380,8 +442,8 @@
                      "desc": "madre de Jesús de Nazaret",
                      "letters": [
                             {
-                                   "slug": "1542_05_Al_senor_cura",
-                                   "date": "[mayo de 1542]",
+                                   "slug": "1542_Al_senor_cura",
+                                   "date": "[1542]",
                                    "headline": "Párroco anónimo"
                             }
                      ],

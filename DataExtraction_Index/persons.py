@@ -3,10 +3,10 @@ import json
 #from os import listdir # install the "listdir" package (pip install dirlist)
 from os.path import isfile, join
 persdata = {}
-with open("data_json/persIndex.json", "r") as indexData:
+with open("data_json/persIndex_es.json", "r") as indexData: # data_json/persIndex_es.json for Spanish | data_json/persIndex.json for French
   persdata = json.load(indexData)
 perfile = {}
-with open("data_json/wikiIds.json", "r") as data:
+with open("data_json/wikiIds_es.json", "r") as data: # data_json/wikiIds_es.json for Spanish | data_json/wikiIds.json for French
   perfile = json.load(data) 
 # Preparing data for query
 # Getting access keys 
@@ -115,9 +115,9 @@ for f in files:
 arr.sort(key=lambda x: x['name'])           
 print(len(arr), arr)
 result = {}
-result["persons"] = arr  # persons | persons_es for the French and Spanish versions respectively 
+result["persons_es"] = arr  # persons | persons_es for the French and Spanish versions respectively 
 print(result)
 json_obj = json.dumps(result, indent=7, ensure_ascii = False)
-with open("data_json/persons.json", "w") as outfile:
+with open("data_json/persons_es.json", "w") as outfile:  # persons_es.json for the Spanish version | persons.json for the French version
     outfile.write(json_obj)
     print("Done!")     

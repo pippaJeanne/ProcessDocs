@@ -2,6 +2,48 @@
        "events": [
               {
                      "slug": "1538_01_LouisduTillet",
+                     "places": [
+                            {
+                                   "name": "Angoulême",
+                                   "lat": "45.649444444",
+                                   "lon": "0.159444444"
+                            },
+                            {
+                                   "name": "Parlement de Paris",
+                                   "lat": "48.856111111",
+                                   "lon": "2.345555555"
+                            },
+                            {
+                                   "name": "ancienne université de Paris",
+                                   "lat": "48.848611",
+                                   "lon": "2.343333"
+                            },
+                            {
+                                   "name": "Strasbourg",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Bâle",
+                                   "lat": "47.560555555",
+                                   "lon": "7.590555555"
+                            },
+                            {
+                                   "name": "Italie",
+                                   "lat": "42.5",
+                                   "lon": "12.5"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "France",
+                                   "lat": "47.0",
+                                   "lon": "2.0"
+                            }
+                     ],
                      "media": {
                             "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b90076313/f3.jpeg",
                             "thumbnail": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b90076313/f3.jpeg"
@@ -29,6 +71,43 @@
               },
               {
                      "slug": "1538_07_10_LuoisDuTillets",
+                     "places": [
+                            {
+                                   "name": "Paris",
+                                   "lat": "48.856111111",
+                                   "lon": "2.345555555"
+                            },
+                            {
+                                   "name": "Zurich",
+                                   "lat": "47.374444444",
+                                   "lon": "8.541111111"
+                            },
+                            {
+                                   "name": "Berne",
+                                   "lat": "46.94798",
+                                   "lon": "7.44743"
+                            },
+                            {
+                                   "name": "Bâle",
+                                   "lat": "47.560555555",
+                                   "lon": "7.590555555"
+                            },
+                            {
+                                   "name": "Bienne",
+                                   "lat": "47.137222222",
+                                   "lon": "7.247222222"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Strasbourg",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            }
+                     ],
                      "media": {
                             "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b90076313/f18.jpeg",
                             "thumbnail": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b90076313/f18.jpeg"
@@ -55,7 +134,83 @@
                      }
               },
               {
+                     "slug": "1538_10_20_LouisTillet",
+                     "places": [
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Paris",
+                                   "lat": "48.856111111",
+                                   "lon": "2.345555555"
+                            },
+                            {
+                                   "name": "Orbe",
+                                   "lat": "46.724452777",
+                                   "lon": "6.532227777"
+                            },
+                            {
+                                   "name": "Strasbourg",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            }
+                     ],
+                     "media": {
+                            "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b90076313/f22.jpeg",
+                            "thumbnail": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b90076313/f22.jpeg"
+                     },
+                     "start_date": {
+                            "year": "1538",
+                            "month": "10",
+                            "day": "20"
+                     },
+                     "display_date": "20 d'octobre 1538",
+                     "text": {
+                            "headline": "Louis du Tillet",
+                            "text": "Réponse de Calvin à une lettre de Louis du Tillet après le bannissement de Calvin et Farel de Genève."
+                     },
+                     "scr_location": {
+                            "name": "Strasbourg",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     },
+                     "dest_location": {
+                            "name": "Paris",
+                            "lat": "48.856666666",
+                            "lon": "2.352222222"
+                     }
+              },
+              {
                      "slug": "1541_02_19_SeigneursGeneve",
+                     "places": [
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Worms",
+                                   "lat": "49.6302618",
+                                   "lon": "8.3620898"
+                            },
+                            {
+                                   "name": "Ratisbonne",
+                                   "lat": "49.016666666",
+                                   "lon": "12.083333333"
+                            },
+                            {
+                                   "name": "Lausanne",
+                                   "lat": "46.533333333",
+                                   "lon": "6.633333333"
+                            },
+                            {
+                                   "name": "Strasbourg",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            }
+                     ],
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fcorrespondance_ecclesiastiqueead%252Fms_fr_401%252Fms_fr_00401_f017_01.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fcorrespondance_ecclesiastiqueead%252Fms_fr_401%252Fms_fr_00401_f017_01.jpg"
@@ -83,6 +238,18 @@
               },
               {
                      "slug": "1541_09_29_SeigneursNeuchatel",
+                     "places": [
+                            {
+                                   "name": "Neuchâtel",
+                                   "lat": "46.990277777",
+                                   "lon": "6.930555555"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f157r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f157r.jpg"
@@ -110,6 +277,43 @@
               },
               {
                      "slug": "1541_10_DuchesseFerrare",
+                     "places": [
+                            {
+                                   "name": "château de Blois",
+                                   "lat": "47.585501",
+                                   "lon": "1.33095"
+                            },
+                            {
+                                   "name": "château de Montargis",
+                                   "lat": "47.999",
+                                   "lon": "2.72845"
+                            },
+                            {
+                                   "name": "Italie",
+                                   "lat": "42.5",
+                                   "lon": "12.5"
+                            },
+                            {
+                                   "name": "France",
+                                   "lat": "47.0",
+                                   "lon": "2.0"
+                            },
+                            {
+                                   "name": "Ferrare",
+                                   "lat": "44.839166666",
+                                   "lon": "11.6175"
+                            },
+                            {
+                                   "name": "Soubise",
+                                   "lat": "45.925277777",
+                                   "lon": "-1.008888888"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_196%252Fms_fr_00196_f079r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_196%252Fms_fr_00196_f079r.jpg"
@@ -130,40 +334,108 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Ferrare]",
-                            "lat": "44.835297",
-                            "lon": "11.619865"
+                            "name": "Ferrare",
+                            "lat": "44.839166666",
+                            "lon": "11.6175"
                      }
               },
               {
-                     "slug": "1542_05_M_le_cureX",
+                     "slug": "1542_05_fidelesLyon",
+                     "places": [
+                            {
+                                   "name": "Lyon",
+                                   "lat": "45.758888888",
+                                   "lon": "4.841388888"
+                            },
+                            {
+                                   "name": "Paris",
+                                   "lat": "48.856111111",
+                                   "lon": "2.345555555"
+                            },
+                            {
+                                   "name": "France",
+                                   "lat": "47.0",
+                                   "lon": "2.0"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
                      "media": {
-                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg",
-                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg"
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_145%2Fms_fr_00145_f133r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_145%2Fms_fr_00145_f133r.jpg"
                      },
                      "start_date": {
                             "year": "1542",
                             "month": "05",
                             "day": "01"
                      },
-                     "display_date": "[mai 1542]",
+                     "display_date": "mai 1542",
+                     "text": {
+                            "headline": "Fidèles de Lyon",
+                            "text": "Lettre avertissant les fidèles de Lyon des agissements d'un moine carme apostat ayant prêché le carême précédent à Lyon et dénigrant Calvin et ses confrères."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Lyon",
+                            "lat": "45.758888888",
+                            "lon": "4.841388888"
+                     }
+              },
+              {
+                     "slug": "1542_M_le_cureX",
+                     "places": [
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Terre d'Israël",
+                                   "lat": "31.0",
+                                   "lon": "35.0"
+                            }
+                     ],
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1542",
+                            "month": "01",
+                            "day": "01"
+                     },
+                     "display_date": "[1542]",
                      "text": {
                             "headline": "Monsieur le curé",
                             "text": "Défense de la doctrine de l'église réformée contre l'accusation d'être la cause de la peste à Genève. Instruction de recourir à Dieu seul pour la délivrance."
                      },
                      "scr_location": {
-                            "name": "[Genève]",
+                            "name": "Genève",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Genève]",
+                            "name": "Genève",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
               },
               {
                      "slug": "1543_10_14_MadameDeFalais",
+                     "places": [
+                            {
+                                   "name": "Fallais",
+                                   "lat": "50.6111",
+                                   "lon": "5.1711"
+                            }
+                     ],
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f003r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f003r.jpg"
@@ -176,7 +448,7 @@
                      "display_date": "14 octobre (1543)",
                      "text": {
                             "headline": "Madame de Fallais",
-                            "text": "Encouragement de Calvin à Madame de Fallais qui partageait les sentiments de son époux quant à la religion réformée."
+                            "text": "Encouragement de Calvin à Madame de Fallais qui partageait les sentiments de son époux à propos de la religion réformée."
                      },
                      "scr_location": {
                             "name": "Genève",
@@ -184,13 +456,45 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Fallais]",
+                            "name": "Fallais",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
               },
               {
                      "slug": "1543_10_14_MonsieurFalais",
+                     "places": [
+                            {
+                                   "name": "Cologne",
+                                   "lat": "50.942222222",
+                                   "lon": "6.957777777"
+                            },
+                            {
+                                   "name": "Strasbourg",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Bâle",
+                                   "lat": "47.560555555",
+                                   "lon": "7.590555555"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Amsterdam",
+                                   "lat": "52.366666666",
+                                   "lon": "4.883333333"
+                            },
+                            {
+                                   "name": "Fallais",
+                                   "lat": "50.6111",
+                                   "lon": "5.1711"
+                            }
+                     ],
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f001r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f001r.jpg"
@@ -211,13 +515,20 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Fallais]",
+                            "name": "Fallais",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
               },
               {
                      "slug": "1543_fin_MFalais",
+                     "places": [
+                            {
+                                   "name": "Fallais",
+                                   "lat": "50.6111",
+                                   "lon": "5.1711"
+                            }
+                     ],
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF=%2Fhome%2Fhttpd%2Fbge%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f005r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF=%2Fhome%2Fhttpd%2Fbge%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f005r.jpg"
@@ -238,13 +549,20 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Fallais]",
+                            "name": "Fallais",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
               },
               {
                      "slug": "1544_06_24_MmeDeFalais",
+                     "places": [
+                            {
+                                   "name": "Cologne",
+                                   "lat": "50.942222222",
+                                   "lon": "6.957777777"
+                            }
+                     ],
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f009r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f009r.jpg"
@@ -272,6 +590,13 @@
               },
               {
                      "slug": "1546_01_20_MadameDEBude",
+                     "places": [
+                            {
+                                   "name": "Paris",
+                                   "lat": "48.856111111",
+                                   "lon": "2.345555555"
+                            }
+                     ],
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f006r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f006r.jpg"
@@ -299,6 +624,13 @@
               },
               {
                      "slug": "1548_06_NouveauConverti",
+                     "places": [
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f357r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f357r.jpg"
@@ -319,13 +651,25 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Genève]",
+                            "name": "Genève",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
               },
               {
                      "slug": "1552_10_06_SeigeursDeGeneve",
+                     "places": [
+                            {
+                                   "name": "Bourgogne",
+                                   "lat": "47.0",
+                                   "lon": "4.5"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f046r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_145%252Fms_fr_00145_f046r.jpg"
@@ -341,18 +685,45 @@
                             "text": "Réponse de Calvin aux accusations de Jean Trolliet concernant sa doctrine."
                      },
                      "scr_location": {
-                            "name": "[Genève]",
+                            "name": "Genève",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Genève]",
+                            "name": "Genève",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
               },
               {
                      "slug": "1552_Monsieur-deFalais",
+                     "places": [
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Bâle",
+                                   "lat": "47.560555555",
+                                   "lon": "7.590555555"
+                            },
+                            {
+                                   "name": "Thonon",
+                                   "lat": "46.370555555",
+                                   "lon": "6.479722222"
+                            },
+                            {
+                                   "name": "Veigy-Foncenex",
+                                   "lat": "46.271944444",
+                                   "lon": "6.258888888"
+                            },
+                            {
+                                   "name": "Berne",
+                                   "lat": "46.94798",
+                                   "lon": "7.44743"
+                            }
+                     ],
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f342r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f342r.jpg"
@@ -368,18 +739,40 @@
                             "text": "Dernière lettre de Calvin à M. de Fallais. Rupture de Calvin avec M. de Fallais quand ce dernier prit ouvertement le parti de Jérôme Bolsec contre Calvin."
                      },
                      "scr_location": {
-                            "name": "[Genève]",
+                            "name": "Genève",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Veigy-Foncenex]",
+                            "name": "Veigy-Foncenex",
                             "lat": "46.271944444",
                             "lon": "6.258888888"
                      }
               },
               {
                      "slug": "1553_03_12_RoiDAngleterre",
+                     "places": [
+                            {
+                                   "name": "Londres",
+                                   "lat": "51.507222222",
+                                   "lon": "-0.1275"
+                            },
+                            {
+                                   "name": "Paris",
+                                   "lat": "48.856111111",
+                                   "lon": "2.345555555"
+                            },
+                            {
+                                   "name": "Noyon",
+                                   "lat": "49.581111111",
+                                   "lon": "2.998888888"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
                      "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f035r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f035r.jpg"
@@ -391,7 +784,7 @@
                      },
                      "display_date": "12 de mars 1553",
                      "text": {
-                            "headline": "roi d'Angleterre",
+                            "headline": "Roi d'Angleterre",
                             "text": "Intercession de Calvin auprès du roi d'Angleterre en faveur d'un gentilhomme persécuté pour la religion."
                      },
                      "scr_location": {

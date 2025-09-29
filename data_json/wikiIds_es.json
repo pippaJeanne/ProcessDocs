@@ -31,6 +31,19 @@
                      "Ginebra": "https://www.wikidata.org/wiki/Q71"
               }
        },
+       "output/VF/es/1538_10_20_LouisdeTillet.xml": {
+              "persons": {
+                     "Louis de Tillet": "https://www.wikidata.org/wiki/Q3263586",
+                     "Jonás": "https://www.wikidata.org/wiki/Q2468262",
+                     "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
+              },
+              "places": {
+                     "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
+                     "París": "https://www.wikidata.org/wiki/Q90",
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "Orbe": "https://www.wikidata.org/wiki/Q68213"
+              }
+       },
        "output/VF/es/1541_02_19_senoresGinebra.xml": {
               "persons": {
                      "Consistorio de Ginebra": "https://www.wikidata.org/wiki/Q2994627",
@@ -40,7 +53,8 @@
                      "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
                      "Worms": "https://www.wikidata.org/wiki/Q3852",
-                     "Ratisbona": "https://www.wikidata.org/wiki/Q6602"
+                     "Ratisbona": "https://www.wikidata.org/wiki/Q2978",
+                     "Lausana": "https://www.wikidata.org/wiki/Q807"
               }
        },
        "output/VF/es/1541_09_29_senoresNeuchatel.xml": {
@@ -73,7 +87,22 @@
                      "Soubise": "https://www.wikidata.org/wiki/Q816315"
               }
        },
-       "output/VF/es/1542_05_Al_senor_cura.xml": {
+       "output/VF/es/1542_05_fielesLyon.xml": {
+              "persons": {
+                     "Iglesia de Lyon": "#",
+                     "Salomón": "https://www.wikidata.org/wiki/Q37085",
+                     "Pablo de Tarso": "https://www.wikidata.org/wiki/Q9200",
+                     "Paul de Tarse": "https://www.wikidata.org/wiki/Q9200",
+                     "Jean Calvin": "#"
+              },
+              "places": {
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Lyon": "https://www.wikidata.org/wiki/Q456",
+                     "París": "https://www.wikidata.org/wiki/Q90",
+                     "Francia": "https://www.wikidata.org/wiki/Q142"
+              }
+       },
+       "output/VF/es/1542_Al_senor_cura.xml": {
               "persons": {
                      "Párroco anónimo": "#",
                      "Jeremías": "https://www.wikidata.org/wiki/Q158825",
@@ -174,7 +203,7 @@
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
                      "Veigy-Foncenex": "https://www.wikidata.org/wiki/Q774121",
-                     "Basilea": "https://www.wikidata.org/wiki/Q70",
+                     "Basilea": "https://www.wikidata.org/wiki/Q78",
                      "Thonon": "https://www.wikidata.org/wiki/Q206165",
                      "Berna": "https://www.wikidata.org/wiki/Q70"
               }

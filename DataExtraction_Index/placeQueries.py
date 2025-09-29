@@ -4,7 +4,7 @@ import json
 from SPARQLWrapper import SPARQLWrapper, JSON
 #get json file contianing the data
 placedata = {}
-with open("data_json/wikiIds.json", "r") as indexData:
+with open("data_json/wikiIds_es.json", "r") as indexData:
   placedata = json.load(indexData) 
 # Preparing data for query
 # Getting access keys 
@@ -16,7 +16,9 @@ for f in files:
   if places is not None:
     for n in places:
       place[n] = placedata[f]["places"][n] 
+#print(place)
 
+# Getting wikidata ids
 uriswiki = {}
 for key in place.keys():
   if place[key] is not None and place[key].__contains__("wikidata"):
@@ -26,28 +28,29 @@ for key in place.keys():
 qwiki = []
 
 wikilist = list(uriswiki.keys())
-#print(uriswiki)
+print(uriswiki, len(wikilist))
 
 query_wiki = ""
 
 # Seting limit of about 25 for query, otherwise system crashes.
 limit = 25
-for w in wikilist: 
-  if wikilist.index(w) <= limit: 
+for w in wikilist:
+  if wikilist.index(w) <= limit:
     item = uriswiki[w]
     q = "{BIND(wd:" + item + " AS ?item) \n  OPTIONAL{?item wdt:P625  ?coord; wdt:P18 ?img. \n BIND(geof:longitude(?coord) AS   ?lon) \n BIND(geof:latitude(?coord) AS   ?lat) \n}}"
     qwiki.append(q)
     query_wiki =  " UNION ".join(qwiki)
-
+print(len(qwiki))
 # To execute query | Pass values for queries
 urlWikidata = "https://query.wikidata.org/sparql"
 sparql_wiki = SPARQLWrapper(urlWikidata)
-query = "\n PREFIX wdt: <http://www.wikidata.org/prop/direct/> \n PREFIX wd: <http://www.wikidata.org/entity/> \n PREFIX wikibase: <http://wikiba.se/ontology#> \n PREFIX geof: <http://www.opengis.net/def/geosparql/function/> \n SELECT DISTINCT ?item ?itemLabel ?itemDescription ?coord ?lon ?lat ?img \n  WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr' } \n }"
-print(query)
+query = "\n PREFIX wdt: <http://www.wikidata.org/prop/direct/> \n PREFIX wd: <http://www.wikidata.org/entity/> \n PREFIX wikibase: <http://wikiba.se/ontology#> \n PREFIX geof: <http://www.opengis.net/def/geosparql/function/> \n SELECT DISTINCT ?item ?itemLabel ?itemDescription ?coord ?lon ?lat ?img \n  WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'es' } \n }"
+#print(query)
 sparql_wiki.setQuery(query)
 sparql_wiki.setReturnFormat(JSON)
 results = sparql_wiki.query().convert()
-print(results)
+#print(len(results['results']['bindings']))
+
 #Organize results
 places = []
 
@@ -66,13 +69,14 @@ for result in results["results"]["bindings"]:
   if img is not None or  img != '':
     place["img"]=img
   places.append(place)
-#print(len(qwiki))
+print(len(results["results"]["bindings"]), len(places))
+#print(places, wikilist[:limit])
 
 # Do the rest (same limit)
 n = 2
 if len(wikilist) > limit:
   qwiki = []
-  newlimit = 25 * n
+  newlimit = limit * n
   for w in wikilist: 
     if wikilist.index(w) > limit and wikilist.index(w) <= newlimit: 
       #print(wikilist.index(w) > limit and wikilist.index(w) <= newlimit)
@@ -80,19 +84,14 @@ if len(wikilist) > limit:
       q = "{BIND(wd:" + item + " AS ?item) \n  OPTIONAL{?item wdt:P625  ?coord; wdt:P18 ?img. \n BIND(geof:longitude(?coord) AS   ?lon) \n BIND(geof:latitude(?coord) AS   ?lat) \n}}"
       qwiki.append(q)
       query_wiki =  " UNION ".join(qwiki)
-  sparql_wiki.setQuery("\n"
-"PREFIX wdt: <http://www.wikidata.org/prop/direct/> \n"
-"PREFIX wd: <http://www.wikidata.org/entity/> \n"
-"PREFIX wikibase: <http://wikiba.se/ontology#> \n"
-"PREFIX geof: <http://www.opengis.net/def/geosparql/function/> \n "
-"SELECT DISTINCT ?item ?itemLabel ?itemDescription ?coord ?lon ?lat ?img\n "
-"WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr' } \n"
-"}"
-)
+      query1 = "\n PREFIX wdt: <http://www.wikidata.org/prop/direct/> \n PREFIX wd: <http://www.wikidata.org/entity/> \n PREFIX wikibase: <http://wikiba.se/ontology#> \n PREFIX geof: <http://www.opengis.net/def/geosparql/function/> \n SELECT DISTINCT ?item ?itemLabel ?itemDescription ?coord ?lon ?lat ?img \n  WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'es' } \n }"
+      #print(qwiki)
+  sparql_wiki.setQuery(query1)
+
   sparql_wiki.setReturnFormat(JSON)
   #sparql_db.setReturnFormat(JSON)
   results = sparql_wiki.query().convert()
-  #results1 = sparql_db.query().convert()
+  
   for result in results["results"]["bindings"]:
     img = ""
     url = result["item"]["value"]
@@ -108,7 +107,7 @@ if len(wikilist) > limit:
     if img is not None or  img != '':
       place["img"]=img
     places.append(place)
-
+  print(len(results['results']['bindings']), len(places))
   limit = newlimit
   n+=1
 
@@ -116,14 +115,16 @@ if len(wikilist) > limit:
 jsonfile = places
 print(jsonfile)
 json_obj = json.dumps(jsonfile, indent=7, ensure_ascii = False)
-with open("data_json/placeData_MapIndex.json", "w") as outfile:
+with open("data_json/placeData_MapIndex_es.json", "w") as outfile:
     outfile.write(json_obj)
     print("Done!")
 
 # Create files for query
 jsonfile1 = query
+segment2 = query1
 json_obj1 = json.dumps(jsonfile1, indent=7, ensure_ascii = False)
-with open("placesQueryEs.txt", "w") as outfile:
+with open("placesQuery.txt", "a") as outfile:
     outfile.write(json_obj1)
+    outfile.write(segment2)
     print("Done!")
 

@@ -28,9 +28,10 @@ import json
 more_stopwords = ["tel", "telle", "tels", "telles", "tant", "d'un", "d'une", "c'est", "qu'il", "qu'elle", "afin", "est-ce", "qu'est-ce'"]
 stopword.extend(more_stopwords)
 
-file = open("Translations_txt/1538_10_20_LouisTillet.txt", encoding="utf-8")
+file = open("Translations_txt/1542_05_fidelesLyon.txt", encoding="utf-8")
 text = file.read()
 list_of_text = text.split("\n")
+print(text)
 
 def _pre_clean(list_of_text):
         cleaned_list = []
@@ -130,7 +131,9 @@ print(trigram_data)
 #from difflib import SequenceMatcher
 from itertools import combinations
 from sklearn.metrics.pairwise import cosine_similarity
-
+file = open("Translations_txt/1542_05_fidelesLyon.txt", encoding="utf-8") #Change file path
+text = file.read()
+#print(text)
 words = list(set(re.findall(r'\b\w+\b', text.lower())))
 print(words)
 similar_pairs = []
@@ -216,21 +219,21 @@ plt.grid(True)
 plt.show()
 
 
-
 # Test correlation (false results)
-vectorizer = CountVectorizer()
+
+vectorizer = CountVectorizer(binary=True)
 X = vectorizer.fit_transform(processed_texts)
 dframe = pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names_out())
 corr = dframe.corr('pearson')
 
 m = np.triu(np.ones(corr.shape), k=1).astype(bool)
 filtered = corr.where(m)
-filtered_corr = filtered.unstack().dropna().sort_values(ascending=False)[:10]
+filtered_corr = filtered.unstack().dropna().sort_values(ascending=False)[:20]
 axes = ["<—>".join(axis) for axis in filtered_corr.axes[0]]
 print(len(axes))
 
 vals = filtered_corr.values
-print(vals)
+print(vals[:10], filtered_corr[:10])
 
 
 

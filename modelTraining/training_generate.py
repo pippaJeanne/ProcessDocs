@@ -1,5 +1,13 @@
 from google import genai
 from google.genai import types
+import time
+from google import genai
+#from google.genai.types import HttpOptions, CreateTuningJobConfig, TuningDataset, TuningExample
+import vertexai
+from vertexai.generative_models import GenerativeModel
+from vertexai.tuning import sft
+from dotenv import load_dotenv
+load_dotenv()
 import json
 import os
 client = genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
@@ -9,7 +17,7 @@ for model_info in client.tunings.list():
     print(model_info.tuned_model.model)
 
 # Use base model
-# To help in the encoding of the structure of the letter given the template with the editorial protocol
+### To help in the encoding of the structure of the letter given the template with the editorial protocol
 template = open("templateEncodage.xml", "r").read()
 text = open("ToProcess.txt", "r").read()
 
@@ -31,15 +39,16 @@ for i in range(1,4): #number for last argument of range depends on number of let
 
 #####    
 # text to translate
-text = open("Translations_txt/1538_01_LouisduTillet.txt", "r").read()
+text = open("Translations_txt/1538_10_20_LouisTillet.txt", "r").read()
 
 # generate content with the tuned model
 # Segmenting text to fit the token limit
 limit = 4000
 nloops = len(text)//limit
-# output file
-outfile = open("Translations_txt/1538_01_LouisduTilletES.txt", "a", encoding="utf8")
-for i in range(0,nloops+1):
+
+# output file | change name of file following the model => 1538_10_20_NomDestinataireES.txt
+outfile = open("Translations_txt/1538_10_20_LouisTilletES.txt", "a", encoding="utf8")
+for i in range(nloops+1):
     milestone = i * limit
     if milestone < len(text):
         substring = text[milestone:milestone+limit]
@@ -48,70 +57,105 @@ for i in range(0,nloops+1):
     #    substring = text[i:i+limit]
         
         response = client.models.generate_content(
-            model="tunedModels/tradcalvinfres-jeclu1o78weer7wramhdpb312",
+            model="gemini-2.5-flash",
     #model=tuning_job.tuned_model.model,
     contents=f"Traduis le texte suivant vers l'espagnol.\nTexte : {substring}",
 )
         outfile.write(response.text)
 
 
-#For finetuning the model
-file = open("output_finetuning01.json", "r") #dataset
-training_dataset = json.load(file)
-# print(training_dataset)
-#To check length of strings (has to be < 5000)
-for i in range(len(training_dataset)):
-    print(f"{i} {len(training_dataset[i]['input'])}")
-    print(f"{i} {len(training_dataset[i]['output'])}")
-    
-training_dataset=types.TuningDataset(
-        examples=[
-            types.TuningExample(
-                text_input=i["input"],
-                output=i["output"],
-            )
-            for i in training_dataset
-        ],
-    )
-tuning_job = client.tunings.tune(
-    base_model='models/gemini-1.5-flash-001-tuning',
-    training_dataset=training_dataset,
-    config=types.CreateTuningJobConfig(
-        epoch_count= 5,
-        batch_size=4,
-        learning_rate=0.001,
-        tuned_model_display_name="trad_Calvin_FR-ES"
-    )
+# Translating a short text with the base model
+response = client.models.generate_content(
+            model="gemini-2.5-flash",
+    #model=tuning_job.tuned_model.model,
+    contents=f"Traduis le texte suivant vers l'espagnol.\nTexte : ' '",
 )
+print(response.text)
+
+
+######### For finetuning the model
+
+#file = open("trainingdata_finetuning_expanded.jsonl", "r") #dataset
+#training_dataset = json.load(file)
+#print(training_dataset)
+#To check length of strings (has to be < 4000)
+#for i in range(len(training_dataset)):
+ #   print(f"{i} {len(training_dataset[i]['input'])}")
+  #  print(f"{i} {len(training_dataset[i]['output'])}")
+    
+PROJECT_ID = os.environ.get('GOOGLE_CLOUD_PROJECT')  # Replace with your Google Cloud project ID
+
+vertexai.init(project=PROJECT_ID, location="us-central1")
+
+sft_tuning_job = sft.train(
+  source_model="translation-llm-002",
+    train_dataset="gs://training-data-calvin/trainingdata_finetuning_expanded.jsonl",
+    # The following parameters are optional
+    #validation_dataset="gs://cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_validation_data.jsonl",
+    tuned_model_display_name="CalvinFrenchSpanish_v2",
+)
+
+# Polling for job completion
+while not sft_tuning_job.has_ended:
+  time.sleep(60)
+  sft_tuning_job.refresh()
+
+print(sft_tuning_job.tuned_model_name)
+print(sft_tuning_job.tuned_model_endpoint_name)
+#print(sft_tuning_job.experiment)
+
+#sft_tuning_job = sft.SupervisedTuningJob("projects/<PROJECT_ID>/locations/us-central1/tuningJobs/<TUNING_JOB_ID>")
+
+######################
+# Using the tuned model for translation
+### text to translate 
+text = open("Translations_txt/1542_05_fidelesLyon.txt", "r").read()
+
+# generate content with the tuned model
+# Segmenting text to fit the token limit
+limit = 3900
+nloops = len(text)//limit
+# output file | change name of file following the model => 1538_10_20_NomDestinataireES.txt
+outfile = open("Translations_txt/1542_05_fidelesLyonES.txt", "a", encoding="utf8")
+for i in range(nloops+1):
+    milestone = i * limit
+    if milestone < len(text):
+        substring = text[milestone:milestone+limit]
+        contents= substring
+        
+        tuned_model = GenerativeModel(sft_tuning_job.tuned_model_endpoint_name)
+        response = tuned_model.generate_content(contents)
+        #print(response.text)
+        outfile.write(response.text)
+
+
 # Check models list
 for model_info in client.models.list():
     print(model_info.name)
 
 
-# Translating remaining text
-#laststr = text[limit * nloops - 10:len(text)] 
+ # To help in the encoding of the structure of set of letters (Spanish translation) given the template with the editorial protocol 
 
-#response = client.models.generate_content(
-#    model="tunedModels/tradcalvinfres-jeclu1o78weer7wramhdpb312",
-    #model=tuning_job.tuned_model.model,
-#    contents=f"Traduis le texte suivant vers l'espagnol.\nTexte : {laststr}",
-#)
-# print(response.text)
-#outfile.write(f"\n {response.text}")
+# List of translated texts to process
+traslations = ["Translations_txt/1538_10_20_LouisTilletES.txt", "Translations_txt/1542_05_fidelesLyonES.txt"]
+reference = ["output/VF/1538_10_20_LouisTillet.xml", "output/VF/1542_05_fidelesLyon.xml"]
 
-######################
-# Segmenting text to fit the token limit
-#limit = 4000
-#nloops = len(text)//limit
-# rest = len(text1) - (limit * nloops)
-#for i in range(0,nloops):
-    #if i < nloops:
-        #substring = text[i:i+limit]
-        # print(substring)
-#        outfile = open("Translations_txt/sectioning_test.txt", "a", encoding="utf8")
-        #outfile.write(substring)
-#laststr = text[limit * nloops - 10:len(text)]
-# print(laststr)
-# outfile.write(f"\n {laststr}")
+for doc in traslations:
+    for ref in reference:
+        if doc.split("/")[-1].split("ES.")[0] in ref:
+            print("doc and ref match")            
+            slices = doc.split("/")
+            name = slices[-1].replace(".txt",".xml") #Change format txt | xml
+            print(name)
+            
+            text = open(doc, "r").read()
 
+            template = open("templateXMLes.xml", "r").read()
+            reference_content = open(ref, "r").read()
 
+            response = client.models.generate_content(
+                model='gemini-2.5-flash', contents=f"En prenant le modèle d'encodage TEI dans {template} et la référence dans {reference_content}, prends la traduction dans {text} de la lettre et fais l'encodage TEI de la traduction en suivant le modèle fourni. Produis le contenu dans un fichier XML-TEI.")
+            with open(f"output/VF/es/{name}", "w", encoding="utf8") as outfile:
+                outfile.write(response.text)
+            print("Done!")
+            time.sleep(20) #to avoid sending requests too quickly

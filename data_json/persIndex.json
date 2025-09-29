@@ -18,6 +18,12 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Renee%20de%20france.jpg"
        },
        {
+              "name": "Jonas ( - )",
+              "desc": "prophète biblique et coranique",
+              "url": "http://www.wikidata.org/entity/Q2468262",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jonah.jpg"
+       },
+       {
               "name": "Philippe Mélanchthon (1497 - 1560)",
               "desc": "Humaniste, philosophe et réformateur protestant allemand",
               "url": "http://www.wikidata.org/entity/Q76325",
@@ -28,6 +34,12 @@
               "desc": "roi consort de Navarre",
               "url": "http://www.wikidata.org/entity/Q310334",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20-%20Portrait%20of%20Anthony%20of%20Bourbon%20%281518%E2%80%931562%29%2C%20King%20of%20Navarre%20-%20MNK%20XII-294%20-%20National%20Museum%20Krak%C3%B3w.jpg"
+       },
+       {
+              "name": "Salomon ( - )",
+              "desc": "personnage biblique",
+              "url": "http://www.wikidata.org/entity/Q37085",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg"
        },
        {
               "name": "Pierre (0000 - 0065)",

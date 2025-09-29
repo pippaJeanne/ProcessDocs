@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carta a Louis de Tillet</title>
+            <editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>TEI Consortium</publisher>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+         3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc corresp="LouisTillet_38_10_20">
+            <bibl>
+               Traducción de la versión modernizada de
+               <title level="a" rend="underline">Lettre à Louis de Tillet (20 octobre 1538)</title> editada por 
+               <editor>
+                  <name>
+                     <forename>Yanet</forename>
+                     <surname>Hernández Pedraza</surname>
+                  </name>
+               </editor>.
+            </bibl>
+            <notesStmt>
+               <note>Las notas provienen de la edición de Jules Bonnet de 1854 
+          a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+            </notesStmt>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Juan Calvino
+                  <addName type="pseudonym">Charles d'Espeville</addName>
+               </persName>
+               <settlement key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Estrasburgo</settlement>
+               <date when="1538-10-20">20 de octubre de 1538</date>
+            </correspAction>
+            <correspAction type="received">
+               <name type="individuo" key="Louis de Tillet" ref="https://www.wikidata.org/wiki/Q3263586" corresp="#louis-tillet">Louis de Tillet</name>
+               <settlement key="París" corresp="#paris" ref="https://www.wikidata.org/wiki/Q90">París</settlement>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="#">
+                  <persName/>
+                  <date from="1500" to="1600"/>
+               </ref>
+               <ref type="next" target="#">
+                  <persName/>
+                  <date/>
+               </ref>
+            </correspContext>
+         </correspDesc>
+         <desc>Respuesta de Calvino a una carta de Louis de Tillet tras el destierro de Calvino y Farel de Ginebra.</desc>
+         <list xml:id="tags">
+            <term>amonestaciones</term>
+            <term>agradecimiento</term>
+            <term>respuesta</term>
+            <term>juicio</term>
+            <term>vocación</term>
+            <term>introspección</term>
+         </list>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <address>
+               <addrLine>A <persName type="individuo" key="Louis de Tillet" ref="https://www.wikidata.org/wiki/Q3263586" corresp="#louis-tillet">Louis de Tillet</persName>
+                  <note n="*" place="bottom">
+                     <p>En una nueva carta a Calvino (7 de septiembre de 1538), <persName key="Louis de Tillet" ref="https://www.wikidata.org/wiki/Q3263586" corresp="#louis-tillet">Louis de Tillet</persName> había considerado oportuno señalar los acontecimientos recientes de <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</placeName>, como un castigo providencial, destinado a recordar a su antiguo amigo del camino del cisma: «Creo que las cosas que le han sucedido se han tratado y dado seguimiento por mala voluntad de personas que se preocupan más por los fines de este mundo que por Dios. Pero, lo que le ruego que tome a bien, es que creo que tiene más bien que considerar si nuestro Señor no quiere advertirle con esto que piense si no ha habido nada que reprochar en su administración, y que se humille ante él, y que, por este medio, los grandes dones y gracias que nuestro Señor le ha concedido sean rectamente empleados para su gloria, para la salvación de sus elegidos, y que por esta causa se le aumenten cada vez más». Calvino responde a esta objeción, y apela de «la sentencia de los sabios» ante el tribunal de Dios.</p>
+                  </note>
+               </addrLine>
+            </address>
+            <dateline xml:id="opener">[Enviada a <placeName key="París" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">París</placeName>]
+            </dateline>
+            <hi rend="bold">
+               <label type="nature">Copia</label>. Biblioteca Imperial de París. Mss. français. Fonds Baluze. 8069-5.</hi>
+            <hi xml:id="editorNote">[Ahora Biblioteca Nacional de Francia (BNF). Gallica. Français 2391 (f. 22-24)]</hi>
+            <salute/>
+         </opener>
+         <p>Hace mucho tiempo que nuestro Señor me había inculcado tan intensamente en mi interior las exhortaciones y amonestaciones que figuran en su carta, que no podía sino tomarlas a bien, si no quería contradecir a mi conciencia. Veo en lo que me exhorta que, en lo que nuestro Señor ha hecho por mí, tengo materia y ocasión para reconocer mis faltas. Y no me he limitado a considerarlas en mí mismo, sino que, como era mi deber, no he tenido reparos en confesarlas ante aquellos que se habrían alegrado más de justificarme que de pensar que había algo que reprocharme. Es cierto que en cuanto a nuestros adversarios siempre he mantenido mi inocencia, tal como podía testificarla ante Dios. Del mismo modo, no siempre he dado crédito a quienes hacen juicios temerarios, como la mayoría de ellos se atreven a determinar la naturaleza de la enfermedad, sin conocer su raíz. Pero no he dejado de decir, ni en público ni en privado, que debíamos tomar esta calamidad como un castigo notable por nuestra ignorancia y otros vicios que lo requerían. Cuáles son mis faltas en particular, aunque veo muchas, considero que no veo las más grandes, ni el mayor número. Sin embargo, ruego al Señor que me las manifieste cada día más claramente; las que usted señala no me son de utilidad. Si se tratara de disputar mi vocación, creo que no tiene usted razones tan firmes para atacarla como las que el Señor me da para confirmarme en ella. Si tiene dudas, me basta que yo tenga la certeza, y no solo eso, sino que pueda demostrarla a quienes quieran someter sus censuras a la verdad. No me amonesta sin razón al decir que es malo confiar demasiado en el propio juicio, pues conozco mi alcance de tal modo que no sabría presumir tan poco de mí mismo que no fuera ya demasiado. Pero me gustaría que tuviera la opinión de que las quejas que ha oído de mí en el pasado no eran fruto de disimulación, las cuales demostraban que estaba lejos de ser capaz de soportar la carga que tenía.</p>
+
+         <p>Se detiene mucho en el punto de que existe el riesgo de que nos perjudique retractarnos con cierta vergüenza por nuestra ligereza, cuando hemos precipitado nuestra sentencia antes de tiempo. Por mi parte, como sé que tengo razón al temer que esta ambición loca me sea un velo que me impida ver correctamente, también espero que nuestro Señor no me deje caer en este orgullo que solo para tener todo mi honor me obstino voluntariamente contra su verdad. He discutido este asunto con algunas personas que conoce. Todavía no puedo ver nada más que lo que he declarado. No sé si el testigo que estaba allí le habría informado de ello directamente, como tiene por costumbre revertir y confundir.</p>
+         <p>En cuanto a condenar a los demás, me veo obligado a decirle una cosa, que posiblemente no le complazca. Querría que tomara algunas de estas exhortaciones para usted. Porque al llamar <hi xml:lang="lat" rend="italic">tenebras</hi>
+            <note n="1" type="tradLat" place="bottom">
+               <p>tinieblas</p>
+            </note>
+            <hi xml:lang="lat" rend="italic">lucem</hi>
+            <note n="2" type="tradLat" place="bottom">
+               <p>luz</p>
+            </note> en toda su carta, condena a los que caminan más rectamente que todos los suyos en este lugar. No entraré en disputa, también porque no es su intención, pero me gustaría saber qué equidad es que una persona tome decisiones en un gabinete para condenar a todos los que mantienen diariamente su doctrina ante todos, y sin embargo consideren presuntuoso que estos se atrevan a condenar a los enemigos manifiestos de Dios y de su majestad. Tomo lo que dice en este asunto como procedente de un buen corazón, pero lo atribuyo a una mente diferente a la de Dios. En cuanto a mi retiro, le confieso que me pareció extraño la primera palabra que dijo al respecto, buscar el medio de volver a un lugar que sería como un infierno. La tierra es del Señor, dirá. Es cierto, pero le ruego que me permita seguir la regla de mi conciencia, que sé que es más segura que la suya. En cuanto a volver al cargo, me habría gustado ser creído, y si solo tuviera que lidiar con los que usted podría considerar demasiado duros e imprudentes para poner a la gente a trabajar, no me habría apresurado en absoluto, pero cuando los más moderados me amenazan con que el Señor me encontraría como a <persName key="Jonás" ref="https://www.wikidata.org/wiki/Q2468262" corresp="#jonas">Jonás</persName>, y cuando llegan a decir: <hi xml:lang="lat" rend="italic">Finge tua unius culpâ perditam Ecclesiam. Quœ tamen melior pœnitentiœ ratio, quam ùt te Domino totum exhibeas ? Tu istis dôtibus prœditus, qua conscientia oblatum ministerium repudies, etc.</hi>
+            <note n="3" type="tradLat" place="bottom">
+               <p>Imagina que la Iglesia se ha perdido por su sola culpa. Pero ¿qué mejor manera de arrepentirse que de presentarse entero al Señor? ¿Con qué conciencia rechaza el ministerio que se le ofrece, usted que está dotado de tales dones, etc.?</p>
+            </note> No supe qué hacer, excepto proponerles mis razones para renunciar, para poder seguir mi propósito con su consentimiento. Después de que esto no valiera, pensé que era necesario en tal perplejidad seguir lo que me habían mostrado los servidoress de Dios. Le aseguro que la solicitud del cuerpo no me habría llevado a este punto, pues ya había decidido tratar de ganarme la vida en privado, lo que no me parecía en absoluto imposible; pero consideré que la voluntad de Dios me conducía a otra parte. Si he fallado, le ruego que me reprenda, pero que no sea por una condena simple y precisa, a la que no podría dar autoridad contra tantas razones y testimonios de personas que no son despreciables, y que no deben serlo.</p>
+         <p>Me hace una oferta que no puedo agradecerle lo suficiente, y no soy tan inhumano como para no sentir su gratuidad tan grande, que incluso no aceptándola nunca podría satisfacer la obligación que le debo a él. Pero me abstendré de imponer cargas a nadie, especialmente a usted, que ya ha tenido demasiadas en el pasado. Por ahora, mi comida no me cuesta nada. Las necesidades que van más allá de la boca, las cubrirá el dinero de los libros, pues espero que tenga la amabilidad de darme otros si es necesario. Si hubiera dirigido sus palabras solo a mí, de modo que no hubiera habido nota sobre mi persona, lo habría soportado fácilmente. Pero como no perdona la verdad de Dios, ni a sus servidoress, me ha sido necesario responderle en pocas palabras, para que no le pareciera que yo quisiera darle la razón. Creo que ha considerado nuestra aflicción como suficiente para ponerme en extrema perplejidad, hasta el punto de despreciar todo el estado anterior. Es cierto que me he visto muy afligido, pero no hasta el punto de decir <hi xml:lang="lat" rend="italic">Nescio ubi sint viœ Domini</hi>
+            <note n="4" type="tradLat" place="bottom">
+               <p>No conozco los caminos del Señor</p>
+            </note> ; por lo que estas tentaciones me son objetadas en vano. Uno de mis compañeros
+            <note n="5" place="bottom"><p>El antiguo monje agustino <persName key="Courault" ref="https://www.wikidata.org/wiki/Q136222425" type="surname">Courault</persName>, un predicador entusiasta de la Reforma en <placeName key="París" ref="https://www.wikidata.org/wiki/Q90">París</placeName> y <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</placeName>: Desterrado de <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">esta última ciudad</placeName> con Calvino y <persName key="Guillaume Farel" ref="https://www.wikidata.org/wiki/Q435456" type="surname">Farel</persName>, murió en <placeName key="Orbe" ref="https://www.wikidata.org/wiki/Q68213">Orbe</placeName> (4 de octubre de 1538).</p></note> ahora está ante Dios para rendir cuentas de la causa que tuvo en común con nosotros. Cuando lleguemos allí, sabremos de qué lado estuvo la temeridad o la desviación. Aquí es donde apelo al juicio de todos los sabios, que creen que su simple palabra tiene suficiente peso para condenarnos. Allí darán testimonio los ángeles de Dios, que son cismáticos.</p>
+         <p>Después de haberme encomendado humildemente a su buena gracia, rogaré a nuestro Señor que le quiera mantener y conservar bajo su santa protección, guiándole de manera que no se desvíe de su camino.</p>
+         <closer>
+            <dateline>Desde 
+               <placeName key="Estrasburgo" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>, 
+               <date when="1538-10-20">este 20 de octubre (1538)</date>.
+            </dateline>
+            <salute>Su humilde servidor y amigo verdadero</salute>
+            <signed>
+               <persName key="Charles d'Espeville" ref="https://www.wikidata.org/wiki/Q133821751" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName>.
+            </signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

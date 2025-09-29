@@ -30,7 +30,7 @@
  <correspDesc>
   <correspAction type="sent">
   <persName>Juan Calvino</persName>
-  <settlement>Ginebra</settlement>
+  <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
   <date when="1541-09-29"> 29 de septiembre de 1541</date>
  </correspAction>
  <correspAction type="received">

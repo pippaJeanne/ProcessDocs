@@ -32,6 +32,19 @@
                      "Genève": "https://www.wikidata.org/wiki/Q71"
               }
        },
+       "output/VF/1538_10_20_LouisTillet.xml": {
+              "persons": {
+                     "Louis du Tillet": "https://www.wikidata.org/wiki/Q3263586",
+                     "Jonas": "https://www.wikidata.org/wiki/Q2468262",
+                     "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
+              },
+              "places": {
+                     "Strasbourg": "https://www.wikidata.org/wiki/Q6602",
+                     "Paris": "https://www.wikidata.org/wiki/Q90",
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Orbe": "https://www.wikidata.org/wiki/Q68213"
+              }
+       },
        "output/VF/1541_02_19_SeigneursGeneve.xml": {
               "persons": {
                      "Consistoire de Genève": "https://www.wikidata.org/wiki/Q2994627",
@@ -41,7 +54,8 @@
                      "Strasbourg": "https://www.wikidata.org/wiki/Q6602",
                      "Genève": "https://www.wikidata.org/wiki/Q71",
                      "Worms": "https://www.wikidata.org/wiki/Q3852",
-                     "Ratisbonne": "https://www.wikidata.org/wiki/Q6602"
+                     "Ratisbonne": "https://www.wikidata.org/wiki/Q2978",
+                     "Lausanne": "https://www.wikidata.org/wiki/Q807"
               }
        },
        "output/VF/1541_09_29_SeigneursNeuchatel.xml": {
@@ -75,7 +89,21 @@
                      "Marennes": "https://www.wikidata.org/wiki/Q3290413"
               }
        },
-       "output/VF/1542_05_M_le_cureX.xml": {
+       "output/VF/1542_05_fidelesLyon.xml": {
+              "persons": {
+                     "Église de Lyon": "#",
+                     "Salomon": "https://www.wikidata.org/wiki/Q37085",
+                     "Paul de Tarse": "https://www.wikidata.org/wiki/Q9200",
+                     "Jean Calvin": "#"
+              },
+              "places": {
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Lyon": "https://www.wikidata.org/wiki/Q456",
+                     "Paris": "https://www.wikidata.org/wiki/Q90",
+                     "France": "https://www.wikidata.org/wiki/Q142"
+              }
+       },
+       "output/VF/1542_M_le_cureX.xml": {
               "persons": {
                      "Curé anonyme": "#",
                      "Paul de Tarse": "https://www.wikidata.org/wiki/Q9200",
@@ -175,7 +203,7 @@
               "places": {
                      "Genève": "https://www.wikidata.org/wiki/Q71",
                      "Veigy-Foncenex": "https://www.wikidata.org/wiki/Q774121",
-                     "Bâle": "https://www.wikidata.org/wiki/Q70",
+                     "Bâle": "https://www.wikidata.org/wiki/Q78",
                      "Thonon": "https://www.wikidata.org/wiki/Q206165",
                      "Berne": "https://www.wikidata.org/wiki/Q70"
               }

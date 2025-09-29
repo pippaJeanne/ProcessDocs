@@ -31,7 +31,7 @@
   <correspAction type="sent">
   <persName>Juan Calvino</persName>
  <settlement cert="low" key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Ginebra]</settlement>
-  <date when="1542-05">[mayo de 1542]</date>
+  <date when="1542">[1542]</date>
  </correspAction>
   <correspAction type="received">
   <name type="individuo" key="Párroco anónimo" ref="#" corresp="#cure">Párroco anónimo</name>
@@ -78,7 +78,7 @@
 <p>Así pues, que nuestro Señor Jesús le quiera abrir los ojos para que vea lo que quiere decir cuando se llama a sí mismo la única salvación, la única vida, la única santificación, la única sabiduría, la única seguridad de los hombres, para que todos nosotros, sabiendo que es así, le glorifiquemos de común acuerdo, tanto con el corazón como con la boca, y de la misma manera en todas nuestras obras, para que, como todos hemos sido bautizados en su nombre, todos tengamos la misma confesión de nuestro cristianismo.</p>
 
  <closer>
-    <dateline><placeName></placeName><date from="1542" to="1543" when="1542-05">(1542-43.)</date>
+    <dateline><placeName></placeName><date from="1542" to="1543" when="1542">(1542-43.)</date>
       </dateline> 
       <salute></salute>
       <signed></signed>

@@ -2,6 +2,43 @@
        "events": [
               {
                      "slug": "1538_01_LuisdeTillet",
+                     "places": [
+                            {
+                                   "name": "Angulema",
+                                   "lat": "45.649444444",
+                                   "lon": "0.159444444"
+                            },
+                            {
+                                   "name": "Parlamento de París",
+                                   "lat": "48.856111111",
+                                   "lon": "2.345555555"
+                            },
+                            {
+                                   "name": "Universidad de París",
+                                   "lat": "48.848611",
+                                   "lon": "2.343333"
+                            },
+                            {
+                                   "name": "Estrasburgo",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Basilea",
+                                   "lat": "47.560555555",
+                                   "lon": "7.590555555"
+                            },
+                            {
+                                   "name": "Italia",
+                                   "lat": "42.5",
+                                   "lon": "12.5"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
                      "start_date": {
                             "year": "1538",
                             "month": "01",
@@ -25,6 +62,33 @@
               },
               {
                      "slug": "1538_07_10_LouisTillet",
+                     "places": [
+                            {
+                                   "name": "París",
+                                   "lat": "48.848611",
+                                   "lon": "2.343333"
+                            },
+                            {
+                                   "name": "Berna",
+                                   "lat": "46.94798",
+                                   "lon": "7.44743"
+                            },
+                            {
+                                   "name": "Basilea",
+                                   "lat": "47.560555555",
+                                   "lon": "7.590555555"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Estrasburgo",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            }
+                     ],
                      "start_date": {
                             "year": "1538",
                             "month": "07",
@@ -47,7 +111,79 @@
                      }
               },
               {
+                     "slug": "1538_10_20_LouisdeTillet",
+                     "places": [
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "París",
+                                   "lat": "48.848611",
+                                   "lon": "2.343333"
+                            },
+                            {
+                                   "name": "Orbe",
+                                   "lat": "46.724452777",
+                                   "lon": "6.532227777"
+                            },
+                            {
+                                   "name": "Estrasburgo",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            }
+                     ],
+                     "start_date": {
+                            "year": "1538",
+                            "month": "10",
+                            "day": "20"
+                     },
+                     "display_date": "20 de octubre de 1538",
+                     "text": {
+                            "headline": "Louis de Tillet",
+                            "text": "Respuesta de Calvino a una carta de Louis de Tillet tras el destierro de Calvino y Farel de Ginebra."
+                     },
+                     "scr_location": {
+                            "name": "Estrasburgo",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     },
+                     "dest_location": {
+                            "name": "París",
+                            "lat": "48.856666666",
+                            "lon": "2.352222222"
+                     }
+              },
+              {
                      "slug": "1541_02_19_senoresGinebra",
+                     "places": [
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Worms",
+                                   "lat": "49.6302618",
+                                   "lon": "8.3620898"
+                            },
+                            {
+                                   "name": "Ratisbona",
+                                   "lat": "49.016666666",
+                                   "lon": "12.083333333"
+                            },
+                            {
+                                   "name": "Lausana",
+                                   "lat": "46.533333333",
+                                   "lon": "6.633333333"
+                            },
+                            {
+                                   "name": "Estrasburgo",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            }
+                     ],
                      "start_date": {
                             "year": "1541",
                             "month": "02",
@@ -71,8 +207,20 @@
               },
               {
                      "slug": "1541_09_29_senoresNeuchatel",
+                     "places": [
+                            {
+                                   "name": "Neuchâtel",
+                                   "lat": "46.990277777",
+                                   "lon": "6.930555555"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
                      "start_date": {
-                            "year": "1538",
+                            "year": "1541",
                             "month": "09",
                             "day": "29"
                      },
@@ -94,6 +242,43 @@
               },
               {
                      "slug": "1541_10_duquesaFerrara",
+                     "places": [
+                            {
+                                   "name": "Castillo de Blois",
+                                   "lat": "47.585501",
+                                   "lon": "1.33095"
+                            },
+                            {
+                                   "name": "castillo de Montargis",
+                                   "lat": "47.999",
+                                   "lon": "2.72845"
+                            },
+                            {
+                                   "name": "Italia",
+                                   "lat": "42.5",
+                                   "lon": "12.5"
+                            },
+                            {
+                                   "name": "Francia",
+                                   "lat": "47.0",
+                                   "lon": "2.0"
+                            },
+                            {
+                                   "name": "Ferrara",
+                                   "lat": "44.839166666",
+                                   "lon": "11.6175"
+                            },
+                            {
+                                   "name": "Soubise",
+                                   "lat": "45.925277777",
+                                   "lon": "-1.008888888"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
                      "start_date": {
                             "year": "1541",
                             "month": "10",
@@ -101,7 +286,7 @@
                      },
                      "display_date": "[octubre 1541]",
                      "text": {
-                            "headline": "A la duquesa de Ferrara",
+                            "headline": "Duquesa de Ferrara",
                             "text": "Calvino instruye acerca de los errores de la misa."
                      },
                      "scr_location": {
@@ -110,36 +295,115 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Ferrara]",
-                            "lat": "44.835297",
-                            "lon": "11.619865"
+                            "name": "Ferrara",
+                            "lat": "44.839166666",
+                            "lon": "11.6175"
                      }
               },
               {
-                     "slug": "1542_05_Al_senor_cura",
+                     "slug": "1542_05_fielesLyon",
+                     "places": [
+                            {
+                                   "name": "Lyon",
+                                   "lat": "45.758888888",
+                                   "lon": "4.841388888"
+                            },
+                            {
+                                   "name": "París",
+                                   "lat": "48.848611",
+                                   "lon": "2.343333"
+                            },
+                            {
+                                   "name": "Francia",
+                                   "lat": "47.0",
+                                   "lon": "2.0"
+                            }
+                     ],
                      "start_date": {
                             "year": "1542",
                             "month": "05",
                             "day": "01"
                      },
-                     "display_date": "[mayo de 1542]",
+                     "display_date": "mayo de 1542",
+                     "text": {
+                            "headline": "Fieles de Lyon",
+                            "text": "Carta que advierte a los fieles de Lyon de los actos de un monje carmelita apóstata que había predicado la Cuaresma anterior en Lyon y que denigró a Calvino y a sus colegas."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Lyon",
+                            "lat": "45.758888888",
+                            "lon": "4.841388888"
+                     }
+              },
+              {
+                     "slug": "1542_Al_senor_cura",
+                     "places": [
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Tierra de Israel",
+                                   "lat": "31.0",
+                                   "lon": "35.0"
+                            }
+                     ],
+                     "start_date": {
+                            "year": "1542",
+                            "month": "01",
+                            "day": "01"
+                     },
+                     "display_date": "[1542]",
                      "text": {
                             "headline": "Párroco anónimo",
                             "text": "Defensa de la doctrina de la iglesia reformada contra la acusación de ser la causa de la peste en Ginebra. Instrucción de recurrir solo a Dios por liberación."
                      },
                      "scr_location": {
-                            "name": "[Ginebra]",
+                            "name": "Ginebra",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Ginebra]",
+                            "name": "Ginebra",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
               },
               {
                      "slug": "1543_10_14_SenorFalais",
+                     "places": [
+                            {
+                                   "name": "Colonia",
+                                   "lat": "50.942222222",
+                                   "lon": "6.957777777"
+                            },
+                            {
+                                   "name": "Estrasburgo",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Basilea",
+                                   "lat": "47.560555555",
+                                   "lon": "7.590555555"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Fallais",
+                                   "lat": "50.6111",
+                                   "lon": "5.1711"
+                            }
+                     ],
                      "start_date": {
                             "year": "1543",
                             "month": "10",
@@ -151,18 +415,25 @@
                             "text": "Calvino le da su consejo al señor de Fallais quien consideraba dejar los Países Bajos."
                      },
                      "scr_location": {
-                            "name": "[Ginebra]",
+                            "name": "Ginebra",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Fallais]",
+                            "name": "Fallais",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
               },
               {
                      "slug": "1543_10_14_SenoraFalais",
+                     "places": [
+                            {
+                                   "name": "Fallais",
+                                   "lat": "50.6111",
+                                   "lon": "5.1711"
+                            }
+                     ],
                      "start_date": {
                             "year": "1543",
                             "month": "10",
@@ -179,13 +450,20 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Fallais]",
+                            "name": "Fallais",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
               },
               {
                      "slug": "1543_finales_SenorDeFalais",
+                     "places": [
+                            {
+                                   "name": "Fallais",
+                                   "lat": "50.6111",
+                                   "lon": "5.1711"
+                            }
+                     ],
                      "start_date": {
                             "year": "1543",
                             "month": "12",
@@ -202,13 +480,20 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Fallais]",
+                            "name": "Fallais",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
               },
               {
                      "slug": "1544_06_24_SraDeFalais",
+                     "places": [
+                            {
+                                   "name": "Colonia",
+                                   "lat": "50.942222222",
+                                   "lon": "6.957777777"
+                            }
+                     ],
                      "start_date": {
                             "year": "1544",
                             "month": "06",
@@ -232,6 +517,13 @@
               },
               {
                      "slug": "1546_01_20_SraDeBude",
+                     "places": [
+                            {
+                                   "name": "París",
+                                   "lat": "48.848611",
+                                   "lon": "2.343333"
+                            }
+                     ],
                      "start_date": {
                             "year": "1546",
                             "month": "01",
@@ -255,6 +547,13 @@
               },
               {
                      "slug": "1548_06_NuevoCreyente",
+                     "places": [
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
                      "start_date": {
                             "year": "1548",
                             "month": "06",
@@ -278,6 +577,18 @@
               },
               {
                      "slug": "1552_10_06_SenoresDeGinebra",
+                     "places": [
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Borgoña",
+                                   "lat": "47.0",
+                                   "lon": "4.5"
+                            }
+                     ],
                      "start_date": {
                             "year": "1552",
                             "month": "10",
@@ -286,10 +597,10 @@
                      "display_date": "[6 de octubre de 1552]",
                      "text": {
                             "headline": "Señores de Ginebra",
-                            "text": "Respuesta de Calvino a las acusaciones de Jean Trolliet concerniendo su doctrina."
+                            "text": "Respuesta de Calvino a las acusaciones de Jean Trolliet con respecto a su doctrina."
                      },
                      "scr_location": {
-                            "name": "[Ginebra]",
+                            "name": "Ginebra",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
@@ -301,6 +612,33 @@
               },
               {
                      "slug": "1552_SrDeFalais",
+                     "places": [
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Basilea",
+                                   "lat": "47.560555555",
+                                   "lon": "7.590555555"
+                            },
+                            {
+                                   "name": "Thonon",
+                                   "lat": "46.370555555",
+                                   "lon": "6.479722222"
+                            },
+                            {
+                                   "name": "Veigy-Foncenex",
+                                   "lat": "46.271944444",
+                                   "lon": "6.258888888"
+                            },
+                            {
+                                   "name": "Berna",
+                                   "lat": "46.94798",
+                                   "lon": "7.44743"
+                            }
+                     ],
                      "start_date": {
                             "year": "1552",
                             "month": "01",
@@ -312,18 +650,40 @@
                             "text": "Última carta de Calvino al señor de Fallais. Ruptura de Calvino con el señor de Fallais cuando este último tomó abiertamente el partido de Jérôme Bolsec contra Calvino."
                      },
                      "scr_location": {
-                            "name": "[Ginebra]",
+                            "name": "Ginebra",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Veigy-Foncenex]",
+                            "name": "Veigy-Foncenex",
                             "lat": "46.271944444",
                             "lon": "6.258888888"
                      }
               },
               {
                      "slug": "1553_03_12_ReyInglaterra",
+                     "places": [
+                            {
+                                   "name": "Londres",
+                                   "lat": "51.507222222",
+                                   "lon": "-0.1275"
+                            },
+                            {
+                                   "name": "París",
+                                   "lat": "48.848611",
+                                   "lon": "2.343333"
+                            },
+                            {
+                                   "name": "Noyon",
+                                   "lat": "49.581111111",
+                                   "lon": "2.998888888"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
                      "start_date": {
                             "year": "1553",
                             "month": "03",

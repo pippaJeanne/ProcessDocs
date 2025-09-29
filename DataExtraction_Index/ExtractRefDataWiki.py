@@ -3,7 +3,7 @@ import json
 from os import listdir # install the "listdir" package (pip install dirlist)
 from os.path import isfile, join
 files =[]
-dir = "output/VF"
+dir = "output/VF/es" # directory of the files to be processed
 for file in listdir(dir): 
     if isfile(join(dir, file)):
         files.append(dir + "/" + file)
@@ -24,7 +24,7 @@ def compile():
         #result[file]["persons"]["sender"] = {}
         #result[file]["persons"]["other"] = {}
         result[file]["places"] = {}
-        #result[file]["org"] = {}
+        #result[file]["places_envoi"] = {}
         #no = ""
         #bibtitle = ""
 
@@ -78,6 +78,7 @@ def compile():
 jsonfile = compile()
 print(jsonfile)
 json_obj = json.dumps(jsonfile, indent=7, ensure_ascii = False)
-with open("data_json/wikiIds.json", "w") as outfile:
+# Create file for with results
+with open("data_json/wikiIds_es.json", "w") as outfile: # add '_es' at the end of the file name for the Spanish version
     outfile.write(json_obj)
     print("Done!")

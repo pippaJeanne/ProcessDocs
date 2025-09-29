@@ -74,7 +74,7 @@
   <correspAction type="sent">
   <persName>Jean Calvin</persName>
   <settlement cert="low" key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Genève]</settlement>
-  <date when="1552-10-06">6 octobre 1552</date>
+  <date when="1552-10-06">[6 octobre 1552]</date>
  </correspAction>
  <correspAction type="received">
   <name type="collectivité" key="Consistoire de Genève" ref="https://www.wikidata.org/wiki/Q2994627" corresp="#conseil-geneve">Seigneurs de Genève</name>

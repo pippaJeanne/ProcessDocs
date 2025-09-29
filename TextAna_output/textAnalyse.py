@@ -16,7 +16,8 @@ from collections import defaultdict
 # This module will help us manage the xml structure and use xpath for retreiving the text 
 #import xml.etree.ElementTree as ET
 # path for the file
-file = "Translations_txt/1538_10_20_LouisTillet.txt"
+file = "Translations_txt/1542_05_fidelesLyon.txt" #Change file path
+# Open and read the file
 # parsing the file
 result = open(file).read()
 print(result)
@@ -59,9 +60,9 @@ simil["freq"] = freq
 simil["vector_val"] =vectors
 print(terms)
             
-output = "TextAna_output/1538_10_20_LouisTillet.txt"
-with open(output, "w", encoding="utf-8") as newfile:
-    newfile.write(f"Liste de lemmas : {word_freq} \n\n Mots les plus fréquents : \n {common_words}")
+output = "TextAna_output/1542_05_fidelesLyon.txt"
+#with open(output, "w", encoding="utf-8") as newfile:
+ #   newfile.write(f"Liste de lemmas : {word_freq} \n\n Mots les plus fréquents : \n {common_words}")
 
 #Create dataframe of simil (contains the vector values)
 df1 = pd.DataFrame(simil1) 
@@ -127,7 +128,8 @@ def co_occurrence(tokens, window_size):
         if value > 0:
             meaningful[value] = key
     df = pd.DataFrame(meaningful)
-    return df.to_csv("TextAna_output/1538_10_20_LouisTillet_coOccur.csv")
+    return df.to_csv("TextAna_output/1542_05_fidelesLyon_coOccur.csv") #Change file path
+#window size = number of words to consider for co-ocurrence
 co_occ = co_occurrence(lemma, 5)
 
 
@@ -154,7 +156,7 @@ def co_occurrences_context(doc, word_list, common):
 co_occ1 = co_occurrences_context(doc, all_words, common_6)
 
 
-plt.show()
+##plt.show()
 #print(co_occ)
 print("Done!")
 

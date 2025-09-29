@@ -35,8 +35,8 @@
                      "desc": "théologien, philosophe chrétien et évêque d’Afrique du Nord, saint et docteur de l’Église catholique",
                      "letters": [
                             {
-                                   "slug": "1542_05_M_le_cureX",
-                                   "date": "[mai 1542]",
+                                   "slug": "1542_M_le_cureX",
+                                   "date": "[1542]",
                                    "headline": "Monsieur le curé"
                             }
                      ],
@@ -56,6 +56,11 @@
                             {
                                    "slug": "1538_07_10_LuoisDuTillets",
                                    "date": "10 juillet 1538",
+                                   "headline": "Louis du Tillet"
+                            },
+                            {
+                                   "slug": "1538_10_20_LouisTillet",
+                                   "date": "20 d'octobre 1538",
                                    "headline": "Louis du Tillet"
                             },
                             {
@@ -99,7 +104,7 @@
                             },
                             {
                                    "slug": "1552_10_06_SeigeursDeGeneve",
-                                   "date": "6 octobre 1552",
+                                   "date": "[6 octobre 1552]",
                                    "headline": "Seigneurs de Genève"
                             }
                      ],
@@ -126,8 +131,8 @@
                      "desc": "",
                      "letters": [
                             {
-                                   "slug": "1542_05_M_le_cureX",
-                                   "date": "[mai 1542]",
+                                   "slug": "1542_M_le_cureX",
+                                   "date": "[1542]",
                                    "headline": "Monsieur le curé"
                             }
                      ],
@@ -165,7 +170,7 @@
                      "letters": [
                             {
                                    "slug": "1552_10_06_SeigeursDeGeneve",
-                                   "date": "6 octobre 1552",
+                                   "date": "[6 octobre 1552]",
                                    "headline": "Seigneurs de Genève"
                             }
                      ],
@@ -188,7 +193,21 @@
                                    "headline": "Louis du Tillet"
                             }
                      ],
-                     "id": "#jehan"
+                     "id": "#jean_tillet"
+              },
+              {
+                     "name": "Jonas ( - )",
+                     "wikiurl": "http://www.wikidata.org/entity/Q2468262",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Jonah.jpg",
+                     "desc": "prophète biblique et coranique",
+                     "letters": [
+                            {
+                                   "slug": "1538_10_20_LouisTillet",
+                                   "date": "20 d'octobre 1538",
+                                   "headline": "Louis du Tillet"
+                            }
+                     ],
+                     "id": "#jonas"
               },
               {
                      "name": "Jérémie ( - )",
@@ -197,8 +216,8 @@
                      "desc": "prophète du Tanakh dans l'hébraïque ou de l'Ancien Testament pour les chrétiens",
                      "letters": [
                             {
-                                   "slug": "1542_05_M_le_cureX",
-                                   "date": "[mai 1542]",
+                                   "slug": "1542_M_le_cureX",
+                                   "date": "[1542]",
                                    "headline": "Monsieur le curé"
                             }
                      ],
@@ -211,8 +230,8 @@
                      "desc": "rhéteur et apologète chrétien",
                      "letters": [
                             {
-                                   "slug": "1542_05_M_le_cureX",
-                                   "date": "[mai 1542]",
+                                   "slug": "1542_M_le_cureX",
+                                   "date": "[1542]",
                                    "headline": "Monsieur le curé"
                             }
                      ],
@@ -233,9 +252,14 @@
                                    "slug": "1538_07_10_LuoisDuTillets",
                                    "date": "10 juillet 1538",
                                    "headline": "Louis du Tillet"
+                            },
+                            {
+                                   "slug": "1538_10_20_LouisTillet",
+                                   "date": "20 d'octobre 1538",
+                                   "headline": "Louis du Tillet"
                             }
                      ],
-                     "id": "#louis-tilletz"
+                     "id": "#louis-tillet"
               },
               {
                      "name": "Marie ( - 0048)",
@@ -244,8 +268,8 @@
                      "desc": "mère de Jésus de Nazareth",
                      "letters": [
                             {
-                                   "slug": "1542_05_M_le_cureX",
-                                   "date": "[mai 1542]",
+                                   "slug": "1542_M_le_cureX",
+                                   "date": "[1542]",
                                    "headline": "Monsieur le curé"
                             }
                      ],
@@ -272,13 +296,18 @@
                      "desc": "apôtre et missionnaire des premiers chrétiens (vers 5 après J.-C. – vers 64/65)",
                      "letters": [
                             {
-                                   "slug": "1542_05_M_le_cureX",
-                                   "date": "[mai 1542]",
+                                   "slug": "1542_05_fidelesLyon",
+                                   "date": "mai 1542",
+                                   "headline": "Fidèles de Lyon"
+                            },
+                            {
+                                   "slug": "1542_M_le_cureX",
+                                   "date": "[1542]",
                                    "headline": "Monsieur le curé"
                             },
                             {
                                    "slug": "1552_10_06_SeigeursDeGeneve",
-                                   "date": "6 octobre 1552",
+                                   "date": "[6 octobre 1552]",
                                    "headline": "Seigneurs de Genève"
                             }
                      ],
@@ -292,7 +321,7 @@
                      "letters": [
                             {
                                    "slug": "1552_10_06_SeigeursDeGeneve",
-                                   "date": "6 octobre 1552",
+                                   "date": "[6 octobre 1552]",
                                    "headline": "Seigneurs de Genève"
                             }
                      ],
@@ -305,8 +334,8 @@
                      "desc": "apôtre du Christ et premier pape de l'Église catholique",
                      "letters": [
                             {
-                                   "slug": "1542_05_M_le_cureX",
-                                   "date": "[mai 1542]",
+                                   "slug": "1542_M_le_cureX",
+                                   "date": "[1542]",
                                    "headline": "Monsieur le curé"
                             }
                      ],
@@ -353,6 +382,20 @@
                             }
                      ],
                      "id": "#madame-bude"
+              },
+              {
+                     "name": "Salomon ( - )",
+                     "wikiurl": "http://www.wikidata.org/entity/Q37085",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg",
+                     "desc": "personnage biblique",
+                     "letters": [
+                            {
+                                   "slug": "1542_05_fidelesLyon",
+                                   "date": "mai 1542",
+                                   "headline": "Fidèles de Lyon"
+                            }
+                     ],
+                     "id": "#salomon"
               },
               {
                      "name": "Sébastien Castellion (1515 - 1563)",
@@ -419,6 +462,20 @@
                             }
                      ],
                      "id": "#edouard-VI"
+              },
+              {
+                     "name": "Église de Lyon",
+                     "wikiurl": "",
+                     "thumbnail": "",
+                     "desc": "",
+                     "letters": [
+                            {
+                                   "slug": "1542_05_fidelesLyon",
+                                   "date": "mai 1542",
+                                   "headline": "Fidèles de Lyon"
+                            }
+                     ],
+                     "id": "#eglise_Lyon"
               }
        ]
 }

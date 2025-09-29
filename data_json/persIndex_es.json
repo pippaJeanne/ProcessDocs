@@ -6,10 +6,10 @@
               "img": ""
        },
        {
-              "name": "Antonio de Borbón (1518 - 1562)",
-              "desc": "Rey de Navarra (1555-1562)",
-              "url": "http://www.wikidata.org/entity/Q310334",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20-%20Portrait%20of%20Anthony%20of%20Bourbon%20%281518%E2%80%931562%29%2C%20King%20of%20Navarre%20-%20MNK%20XII-294%20-%20National%20Museum%20Krak%C3%B3w.jpg"
+              "name": "Salomón ( - )",
+              "desc": "rey de Israel, personaje de la Biblia",
+              "url": "http://www.wikidata.org/entity/Q37085",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg"
        },
        {
               "name": "Sebastián Castellion (1515 - 1563)",
@@ -66,6 +66,12 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Francesco%20Barbieri%20-%20Saint%20Paul.jpg"
        },
        {
+              "name": "Jeremías ( - )",
+              "desc": "profeta mayor hebreo",
+              "url": "http://www.wikidata.org/entity/Q158825",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg"
+       },
+       {
               "name": "Wolfgang Capito (1478 - 1541)",
               "desc": "reformador y teólogo alemán",
               "url": "http://www.wikidata.org/entity/Q1368362",
@@ -114,6 +120,12 @@
               "img": ""
        },
        {
+              "name": "Jonás ( - )",
+              "desc": "personaje de la Biblia y el Corán",
+              "url": "http://www.wikidata.org/entity/Q2468262",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jonah.jpg"
+       },
+       {
               "name": "Pierre Viret (1511 - 1571)",
               "desc": "Teólogo suizo",
               "url": "http://www.wikidata.org/entity/Q123337",
@@ -126,9 +138,9 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Duccio%20The-Madonna-and-Child-128.jpg"
        },
        {
-              "name": "Jeremías ( - )",
-              "desc": "personaje bíblico; profeta",
-              "url": "http://www.wikidata.org/entity/Q158825",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg"
+              "name": "Antonio de Borbón (1518 - 1562)",
+              "desc": "Rey de Navarra (1555-1562)",
+              "url": "http://www.wikidata.org/entity/Q310334",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20-%20Portrait%20of%20Anthony%20of%20Bourbon%20%281518%E2%80%931562%29%2C%20King%20of%20Navarre%20-%20MNK%20XII-294%20-%20National%20Museum%20Krak%C3%B3w.jpg"
        }
 ]

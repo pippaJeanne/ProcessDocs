@@ -42,6 +42,26 @@
               },
               {
                      "media": {
+                            "url": "https://gallica.bnf.fr/ark:/12148/btv1b90076313/f22.jpeg",
+                            "thumbnail": "https://gallica.bnf.fr/ark:/12148/btv1b90076313/f22.jpeg"
+                     },
+                     "start_date": {
+                            "year": "1538",
+                            "month": "10",
+                            "day": "20"
+                     },
+                     "display_date": "20 d'octobre 1538",
+                     "text": {
+                            "headline": "Louis du Tillet",
+                            "text": "<div><p>Réponse de Calvin à une lettre de Louis du Tillet après le bannissement de Calvin et Farel de Genève.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/1538_10_20_LouisTillet' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>"
+                     },
+                     "background": {
+                            "url": "https://gallica.bnf.fr/ark:/12148/btv1b90076313/f22.jpeg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fcorrespondance_ecclesiastiqueead%252Fms_fr_401%252Fms_fr_00401_f017_01.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fcorrespondance_ecclesiastiqueead%252Fms_fr_401%252Fms_fr_00401_f017_01.jpg"
                      },
@@ -102,18 +122,38 @@
               },
               {
                      "media": {
-                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg",
-                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg"
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_145%2Fms_fr_00145_f133r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_145%2Fms_fr_00145_f133r.jpg"
                      },
                      "start_date": {
                             "year": "1542",
                             "month": "05",
                             "day": "01"
                      },
-                     "display_date": "[mai 1542]",
+                     "display_date": "mai 1542",
+                     "text": {
+                            "headline": "Fidèles de Lyon",
+                            "text": "<div><p>Lettre avertissant les fidèles de Lyon des agissements d'un moine carme apostat ayant prêché le carême précédent à Lyon et dénigrant Calvin et ses confrères.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/1542_05_fidelesLyon' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>"
+                     },
+                     "background": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_145%2Fms_fr_00145_f133r.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1542",
+                            "month": "01",
+                            "day": "01"
+                     },
+                     "display_date": "[1542]",
                      "text": {
                             "headline": "Monsieur le curé",
-                            "text": "<div><p>Défense de la doctrine de l'église réformée contre l'accusation d'être la cause de la peste à Genève. Instruction de recourir à Dieu seul pour la délivrance.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/1542_05_M_le_cureX' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>"
+                            "text": "<div><p>Défense de la doctrine de l'église réformée contre l'accusation d'être la cause de la peste à Genève. Instruction de recourir à Dieu seul pour la délivrance.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/1542_M_le_cureX' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>"
                      },
                      "background": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f369r.jpg",
@@ -250,7 +290,7 @@
                             "month": "10",
                             "day": "06"
                      },
-                     "display_date": "6 octobre 1552",
+                     "display_date": "[6 octobre 1552]",
                      "text": {
                             "headline": "Seigneurs de Genève",
                             "text": "<div><p>Réponse de Calvin aux accusations de Jean Trolliet concernant sa doctrine.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/1552_10_06_SeigeursDeGeneve' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>"
@@ -292,7 +332,7 @@
                      },
                      "display_date": "12 de mars 1553",
                      "text": {
-                            "headline": "roi d'Angleterre",
+                            "headline": "Roi d'Angleterre",
                             "text": "<div><p>Intercession de Calvin auprès du roi d'Angleterre en faveur d'un gentilhomme persécuté pour la religion.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/1553_03_12_RoiDAngleterre' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>"
                      },
                      "background": {
