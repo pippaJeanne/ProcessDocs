@@ -6,16 +6,16 @@ import json
 import re
 import os
 import xml.etree.ElementTree as ET
-inputpathFr = "output/VF/1538_10_20_LouisTillet.xml"  # XML file in French
-inputpathEs = "output/VF/es/1538_10_20_LouisdeTillet.xml" #XML file in Spanish
+inputpathFr = "output/VF/1542_05_fidelesLyon.xml"  # XML file in French
+inputpathEs = "output/VF/es/1542_05_fielesLyon.xml" #XML file in Spanish
 xsltfileFr = "Translations_txt/2txt.xslt" #path to xslt file
 xsltfileEs = "Translations_txt/txtES.xslt"
-outpath = "trainingdata_finetuning_expanded.json"
+#outpath = "trainingdata_finetuning_expanded.json"
 output_jsonl = "trainingdata_finetuning_expanded.jsonl"
 out_f = open(output_jsonl, "a", encoding="utf8")
 
-data_file = open("output_finetuning01.json", "r", encoding='utf8')
-training_data = json.load(data_file)
+#data_file = open("output_finetuning01.json", "r", encoding='utf8')
+#training_data = json.load(data_file)
 #print(training_data)
 setfr = []
 setes = []
@@ -62,9 +62,9 @@ for i in range(len(setfr)):
                     #print(subtext)
                     inputs.append(subtext)
                             
-            #laststr = textfr[limit * nloopsfr - 10:len(textfr)]
-            #lasttextfr = "".join(laststr)
-            #inputs.append(lasttextfr)
+            laststr = textfr[limit * nloopsfr - 10:len(textfr)]
+            lasttextfr = "".join(laststr)
+            inputs.append(lasttextfr)
             
             for index in range(0,nloopses+1):
                 milestone = index * limit
@@ -73,9 +73,9 @@ for i in range(len(setfr)):
                     subtext = "".join(substring)
                     outputs.append(subtext)
                     #index = index + limit
-            #lastses = textEs[limit * nloopses - 10:len(textEs)]
-            #lasttextes = "".join(lastses)
-            #outputs.append(lasttextes)
+            lastses = textEs[limit * nloopses - 10:len(textEs)]
+            lasttextes = "".join(lastses)
+            outputs.append(lasttextes)
             
             if len(outputs) == len(inputs):
                 for inps in range(len(inputs)):
@@ -99,30 +99,3 @@ print("Saved as jsonl.")
 #outfile = open(outpath, 'w', encoding='utf8') 
 #outfile.write(jsonfile)
 #print("Done!")
-
-###########################################
-
-# Adapt trainingdata_finetuning_expanded.json to new structure and save as jsonl
-# Previous tuning model depricated and new model requires jsonl format and different structure
-
-input_json = "trainingdata_finetuning_expanded.json"
-output_jsonl = "trainingdata_finetuning_expanded.jsonl"
-limit = 4000
-
-with open(input_json, "r", encoding="utf8") as f:
-    data = json.load(f)
-
-with open(output_jsonl, "a", encoding="utf8") as out_f:
-    for item in data:
-        input_text = item["input"][:limit]
-        output_text = item["output"][:limit]
-        user_msg = {
-            "role": "user",
-            "parts": [{"text": input_text }]
-        }
-        model_msg = {
-            "role": "model",
-            "parts": [{"text": output_text}]
-        }
-        out_f.write(json.dumps({"contents": [user_msg, model_msg]}, ensure_ascii=False) + "\n")
-print("Saved as jsonl.")

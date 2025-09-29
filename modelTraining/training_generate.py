@@ -111,6 +111,9 @@ print(sft_tuning_job.tuned_model_endpoint_name)
 ### text to translate 
 text = open("Translations_txt/1542_05_fidelesLyon.txt", "r").read()
 
+## Model enpoint name: to use if value not stored above
+#tuned_model_endpoint = "projects/308230719741/locations/us-central1/endpoints/3209442555640938496"
+
 # generate content with the tuned model
 # Segmenting text to fit the token limit
 limit = 3900
@@ -123,7 +126,7 @@ for i in range(nloops+1):
         substring = text[milestone:milestone+limit]
         contents= substring
         
-        tuned_model = GenerativeModel(sft_tuning_job.tuned_model_endpoint_name)
+        tuned_model = GenerativeModel(sft_tuning_job.tuned_model_endpoint_name) # or tuned_model_endpoint if not stored above
         response = tuned_model.generate_content(contents)
         #print(response.text)
         outfile.write(response.text)
