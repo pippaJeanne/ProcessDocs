@@ -94,6 +94,7 @@ for file in files:
         print(placeD)
         if placeD is not None:
             for place in placedata:
+                #print(placeD, place['name'], place["name"].__contains__(placeD) )
                 if place['name'] is not None and place["name"].__contains__(placeD) and place.__contains__("coord"): # Some places coordinates cannot be retrieved for some reason : specifically "Saint-siège" and "Savoie". Even though they exist in the Wikidata page, the query results do not return the coordinates. (I'm guessing it's because they are an ecclesiatic jurisdiction (juridiction épiscopale) and a historical region respectivily?)
                     lieu["name"] = placeD
                     lieu["lat"] = place["coord"]["lat"]

@@ -6,16 +6,10 @@
               "img": ""
        },
        {
-              "name": "Salomón ( - )",
+              "name": "Salomón",
               "desc": "rey de Israel, personaje de la Biblia",
               "url": "http://www.wikidata.org/entity/Q37085",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg"
-       },
-       {
-              "name": "Sebastián Castellion (1515 - 1563)",
-              "desc": "Teólogo y humanista reformado francés",
-              "url": "http://www.wikidata.org/entity/Q919119",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/SebastianCastellio.jpg"
        },
        {
               "name": "Lactancio (0240 - 0320)",
@@ -66,7 +60,7 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Francesco%20Barbieri%20-%20Saint%20Paul.jpg"
        },
        {
-              "name": "Jeremías ( - )",
+              "name": "Jeremías",
               "desc": "profeta mayor hebreo",
               "url": "http://www.wikidata.org/entity/Q158825",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg"
@@ -108,28 +102,34 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg"
        },
        {
-              "name": "Eduardo VI de Inglaterra (1537 - 1553)",
-              "desc": "Rey de Inglaterra (1547–1553)",
-              "url": "http://www.wikidata.org/entity/Q83229",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20VI%20of%20England%20c.%201546.jpg"
-       },
-       {
               "name": "Consistorio de Neuchâtel",
               "desc": "Consejo eclesiástico de Neuchâtel del siglo XVI al XVIII",
               "url": "http://www.wikidata.org/entity/Q131694038",
               "img": ""
        },
        {
-              "name": "Jonás ( - )",
+              "name": "Jonás",
               "desc": "personaje de la Biblia y el Corán",
               "url": "http://www.wikidata.org/entity/Q2468262",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jonah.jpg"
+       },
+       {
+              "name": "Margarita de Angulema (1492 - 1549)",
+              "desc": "reina consorte de Navarra (1527-1549)",
+              "url": "http://www.wikidata.org/entity/Q190058",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Clouet%20%28Attributed%29%20-%20Portrait%20of%20Marguerite%20of%20Navarre%20-%20Google%20Art%20Project.jpg"
        },
        {
               "name": "Pierre Viret (1511 - 1571)",
               "desc": "Teólogo suizo",
               "url": "http://www.wikidata.org/entity/Q123337",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PierreViret.jpg"
+       },
+       {
+              "name": "Gérard Roussel",
+              "desc": "obispo católico",
+              "url": "http://www.wikidata.org/entity/Q1226841",
+              "img": ""
        },
        {
               "name": "Virgen María ( - 0048)",
@@ -142,5 +142,17 @@
               "desc": "Rey de Navarra (1555-1562)",
               "url": "http://www.wikidata.org/entity/Q310334",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20-%20Portrait%20of%20Anthony%20of%20Bourbon%20%281518%E2%80%931562%29%2C%20King%20of%20Navarre%20-%20MNK%20XII-294%20-%20National%20Museum%20Krak%C3%B3w.jpg"
+       },
+       {
+              "name": "Sebastián Castellion (1515 - 1563)",
+              "desc": "Teólogo y humanista reformado francés",
+              "url": "http://www.wikidata.org/entity/Q919119",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/SebastianCastellio.jpg"
+       },
+       {
+              "name": "Eduardo VI de Inglaterra (1537 - 1553)",
+              "desc": "Rey de Inglaterra (1547–1553)",
+              "url": "http://www.wikidata.org/entity/Q83229",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20VI%20of%20England%20c.%201546.jpg"
        }
 ]

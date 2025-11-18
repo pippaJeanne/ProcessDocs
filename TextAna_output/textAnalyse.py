@@ -16,11 +16,11 @@ from collections import defaultdict
 # This module will help us manage the xml structure and use xpath for retreiving the text 
 #import xml.etree.ElementTree as ET
 # path for the file
-file = "Translations_txt/1542_05_fidelesLyon.txt" #Change file path
+file = "Translations_txt/1545_04_28_ReineNavarre.txt" #Change file path
 # Open and read the file
 # parsing the file
 result = open(file).read()
-print(result)
+#print(result)
 
 doc = nlp(result)
 # Remove stop words and punctuation symbols and count
@@ -29,6 +29,7 @@ words = [token.text for token in doc if not token.is_stop and not token.is_punct
 all_words = [token.text for token in doc if not token.is_punct and token.is_alpha and "\n" not in token.text]
 w_list = nlp(" ".join(lemma))
 word_freq = Counter(lemma)
+w_freq = Counter(words)
 
 lemma_word = []
 for i in range(len(lemma)):
@@ -38,6 +39,8 @@ for i in range(len(lemma)):
 #print(lemma_word)
 # return 5 commonly occurring words with their frequencies
 common_words = word_freq.most_common(12)
+commons = w_freq.most_common(12)
+print(commons)
 print(common_words)
 # corr list (word frequency and word embeddings)
 simil = {}
@@ -60,7 +63,7 @@ simil["freq"] = freq
 simil["vector_val"] =vectors
 print(terms)
             
-output = "TextAna_output/1542_05_fidelesLyon.txt"
+output = "TextAna_output/1545_04_28_ReineNavarre.txt" #Change file path
 #with open(output, "w", encoding="utf-8") as newfile:
  #   newfile.write(f"Liste de lemmas : {word_freq} \n\n Mots les plus fréquents : \n {common_words}")
 
@@ -71,19 +74,19 @@ plotCheck = df1.plot.bar()
 
 # Semantic Similitud of lemmas
 simils = {}
+print(len(lemma))
 for i in range(len(lemma)):
         w1 = lemma[i]
-        w2 = ''
-        if not i+1 > len(lemma) :
+        if i+1 <= len(lemma)-1:
             w2 = lemma[i+1]
-        for token1 in doc:
-            if token1.lemma_ == w1: 
-                for token2 in doc:
-                    if token2.lemma_ == w2:
-                        val0 = [token1.lemma_, token2.lemma_, token1.similarity(token2)]
-                        if val0[2] > 0.7 and val0[2] != 1:
-                            pair = [val0[0],val0[1]]
-                            simils[tuple(pair)] = val0[2]
+            for token1 in doc:
+                if token1.lemma_ == w1: 
+                    for token2 in doc:
+                        if token2.lemma_ == w2:
+                            val0 = [token1.lemma_, token2.lemma_, token1.similarity(token2)]
+                            if val0[2] > 0.5 and val0[2] != 1:
+                                pair = [val0[0],val0[1]]
+                                simils[tuple(pair)] = val0[2]
 
 sorted_simils=[[" <—> ".join(k), val] for k, val in simils.items()]
 sorted_simils = sorted(sorted_simils, key= lambda x:x[1], reverse=True)
@@ -128,14 +131,16 @@ def co_occurrence(tokens, window_size):
         if value > 0:
             meaningful[value] = key
     df = pd.DataFrame(meaningful)
-    return df.to_csv("TextAna_output/1542_05_fidelesLyon_coOccur.csv") #Change file path
+    return df.to_csv("TextAna_output/1545_04_28_ReineNavarre.txt.csv") #Change file path
 #window size = number of words to consider for co-ocurrence
-co_occ = co_occurrence(lemma, 5)
+co_occ = co_occurrence(words, 10) # Use lemmas (lemma) or words (words)
 
 
 #Another way to see co-ocurrence of most common words: context of 5 previous words and 7 next words
 common_lemmas = [common_word[0] for common_word in common_words]
 common_6 = common_lemmas[0:6]
+common_words_text = [common_word[0] for common_word in commons]
+common_6_text = common_words_text[0:6]
 def co_occurrences_context(doc, word_list, common):
     with open(output, "a", encoding="utf-8") as newfile:
         title = "\n Co-ocurrence of most common words\n\n"
@@ -153,7 +158,7 @@ def co_occurrences_context(doc, word_list, common):
                         newfile.write(co_occur)
         
     print("Done!")
-co_occ1 = co_occurrences_context(doc, all_words, common_6)
+co_occ1 = co_occurrences_context(doc, all_words, common_6_text) #Use lemmas (common_6) or words (common_6_text)
 
 
 ##plt.show()

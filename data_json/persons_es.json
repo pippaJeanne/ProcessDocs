@@ -158,6 +158,20 @@
                      "id": "#melanchthon"
               },
               {
+                     "name": "Gérard Roussel",
+                     "wikiurl": "http://www.wikidata.org/entity/Q1226841",
+                     "thumbnail": "",
+                     "desc": "obispo católico",
+                     "letters": [
+                            {
+                                   "slug": "1545_04_28_ReineNavarre_ES",
+                                   "date": "28 de abril de 1545",
+                                   "headline": "Reina de Navarra"
+                            }
+                     ],
+                     "id": "#roussel"
+              },
+              {
                      "name": "Iglesia de Lyon",
                      "wikiurl": "",
                      "thumbnail": "",
@@ -185,6 +199,11 @@
                             {
                                    "slug": "1543_finales_SenorDeFalais",
                                    "date": "[finales de 1543]",
+                                   "headline": "Señor de Fallais"
+                            },
+                            {
+                                   "slug": "1545_05_31_MFallais_ES",
+                                   "date": "31 de mayo de 1545",
                                    "headline": "Señor de Fallais"
                             },
                             {
@@ -229,7 +248,7 @@
                      "id": "#jean_tillet"
               },
               {
-                     "name": "Jeremías ( - )",
+                     "name": "Jeremías",
                      "wikiurl": "http://www.wikidata.org/entity/Q158825",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg",
                      "desc": "profeta mayor hebreo",
@@ -243,7 +262,7 @@
                      "id": "#jeremie"
               },
               {
-                     "name": "Jonás ( - )",
+                     "name": "Jonás",
                      "wikiurl": "http://www.wikidata.org/entity/Q2468262",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Jonah.jpg",
                      "desc": "personaje de la Biblia y el Corán",
@@ -295,6 +314,20 @@
                      "id": "#louis-tillet"
               },
               {
+                     "name": "Margarita de Angulema (1492 - 1549)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q190058",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Clouet%20%28Attributed%29%20-%20Portrait%20of%20Marguerite%20of%20Navarre%20-%20Google%20Art%20Project.jpg",
+                     "desc": "reina consorte de Navarra (1527-1549)",
+                     "letters": [
+                            {
+                                   "slug": "1545_04_28_ReineNavarre_ES",
+                                   "date": "28 de abril de 1545",
+                                   "headline": "Reina de Navarra"
+                            }
+                     ],
+                     "id": "#marguerite_valois_angouleme"
+              },
+              {
                      "name": "Nuevo creyente",
                      "wikiurl": "",
                      "thumbnail": "",
@@ -328,6 +361,11 @@
                                    "slug": "1542_Al_senor_cura",
                                    "date": "[1542]",
                                    "headline": "Párroco anónimo"
+                            },
+                            {
+                                   "slug": "1545_04_28_ReineNavarre_ES",
+                                   "date": "28 de abril de 1545",
+                                   "headline": "Reina de Navarra"
                             },
                             {
                                    "slug": "1552_10_06_SenoresDeGinebra",
@@ -408,7 +446,7 @@
                      "id": "#madame-bude"
               },
               {
-                     "name": "Salomón ( - )",
+                     "name": "Salomón",
                      "wikiurl": "http://www.wikidata.org/entity/Q37085",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg",
                      "desc": "rey de Israel, personaje de la Biblia",

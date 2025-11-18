@@ -5,7 +5,7 @@
 <fileDesc>
 <titleStmt>
 <title>Carta a los fieles de Lyon</title>
-<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza</editor>
+<editor role="Traducción y codificación TEI">Yanet Hernández Pedraza</editor>
 </titleStmt>
 <publicationStmt>
   <publisher>TEI Consortium</publisher>
@@ -26,7 +26,7 @@
         </bibl>
  <notesStmt>
           <note>Las notas provienen de la edición de Jules Bonnet de 1854
-          a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+          a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
  </notesStmt>
 </sourceDesc>
 </fileDesc>
@@ -96,7 +96,7 @@
     <p>El final de este asunto fue que aquel a quien se había dirigido le dijo que reuniría a sus compañeros para hablar con él, y como le dio bien a entender que no debía temer que quisiéramos alejarlo por venganza, ni más ni menos que si se hubiera comportado con prudencia, tras esto cenó con uno de nuestros compañeros, y le hizo creer que quería encontrar alojamiento para quedarse en esta ciudad. A la mañana siguiente se monta a caballo, y al hacerlo habla mal de nosotros a galope más que nunca. Si tenía o no justa causa, lo dejamos a su juicio, después de haber leído el relato que le hemos hecho, el cual aseguramos ante Dios que es simplemente hecho según la verdad, sin haberle añadido nada, y le rogamos al Señor que les dé un espíritu de discrétion para conocer y juzgar correctamente a fin de no escandalizarse con ningún informe que este les haga, pues no hemos tenido otra intención al escribir estas cartas, sino de contentarles como nuestro deber es, para que no les pareciera que hemos sido demasiado inhumanos con él. Porque en verdad, como el Señor quiso servirse de sus prédicaciones, y como se produjo alguna edificación, nuestra voluntad y deseo era no rechazarlo. Pero nuestra conciencia no nos permitía recibirlo de inmediato, hasta que su orgullo se hubiera reducido un poco, hasta que hubiera aprendido a confiar un poco más en Dios, y hasta que hubiera aprovechado un poco más para enseñar fiel y puramente, porque tenía tres cosas que nos desagradaban con razón. En primer lugar, esta buena opinión de sí mismo. En segundo lugar, que estaba tan entregado a la comida que le parecía que la tierra le iba a fallar, como si no hubiera Dios en el cielo para alimentar a los suyos. En tercer lugar, había ignorancia, que nos asombró mucho, pues en nuestra congregación, donde se leía un texto de <persName key="Paul de Tarse" ref="https://www.wikidata.org/wiki/Q9200" type="forename" corresp="#paul">San Pablo</persName> que contiene materia hermosa y abundante, y que debe ser bien conocido por todos los que predican por allá porque es la epístola del primer domingo de Adviento, cuando llegó su turno, no solo habló poco, sino que rebatió todo lo que <persName key="Paul de Tarse" ref="https://www.wikidata.org/wiki/Q9200" type="forename" corresp="#paul">San Pablo</persName> decía, no por malicia, como pensamos, sino por pura estupidez. Dejamos otros vicios, como la vanidad mundana y similares, para que no parezca que lo perseguimos por odio y enemistad. Lo que les contamos es para advertirles de que no se dejen engañar para su propio perjuicio. En cuanto a él, le rogamos al Señor que le quiera dar un espíritu de humildad y mansedumbre, corrigiendo la arrogancia y la presunción necia que tiene, y sobre todo que se reconozca tal como es, pues entonces tendrá amplia ocasión de abatirse. Para terminar, queridos hermanos, les encomendamos a la santa protección de nuestro Señor Jesús, que es el verdadero pastor de todos los fieles. </p>
       
       <closer>
-    <dateline>De <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Villefranche</placeName>
+    <dateline>De <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Villefranche</placeName>
      <note n="2" place="bottom" type="editorial"><p>Ginebra</p></note>
      <date when="1542-05">(mayo de 1542)</date>.
     </dateline> 

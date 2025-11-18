@@ -5,7 +5,7 @@
 <fileDesc>
 <titleStmt>
 <title>Lettre à destinataire</title> <!-- substitute 'destinataire' for the name of the addressee; e.g.: Monsieur de Fallais-->
-<editor role="Modernisation et encodage">Yanet Hernández Pedraza (Doctorante en littérature option humanités numériques - UdeM)</editor>
+<editor role="Modernisation et encodage">Yanet Hernández Pedraza (Candidate au doctorat en littérature option humanités numériques - UdeM)</editor>
 </titleStmt>
 <publicationStmt>
   <publisher>TEI Consortium</publisher>
@@ -46,7 +46,7 @@
 <msIdentifier>
     <settlement>Genève</settlement>
     <repository>Bibliothèque de Genève</repository>
-    <idno type="cote">Ms.  (f. )</idno>
+    <idno type="cote">Ms.  (f. )</idno> <!-- change values-->
 </msIdentifier>
 <facsimile>
 <graphic url="#"/>
@@ -55,7 +55,7 @@
 </msDesc>
   <notesStmt>
      <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 
-      sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+      sauf indication contraire. Les notes appelées "éditoriales" (en vert) ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
   </notesStmt>
 </sourceDesc>
 </fileDesc>
@@ -129,9 +129,10 @@
     </p>  
    
 <!-- For persName: add @corresp for addressees and people mentioned in the letters which are listed in the Index of names | if the person is mentioned in the notes and has some kind of uri then a @ref attribute is added and the transformation will add that link instead of the link to the Index of Names -->
-<!-- placeNames in text (in the body inside paragraphs) do not have a @corresp attribute since they are not indexed in the Index of Places (only the placeNames inside dataline are)-->      
-<note n="2" place="bottom"><p><persName key="Martin Bucer" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucer">Bucero</persName> y <persName key="Wolfgang Capito" ref="https://www.wikidata.org/wiki/Q1368362" corresp="#capito">Capito</persName>, reformadores de Estrasburgo</p></note>      
-
+<!-- placeNames in text (in the body inside paragraphs) do not have a @corresp attribute since they are not indexed in the Index of Places (only the placeNames inside dateline are)-->      
+<note n="2" place="bottom"><p><persName key="Martin Bucer" ref="https://www.wikidata.org/wiki/Q318622">Bucero</persName> y <persName key="Wolfgang Capito" ref="https://www.wikidata.org/wiki/Q1368362">Capito</persName>, réformateurs de <placeName key="Strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Strasbourg</placeName></p></note>      
+      
+<p>... <persName key="Martin Bucer" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucer">Bucero</persName></p>      
       <!-- Title inline  -->
     <p><!-- Title of work in text or note if important and likely to have a @ref => add rend="italic" , @key & @ref -->
     <title key="Institution de la religion chrétienne" ref="https://fr.wikipedia.org/wiki/Institution_de_la_religion_chrétienne" rend="italic">Institution chrétienne</title>

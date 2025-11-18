@@ -294,6 +294,11 @@
                                    "lon": "12.5"
                             },
                             {
+                                   "name": "Saint-Siège",
+                                   "lat": "41.9029",
+                                   "lon": "12.4534"
+                            },
+                            {
                                    "name": "France",
                                    "lat": "47.0",
                                    "lon": "2.0"
@@ -344,8 +349,8 @@
                      "places": [
                             {
                                    "name": "Lyon",
-                                   "lat": "45.758888888",
-                                   "lon": "4.841388888"
+                                   "lat": "45.7675",
+                                   "lon": "4.835"
                             },
                             {
                                    "name": "Paris",
@@ -384,8 +389,8 @@
                      },
                      "dest_location": {
                             "name": "Lyon",
-                            "lat": "45.758888888",
-                            "lon": "4.841388888"
+                            "lat": "45.7675",
+                            "lon": "4.835"
                      }
               },
               {
@@ -586,6 +591,149 @@
                             "name": "Cologne",
                             "lat": "50.942222222",
                             "lon": "6.957777777"
+                     }
+              },
+              {
+                     "slug": "1545_04_28_ReineNavarre",
+                     "places": [
+                            {
+                                   "name": "Nérac",
+                                   "lat": "44.136111111",
+                                   "lon": "0.339444444"
+                            },
+                            {
+                                   "name": "Paris",
+                                   "lat": "48.856111111",
+                                   "lon": "2.345555555"
+                            },
+                            {
+                                   "name": "Pays-Bas",
+                                   "lat": "52.316666666",
+                                   "lon": "5.55"
+                            },
+                            {
+                                   "name": "Artois",
+                                   "lat": "50.5",
+                                   "lon": "2.5"
+                            },
+                            {
+                                   "name": "France",
+                                   "lat": "47.0",
+                                   "lon": "2.0"
+                            },
+                            {
+                                   "name": "Clairac",
+                                   "lat": "44.359722222",
+                                   "lon": "0.378888888"
+                            },
+                            {
+                                   "name": "île d'Oléron",
+                                   "lat": "45.925",
+                                   "lon": "-1.2825"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_lat_1_376ead%2Fms_lat_107%2Fms_lat_107_f004r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_lat_1_376ead%2Fms_lat_107%2Fms_lat_107_f004r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1545",
+                            "month": "04",
+                            "day": "28"
+                     },
+                     "display_date": "28 avril 1545",
+                     "text": {
+                            "headline": "Reine de Navarre",
+                            "text": "Réponse de Calvin au mécontentement de la reine de Navarre à cause du livre de Calvin contre la secte de Libertins spirituels, y compris deux serviteurs de la reine."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Paris",
+                            "lat": "48.856666666",
+                            "lon": "2.352222222"
+                     }
+              },
+              {
+                     "slug": "1545_05_31_MFallais",
+                     "places": [
+                            {
+                                   "name": "Cologne",
+                                   "lat": "50.942222222",
+                                   "lon": "6.957777777"
+                            },
+                            {
+                                   "name": "Strasbourg",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Berne",
+                                   "lat": "46.94798",
+                                   "lon": "7.44743"
+                            },
+                            {
+                                   "name": "Zurich",
+                                   "lat": "47.374444444",
+                                   "lon": "8.541111111"
+                            },
+                            {
+                                   "name": "Bâle",
+                                   "lat": "47.560555555",
+                                   "lon": "7.590555555"
+                            },
+                            {
+                                   "name": "Cabrières",
+                                   "lat": "43.576944444",
+                                   "lon": "3.3625"
+                            },
+                            {
+                                   "name": "Mérindol",
+                                   "lat": "43.75576",
+                                   "lon": "5.20256"
+                            },
+                            {
+                                   "name": "Worms",
+                                   "lat": "49.6302618",
+                                   "lon": "8.3620898"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f011r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f011r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1545",
+                            "month": "05",
+                            "day": "31"
+                     },
+                     "display_date": "31 mai 1545",
+                     "text": {
+                            "headline": "Monsieur de Fallais",
+                            "text": "Calvin donne conseil et consolation à M. de Fallais après que ce dernier s'est retiré à Strasbourg à l'approche de l'armée impériale. Calvin l'encourage à prier et à mettre sa confiance en Dieu."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Strasbourg",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
                      }
               },
               {

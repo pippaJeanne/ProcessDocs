@@ -113,7 +113,7 @@ if len(wikilist) > limit:
 
 # Create file for with results
 jsonfile = places
-print(jsonfile)
+#print(jsonfile)
 json_obj = json.dumps(jsonfile, indent=7, ensure_ascii = False)
 with open("data_json/placeData_MapIndex_es.json", "w") as outfile:
     outfile.write(json_obj)

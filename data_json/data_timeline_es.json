@@ -242,6 +242,46 @@
               },
               {
                      "start_date": {
+                            "year": "1545",
+                            "month": "04",
+                            "day": "28"
+                     },
+                     "display_date": "28 de abril de 1545",
+                     "text": {
+                            "headline": "Reina de Navarra",
+                            "text": "<div><p>Respuesta de Calvino al descontento de la reina de Navarra a causa del libro de Calvino contra la secta de los libertinos espirituales, incluidos dos servidores de la reina.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1545_04_28_ReineNavarre_ES' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
+                     },
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_lat_1_376ead%2Fms_lat_107%2Fms_lat_107_f004r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_lat_1_376ead%2Fms_lat_107%2Fms_lat_107_f004r.jpg"
+                     },
+                     "background": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_lat_1_376ead%2Fms_lat_107%2Fms_lat_107_f004r.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "start_date": {
+                            "year": "1545",
+                            "month": "05",
+                            "day": "31"
+                     },
+                     "display_date": "31 de mayo de 1545",
+                     "text": {
+                            "headline": "Señor de Fallais",
+                            "text": "<div><p>Calvino da consejos y consuelo al Sr. de Fallais después de que este se retirara a Estrasburgo ante la llegada del ejército imperial. Calvino le anima a orar y a depositar su confianza en Dios.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1545_05_31_MFallais_ES' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
+                     },
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f011r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f011r.jpg"
+                     },
+                     "background": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f011r.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "start_date": {
                             "year": "1546",
                             "month": "01",
                             "day": "20"
@@ -310,14 +350,6 @@
                      "text": {
                             "headline": "Señor de Fallais",
                             "text": "<div><p>Última carta de Calvino al señor de Fallais. Ruptura de Calvino con el señor de Fallais cuando este último tomó abiertamente el partido de Jérôme Bolsec contra Calvino.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1552_SrDeFalais' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
-                     },
-                     "media": {
-                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f342r.jpg",
-                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f342r.jpg"
-                     },
-                     "background": {
-                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107a_volume_2%252Fms_lat_107a_02_f342r.jpg",
-                            "color": "#5e5e52"
                      }
               },
               {

@@ -35,8 +35,7 @@
           </editor>, <pubPlace>Paris</pubPlace>
           , <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>, <date when="1854">1854</date>
           . <affiliation>Provenance : Bibliothèque nationale de France</affiliation>
-<facsimile
-            xml:id="43-46"> <!--  changer value of @xml:id-->
+<facsimile xml:id="43-46"> <!--  changer value of @xml:id-->
             <!--  change value of @url and add the corresponding number of graphic tags-->
             <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f43/info.json" />
 
@@ -56,7 +55,7 @@
         </msDesc>
         <notesStmt>
           <note>Les notes proviennent de l'édition de Jules Bonnet de 1854
-            sauf indication contraire. Les notes appelées "éditoriales" ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+            sauf indication contraire. Les notes appelées "éditoriales" (en vert) ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
         </notesStmt>
       </sourceDesc>
     </fileDesc>

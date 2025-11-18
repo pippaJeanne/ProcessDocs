@@ -6,10 +6,22 @@
               "img": ""
        },
        {
+              "name": "Gérard Roussel",
+              "desc": "ecclésiastique français, réformateur",
+              "url": "http://www.wikidata.org/entity/Q1226841",
+              "img": ""
+       },
+       {
               "name": "Roberte Le Lyeur",
               "desc": "épouse de Guillaume Budé",
               "url": "http://www.wikidata.org/entity/Q108743308",
               "img": ""
+       },
+       {
+              "name": "Pierre (0000 - 0065)",
+              "desc": "apôtre de Jésus Christ",
+              "url": "http://www.wikidata.org/entity/Q33923",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pope-peter%20pprubens.jpg"
        },
        {
               "name": "Renée de France (1510 - 1574)",
@@ -18,7 +30,7 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Renee%20de%20france.jpg"
        },
        {
-              "name": "Jonas ( - )",
+              "name": "Jonas",
               "desc": "prophète biblique et coranique",
               "url": "http://www.wikidata.org/entity/Q2468262",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jonah.jpg"
@@ -36,16 +48,10 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20-%20Portrait%20of%20Anthony%20of%20Bourbon%20%281518%E2%80%931562%29%2C%20King%20of%20Navarre%20-%20MNK%20XII-294%20-%20National%20Museum%20Krak%C3%B3w.jpg"
        },
        {
-              "name": "Salomon ( - )",
+              "name": "Salomon",
               "desc": "personnage biblique",
               "url": "http://www.wikidata.org/entity/Q37085",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg"
-       },
-       {
-              "name": "Pierre (0000 - 0065)",
-              "desc": "apôtre du Christ et premier pape de l'Église catholique",
-              "url": "http://www.wikidata.org/entity/Q33923",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pope-peter%20pprubens.jpg"
        },
        {
               "name": "Lactance (0240 - 0320)",
@@ -120,7 +126,7 @@
               "img": ""
        },
        {
-              "name": "Jérémie ( - )",
+              "name": "Jérémie",
               "desc": "prophète du Tanakh dans l'hébraïque ou de l'Ancien Testament pour les chrétiens",
               "url": "http://www.wikidata.org/entity/Q158825",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg"
@@ -142,5 +148,11 @@
               "desc": "Conseil ecclésiastique du canton de Neuchâtel du XVIe au XVIIIe siècle",
               "url": "http://www.wikidata.org/entity/Q131694038",
               "img": ""
+       },
+       {
+              "name": "Marguerite de Valois-Angoulême (1492 - 1549)",
+              "desc": "sœur aînée du roi François Ier, femme de lettres, diplomate, protectrice d’écrivains et d’artistes, reine de Navarre (1492-1549)",
+              "url": "http://www.wikidata.org/entity/Q190058",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Clouet%20%28Attributed%29%20-%20Portrait%20of%20Marguerite%20of%20Navarre%20-%20Google%20Art%20Project.jpg"
        }
 ]

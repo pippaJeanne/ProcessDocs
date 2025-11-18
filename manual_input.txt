@@ -9,3 +9,10 @@ Marie (- 0048)
 "name": "Augustin d’Hippone (0354 - 0430)",
                      "wikiurl": "http://www.wikidata.org/entity/Q8018",
             ==>>     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Cappella%20Palatina%20%28Palermo%29%2016%2007%202019%2014.jpg",
+
+####
+Add coordinates for Saint-Siège | Santa Sede | Vatican City => The SPARQL query doesn't seem to return it even though it's present in Wikidata … and the value is wrong
+                        "coord": {
+                            "lat": "41.9029",
+                            "lon": "12.4534"
+                        },

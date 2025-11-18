@@ -40,6 +40,16 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Rhine%20Rhein%20Basel%202006%20871.JPG"
        },
        {
+              "name": "Marenne",
+              "desc": "sección de Hotton, Bélgica",
+              "url": "http://www.wikidata.org/entity/Q3290413",
+              "coord": {
+                     "lat": "50.2433",
+                     "lon": "5.4167"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Chapelle%20Notre-Dame%20%C3%A0%20Marenne.JPG"
+       },
+       {
               "name": "castillo de Montargis",
               "desc": "castillo situado en Montargis, Francia",
               "url": "http://www.wikidata.org/entity/Q20669750",
@@ -79,6 +89,10 @@
               "name": "Santa Sede",
               "desc": "sede episcopal del papa y gobierno central de la Iglesia católica",
               "url": "http://www.wikidata.org/entity/Q159583",
+              "coord": {
+                            "lat": "41.5412",
+                            "lon": "12.2712"
+                        },
               "img": ""
        },
        {
@@ -90,6 +104,16 @@
                      "lon": "35.0"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mount-Arbel-189.jpg"
+       },
+       {
+              "name": "Lyon",
+              "desc": "ciudad de Francia",
+              "url": "http://www.wikidata.org/entity/Q456",
+              "coord": {
+                     "lat": "45.7675",
+                     "lon": "4.835"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/01.%20Panorama%20de%20Lyon%20pris%20depuis%20le%20toit%20de%20la%20Basilique%20de%20Fourvi%C3%A8re.jpg"
        },
        {
               "name": "Angulema",
@@ -120,16 +144,6 @@
                      "lon": "2.345555555"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Palais%20de%20justice%20de%20Paris%20en%201850.jpg"
-       },
-       {
-              "name": "Lyon",
-              "desc": "ciudad de Francia",
-              "url": "http://www.wikidata.org/entity/Q456",
-              "coord": {
-                     "lat": "45.758888888",
-                     "lon": "4.841388888"
-              },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/01.%20Panorama%20de%20Lyon%20pris%20depuis%20le%20toit%20de%20la%20Basilique%20de%20Fourvi%C3%A8re.jpg"
        },
        {
               "name": "Ferrara",
@@ -242,6 +256,36 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Strasburg.jpg"
        },
        {
+              "name": "Cabrières",
+              "desc": "comuna de Francia",
+              "url": "http://www.wikidata.org/entity/Q251047",
+              "coord": {
+                     "lat": "43.576944444",
+                     "lon": "3.3625"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cabrieres%20%2834%29%20mairie.JPG"
+       },
+       {
+              "name": "Mérindol",
+              "desc": "comuna francesa",
+              "url": "http://www.wikidata.org/entity/Q470556",
+              "coord": {
+                     "lat": "43.75576",
+                     "lon": "5.20256"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Merindol.JPG"
+       },
+       {
+              "name": "Isla de Oleron",
+              "desc": "isla de Nueva Aquitania (Francia)",
+              "url": "http://www.wikidata.org/entity/Q292568",
+              "coord": {
+                     "lat": "45.925",
+                     "lon": "-1.2825"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%8Ele%20d%27Ol%C3%A9ron%20aerial%20view.jpg"
+       },
+       {
               "name": "Veigy-Foncenex",
               "desc": "comuna francesa",
               "url": "http://www.wikidata.org/entity/Q774121",
@@ -292,6 +336,26 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/FallaisVillage.JPG"
        },
        {
+              "name": "Clairac",
+              "desc": "comuna francesa",
+              "url": "http://www.wikidata.org/entity/Q196543",
+              "coord": {
+                     "lat": "44.359722222",
+                     "lon": "0.378888888"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Clairac.jpg"
+       },
+       {
+              "name": "Países Bajos",
+              "desc": "nación constituyente del Reino de los Países Bajos",
+              "url": "http://www.wikidata.org/entity/Q55",
+              "coord": {
+                     "lat": "52.316666666",
+                     "lon": "5.55"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Karakteristieke%20boerderij%2C%20Aldlansdyk%20in%20Cornjum%2002.jpg"
+       },
+       {
               "name": "Borgoña",
               "desc": "región de Francia",
               "url": "http://www.wikidata.org/entity/Q1173",
@@ -300,6 +364,16 @@
                      "lon": "4.5"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Chateau%20Tanlay%20facade%20cour%20grand%20chateau.jpg"
+       },
+       {
+              "name": "Nérac",
+              "desc": "comuna francesa",
+              "url": "http://www.wikidata.org/entity/Q210769",
+              "coord": {
+                     "lat": "44.136111111",
+                     "lon": "0.339444444"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%A9rac%20vieux%20pont%204.JPG"
        },
        {
               "name": "Thonon-les-Bains",
@@ -320,5 +394,21 @@
                      "lon": "-0.1275"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20Skyline%20%28125508655%29.jpeg"
+       },
+       {
+              "name": "Artesia",
+              "desc": "región tradicional del norte de Francia",
+              "url": "http://www.wikidata.org/entity/Q159987",
+              "coord": {
+                     "lat": "50.5",
+                     "lon": "2.5"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Artois.JPG"
+       },
+       {
+              "name": "Condado de Henao",
+              "desc": "región histórica en los Países Bajos",
+              "url": "http://www.wikidata.org/entity/Q309460",
+              "img": ""
        }
 ]

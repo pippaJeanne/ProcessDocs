@@ -30,6 +30,16 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Wormser%20T%C3%BCrme.JPG"
        },
        {
+              "name": "Lyon",
+              "desc": "ville et commune française siège de la métropole de Lyon (chef-lieu de la région Auvergne-Rhône-Alpes)",
+              "url": "http://www.wikidata.org/entity/Q456",
+              "coord": {
+                     "lat": "45.7675",
+                     "lon": "4.835"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/01.%20Panorama%20de%20Lyon%20pris%20depuis%20le%20toit%20de%20la%20Basilique%20de%20Fourvi%C3%A8re.jpg"
+       },
+       {
               "name": "Soubise",
               "desc": "commune française du département de la Charente-Maritime",
               "url": "http://www.wikidata.org/entity/Q816315",
@@ -44,16 +54,6 @@
               "desc": "région historique et géographique d'Europe",
               "url": "http://www.wikidata.org/entity/Q14118",
               "img": ""
-       },
-       {
-              "name": "Lyon",
-              "desc": "ville et commune française siège de la métropole de Lyon (chef-lieu de la région Auvergne-Rhône-Alpes)",
-              "url": "http://www.wikidata.org/entity/Q456",
-              "coord": {
-                     "lat": "45.758888888",
-                     "lon": "4.841388888"
-              },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/01.%20Panorama%20de%20Lyon%20pris%20depuis%20le%20toit%20de%20la%20Basilique%20de%20Fourvi%C3%A8re.jpg"
        },
        {
               "name": "Terre d'Israël",
@@ -179,6 +179,10 @@
               "name": "Saint-Siège",
               "desc": "juridiction épiscopale de l'Église catholique, à Rome, partie spirituelle du Vatican",
               "url": "http://www.wikidata.org/entity/Q159583",
+              "coord": {
+                            "lat": "41.5412",
+                            "lon": "12.2712"
+                        },
               "img": ""
        },
        {
@@ -252,6 +256,36 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lausanne%20img%200585.jpg"
        },
        {
+              "name": "Nérac",
+              "desc": "commune française du département de Lot-et-Garonne",
+              "url": "http://www.wikidata.org/entity/Q210769",
+              "coord": {
+                     "lat": "44.136111111",
+                     "lon": "0.339444444"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%A9rac%20vieux%20pont%204.JPG"
+       },
+       {
+              "name": "Artois",
+              "desc": "ancienne province de France",
+              "url": "http://www.wikidata.org/entity/Q159987",
+              "coord": {
+                     "lat": "50.5",
+                     "lon": "2.5"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Artois.JPG"
+       },
+       {
+              "name": "Mérindol",
+              "desc": "commune française du département de Vaucluse",
+              "url": "http://www.wikidata.org/entity/Q470556",
+              "coord": {
+                     "lat": "43.75576",
+                     "lon": "5.20256"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Merindol.JPG"
+       },
+       {
               "name": "Noyon",
               "desc": "commune française du département de l'Oise",
               "url": "http://www.wikidata.org/entity/Q49831",
@@ -282,6 +316,16 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stadtbild%20K%C3%B6ln%20%2850MP%29.jpg"
        },
        {
+              "name": "Pays-Bas",
+              "desc": "l'un des quatre pays constitutifs du royaume des Pays-Bas (partie européenne)",
+              "url": "http://www.wikidata.org/entity/Q55",
+              "coord": {
+                     "lat": "52.316666666",
+                     "lon": "5.55"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Karakteristieke%20boerderij%2C%20Aldlansdyk%20in%20Cornjum%2002.jpg"
+       },
+       {
               "name": "Londres",
               "desc": "capitale de l'Angleterre et du Royaume-Uni",
               "url": "http://www.wikidata.org/entity/Q84",
@@ -290,6 +334,16 @@
                      "lon": "-0.1275"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20Skyline%20%28125508655%29.jpeg"
+       },
+       {
+              "name": "Cabrières",
+              "desc": "commune française du département de l'Hérault",
+              "url": "http://www.wikidata.org/entity/Q251047",
+              "coord": {
+                     "lat": "43.576944444",
+                     "lon": "3.3625"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cabrieres%20%2834%29%20mairie.JPG"
        },
        {
               "name": "Amsterdam",
@@ -312,6 +366,16 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/FallaisVillage.JPG"
        },
        {
+              "name": "Clairac",
+              "desc": "commune française du département de Lot-et-Garonne",
+              "url": "http://www.wikidata.org/entity/Q196543",
+              "coord": {
+                     "lat": "44.359722222",
+                     "lon": "0.378888888"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Clairac.jpg"
+       },
+       {
               "name": "Veigy-Foncenex",
               "desc": "commune française du département de la Haute-Savoie",
               "url": "http://www.wikidata.org/entity/Q774121",
@@ -322,6 +386,12 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/OGolfpractice.jpg"
        },
        {
+              "name": "comté de Hainaut",
+              "desc": "ancien comté d'Europe",
+              "url": "http://www.wikidata.org/entity/Q309460",
+              "img": ""
+       },
+       {
               "name": "Bourgogne",
               "desc": "ancienne région administrative française",
               "url": "http://www.wikidata.org/entity/Q1173",
@@ -330,5 +400,15 @@
                      "lon": "4.5"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Chateau%20Tanlay%20facade%20cour%20grand%20chateau.jpg"
+       },
+       {
+              "name": "île d'Oléron",
+              "desc": "île française, Charente-Maritime, Nouvelle-Aquitaine",
+              "url": "http://www.wikidata.org/entity/Q292568",
+              "coord": {
+                     "lat": "45.925",
+                     "lon": "-1.2825"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%8Ele%20d%27Ol%C3%A9ron%20aerial%20view.jpg"
        }
 ]

@@ -69,6 +69,11 @@
                                    "lon": "2.343333"
                             },
                             {
+                                   "name": "Zúrich",
+                                   "lat": "47.374444444",
+                                   "lon": "8.541111111"
+                            },
+                            {
                                    "name": "Berna",
                                    "lat": "46.94798",
                                    "lon": "7.44743"
@@ -259,6 +264,11 @@
                                    "lon": "12.5"
                             },
                             {
+                                   "name": "Santa Sede",
+                                   "lat": "41.9029",
+                                   "lon": "12.4534"
+                            },
+                            {
                                    "name": "Francia",
                                    "lat": "47.0",
                                    "lon": "2.0"
@@ -305,8 +315,8 @@
                      "places": [
                             {
                                    "name": "Lyon",
-                                   "lat": "45.758888888",
-                                   "lon": "4.841388888"
+                                   "lat": "45.7675",
+                                   "lon": "4.835"
                             },
                             {
                                    "name": "París",
@@ -317,6 +327,11 @@
                                    "name": "Francia",
                                    "lat": "47.0",
                                    "lon": "2.0"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
                             }
                      ],
                      "start_date": {
@@ -336,8 +351,8 @@
                      },
                      "dest_location": {
                             "name": "Lyon",
-                            "lat": "45.758888888",
-                            "lon": "4.841388888"
+                            "lat": "45.7675",
+                            "lon": "4.835"
                      }
               },
               {
@@ -397,6 +412,11 @@
                                    "name": "Ginebra",
                                    "lat": "46.2",
                                    "lon": "6.15"
+                            },
+                            {
+                                   "name": "Ámsterdam",
+                                   "lat": "52.366666666",
+                                   "lon": "4.883333333"
                             },
                             {
                                    "name": "Fallais",
@@ -513,6 +533,131 @@
                             "name": "Colonia",
                             "lat": "50.942222222",
                             "lon": "6.957777777"
+                     }
+              },
+              {
+                     "slug": "1545_04_28_ReineNavarre_ES",
+                     "places": [
+                            {
+                                   "name": "París",
+                                   "lat": "48.848611",
+                                   "lon": "2.343333"
+                            },
+                            {
+                                   "name": "Países Bajos",
+                                   "lat": "52.316666666",
+                                   "lon": "5.55"
+                            },
+                            {
+                                   "name": "Francia",
+                                   "lat": "47.0",
+                                   "lon": "2.0"
+                            },
+                            {
+                                   "name": "Clairac",
+                                   "lat": "44.359722222",
+                                   "lon": "0.378888888"
+                            },
+                            {
+                                   "name": "Isla de Oleron",
+                                   "lat": "45.925",
+                                   "lon": "-1.2825"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
+                     "start_date": {
+                            "year": "1545",
+                            "month": "04",
+                            "day": "28"
+                     },
+                     "display_date": "28 de abril de 1545",
+                     "text": {
+                            "headline": "Reina de Navarra",
+                            "text": "Respuesta de Calvino al descontento de la reina de Navarra a causa del libro de Calvino contra la secta de los libertinos espirituales, incluidos dos servidores de la reina."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "París",
+                            "lat": "48.856666666",
+                            "lon": "2.352222222"
+                     }
+              },
+              {
+                     "slug": "1545_05_31_MFallais_ES",
+                     "places": [
+                            {
+                                   "name": "Colonia",
+                                   "lat": "50.942222222",
+                                   "lon": "6.957777777"
+                            },
+                            {
+                                   "name": "Estrasburgo",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Berna",
+                                   "lat": "46.94798",
+                                   "lon": "7.44743"
+                            },
+                            {
+                                   "name": "Zúrich",
+                                   "lat": "47.374444444",
+                                   "lon": "8.541111111"
+                            },
+                            {
+                                   "name": "Basilea",
+                                   "lat": "47.560555555",
+                                   "lon": "7.590555555"
+                            },
+                            {
+                                   "name": "Cabrières",
+                                   "lat": "43.576944444",
+                                   "lon": "3.3625"
+                            },
+                            {
+                                   "name": "Mérindol",
+                                   "lat": "43.75576",
+                                   "lon": "5.20256"
+                            },
+                            {
+                                   "name": "Worms",
+                                   "lat": "49.6302618",
+                                   "lon": "8.3620898"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
+                     "start_date": {
+                            "year": "1545",
+                            "month": "05",
+                            "day": "31"
+                     },
+                     "display_date": "31 de mayo de 1545",
+                     "text": {
+                            "headline": "Señor de Fallais",
+                            "text": "Calvino da consejos y consuelo al Sr. de Fallais después de que este se retirara a Estrasburgo ante la llegada del ejército imperial. Calvino le anima a orar y a depositar su confianza en Dios."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Estrasburgo",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
                      }
               },
               {

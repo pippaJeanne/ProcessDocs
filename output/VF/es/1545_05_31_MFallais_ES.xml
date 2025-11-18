@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carta al Señor de Fallais</title>
+            <editor role="Traducción y codificación TEI">Yanet Hernández Pedraza</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>TEI Consortium</publisher>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distribuido bajo una Licencia Creative Commons Atribución-CompartirIgual 3.0 No Adaptada</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc corresp="M-Falais_1545_05_31">
+            <bibl>
+               Traducción de la versión modernizada de
+               <title level="a" rend="underline">Lettre à Monsieur de Falais (31 mai 1545)</title> editada por
+               <editor>
+                  <name>
+                     <forename>Yanet</forename>
+                     <surname>Hernández Pedraza</surname>
+                  </name>
+               </editor>.
+            </bibl>
+            <notesStmt>
+               <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+            </notesStmt>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Juan Calvino</persName>
+               <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
+               <date when="1545-05-31">31 de mayo de 1545</date>
+            </correspAction>
+            <correspAction type="received">
+               <name type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</name>
+               <settlement key="Estrasburgo" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</settlement>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="#">
+                  <persName/>
+                  <date from="1500" to="1600"/>
+               </ref>
+               <ref type="next" target="#">
+                  <persName/>
+                  <date/>
+               </ref>
+            </correspContext>
+         </correspDesc>
+         <desc>Calvino da consejos y consuelo al Sr. de Fallais después de que este se retirara a Estrasburgo ante la llegada del ejército imperial. Calvino le anima a orar y a depositar su confianza en Dios.</desc>
+         <list xml:id="tags">
+            <term>aliento</term>
+            <term>consejo</term>
+            <term>consuelo</term>
+            <term>oraciones</term>
+            <term>persecución</term>
+         </list>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <address>
+               <addrLine>Al <persName type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</persName>
+                  <note n="*" place="bottom"><p>Ante la llegada del ejército imperial, el Sr. de Falais se había retirado de <placeName key="Colonia" ref="https://www.wikidata.org/wiki/Q365">Colonia</placeName> a <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q69345">Estrasburgo</placeName>. Allí recibió, en mayo de 1545, la visita del reformador, que había ido a <placeName key="Berna" ref="https://www.wikidata.org/wiki/Q70">Berna</placeName>, a <placeName key="Zúrich" ref="https://www.wikidata.org/wiki/Q72">Zúrich</placeName> y a <placeName key="Basilea" ref="https://www.wikidata.org/wiki/Q78">Basilea</placeName> para despertar el interés de los cantones protestantes a favor de las desafortunadas víctimas de <placeName key="Cabrières" ref="https://www.wikidata.org/wiki/Q251047">Cabrières</placeName> y <placeName key="Mérindol" ref="https://www.wikidata.org/wiki/Q470556">Mérindol</placeName>. <add type="editorial">| La alusión a las víctimas de <placeName key="Cabrières" ref="https://www.wikidata.org/wiki/Q251047">Cabrières</placeName> y <placeName key="Mérindol" ref="https://www.wikidata.org/wiki/Q470556">Mérindol</placeName> hace referencia a las masacres de <placeName key="Cabrières" ref="https://www.wikidata.org/wiki/Q251047">Cabrières</placeName> y de <placeName key="Mérindol" ref="https://www.wikidata.org/wiki/Q470556">Mérindol</placeName> ocurridas en 1545 (cf. <bibl><author>Gaffarel, Paul</author>. <date>1911</date>. <title level="j" key="Les Massacres De Cabrières Et De Mérindol En 1545" ref="https://www.jstor.org/stable/40943786" rend="italic">« Les Massacres De Cabrières Et De Mérindol En 1545 »</title>. <publisher>Revue Historique 107 (2):</publisher><biblScope>241‑71</biblScope>.</bibl>)</add></p></note>
+               </addrLine>
+            </address>
+            <dateline xml:id="opener">[Enviada a <placeName key="Estrasburgo" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>]</dateline>
+            <hi rend="bold">
+               <label type="nature">Copia</label>. Bibl. de Genève. Vol. 194.</hi>
+            <hi xml:id="editorNote">
+               [Ahora bajo la cota Ms. fr. 194 (f. 35-36)]</hi>
+            <salute>Señor mío:</salute>
+         </opener>
+         <p>Aunque no puedo alabar lo suficiente al Señor por haberle retirado tan a tiempo del lugar donde podía verse sorprendido por una gran angustia, y por haberle conducido tan bien por encima de la esperanza de los hombres al lugar donde puede tener cierto respiro en su mente, ahora tiene usted, sin embargo, tanta necesidad como siempre de que él le asista, tanto enseñándole lo que es bueno y conveniente hacer, como fortaleciéndole en la buena constancia para que no se vea sacudido por ningún asalto que le llegue. Porque al estar tan cerca del lugar donde está el principal instrumento que Satanás tiene hoy en día para enfadarle<note n="1" place="bottom"><p>Alusión al emperador <persName key="Carlos V" ref="https://www.wikidata.org/wiki/Q32500">Carlos V</persName>. Este se encontraba entonces en <placeName key="Worms" ref="https://www.wikidata.org/wiki/Q3852">Worms</placeName>, donde debía presidir la <orgName key="Reichstag" ref="https://www.wikidata.org/wiki/Q669970">Dieta</orgName> que se abrió el año siguiente en esta ciudad.</p></note>, no tengo duda de que tendrá que resistir muchas más tentaciones que las que ha sentido hasta ahora. En cuanto a prolongar aún más con excusas, no veo ningún medio, ya que todo lo que alegue no tendrá mucho color, al menos en mi opinión. Lo digo en vista de quienes tiene que satisfacer. Porque, sin importar la apariencia que usted tenga de la enfermedad, ya están tan preocupados por la opinión contraria, que todo esto no tendrá lugar en cuanto a ellos, y además el lugar de su retiro les eliminará todas las dudas. Además, estoy seguro de que no han tardado mucho en espiarle, para poder formarse un cierto juicio.</p>
+         <p>Por lo tanto, lo mejor en tal extremo, en mi opinión, será callarse y aguantarlo todo, encomendando su causa a Dios, para que la conduzca sin procurador ni abogado. Ahora bien, como entre otras cosas en sus cartas dice que está en duda si debe ir a <placeName key="Worms" ref="https://www.wikidata.org/wiki/Q3852">Worms</placeName>, le ruego que lo considere bien antes de emprender el viaje, pues ante todas las cosas debe tener la resolución de confesar plenamente a nuestro Señor, sin ceder por nada. No se tratará de usar allí excusas civiles para decir algo agradable a cambio, como sabe. Y lo que es peor, temo que no tenga audiencia para hacer la confesión que desea. En cuanto al salvoconducto, acuérdese de lo que hablamos. Sin embargo, espero que no haya gran inconveniente en solicitarlo, pues estoy seguro de que solo obtendrá una respuesta negativa. Habrá un bien, que es que por este medio se le declarará a todos. Aunque creo que sobre este punto no habrá mucha necesidad de larga consulta, porque Dios lo habrá cortado de raíz, si no me equivoco. Por lo tanto, lo principal es armarse de paciencia, rogando a Dios que se complazca en gloriarse cada vez más en usted, como ha comenzado a hacerlo.</p>
+         <p>Es poca cosa lo que debemos soportar en este mundo, si consideramos la brevedad de nuestra vida. Y aunque el término fuera largo, es algo hermoso que el Hijo de Dios sea glorificado por nuestras pasiones, y que seamos partícipes de su gloria. Puesto que ha comenzado a morir al mundo por amor a él, deberá aprender ahora lo que es ser sepultado. Porque la muerte no es nada sin la sepultura. Es el consuelo que le conviene tomar para no engañarse a sí mismo: prepararse para soportar hasta el final. Aunque la cruz que lleva es muy fácil en comparación con la del Maestro. Cuando le plazca imponerle una carga más pesada, le dará los hombros para sostenerla.</p>
+         <p>A mi regreso encontré al buen señor <persName type="forename" key="David">David</persName> en muy mal estado, como le contarán los portadores de la presente, y temo mucho que después de haber resistido durante mucho tiempo, finalmente no prevalezca. Sin embargo, debemos rogar a Dios que tenga piedad de él y de nosotros. Porque sería de gran consuelo para nosotros si le placiera reservarlo.</p>
+         <p>Sobre esto, señor mío, después de encomendarme a su buena gracia, y a la de la señorita, ruego a nuestro buen Dios que le tome de la mano para que no falle ni tropiece por ningún impedimento que Satanás pueda poner en su camino.</p>
+         <closer>
+            <dateline>Desde <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</placeName>, <date when="1545-05-31">este último de mayo de 1545</date>.</dateline>
+            <salute>Su humilde hermano, servidor y verdadero amigo,</salute>
+            <signed>
+               <persName type="fullname" key="Juan Calvino" ref="#">JUAN CALVINO.</persName>
+            </signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

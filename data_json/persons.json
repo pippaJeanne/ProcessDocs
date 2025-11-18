@@ -139,6 +139,20 @@
                      "id": "#cure"
               },
               {
+                     "name": "Gérard Roussel",
+                     "wikiurl": "http://www.wikidata.org/entity/Q1226841",
+                     "thumbnail": "",
+                     "desc": "ecclésiastique français, réformateur",
+                     "letters": [
+                            {
+                                   "slug": "1545_04_28_ReineNavarre",
+                                   "date": "28 avril 1545",
+                                   "headline": "Reine de Navarre"
+                            }
+                     ],
+                     "id": "#roussel"
+              },
+              {
                      "name": "Jacques de Bourgogne",
                      "wikiurl": "http://www.wikidata.org/entity/Q6120956",
                      "thumbnail": "",
@@ -152,6 +166,11 @@
                             {
                                    "slug": "1543_fin_MFalais",
                                    "date": "[fin 1543]",
+                                   "headline": "Monsieur de Fallais"
+                            },
+                            {
+                                   "slug": "1545_05_31_MFallais",
+                                   "date": "31 mai 1545",
                                    "headline": "Monsieur de Fallais"
                             },
                             {
@@ -196,7 +215,7 @@
                      "id": "#jean_tillet"
               },
               {
-                     "name": "Jonas ( - )",
+                     "name": "Jonas",
                      "wikiurl": "http://www.wikidata.org/entity/Q2468262",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Jonah.jpg",
                      "desc": "prophète biblique et coranique",
@@ -210,7 +229,7 @@
                      "id": "#jonas"
               },
               {
-                     "name": "Jérémie ( - )",
+                     "name": "Jérémie",
                      "wikiurl": "http://www.wikidata.org/entity/Q158825",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg",
                      "desc": "prophète du Tanakh dans l'hébraïque ou de l'Ancien Testament pour les chrétiens",
@@ -262,6 +281,20 @@
                      "id": "#louis-tillet"
               },
               {
+                     "name": "Marguerite de Valois-Angoulême (1492 - 1549)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q190058",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Clouet%20%28Attributed%29%20-%20Portrait%20of%20Marguerite%20of%20Navarre%20-%20Google%20Art%20Project.jpg",
+                     "desc": "sœur aînée du roi François Ier, femme de lettres, diplomate, protectrice d’écrivains et d’artistes, reine de Navarre (1492-1549)",
+                     "letters": [
+                            {
+                                   "slug": "1545_04_28_ReineNavarre",
+                                   "date": "28 avril 1545",
+                                   "headline": "Reine de Navarre"
+                            }
+                     ],
+                     "id": "#marguerite_valois_angouleme"
+              },
+              {
                      "name": "Marie ( - 0048)",
                      "wikiurl": "http://www.wikidata.org/entity/Q345",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Duccio%20The-Madonna-and-Child-128.jpg",
@@ -306,6 +339,11 @@
                                    "headline": "Monsieur le curé"
                             },
                             {
+                                   "slug": "1545_04_28_ReineNavarre",
+                                   "date": "28 avril 1545",
+                                   "headline": "Reine de Navarre"
+                            },
+                            {
                                    "slug": "1552_10_06_SeigeursDeGeneve",
                                    "date": "[6 octobre 1552]",
                                    "headline": "Seigneurs de Genève"
@@ -331,7 +369,7 @@
                      "name": "Pierre (0000 - 0065)",
                      "wikiurl": "http://www.wikidata.org/entity/Q33923",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Pope-peter%20pprubens.jpg",
-                     "desc": "apôtre du Christ et premier pape de l'Église catholique",
+                     "desc": "apôtre de Jésus Christ",
                      "letters": [
                             {
                                    "slug": "1542_M_le_cureX",
@@ -384,7 +422,7 @@
                      "id": "#madame-bude"
               },
               {
-                     "name": "Salomon ( - )",
+                     "name": "Salomon",
                      "wikiurl": "http://www.wikidata.org/entity/Q37085",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg",
                      "desc": "personnage biblique",

@@ -242,6 +242,46 @@
               },
               {
                      "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_lat_1_376ead%2Fms_lat_107%2Fms_lat_107_f004r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_lat_1_376ead%2Fms_lat_107%2Fms_lat_107_f004r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1545",
+                            "month": "04",
+                            "day": "28"
+                     },
+                     "display_date": "28 avril 1545",
+                     "text": {
+                            "headline": "Reine de Navarre",
+                            "text": "<div><p>Réponse de Calvin au mécontentement de la reine de Navarre à cause du livre de Calvin contre la secte de Libertins spirituels, y compris deux serviteurs de la reine.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/1545_04_28_ReineNavarre' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>"
+                     },
+                     "background": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_lat_1_376ead%2Fms_lat_107%2Fms_lat_107_f004r.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f011r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f011r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1545",
+                            "month": "05",
+                            "day": "31"
+                     },
+                     "display_date": "31 mai 1545",
+                     "text": {
+                            "headline": "Monsieur de Fallais",
+                            "text": "<div><p>Calvin donne conseil et consolation à M. de Fallais après que ce dernier s'est retiré à Strasbourg à l'approche de l'armée impériale. Calvin l'encourage à prier et à mettre sa confiance en Dieu.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/1545_05_31_MFallais' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>"
+                     },
+                     "background": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f011r.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f006r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_lat_1_376ead%252Fms_lat_107%252Fms_lat_107_f006r.jpg"
                      },

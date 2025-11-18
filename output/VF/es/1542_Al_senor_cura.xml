@@ -5,7 +5,7 @@
 <fileDesc>
 <titleStmt>
 <title>Carta al señor párroco</title>
-<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza (M2 Rare Books and Digital Humanities - UBFC)</editor>
+<editor role="Traducción y codificación TEI">Yanet Hernández Pedraza (M2 Rare Books and Digital Humanities - UBFC)</editor>
 </titleStmt>
 <publicationStmt>
   <publisher>TEI Consortium</publisher>
@@ -22,7 +22,7 @@
     <surname>Hernández Pedraza</surname></name></editor>.
  </bibl>
  <notesStmt>
-          <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+          <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
  </notesStmt>
 </sourceDesc>
 </fileDesc>

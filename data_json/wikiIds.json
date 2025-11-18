@@ -163,6 +163,46 @@
                      "Cologne": "https://www.wikidata.org/wiki/Q365"
               }
        },
+       "output/VF/1545_04_28_ReineNavarre.xml": {
+              "persons": {
+                     "Marguerite de Valois-Angoulême": "https://www.wikidata.org/wiki/Q190058",
+                     "Paul de Tarse": "https://www.wikidata.org/wiki/Q9200",
+                     "Antoine Pocquet": "#",
+                     "Thierry Quintin": "#",
+                     "Gérard Roussel": "https://www.wikidata.org/wiki/Q1226841",
+                     "Jean Calvin": "#"
+              },
+              "places": {
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Paris": "https://www.wikidata.org/wiki/Q90",
+                     "Guillaume Briçonnet": "https://www.wikidata.org/wiki/Q337551",
+                     "Nérac": "https://www.wikidata.org/wiki/Q210769",
+                     "Pays-Bas": "https://www.wikidata.org/wiki/Q55",
+                     "Artois": "https://www.wikidata.org/wiki/Q159987",
+                     "comté de Hainaut": "https://www.wikidata.org/wiki/Q309460",
+                     "France": "https://www.wikidata.org/wiki/Q142",
+                     "Clairac": "https://www.wikidata.org/wiki/Q196543",
+                     "île d'Oléron": "https://www.wikidata.org/wiki/Q292568"
+              }
+       },
+       "output/VF/1545_05_31_MFallais.xml": {
+              "persons": {
+                     "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "David": "#",
+                     "Jean Calvin": "#"
+              },
+              "places": {
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Strasbourg": "https://www.wikidata.org/wiki/Q6602",
+                     "Cologne": "https://www.wikidata.org/wiki/Q365",
+                     "Berne": "https://www.wikidata.org/wiki/Q70",
+                     "Zurich": "https://www.wikidata.org/wiki/Q72",
+                     "Bâle": "https://www.wikidata.org/wiki/Q78",
+                     "Cabrières": "https://www.wikidata.org/wiki/Q251047",
+                     "Mérindol": "https://www.wikidata.org/wiki/Q470556",
+                     "Worms": "https://www.wikidata.org/wiki/Q3852"
+              }
+       },
        "output/VF/1546_01_20_MadameDEBude.xml": {
               "persons": {
                      "Roberte Le Lyeur": "https://www.wikidata.org/wiki/Q108743308",

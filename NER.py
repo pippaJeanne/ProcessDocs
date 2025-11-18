@@ -2,15 +2,15 @@
 # for installing spacy : https://spacy.io/usage 
 # Import of modules and language models for NER
 import spacy
-#nlp = spacy.load('fr_core_news_lg') #French model
+nlp = spacy.load('fr_core_news_lg') #French model
 #nlp = spacy.load('en_core_web_trf') #EN model 
-nlp = spacy.load('xx_ent_wiki_sm') # multilingual model 
+#nlp = spacy.load('xx_ent_wiki_sm') # multilingual model 
 
 import re
 # This module will help us manage the xml structure and use xpath for retreiving the text 
 import xml.etree.ElementTree as ET
 # path for the file
-file = "output/modernisation/1542_05_Al_senor_cura.xml"
+file = "input/1545_04_28_ReineNavarre.xml"
 # parsing the file
 root = ET.parse(file)
 string = ""
@@ -22,7 +22,7 @@ for elem in root.findall('.//{http://www.tei-c.org/ns/1.0}body//*'):
        elem.text = ''
     string += str(elem.text) + " "
     result = "".join(string) 
-print(result)
+#print(result)
     
 doc = nlp(result)
 ls_ents = dict([str(x), x.label_] for x in doc.ents)
@@ -30,18 +30,22 @@ print(ls_ents)
 # Removing all entities that are not "person", "date", "place(GPE)" or "organisation"
 new_ls_ent = {}
 for a in ls_ents:
-    if ls_ents[a] == "PER" or ls_ents[a] == "DATE" or ls_ents[a] == "GPE" or ls_ents[a] == "ORG" or ls_ents[a] == "LOC" or ls_ents[a] == "WORK_OF_ART":
+    if ls_ents[a] == "PER" or ls_ents[a] == "DATE" or ls_ents[a] == "GPE" or ls_ents[a] == "ORG" or ls_ents[a] == "LOC" or ls_ents[a] == "WORK_OF_ART" or ls_ents[a] == "MISC":
         new_ls_ent[a] = ls_ents[a] 
 print(new_ls_ent)
+
+## Checking the entities found with a regex to avoid problems with punctuation or special characters and keeping only the correct ones
 
 ents_keys = new_ls_ent.keys()
 ents = {}
 for key in ents_keys:
-   ok = re.search(r"\b[A-Z]\w+\b\s\b\w+|\b[A-Z]\w+", key)
+   ok = re.search(r"/\b[A-Z]\w*\W?\w*(\s+\w*\W?\w*\W?\w*){1,}|\b[A-Z]\w+\W?\w*\b|\b\w+\W?\s\w*\s\b[A-Z]\w*\W?\w*/gm", key, re.M) # change regex according to needs (especially to filter out unwanted characters)
+   notOk = ["Seigneur","Parquoy","Sathan", "Monseigneur", "Madame", "Jésus", "Esperit", "Vostre", "lat", "Néantmoins", "Biographie", "Parolle", "Dieu", "VII", "Hist", "Seigneur Jésus", "Ms", "Genève", "Paris", "JÉHAN"] # to filter out wrongly identified entities (change according to needs)
    if ok is not None:
       k = ok.group()
-      if k == key:
-          ents[k] = new_ls_ent[k]
+      print(k)
+      if k in key and k not in notOk:
+          ents[key] = new_ls_ent[key]
 print(ents)
       
 
@@ -59,14 +63,14 @@ def replace(input, output): # passing the input and output files
           newLine = ""
           # test if entity appears in that line and if it is labeled as "person"
           if ents[l] == "PER" and l in line: 
-            line = re.sub(l,f"<persName key=\"{l}\" ref=\"\" corresp=\"#{l}\" type=\"pseudonym|forename|surname|fullname\">{l}</persName>", line) # replace and overwrite line
+            line = re.sub(l,f"<persName key=\"{l}\" ref=\"#\" corresp=\"#{l}\" type=\"pseudonym|forename|surname|fullname\">{l}</persName>", line) # replace and overwrite line
             newLine = line # pass value to variable previously established
           # same for remaining labels
           if ents[l] == "GPE" or ents[l] == "LOC" and l in line:
-            line = re.sub(l,f"<placeName key=\"{l}\" ref=\"\" corresp=\"#{l}\">{l}</placeName>", line)
+            line = re.sub(l,f"<placeName key=\"{l}\" ref=\"#\">{l}</placeName>", line)
             newLine = line 
-          if ents[l] == "WORK_OF_ART" and l in line:
-            line = re.sub(l,f"<title key=\"{l}\" ref=\"\" rend=\"italic\">{l}</title>", line)
+          if ents[l] == "WORK_OF_ART" or ents[l] == "MISC" and l in line:
+            line = re.sub(l,f"<title key=\"{l}\" ref=\"#\" rend=\"italic\">{l}</title>", line)
             newLine = line
           if ents[l] == "DATE" and l in line:
             line = re.sub(l,f"<date>{l}</date>", line)
@@ -81,6 +85,6 @@ def replace(input, output): # passing the input and output files
   print("Done!")
 
 
-input = "output/modernisation/1542_05_Al_senor_cura.xml"
-output = "output/outNER/1542_05_Al_senor_cura.xml.xml"
+input = "input/1545_04_28_ReineNavarre.xml"
+output = "output/outNER/1545_04_28_ReineNavarre.xml"
 replace(input, output)

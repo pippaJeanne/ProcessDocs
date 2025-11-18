@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
     exclude-result-prefixes="xd tei" version="2.0">
-    <xsl:output method="xml" indent="yes" encoding="UTF-8" version="1.0"
+    <xsl:output method="xml" indent="no" encoding="UTF-8" version="1.0"
         xmlns="http://www.tei-c.org/ns/1.0"/>
 
 

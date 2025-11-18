@@ -39,7 +39,7 @@ for i in range(1,4): #number for last argument of range depends on number of let
 
 #####    
 # text to translate
-text = open("Translations_txt/1538_10_20_LouisTillet.txt", "r").read()
+text = open("Translations_txt/1545_04_28_ReineNavarre.txt", "r").read()
 
 # generate content with the tuned model
 # Segmenting text to fit the token limit
@@ -47,7 +47,7 @@ limit = 4000
 nloops = len(text)//limit
 
 # output file | change name of file following the model => 1538_10_20_NomDestinataireES.txt
-outfile = open("Translations_txt/1538_10_20_LouisTilletES.txt", "a", encoding="utf8")
+outfile = open("Translations_txt/1545_04_28_ReineNavarreES.txt", "a", encoding="utf8")
 for i in range(nloops+1):
     milestone = i * limit
     if milestone < len(text):
@@ -64,13 +64,16 @@ for i in range(nloops+1):
         outfile.write(response.text)
 
 
+###########
 # Translating a short text with the base model
+translate = open("2translateFR.txt", "r").read()
 response = client.models.generate_content(
             model="gemini-2.5-flash",
     #model=tuning_job.tuned_model.model,
-    contents=f"Traduis le texte suivant vers l'espagnol.\nTexte : ' '",
+    contents=f"Traduis le texte suivant vers français.\nTexte : {translate}",
 )
-print(response.text)
+outputfile = open("0utputTrans.txt", "w", encoding="utf8")
+outputfile.write(response.text)
 
 
 ######### For finetuning the model
@@ -109,28 +112,29 @@ print(sft_tuning_job.tuned_model_endpoint_name)
 ######################
 # Using the tuned model for translation
 ### text to translate 
-text = open("Translations_txt/1542_05_fidelesLyon.txt", "r").read()
+text = open("Translations_txt/1545_04_28_ReineNavarre.txt", "r").read()
 
 ## Model enpoint name: to use if value not stored above
-#tuned_model_endpoint = "projects/308230719741/locations/us-central1/endpoints/3209442555640938496"
+tuned_model_endpoint = "projects/308230719741/locations/us-central1/endpoints/3209442555640938496"
 
 # generate content with the tuned model
 # Segmenting text to fit the token limit
-limit = 3900
+limit = 3700
 nloops = len(text)//limit
 # output file | change name of file following the model => 1538_10_20_NomDestinataireES.txt
-outfile = open("Translations_txt/1542_05_fidelesLyonES.txt", "a", encoding="utf8")
+print(f"Total length of text: {len(text)} characters.")
+outfile = open("Translations_txt/1545_04_28_ReineNavarre_ES.txt", "a", encoding="utf8")
 for i in range(nloops+1):
     milestone = i * limit
     if milestone < len(text):
         substring = text[milestone:milestone+limit]
         contents= substring
-        
-        tuned_model = GenerativeModel(sft_tuning_job.tuned_model_endpoint_name) # or tuned_model_endpoint if not stored above
+        print(f"Processing chunk {i+1} with {len(contents)} characters.")
+        tuned_model = GenerativeModel(tuned_model_endpoint) # 'tuned_model_endpoint' if not stored above | 'sft_tuning_job.tuned_model_endpoint_name' if model has just been tuned
         response = tuned_model.generate_content(contents)
         #print(response.text)
         outfile.write(response.text)
-
+print("Translation with tuned model done!")
 
 # Check models list
 for model_info in client.models.list():
@@ -140,12 +144,12 @@ for model_info in client.models.list():
  # To help in the encoding of the structure of set of letters (Spanish translation) given the template with the editorial protocol 
 
 # List of translated texts to process
-traslations = ["Translations_txt/1538_10_20_LouisTilletES.txt", "Translations_txt/1542_05_fidelesLyonES.txt"]
-reference = ["output/VF/1538_10_20_LouisTillet.xml", "output/VF/1542_05_fidelesLyon.xml"]
+traslations = ["Translations_txt/1545_04_28_ReineNavarre_ES.txt"]
+reference = ["output/VF/1545_04_28_ReineNavarre.xml"] #List of references in French already encoded in TEI
 
 for doc in traslations:
     for ref in reference:
-        if doc.split("/")[-1].split("ES.")[0] in ref:
+        if doc.split("/")[-1].split("_ES.")[0] in ref:
             print("doc and ref match")            
             slices = doc.split("/")
             name = slices[-1].replace(".txt",".xml") #Change format txt | xml

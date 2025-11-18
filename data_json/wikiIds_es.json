@@ -24,7 +24,7 @@
               "places": {
                      "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
                      "París": "https://www.wikidata.org/wiki/Q90",
-                     "Zurich": "https://www.wikidata.org/wiki/Q72",
+                     "Zúrich": "https://www.wikidata.org/wiki/Q72",
                      "Berna": "https://www.wikidata.org/wiki/Q70",
                      "Basilea": "https://www.wikidata.org/wiki/Q78",
                      "Bienne": "https://www.wikidata.org/wiki/Q1034",
@@ -65,8 +65,8 @@
                      "Jacques Bernard": "#"
               },
               "places": {
-                     "Neuchâtel": "https://www.wikidata.org/wiki/Q69345",
-                     "Ginebra": "https://www.wikidata.org/wiki/Q71"
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "Neuchâtel": "https://www.wikidata.org/wiki/Q69345"
               }
        },
        "output/VF/es/1541_10_duquesaFerrara.xml": {
@@ -84,7 +84,8 @@
                      "Italia": "https://www.wikidata.org/wiki/Q38",
                      "Santa Sede": "https://www.wikidata.org/wiki/Q159583",
                      "Francia": "https://www.wikidata.org/wiki/Q142",
-                     "Soubise": "https://www.wikidata.org/wiki/Q816315"
+                     "Soubise": "https://www.wikidata.org/wiki/Q816315",
+                     "Marennes": "https://www.wikidata.org/wiki/Q3290413"
               }
        },
        "output/VF/es/1542_05_fielesLyon.xml": {
@@ -96,7 +97,7 @@
                      "Jean Calvin": "#"
               },
               "places": {
-                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
                      "Lyon": "https://www.wikidata.org/wiki/Q456",
                      "París": "https://www.wikidata.org/wiki/Q90",
                      "Francia": "https://www.wikidata.org/wiki/Q142"
@@ -129,7 +130,7 @@
                      "Colonia": "https://www.wikidata.org/wiki/Q365",
                      "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
                      "Basilea": "https://www.wikidata.org/wiki/Q78",
-                     "Àmsterdam": "https://www.wikidata.org/wiki/Q727"
+                     "Ámsterdam": "https://www.wikidata.org/wiki/Q727"
               }
        },
        "output/VF/es/1543_10_14_SenoraFalais.xml": {
@@ -160,6 +161,44 @@
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
                      "Colonia": "https://www.wikidata.org/wiki/Q365"
+              }
+       },
+       "output/VF/es/1545_04_28_ReineNavarre_ES.xml": {
+              "persons": {
+                     "Margarita de Angulema": "https://www.wikidata.org/wiki/Q190058",
+                     "Pablo de Tarso": "https://www.wikidata.org/wiki/Q9200",
+                     "Antoine Pocquet": "#",
+                     "Thierry Quintin": "#",
+                     "Gérard Roussel": "https://www.wikidata.org/wiki/Q1226841",
+                     "Juan Calvino": "#"
+              },
+              "places": {
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "París": "https://www.wikidata.org/wiki/Q90",
+                     "Nerac": "https://www.wikidata.org/wiki/Q210769",
+                     "Países Bajos": "https://www.wikidata.org/wiki/Q55",
+                     "Artois": "https://www.wikidata.org/wiki/Q159987",
+                     "Condado de Henao": "https://www.wikidata.org/wiki/Q309460",
+                     "Francia": "https://www.wikidata.org/wiki/Q142",
+                     "Clairac": "https://www.wikidata.org/wiki/Q196543",
+                     "Isla de Oleron": "https://www.wikidata.org/wiki/Q292568"
+              }
+       },
+       "output/VF/es/1545_05_31_MFallais_ES.xml": {
+              "persons": {
+                     "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "Juan Calvino": "#"
+              },
+              "places": {
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
+                     "Colonia": "https://www.wikidata.org/wiki/Q365",
+                     "Berna": "https://www.wikidata.org/wiki/Q70",
+                     "Zúrich": "https://www.wikidata.org/wiki/Q72",
+                     "Basilea": "https://www.wikidata.org/wiki/Q78",
+                     "Cabrières": "https://www.wikidata.org/wiki/Q251047",
+                     "Mérindol": "https://www.wikidata.org/wiki/Q470556",
+                     "Worms": "https://www.wikidata.org/wiki/Q3852"
               }
        },
        "output/VF/es/1546_01_20_SraDeBude.xml": {
