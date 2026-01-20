@@ -5,25 +5,25 @@
 <fileDesc>
 <titleStmt>
 <title>Carta a Louis de Tillet</title>
-<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza</editor>
+<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza (Candidata al doctorado en literatura opción humanidades digitales - UdeM)</editor>
 </titleStmt>
 <publicationStmt>
   <publisher>TEI Consortium</publisher>
   <availability status="free">
-    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">          Distributed under a Creative Commons Attribution-ShareAlike
+    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+    Distributed under a Creative Commons Attribution-ShareAlike
          3.0 Unported License</licence>
   </availability></publicationStmt>
 <sourceDesc corresp="Adressee_year_month_day">
  <bibl>
   Traducción de la versión modernizada de
-  <title level="a" rend="underline">Lettre à Louis du Tillet (31 janvier 1538)</title> editada por 
+  <title level="a" rend="underline">Lettre à Louis du Tillet (31 janvier 1538)</title> editada y codificada en TEI por 
  <editor><name>
     <forename>Yanet</forename>
     <surname>Hernández Pedraza</surname></name></editor>.
  </bibl>
  <notesStmt>
-          <note>Las notas provienen de la edición de Jules Bonnet de 1854 
-          a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+          <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
  </notesStmt>
 </sourceDesc>
 </fileDesc>

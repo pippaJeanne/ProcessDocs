@@ -16,7 +16,7 @@ from collections import defaultdict
 # This module will help us manage the xml structure and use xpath for retreiving the text 
 #import xml.etree.ElementTree as ET
 # path for the file
-file = "Translations_txt/1545_04_28_ReineNavarre.txt" #Change file path
+file = "Translations_txt/1545_08_05_MFallais.txt" #Change file path
 # Open and read the file
 # parsing the file
 result = open(file).read()
@@ -63,7 +63,7 @@ simil["freq"] = freq
 simil["vector_val"] =vectors
 print(terms)
             
-output = "TextAna_output/1545_04_28_ReineNavarre.txt" #Change file path
+output = "TextAna_output/1545_08_05_MFallais.txt" #Change file path
 #with open(output, "w", encoding="utf-8") as newfile:
  #   newfile.write(f"Liste de lemmas : {word_freq} \n\n Mots les plus fréquents : \n {common_words}")
 
@@ -131,9 +131,9 @@ def co_occurrence(tokens, window_size):
         if value > 0:
             meaningful[value] = key
     df = pd.DataFrame(meaningful)
-    return df.to_csv("TextAna_output/1545_04_28_ReineNavarre.txt.csv") #Change file path
+    return df.to_csv("TextAna_output/1545_08_05_MFallais.csv") #Change file path
 #window size = number of words to consider for co-ocurrence
-co_occ = co_occurrence(words, 10) # Use lemmas (lemma) or words (words)
+co_occ = co_occurrence(words, 5) # Use lemmas (lemma) or words (words)
 
 
 #Another way to see co-ocurrence of most common words: context of 5 previous words and 7 next words

@@ -1,0 +1,4 @@
+Thématiques par LDA : [(0, '0.035*"dieu" + 0.020*"point" + 0.020*"présent" + 0.020*"seigneur" + 0.020*"heure" + 0.020*"grâce" + 0.020*"bonne" + 0.020*"monseigneur" + 0.012*"retire" + 0.012*"sépulcre"'), (1, '0.017*"voyage" + 0.017*"venir" + 0.017*"regarder" + 0.017*"lieu" + 0.017*"avisé" + 0.017*"prise" + 0.017*"protester" + 0.017*"désir" + 0.017*"venais" + 0.017*"empêcherait"')] 
+
+ Mots clés par TF-IDF : 
+ [['monseigneur', 1.2001126847900476], ['dieu', 0.7346297182678356], ['seigneur', 0.45645740454279926], ['grâce', 0.45645740454279926], ['voyage', 0.33229478927001294], ['disposé', 0.3177326727322041], ['écris', 0.3177326727322041], ['sépulcre', 0.3177326727322041], ['miraculeuse', 0.3177326727322041], ['long', 0.3177326727322041]]

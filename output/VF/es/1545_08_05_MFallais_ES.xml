@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" n="M_Falais05_08_45_es">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carta a Señor de Fallais</title>
+            <editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza (Candidata al doctorado en literatura opción humanidades digitales - UdeM)</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>TEI Consortium</publisher>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+                  Distributed under a Creative Commons Attribution-ShareAlike
+                  3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc corresp="M_Falais05_08_45">
+            <bibl>
+               Traducción de la versión modernizada de
+               <title level="a" rend="underline">Lettre à Monsieur de Fallais (5 août [1545])</title> editada y codificada en TEI por 
+               <editor>
+                  <name>
+                     <forename>Yanet</forename>
+                     <surname>Hernández Pedraza</surname>
+                  </name>
+               </editor>.
+            </bibl>
+            <notesStmt>
+               <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+            </notesStmt>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Juan Calvino</persName>
+               <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
+               <date when="1545-08-05">5 de agosto de [1545]</date>
+            </correspAction>
+            <correspAction type="received">
+               <name type='individuo' key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</name>
+               <settlement key="Estrasburgo" cert="high" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</settlement>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="#">
+                  <persName/>
+                  <date from="1500" to="1600"/>
+               </ref>
+               <ref type="next" target="#">
+                  <persName/>
+                  <date/>
+               </ref>
+            </correspContext>
+         </correspDesc>
+         <desc>Calvino informa al Sr. de Fallais de los pasos tomados en lo concerniente a la compra de su casa en Ginebra y da consejo.</desc>
+         <list xml:id="tags">
+            <term>buenas noticias</term>
+            <term>rumores</term>
+            <term>advertencia</term>
+            <term>dificultades</term>
+            <term>compra de vivienda</term>
+            <term>llegada</term>
+         </list>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener>
+            <address>
+               <addrLine>Al <persName type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</persName>
+               </addrLine>
+            </address>
+            <dateline xml:id="opener">[Enviada a <placeName key="Estrasburgo" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>]
+            </dateline>
+            <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>
+            <hi rend="bold">
+               <label type='nature'>Autógrafo original</label>. Biblioteca de Ginebra. Vol. 194.</hi>
+            <hi xml:id="editorNote">
+               [Ahora bajo la cota Ms. fr. 194 (f. 41-44)]</hi>
+            <salute>Señor mío:</salute>
+         </opener>
+         <p>Doy gracias a nuestro buen Dios por habernos alegrado con la buena noticia de la salud que le ha devuelto, sin que nos haya entristecido la enfermedad. Si hubiéramos sido informados a tiempo, le habríamos rogado, como nos correspondía. Pero como ha trabajado tan bien sin llamarnos en su ayuda, debemos darle doble agradecimiento. E incluso mi alegría se ve aumentada por el hecho de que he escuchado que esta visita le ha servido a usted como medicina a medias, para hacerlo más robusto. Sea como fuere, como tenemos un Dios que puede en un momento retirar a los suyos del sepulcro sin dificultad, podrá conducirlos al borde de él todo lo que quiera, sin permitir que caigan en él, hasta que sea el momento.</p>
+         <p>Si tuviera tiempo de escribir a la <persName type="titre honorifique" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">señorita</persName>, le anunciaría que sus cartas me han enseñado que es bueno leer hasta el final antes de juzgar. Porque he creído sorprenderme en la segunda línea, donde me hablaba del peligro en que usted se encontraba, aunque su prudencia me ha ayudado a contenerme. Sea como fuere, se me ha consolado mucho, antes de haber tenido tiempo de enfadarme.</p>
+         <p>En cuanto al asunto del que me ha escrito, su llegada no ha sido divulgada por nosotros. Pero, sin embargo, corre el rumor, y no sabemos de dónde viene, excepto que el viento lo lleva. Cuando me hablan de ello, lo dejo pasar, sin hacer el esfuerzo de refutarlo. Porque ha pasado por aquí alguien que venía de <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName> y que ha dicho lo que quería como si hubiera sabido su intención. Por eso he considerado que sería una pérdida de tiempo negarlo, sino que lo más apropiado es dejar que cada uno piense lo que quiera. Ha venido a mí alguien que me ha contado que había un caballero de ese nombre, que se había retirado a <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>, etc., como si lo hubiera conocido más que yo. Cuando me preguntaba cosas manifiestas, porque habría sido insolente hacerse pasar por ignorante, le concedía lo que era necesario. Así que disimularemos tanto como veamos que pueda aprovechar. Sin embargo, tenga por seguro que se habla de su estado en su ausencia, sin tener comisión de usted.</p>
+         <p>En cuanto al lugar, el <persName type="forename" key="Nicolas" ref="#">señor Nicolas</persName> hará lo que le ha prometido, y nosotros con él. Solo hay una dificultad, que si se aumenta el precio, de acuerdo con el rumor, no más allá de su justo valor, sino más allá del precio que él querría dar, qué se haría en tal caso. Hacemos nuestro proyecto de que por razón llegará a dos mil quinientos escudos. <persName type="forename" key="Nicolas" ref="#">Nicolas</persName> no querría pasarse de alrededor de los doscientos. No es que la pieza no los valga, sino porque su comodidad se extiende solo hasta allí. Este es ya un escrúpulo que nos molesta. Si este lugar no le conviene, hay otro en movimiento, a dos buenas leguas de distancia. Pero temo que sea demasiado lejos, pues es muy conveniente estar cerca de la ciudad, aunque el lugar que digo está bastante cerca del lago. En resumen, si fuera deseable, preferiría que alguien pudiera prestarle su ojo para que no perdamos ninguna ocasión.</p>
+         <p>Veo por sus letras quién le retiene; pero creo que esta duda podría ser resuelta ahora. Cuando lo considero todo, mi deseo sería que a su llegada usted estuviera bien alojado, y su caso bien arreglado. Pero en su ausencia, es muy difícil proporcionarle un lugar por compra. En cuanto a alojamiento por alquiler en la ciudad, esto se puede hacer sin mucho interés. Pero algo más permanente no se debe apresurar cuando no se ha visto. Porque nuestro contento no será el suyo.</p>
+         <p>Sería mejor que usted pudiera estar aquí para aprovechar la oportunidad mientras dure. Sin embargo, espero que si uno no se da, recurramos a otro.</p>
+         <p>Temo retrasarle si le digo que nuestro Señor nos aflige de alguna manera con la peste<note n="1" place="bottom"><p>No cesó de causar estragos en <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName> hasta 1546.</p></note>. Pero prefiero que se le avise a usted a tiempo para darle seguridad, a que se sorprenda desprevenido. Por lo demás, usted está debidamente informado, como creo, pues rogué a <persName key="Maldonad" ref="#">Maldonad</persName><note n="2" place="bottom"><p>Gentilhombre de <placeName key="Hannover" ref="https://www.wikidata.org/wiki/Q1715">Hannover</placeName>, refugiado en <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName></p></note> y <persName key="Saint-André" ref="#">Saint-André</persName><note n="3" place="bottom"><p>Otro refugiado, de los <placeName key="Países Bajos" ref="https://www.wikidata.org/wiki/Q55">Países Bajos</placeName>. Fue admitido, al año siguiente, al ministerio.</p></note> que no le engañaran. Aunque usted sabe por sí mismo lo que es mejor que todas las recomendaciones y advertencias del mundo. Es porque buscamos a Jesucristo que debemos esperar encontrarlo crucificado en todos los lugares a los que vayamos en este mundo. Pero espero que nuestro buen Padre le dé aquí el descanso que sea apropiado, para la disposición de su cuerpo. Esperaremos por medio del primero algunas noticias de usted, y resoluciones importantes de lo que debemos hacer.</p>
+         <p>Y sobre esto, señor mío, después de haberme encomendado humildemente a su buena gracia, y a la de la <persName type="titre honorifique" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">señorita</persName>, y de haberles presentado a ambos las humildes recomendaciones de mi esposa, rogaré a nuestro buen Dios que les mantenga bajo su protección, guiándoles siempre por su espíritu, y enviándoles lo que sabe que les es saludable.</p>
+         <closer>
+            <dateline>De <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</placeName>, <date when="1545-08-05">este 5 de agosto de (1545)</date>.</dateline>
+            <salute>Su servidor, humilde hermano y verdadero amigo por siempre,</salute>
+            <signed>
+               <persName type="fullname" key="Juan Calvino" ref="#">JUAN CALVINO</persName>.
+            </signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

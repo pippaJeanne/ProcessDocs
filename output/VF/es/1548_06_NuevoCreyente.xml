@@ -77,7 +77,7 @@
       <dateline>Desde <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</placeName>, este <date when="1548-06-13">13 de junio de (¿1548?)</date>.
       </dateline> 
       <salute>Su buen hermano,</salute>
-      <signed><persName key="Juan Calvino">JUAN CALVINO</persName></signed>
+      <signed><persName key="Juan Calvino" ref="#">JUAN CALVINO</persName></signed>
       </closer>
   </body>
  </text>

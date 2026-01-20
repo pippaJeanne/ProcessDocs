@@ -6,11 +6,11 @@ import spacy
 from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.tokenize import sent_tokenize, word_tokenize
 from collections import Counter
-#import gensim
-#import gensim.corpora as corpora
-#from gensim import models, corpora
-#from gensim.utils import simple_preprocess
-#from gensim.models import CoherenceModel
+import gensim
+import gensim.corpora as corpora
+from gensim import models, corpora
+from gensim.utils import simple_preprocess
+from gensim.models import CoherenceModel
 import matplotlib.pyplot as plt
 import nltk as nltk 
 from nltk.util import ngrams
@@ -25,10 +25,10 @@ from sklearn.feature_extraction.text import CountVectorizer
 import json
 #from urllib3.util import Retry
 #from itertools import permutations
-more_stopwords = ["tel", "telle", "tels", "telles", "tant", "d'un", "d'une", "c'est", "qu'il", "qu'elle", "afin", "est-ce", "qu'est-ce'"]
+more_stopwords = ["tel", "telle", "tels", "telles", "tant", "d'un", "d'une", "c'est", "qu'il", "qu'elle", "afin", "est-ce", "qu'est-ce'", "auprès", "jusqu", "chez", "ci", "là", "quoiqu'", "puisque", "quand", "lorsque", "où", "or", "car", "ainsi", "moyen", "toutefois", "toutesfois", "plusieurs", "quelques", "peu", "moins", "plus", "beaucoup", "très", "autre", "autres", "chose", "choses", "fois", "quant", "quantes", "quante", "quantes", "entre", "parce", "parceque", "parce que", "falloir", "faut", "faudrait", "vouloir", "veux", "voudrais", "peux", "pourrais", "sembler", "semble", "sais", "savait", "savaient", "à", "de", "en", "du", "des", "la", "le", "les", "un", "une", "et", "ou", "au", "aux", "ce", "ces", "se", "sa", "son", "ses", "ne", "pas", "ni", "avoir", "être", "faire", "dit", "dire", "cela", "celui", "celle", "ceux", "celles", "lui", "leur", "leurs", "y", "là", "ici", "ci", "eusse", "eussent", "eût", "eûmes", "eûtes", "fusse", "fusses", "fût", "fûmes", "fûtes", "sois", "soit", "soyons", "soyez", "soient", "ayant", "été", "étée", "étées", "étés", "étant", "suis", "es", "est", "sommes", "êtes", "sont", "avais", "avait", "avions", "aviez", "avaient", "eus", "eut", "eûmes", "eûtes", "eurent", "ai", "as", "avons", "avez", "ont", "aurai", "auras", "aura", "aurons", "aurez", "auront", "aurais", "aurait", "aurions", "auriez", "auraient", "en", "n'en", "d'en", "n'en", "m'être", "t'être", "s'être", "se", "n'être"]
 stopword.extend(more_stopwords)
 
-file = open("Translations_txt/1545_04_28_ReineNavarre.txt", encoding="utf-8")
+file = open("Translations_txt/1545_08_05_MFallais.txt", encoding="utf-8") #Change file path
 text = file.read()
 list_of_text = text.split("\n")
 print(text)
@@ -80,14 +80,27 @@ bigram_data = []
 trigram_data = []
 processed_texts = []
 all_tokens = []
+tokens_segments = []
 for i in range(len(segments)):
     doc = nlp(segments[i])
+    token_row = []
     filtered_tokens = [token.text for token in doc if token.is_alpha and not token.is_stop and token.pos_ in ["NOUN", "VERB", "ADJ"]]
     filtered_tokens = [word for word in filtered_tokens if word.lower() not in stopword]
     for token in filtered_tokens:
-         all_tokens.append(token)
+        all_tokens.append(token)
+        token_row.append(token)
+    tokens_segments.append(token_row)
     processed_texts.append(" ".join(filtered_tokens))
+#print(all_tokens)
+dictionary = corpora.Dictionary(tokens_segments)
+corpus = [dictionary.doc2bow(tokens) for tokens in tokens_segments]
+#ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 8, id2word=dictionary, random_state=100, update_every=1, passes=15, alpha='auto', per_word_topics=True)
 
+ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 2, id2word=dictionary, random_state=100, update_every=1, passes=15, alpha='auto', per_word_topics=True)
+topics = ldamodel.print_topics(num_words=10)
+print(topics)
+
+# TF-IDF keywords
 tfidf_vectorizer = TfidfVectorizer()
 tfidf_matrix = tfidf_vectorizer.fit_transform(processed_texts)
 feature_names = tfidf_vectorizer.get_feature_names_out()
@@ -104,6 +117,10 @@ def plot_keyw():
     plt.ylabel("Score TF-IDF")
     plt.show()
 plot_keyw()
+
+output = "TextAna_output/1545_08_05_MFallais.txt" #Change file path
+with open(output, "w", encoding="utf-8") as newfile:
+   newfile.write(f"Thématiques par LDA : {topics} \n\n Mots clés par TF-IDF : \n {keywords}")
 
         # Bi-grams ^^Interesting to check^^
 bigrams = Counter(ngrams(all_tokens, n)).most_common(5)
@@ -131,7 +148,7 @@ print(trigram_data)
 #from difflib import SequenceMatcher
 from itertools import combinations
 from sklearn.metrics.pairwise import cosine_similarity
-file = open("Translations_txt/1545_04_28_ReineNavarre.txt", encoding="utf-8") #Change file path
+file = open("Translations_txt/1545_08_05_MFallais.txt", encoding="utf-8") #Change file path
 text = file.read()
 #print(text)
 words = list(set(re.findall(r'\b\w+\b', text.lower())))
@@ -219,11 +236,13 @@ plt.grid(True)
 plt.show()
 
 
-# Test correlation (false results)
+# Test correlation (not helpful for small text, but interesting for larger corpora)
 
 vectorizer = CountVectorizer(binary=True)
-X = vectorizer.fit_transform(processed_texts)
+X = vectorizer.fit_transform(segments)
+print(X.toarray())
 dframe = pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names_out())
+print(dframe)
 corr = dframe.corr('pearson')
 
 m = np.triu(np.ones(corr.shape), k=1).astype(bool)

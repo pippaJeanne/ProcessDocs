@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" n="M_Fallais14_10_44_es">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Carta al Señor de Fallais</title>
+        <editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza (Candidata al doctorado en literatura opción humanidades digitales - UdeM)</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+            Distribuido bajo una Licencia Creative Commons Attribution-ShareAlike 3.0 Unported</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc corresp="M_Fallais14_10_44">
+        <bibl>
+          Traducción del texto modernizado de
+          <title level="a" rend="underline">Lettre à Monsieur de Fallais (24 juin 1544)</title>
+          editada y codificada en TEI por
+          <editor>
+            <name>
+              <forename>Yanet</forename>
+              <surname>Hernández Pedraza</surname>
+            </name>
+          </editor>.
+        </bibl>
+        <notesStmt>
+          <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+        </notesStmt>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Juan Calvino
+            <addName type="pseudonym">Charles d'Espeville</addName>
+          </persName>
+          <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
+          <date when="1544-06-24">24 de junio de [1544]</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</persName>
+          <settlement cert="high" key="Colonia" ref="https://www.wikidata.org/wiki/Q365" corresp="#cologne">Colonia</settlement>
+        </correspAction>
+        <correspContext>
+          <ref type="prev" target="#">
+            <persName/>
+            <date from="1500" to="1600"/>
+          </ref>
+          <ref type="next" target="#">
+            <persName/>
+            <date/>
+          </ref>
+        </correspContext>
+      </correspDesc>
+      <desc>Calvino explica el retraso en satisfacer la petición del Señor de Fallais de enviar un ministro a Colonia, adonde este había llegado después de haber abandonado Brabante. Calvino le felicita por reconocer la necesidad de la exhortación diaria de la palabra de Dios, y también expresa la esperanza de poder visitarle tan pronto como sea posible.</desc>
+      <list xml:id="tags">
+        <term>respuesta</term>
+        <term>explicación</term>
+        <term>excusa</term>
+        <term>ministro</term>
+        <term>halago</term>
+        <term>esperanza</term>
+      </list>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <opener>
+        <address>
+          <addrLine>Al <persName type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</persName>
+            <note n="*" place="bottom">
+              <p>El <persName type="titre" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956">Sr. de Fallais</persName> acababa de abandonar <placeName key="Brabante" ref="https://www.wikidata.org/wiki/Q848831">Brabante</placeName> y de llegar a <placeName cert="high" key="Colonia" ref="https://www.wikidata.org/wiki/Q365">Colonia</placeName>, con su familia, como se ve en su petición a <persName type="name" key="Carlos V" ref="https://www.wikidata.org/wiki/Q32500">Carlos V</persName>: <hi xml:lang="latinq" rend="italic">«Ego vero primum diverti in civitatem tuam Coloniensem, ubi innocenter et citra cujusquam defensionem ita vixi, ut jure nemo de me queri possit.»</hi><hi xml:lang="trad">[En efecto, me dirigí primero a su ciudad de Colonia, donde viví inocentemente y sin la defensa de nadie, de modo que nadie pueda legítimamente quejarse de mí.]</hi> Apenas llegado a <placeName cert="high" key="Colonia" ref="https://www.wikidata.org/wiki/Q365">Colonia</placeName>, había pedido un ministro a Calvino. La guerra que asolaba entonces los <placeName key="Países Bajos" ref="https://www.wikidata.org/wiki/Q55">Países Bajos</placeName>, y que hacía muy difíciles las comunicaciones, no había permitido al reformador satisfacer de inmediato este deseo.</p>
+            </note>
+          </addrLine>
+        </address>
+        <dateline xml:id="opener">[Enviada a <placeName cert="high" key="Colonia" ref="https://www.wikidata.org/wiki/Q365" corresp="#Cologne">Colonia</placeName>]
+        </dateline>
+        <hi rend="bold"><label type="nature">Autógrafo original</label>. Bibl. de Genève. Vol. 194.</hi>
+        <hi xml:id="editorNote">
+          [Ahora bajo la cota Ms. fr. 194 (f. 26-29)]</hi>
+        <salute>Señor:</salute>
+      </opener>
+      <p>Comenzaré por presentar nuestras disculpas por haber demorado tanto en darle noticias nuestras. Le aseguro que si el tiempo le ha parecido largo, no ha sido sin languidecer de nuestro lado, porque no podíamos cumplir con usted según su deseo. Si los pasajes hubieran estado abiertos, no habríamos tenido esta dificultad, pero no es necesario que le informe qué tiempo ha pasado desde el regreso del buen señor <persName key="David de Busanton" ref="https://www.wikidata.org/wiki/Q137660629" type="forename" corresp="#david_busanton">David</persName>. No vemos mucho sentido en enviarle un hombre de su nación mientras las cosas están tan inflamadas. Por esta razón decidimos enviar a buscar un hombre que residía en <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>, que era su vecino, considerando también que sería más adecuado que otro a causa del país. Ahora bien, como este se había ido de viaje, no recibimos respuesta de él tan pronto. Después, al escribirnos, nos remitió al regreso de <persName type="surname" key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucero">Bucero</persName>, que todavía estaba por allá en <placeName key="Espira" ref="https://www.wikidata.org/wiki/Q6829">Espira</placeName>
+        <note n="1" place="bottom">
+          <p><persName type="surname" key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622">Bucero</persName> se había ido a la <orgName key="Reichstag|Dieta Imperial"   ref="https://www.wikidata.org/wiki/Q669970">Dieta</orgName> que tuvo lugar en <placeName key="Espira" ref="https://www.wikidata.org/wiki/Q6829">esta ciudad</placeName> en 1544. El <persName type="titre" key="Carlos V" ref="https://www.wikidata.org/wiki/Q32500">emperador</persName>, presionado por dos enemigos a la vez, <persName type="name" key="Solimán el Magnífico" ref="https://www.wikidata.org/wiki/Q8474">Solimán</persName> y <persName type="name" key="Francisco I de Francia" ref="https://www.wikidata.org/wiki/Q129857">Francisco I</persName>, hizo allí importantes concesiones al partido protestante.</p>
+        </note>.
+      </p>
+
+      <p>Así es como ha transcurrido el tiempo para nuestro gran pesar, ya que no teníamos nada entre manos que pudiera satisfacerle. Ahora bien, cómo se ha dado que nuestra esperanza se ha visto frustrada una vez más en cuanto a este, podrá verlo en sus cartas y en un extracto de las cartas de <persName key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucero">Bucero</persName> que le envío.</p>
+
+      <p>El portador de la presente nos ha sido enviado al lugar, sin tener en cuenta nuestra opinión. Sin embargo, no nos molesta. Porque esperamos, el señor <persName key="David de Busanton" ref="https://www.wikidata.org/wiki/Q137660629" type="forename" corresp="#david_busanton">David</persName> y yo, que no habrá pérdida en el intercambio. Está seguro en la doctrina que es útil para edificación. Porque además de que la tiene pura y sana,
+        <note n="2" place="bottom" type="editorial">
+          <p>Las diez palabras siguientes en la versión francesa: «il y est bien exercé pour en répondre. Au reste,», fueron escritas en el margen izquierdo del manuscrito autógrafo original de la mano de Calvino. Se trata probablemente de una adición después de revisar el documento. (<ref target="#linkTransc">Véase la transcripción de dicho manuscrito</ref>, folio 1)</p>
+        </note>está bien ejercitado en ella para garantizarla. Por lo demás, es modesto, para no exederse. Además, no está entregado a la gloria, ni a la codicia de mostrarse, que es una plaga malvada en muchos. Muestra un celo por hacer avanzar el reino de nuestro Señor Jesús, tal como debe ser en sus ministros. Al mismo tiempo, tiene una vida que apoya su doctrina, y en cuanto a su manera de ser, lo encontrará tratable. Ahora bien, para advertirle de lo que podría fallar en él, es cierto que no es muy hábil en ciencias humanas, y no está dotado del conocimiento de las lenguas; incluso en latín no es de los más elocuentes, aunque está instruido en la medida necesaria para su estado, lo cual es suficiente. Su lengua materna no le será muy agradable al principio, pero estoy seguro de que esto no le impedirá disfrutar de sus predicaciones, sobre todo porque la sustancia recompensará este defecto. Temía no estar lo suficientemente instruido en la civilización humana, pero le dijimos que no sería un crimen mortal contra usted. Hay un bien, que podrá amonestarle en privado de todo lo que le parezca, sin duda de que se ofenda, y espero que se vuelva maleable. En resumen, nos engañará mucho, o hará que no tengamos ocasión de arrepentirnos de haberle enviado, y no tendremos ninguna queja de usted.</p>
+
+      <p>En cuanto al tratamiento, no le hemos hablado de ello, sabiendo que no es lo que le detiene. Porque incluso si se buscara, su viaje no podría ser provechoso. No hay peligro alguno de descontento de su parte. Y de usted, estoy más que seguro de que no le dará ocasión. Solo le ruego, señor, que le reciba como un servidor de Dios, para que se sirva de lo que el Señor le ha dado con su familia, a fin de que su ministerio no sea inútil.</p>
+
+      <p>En cuanto al orden y la forma de proceder en la predicación, y en la administración de los sacramentos, lo hemos consultado, pero será usted quien tome la decisión final en el lugar. Sin embargo, le declarará lo que nos ha parecido bien, para que pueda tomar consejo sobre ello. En cuanto a esto, tenemos nuestra regla infalible, de acomodar todo a la edificación. Ahora bien, para discernir lo que es propio para edificar, es cosa del Señor darnos la prudencia, al que recurrirá. Ahora bien, señor, en respuesta a sus cartas, doy gracias a nuestro Señor por haberle fortalecido en la constancia, para hacerle superar todas las tentaciones que le impedían y distraían de venir a un lugar donde pudiera adorarle puramente, y no ha permitido que, junto con la mayoría de los que ha iluminado en el conocimiento de su nombre, haya preferido el mundo a su honor, durmiéndose en el fango, que le habría asfixiado al final. Ahora bien, si esta virtud de olvidarle y desviar su consideración de todas las cosas que le rodeaban, y de romper los lazos que le ataban, ha sido una gracia singular de nuestro buen Padre celestial, como comenzó en esto la obra de su misericordia hacia usted, así la ha continuado, poniéndole en el corazón que no era suficiente haberse retirado de las contaminaciones en que se encontraba, sino que debía tener diariamente su palabra, para confirmarle en la perseverancia, e incitarle a ir siempre más allá.</p>
+
+      <p>Experimentamos que nuestra fragilidad es tal que si no somos impulsados de hora en hora, nos enfriamos inmediatamente en nuestro celo. Y esta es la razón por la que hay tantos que caminan a paso de cangrejo, porque, decepcionados por la falsa imaginación de que es suficiente haber escuchado la verdad una vez, se vuelven negligentes, despreciando el ejercicio diario que todos nosotros tanto necesitamos. Así, instruidos tanto por su ejemplo como por nuestra propia experiencia, cuán necesario es que siempre tengamos santas exhortaciones de la palabra de nuestro Dios como un espolón para picarnos, guardémonos de retroceder.</p>
+
+      <p>Vemos, como <persName type="name" key="David" ref="https://www.wikidata.org/wiki/Q41370" corresp="#david">David</persName> entre los <persName type="collectivité" key="Filisteos" ref="https://www.wikidata.org/wiki/Q193776" corresp="#philistins">filisteos</persName>, que
+        <note n="3" place="bottom" type="editorial">
+          <p>Aquí comienza, en el manuscrito original, una anotación al margen de una mano extranjera en pseudo-latín (mezcla de latín, a veces no gramatical, y una lengua vernácula): <hi xml:lang="lat" rend="italic">«Munstirs genst. plenus laqueis»</hi>. La única frase en latín correcto es <hi xml:lang="lat" rend="italic">«plenus laqueis»</hi>, que puede traducirse como <hi xml:lang="trad">«lleno de trampas»</hi>. (<ref target="#linkTransc">Véase la transcripción del mencionado manuscrito</ref>, folio 3)</p>
+        </note>aunque no se contaminara con la idolatría, lamenta que no puede estar en el templo de <placeName key="Jerusalén" ref="https://www.wikidata.org/wiki/Q1218">Jerusalén</placeName>, para edificarse tanto por la predicación de la ley como por las santas ordenanzas de Dios, como son confirmaciones que ayudan y proveen para nuestra debilidad. Por lo tanto, ruego al Señor que le mantenga siempre en este propósito, para que sea plenamente conforme a nuestro padre <persName type="name" key="Abraham" ref="https://www.wikidata.org/wiki/Q9181" corresp="#abraham">Abraham</persName>, que no solo abandonó el país de su nacimiento para seguir a Dios, sino que al llegar a la tierra de <placeName key="Canaán" ref="https://www.wikidata.org/wiki/Q163329">Canaán</placeName> inmediatamente construyó un altar, para ejercerse en el servicio y en la adoración de Dios.</p>
+
+      <p>En cuanto a lo que teme que me resulte extraño, el cambio de su deliberación
+        <note n="4" place="bottom">
+          <p>Al principio, el <persName type="titre" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Sr. de Fallais</persName> tenía la intención de retirarse a <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</placeName>. Luego decidió fijar su residencia en <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>.</p>
+        </note>, sería demasiado inhumano si no le concediera el uso de un medio tan bueno, ya que nuestro Señor se lo ha ofrecido más allá de su esperanza. No es que no hubiera deseado verle, para disfrutar del consuelo y la alegría que esperaba de su presencia, y que no me perjudique ser privado de tal bien. Pero por otra parte considero que sería muy ingrato a Dios no aceptar la condición que se le presenta de él más que de los hombres.</p>
+
+      <p>Por lo demás, le aseguro que si estuviera en libertad, y que el Señor no me hubiera atado aquí, o que me diera licencia por un tiempo, que no me privaría de ir a verle, para satisfacer su deseo y el mío. En cuanto a verle, todavía
+        <note n="5" place="bottom" type="editorial">
+          <p>Aquí comienza, en el manuscrito original, una anotación al margen de una mano extranjera en pseudo-latín (mezcla de latín, a veces no gramatical, y una lengua vernácula): <hi xml:lang="lat" rend="italic">«O captatorius un piscise, et ille sed rē»</hi>. Esta frase es bastante ininteligible. La traducción aproximada y literal (dada la presencia de palabras vernáculas y la falta de grammaticalidad) palabra por palabra sería la siguiente: <hi xml:lang="trad">«Oh cautivador/halagador un pez[?], y esto solo en este punto»</hi>. (<ref target="#linkTransc">Véase la transcripción del mencionado manuscrito</ref>, folio 3)</p>
+        </note>no he perdido la esperanza, no es que vea mucha facilidad de mi parte, sino porque confío que nuestro Señor abrirá algún medio. Sea como fuere, lo principal es que siempre estemos unidos en aquel que es el padre de toda unidad, como lo tengo por seguro, y no solo por los tres días que tenemos que vivir en este mundo, sino eternamente en su reino.</p>
+
+      <p>Para terminar, Señor, después de haberme encomendado humildemente a su buena gracia, ruego a este buen Dios que le tenga siempre en su protección con su familia, que aumente los dones que ha puesto en usted, hasta que le haya conducido a la última perfección de sus hijos.</p>
+      <closer>
+        <dateline>El <date when="1544-06-24">24 de junio de (1544)</date>.
+        </dateline>
+        <salute>Su servidor, humilde hermano y verdadero amigo por siempre,</salute>
+        <signed><persName key="Charles d'Espeville" ref="https://www.wikidata.org/wiki/Q133821751" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName>.</signed>
+      </closer>
+    </body>
+  </text>
+</TEI>

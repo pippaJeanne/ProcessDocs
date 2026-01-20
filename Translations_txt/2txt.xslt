@@ -22,7 +22,8 @@
 </xsl:template>
 
 <xsl:template match="body//note">
-<xsl:text>note :
+<xsl:text>
+note :
 </xsl:text><xsl:apply-templates/>
 <xsl:text>
 </xsl:text>

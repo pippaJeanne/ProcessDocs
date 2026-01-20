@@ -115,7 +115,14 @@
         <!--No unnecessary space or linebreaks within note !important!!!-->
     <note n="#" place="bottom" type="editorial"><p>texte. [Note éditoriale]</p></note>
     </p>
-
+      
+      <!-- Add at the end of editorial note only if the editorial note has a reference back to manuscript transcription-->
+      (<ref target="#linkTransc">Voir transcription du dit manuscrit</ref>)
+      <!-- Example -->
+      <note n="3" place="bottom" type="editorial"><p>La phrase « aussi bien détenue » n'apparaît pas dans le manuscrit original à la Bibliothèque de Genève (<ref target="#linkTransc">Voir transcription du dit manuscrit</ref>). Cependant, elle est présente dans la copie utilisée par Jules Bonnet dans son édition de 1854. L'original étant clairement un brouillon, cette information a été sûrement ajoutée après révision.</p></note>
+      
+      
+    <!-- For quotations or citations in text-->
     <p> <hi rend="italic">citation ou titre d'ouvrage</hi> 
         <hi xml:lang="lat" rend="italic">passage ou citation en latin</hi><note n="#" type="tradLat" place="bottom"><p>Traduction</p></note>
 

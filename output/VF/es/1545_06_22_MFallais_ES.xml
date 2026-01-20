@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" xml:id="M_Fallais_1545-06-22_es">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta al Señor de Fallais</title>
+                <editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza (Candidata al doctorado en literatura opción humanidades digitales - UdeM)</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>TEI Consortium</publisher>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed
+                        under a Creative Commons Attribution-ShareAlike
+                        3.0 Unported License</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc corresp="M_Fallais_1545-06-22">
+                <bibl>
+                    Traducción de la versión modernizada de
+                    <title level="a" rend="underline">Lettre à Monsieur de Fallais (22 juin [1545])</title>
+                    editada y codificada en TEI por
+                    <editor><name><forename>Yanet</forename><surname>Hernández Pedraza</surname></name></editor>.
+                </bibl>
+                <notesStmt>
+                    <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+                </notesStmt>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Juan Calvino</persName>
+                    <settlement cert="high" key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
+                    <date when="1545-06-22">22 de junio [1545]</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</persName>
+                    <settlement cert="high" key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Estrasburgo</settlement>
+                </correspAction>
+                <correspContext>
+                    <ref type="prev" target="#">
+                        <persName/>
+                        <date from="1500" to="1600"/>
+                    </ref>
+                    <ref type="next" target="#">
+                        <persName/>
+                        <date/>
+                    </ref>
+                </correspContext>
+            </correspDesc>
+            <desc>Calvino aconseja al Sr. de Fallais en la compra de una vivienda en Ginebra.</desc>
+            <list xml:id="tags">
+                <term>advertencia</term>
+                <term>viaje</term>
+                <term>compra de vivienda</term>
+                <term>llegada</term>
+                <term>fallecimiento</term>
+            </list>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener>
+                <address>
+                    <addrLine>Al <persName type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</persName></addrLine>
+                </address>
+                <dateline xml:id="opener">[Enviada a <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Estrasburgo</placeName>]</dateline>
+                <hi rend="bold"><label type="nature">Autógrafo original</label>. Bibl. de Genève. Vol. 194. </hi>
+                <hi xml:id="editorNote">
+                    [Ahora bajo la cota Ms. fr. 194 (f. 38-39)]</hi>
+                <salute>Señor mío:</salute>
+            </opener>
+            <p>Le escribo apresuradamente porque no he sido informado a tiempo, pero en breve compensaré esta falta con el placer de Dios. Por ahora, solo le informaré que después de haber considerado lo que me ha pedido, vemos que habrá un comerciante dispuesto cuando le plazca comprar<note n="1" place="bottom"><p>Se trata de la adquisición de una casa en <placeName key="Geneve" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName>, para el <persName key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956">Sr. de Falais</persName>.</p></note>. Pero hacer alguna compra, ni siquiera hablar de ella, a menos que usted estuviera allí para juzgar lo que le conviene, no nos parece muy correcto; por lo tanto, si solo depende de esto, lo mejor sería, en mi opinión, no decir palabra hasta que usted haya llegado. Aunque por ahora tiene dos lugares, uno de los cuales podría cambiar de dueño si no se previene a tiempo. Pero también creo que cuando habría dejado de venir, y que Dios no le enviara ningún impedimento, inmediatamente después de que pasara este calor, usted se pondría en camino.</p>
+
+            <p>No me atrevo a decir lo contento que estaría si se tomara la decisión, para no serle sospechoso si le aconsejaba. Sin embargo, puedo protestar en verdad que el deseo que tengo de disfrutar del consuelo que espero no me impediría considerar lo que le sería bueno a usted. E incluso lo que más me incita a desear que usted estuviera aquí es para que esté en un lugar donde haya gente que quiera emplearse a su servicio. Me había dado cuenta que si el <persName type="titre" key="Jean de Bourgogne" ref="https://www.wikidata.org/wiki/Q137660510" corresp="#jean_M_Fromont">Señor de Fromont</persName><note n="2" place="bottom"><p><persName type="forename" key="Jean de Bourgogne" ref="https://www.wikidata.org/wiki/Q137660510">Jean</persName>, señor de <placeName key="Fromont" ref="https://www.wikidata.org/wiki/Q920581">Fromont</placeName> y de <placeName key="Han-sur-Sambre" ref="https://www.wikidata.org/wiki/Q2655059">Han-sur-Sambre</placeName>, hermano del <persName type="titre" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956">Sr. de Fallais</persName>.</p></note> hubiera venido, y que le complaciera venir a divertirse hasta aquí, como es más portátil, que su viaje le serviría de advertencia. Pero en tal caso rogaría que viniera directamente a nuestra casa.</p>
+
+            <p>En cuanto al buen señor <persName key="David de Busanton" ref="https://www.wikidata.org/wiki/Q137660629" corresp="#david_busanton">David</persName>, está hecho, si Dios no lo retira del sepulcro por gracia milagrosa. Pero no le escribo más al respecto hasta que Dios haya dispuesto todo<note n="3" place="bottom" type="editorial"><p><persName key="David de Busanton" ref="https://www.wikidata.org/wiki/Q137660629" type="fullname">David de Busanton</persName>, caballero de <placeName key="Provincia de Henao" ref="https://www.wikidata.org/wiki/Q1129">Henao</placeName> refugiado en <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName>. Murió allí en julio de 1545, en los sentimientos de la más viva piedad, como se ve en una carta de Calvino a <persName key="Pierre Viret" ref="https://www.wikidata.org/wiki/Q123337">Viret</persName> <hi xml:lang="latinq" rend="italic">« Cum mihi redditæ sunt tuæ literæ, David noster animam agebat, quam paulo post reposuit in manum Christi, singulari adeoque mirabili constantia. Testamentum ejus, ubi veneris, leges. » Julii 1545</hi> <hi xml:lang="trad">[« Cuando me llegaron sus cartas, nuestro David estaba agonizando, y poco después depositó su alma en las manos del Cristo con singular y admirable constancia. Lea su testamento, dondequiera que se encuentre » Julio de 1545]</hi>. <persName key="David de Busanton" ref="https://www.wikidata.org/wiki/Q137660629" type="fullname">David de Busanton</persName> legó por testamento mil escudos a los pobres de <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>, la misma cantidad a los de <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName>, y designó a Calvino como uno de sus albaceas testamentarios. @fuente: <bibl>(<author>Bonnet</author> <date when="1854">1854</date>, <biblScope>120, note 1</biblScope>)</bibl></p></note>.</p>
+
+            <p>Sobre esto, señor mío, después de haberme encomendado humildemente a su buena gracia, y a la de la <persName type="titre honorifique" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Señorita</persName>, y de haberle presentado las humildes recomendaciones de mi esposa, ruego a nuestro Señor que les fortalezca a ambos en cuerpo y en mente, para que sin desfallecer todos juntos cumplamos el viaje que tenemos que hacer.</p>
+            <closer>
+                <dateline>
+                    <date when="1545-06-22">Este 22 de junio. (1545<note n="4" place="bottom"><p>Al dorso, de la mano del <persName type="titre" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956">Sr. de Fallais</persName>: Contestado el 18 de julio de 1545, en <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>.</p></note>)</date>
+                </dateline>
+                <salute>Su servidor, humilde hermano y verdadero amigo,</salute>
+                <signed><persName key="Juan Calvino" type="fullname" ref="#">JUAN CALVINO</persName>.</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

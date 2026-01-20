@@ -8,6 +8,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import json
 import spacy
+nlp = spacy.load('fr_core_news_lg')
 from sentence_transformers import SentenceTransformer, util
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.decomposition import PCA
