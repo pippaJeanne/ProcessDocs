@@ -1,3 +1,5 @@
+### People
+
 Charles d'Espeville => https://www.wikidata.org/wiki/Q133821751
 ```xml
 <persName key="Charles d'Espeville" ref="https://www.wikidata.org/wiki/Q133821751" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName>
@@ -25,7 +27,7 @@ Wolfgang Fabricius Köpfel Capiton | Wolfgang Capito=> https://www.wikidata.org/
 
 Charles Quint | Carlos V => https://www.wikidata.org/wiki/Q32500
 ```xml
-<persName type="name" key="Charles Quint" ref="https://www.wikidata.org/wiki/Q32500">Charles Quint</persName>
+<persName type="name" key="Charles Quint" ref="https://www.wikidata.org/wiki/Q32500" corresp="charles-quint">Charles Quint</persName>
 ```
 
 Conseil de Genève | Consistorio de Ginebra => https://www.wikidata.org/wiki/Q2994627
@@ -59,6 +61,12 @@ Jean Trolliet =>
 Guillaume Farel => https://www.wikidata.org/wiki/Q435456
 ```xml
 <persName type="surname" key="Guillaume Farel" ref="https://www.wikidata.org/wiki/Q435456" corresp="#farel">Farel</persName>
+```
+
+Ferdinand Ier | Fernando I de Habsburgo=> https://www.wikidata.org/wiki/Q150611
+
+```xml
+<persName key="Ferdinand Ier" ref="https://www.wikidata.org/wiki/Q150611" corresp="#ferdinand">roy Ferdinand</persName>
 ```
 
 Renée de France | Renata de Francia => https://www.wikidata.org/wiki/Q235841
@@ -137,7 +145,7 @@ Laurent de Normandie => https://www.wikidata.org/wiki/Q15967055
 
 François Ier de France | Francisco I de Francia => https://www.wikidata.org/wiki/Q129857
 ```xml
-<persName type="name" key="François Ier de France" ref="https://www.wikidata.org/wiki/Q129857">Francisco I</persName>
+<persName type="name" key="François Ier de France" ref="https://www.wikidata.org/wiki/Q129857" corresp="#francoisI">Francisco I</persName>
 ```
 
 Pierre Bayle => https://www.wikidata.org/wiki/Q214816
@@ -208,6 +216,24 @@ Salomon => https://www.wikidata.org/wiki/Q37085
 
 ```xml
 <persName key="Salomon" ref="https://www.wikidata.org/wiki/Q37085" corresp="#salomon">Salomon</persName>
+```
+
+Daniel => https://www.wikidata.org/wiki/Q171724
+
+```xml
+<persName type="forname" key="Daniel" ref="https://www.wikidata.org/wiki/Q171724" corresp="#daniel">Daniel</persName>
+```   
+
+Nabuchodonosor II | Nabucodonosor II => https://www.wikidata.org/wiki/Q12591
+
+```xml
+<persName type="name" key="Nabuchodonosor II" ref="https://www.wikidata.org/wiki/Q12591" corresp="#nabuchodonosor">Nabuchodonosor</persName>
+```
+
+Israélites | Israelitas => https://www.wikidata.org/wiki/Q51669
+
+```xml
+<persName type="collectivité" key="Israélites" ref="https://www.wikidata.org/wiki/Q51669" corresp="#Israelites">Israélites</persName>
 ```
 
 Alexandre Camus => https://www.wikidata.org/wiki/Q2833517
@@ -466,9 +492,17 @@ Canaan | Canaán => https://www.wikidata.org/wiki/Q163329
 <placeName key="Hainaut" ref="https://www.wikidata.org/wiki/Q137660629">Hainaut</placeName>
 ```
 
+Jérusalem | Jerusalén =>  https://www.wikidata.org/wiki/Q1218
+```xml
+<placeName key="Jérusalem" ref="https://www.wikidata.org/wiki/Q1218">Jérusalem</placeName>
+
+<placeName key="Jerusalén" ref="https://www.wikidata.org/wiki/Q1218">Jerusalén</placeName>
+```
+
+
 ----
 
-Organizations
+### Organizations
 
 Petit conseil => https://www.wikidata.org/wiki/Q686646
 
@@ -483,11 +517,9 @@ Libertins => https://www.wikidata.org/wiki/Q3237786
 <orgName key="Libertins spirituels " ref="https://www.wikidata.org/wiki/Q3237786" corresp="#libertins">Libertins</orgName>
 ```
 
-Jérusalem | Jerusalén =>  https://www.wikidata.org/wiki/Q1218
 ```xml
-<placeName key="Jérusalem" ref="https://www.wikidata.org/wiki/Q1218">Jérusalem</placeName>
-
-<placeName key="Jerusalén" ref="https://www.wikidata.org/wiki/Q1218">Jerusalén</placeName>
+<orgName key="Compagnie des pasteurs de Neuchâtel" ref="https://www.wikidata.org/wiki/Q16950662">Compagnie de Neuchâtel</orgName>
+<orgName key="Compañía de pastores de Neuchâtel" ref="https://www.wikidata.org/wiki/Q16950662">Compañía de Neuchâtel</orgName>
 ```
 
 ```xml

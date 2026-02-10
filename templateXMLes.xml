@@ -15,13 +15,11 @@
          3.0 Unported License</licence>
   </availability></publicationStmt>
 <sourceDesc corresp="Adressee_year_month_day">
- <bibl>
-  Traducción de la versión modernizada de
-  <title level="a" rend="underline">Lettre à Louis du Tillet (31 janvier 1538)</title> editada y codificada en TEI por 
- <editor><name>
-    <forename>Yanet</forename>
-    <surname>Hernández Pedraza</surname></name></editor>.
- </bibl>
+        <bibl>
+          Traducción de la versión modernizada de
+          <title level="a" rend="underline">Lettre à l'Église de Genève (1er octobre 1538)</title> editada y codificada en TEI por <editor><name><forename>Yanet</forename> <surname>Hernández Pedraza</surname></name></editor>, basada en la edición de <editor>Jules Bonnet</editor>,
+          <title level="m">Lettres de Jean Calvin : lettres françaises. T. 1</title>, <pubPlace>Paris</pubPlace>, <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>, <date when="1854">1854</date>.
+        </bibl>
  <notesStmt>
           <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
  </notesStmt>
@@ -37,7 +35,7 @@
  </correspAction>
  <correspAction type="received">
    <name type='individuo|grupo' key="Louis du Tillet" ref="https://www.wikidata.org/wiki/Q3263586">Louis du Tillet</name>
-  <settlement key="Estrasburgo" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</settlement>
+  <settlement cert="low|medium|high" key="Estrasburgo" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</settlement>
  </correspAction>
  <correspContext>
   <ref type="prev" target="#">
@@ -64,7 +62,7 @@
 <opener>
 <address><addrLine>A <persName key="Louis du Tillet" ref="https://www.wikidata.org/wiki/Q3263586" corresp="#louis-tilletz">Louis du Tillet</persName><note n="*" place="bottom"><p></p></note></addrLine>
 </address>
-<dateline xml:id="opener">[Envoyée à <placeName key="Estrasburgo" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>]
+<dateline xml:id="opener">[Envoyée à <placeName key="Estrasburgo" cert="low|medium|high" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>] <!--<placeName key="Estrasburgo" cert="low|medium|high" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">[Estrasburgo]</placeName> => name of place in brackets if cert = low or medium--> 
 </dateline>
 
 <hi rend="bold"><label type='nature'>Copia</label>. Biblioteca imperial de París. Mss. français. Baluzc. 8069-r.</hi>

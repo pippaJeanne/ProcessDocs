@@ -4,7 +4,6 @@
             <titleStmt>
                 <title>Lettre à Monsieur de Fallais</title> 
                 <editor role="Modernisation et encodage">Yanet Hernández Pedraza (Candidate au doctorat en littérature option humanités numériques - UdeM)</editor>
-                <editor role="#"/>
             </titleStmt>
             <publicationStmt>
                 <publisher>TEI Consortium</publisher>
@@ -65,8 +64,8 @@
                     <date when="1545-06-22">22 juin [1545]</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Monsieur de Fallais</persName>
-                    <settlement cert="high" key="strasbourg" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Strasbourg</settlement>
+                    <name type="individu" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Monsieur de Fallais</name>
+                    <settlement cert="high" key="Strasbourg" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Strasbourg</settlement>
                 </correspAction>
                 <correspContext>
                     <ref type="prev" target="#">

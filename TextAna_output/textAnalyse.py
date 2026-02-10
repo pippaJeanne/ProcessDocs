@@ -16,7 +16,7 @@ from collections import defaultdict
 # This module will help us manage the xml structure and use xpath for retreiving the text 
 #import xml.etree.ElementTree as ET
 # path for the file
-file = "Translations_txt/1545_08_05_MFallais.txt" #Change file path
+file = "Translations_txt/1540_07_28_DuTailly.txt" #Change file path
 # Open and read the file
 # parsing the file
 result = open(file).read()
@@ -63,7 +63,7 @@ simil["freq"] = freq
 simil["vector_val"] =vectors
 print(terms)
             
-output = "TextAna_output/1545_08_05_MFallais.txt" #Change file path
+output = "TextAna_output/1540_07_28_DuTailly.txt" #Change file path
 #with open(output, "w", encoding="utf-8") as newfile:
  #   newfile.write(f"Liste de lemmas : {word_freq} \n\n Mots les plus fréquents : \n {common_words}")
 
@@ -95,16 +95,24 @@ mots = [key[0] for key in sorted_simils]
 simil_val = [value for value in sorted_simils[1]]
 
 # Most similar common words
+most_common_simils = []
+for m in sorted_simils:
+    for freq_w in terms:
+        if freq_w.lower() in m[0].lower():
+            most_common_simils.append([m[0], m[1]])
 print([m for m in mots for freq_w in terms if freq_w.lower() in m])
+print(most_common_simils)
 
 # Visualize most similar lemmas
 df = pd.DataFrame(sorted_simils)#, index=simils.keys())
-#df.to_csv("TextAna_output/1542_05_M_le_curéX_simils.csv")
+output_csv = "TextAna_output/1540_07_28_DuTailly.csv" #Change file path
+df.to_csv(output_csv)
+common_simils_df = pd.DataFrame(most_common_simils)
 
 def plot_simils():
     plt.figure(figsize=(8, 6))
     sns.scatterplot(y=df[0], x=df[1], data=df, marker="d")#, label='Lemmes similaires', marker='d')
-    plt.title('Les paires de mots les plus similaires dans la lettre (avec SpaCy)') # Pairs of Most Similar Words (using SpaCy)
+    plt.title('Les paires de lemmes les plus similaires dans la lettre (avec SpaCy)') # Pairs of Most Similar Words (using SpaCy)
     plt.ylabel('Lemmes') #Mots
     plt.xlabel('Similarité cosinus') #Similarité cosinus
     plt.xticks(rotation=65)
@@ -113,6 +121,21 @@ def plot_simils():
     plt.tight_layout()
     plt.show()
 plot_simils()
+
+# Visualize most similar lemmas and common in letter 
+def plot_common_similsLemmes():
+    plt.figure(figsize=(8, 6))
+    sns.scatterplot(y=common_simils_df[0], x=common_simils_df[1], data=common_simils_df, marker="d")#, label='Lemmes similaires', marker='d')
+    plt.title('Les paires de lemmes les plus similaires et plus courants dans la lettre (avec SpaCy)') # Pairs of Most Similar and Common Lemmas (using SpaCy)
+    plt.ylabel('Lemmes') #Mots
+    plt.xlabel('Similarité cosinus') #Similarité cosinus
+    plt.xticks(rotation=65)
+    #plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+plot_common_similsLemmes()
+
 
 # Matrix of co-occurrence
 def co_occurrence(tokens, window_size):
@@ -129,21 +152,36 @@ def co_occurrence(tokens, window_size):
     meaningful = {} 
     for key, value in d.items():
         if value > 0:
-            meaningful[value] = key
-    df = pd.DataFrame(meaningful)
-    return df.to_csv("TextAna_output/1545_08_05_MFallais.csv") #Change file path
-#window size = number of words to consider for co-ocurrence
-co_occ = co_occurrence(words, 5) # Use lemmas (lemma) or words (words)
+            meaningful[value] = " <-> ".join(key)
+    df = pd.DataFrame(sorted(meaningful.items(), reverse=True), columns=['Co-occurrence freq.', 'Word Pair'])
+    print(df)
+    return df
+#window size = number of words to consider for co-occurrence
+co_occ = co_occurrence(words, 3) # Use lemmas (lemma) or words (words)
 
+# Visualize most common co-occurrences
+def plot_commonCo_occurrence():
+    plt.figure(figsize=(8, 6))
+    sns.scatterplot(y=co_occ['Word Pair'], x=co_occ['Co-occurrence freq.'], data=co_occ, marker="d")#, label='Lemmes similaires', marker='d')
+    plt.title('Les cooccurrences les plus fréquentes') # Most common co-occurrences
+    plt.ylabel('Paires de mots') #Mots
+    plt.xlabel('Fréquence de cooccurrence') #Similarité cosinus
+    plt.xticks(rotation=65)
+    #plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+plot_commonCo_occurrence()
 
-#Another way to see co-ocurrence of most common words: context of 5 previous words and 7 next words
+#Another way to see co-occurrence of most common words: context of 5 previous words and 7 next words
 common_lemmas = [common_word[0] for common_word in common_words]
-common_6 = common_lemmas[0:6]
+common_6 = common_lemmas[:6]
 common_words_text = [common_word[0] for common_word in commons]
-common_6_text = common_words_text[0:6]
+common_6_text = common_words_text[4:10]
+print(common_6_text)
 def co_occurrences_context(doc, word_list, common):
     with open(output, "a", encoding="utf-8") as newfile:
-        title = "\n Co-ocurrence of most common words\n\n"
+        title = "\n\n Co-occurrence of most common words\n\n"
         newfile.write(title)
         for token in doc:
             for i in range(len(word_list)):

@@ -19,12 +19,7 @@
             <bibl>
                Traducción de la versión modernizada de
                <title level="a" rend="underline">Lettre à Monsieur de Fallais (5 août [1545])</title> editada y codificada en TEI por 
-               <editor>
-                  <name>
-                     <forename>Yanet</forename>
-                     <surname>Hernández Pedraza</surname>
-                  </name>
-               </editor>.
+               <editor><name><forename>Yanet</forename> <surname>Hernández Pedraza</surname></name></editor>.
             </bibl>
             <notesStmt>
                <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
@@ -73,7 +68,6 @@
             </address>
             <dateline xml:id="opener">[Enviada a <placeName key="Estrasburgo" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>]
             </dateline>
-            <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>
             <hi rend="bold">
                <label type='nature'>Autógrafo original</label>. Biblioteca de Ginebra. Vol. 194.</hi>
             <hi xml:id="editorNote">

@@ -17,14 +17,7 @@
       <sourceDesc corresp="M_Fallais14_10_44">
         <bibl>
           Traducción del texto modernizado de
-          <title level="a" rend="underline">Lettre à Monsieur de Fallais (24 juin 1544)</title>
-          editada y codificada en TEI por
-          <editor>
-            <name>
-              <forename>Yanet</forename>
-              <surname>Hernández Pedraza</surname>
-            </name>
-          </editor>.
+          <title level="a" rend="underline">Lettre à Monsieur de Fallais (24 juin (1544))</title> editada y codificada en TEI por <editor><name><forename>Yanet</forename> <surname>Hernández Pedraza</surname></name></editor>.
         </bibl>
         <notesStmt>
           <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
@@ -41,7 +34,7 @@
           <date when="1544-06-24">24 de junio de [1544]</date>
         </correspAction>
         <correspAction type="received">
-          <persName type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</persName>
+          <name type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</name>
           <settlement cert="high" key="Colonia" ref="https://www.wikidata.org/wiki/Q365" corresp="#cologne">Colonia</settlement>
         </correspAction>
         <correspContext>
@@ -83,13 +76,13 @@
           [Ahora bajo la cota Ms. fr. 194 (f. 26-29)]</hi>
         <salute>Señor:</salute>
       </opener>
-      <p>Comenzaré por presentar nuestras disculpas por haber demorado tanto en darle noticias nuestras. Le aseguro que si el tiempo le ha parecido largo, no ha sido sin languidecer de nuestro lado, porque no podíamos cumplir con usted según su deseo. Si los pasajes hubieran estado abiertos, no habríamos tenido esta dificultad, pero no es necesario que le informe qué tiempo ha pasado desde el regreso del buen señor <persName key="David de Busanton" ref="https://www.wikidata.org/wiki/Q137660629" type="forename" corresp="#david_busanton">David</persName>. No vemos mucho sentido en enviarle un hombre de su nación mientras las cosas están tan inflamadas. Por esta razón decidimos enviar a buscar un hombre que residía en <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>, que era su vecino, considerando también que sería más adecuado que otro a causa del país. Ahora bien, como este se había ido de viaje, no recibimos respuesta de él tan pronto. Después, al escribirnos, nos remitió al regreso de <persName type="surname" key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucero">Bucero</persName>, que todavía estaba por allá en <placeName key="Espira" ref="https://www.wikidata.org/wiki/Q6829">Espira</placeName>
+      <p>Comenzaré por presentar nuestras disculpas por haber demorado tanto en darle noticias nuestras. Le aseguro que si el tiempo le ha parecido largo, no ha sido sin languidecer de nuestro lado, porque no podíamos cumplir con usted según su deseo. Si los pasajes hubieran estado abiertos, no habríamos tenido esta dificultad, pero no es necesario que le informe qué tiempo ha pasado desde el regreso del buen señor <persName key="David de Busanton" ref="https://www.wikidata.org/wiki/Q137660629" type="forename" corresp="#david_busanton">David</persName>. No vemos mucho sentido en enviarle un hombre de su nación mientras las cosas están tan inflamadas. Por esta razón decidimos enviar a buscar un hombre que residía en <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>, que era su vecino, considerando también que sería más adecuado que otro a causa del país. Ahora bien, como este se había ido de viaje, no recibimos respuesta de él tan pronto. Después, al escribirnos, nos remitió al regreso de <persName type="surname" key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucer">Bucero</persName>, que todavía estaba por allá en <placeName key="Espira" ref="https://www.wikidata.org/wiki/Q6829">Espira</placeName>
         <note n="1" place="bottom">
           <p><persName type="surname" key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622">Bucero</persName> se había ido a la <orgName key="Reichstag|Dieta Imperial"   ref="https://www.wikidata.org/wiki/Q669970">Dieta</orgName> que tuvo lugar en <placeName key="Espira" ref="https://www.wikidata.org/wiki/Q6829">esta ciudad</placeName> en 1544. El <persName type="titre" key="Carlos V" ref="https://www.wikidata.org/wiki/Q32500">emperador</persName>, presionado por dos enemigos a la vez, <persName type="name" key="Solimán el Magnífico" ref="https://www.wikidata.org/wiki/Q8474">Solimán</persName> y <persName type="name" key="Francisco I de Francia" ref="https://www.wikidata.org/wiki/Q129857">Francisco I</persName>, hizo allí importantes concesiones al partido protestante.</p>
         </note>.
       </p>
 
-      <p>Así es como ha transcurrido el tiempo para nuestro gran pesar, ya que no teníamos nada entre manos que pudiera satisfacerle. Ahora bien, cómo se ha dado que nuestra esperanza se ha visto frustrada una vez más en cuanto a este, podrá verlo en sus cartas y en un extracto de las cartas de <persName key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucero">Bucero</persName> que le envío.</p>
+      <p>Así es como ha transcurrido el tiempo para nuestro gran pesar, ya que no teníamos nada entre manos que pudiera satisfacerle. Ahora bien, cómo se ha dado que nuestra esperanza se ha visto frustrada una vez más en cuanto a este, podrá verlo en sus cartas y en un extracto de las cartas de <persName key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622" corresp="#bucer">Bucero</persName> que le envío.</p>
 
       <p>El portador de la presente nos ha sido enviado al lugar, sin tener en cuenta nuestra opinión. Sin embargo, no nos molesta. Porque esperamos, el señor <persName key="David de Busanton" ref="https://www.wikidata.org/wiki/Q137660629" type="forename" corresp="#david_busanton">David</persName> y yo, que no habrá pérdida en el intercambio. Está seguro en la doctrina que es útil para edificación. Porque además de que la tiene pura y sana,
         <note n="2" place="bottom" type="editorial">

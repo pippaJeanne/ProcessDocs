@@ -2,26 +2,28 @@
 from saxonche import *
 from saxonche import PySaxonProcessor
 import re
-#path to input xml file
-doc = "output/VF/1545_08_05_MFallais.xml" #Change file path
-slices = doc.split("/")
-name = slices[-1].replace(".xml",".txt") #Change format txt | md
-print(name)
+#path to input xml files
+docs = ["output/VF/1538_10_01_EgliseGeneve.xml", "output/VF/1540_07_28_DuTailly.xml"] #Change file path
 xsltfile = "Translations_txt/2txt.xslt"  #Change file path
 #path to xslt file : Translations_txt/2txt.xslt  /  Translations_txt/2txt_diplom.xslt / Translations_txt/txt4Ana.xslt
 
 outpath = "Translations_txt/"
 
+for doc in docs:
+   print(f"Processing file: {doc}")
+   slices = doc.split("/")
+   name = slices[-1].replace(".xml",".txt") #Change format txt | md
+   print(name)
 # Create a Saxon processor instance
-with PySaxonProcessor(license=False) as proc:
-   xsltproc = proc.new_xslt30_processor()
-   document = proc.parse_xml(xml_file_name=doc)
-   executable = xsltproc.compile_stylesheet(stylesheet_file=xsltfile)
-   output = executable.transform_to_string(xdm_node=document)
-   #write name of output file
-   txtOk = re.sub("\s+\n+\s", "\n\n", output)
-   txtOk1 = re.sub("\s{2,}", "\n", txtOk)
-   outfile = open(f"{outpath}{name}", 'w', encoding='utf8')
-   outfile.write(txtOk1)
+   with PySaxonProcessor(license=False) as proc:
+      xsltproc = proc.new_xslt30_processor()
+      document = proc.parse_xml(xml_file_name=doc)
+      executable = xsltproc.compile_stylesheet(stylesheet_file=xsltfile)
+      output = executable.transform_to_string(xdm_node=document)
+      #write name of output file
+      txtOk = re.sub("\s+\n+\s", "\n\n", output)
+      txtOk1 = re.sub("\s{2,}", "\n", txtOk)
+      outfile = open(f"{outpath}{name}", 'w', encoding='utf8')
+      outfile.write(txtOk1)
    
 print("Done!")

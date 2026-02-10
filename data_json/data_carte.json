@@ -74,8 +74,8 @@
                      "places": [
                             {
                                    "name": "Paris",
-                                   "lat": "48.856111111",
-                                   "lon": "2.345555555"
+                                   "lat": "48.856666666",
+                                   "lon": "2.352222222"
                             },
                             {
                                    "name": "Zurich",
@@ -134,6 +134,50 @@
                      }
               },
               {
+                     "slug": "1538_10_01_EgliseGeneve",
+                     "places": [
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Strasbourg",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Israël",
+                                   "lat": "31.0",
+                                   "lon": "35.0"
+                            }
+                     ],
+                     "media": {
+                            "url": "https://ge.ch/arvaegrefdoc/PH/180775/chaeg_ph_1203_00006.jpg",
+                            "thumbnail": "https://ge.ch/arvaegrefdoc/PH/180775/chaeg_ph_1203_00006.jpg"
+                     },
+                     "start_date": {
+                            "year": "1538",
+                            "month": "10",
+                            "day": "01"
+                     },
+                     "display_date": "1er octobre 1538",
+                     "text": {
+                            "headline": "Église de Genève",
+                            "text": "Jean Calvin écrit à l'Église de Genève, depuis son exil à Strasbourg, pour les exhorter à la patience et à l'humilité face aux tribulations et aux divisions, et à persévérer dans la prière."
+                     },
+                     "scr_location": {
+                            "name": "Strasbourg",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     },
+                     "dest_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     }
+              },
+              {
                      "slug": "1538_10_20_LouisTillet",
                      "places": [
                             {
@@ -143,8 +187,8 @@
                             },
                             {
                                    "name": "Paris",
-                                   "lat": "48.856111111",
-                                   "lon": "2.345555555"
+                                   "lat": "48.856666666",
+                                   "lon": "2.352222222"
                             },
                             {
                                    "name": "Orbe",
@@ -180,6 +224,75 @@
                             "name": "Paris",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
+                     }
+              },
+              {
+                     "slug": "1540_07_28_DuTailly",
+                     "places": [
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Neuchâtel",
+                                   "lat": "46.990277777",
+                                   "lon": "6.930555555"
+                            },
+                            {
+                                   "name": "Haguenau",
+                                   "lat": "48.816666666",
+                                   "lon": "7.787777777"
+                            },
+                            {
+                                   "name": "Francfort-sur-le-Main",
+                                   "lat": "50.110555555",
+                                   "lon": "8.682222222"
+                            },
+                            {
+                                   "name": "Allemagne",
+                                   "lat": "51.0",
+                                   "lon": "10.0"
+                            },
+                            {
+                                   "name": "Nuremberg",
+                                   "lat": "49.453888888",
+                                   "lon": "11.0775"
+                            },
+                            {
+                                   "name": "Rome",
+                                   "lat": "41.893055555",
+                                   "lon": "12.482777777"
+                            },
+                            {
+                                   "name": "Strasbourg",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            }
+                     ],
+                     "media": {
+                            "url": "https://ge.ch/arvaegrefdoc/PH2/112132/chaeg_ph_1250_00003.JPG",
+                            "thumbnail": "https://ge.ch/arvaegrefdoc/PH2/112132/chaeg_ph_1250_00003.JPG"
+                     },
+                     "start_date": {
+                            "year": "1540",
+                            "month": "07",
+                            "day": "28"
+                     },
+                     "display_date": "28 juillet 1540",
+                     "text": {
+                            "headline": "Monsieur du Tailly",
+                            "text": "Calvin écrit à Monsieur du Tailly, un réfugié protestant à Genève, concernant les développements des conférences religieuses à Haguenau et la situation politique des princes protestants face à l'Empereur et au Pape."
+                     },
+                     "scr_location": {
+                            "name": "Strasbourg",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     },
+                     "dest_location": {
+                            "name": "[Genève]",
+                            "lat": "46.2",
+                            "lon": "6.15"
                      }
               },
               {
@@ -339,7 +452,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Ferrare",
+                            "name": "[Ferrare]",
                             "lat": "44.839166666",
                             "lon": "11.6175"
                      }
@@ -354,8 +467,8 @@
                             },
                             {
                                    "name": "Paris",
-                                   "lat": "48.856111111",
-                                   "lon": "2.345555555"
+                                   "lat": "48.856666666",
+                                   "lon": "2.352222222"
                             },
                             {
                                    "name": "France",
@@ -422,12 +535,12 @@
                             "text": "Défense de la doctrine de l'église réformée contre l'accusation d'être la cause de la peste à Genève. Instruction de recourir à Dieu seul pour la délivrance."
                      },
                      "scr_location": {
-                            "name": "Genève",
+                            "name": "[Genève]",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Genève",
+                            "name": "[Genève]",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -461,7 +574,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Fallais",
+                            "name": "[Fallais]",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
@@ -498,6 +611,11 @@
                                    "name": "Fallais",
                                    "lat": "50.6111",
                                    "lon": "5.1711"
+                            },
+                            {
+                                   "name": "Hainaut",
+                                   "lat": "50.5",
+                                   "lon": "3.916666666"
                             }
                      ],
                      "media": {
@@ -520,7 +638,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Fallais",
+                            "name": "[Fallais]",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
@@ -554,9 +672,73 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Fallais",
+                            "name": "[Fallais]",
                             "lat": "50.6111",
                             "lon": "5.1711"
+                     }
+              },
+              {
+                     "slug": "1544_06_24_MFallais",
+                     "places": [
+                            {
+                                   "name": "Cologne",
+                                   "lat": "50.942222222",
+                                   "lon": "6.957777777"
+                            },
+                            {
+                                   "name": "Pays-Bas",
+                                   "lat": "52.316666666",
+                                   "lon": "5.55"
+                            },
+                            {
+                                   "name": "Strasbourg",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Spire",
+                                   "lat": "49.3165553",
+                                   "lon": "8.433615"
+                            },
+                            {
+                                   "name": "Jérusalem",
+                                   "lat": "31.778888888",
+                                   "lon": "35.225555555"
+                            },
+                            {
+                                   "name": "Canaan",
+                                   "lat": "32.766667",
+                                   "lon": "35.333333"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f007r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f007r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1544",
+                            "month": "06",
+                            "day": "24"
+                     },
+                     "display_date": "24 juin [1544]",
+                     "text": {
+                            "headline": "Monsieur de Fallais",
+                            "text": "Calvin explique le délai pour satisfaire la requête du Monsieur de Fallais d'envoyer un ministre à Cologne où il venait d'arriver après avoir quitté le Brabant. Calvin le complimente vu qu'il reconnait le besoin des exhortations quotidiennes de la parole de Dieu, et il exprime également l'espoir de pouvoir lui rendre visite dès que possible."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Cologne",
+                            "lat": "50.942222222",
+                            "lon": "6.957777777"
                      }
               },
               {
@@ -588,7 +770,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Cologne",
+                            "name": "[Cologne]",
                             "lat": "50.942222222",
                             "lon": "6.957777777"
                      }
@@ -603,8 +785,8 @@
                             },
                             {
                                    "name": "Paris",
-                                   "lat": "48.856111111",
-                                   "lon": "2.345555555"
+                                   "lat": "48.856666666",
+                                   "lon": "2.352222222"
                             },
                             {
                                    "name": "Pays-Bas",
@@ -657,7 +839,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Paris",
+                            "name": "[Paris]",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
                      }
@@ -737,12 +919,105 @@
                      }
               },
               {
+                     "slug": "1545_06_22_MFallais",
+                     "places": [
+                            {
+                                   "name": "Fromont",
+                                   "lat": "48.255555555",
+                                   "lon": "2.503888888"
+                            },
+                            {
+                                   "name": "Hainaut",
+                                   "lat": "50.5",
+                                   "lon": "3.916666666"
+                            },
+                            {
+                                   "name": "Strasbourg",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            }
+                     ],
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f013r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f013r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1545",
+                            "month": "06",
+                            "day": "22"
+                     },
+                     "display_date": "22 juin [1545]",
+                     "text": {
+                            "headline": "Monsieur de Fallais",
+                            "text": "Calvin donne conseil à M. de Fallais concernant l'achat d'une demeure à Genève."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Strasbourg",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     }
+              },
+              {
+                     "slug": "1545_08_05_MFallais",
+                     "places": [
+                            {
+                                   "name": "Strasbourg",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Hanovre",
+                                   "lat": "52.374444444",
+                                   "lon": "9.738611111"
+                            },
+                            {
+                                   "name": "Pays-Bas",
+                                   "lat": "52.316666666",
+                                   "lon": "5.55"
+                            }
+                     ],
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f014r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f014r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1545",
+                            "month": "08",
+                            "day": "05"
+                     },
+                     "display_date": "5 août [1545]",
+                     "text": {
+                            "headline": "Monsieur de Fallais",
+                            "text": "Calvin se réjouit des bonnes nouvelles concernant la santé de M. de Fallais, lui informe des démarches concernant l'achat de sa maison à Genève et donne conseil. Il explique également comment il gère les rumeurs de sa venue."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Strasbourg",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     }
+              },
+              {
                      "slug": "1546_01_20_MadameDEBude",
                      "places": [
                             {
                                    "name": "Paris",
-                                   "lat": "48.856111111",
-                                   "lon": "2.345555555"
+                                   "lat": "48.856666666",
+                                   "lon": "2.352222222"
                             }
                      ],
                      "media": {
@@ -765,7 +1040,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Paris",
+                            "name": "[Paris]",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
                      }
@@ -799,7 +1074,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Genève",
+                            "name": "[Genève]",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -833,7 +1108,7 @@
                             "text": "Réponse de Calvin aux accusations de Jean Trolliet concernant sa doctrine."
                      },
                      "scr_location": {
-                            "name": "Genève",
+                            "name": "[Genève]",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
@@ -892,7 +1167,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Veigy-Foncenex",
+                            "name": "[Veigy-Foncenex]",
                             "lat": "46.271944444",
                             "lon": "6.258888888"
                      }
@@ -907,8 +1182,8 @@
                             },
                             {
                                    "name": "Paris",
-                                   "lat": "48.856111111",
-                                   "lon": "2.345555555"
+                                   "lat": "48.856666666",
+                                   "lon": "2.352222222"
                             },
                             {
                                    "name": "Noyon",
@@ -941,7 +1216,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Londres",
+                            "name": "[Londres]",
                             "lat": "51.507222222",
                             "lon": "-0.1275"
                      }

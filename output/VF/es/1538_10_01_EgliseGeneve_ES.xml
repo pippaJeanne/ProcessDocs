@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" n="Eglise_de_Geneve_1538_10_01_es">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Carta a la Iglesia de Ginebra</title>
+<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza (Candidata al doctorado en literatura opción humanidades digitales - UdeM)</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+  <availability status="free">
+    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+    Distributed under a Creative Commons Attribution-ShareAlike
+         3.0 Unported License</licence>
+  </availability>
+</publicationStmt>
+<sourceDesc corresp="Eglise_de_Geneve_1538_10_01">
+ <bibl>
+  Traducción de la versión modernizada de
+  <title level="a" rend="underline">Lettre à l'Église de Genève (1er octobre 1538)</title> editada y codificada en TEI por <editor><name><forename>Yanet</forename> <surname>Hernández Pedraza</surname></name></editor>, basada en la edición de <editor>Jules Bonnet</editor>,
+  <title level="m">Lettres de Jean Calvin : lettres françaises. T. 1</title>, <pubPlace>Paris</pubPlace>, <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>, <date when="1854">1854</date>.
+ </bibl>
+ <notesStmt>
+          <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+ </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Juan Calvino</persName>
+  <settlement key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Estrasburgo</settlement>
+  <date when="1538-10-01">1ro de octubre de 1538</date>
+ </correspAction>
+ <correspAction type="received">
+   <name type='grupo' key="Iglesia de Ginebra" ref="https://www.wikidata.org/wiki/Q13371956" corresp="#eglise-geneve">Iglesia de Ginebra</name>
+  <settlement cert="high" key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Juan Calvino escribe a la Iglesia de Ginebra, desde su exilio en Estrasburgo, para exhortarlos a la paciencia y a la humildad ante las tribulaciones y las divisiones, y a perseverar en la oración.</desc>
+<list xml:id="tags">
+<term>exhortaciones</term>
+<term>consuelo</term>
+<term>paciencia</term>
+<term>confesión</term>
+<term>oraciones</term>
+<term>división</term>
+</list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>A <persName type="grupo" key="Église protestante de Genève" ref="https://www.wikidata.org/wiki/Q13371956" corresp="#eglise-geneve">la iglesia de Ginebra</persName><note n="*" place="bottom"><p>En el título: A mis amados hermanos en nuestro Señor, que son las reliquias de la disipación de la Iglesia de Ginebra. Calvino, expulsado de <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName> por una revolución, es atraído a <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName> por las oraciones de <persName type="surname" key="Martín Bucero" ref="https://www.wikidata.org/wiki/Q318622">Bucero</persName> (septiembre de 1538). Allí es nombrado ministro de la Iglesia francesa de esa ciudad y profesor de teología. Sin embargo, sus ojos siempre están puestos en la <persName type="grupo" key="Église protestante de Genève" ref="https://www.wikidata.org/wiki/Q13371956">Iglesia de Ginebra</persName>, de la que fue pastor, y en «estas reliquias de la disipación», a los que exhorta y consuela con sus cartas desde el fondo de su exilio.</p></note></addrLine>
+</address>
+<dateline xml:id="opener">[Enviada a <placeName cert="high" key="Ginebra" corresp="#geneve" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName>]</dateline> 
+
+<hi rend="bold"><label type='nature'>Copia</label>. Archivos de Ginebra. 1240.</hi>
+<hi xml:id="editorNote">[Ahora en los Archivos Estatales de Ginebra bajo la cota P.H. 1203 (f. 6-8)]</hi>
+<hi>Que la misericordia de Dios nuestro Padre y la gracia de nuestro Señor Jesucristo se multipliquen siempre en ustedes por la comunicación del Espíritu Santo.</hi>
+<salute>Mis hermanos:</salute>
+</opener>
+<p>Me he abstenido hasta ahora de escribirles, esperando que las cartas de nuestro hermano <persName type="surname" key="Guillaume Farel" ref="https://www.wikidata.org/wiki/Q435456" corresp="#farel">Farel</persName>, que había tomado esta tarea por ambos, les fueran suficientes; y también porque quería eliminar en la medida de mis posibilidades la ocasión de hablar mal de quienes la buscan. Para que no pudieran calumniar que intentamos, al atraerlos a nosotros, mantenerlos en cierta parcialidad. Sin embargo, no he podido abstenerme de escribirles para certificarles el afecto que siempre les guardo, y el recuerdo que tengo de ustedes en nuestro Señor, como dicta mi deber, y no me impedirá este temor, que me ha detenido en cierta medida hasta ahora; sobre todo porque veo que el color que los impíos podrían tomar al criticarnos sería demasiado vano y frívolo. Dios nos es testigo, y sus conciencias ante su juicio, que mientras hemos estado conversando entre ustedes, todo nuestro estudio ha sido mantenerlos a todos juntos en buena unión y concordia. Los que se han separado de nosotros para hacer y llevar a cabo su facción por separado, han introducido división tanto en su <persName type="grupo" key="Église protestante de Genève" ref="https://www.wikidata.org/wiki/Q13371956" corresp="#eglise-geneve">Iglesia</persName> como en su <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71">ciudad</placeName>. Al ver el comienzo de esta plaga, nos hemos esforzado fielmente, como ante Dios a quien servimos, en ponerle remedio, por lo que el tiempo pasado nos exime de todas sus calumnias. Y ahora, si al comunicarnos con ustedes les dábamos razón para guardarnos en su memoria, esto no puede convertirles en reproche, pues nuestra conciencia está bien segura ante Dios, de que fue por su vocación que una vez nos unimos a ustedes. Por lo tanto, no debe estar en el poder de los hombres romper tal vínculo, y como nos hemos portado en el pasado, así esperamos, por la dirección de nuestro Señor, conducirnos de manera que no seamos objeto de problemas ni de divisiones, excepto para aquellos que están tan opuestos a Jesucristo y todo su pueblo, que no pueden soportar ninguna concordia con sus servidores. Porque a tal clase de gente este buen Salvador les es un escándalo y una ofensa, ¿qué podemos ser nosotros, que debemos llevar su marca impresa en nuestra alma y en nuestro cuerpo? Pero nuestro consuelo es que no les damos ninguna causa; ya que nuestro buen maestro no vino a poner obstáculo a los hombres, sino más bien a ser el camino por el que todos caminan sin tropezar.</p>
+
+<p>Ahora bien, mis amados hermanos, porque la mano del Señor, según puedo oír, está siempre dispuesta a visitarles, y porque por su justa permisión el diablo se esfuerza incesantemente por disipar la Iglesia que se ha iniciado entre ustedes, es necesario amonestarles en su oficio. Que reconozcan y mediten, a pesar de la perversidad de los hombres que les molestan y oprimen, que los asaltos no se les dan tanto de ellos como de Satanás, que usa su malicia como instrumento para hacer la guerra contra ustedes. A esto es lo que nos exhorta el <persName type="forename" key="Pablo de Tarso" ref="https://www.wikidata.org/wiki/Q9200" corresp="#paul">Apóstol</persName> cuando dice que nuestra batalla no es contra la carne y la sangre, es decir, contra los hombres, sino contra las potestades del aire, y contra el príncipe de las tinieblas. Saben lo necesario que es conocer a su enemigo para saber por qué medio resistirle. Si nos detenemos a luchar contra los hombres, pensando solo en vengarnos, y en ser recompensados por los perjuicios que nos causan, es dudoso que podamos vencerlos de esta manera. Pero es seguro que, sin embargo, seremos vencidos por el diablo. Por el contrario, si no tenemos otros combates contra los hombres, excepto en la medida en que nos vemos obligados a tenerlos en contra, en la medida en que son adversarios de Jesucristo, si resistiéramos las maquinaciones de este enemigo espiritual, estando provistos de las armaduras con las que el Señor quiere que su pueblo se fortalezca, no debemos temer que no salgamos victoriosos. Sin embargo, mis hermanos, si buscan la verdadera victoria, no combatan el mal con mal; sino que, despojándose de todos los malos afectos, sean conducidos solo por el celo de Dios moderado por su Espíritu según la regla de su palabra.</p>
+
+<p>Además, deben considerar que estas cosas no les han sucedido sin la disposición del Señor, que obra incluso por medio de los impíos, según el consejo de su buena voluntad. Ahora bien, esta consideración les apartará de sus enemigos, para que se miren y consideren a ustedes mismos, y para que reflexionen tanto, que reconozcan cuánto de su parte han merecido recibir tal visita, para castigar su negligencia, desprecio o indiferencia a la palabra de Dios que había entre ustedes, pereza en seguirla y rendirle la debida obediencia. Porque no pueden excusarse de que no ha habido muchas faltas en todos los sentidos; y aunque les sea fácil justificarse de alguna manera ante los hombres, sin embargo, ante Dios su conciencia se sentirá cargada. Así lo hicieron los siervos de Dios en sus tribulaciones, que es que, a dondequiera que fueran, siempre convertían sus pensamientos a la mano de Dios, y a sus propios vicios, reconociendo en sí mismos la causa suficiente por la que el Señor debía afligirles así. <persName type="forename" key="Daniel" ref="https://www.wikidata.org/wiki/Q171724" corresp="#daniel">Daniel</persName> sabía bien cuán perverso había sido el rey de Babilonia al destruir y disipar al pueblo de Dios, solo para satisfacer su avaricia, arrogancia y crueldad; cuánta era su iniquidad al oprimirlos injustamente. Sin embargo, viendo que la causa principal estaba en ellos mismos, ya que los babilonios no podían hacer nada contra ellos, excepto con la permisión del Señor, para seguir y mantener un buen orden, comienza con la confesión de sus faltas y las de los reyes y del pueblo de <placeName key="Israël" ref="https://www.wikidata.org/wiki/Q801">Israel</placeName>. Si el Profeta se humilló así, consideren cuánta más razón tienen ustedes, y si le fue necesario hacerlo para obtener la misericordia de Dios, qué ciegos serían ustedes al detenerse en la acusación de sus enemigos, sin ningún reconocimiento de sus faltas, que son mucho mayores que las del profeta.</p>
+
+<p>En cuanto a nosotros, si se trata de debatir nuestra causa contra todos los impíos y calumniadores que quieren acusarnos, sé que no solo nuestra conciencia es pura para responder delante de Dios, sino que tenemos suficiente de qué expiarnos ante todos. Y esta seguridad la hemos testificado suficientemente cuando hemos pedido responder, incluso ante nuestros adversarios, a todas las cosas que se nos quieren imponer. Un hombre debe estar bien provisto de justificaciones cuando se presenta de tal manera, siendo inferior en todas las cosas, excepto en la buena causa. Sin embargo, cuando se trata de comparecer ante Dios, no tengo duda de que nos ha humillado de esta manera, para hacernos reconocer nuestra ignorancia, imprudencia y demás debilidades que por mi parte he sentido en mí mismo, y no tengo reparos en confesarlas ante la Iglesia del Señor. Al hacerlo, no debemos temer que le demos la ventaja a nuestros enemigos; pues <persName type="forename" key="Daniel" ref="https://www.wikidata.org/wiki/Q171724" corresp="#daniel">Daniel</persName> no justificó a <persName type="name" key="Nabuchodonosor II" ref="https://www.wikidata.org/wiki/Q12591" corresp="#nabuchodonosor">Nabucodonosor</persName> al atribuir a los pecados de los <persName type="grupo" key="Israélites" ref="https://www.wikidata.org/wiki/Q51669" corresp="#Israelites">israelitas</persName> la opresión que sufrían bajo la tiranía, sino que lo confundió, demostrando que era como un azote de la ira de Dios, como lo es el diablo y sus secuaces. Tampoco hay peligro de que sometamos nuestra causa a reproche u oprobio. Porque si nos hemos presentado a satisfacer a todas las Iglesias, y a demostrar que hemos administrado debidamente y fielmente nuestro oficio, y que incluso lo ofrecemos día a día, no es señal de que les demos a morder o criticar, y si no podemos impedir que hablen mal, como algunos de ellos se dejan llevar no solo por la falta de moderación, sino por la rabia pura, sabemos la promesa que se nos hace de que el Señor hará aparecer nuestra inocencia como la primera estrella del día, y hará resplandecer nuestra justicia como el sol. Esta confianza podemos atrevernos a tener cuando se trata de luchar contra los impíos, aunque seamos en gran medida deudores de la justicia del Señor.</p>
+
+<p>Sin embargo, en nuestra humildad y abatimiento el Señor no nos abandonará, sino que nos dará amplia consolación para mantenernos y fortalecernos, e incluso ya la tenemos presente cuando se dice en sus Escrituras que los castigos que envía a sus siervos son para su bien y salvación, siempre que puedan tomarlos a bien. Sin embargo, mis amados hermanos, vuelvan siempre a esta consolación, aunque los impíos se hayan esforzado por causar ruina en su Iglesia, aunque sus faltas y ofensas hayan merecido más de lo que pueden soportar, no obstante, que nuestro Señor pondrá tal fin a las correcciones que les ha enviado, que estas serán para su bien. Su cólera contra su Iglesia, en la medida en que solo es para reducirla al bien, pasa en un momento, dice el Profeta; su misericordia, en cambio, es eterna, incluso hasta las generaciones futuras; pues la extiende de los padres a los hijos, y a los hijos de los hijos. Miren a sus enemigos, verán evidentemente que todos sus caminos tienden a la confusión; y, sin embargo, les parece una buena idea que han llegado al final de su empresa. Por lo tanto, no se desanimen por el hecho de que a nuestro Señor le haya placido rebajarles por un tiempo, viendo que no es otra cosa que lo que las Escrituras testifican que es; que exalta al humilde y despreciable del polvo, al pobre del estiércol; que da la corona de gozo a los que están en llanto y lágrimas, que da la luz a los que están en tinieblas, e incluso que da vida a los que están en la sombra de la muerte. Esperen, pues, que este buen Dios les dé tal desenlace que tengan ocasión de exaltarlo y rendir gloria a su clemencia. Y en esta esperanza, tomen consuelo, y fortalézcanse para soportar pacientemente la corrección de su mano, hasta que le plazca declararles su gracia, lo cual será sin duda muy pronto, siempre que todos podamos abandonarlo todo a su Providencia, que conoce la oportunidad de los tiempos, y ve mejor lo que nos conviene que lo que podemos concebir.</p>
+         
+<p>Sobre todo, tengan a bien velar en oraciones y oblaciones; pues si toda su esperanza está en Dios como debe ser, es bien razonable que su corazón se eleve asiduamente al cielo para invocarlo e implorar la misericordia que esperan de él. Tengan en cuenta que la mayoría de las veces que él aplaza el deseo de sus hijos, y no les muestra tan pronto su ayuda en la necesidad, es porque quiere incitarlos y conmoverlos a requerir su bondad. Al final, nos jactamos en vano de tener nuestra confianza en él, si no la demostramos buscando nuestro refugio en la oración. Además, es seguro que no hay tal afecto y fervor en nuestras oraciones como corresponde, sino que perseveramos en ellas sin cesar.</p>
+
+<p>Je pido al Señor de toda consolación que les reconforte y sostenga en la buena paciencia, mientras quiere probarles en estas tribulaciones, y confirmarles en la esperanza de las promesas que hace a sus siervos. Es que no les tentará más allá de lo que puedan soportar, sino que con la aflicción dará la fuerza y la salida saludable.</p>
+ <closer>
+    <dateline>De <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Estrasburgo</placeName>, este <date when="1538-10-01">1 de octubre de 1538</date>.</dateline> 
+    <salute>Su hermano y servidor en nuestro Señor</salute>
+    <signed>
+      <persName type="fullname" key="Juan Calvino" ref="#">JUAN CALVINO</persName>.
+    </signed>
+  </closer>
+  </body>
+ </text>
+</TEI>

@@ -4,7 +4,7 @@ import json
 from SPARQLWrapper import SPARQLWrapper, JSON
 #get json file contianing the data
 placedata = {}
-with open("data_json/wikiIds.json", "r") as indexData:
+with open("data_json/wikiIds_es.json", "r") as indexData:
   placedata = json.load(indexData) 
 # Preparing data for query
 # Getting access keys 
@@ -30,6 +30,7 @@ qwiki = []
 wikilist = list(uriswiki.keys())
 print(len(wikilist))
 
+
 query_wiki = ""
 queryfile = ""
 # To execute query | Pass values for queries
@@ -52,7 +53,7 @@ for i in range(n+1):
     qwiki.append(q)
     query_wiki =  " UNION ".join(qwiki)
     queryfile += query_wiki + "\n"
-    query = "\n PREFIX wdt: <http://www.wikidata.org/prop/direct/> \n PREFIX wd: <http://www.wikidata.org/entity/> \n PREFIX wikibase: <http://wikiba.se/ontology#> \n PREFIX geof: <http://www.opengis.net/def/geosparql/function/> \n SELECT DISTINCT ?item ?itemLabel ?itemDescription ?coord ?lon ?lat ?img \n  WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr' } \n }"
+    query = "\n PREFIX wdt: <http://www.wikidata.org/prop/direct/> \n PREFIX wd: <http://www.wikidata.org/entity/> \n PREFIX wikibase: <http://wikiba.se/ontology#> \n PREFIX geof: <http://www.opengis.net/def/geosparql/function/> \n SELECT DISTINCT ?item ?itemLabel ?itemDescription ?coord ?lon ?lat ?img \n  WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'es' } \n }"
     #print(query)
     sparql_wiki.setQuery(query)
     sparql_wiki.setReturnFormat(JSON)
@@ -82,14 +83,14 @@ for i in range(n+1):
 jsonfile = places
 print(len(jsonfile))
 json_obj = json.dumps(jsonfile, indent=7, ensure_ascii = False)
-with open("data_json/placeData_MapIndex.json", "w") as outfile:
+with open("data_json/placeData_MapIndex_es.json", "w") as outfile:
     outfile.write(json_obj)
     print("Done!")
 
 # Create files for query
-jsonfile1 = "\n PREFIX wdt: <http://www.wikidata.org/prop/direct/> \n PREFIX wd: <http://www.wikidata.org/entity/> \n PREFIX wikibase: <http://wikiba.se/ontology#> \n PREFIX geof: <http://www.opengis.net/def/geosparql/function/> \n SELECT DISTINCT ?item ?itemLabel ?itemDescription ?coord ?lon ?lat ?img \n  WHERE { \n " + queryfile +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr' } \n }"
+jsonfile1 = "\n PREFIX wdt: <http://www.wikidata.org/prop/direct/> \n PREFIX wd: <http://www.wikidata.org/entity/> \n PREFIX wikibase: <http://wikiba.se/ontology#> \n PREFIX geof: <http://www.opengis.net/def/geosparql/function/> \n SELECT DISTINCT ?item ?itemLabel ?itemDescription ?coord ?lon ?lat ?img \n  WHERE { \n " + queryfile +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'es' } \n }"
 json_obj1 = json.dumps(jsonfile1, indent=7, ensure_ascii = False)
-with open("placesQuery.txt", "a") as outfile:
+with open("placesQueryes.txt", "a") as outfile:
     outfile.write(json_obj1)
     print("Done!")
 

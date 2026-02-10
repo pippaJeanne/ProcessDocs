@@ -44,6 +44,26 @@
                      "start_date": {
                             "year": "1538",
                             "month": "10",
+                            "day": "01"
+                     },
+                     "display_date": "1ro de octubre de 1538",
+                     "text": {
+                            "headline": "Iglesia de Ginebra",
+                            "text": "<div><p>Juan Calvino escribe a la Iglesia de Ginebra, desde su exilio en Estrasburgo, para exhortarlos a la paciencia y a la humildad ante las tribulaciones y las divisiones, y a perseverar en la oración.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1538_10_01_EgliseGeneve_ES' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
+                     },
+                     "media": {
+                            "url": "https://ge.ch/arvaegrefdoc/PH/180775/chaeg_ph_1203_00006.jpg",
+                            "thumbnail": "https://ge.ch/arvaegrefdoc/PH/180775/chaeg_ph_1203_00006.jpg"
+                     },
+                     "background": {
+                            "url": "https://ge.ch/arvaegrefdoc/PH/180775/chaeg_ph_1203_00006.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "start_date": {
+                            "year": "1538",
+                            "month": "10",
                             "day": "20"
                      },
                      "display_date": "20 de octubre de 1538",
@@ -57,6 +77,26 @@
                      },
                      "background": {
                             "url": "https://gallica.bnf.fr/ark:/12148/btv1b90076313/f22.jpeg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "start_date": {
+                            "year": "1540",
+                            "month": "07",
+                            "day": "28"
+                     },
+                     "display_date": "28 de julio de 1540",
+                     "text": {
+                            "headline": "Señor du Tailly",
+                            "text": "<div><p>Calvino escribe al Señor du Tailly, un refugiado protestante en Ginebra, sobre los acontecimientos de las conferencias religiosas en Haguenau y la situación política de los príncipes protestantes ante el Emperador y el Papa.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1540_07_28_DuTailly_ES' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
+                     },
+                     "media": {
+                            "url": "https://ge.ch/arvaegrefdoc/PH2/112132/chaeg_ph_1250_00003.JPG",
+                            "thumbnail": "https://ge.ch/arvaegrefdoc/PH2/112132/chaeg_ph_1250_00003.JPG"
+                     },
+                     "background": {
+                            "url": "https://ge.ch/arvaegrefdoc/PH2/112132/chaeg_ph_1250_00003.JPG",
                             "color": "#5e5e52"
                      }
               },
@@ -226,7 +266,27 @@
                             "month": "06",
                             "day": "24"
                      },
-                     "display_date": "24 de junio de 1544",
+                     "display_date": "24 de junio de [1544]",
+                     "text": {
+                            "headline": "Señor de Fallais",
+                            "text": "<div><p>Calvino explica el retraso en satisfacer la petición del Señor de Fallais de enviar un ministro a Colonia, adonde este había llegado después de haber abandonado Brabante. Calvino le felicita por reconocer la necesidad de la exhortación diaria de la palabra de Dios, y también expresa la esperanza de poder visitarle tan pronto como sea posible.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1544_06_24_MFallais_ES' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
+                     },
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f009r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f009r.jpg"
+                     },
+                     "background": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f009r.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "start_date": {
+                            "year": "1544",
+                            "month": "06",
+                            "day": "24"
+                     },
+                     "display_date": "24 de junio de (1544)",
                      "text": {
                             "headline": "Señora de Fallais",
                             "text": "<div><p>Ánimo a la señora de Fallais en su nueva vida de libertad de conciencia y de culto luego de haber seguido a su marido a Colonia y a Estrasburgo.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1544_06_24_SraDeFalais' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
@@ -277,6 +337,46 @@
                      },
                      "background": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f011r.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "start_date": {
+                            "year": "1545",
+                            "month": "06",
+                            "day": "22"
+                     },
+                     "display_date": "22 de junio [1545]",
+                     "text": {
+                            "headline": "Señor de Fallais",
+                            "text": "<div><p>Calvino aconseja al Sr. de Fallais en la compra de una vivienda en Ginebra.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1545_06_22_MFallais_ES' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
+                     },
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f013r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f013r.jpg"
+                     },
+                     "background": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f013r.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "start_date": {
+                            "year": "1545",
+                            "month": "08",
+                            "day": "05"
+                     },
+                     "display_date": "5 de agosto de [1545]",
+                     "text": {
+                            "headline": "Señor de Fallais",
+                            "text": "<div><p>Calvino informa al Sr. de Fallais de los pasos tomados en lo concerniente a la compra de su casa en Ginebra y da consejo.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/es/cartas/1545_08_05_MFallais_ES' style='color: #2b2b28 !important;'>Acceso a la carta</a></p></div>"
+                     },
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f014r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f014r.jpg"
+                     },
+                     "background": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f014r.jpg",
                             "color": "#5e5e52"
                      }
               },

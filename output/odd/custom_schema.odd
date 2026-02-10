@@ -107,6 +107,16 @@
         </alternate>
       </content>
     </elementSpec>
+          <elementSpec ident="note" mode="change">
+            <content>
+              <macroRef key="macro.specialPara"/>
+              <alternate minOccurs="0" maxOccurs="unbounded">
+                <elementRef key="opener"/>
+                <elementRef key="p"/>
+                <elementRef key="closer"/>
+              </alternate>
+            </content>
+          </elementSpec>
 </schemaSpec>
       </div1>
     </body>

@@ -65,8 +65,8 @@
                      "places": [
                             {
                                    "name": "París",
-                                   "lat": "48.848611",
-                                   "lon": "2.343333"
+                                   "lat": "48.856666666",
+                                   "lon": "2.352222222"
                             },
                             {
                                    "name": "Zúrich",
@@ -116,6 +116,41 @@
                      }
               },
               {
+                     "slug": "1538_10_01_EgliseGeneve_ES",
+                     "places": [
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Estrasburgo",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            }
+                     ],
+                     "start_date": {
+                            "year": "1538",
+                            "month": "10",
+                            "day": "01"
+                     },
+                     "display_date": "1ro de octubre de 1538",
+                     "text": {
+                            "headline": "Iglesia de Ginebra",
+                            "text": "Juan Calvino escribe a la Iglesia de Ginebra, desde su exilio en Estrasburgo, para exhortarlos a la paciencia y a la humildad ante las tribulaciones y las divisiones, y a perseverar en la oración."
+                     },
+                     "scr_location": {
+                            "name": "Estrasburgo",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     },
+                     "dest_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     }
+              },
+              {
                      "slug": "1538_10_20_LouisdeTillet",
                      "places": [
                             {
@@ -125,8 +160,8 @@
                             },
                             {
                                    "name": "París",
-                                   "lat": "48.848611",
-                                   "lon": "2.343333"
+                                   "lat": "48.856666666",
+                                   "lon": "2.352222222"
                             },
                             {
                                    "name": "Orbe",
@@ -158,6 +193,71 @@
                             "name": "París",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
+                     }
+              },
+              {
+                     "slug": "1540_07_28_DuTailly_ES",
+                     "places": [
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Neuchâtel",
+                                   "lat": "46.990277777",
+                                   "lon": "6.930555555"
+                            },
+                            {
+                                   "name": "Haguenau",
+                                   "lat": "48.816666666",
+                                   "lon": "7.787777777"
+                            },
+                            {
+                                   "name": "Fráncfort del Meno",
+                                   "lat": "50.110555555",
+                                   "lon": "8.682222222"
+                            },
+                            {
+                                   "name": "Alemania",
+                                   "lat": "51.0",
+                                   "lon": "10.0"
+                            },
+                            {
+                                   "name": "Núremberg",
+                                   "lat": "49.453888888",
+                                   "lon": "11.0775"
+                            },
+                            {
+                                   "name": "Roma",
+                                   "lat": "41.893055555",
+                                   "lon": "12.482777777"
+                            },
+                            {
+                                   "name": "Estrasburgo",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            }
+                     ],
+                     "start_date": {
+                            "year": "1540",
+                            "month": "07",
+                            "day": "28"
+                     },
+                     "display_date": "28 de julio de 1540",
+                     "text": {
+                            "headline": "Señor du Tailly",
+                            "text": "Calvino escribe al Señor du Tailly, un refugiado protestante en Ginebra, sobre los acontecimientos de las conferencias religiosas en Haguenau y la situación política de los príncipes protestantes ante el Emperador y el Papa."
+                     },
+                     "scr_location": {
+                            "name": "Estrasburgo",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     },
+                     "dest_location": {
+                            "name": "[Ginebra]",
+                            "lat": "46.2",
+                            "lon": "6.15"
                      }
               },
               {
@@ -305,7 +405,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Ferrara",
+                            "name": "[Ferrara]",
                             "lat": "44.839166666",
                             "lon": "11.6175"
                      }
@@ -320,8 +420,8 @@
                             },
                             {
                                    "name": "París",
-                                   "lat": "48.848611",
-                                   "lon": "2.343333"
+                                   "lat": "48.856666666",
+                                   "lon": "2.352222222"
                             },
                             {
                                    "name": "Francia",
@@ -380,12 +480,12 @@
                             "text": "Defensa de la doctrina de la iglesia reformada contra la acusación de ser la causa de la peste en Ginebra. Instrucción de recurrir solo a Dios por liberación."
                      },
                      "scr_location": {
-                            "name": "Ginebra",
+                            "name": "[Ginebra]",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Ginebra",
+                            "name": "[Ginebra]",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -440,7 +540,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Fallais",
+                            "name": "[Fallais]",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
@@ -470,7 +570,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Fallais",
+                            "name": "[Fallais]",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
@@ -500,9 +600,69 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Fallais",
+                            "name": "[Fallais]",
                             "lat": "50.6111",
                             "lon": "5.1711"
+                     }
+              },
+              {
+                     "slug": "1544_06_24_MFallais_ES",
+                     "places": [
+                            {
+                                   "name": "Colonia",
+                                   "lat": "50.942222222",
+                                   "lon": "6.957777777"
+                            },
+                            {
+                                   "name": "Países Bajos",
+                                   "lat": "52.316666666",
+                                   "lon": "5.55"
+                            },
+                            {
+                                   "name": "Estrasburgo",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Espira",
+                                   "lat": "49.3165553",
+                                   "lon": "8.433615"
+                            },
+                            {
+                                   "name": "Jerusalén",
+                                   "lat": "31.778888888",
+                                   "lon": "35.225555555"
+                            },
+                            {
+                                   "name": "Canaán",
+                                   "lat": "32.766667",
+                                   "lon": "35.333333"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
+                     "start_date": {
+                            "year": "1544",
+                            "month": "06",
+                            "day": "24"
+                     },
+                     "display_date": "24 de junio de [1544]",
+                     "text": {
+                            "headline": "Señor de Fallais",
+                            "text": "Calvino explica el retraso en satisfacer la petición del Señor de Fallais de enviar un ministro a Colonia, adonde este había llegado después de haber abandonado Brabante. Calvino le felicita por reconocer la necesidad de la exhortación diaria de la palabra de Dios, y también expresa la esperanza de poder visitarle tan pronto como sea posible."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Colonia",
+                            "lat": "50.942222222",
+                            "lon": "6.957777777"
                      }
               },
               {
@@ -519,7 +679,7 @@
                             "month": "06",
                             "day": "24"
                      },
-                     "display_date": "24 de junio de 1544",
+                     "display_date": "24 de junio de (1544)",
                      "text": {
                             "headline": "Señora de Fallais",
                             "text": "Ánimo a la señora de Fallais en su nueva vida de libertad de conciencia y de culto luego de haber seguido a su marido a Colonia y a Estrasburgo."
@@ -530,7 +690,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Colonia",
+                            "name": "[Colonia]",
                             "lat": "50.942222222",
                             "lon": "6.957777777"
                      }
@@ -540,8 +700,8 @@
                      "places": [
                             {
                                    "name": "París",
-                                   "lat": "48.848611",
-                                   "lon": "2.343333"
+                                   "lat": "48.856666666",
+                                   "lon": "2.352222222"
                             },
                             {
                                    "name": "Países Bajos",
@@ -585,7 +745,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "París",
+                            "name": "[París]",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
                      }
@@ -661,12 +821,102 @@
                      }
               },
               {
+                     "slug": "1545_06_22_MFallais_ES",
+                     "places": [
+                            {
+                                   "name": "Estrasburgo",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Fromont",
+                                   "lat": "48.255555555",
+                                   "lon": "2.503888888"
+                            },
+                            {
+                                   "name": "Provincia de Henao",
+                                   "lat": "50.5",
+                                   "lon": "3.916666666"
+                            }
+                     ],
+                     "start_date": {
+                            "year": "1545",
+                            "month": "06",
+                            "day": "22"
+                     },
+                     "display_date": "22 de junio [1545]",
+                     "text": {
+                            "headline": "Señor de Fallais",
+                            "text": "Calvino aconseja al Sr. de Fallais en la compra de una vivienda en Ginebra."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Estrasburgo",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     }
+              },
+              {
+                     "slug": "1545_08_05_MFallais_ES",
+                     "places": [
+                            {
+                                   "name": "Estrasburgo",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Hannover",
+                                   "lat": "52.374444444",
+                                   "lon": "9.738611111"
+                            },
+                            {
+                                   "name": "Países Bajos",
+                                   "lat": "52.316666666",
+                                   "lon": "5.55"
+                            }
+                     ],
+                     "start_date": {
+                            "year": "1545",
+                            "month": "08",
+                            "day": "05"
+                     },
+                     "display_date": "5 de agosto de [1545]",
+                     "text": {
+                            "headline": "Señor de Fallais",
+                            "text": "Calvino informa al Sr. de Fallais de los pasos tomados en lo concerniente a la compra de su casa en Ginebra y da consejo."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Estrasburgo",
+                            "lat": "48.573333333",
+                            "lon": "7.752222222"
+                     }
+              },
+              {
                      "slug": "1546_01_20_SraDeBude",
                      "places": [
                             {
                                    "name": "París",
-                                   "lat": "48.848611",
-                                   "lon": "2.343333"
+                                   "lat": "48.856666666",
+                                   "lon": "2.352222222"
                             }
                      ],
                      "start_date": {
@@ -685,7 +935,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "París",
+                            "name": "[París]",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
                      }
@@ -745,7 +995,7 @@
                             "text": "Respuesta de Calvino a las acusaciones de Jean Trolliet con respecto a su doctrina."
                      },
                      "scr_location": {
-                            "name": "Ginebra",
+                            "name": "[Ginebra]",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
@@ -800,7 +1050,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Veigy-Foncenex",
+                            "name": "[Veigy-Foncenex]",
                             "lat": "46.271944444",
                             "lon": "6.258888888"
                      }
@@ -815,8 +1065,8 @@
                             },
                             {
                                    "name": "París",
-                                   "lat": "48.848611",
-                                   "lon": "2.343333"
+                                   "lat": "48.856666666",
+                                   "lon": "2.352222222"
                             },
                             {
                                    "name": "Noyon",
@@ -845,7 +1095,7 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "Londres",
+                            "name": "[Londres]",
                             "lat": "51.507222222",
                             "lon": "-0.1275"
                      }

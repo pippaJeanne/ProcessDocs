@@ -3,9 +3,9 @@
 import json
 from SPARQLWrapper import SPARQLWrapper, JSON
 import time
-#get json file containing the data
+#get json file contianing the data
 persdata = {}
-with open("data_json/wikiIds.json", "r") as indexData:
+with open("data_json/wikiIds_es.json", "r") as indexData:
   persdata = json.load(indexData) 
 # Preparing data for query
 # Getting access keys 
@@ -21,8 +21,7 @@ for f in files:
       #if n not in noms and pers[n] != "#" and n != 'Jean Calvin': # n != 'Jean Calvin'  |  n != 'Juan Calvino' 
         #noms.append(n)
   
-#print(noms)
-
+urisdb = {}
 uriswiki = {}
 for key in pers.keys():
   if pers[key].__contains__("wikidata"):
@@ -57,7 +56,7 @@ for i in range(n+1):
 "PREFIX wd: <http://www.wikidata.org/entity/> \n"
 "PREFIX wikibase: <http://wikiba.se/ontology#> \n"
 "SELECT DISTINCT ?item ?itemLabel ?itemDescription ?birthDate ?deathDate ?img \n "
-"WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr' } \n"
+"WHERE { \n " + query_wiki +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'es' } \n"
 "}"
 )
   sparql_wiki.setReturnFormat(JSON)
@@ -89,31 +88,25 @@ for i in range(n+1):
       persons.append(pers)
       qwiki = []
       time.sleep(0.1) # To avoid overloading the server and getting timeout error
-  
-#print(persons)
+
 
 jsonfile = []
 for pers in persons:
    if pers not in jsonfile:
       jsonfile.append(pers)
 
-print(len(jsonfile))
+print((len(jsonfile)))
 
 
 json_obj = json.dumps(jsonfile, indent=7, ensure_ascii = False)
-with open("data_json/persIndex.json", "w") as outfile:
+with open("data_json/persIndex_es.json", "w") as outfile:
     outfile.write(json_obj)
     print("Done!")
 
 
 # Create files for query
-jsonfile1 = "PREFIX wdt: <http://www.wikidata.org/prop/direct/> \n"
-"PREFIX wd: <http://www.wikidata.org/entity/> \n"
-"PREFIX wikibase: <http://wikiba.se/ontology#> \n"
-"SELECT DISTINCT ?item ?itemLabel ?itemDescription ?birthDate ?deathDate ?img \n "
-"WHERE { \n " + queryfile +  "\n SERVICE wikibase:label { bd:serviceParam wikibase:language 'fr' } \n"
-"}"
+jsonfile1 = query_wiki
 #query_text = json.dumps(jsonfile1, indent=7, ensure_ascii = False)
-with open("persQuery.txt", "w") as outfile:
+with open("persQueryes.txt", "w") as outfile:
     outfile.write(jsonfile1)
     print("Done!")

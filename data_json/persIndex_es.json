@@ -1,15 +1,165 @@
 [
        {
-              "name": "Roberte Le Lyeur",
-              "desc": "esposa de Guillaume Budé",
-              "url": "http://www.wikidata.org/entity/Q108743308",
+              "name": "Carlos I de España (1500 - 1558)",
+              "desc": "monarca hispánico y emperador del Sacro Imperio Romano Germánico",
+              "url": "http://www.wikidata.org/entity/Q32500",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Charles%20V%2C%20Holy%20Roman%20Emperor%2C%20seated%20%281500%E2%80%931558%29%2C%20formerly%20attributed%20to%20Titian%20%28Alte%20Pinakothek%2C%20Munich%29.jpg"
+       },
+       {
+              "name": "Jonás ( - )",
+              "desc": "personaje de la Biblia y el Corán",
+              "url": "http://www.wikidata.org/entity/Q2468262",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sistine%20jonah.jpg"
+       },
+       {
+              "name": "Joaquín II de Brandeburgo (1505 - 1571)",
+              "desc": "elector de Brandeburgo",
+              "url": "http://www.wikidata.org/entity/Q506527",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Joachim%20II%20of%20Brandenburg%20by%20Lucas%20Cranach%20the%20Younger.jpg"
+       },
+       {
+              "name": "Fernando I de Habsburgo (1503 - 1564)",
+              "desc": "Trigésimo noveno Rey del Reino de Hungría y Emperador del Sacro Imperio Romano Germanico",
+              "url": "http://www.wikidata.org/entity/Q150611",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Bocksberger%20%28I%29%20-%20Emperor%20Ferdinand%20I%20-%20WGA02326.jpg"
+       },
+       {
+              "name": "Alberto de Brandeburgo (1490 - 1545)",
+              "desc": "arzobispo de Magdeburgo y de Maguncia, príncipe elector del Sacro Imperio Romano Germánico y administrador de la diócesis de Halberstadt",
+              "url": "http://www.wikidata.org/entity/Q60951",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Albrecht-von-Brandenburg-2.jpg"
+       },
+       {
+              "name": "Friedrich Nausea",
+              "desc": "Obispo católico romano",
+              "url": "http://www.wikidata.org/entity/Q95603",
               "img": ""
        },
        {
-              "name": "Salomón",
+              "name": "Johann von Metzenhausen (1492 - 1540)",
+              "desc": "arzobispo, príncipe elector de Tréveris",
+              "url": "http://www.wikidata.org/entity/Q119532",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Johann%20von%20Metzenhausen.jpg"
+       },
+       {
+              "name": "Johann Cochlaeus (1479 - 1552)",
+              "desc": "humanista y teólogo alemán",
+              "url": "http://www.wikidata.org/entity/Q64344",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Johannes-Cochlaeus.jpg"
+       },
+       {
+              "name": "Guillermo IV de Baviera (1493 - 1550)",
+              "desc": "duque de Baviera entre 1508 y 1550",
+              "url": "http://www.wikidata.org/entity/Q60936",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Wertinger%20-%20Herzog%20Wilhelm%20IV.%20von%20Bayern%20R%C3%BCckseite%2C%20Wappen%20Bayern-Baden%20und%20Devise%20-%2017%20-%20Bavarian%20State%20Painting%20Collections.jpg"
+       },
+       {
+              "name": "Juan Federico I de Sajonia (1503 - 1554)",
+              "desc": "aristócrata alemán",
+              "url": "http://www.wikidata.org/entity/Q506182",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/CranachElderJohannFriedrichSachsen.jpg"
+       },
+       {
+              "name": "israelita",
+              "desc": "gentilicio que corresponde a los habitantes del antiguo reino de Israel",
+              "url": "http://www.wikidata.org/entity/Q51669",
+              "img": ""
+       },
+       {
+              "name": "Charles d'Espeville",
+              "desc": "Seudónimo adoptado por Calvino durante su retiro en Angulema y su viaje a Italia (1534, 1536)",
+              "url": "http://www.wikidata.org/entity/Q133821751",
+              "img": ""
+       },
+       {
+              "name": "Paulo III (1468 - 1549)",
+              "desc": "220.º papa de la Iglesia católica",
+              "url": "http://www.wikidata.org/entity/Q133001",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Pope%20Paul%20III%20Farnese%20%28by%20Titian%29%20-%20National%20Museum%20of%20Capodimonte.jpg"
+       },
+       {
+              "name": "Daniel ( - )",
+              "desc": "personaje bíblico",
+              "url": "http://www.wikidata.org/entity/Q171724",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo%20Buonarroti%20026.jpg"
+       },
+       {
+              "name": "Nabucodonosor II ( - )",
+              "desc": "monarca babilónico",
+              "url": "http://www.wikidata.org/entity/Q12591",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nebukadnessar%20II.jpg"
+       },
+       {
+              "name": "Iglesia protestante de Ginebra",
+              "desc": "organización de los cristianos de tradición reformada del cantón de Ginebra",
+              "url": "http://www.wikidata.org/entity/Q13371956",
+              "img": ""
+       },
+       {
+              "name": "Pablo de Tarso (0005 - 0066)",
+              "desc": "apóstol cristiano de origen judío",
+              "url": "http://www.wikidata.org/entity/Q9200",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Francesco%20Barbieri%20-%20Saint%20Paul.jpg"
+       },
+       {
+              "name": "Johann Faber (1478 - 1541)",
+              "desc": "Teólogo católico",
+              "url": "http://www.wikidata.org/entity/Q64159",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stephansdom%20Wien%20Johann%20Fabri%20Epitaph.jpg"
+       },
+       {
+              "name": "Jean de Tillet",
+              "desc": "Obispo católico francés",
+              "url": "http://www.wikidata.org/entity/Q3175826",
+              "img": ""
+       },
+       {
+              "name": "Louis de Tillet",
+              "desc": "Sacerdote católico francés",
+              "url": "http://www.wikidata.org/entity/Q3263586",
+              "img": ""
+       },
+       {
+              "name": "Señor du Tailly",
+              "desc": "gentilhombre francés refugiado en Ginebra y simpatizante declarado de la Reforma y de Calvino",
+              "url": "http://www.wikidata.org/entity/Q137860491",
+              "img": ""
+       },
+       {
+              "name": "Hermann von Wied (1477 - 1552)",
+              "desc": "arzobispo alemán",
+              "url": "http://www.wikidata.org/entity/Q95916",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hermann-von-Wied.jpg"
+       },
+       {
+              "name": "Luis IV del Palatinado (1424 - 1449)",
+              "desc": "Elector del Palatinado",
+              "url": "http://www.wikidata.org/entity/Q66918",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ludwig%20IV.%20Hans%20Wertinger.jpg"
+       },
+       {
+              "name": "Wilhelm von Hohnstein (1466 - 1541)",
+              "desc": "obispo francés",
+              "url": "http://www.wikidata.org/entity/Q2575927",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hohnstein%20Wilhelm1.jpg"
+       },
+       {
+              "name": "Guillaume Farel (1489 - 1565)",
+              "desc": "teólogo y reformador francés en la Suiza francesa, defensor del calvinismo",
+              "url": "http://www.wikidata.org/entity/Q435456",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Guillielmus%20Farellus%20%28BM%201874%2C1212.456%29.jpg"
+       },
+       {
+              "name": "Salomón ( - )",
               "desc": "rey de Israel, personaje de la Biblia",
               "url": "http://www.wikidata.org/entity/Q37085",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg"
+       },
+       {
+              "name": "Francisco I de Francia (1494 - 1547)",
+              "desc": "rey de Francia",
+              "url": "http://www.wikidata.org/entity/Q129857",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ier%20Louvre.jpg"
        },
        {
               "name": "Lactancio (0240 - 0320)",
@@ -36,10 +186,10 @@
               "img": ""
        },
        {
-              "name": "Charles d'Espeville",
-              "desc": "Seudónimo adoptado por Calvino durante su retiro en Angulema y su viaje a Italia (1534, 1536)",
-              "url": "http://www.wikidata.org/entity/Q133821751",
-              "img": ""
+              "name": "Agustín de Hipona (0354 - 0430)",
+              "desc": "filósofo, teólogo y obispo romano",
+              "url": "http://www.wikidata.org/entity/Q8018",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Augustine%20by%20Philippe%20de%20Champaigne.jpg"
        },
        {
               "name": "Yolande de Brederode",
@@ -48,19 +198,19 @@
               "img": ""
        },
        {
+              "name": "Abraham",
+              "desc": "personaje de la Biblia",
+              "url": "http://www.wikidata.org/entity/Q9181",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PikiWiki%20Israel%2047514%20Samaritan%20museum%20on%20mount%20Grizim%20-%20Left.jpg"
+       },
+       {
               "name": "Pedro (0000 - 0065)",
               "desc": "apóstol de Jesús y primer papa según la tradición católica",
               "url": "http://www.wikidata.org/entity/Q33923",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pope-peter%20pprubens.jpg"
        },
        {
-              "name": "Pablo de Tarso (0005 - 0066)",
-              "desc": "apóstol cristiano de origen judío",
-              "url": "http://www.wikidata.org/entity/Q9200",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Francesco%20Barbieri%20-%20Saint%20Paul.jpg"
-       },
-       {
-              "name": "Jeremías",
+              "name": "Jeremías ( - )",
               "desc": "profeta mayor hebreo",
               "url": "http://www.wikidata.org/entity/Q158825",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg"
@@ -72,16 +222,22 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/WolfgangCapito.jpg"
        },
        {
-              "name": "Jean de Tillet",
-              "desc": "Obispo católico francés",
-              "url": "http://www.wikidata.org/entity/Q3175826",
+              "name": "David ( - )",
+              "desc": "monarca israelita",
+              "url": "http://www.wikidata.org/entity/Q41370",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/King%20David%2C%20the%20King%20of%20Israel.jpg"
+       },
+       {
+              "name": "Jean de Bourgogne",
+              "desc": "Señor de Fromont y de Han-sur-Sambre (1525-1585), hermano de Jacques de Bourgogne, Señor de Fallais",
+              "url": "http://www.wikidata.org/entity/Q137660510",
               "img": ""
        },
        {
-              "name": "Agustín de Hipona (0354 - 0430)",
-              "desc": "filósofo, teólogo y obispo romano",
-              "url": "http://www.wikidata.org/entity/Q8018",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cappella%20Palatina%20%28Palermo%29%2016%2007%202019%2014.jpg"
+              "name": "David de Busanton",
+              "desc": "Gentilhombre de Hainaut, refugiado en Ginebra ( - julio de 1545)",
+              "url": "http://www.wikidata.org/entity/Q137660629",
+              "img": ""
        },
        {
               "name": "Anne de Parthenay",
@@ -90,9 +246,9 @@
               "img": ""
        },
        {
-              "name": "Louis de Tillet",
-              "desc": "Sacerdote católico francés",
-              "url": "http://www.wikidata.org/entity/Q3263586",
+              "name": "filisteos",
+              "desc": "pueblo de la Antigüedad",
+              "url": "http://www.wikidata.org/entity/Q193776",
               "img": ""
        },
        {
@@ -102,16 +258,22 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg"
        },
        {
+              "name": "Martín Bucero (1491 - 1551)",
+              "desc": "teólogo y reformador protestante alemán",
+              "url": "http://www.wikidata.org/entity/Q318622",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Buzer%20%28Bucer%29.jpg"
+       },
+       {
               "name": "Consistorio de Neuchâtel",
               "desc": "Consejo eclesiástico de Neuchâtel del siglo XVI al XVIII",
               "url": "http://www.wikidata.org/entity/Q131694038",
               "img": ""
        },
        {
-              "name": "Jonás",
-              "desc": "personaje de la Biblia y el Corán",
-              "url": "http://www.wikidata.org/entity/Q2468262",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jonah.jpg"
+              "name": "Martín Lutero (1483 - 1546)",
+              "desc": "teólogo y fraile alemán",
+              "url": "http://www.wikidata.org/entity/Q9554",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lucas%20Cranach%20d.%C3%84.%20-%20Martin%20Luther%2C%201528%20%28Veste%20Coburg%29.jpg"
        },
        {
               "name": "Margarita de Angulema (1492 - 1549)",
@@ -136,6 +298,12 @@
               "desc": "madre de Jesús de Nazaret",
               "url": "http://www.wikidata.org/entity/Q345",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Duccio%20The-Madonna-and-Child-128.jpg"
+       },
+       {
+              "name": "Roberte Le Lyeur",
+              "desc": "esposa de Guillaume Budé",
+              "url": "http://www.wikidata.org/entity/Q108743308",
+              "img": ""
        },
        {
               "name": "Antonio de Borbón (1518 - 1562)",

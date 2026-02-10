@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" n="DuTailly_1540_07_28_ES">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Carta a Señor du Tailly</title>
+<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza (Candidata al doctorado en literatura opción humanidades digitales - UdeM)</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+  <availability status="free">
+    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+    Distributed under a Creative Commons Attribution-ShareAlike
+         3.0 Unported License</licence>
+  </availability></publicationStmt>
+<sourceDesc corresp="DuTailly_1540_07_28">
+ <bibl>
+  Traducción de la versión modernizada de
+  <title level="a" rend="underline">Lettre à Monsieur du Tailly (28 juillet 1540)</title> editada y codificada en TEI por <editor><name><forename>Yanet</forename> <surname>Hernández Pedraza</surname></name></editor>, basada en la edición de <editor>Jules Bonnet</editor>,
+          <title level="m">Lettres de Jean Calvin : lettres françaises. T. 1</title>, <pubPlace>Paris</pubPlace>, <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>, <date when="1854">1854</date>.
+ </bibl>
+ <notesStmt>
+          <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+ </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Juan Calvino</persName>
+  <settlement key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Estrasburgo</settlement>
+  <date when="1540-07-28">28 de julio de 1540</date>
+ </correspAction>
+ <correspAction type="received">
+   <name type='individuo' key="Monsieur du Tailly" ref="https://www.wikidata.org/wiki/Q137860491" corresp="#du-tailly">Señor du Tailly</name>
+  <settlement cert="medium" key="Ginebra" corresp="#geneve" ref="https://www.wikidata.org/wiki/Q71">Ginebra</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Calvino escribe al Señor du Tailly, un refugiado protestante en Ginebra, sobre los acontecimientos de las conferencias religiosas en Haguenau y la situación política de los príncipes protestantes ante el Emperador y el Papa.</desc>
+<list xml:id="tags">
+<term>tensiones religiosas</term>
+<term>política religiosa</term>
+<term>conversaciones</term>
+<term>arbitraje</term>
+</list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>Al <persName type='individuo' key="Señor du Tailly" ref="https://www.wikidata.org/wiki/Q137860491" corresp="#du-tailly">Señor du Tailly</persName>
+<note n="*" place="bottom"><p><persName type="surname" key="Señor du Tailly" ref="https://www.wikidata.org/wiki/Q137860491">Sr. du Tailly</persName>, caballero francés, refugiado en <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName>, declarado partidario de la Reforma y de Calvino, cuyo regreso presionó activamente, como demuestra la siguiente carta tomada de los <hi rend="italic">Manuscritos</hi> de la <orgName key="Compañía de pastores" ref="https://www.wikidata.org/wiki/Q16950662">Compañía</orgName> de <placeName key="Neuchâtel" ref="https://www.wikidata.org/wiki/Q69345">Neuchâtel</placeName>:</p>
+    <p rend="bold"><persName type="surname" key="Monsieur du Tailly" ref="https://www.wikidata.org/wiki/Q137860491">SEÑOR DU TAILLY</persName> A <persName type="surname" key="Guillaume Farel" ref="https://www.wikidata.org/wiki/Q435456">FAREL</persName>.</p>
+        <opener><salute>Querido hermano:</salute></opener>
+    <p>A persuasión de los principales buenos hermanos de esta región, he vuelto a escribir a nuestro buen hermano Calvin que, si fuera necesario, debía proveer a sus hermanos de <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName>, sin tener en cuenta la ofensa que se le había hecho a Jesucristo al expulsarlo, sino que debía considerar la desolación en que se encuentran, y el deber que le incumbe, por lo que le he escrito que me transmitiera su opinión antes de que se enviara una embajada a él. Sin embargo, le ruego que, en su nombre, le transmita y persuada de lo que debe hacer. No le cuento más. Su carta ha sido muy bien recibida por los de esta región, y creo que les será de gran provecho, y se sienten muy obligados a usted, que se acuerda de ellos en su necesidad, y por esto saben que usted es el verdadero pastor, no los que los dejan en peligro. Por lo demás, el Señor ha hecho su voluntad con el <persName key="Michel Baltasar" ref="#">Sr. Michel Baltasar</persName>. Es un gran daño para la ciudad, según lo que el hombre puede considerar. Sin embargo, hágase su voluntad y no otra. Que Dios le conceda perseverar como ha comenzado.</p>
+        <closer xml:id="inNote">
+            <dateline>Desde <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</placeName>, este <date when="1540-10-03">3 de octubre de 1540</date>.</dateline>
+            <salute>El todo su hermano y amigo,</salute>
+            <signed><persName type="surname" key="Señor du Tailly" ref="https://www.wikidata.org/wiki/Q137860491">Du TAILLY</persName>.</signed>
+          </closer>
+</note>
+</addrLine>
+</address>
+<dateline xml:id="opener">[Enviada a <placeName cert="medium" key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</placeName>]</dateline>
+<hi rend="bold"><label type='nature'>Copia</label>. Archivos de Ginebra. 1250.</hi>
+<hi xml:id="editorNote">
+[Ahora en los Archivos Estatales de Ginebra bajo la cota P. H. 1250 (f. 3-7)]</hi>
+<salute>Señor du Taillis:</salute>
+</opener>
+  <p>Como le había informado en mis últimas cartas hasta que tuviéramos noticias más seguras de la asamblea de <placeName key="Haguenau" ref="https://www.wikidata.org/wiki/Q22730">Haguenau</placeName><note n="1" place="bottom"><p>La <orgName key="Dieta Imperial" ref="https://www.wikidata.org/wiki/Q669970">Dieta</orgName> de <placeName key="Fráncfort del Meno" ref="https://www.wikidata.org/wiki/Q1794">Fráncfort</placeName> había estipulado la apertura de conferencias religiosas, en las que las controversias de los dos cultos en <placeName key="Alemania" ref="https://www.wikidata.org/wiki/Q183">Alemania</placeName> debían ser resueltas por los principales teólogos de ambos partidos. El propósito de la asamblea reunida en <placeName key="Haguenau" ref="https://www.wikidata.org/wiki/Q22730">Haguenau</placeName> era preparar los asuntos que debían ser objeto de este solemne debate.</p></note>, para poder transmitírselas, no quise dejar partir a este portador sin mis cartas, aunque todavía no conocemos el final. Le recitaré entonces brevemente lo que ha sucedido hasta el día de hoy. Sabe que el <persName key="Fernando I de Habsburgo" ref="https://www.wikidata.org/wiki/Q150611" corresp="#ferdinand">rey Fernando</persName> había llamado a los príncipes de su parte, algún tiempo antes que a los nuestros, para consultar con ellos por qué camino se debía atacarnos, después de haber celebrado su consejo, aconsejaron elegir cuatro árbitros a sus respectivos puestos para escuchar las controversias de una y otra parte, a fin de llegar a algún buen acuerdo. Los árbitros eran el <persName key="Luis IV del Palatinado" ref="https://www.wikidata.org/wiki/Q66918" corresp="#palatin">elector palatino</persName>, el <persName key="Johann von Metzenhausen" ref="https://www.wikidata.org/wiki/Q119532" corresp="#eveque_Treves">obispo de Tréveris</persName>, electores; el <persName key="Guillermo IV de Baviera" ref="https://www.wikidata.org/wiki/Q60936" corresp="#ducBaviere">duque de Baviera</persName>, y el <persName key="Wilhelm von Hohnstein" ref="https://www.wikidata.org/wiki/Q2575927" corresp="#evequeStrasbourg">obispo de Estrasburgo</persName>. Ninguno de nuestros príncipes compareció porque se les había llamado a muy corto plazo, como alegaron a manera de excusa al <persName type="title" key="Carlos V" ref="https://www.wikidata.org/wiki/Q32500" corresp="#charles-quint">emperador</persName>; pero enviaron con salvoconducto a sus embajadores y consejeros con hombres de letras, para hacer todo lo que fuera necesario. Aunque estos podían recusar con razón a los árbitros que se les presentaban, o al menos a algunos de ellos, sin embargo, los aceptaron de buen grado, para dar a conocer que no querían retroceder en absoluto. Pero sucedió lo que siempre habíamos pensado. Cuando se planteó el comienzo de los procedimientos, los señores árbitros, no sabiendo por dónde empezar, preguntaron a nuestra gente qué querían decir. A lo que respondieron que deseaban que, según la <title key="Confesión de Augsburgo" ref="https://www.wikidata.org/wiki/Q154483" rend="italic">confesión presentada en Augsburgo</title>, las Iglesias fueran reformadas, ofreciéndose a satisfacer todas las dificultades que se encontraran, y a explicar más a fondo lo que no fuera suficientemente claro. Sobre esto <persName key="Frederic Nausea" ref="https://www.wikidata.org/wiki/Q95603" corresp="#nausea">Nausea</persName> da su consejo a <persName key="Fernando I de Habsburgo" ref="https://www.wikidata.org/wiki/Q150611" corresp="#ferdinand">Fernando</persName> de concedernos el matrimonio y la comunión bajo las dos especies<note n="2" place="bottom" type="editorial"><p>La comunión bajo las dos especies es la práctica de la Cena del Señor utilizando las dos especies: pan (hostia) y vino, en contraste con la celebración de la Cena del Señor bajo una sola especie preferida por los católicos, lo que constituía un punto de contención entre los reformados y los católicos.</p></note>; por lo además que no es lícito entrar en disputa sin el permiso de nuestro <persName key="Pablo III" ref="https://www.wikidata.org/wiki/Q133001" type="title" corresp="#paulIII">santo Padre</persName>. Esto es aprobado por <persName key="Johann Faber" ref="https://www.wikidata.org/wiki/Q64159" corresp="#faber">Faber</persName>, <persName key="Johann Cochlaeus" ref="https://www.wikidata.org/wiki/Q64344" corresp="#cochleus">Cochleus</persName> y sus compañeros. Así, al final, se da una respuesta de <persName key="Fernando I de Habsburgo" ref="https://www.wikidata.org/wiki/Q150611" corresp="#ferdinand">Fernando</persName> y los suyos, en la que solo depende de nuestros príncipes que no se busque algún buen medio de llegar a un acuerdo, pues de su parte había llegado a deliberar la celebración de una buena y amigable conferencia, pero que no se dignaron a comparecer. Sin embargo, que el <persName type="title" key="Carlos V" ref="https://www.wikidata.org/wiki/Q32500" corresp="#charles-quint">emperador</persName> todavía está de acuerdo en celebrar otro día en el que los asuntos se disputen de un lado y del otro, pero con la condición de que después de toda disputa la sentencia definitiva sea reservada a su majestad y a la santidad del <persName key="Pablo III" ref="https://www.wikidata.org/wiki/Q133001" type="title" corresp="#paulIII">papa</persName>. Sin embargo, no se le permitiría a nuestra gente fortalecerse con nuevas alianzas, ni atraer a nadie a recibir nuestra religión, incluso que las alianzas hechas desde la asamblea de <placeName key="Núremberg" ref="https://www.wikidata.org/wiki/Q2090">Núremberg</placeName><note n="3" place="bottom"><p>Los príncipes del Imperio, reunidos en <placeName key="Núremberg" ref="https://www.wikidata.org/wiki/Q2090">Núremberg</placeName> en 1524, habían elaborado una lista de los abusos de la corte de <placeName key="Roma" ref="https://www.wikidata.org/wiki/Q220">Roma</placeName>, proclamado la necesidad de una Reforma, y hecho un llamamiento a un concilio general, prohibiendo la publicación, antes de la convocatoria de esta asamblea, de cualquier opinión contraria a los dogmas de la Iglesia.</p></note> serían rotas.</p>
+
+    <p>En cuanto a la objeción de que nuestros príncipes han impedido que se tratara, ha sido muy fácil de resolver, pues bastaba con haber enviado a sus doctores y consejeros con plenos poderes. Además, habían prometido venir si veían que se procedía con prudencia. La conferencia la reciben de muy buen grado; pero todas las condiciones las rechazan como intolerables, e incluso ridículas. Porque es todo lo contrario de lo que el <persName type="title" key="Carlos V" ref="https://www.wikidata.org/wiki/Q32500" corresp="#charles-quint">emperador</persName> había prometido en <placeName key="Fráncfort del Meno" ref="https://www.wikidata.org/wiki/Q1794">Fráncfort</placeName>.</p>
+
+    <p>La intención de nuestros adversarios era aumentar su liga y disminuir la nuestra; pero esperamos que Dios cambie esta suerte. Sea como fuere, los nuestros buscan multiplicar el reino de Cristo tanto como les es posible, y no han decidido ceder en absoluto. Ahora no sabemos qué le agradará al Señor enviarnos. Algunos de nuestros adversarios solo piden guerra. El <persName type="title" key="Carlos V" ref="https://www.wikidata.org/wiki/Q32500" corresp="#charles-quint">emperador</persName> está tan envuelto que ya no se atreve a emprenderla. El <persName key="Pablo III" ref="https://www.wikidata.org/wiki/Q133001" type="title" corresp="#paulIII">papa</persName>, por su parte, no dudaría en hacerlo, pues ha ofrecido por medio de su embajador trescientos mil ducados para empezar. Si todos los que aún no han recibido nuestra religión quisieran unirse a nosotros para asaltarnos, el <persName type="title" key="Carlos V" ref="https://www.wikidata.org/wiki/Q32500" corresp="#charles-quint">emperador</persName> no pondría objeción a prestar su nombre, y aunque solo fuera para romper las fuerzas de <placeName key="Alemania" ref="https://www.wikidata.org/wiki/Q183">Alemania</placeName>, a fin de poder dominarla más fácilmente. Pero hay un gran impedimento, que es que todos los electores de común acuerdo están de acuerdo en apaciguar todas las disensiones amistosamente, sin llegar a las armas. El <persName key="Juan Federico I de Sajonia" ref="https://www.wikidata.org/wiki/Q506182" corresp="#ducSaxon">duque de Sajonia</persName> y el <persName key="Joaquín II de Brandeburgo" ref="https://www.wikidata.org/wiki/Q506527" corresp="#marquisBrandebourg">marqués de Brandeburgo</persName> son nuestros. Por lo tanto, no pueden hacer otra cosa que perseguir su causa. El <persName key="Hermann von Wied" ref="https://www.wikidata.org/wiki/Q95916" corresp="#archevequeCologne">arzobispo de Colonia</persName> no es de los peores, pues está de acuerdo en que la Iglesia necesita ser reformada, y ve que somos superiores en verdad. El <persName key="Luis IV del Palatinado" ref="https://www.wikidata.org/wiki/Q66918" corresp="#palatin">conde palatino</persName> también desea alguna reforma, la cual no puede esperar sino por medios pacíficos. <persName key="Alberto de Brandeburgo" ref="https://www.wikidata.org/wiki/Q60951" corresp="#evequeMayence">Maguncia</persName> y <persName key="Johann von Metzenhausen" ref="https://www.wikidata.org/wiki/Q119532" corresp="#eveque_Treves">Tréveris</persName> aman la paz y la libertad del país de las que creen que está hecho, si el <persName type="title" key="Carlos V" ref="https://www.wikidata.org/wiki/Q32500" corresp="#charles-quint">emperador</persName> nos hubiera sometido. Estas causas les mueven a resistir, a que no se proceda contra nosotros sino en conferencia pacífica, como la que demandamos. El <persName key="Francisco I de Francia" ref="https://www.wikidata.org/wiki/Q129857" corresp="#francoisI" type="title">rey de Francia</persName> no ofrece ayuda sino para proceder en forma cristiana. Su embajador es <persName key="Baysius" ref="#">Baysius</persName> el cual no entiende nada de nuestra causa. Sin embargo, nos recibe con bastante humanidad cuando vamos a verle, y ha decidido venir aquí antes de regresar a casa.</p>
+
+    <p>Todos los hombres sabios que han venido en nuestro nombre están bien unidos entre sí. Como hemos visto que los adversarios solo se burlaban, hemos considerado oportuno hacer alguna consulta aparte sobre cómo establecer alguna disciplina en la Iglesia. Pero como esto no podía concluirse sin comunicarlo a los ausentes, como a <persName type="surname" key="Martín Lutero" ref="https://www.wikidata.org/wiki/Q9554" corresp="#luther">Lutero</persName>, <persName type="forename" key="Felipe Melanchthon" ref="https://www.wikidata.org/wiki/Q76325" corresp="#melanchthon">Felipe</persName><note n="4" place="bottom"><p><persName type="fullname" key="Felipe Melanchthon" ref="https://www.wikidata.org/wiki/Q76325">Felipe Melanchthon</persName>.</p></note> y a otros, y mucho menos ejecutarse sin el consentimiento de los príncipes, solo hemos llegado al punto de que cada uno ha prometido en su lugar emplearse ante los príncipes y ciudades, que se celebre un consejo de nuestra parte para considerar esto. Será el asunto de mayor importancia que tengamos por el momento. <persName type="surname" key="Felipe Melanchthon" ref="https://www.wikidata.org/wiki/Q76325" corresp="#melanchthon">Melanchthon</persName> no vino a causa de una enfermedad repentina, y también porque se presumía que no había necesidad de apresurarse con peligro. Yo no fui en representación de mí mismo sino a modo de pasatiempo, ni siquiera <persName type="surname" key="Wolfgang Capito" ref="https://www.wikidata.org/wiki/Q1368362" corresp="#capiton">Capito</persName>.</p>
+ <closer>
+    <dateline>De <placeName key="Estrasburgo" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>, este <date when="1540-07-28">28 de julio de 1540</date>.</dateline>
+    <salute>Su hermano y buen amigo</salute>
+<signed><persName type="fullname" key="Juan Calvino" ref="#">JUAN CALVINO</persName>.</signed>
+  </closer>
+  </body>
+ </text>
+</TEI>

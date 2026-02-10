@@ -72,8 +72,9 @@ for file in files:
     for el in root.findall(".//{http://www.tei-c.org/ns/1.0}correspAction[@type='sent']//{http://www.tei-c.org/ns/1.0}settlement"):
         obj["scr_location"] = {}
         placeSrc = el.get('key')
+        cert = el.get('cert')
         print(placeSrc)
-        obj["scr_location"]["name"] = placeSrc
+        obj["scr_location"]["name"] = f"[{placeSrc}]" if cert == "low" or cert == "medium" else placeSrc
         for place in placedata:
             if placeSrc.__contains__(place["name"]):
                 obj["scr_location"]["lat"] = place["coord"]["lat"]
@@ -81,8 +82,9 @@ for file in files:
     for el in root.findall(".//{http://www.tei-c.org/ns/1.0}correspAction[@type='received']//{http://www.tei-c.org/ns/1.0}settlement"):
         obj["dest_location"] = {}
         placeD = el.get('key')
+        cert = el.get('cert')
         print(placeD)
-        obj["dest_location"]["name"] = placeD
+        obj["dest_location"]["name"] = f"[{placeD}]" if cert == "low" or cert == "medium" else placeD
         for place in placedata:
             if placeD.__contains__(place["name"]):
                 obj["dest_location"]["lat"] = place["coord"]["lat"]

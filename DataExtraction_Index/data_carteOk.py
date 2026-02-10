@@ -74,7 +74,7 @@ for file in files:
         placeSrc = el.get('key')
         cert = el.get('cert')
         print(placeSrc)
-        obj["scr_location"]["name"] = placeSrc if cert != "low" or cert != "medium" or cert is None else f"[{placeSrc}]"
+        obj["scr_location"]["name"] = f"[{placeSrc}]" if cert == "low" or cert == "medium" else placeSrc
         for place in placedata:
             if placeSrc.__contains__(place["name"]):
                 obj["scr_location"]["lat"] = place["coord"]["lat"]
@@ -84,7 +84,7 @@ for file in files:
         placeD = el.get('key')
         cert = el.get('cert')
         print(placeD)
-        obj["dest_location"]["name"] = placeD if cert != "low" or cert != "medium" or cert is not None else f"[{placeD}]"
+        obj["dest_location"]["name"] = f"[{placeD}]" if cert == "low" or cert == "medium" else placeD
         for place in placedata:
             if placeD.__contains__(place["name"]):
                 obj["dest_location"]["lat"] = place["coord"]["lat"]

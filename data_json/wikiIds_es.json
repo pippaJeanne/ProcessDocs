@@ -31,6 +31,23 @@
                      "Ginebra": "https://www.wikidata.org/wiki/Q71"
               }
        },
+       "output/VF/es/1538_10_01_EgliseGeneve_ES.xml": {
+              "persons": {
+                     "Église protestante de Genève": "https://www.wikidata.org/wiki/Q13371956",
+                     "Guillaume Farel": "https://www.wikidata.org/wiki/Q435456",
+                     "Pablo de Tarso": "https://www.wikidata.org/wiki/Q9200",
+                     "Daniel": "https://www.wikidata.org/wiki/Q171724",
+                     "Nabuchodonosor II": "https://www.wikidata.org/wiki/Q12591",
+                     "Israélites": "https://www.wikidata.org/wiki/Q51669",
+                     "Juan Calvino": "#"
+              },
+              "places": {
+                     "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Israël": "https://www.wikidata.org/wiki/Q801"
+              }
+       },
        "output/VF/es/1538_10_20_LouisdeTillet.xml": {
               "persons": {
                      "Louis de Tillet": "https://www.wikidata.org/wiki/Q3263586",
@@ -42,6 +59,41 @@
                      "París": "https://www.wikidata.org/wiki/Q90",
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
                      "Orbe": "https://www.wikidata.org/wiki/Q68213"
+              }
+       },
+       "output/VF/es/1540_07_28_DuTailly_ES.xml": {
+              "persons": {
+                     "Señor du Tailly": "https://www.wikidata.org/wiki/Q137860491",
+                     "Fernando I de Habsburgo": "https://www.wikidata.org/wiki/Q150611",
+                     "Luis IV del Palatinado": "https://www.wikidata.org/wiki/Q66918",
+                     "Johann von Metzenhausen": "https://www.wikidata.org/wiki/Q119532",
+                     "Guillermo IV de Baviera": "https://www.wikidata.org/wiki/Q60936",
+                     "Wilhelm von Hohnstein": "https://www.wikidata.org/wiki/Q2575927",
+                     "Carlos V": "https://www.wikidata.org/wiki/Q32500",
+                     "Frederic Nausea": "https://www.wikidata.org/wiki/Q95603",
+                     "Pablo III": "https://www.wikidata.org/wiki/Q133001",
+                     "Johann Faber": "https://www.wikidata.org/wiki/Q64159",
+                     "Johann Cochlaeus": "https://www.wikidata.org/wiki/Q64344",
+                     "Juan Federico I de Sajonia": "https://www.wikidata.org/wiki/Q506182",
+                     "Joaquín II de Brandeburgo": "https://www.wikidata.org/wiki/Q506527",
+                     "Hermann von Wied": "https://www.wikidata.org/wiki/Q95916",
+                     "Alberto de Brandeburgo": "https://www.wikidata.org/wiki/Q60951",
+                     "Francisco I de Francia": "https://www.wikidata.org/wiki/Q129857",
+                     "Baysius": "#",
+                     "Martín Lutero": "https://www.wikidata.org/wiki/Q9554",
+                     "Felipe Melanchthon": "https://www.wikidata.org/wiki/Q76325",
+                     "Wolfgang Capito": "https://www.wikidata.org/wiki/Q1368362",
+                     "Juan Calvino": "#"
+              },
+              "places": {
+                     "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "Neuchâtel": "https://www.wikidata.org/wiki/Q69345",
+                     "Haguenau": "https://www.wikidata.org/wiki/Q22730",
+                     "Fráncfort del Meno": "https://www.wikidata.org/wiki/Q1794",
+                     "Alemania": "https://www.wikidata.org/wiki/Q183",
+                     "Núremberg": "https://www.wikidata.org/wiki/Q2090",
+                     "Roma": "https://www.wikidata.org/wiki/Q220"
               }
        },
        "output/VF/es/1541_02_19_senoresGinebra.xml": {
@@ -93,7 +145,6 @@
                      "Iglesia de Lyon": "#",
                      "Salomón": "https://www.wikidata.org/wiki/Q37085",
                      "Pablo de Tarso": "https://www.wikidata.org/wiki/Q9200",
-                     "Paul de Tarse": "https://www.wikidata.org/wiki/Q9200",
                      "Jean Calvin": "#"
               },
               "places": {
@@ -122,6 +173,7 @@
        "output/VF/es/1543_10_14_SenorFalais.xml": {
               "persons": {
                      "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "David de Busanton": "https://www.wikidata.org/wiki/Q137660629",
                      "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
               },
               "places": {
@@ -130,12 +182,13 @@
                      "Colonia": "https://www.wikidata.org/wiki/Q365",
                      "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
                      "Basilea": "https://www.wikidata.org/wiki/Q78",
-                     "Ámsterdam": "https://www.wikidata.org/wiki/Q727"
+                     "Ámsterdam": "https://www.wikidata.org/wiki/Q727",
+                     "Hainaut": "https://www.wikidata.org/wiki/Q137660629"
               }
        },
        "output/VF/es/1543_10_14_SenoraFalais.xml": {
               "persons": {
-                     "Yolanda de Bréderode": "https://www.wikidata.org/wiki/Q56000839",
+                     "Yolande de Brederode": "https://www.wikidata.org/wiki/Q56000839",
                      "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
               },
               "places": {
@@ -151,6 +204,27 @@
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
                      "Fallais": "https://www.wikidata.org/wiki/Q1575050"
+              }
+       },
+       "output/VF/es/1544_06_24_MFallais_ES.xml": {
+              "persons": {
+                     "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "David de Busanton": "https://www.wikidata.org/wiki/Q137660629",
+                     "Martín Bucero": "https://www.wikidata.org/wiki/Q318622",
+                     "David": "https://www.wikidata.org/wiki/Q41370",
+                     "Filisteos": "https://www.wikidata.org/wiki/Q193776",
+                     "Abraham": "https://www.wikidata.org/wiki/Q9181",
+                     "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
+              },
+              "places": {
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "Colonia": "https://www.wikidata.org/wiki/Q365",
+                     "Brabante": "https://www.wikidata.org/wiki/Q848831",
+                     "Países Bajos": "https://www.wikidata.org/wiki/Q55",
+                     "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
+                     "Espira": "https://www.wikidata.org/wiki/Q6829",
+                     "Jerusalén": "https://www.wikidata.org/wiki/Q1218",
+                     "Canaán": "https://www.wikidata.org/wiki/Q163329"
               }
        },
        "output/VF/es/1544_06_24_SraDeFalais.xml": {
@@ -187,6 +261,7 @@
        "output/VF/es/1545_05_31_MFallais_ES.xml": {
               "persons": {
                      "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "David de Busanton": "https://www.wikidata.org/wiki/Q137660629",
                      "Juan Calvino": "#"
               },
               "places": {
@@ -201,6 +276,38 @@
                      "Worms": "https://www.wikidata.org/wiki/Q3852"
               }
        },
+       "output/VF/es/1545_06_22_MFallais_ES.xml": {
+              "persons": {
+                     "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "Jean de Bourgogne": "https://www.wikidata.org/wiki/Q137660510",
+                     "David de Busanton": "https://www.wikidata.org/wiki/Q137660629",
+                     "Yolande de Brederode": "https://www.wikidata.org/wiki/Q56000839",
+                     "Juan Calvino": "#"
+              },
+              "places": {
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
+                     "Fromont": "https://www.wikidata.org/wiki/Q920581",
+                     "Han-sur-Sambre": "https://www.wikidata.org/wiki/Q2655059",
+                     "Provincia de Henao": "https://www.wikidata.org/wiki/Q1129"
+              }
+       },
+       "output/VF/es/1545_08_05_MFallais_ES.xml": {
+              "persons": {
+                     "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "Yolande de Brederode": "https://www.wikidata.org/wiki/Q56000839",
+                     "Nicolas": "#",
+                     "Maldonad": "#",
+                     "Saint-André": "#",
+                     "Juan Calvino": "#"
+              },
+              "places": {
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
+                     "Hannover": "https://www.wikidata.org/wiki/Q1715",
+                     "Países Bajos": "https://www.wikidata.org/wiki/Q55"
+              }
+       },
        "output/VF/es/1546_01_20_SraDeBude.xml": {
               "persons": {
                      "Roberte Le Lyeur": "https://www.wikidata.org/wiki/Q108743308",
@@ -213,7 +320,8 @@
        },
        "output/VF/es/1548_06_NuevoCreyente.xml": {
               "persons": {
-                     "Nuevo creyente": "#"
+                     "Nuevo creyente": "#",
+                     "Juan Calvino": "#"
               },
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71"
@@ -224,8 +332,7 @@
                      "Consistorio de Ginebra": "https://www.wikidata.org/wiki/Q2994627",
                      "Jean Trolliet": "#",
                      "Pablo de Tarso": "https://www.wikidata.org/wiki/Q9200",
-                     "Felipe Melanchthon": "https://www.wikidata.org/wiki/Q76325",
-                     "Philipp Mélanchthon": "https://www.wikidata.org/wiki/Q76325"
+                     "Felipe Melanchthon": "https://www.wikidata.org/wiki/Q76325"
               },
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",

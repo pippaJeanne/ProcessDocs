@@ -15,8 +15,8 @@ client = genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
  # To help in the encoding of the structure of set of letters (Spanish translation) given the template with the editorial protocol 
 
 # List of translated texts to process
-traslations = ["Translations_txt/1545_06_22_MFallais_ES.txt", "Translations_txt/1545_08_05_MFallais_ES.txt"] #List of translated texts in Spanish
-reference = ["output/VF/1545_06_22_MFallais.xml", "output/VF/1545_08_05_MFallais.xml"] #List of references in French already encoded in TEI
+traslations = ["Translations_txt/1538_10_01_EgliseGeneve_ES.txt", "Translations_txt/1540_07_28_DuTailly_ES.txt"] #List of translated texts in Spanish
+reference = ["output/VF/1538_10_01_EgliseGeneve.xml","output/VF/1540_07_28_DuTailly.xml"] #List of references in French already encoded in TEI
 
 for doc in traslations:
     for ref in reference:
@@ -32,7 +32,7 @@ for doc in traslations:
             reference_content = open(ref, "r").read()
 
             response = client.models.generate_content(
-                model='gemini-2.5-flash', contents=f"En prenant le modèle d'encodage TEI dans {template} et la référence dans {reference_content}, prends la traduction dans {text} de la lettre et fais l'encodage TEI de la traduction en suivant strictement le modèle fourni en {template}. Produis le contenu dans un fichier XML-TEI.")
+                model='gemini-2.5-flash', contents=f"En prenant le modèle d'encodage TEI dans {template} et la version original en français dans {reference_content}, prends la traduction dans {text} de la lettre et fais l'encodage TEI de la traduction en suivant strictement le modèle fourni en {template}. Produis le contenu dans un fichier XML-TEI.")
             with open(f"output/VF/es/{name}", "w", encoding="utf8") as outfile:
                 outfile.write(response.text)
             print("Done!")

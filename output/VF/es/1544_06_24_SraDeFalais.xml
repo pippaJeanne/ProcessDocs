@@ -34,7 +34,7 @@
   <addName type="pseudonym">Charles D'Espeville</addName> <!--si firmada bajo seudónimo, sino borrar-->
   </persName>
   <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
-  <date when="1544-06-24">24 de junio de 1544</date>
+  <date when="1544-06-24">24 de junio de (1544)</date>
  </correspAction>
  <correspAction type="received">
   <name type="individuo" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Señora de Fallais</name>
@@ -81,7 +81,7 @@
 <p>No conozco quiénes están ahora en su compañía, pero si estuvieran allí los que el Señor <persName type="forename" key="David">David</persName> dejara con el que esperábamos, deseo ser encomendado a su buena gracia, tan afectuosamente como sea posible. No es que me parezca oportuno darle esta molestia, sino que ellos mismos pueden recibir las recomendaciones que deseo que se les presenten. De nuevo pido a nuestro Señor que le guíe siempre, como lo ha hecho hasta ahora.</p>
 
  <closer>
-      <dateline>El <placeName></placeName><date when="1544-06-24">24 de junio (de 1544)</date>.
+      <dateline>El <placeName></placeName><date when="1544-06-24">24 de junio de (1544)</date>.
       </dateline> 
       <salute>Su servidor y humilde hermano por siempre,</salute>
       <signed><persName key="Charles d'Espeville" ref="https://www.wikidata.org/wiki/Q133821751" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName></signed>

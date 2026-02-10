@@ -81,7 +81,8 @@
     <!--1° tokenisation : chaque mot mis dans une balise <w>, sauf si ce mot est contenu dans :
         - une balise ayant un @xml:lang, un @type="sig" 
         - ou bien dans un sic, corr ou orig (NB : les <reg> seront concernés dans le 2ème passage donc à supprimer avant passage de la feuille)-->
-   <xsl:template match="tei:text//tei:*[not(@xml:lang or @type='sig' or self::tei:orig or self::tei:corr  or self::tei:sic or self::tei:name or self::tei:placeName or self::tei:geogName or self::tei:persName or self::tei:orgName)]/text()">
+     <!-- Intégrer en-dessous au besoin (après 'self::tei:sic') => or self::tei:name or self::tei:placeName or self::tei:geogName or self::tei:persName or self::tei:orgName -->
+   <xsl:template match="tei:text//tei:*[not(@xml:lang or @type='sig' or self::tei:orig or self::tei:corr  or self::tei:sic)]/text()">
   <!--<xsl:template match="tei:text//tei:*/text()"> -->
           <xsl:analyze-string select="." regex="\w+">
             <xsl:matching-substring>
@@ -212,10 +213,10 @@
        <xsl:if test="matches(.,'^Estat(\w*)$')">État<xsl:value-of select="substring-after(.,'Estat')"/></xsl:if>
        <xsl:if test="matches(.,'^ESTAT(\w*)$')">ÉTAT<xsl:value-of select="substring-after(.,'ESTAT')"/></xsl:if></reg></choice>
             </xsl:when>
-<xsl:when test="matches(.,'^toutesfois$', 'i')">
+<xsl:when test="matches(.,'^toutes(\sfois|fois)$', 'i')">
     <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
-       <xsl:if test="matches(.,'^[Tt]outesfois$')"><xsl:value-of select="substring-before(.,'outesfois')"/>outefois</xsl:if>
-       <xsl:if test="matches(.,'^TOUTESFOIS$')">TOUTEFOIS</xsl:if></reg></choice>
+       <xsl:if test="matches(.,'^[Tt]outes(\sfois|fois)$')"><xsl:value-of select="substring-before(.,'outes')"/>outefois</xsl:if>
+       <xsl:if test="matches(.,'^TOUTES(\sFOIS|FOIS)$')">TOUTEFOIS</xsl:if></reg></choice>
             </xsl:when>
 <xsl:when test="matches(.,'^fortunez$', 'i')">
     <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
@@ -399,6 +400,16 @@
     <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
        <xsl:if test="matches(.,'^[Aa]dvis$')"><xsl:value-of select="substring-before(.,'dvis')"/>vis</xsl:if>
        <xsl:if test="matches(.,'^ADVIS$')">AVIS</xsl:if></reg></choice>
+            </xsl:when>
+<xsl:when test="matches(.,'^advis(\w*)$', 'i')">
+    <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Aa]dvis(\w*)$')"><xsl:value-of select="substring-before(.,'dvis')"/>vis<xsl:value-of select="substring-after(.,'dvis')"/></xsl:if>
+       <xsl:if test="matches(.,'^ADVIS(\w*)$')">AVIS<xsl:value-of select="substring-after(.,'ADVIS')"/></xsl:if></reg></choice>
+            </xsl:when>
+<xsl:when test="matches(.,'^advert(\w*)$', 'i')">
+    <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Aa]dvert(\w*)$')"><xsl:value-of select="substring-before(.,'dvert')"/>vert<xsl:value-of select="substring-after(.,'dvert')"/></xsl:if>
+       <xsl:if test="matches(.,'^ADVERT(\w*)$')">AVERT<xsl:value-of select="substring-after(.,'ADVERT')"/></xsl:if></reg></choice>
             </xsl:when>
 <xsl:when test="matches(.,'^neantmoins$', 'i')">
     <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
@@ -1821,6 +1832,14 @@
     <xsl:if test="matches(.,'^(\w+)(n|l)oient$')"><xsl:value-of select="substring-before(.,'oient')"/>aient</xsl:if>
     <xsl:if test="matches(.,'^(\w+)(N|L)OIENT$')"><xsl:value-of select="substring-before(.,'OIENT')"/>AIENT</xsl:if></reg></choice>
            </xsl:when>
+<xsl:when test="matches(.,'^(\w+)roi(s|t|ent)$', 'i')"><choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+     <xsl:if test="matches(.,'^(\w+)roi(s|t|ent)$')"><xsl:value-of select="substring-before(.,'roi')"/>rai<xsl:value-of select="substring-after(.,'roi')"/></xsl:if>
+     <xsl:if test="matches(.,'^(\w+)ROI(S|T|ENT)$')"><xsl:value-of select="substring-before(.,'ROI')"/>RAI<xsl:value-of select="substring-after(.,'ROI')"/></xsl:if></reg></choice>
+          </xsl:when>
+<xsl:when test="matches(.,'^pry(\w*)$', 'i')"><choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+     <xsl:if test="matches(.,'^[Pp]ry(\w*)$')"><xsl:value-of select="substring-before(.,'ry')"/>ri<xsl:value-of select="substring-after(.,'ry')"/></xsl:if>
+     <xsl:if test="matches(.,'^PRY(\w*)$')">PRI<xsl:value-of select="substring-after(.,'PRY')"/></xsl:if></reg></choice>
+          </xsl:when>
 <xsl:when test="matches(.,'^(\w+)ploye$', 'i')">
               <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
     <xsl:if test="matches(.,'^(\w+)ploye$')"><xsl:value-of select="substring-before(.,'ploye')"/>ploie</xsl:if>
@@ -2613,6 +2632,15 @@
        <xsl:if test="matches(.,'^d|D)equoy$')"><xsl:value-of select="substring-before(.,'equoy')"/>e quoi</xsl:if>
        <xsl:if test="matches(.,'^DEQUOY$')">DE QUOI</xsl:if></reg></choice>
             </xsl:when>
+<xsl:when test="matches(.,'^Par(\squoy|quoy)$', 'i')">
+     <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^Par(\squoy|quoy)$')">C'est pourquoi</xsl:if>
+       <xsl:if test="matches(.,'^PAR(\sQUOY|QUOY)$')">C'EST POURQUOI</xsl:if></reg></choice>
+            </xsl:when>
+<xsl:when test="matches(.,'^parquo(y|i)$', 'i')">
+     <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^parquo(y|i)$')">c'est pourquoi</xsl:if></reg></choice>
+            </xsl:when>
 <xsl:when test="matches(.,'^(\w*)quoy$', 'i')">
                     <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
        <xsl:if test="matches(.,'^(\w*)(q|Q)uoy$')"><xsl:value-of select="substring-before(.,'uoy')"/>uoi</xsl:if>
@@ -2915,6 +2943,11 @@
        <xsl:if test="matches(.,'^[Dd]esja$')"><xsl:value-of select="substring-before(.,'esja')"/>éjà</xsl:if>
        <xsl:if test="matches(.,'^DESJA$')">DÉJÀ</xsl:if></reg></choice>
             </xsl:when>
+<xsl:when test="matches(.,'^desjà$', 'i')">
+                    <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Dd]esjà$')"><xsl:value-of select="substring-before(.,'esjà')"/>éjà</xsl:if>
+       <xsl:if test="matches(.,'^DESJÀ$')">DÉJÀ</xsl:if></reg></choice>
+            </xsl:when>                    
 <xsl:when test="matches(.,'^su[zs]$', 'i')">
                     <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
        <xsl:if test="matches(.,'^[Ss]u[zs]$')"><xsl:value-of select="substring-before(.,'u')"/>ur</xsl:if>
@@ -2945,6 +2978,16 @@
        <xsl:if test="matches(.,'^[Ss]çav(\w*)$')"><xsl:value-of select="substring-before(.,'çav')"/>av<xsl:value-of select="substring-after(.,'çav')"/></xsl:if>
        <xsl:if test="matches(.,'^SÇAV(\w*)$')">SAV<xsl:value-of select="substring-after(.,'SÇAV')"/></xsl:if></reg></choice>
             </xsl:when>
+<xsl:when test="matches(.,'^sçay$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Ss]çay$')"><xsl:value-of select="substring-before(.,'çay')"/>ais</xsl:if>
+       <xsl:if test="matches(.,'^SÇAY$')">SAIS</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^sça(\w*)$', 'i')">
+                    <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Ss]ça(\w*)$')"><xsl:value-of select="substring-before(.,'ça')"/>a<xsl:value-of select="substring-after(.,'ça')"/></xsl:if>
+       <xsl:if test="matches(.,'^SÇA(\w*)$')">SA<xsl:value-of select="substring-after(.,'SÇA')"/></xsl:if></reg></choice>
+            </xsl:when>
 <xsl:when test="matches(.,'^sçait$', 'i')">
                     <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
        <xsl:if test="matches(.,'^[Ss]çait$')"><xsl:value-of select="substring-before(.,'çait')"/>ait</xsl:if>
@@ -2959,6 +3002,11 @@
                     <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
        <xsl:if test="matches(.,'^[Pp]rins$')"><xsl:value-of select="substring-before(.,'rins')"/>ris</xsl:if>
        <xsl:if test="matches(.,'^PRINS$')">PRIS</xsl:if></reg></choice>
+            </xsl:when>
+<xsl:when test="matches(.,'^(\w)euss(\w*)$', 'i')">
+                    <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^(\w)euss(\w*)$')"><xsl:value-of select="substring-before(.,'euss')"/>uss<xsl:value-of select="substring-after(.,'euss')"/></xsl:if>
+       <xsl:if test="matches(.,'^(\w)EUSS(\w*)$')"><xsl:value-of select="substring-before(.,'EUSS')"/>USS<xsl:value-of select="substring-after(.,'EUSS')"/></xsl:if></reg></choice>
             </xsl:when>
 <xsl:when test="matches(.,'^quel(cun|qun)$', 'i')">
                     <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
@@ -3679,10 +3727,70 @@
        <xsl:if test="matches(.,'^[Ss]ust$')"><xsl:value-of select="substring-before(.,'ust')"/>ût</xsl:if>
        <xsl:if test="matches(.,'^SUST$')">SÛT</xsl:if></reg></choice>
 </xsl:when>
+<xsl:when test="matches(.,'^submect(\w*)$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Ss]ubmect(\w*)$')"><xsl:value-of select="substring-before(.,'ubmect')"/>oumett<xsl:value-of select="substring-after(.,'ubmect')"/></xsl:if>
+       <xsl:if test="matches(.,'^SUBMECT(\w*)$')"><xsl:value-of select="substring-before(.,'SUBMECT')"/>SOUMETT<xsl:value-of select="substring-after(.,'SUBMECT')"/></xsl:if></reg></choice>
+</xsl:when>
 <xsl:when test="matches(.,'^jusques$', 'i')">
                         <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
        <xsl:if test="matches(.,'^[Jj]usques$')"><xsl:value-of select="substring-before(.,'usques')"/>usque</xsl:if>
        <xsl:if test="matches(.,'^JUSQUES$')">JUSQUE</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^Jéhan$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^Jéhan$')">Jean</xsl:if>
+       <xsl:if test="matches(.,'^JÉHAN$')">JEAN</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^Sathan$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^Sathan$')">Satan</xsl:if>
+       <xsl:if test="matches(.,'^SATHAN$')">SATAN</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^volunté$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^volunté$')">volonté</xsl:if>
+       <xsl:if test="matches(.,'^VOLUNTÉ$')">VOLONTÉ</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^néantmoins$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Nn]éantmoins$')"><xsl:value-of select="substring-before(.,'éantmoins')"/>éanmoins</xsl:if>
+       <xsl:if test="matches(.,'^NÉANTMOINS$')">NÉANMOINS</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^object(s)$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^object(s)$')">objet<xsl:value-of select="substring-after(.,'object')"/></xsl:if>
+       <xsl:if test="matches(.,'^OBJECT(S)$')">OBJET<xsl:value-of select="substring-after(.,'OBJECT')"/></xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^deuement$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^deuement$')">dûment</xsl:if>
+       <xsl:if test="matches(.,'^DEUEMENT$')">DÛMENT</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^confermer$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^confermer$')">confirmer</xsl:if>
+       <xsl:if test="matches(.,'^CONFERMER$')">CONFIRMER</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^vitupère(s)$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^vitupère(s)$')">reproche<xsl:value-of select="substring-after(., 'vitupère')"/></xsl:if>
+       <xsl:if test="matches(.,'^VITUPÈRE(S)$')">REPROCHE<xsl:value-of select="substring-after(., 'VITUPÈRE')"/></xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^(\w+)bv(\w*)$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^(\w+)bv(\w*)$')"><xsl:value-of select="substring-before(.,'bv')"/>v<xsl:value-of select="substring-after(.,'bv')"/></xsl:if>
+       <xsl:if test="matches(.,'^(\w+)BV(\w*)$')"><xsl:value-of select="substring-before(.,'BV')"/>V<xsl:value-of select="substring-after(.,'BV')"/></xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^(\w+)ulv(\w*)$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^(\w+)ulv(\w*)$')"><xsl:value-of select="substring-before(.,'ulv')"/>uv<xsl:value-of select="substring-after(.,'ulv')"/></xsl:if>
+       <xsl:if test="matches(.,'^(\w+)ULV(\w*)$')"><xsl:value-of select="substring-before(.,'ULV')"/>UV<xsl:value-of select="substring-after(.,'ULV')"/></xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^combien\sque$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^combien\sque$')">bien que</xsl:if>
+       <xsl:if test="matches(.,'^Combien\sque$')">Bien que</xsl:if></reg></choice>
 </xsl:when>
 <xsl:when test="matches(.,'^aujourdhuy$', 'i')">
                         <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
@@ -3943,6 +4051,11 @@
                         <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
        <xsl:if test="matches(.,'^(\w*)[Mm]onstrer$')"><xsl:value-of select="substring-before(.,'onstrer')"/>ontrer<xsl:value-of select="substring-after(.,'onstrer')"/></xsl:if>
        <xsl:if test="matches(.,'^(\w*)MONSTRER$')"><xsl:value-of select="substring-before(.,'MONSTRER')"/>MONTRER<xsl:value-of select="substring-after(.,'MONSTRER')"/></xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^monstr(\w*)$', 'i')">
+                        <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Mm]onstr(\w*)$')"><xsl:value-of select="substring-before(.,'onstr')"/>ontr<xsl:value-of select="substring-after(.,'onstr')"/></xsl:if>
+       <xsl:if test="matches(.,'^MONSTR(\w*)$')">MONTR<xsl:value-of select="substring-after(.,'MONSTR')"/></xsl:if></reg></choice>
 </xsl:when>
 <xsl:when test="matches(.,'^(\w+)controi(\w+)$', 'i')">
                         <choice><xsl:copy-of select="ancestor::tei:choice/tei:orig"/><reg><xsl:value-of select="ancestor::tei:choice/tei:reg"/></reg><reg type="modernisation">
@@ -4557,10 +4670,10 @@
        <xsl:if test="matches(.,'^Estat(\w*)$')">État<xsl:value-of select="substring-after(.,'Estat')"/></xsl:if>
        <xsl:if test="matches(.,'^ESTAT(\w*)$')">ÉTAT<xsl:value-of select="substring-after(.,'ESTAT')"/></xsl:if></reg></choice>
             </xsl:when>
-<xsl:when test="matches(.,'^toutesfois$', 'i')">
+<xsl:when test="matches(.,'^toutes(\sfois|fois)$', 'i')">
                 <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
-       <xsl:if test="matches(.,'^[Tt]outesfois$')"><xsl:value-of select="substring-before(.,'outesfois')"/>outefois</xsl:if>
-       <xsl:if test="matches(.,'^TOUTESFOIS$')">TOUTEFOIS</xsl:if></reg></choice>
+       <xsl:if test="matches(.,'^[Tt]outes(\sfois|fois)$')"><xsl:value-of select="substring-before(.,'outes')"/>outefois</xsl:if>
+       <xsl:if test="matches(.,'^TOUTES(\sFOIS|FOIS)$')">TOUTEFOIS</xsl:if></reg></choice>
             </xsl:when>
 <xsl:when test="matches(.,'^fortunez$', 'i')">
                 <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
@@ -4744,6 +4857,16 @@
                 <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
        <xsl:if test="matches(.,'^[Aa]dvis$')"><xsl:value-of select="substring-before(.,'dvis')"/>vis</xsl:if>
        <xsl:if test="matches(.,'^ADVIS$')">AVIS</xsl:if></reg></choice>
+            </xsl:when>
+<xsl:when test="matches(.,'^advis(\w*)$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Aa]dvis(\w*)$')"><xsl:value-of select="substring-before(.,'dvis')"/>vis<xsl:value-of select="substring-after(.,'dvis')"/></xsl:if>
+       <xsl:if test="matches(.,'^ADVIS(\w*)$')">AVIS<xsl:value-of select="substring-after(.,'ADVIS')"/></xsl:if></reg></choice>
+            </xsl:when>
+<xsl:when test="matches(.,'^advert(\w*)$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Aa]dvert(\w*)$')"><xsl:value-of select="substring-before(.,'dvert')"/>vert<xsl:value-of select="substring-after(.,'dvert')"/></xsl:if>
+       <xsl:if test="matches(.,'^ADVERT(\w*)$')">AVERT<xsl:value-of select="substring-after(.,'ADVERT')"/></xsl:if></reg></choice>
             </xsl:when>
 <xsl:when test="matches(.,'^neantmoins$', 'i')">
                 <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
@@ -6166,6 +6289,14 @@
     <xsl:if test="matches(.,'^(\w+)(n|l)oient$')"><xsl:value-of select="substring-before(.,'oient')"/>aient</xsl:if>
     <xsl:if test="matches(.,'^(\w+)(N|L)OIENT$')"><xsl:value-of select="substring-before(.,'OIENT')"/>AIENT</xsl:if></reg></choice>
            </xsl:when>
+<xsl:when test="matches(.,'^(\w+)roi(s|t|ent)$', 'i')"><choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+     <xsl:if test="matches(.,'^(\w+)roi(s|t|ent)$')"><xsl:value-of select="substring-before(.,'roi')"/>rai<xsl:value-of select="substring-after(.,'roi')"/></xsl:if>
+     <xsl:if test="matches(.,'^(\w+)ROI(S|T|ENT)$')"><xsl:value-of select="substring-before(.,'ROI')"/>RAI<xsl:value-of select="substring-after(.,'ROI')"/></xsl:if></reg></choice>
+          </xsl:when>
+<xsl:when test="matches(.,'^pry(\w*)$', 'i')"><choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+     <xsl:if test="matches(.,'^[Pp]ry(\w*)$')"><xsl:value-of select="substring-before(.,'ry')"/>ri<xsl:value-of select="substring-after(.,'ry')"/></xsl:if>
+     <xsl:if test="matches(.,'^PRY(\w*)$')">PRI<xsl:value-of select="substring-after(.,'PRY')"/></xsl:if></reg></choice>
+          </xsl:when>
 <xsl:when test="matches(.,'^(\w+)ploye$', 'i')">
               <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
     <xsl:if test="matches(.,'^(\w+)ploye$')"><xsl:value-of select="substring-before(.,'ploye')"/>ploie</xsl:if>
@@ -6956,6 +7087,15 @@
        <xsl:if test="matches(.,'^(d|D)equoy$')"><xsl:value-of select="substring-before(.,'equoy')"/>e quoi</xsl:if>
        <xsl:if test="matches(.,'^DEQUOY$')"><xsl:value-of select="substring-before(.,'DEQUOY')"/>DE QUOI</xsl:if></reg></choice>
             </xsl:when>
+<xsl:when test="matches(.,'^Par(\squoy|quoy)$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+      <xsl:if test="matches(.,'^Par(\squoy|quoy)$')">C'est pourquoi</xsl:if>
+      <xsl:if test="matches(.,'^PAR(\sQUOY|QUOY)$')">C'EST POURQUOI</xsl:if></reg></choice>
+            </xsl:when>
+<xsl:when test="matches(.,'^parquo(y|i)$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^parquo(y|i)$')">c'est pourquoi</xsl:if></reg></choice>
+            </xsl:when>
 <xsl:when test="matches(.,'^(\w*)quoy$', 'i')">
                 <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
        <xsl:if test="matches(.,'^(\w*)(q|Q)uoy$')"><xsl:value-of select="substring-before(.,'uoy')"/>uoi</xsl:if>
@@ -7258,6 +7398,11 @@
        <xsl:if test="matches(.,'^[Dd]esja$')"><xsl:value-of select="substring-before(.,'esja')"/>éjà</xsl:if>
        <xsl:if test="matches(.,'^DESJA$')">DÉJÀ</xsl:if></reg></choice>
             </xsl:when>
+<xsl:when test="matches(.,'^desjà$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+         <xsl:if test="matches(.,'^[Dd]esjà$')"><xsl:value-of select="substring-before(.,'esjà')"/>éjà</xsl:if>
+         <xsl:if test="matches(.,'^DESJÀ$')">DÉJÀ</xsl:if></reg></choice>
+               </xsl:when>
 <xsl:when test="matches(.,'^su[zs]$', 'i')">
                 <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
        <xsl:if test="matches(.,'^[Ss]u[zs]$')"><xsl:value-of select="substring-before(.,'u')"/>ur</xsl:if>
@@ -7288,6 +7433,16 @@
        <xsl:if test="matches(.,'^[Ss]çav(\w*)$')"><xsl:value-of select="substring-before(.,'çav')"/>av<xsl:value-of select="substring-after(.,'çav')"/></xsl:if>
        <xsl:if test="matches(.,'^SÇAV(\w*)$')">SAV<xsl:value-of select="substring-after(.,'SÇAV')"/></xsl:if></reg></choice>
             </xsl:when>
+<xsl:when test="matches(.,'^sçay$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Ss]çay$')"><xsl:value-of select="substring-before(.,'çay')"/>ais</xsl:if>
+       <xsl:if test="matches(.,'^SÇAY$')">SAIS</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^sça(\w*)$', 'i')">
+                <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Ss]ça(\w*)$')"><xsl:value-of select="substring-before(.,'ça')"/>a<xsl:value-of select="substring-after(.,'ça')"/></xsl:if>
+       <xsl:if test="matches(.,'^SÇA(\w*)$')">SA<xsl:value-of select="substring-after(.,'SÇA')"/></xsl:if></reg></choice>
+            </xsl:when>
 <xsl:when test="matches(.,'^sçait$', 'i')">
                 <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
        <xsl:if test="matches(.,'^[Ss]çait$')"><xsl:value-of select="substring-before(.,'çait')"/>ait</xsl:if>
@@ -7302,6 +7457,11 @@
                 <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
        <xsl:if test="matches(.,'^[Pp]rins$')"><xsl:value-of select="substring-before(.,'rins')"/>ris</xsl:if>
        <xsl:if test="matches(.,'^PRINS$')">PRIS</xsl:if></reg></choice>
+            </xsl:when>
+<xsl:when test="matches(.,'^(\w)euss(\w*)$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^(\w)euss(\w*)$')"><xsl:value-of select="substring-before(.,'euss')"/>uss<xsl:value-of select="substring-after(.,'euss')"/></xsl:if>
+       <xsl:if test="matches(.,'^(\w)EUSS(\w*)$')"><xsl:value-of select="substring-before(.,'EUSS')"/>USS<xsl:value-of select="substring-after(.,'EUSS')"/></xsl:if></reg></choice>
             </xsl:when>
 <xsl:when test="matches(.,'^quel(cun|qun)$', 'i')">
                 <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
@@ -8024,10 +8184,68 @@
     <xsl:if test="matches(.,'^[Ss]ust$')"><xsl:value-of select="substring-before(.,'ust')"/>ût</xsl:if>
     <xsl:if test="matches(.,'^SUST$')">SÛT</xsl:if></reg></choice>
 </xsl:when>
+<xsl:when test="matches(.,'^submect(\w*)$', 'i')">
+<choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Ss]ubmect(\w*)$')"><xsl:value-of select="substring-before(.,'ubmect')"/>oumett<xsl:value-of select="substring-after(.,'ubmect')"/></xsl:if>
+       <xsl:if test="matches(.,'^SUBMECT(\w*)$')"><xsl:value-of select="substring-before(.,'SUBMECT')"/>SOUMETT<xsl:value-of select="substring-after(.,'SUBMECT')"/></xsl:if></reg></choice>
+</xsl:when>
 <xsl:when test="matches(.,'^jusques$', 'i')">
 <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
     <xsl:if test="matches(.,'^[Jj]usques$')"><xsl:value-of select="substring-before(.,'usques')"/>usque</xsl:if>
     <xsl:if test="matches(.,'^JUSQUES$')">JUSQUE</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^Jéhan$', 'i')"><choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^Jéhan$')">Jean</xsl:if>
+       <xsl:if test="matches(.,'^JÉHAN$')">JEAN</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^Sathan$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^Sathan$')">Satan</xsl:if>
+       <xsl:if test="matches(.,'^SATHAN$')">SATAN</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^volunté$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^volunté$')">volonté</xsl:if>
+       <xsl:if test="matches(.,'^VOLUNTÉ$')">VOLONTÉ</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^néantmoins$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Nn]éantmoins$')"><xsl:value-of select="substring-before(.,'éantmoins')"/>éanmoins</xsl:if>
+       <xsl:if test="matches(.,'^NÉANTMOINS$')">NÉANMOINS</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^object(s)$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^object(s)$')">objet<xsl:value-of select="substring-after(.,'object')"/></xsl:if>
+       <xsl:if test="matches(.,'^OBJECT(S)$')">OBJET<xsl:value-of select="substring-after(.,'OBJECT')"/></xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^deuement$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^deuement$')">dûment</xsl:if>
+       <xsl:if test="matches(.,'^DEUEMENT$')">DÛMENT</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^confermer$', 'i')"><choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^confermer$')">confirmer</xsl:if>
+       <xsl:if test="matches(.,'^CONFERMER$')">CONFIRMER</xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^vitupère(s)$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^vitupère(s)$')">reproche<xsl:value-of select="substring-after(., 'vitupère')"/></xsl:if>
+       <xsl:if test="matches(.,'^VITUPÈRE(S)$')">REPROCHE<xsl:value-of select="substring-after(., 'VITUPÈRE')"/></xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^(\w+)bv(\w*)$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^(\w+)bv(\w*)$')"><xsl:value-of select="substring-before(.,'bv')"/>v<xsl:value-of select="substring-after(.,'bv')"/></xsl:if>
+       <xsl:if test="matches(.,'^(\w+)BV(\w*)$')"><xsl:value-of select="substring-before(.,'BV')"/>V<xsl:value-of select="substring-after(.,'BV')"/></xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^(\w+)ulv(\w*)$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^(\w+)ulv(\w*)$')"><xsl:value-of select="substring-before(.,'ulv')"/>uv<xsl:value-of select="substring-after(.,'ulv')"/></xsl:if>
+       <xsl:if test="matches(.,'^(\w+)ULV(\w*)$')"><xsl:value-of select="substring-before(.,'ULV')"/>UV<xsl:value-of select="substring-after(.,'ULV')"/></xsl:if></reg></choice>
+</xsl:when>
+<xsl:when test="matches(.,'^combien\sque$', 'i')">
+                    <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^combien\sque$')">bien que</xsl:if>
+       <xsl:if test="matches(.,'^Combien\sque$')">Bien que</xsl:if></reg></choice>
 </xsl:when>
 <xsl:when test="matches(.,'^aujourdhuy$', 'i')">
 <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
@@ -8289,6 +8507,10 @@
                                 <xsl:if test="matches(.,'^(\w*)[Mm]onstrer$')"><xsl:value-of select="substring-before(.,'onstrer')"/>ontrer<xsl:value-of select="substring-after(.,'onstrer')"/></xsl:if>
                                 <xsl:if test="matches(.,'^(\w*)MONSTRER$')"><xsl:value-of select="substring-before(.,'MONSTRER')"/>MONTRER<xsl:value-of select="substring-after(.,'MONSTRER')"/></xsl:if></reg></choice>
                 </xsl:when>
+<xsl:when test="matches(.,'^monstr(\w*)$', 'i')"><choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Mm]onstr(\w*)$')"><xsl:value-of select="substring-before(.,'onstr')"/>ontr<xsl:value-of select="substring-after(.,'onstr')"/></xsl:if>
+       <xsl:if test="matches(.,'^MONSTR(\w*)$')">MONTR<xsl:value-of select="substring-after(.,'MONSTR')"/></xsl:if></reg></choice>
+</xsl:when>
                 <xsl:when test="matches(.,'^(\w+)controi(\w+)$', 'i')">
 <choice><orig><xsl:value-of select="."/></orig><reg type="modernisation">
                                 <xsl:if test="matches(.,'^(\w+)controi(\w+)$')"><xsl:value-of select="substring-before(.,'controi')"/>contrai<xsl:value-of select="substring-after(.,'controi')"/></xsl:if>
@@ -8878,9 +9100,9 @@
        <xsl:if test="matches(.,'^Estat(\w*)$')">État<xsl:value-of select="substring-after(.,'Estat')"/></xsl:if>
        <xsl:if test="matches(.,'^ESTAT(\w*)$')">ÉTAT<xsl:value-of select="substring-after(.,'ESTAT')"/></xsl:if></reg>
             </xsl:when>
-<xsl:when test="matches(.,'^toutesfois$', 'i')"><reg type="modernisation">
-       <xsl:if test="matches(.,'^[Tt]outesfois$')"><xsl:value-of select="substring-before(.,'outesfois')"/>outefois</xsl:if>
-       <xsl:if test="matches(.,'^TOUTESFOIS$')">TOUTEFOIS</xsl:if></reg>
+<xsl:when test="matches(.,'^toutes(\sfois|fois)$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Tt]outes(\sfois|fois)$')"><xsl:value-of select="substring-before(.,'outes')"/>outefois</xsl:if>
+       <xsl:if test="matches(.,'^TOUTES(\sFOIS|FOIS)$')">TOUTEFOIS</xsl:if></reg>
             </xsl:when>
 <xsl:when test="matches(.,'^fortunez$', 'i')"><reg type="modernisation">
        <xsl:if test="matches(.,'^[Ff]ortunez$')"><xsl:value-of select="substring-before(.,'ortunez')"/>ortunés</xsl:if>
@@ -9029,6 +9251,14 @@
 <xsl:when test="matches(.,'^advis$', 'i')"><reg type="modernisation">
        <xsl:if test="matches(.,'^[Aa]dvis$')"><xsl:value-of select="substring-before(.,'dvis')"/>vis</xsl:if>
        <xsl:if test="matches(.,'^ADVIS$')">AVIS</xsl:if></reg>
+            </xsl:when>
+<xsl:when test="matches(.,'^advis(\w*)$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Aa]dvis(\w*)$')"><xsl:value-of select="substring-before(.,'dvis')"/>vis<xsl:value-of select="substring-after(.,'dvis')"/></xsl:if>
+       <xsl:if test="matches(.,'^ADVIS(\w*)$')">AVIS<xsl:value-of select="substring-after(.,'ADVIS')"/></xsl:if></reg>
+            </xsl:when>
+<xsl:when test="matches(.,'^advert(\w*)$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Aa]dvert(\w*)$')"><xsl:value-of select="substring-before(.,'dvert')"/>vert<xsl:value-of select="substring-after(.,'dvert')"/></xsl:if>
+       <xsl:if test="matches(.,'^ADVERT(\w*)$')">AVERT<xsl:value-of select="substring-after(.,'ADVERT')"/></xsl:if></reg>
             </xsl:when>
 <xsl:when test="matches(.,'^neantmoins$', 'i')"><reg type="modernisation">
        <xsl:if test="matches(.,'^[Nn]eantmoins$')"><xsl:value-of select="substring-before(.,'eantmoins')"/>éanmoins</xsl:if>
@@ -10174,6 +10404,14 @@
     <xsl:if test="matches(.,'^(\w+)(n|l)oient$')"><xsl:value-of select="substring-before(.,'oient')"/>aient</xsl:if>
     <xsl:if test="matches(.,'^(\w+)(N|L)OIENT$')"><xsl:value-of select="substring-before(.,'OIENT')"/>AIENT</xsl:if></reg>
            </xsl:when>
+<xsl:when test="matches(.,'^(\w+)roi(s|t|ent)$', 'i')"><reg type="modernisation">
+     <xsl:if test="matches(.,'^(\w+)roi(s|t|ent)$')"><xsl:value-of select="substring-before(.,'roi')"/>rai<xsl:value-of select="substring-after(.,'roi')"/></xsl:if>
+     <xsl:if test="matches(.,'^(\w+)ROI(S|T|ENT)$')"><xsl:value-of select="substring-before(.,'ROI')"/>RAI<xsl:value-of select="substring-after(.,'ROI')"/></xsl:if></reg>
+          </xsl:when>
+<xsl:when test="matches(.,'^pry(\w*)$', 'i')"><reg type="modernisation">
+     <xsl:if test="matches(.,'^[Pp]ry(\w*)$')"><xsl:value-of select="substring-before(.,'ry')"/>ri<xsl:value-of select="substring-after(.,'ry')"/></xsl:if>
+     <xsl:if test="matches(.,'^PRY(\w*)$')">PRI<xsl:value-of select="substring-after(.,'PRY')"/></xsl:if></reg>
+          </xsl:when>
 <xsl:when test="matches(.,'^(\w+)ploye$', 'i')"><reg type="modernisation">
     <xsl:if test="matches(.,'^(\w+)ploye$')"><xsl:value-of select="substring-before(.,'ploye')"/>ploie</xsl:if>
     <xsl:if test="matches(.,'^(\w+)PLOYE$')"><xsl:value-of select="substring-before(.,'PLOYE')"/>PLOIE</xsl:if></reg>
@@ -10803,6 +11041,13 @@
        <xsl:if test="matches(.,'^(d|D)equoy$')"><xsl:value-of select="substring-before(.,'equoy')"/>e quoi</xsl:if>
        <xsl:if test="matches(.,'^DEQUOY$')"><xsl:value-of select="substring-before(.,'DEQUOY')"/>DE QUOI</xsl:if></reg>
             </xsl:when>
+<xsl:when test="matches(.,'^Par(\squoy|quoy)$', 'i')"><reg type="modernisation">
+      <xsl:if test="matches(.,'^Par(\squoy|quoy)$')">C'est pourquoi</xsl:if>
+      <xsl:if test="matches(.,'^PAR(\sQUOY|QUOY)$')">C'EST POURQUOI</xsl:if></reg>
+            </xsl:when>
+<xsl:when test="matches(.,'^parquo(y|i)$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^parquo(y|i)$')">c'est pourquoi</xsl:if></reg>
+            </xsl:when>
 <xsl:when test="matches(.,'^(\w*)quoy$', 'i')"><reg type="modernisation">
        <xsl:if test="matches(.,'^(\w*)(q|Q)uoy$')"><xsl:value-of select="substring-before(.,'uoy')"/>uoi</xsl:if>
        <xsl:if test="matches(.,'^(\w*)QUOY$')"><xsl:value-of select="substring-before(.,'QUOY')"/>QUOI</xsl:if></reg>
@@ -11050,6 +11295,10 @@
        <xsl:if test="matches(.,'^[Dd]esja$')"><xsl:value-of select="substring-before(.,'esja')"/>éjà</xsl:if>
        <xsl:if test="matches(.,'^DESJA$')">DÉJÀ</xsl:if></reg>
             </xsl:when>
+<xsl:when test="matches(.,'^desjà$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Dd]esjà$')"><xsl:value-of select="substring-before(.,'esjà')"/>éjà</xsl:if>
+       <xsl:if test="matches(.,'^DESJÀ$')">DÉJÀ</xsl:if></reg>
+            </xsl:when>
 <xsl:when test="matches(.,'^su[zs]$', 'i')"><reg type="modernisation">
        <xsl:if test="matches(.,'^[Ss]u[zs]$')"><xsl:value-of select="substring-before(.,'u')"/>ur</xsl:if>
        <xsl:if test="matches(.,'^SU[ZS]$')">SUR</xsl:if></reg>
@@ -11074,6 +11323,14 @@
        <xsl:if test="matches(.,'^[Ss]çav(\w*)$')"><xsl:value-of select="substring-before(.,'çav')"/>av<xsl:value-of select="substring-after(.,'çav')"/></xsl:if>
        <xsl:if test="matches(.,'^SÇAV(\w*)$')">SAV<xsl:value-of select="substring-after(.,'SÇAV')"/></xsl:if></reg>
             </xsl:when>
+<xsl:when test="matches(.,'^sçay$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Ss]çay$')"><xsl:value-of select="substring-before(.,'çay')"/>ais</xsl:if>
+       <xsl:if test="matches(.,'^SÇAY$')">SAIS</xsl:if></reg>
+</xsl:when>
+<xsl:when test="matches(.,'^sça(\w*)$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Ss]ça(\w*)$')"><xsl:value-of select="substring-before(.,'ça')"/>a<xsl:value-of select="substring-after(.,'ça')"/></xsl:if>
+       <xsl:if test="matches(.,'^SÇA(\w*)$')">SA<xsl:value-of select="substring-after(.,'SÇA')"/></xsl:if></reg>
+            </xsl:when>
 <xsl:when test="matches(.,'^sçait$', 'i')"><reg type="modernisation">
        <xsl:if test="matches(.,'^[Ss]çait$')"><xsl:value-of select="substring-before(.,'çait')"/>ait</xsl:if>
        <xsl:if test="matches(.,'^SÇAIT$')">SAIT</xsl:if></reg>
@@ -11085,6 +11342,10 @@
 <xsl:when test="matches(.,'^prins$', 'i')"><reg type="modernisation">
        <xsl:if test="matches(.,'^[Pp]rins$')"><xsl:value-of select="substring-before(.,'rins')"/>ris</xsl:if>
        <xsl:if test="matches(.,'^PRINS$')">PRIS</xsl:if></reg>
+            </xsl:when>
+<xsl:when test="matches(.,'^(\w)euss(\w*)$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^(\w)euss(\w*)$')"><xsl:value-of select="substring-before(.,'euss')"/>uss<xsl:value-of select="substring-after(.,'euss')"/></xsl:if>
+       <xsl:if test="matches(.,'^(\w)EUSS(\w*)$')"><xsl:value-of select="substring-before(.,'EUSS')"/>USS<xsl:value-of select="substring-after(.,'EUSS')"/></xsl:if></reg>
             </xsl:when>
 <xsl:when test="matches(.,'^quel(cun|qun)$', 'i')"><reg type="modernisation">
        <xsl:if test="matches(.,'^[Qq]uel(cun|qun)$')"><xsl:value-of select="substring-before(.,'uel')"/>uelqu'un</xsl:if>
@@ -11665,9 +11926,57 @@
     <xsl:if test="matches(.,'^[Ss]ust$')"><xsl:value-of select="substring-before(.,'ust')"/>ût</xsl:if>
     <xsl:if test="matches(.,'^SUST$')">SÛT</xsl:if></reg>
 </xsl:when>
+<xsl:when test="matches(.,'^submect(\w*)$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Ss]ubmect(\w*)$')"><xsl:value-of select="substring-before(.,'ubmect')"/>oumett<xsl:value-of select="substring-after(.,'ubmect')"/></xsl:if>
+       <xsl:if test="matches(.,'^SUBMECT(\w*)$')"><xsl:value-of select="substring-before(.,'SUBMECT')"/>SOUMETT<xsl:value-of select="substring-after(.,'SUBMECT')"/></xsl:if></reg>
+</xsl:when>
 <xsl:when test="matches(.,'^jusques$', 'i')"><reg type="modernisation">
     <xsl:if test="matches(.,'^[Jj]usques$')"><xsl:value-of select="substring-before(.,'usques')"/>usque</xsl:if>
     <xsl:if test="matches(.,'^JUSQUES$')">JUSQUE</xsl:if></reg>
+</xsl:when>
+<xsl:when test="matches(.,'^Jéhan$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^Jéhan$')">Jean</xsl:if>
+       <xsl:if test="matches(.,'^JÉHAN$')">JEAN</xsl:if></reg>
+</xsl:when>
+<xsl:when test="matches(.,'^Sathan$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^Sathan$')">Satan</xsl:if>
+       <xsl:if test="matches(.,'^SATHAN$')">SATAN</xsl:if></reg>
+</xsl:when>
+<xsl:when test="matches(.,'^volunté$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^volunté$')">volonté</xsl:if>
+       <xsl:if test="matches(.,'^VOLUNTÉ$')">VOLONTÉ</xsl:if></reg>
+</xsl:when>
+<xsl:when test="matches(.,'^néantmoins$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Nn]éantmoins$')"><xsl:value-of select="substring-before(.,'éantmoins')"/>éanmoins</xsl:if>
+       <xsl:if test="matches(.,'^NÉANTMOINS$')">NÉANMOINS</xsl:if></reg>
+</xsl:when>
+<xsl:when test="matches(.,'^object(s)$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^object(s)$')">objet<xsl:value-of select="substring-after(.,'object')"/></xsl:if>
+       <xsl:if test="matches(.,'^OBJECT(S)$')">OBJET<xsl:value-of select="substring-after(.,'OBJECT')"/></xsl:if></reg>
+</xsl:when>
+<xsl:when test="matches(.,'^deuement$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^deuement$')">dûment</xsl:if>
+       <xsl:if test="matches(.,'^DEUEMENT$')">DÛMENT</xsl:if></reg>
+</xsl:when>
+<xsl:when test="matches(.,'^confermer$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^confermer$')">confirmer</xsl:if>
+       <xsl:if test="matches(.,'^CONFERMER$')">CONFIRMER</xsl:if></reg>
+</xsl:when>
+<xsl:when test="matches(.,'^vitupère(s)$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^vitupère(s)$')">reproche<xsl:value-of select="substring-after(., 'vitupère')"/></xsl:if>
+       <xsl:if test="matches(.,'^VITUPÈRE(S)$')">REPROCHE<xsl:value-of select="substring-after(., 'VITUPÈRE')"/></xsl:if></reg>
+</xsl:when>
+<xsl:when test="matches(.,'^(\w+)bv(\w*)$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^(\w+)bv(\w*)$')"><xsl:value-of select="substring-before(.,'bv')"/>v<xsl:value-of select="substring-after(.,'bv')"/></xsl:if>
+       <xsl:if test="matches(.,'^(\w+)BV(\w*)$')"><xsl:value-of select="substring-before(.,'BV')"/>V<xsl:value-of select="substring-after(.,'BV')"/></xsl:if></reg>
+</xsl:when>
+<xsl:when test="matches(.,'^(\w+)ulv(\w*)$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^(\w+)ulv(\w*)$')"><xsl:value-of select="substring-before(.,'ulv')"/>uv<xsl:value-of select="substring-after(.,'ulv')"/></xsl:if>
+       <xsl:if test="matches(.,'^(\w+)ULV(\w*)$')"><xsl:value-of select="substring-before(.,'ULV')"/>UV<xsl:value-of select="substring-after(.,'ULV')"/></xsl:if></reg>
+</xsl:when>
+<xsl:when test="matches(.,'^combien\sque$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^combien\sque$')">bien que</xsl:if>
+       <xsl:if test="matches(.,'^Combien\sque$')">Bien que</xsl:if></reg>
 </xsl:when>
 <xsl:when test="matches(.,'^aujourdhuy$', 'i')"><reg type="modernisation">
        <xsl:if test="matches(.,'^[Aa]ujourdhuy$')"><xsl:value-of select="substring-before(.,'ujourdhuy')"/>ujourd'hui</xsl:if>
@@ -11878,6 +12187,10 @@
                                 <xsl:if test="matches(.,'^(\w*)[Mm]onstrer$')"><xsl:value-of select="substring-before(.,'onstrer')"/>ontrer<xsl:value-of select="substring-after(.,'onstrer')"/></xsl:if>
                                 <xsl:if test="matches(.,'^(\w*)MONSTRER$')"><xsl:value-of select="substring-before(.,'MONSTRER')"/>MONTRER<xsl:value-of select="substring-after(.,'MONSTRER')"/></xsl:if></reg>
                 </xsl:when>
+<xsl:when test="matches(.,'^monstr(\w*)$', 'i')"><reg type="modernisation">
+       <xsl:if test="matches(.,'^[Mm]onstr(\w*)$')"><xsl:value-of select="substring-before(.,'onstr')"/>ontr<xsl:value-of select="substring-after(.,'onstr')"/></xsl:if>
+       <xsl:if test="matches(.,'^MONSTR(\w*)$')">MONTR<xsl:value-of select="substring-after(.,'MONSTR')"/></xsl:if></reg>
+</xsl:when>
                 <xsl:when test="matches(.,'^(\w+)controi(\w+)$', 'i')"><reg type="modernisation">
                                 <xsl:if test="matches(.,'^(\w+)controi(\w+)$')"><xsl:value-of select="substring-before(.,'controi')"/>contrai<xsl:value-of select="substring-after(.,'controi')"/></xsl:if>
                                 <xsl:if test="matches(.,'^(\w+)CONTROI(\w+)$')"><xsl:value-of select="substring-before(.,'CONTROI')"/>CONTRAI<xsl:value-of select="substring-after(.,'CONTROI')"/></xsl:if></reg>

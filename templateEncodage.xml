@@ -101,11 +101,12 @@
         <note n="*" place="bottom"><p></p></note>
         </addrLine>
         </address>
-        <dateline xml:id="opener">[Envoyée à <placeName key="Strasbourg" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Strasbourg</placeName>]
+        <dateline xml:id="opener">[Envoyée à <placeName key="Strasbourg" cert="low|medium|high" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Strasbourg</placeName>] <!--<placeName key="Estrasburgo" cert="low|medium|high" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">[Estrasburgo]</placeName> => name of place in brackets if cert = low or medium--> 
         </dateline>
         <hi rend="bold"><label type='nature'>Copie|Orig. autographe| Minute originale </label>. Bibliothèque ...   </hi>
         <hi xml:id="editorNote">
         [Maintenant sous la cote ... (f. 12-35)]</hi>
+        <hi>La miséricorde de Dieu nostre Père …</hi> <!-- Only for salutation paragraph, usually in letters adressed to churches or members of the church-->
         <salute> Monsieur| Mademoiselle,</salute>
     </opener>
     <p></p>

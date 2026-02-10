@@ -42,6 +42,26 @@
               },
               {
                      "media": {
+                            "url": "https://ge.ch/arvaegrefdoc/PH/180775/chaeg_ph_1203_00006.jpg",
+                            "thumbnail": "https://ge.ch/arvaegrefdoc/PH/180775/chaeg_ph_1203_00006.jpg"
+                     },
+                     "start_date": {
+                            "year": "1538",
+                            "month": "10",
+                            "day": "01"
+                     },
+                     "display_date": "1er octobre 1538",
+                     "text": {
+                            "headline": "Église de Genève",
+                            "text": "<div><p>Jean Calvin écrit à l'Église de Genève, depuis son exil à Strasbourg, pour les exhorter à la patience et à l'humilité face aux tribulations et aux divisions, et à persévérer dans la prière.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/1538_10_01_EgliseGeneve' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>"
+                     },
+                     "background": {
+                            "url": "https://ge.ch/arvaegrefdoc/PH/180775/chaeg_ph_1203_00006.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "media": {
                             "url": "https://gallica.bnf.fr/ark:/12148/btv1b90076313/f22.jpeg",
                             "thumbnail": "https://gallica.bnf.fr/ark:/12148/btv1b90076313/f22.jpeg"
                      },
@@ -57,6 +77,26 @@
                      },
                      "background": {
                             "url": "https://gallica.bnf.fr/ark:/12148/btv1b90076313/f22.jpeg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "media": {
+                            "url": "https://ge.ch/arvaegrefdoc/PH2/112132/chaeg_ph_1250_00003.JPG",
+                            "thumbnail": "https://ge.ch/arvaegrefdoc/PH2/112132/chaeg_ph_1250_00003.JPG"
+                     },
+                     "start_date": {
+                            "year": "1540",
+                            "month": "07",
+                            "day": "28"
+                     },
+                     "display_date": "28 juillet 1540",
+                     "text": {
+                            "headline": "Monsieur du Tailly",
+                            "text": "<div><p>Calvin écrit à Monsieur du Tailly, un réfugié protestant à Genève, concernant les développements des conférences religieuses à Haguenau et la situation politique des princes protestants face à l'Empereur et au Pape.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/1540_07_28_DuTailly' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>"
+                     },
+                     "background": {
+                            "url": "https://ge.ch/arvaegrefdoc/PH2/112132/chaeg_ph_1250_00003.JPG",
                             "color": "#5e5e52"
                      }
               },
@@ -222,6 +262,26 @@
               },
               {
                      "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f007r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f007r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1544",
+                            "month": "06",
+                            "day": "24"
+                     },
+                     "display_date": "24 juin [1544]",
+                     "text": {
+                            "headline": "Monsieur de Fallais",
+                            "text": "<div><p>Calvin explique le délai pour satisfaire la requête du Monsieur de Fallais d'envoyer un ministre à Cologne où il venait d'arriver après avoir quitté le Brabant. Calvin le complimente vu qu'il reconnait le besoin des exhortations quotidiennes de la parole de Dieu, et il exprime également l'espoir de pouvoir lui rendre visite dès que possible.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/1544_06_24_MFallais' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>"
+                     },
+                     "background": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f007r.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "media": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f009r.jpg",
                             "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fcgi-bin%2Fiipsrv.fcgi%3FPY%3D1%26CVT%3DJPG%26FIF%3D%252Fhome%252Fhttpd%252Fbge%252Fdiffusion%252Fprod%252Fapp%252Fwebroot%252Fdata%252Ffiles%252Fbge.diffusion%252Fimages%252Fms_fr_00001_00198ead%252Fms_fr_194%252Fms_fr_0194_f009r.jpg"
                      },
@@ -277,6 +337,46 @@
                      },
                      "background": {
                             "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f011r.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f013r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f013r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1545",
+                            "month": "06",
+                            "day": "22"
+                     },
+                     "display_date": "22 juin [1545]",
+                     "text": {
+                            "headline": "Monsieur de Fallais",
+                            "text": "<div><p>Calvin donne conseil à M. de Fallais concernant l'achat d'une demeure à Genève.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/1545_06_22_MFallais' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>"
+                     },
+                     "background": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f013r.jpg",
+                            "color": "#5e5e52"
+                     }
+              },
+              {
+                     "media": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f014r.jpg",
+                            "thumbnail": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f014r.jpg"
+                     },
+                     "start_date": {
+                            "year": "1545",
+                            "month": "08",
+                            "day": "05"
+                     },
+                     "display_date": "5 août [1545]",
+                     "text": {
+                            "headline": "Monsieur de Fallais",
+                            "text": "<div><p>Calvin se réjouit des bonnes nouvelles concernant la santé de M. de Fallais, lui informe des démarches concernant l'achat de sa maison à Genève et donne conseil. Il explique également comment il gère les rumeurs de sa venue.</p><p style='text-align:right !important; font-size:1.5rem'><a href='/fr/lettres/1545_08_05_MFallais' style='color: #2b2b28 !important;'>Accès à la lettre</a></p></div>"
+                     },
+                     "background": {
+                            "url": "https://archives.bge-geneve.ch/archive/fullSizeImage?file=https%3A%2F%2Farchives.bge-geneve.ch%2Fdata%2Ffiles%2Fbge.diffusion%2Fimages%2Fms_fr_00001_00198ead%2Fms_fr_194%2Fms_fr_0194_f014r.jpg",
                             "color": "#5e5e52"
                      }
               },

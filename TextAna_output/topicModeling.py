@@ -28,7 +28,7 @@ import json
 more_stopwords = ["tel", "telle", "tels", "telles", "tant", "d'un", "d'une", "c'est", "qu'il", "qu'elle", "afin", "est-ce", "qu'est-ce'", "auprès", "jusqu", "chez", "ci", "là", "quoiqu'", "puisque", "quand", "lorsque", "où", "or", "car", "ainsi", "moyen", "toutefois", "toutesfois", "plusieurs", "quelques", "peu", "moins", "plus", "beaucoup", "très", "autre", "autres", "chose", "choses", "fois", "quant", "quantes", "quante", "quantes", "entre", "parce", "parceque", "parce que", "falloir", "faut", "faudrait", "vouloir", "veux", "voudrais", "peux", "pourrais", "sembler", "semble", "sais", "savait", "savaient", "à", "de", "en", "du", "des", "la", "le", "les", "un", "une", "et", "ou", "au", "aux", "ce", "ces", "se", "sa", "son", "ses", "ne", "pas", "ni", "avoir", "être", "faire", "dit", "dire", "cela", "celui", "celle", "ceux", "celles", "lui", "leur", "leurs", "y", "là", "ici", "ci", "eusse", "eussent", "eût", "eûmes", "eûtes", "fusse", "fusses", "fût", "fûmes", "fûtes", "sois", "soit", "soyons", "soyez", "soient", "ayant", "été", "étée", "étées", "étés", "étant", "suis", "es", "est", "sommes", "êtes", "sont", "avais", "avait", "avions", "aviez", "avaient", "eus", "eut", "eûmes", "eûtes", "eurent", "ai", "as", "avons", "avez", "ont", "aurai", "auras", "aura", "aurons", "aurez", "auront", "aurais", "aurait", "aurions", "auriez", "auraient", "en", "n'en", "d'en", "n'en", "m'être", "t'être", "s'être", "se", "n'être"]
 stopword.extend(more_stopwords)
 
-file = open("Translations_txt/1545_08_05_MFallais.txt", encoding="utf-8") #Change file path
+file = open("Translations_txt/1540_07_28_DuTailly.txt", encoding="utf-8") #Change file path
 text = file.read()
 list_of_text = text.split("\n")
 print(text)
@@ -91,7 +91,7 @@ for i in range(len(segments)):
         token_row.append(token)
     tokens_segments.append(token_row)
     processed_texts.append(" ".join(filtered_tokens))
-#print(all_tokens)
+print(tokens_segments)
 dictionary = corpora.Dictionary(tokens_segments)
 corpus = [dictionary.doc2bow(tokens) for tokens in tokens_segments]
 #ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 8, id2word=dictionary, random_state=100, update_every=1, passes=15, alpha='auto', per_word_topics=True)
@@ -118,7 +118,7 @@ def plot_keyw():
     plt.show()
 plot_keyw()
 
-output = "TextAna_output/1545_08_05_MFallais.txt" #Change file path
+output = "TextAna_output/1540_07_28_DuTailly.txt" #Change file path
 with open(output, "w", encoding="utf-8") as newfile:
    newfile.write(f"Thématiques par LDA : {topics} \n\n Mots clés par TF-IDF : \n {keywords}")
 
@@ -148,13 +148,16 @@ print(trigram_data)
 #from difflib import SequenceMatcher
 from itertools import combinations
 from sklearn.metrics.pairwise import cosine_similarity
-file = open("Translations_txt/1545_08_05_MFallais.txt", encoding="utf-8") #Change file path
+file = open("Translations_txt/1540_07_28_DuTailly.txt", encoding="utf-8") #Change file path
 text = file.read()
 #print(text)
 words = list(set(re.findall(r'\b\w+\b', text.lower())))
 print(words)
 similar_pairs = []
+
+# Load pre-trained Sentence Transformer model and scaler for normalization (StandardScaler to be used preferably for PCA)
 model0 = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+to_normalize = StandardScaler()
 
 # Compute embeddings for each word
 embeddings0 = model0.encode(words)
@@ -194,7 +197,7 @@ print(simple_df)
 # Scatterplot of embeddings with mean normalized embeddings
 ind = []
 mean = []
-to_normalize = StandardScaler()
+#to_normalize = StandardScaler()
 normed = to_normalize.fit_transform(embeddings0)
 for i in range(len(normed)):
     ind.append(i)
@@ -220,21 +223,46 @@ def viz_embs():
     plt.show()
 viz_embs()
 
-# Scatterplot of embeddings with PCA (Pricipal Component Analysis) ^^Better in some ways^^ : Clearer and cleaner clusters
-pca = PCA(n_components=2)
-coords = pca.fit_transform(embeddings0)
 
+# Scatterplot of embeddings with PCA (Pricipal Component Analysis) ^^Better in some ways^^ : Clearer and cleaner clusters
+# Normalize embeddings before PCA
+
+# For words
+normalized_w_embeddings = to_normalize.fit_transform(embeddings0)
+pca_w = PCA(n_components=2)
+print(normalized_w_embeddings.shape)
+coords_w = pca_w.fit_transform(normalized_w_embeddings)
+print(coords_w.shape)
 plt.figure(figsize=(8, 6))
 for i, label in enumerate(words):
-    x, y = coords[i]
+    x, y = coords_w[i]
     plt.scatter(x, y)
-    plt.text(x + 0.05, y, label, fontsize=9)
-plt.title("Clustering of embeddings")
+    plt.text(x + 0.05, y, label , fontsize=9)
+plt.title("PCA (Pricipal Component Analysis) of Word Embeddings")
 plt.xlabel("PC1")
 plt.ylabel("PC2")
 plt.grid(True)
 plt.show()
 
+
+### For paragraphs
+# Compute embeddings for each paragraph
+pca = PCA(n_components=3)
+para_embeddings = model0.encode(list_of_text)
+coords = pca.fit_transform(para_embeddings)
+print(coords.shape)
+fig = plt.figure(figsize=(8, 6))
+ax = fig.add_subplot(projection='3d')
+for i, label in enumerate(list_of_text):
+    x, y, z = coords[i]
+    ax.scatter(x, y, z)
+    ax.text(x + 0.05, y, z, f"{i}: {label[:20]}", fontsize=9)
+ax.set_title("PCA (Pricipal Component Analysis) of Paragraph Embeddings")
+ax.set_xlabel("PC1")
+ax.set_ylabel("PC2")
+ax.set_label("PC3")
+ax.grid(True)
+plt.show()
 
 # Test correlation (not helpful for small text, but interesting for larger corpora)
 

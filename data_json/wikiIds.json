@@ -32,6 +32,22 @@
                      "Genève": "https://www.wikidata.org/wiki/Q71"
               }
        },
+       "output/VF/1538_10_01_EgliseGeneve.xml": {
+              "persons": {
+                     "Église protestante de Genève": "https://www.wikidata.org/wiki/Q13371956",
+                     "Guillaume Farel": "https://www.wikidata.org/wiki/Q435456",
+                     "Paul de Tarse": "https://www.wikidata.org/wiki/Q9200",
+                     "Daniel": "https://www.wikidata.org/wiki/Q171724",
+                     "Nabuchodonosor II": "https://www.wikidata.org/wiki/Q12591",
+                     "Israélites": "https://www.wikidata.org/wiki/Q51669",
+                     "Jean Calvin": "#"
+              },
+              "places": {
+                     "Strasbourg": "https://www.wikidata.org/wiki/Q6602",
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Israël": "https://www.wikidata.org/wiki/Q801"
+              }
+       },
        "output/VF/1538_10_20_LouisTillet.xml": {
               "persons": {
                      "Louis du Tillet": "https://www.wikidata.org/wiki/Q3263586",
@@ -43,6 +59,41 @@
                      "Paris": "https://www.wikidata.org/wiki/Q90",
                      "Genève": "https://www.wikidata.org/wiki/Q71",
                      "Orbe": "https://www.wikidata.org/wiki/Q68213"
+              }
+       },
+       "output/VF/1540_07_28_DuTailly.xml": {
+              "persons": {
+                     "Monsieur du Tailly": "https://www.wikidata.org/wiki/Q137860491",
+                     "Ferdinand Ier": "https://www.wikidata.org/wiki/Q150611",
+                     "Louis IV du Palatinat": "https://www.wikidata.org/wiki/Q66918",
+                     "Johann III von Metzenhausen": "https://www.wikidata.org/wiki/Q119532",
+                     "Wilhelm IV, Duc de Bavière": "https://www.wikidata.org/wiki/Q60936",
+                     "Guillaume III de Hohnstein": "https://www.wikidata.org/wiki/Q2575927",
+                     "Charles Quint": "https://www.wikidata.org/wiki/Q32500",
+                     "Frederic Nausea": "https://www.wikidata.org/wiki/Q95603",
+                     "Paul III": "https://www.wikidata.org/wiki/Q133001",
+                     "Johann Fabri": "https://www.wikidata.org/wiki/Q64159",
+                     "Jean Cochlaeus": "https://www.wikidata.org/wiki/Q64344",
+                     "Jean-Frédéric Ier de Saxe": "https://www.wikidata.org/wiki/Q506182",
+                     "Joachim II Hector": "https://www.wikidata.org/wiki/Q506527",
+                     "Hermann von Wied": "https://www.wikidata.org/wiki/Q95916",
+                     "Albert de Brandebourg": "https://www.wikidata.org/wiki/Q60951",
+                     "François Ier de France": "https://www.wikidata.org/wiki/Q129857",
+                     "Baysius": "#",
+                     "Martin Luther": "https://www.wikidata.org/wiki/Q9554",
+                     "Philippe Mélanchthon": "https://www.wikidata.org/wiki/Q76325",
+                     "Wolfgang Fabricius Köpfel Capiton": "https://www.wikidata.org/wiki/Q1368362",
+                     "Jean Calvin": "#"
+              },
+              "places": {
+                     "Strasbourg": "https://www.wikidata.org/wiki/Q6602",
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Neuchâtel": "https://www.wikidata.org/wiki/Q69345",
+                     "Haguenau": "https://www.wikidata.org/wiki/Q22730",
+                     "Francfort-sur-le-Main": "https://www.wikidata.org/wiki/Q1794",
+                     "Allemagne": "https://www.wikidata.org/wiki/Q183",
+                     "Nuremberg": "https://www.wikidata.org/wiki/Q2090",
+                     "Rome": "https://www.wikidata.org/wiki/Q220"
               }
        },
        "output/VF/1541_02_19_SeigneursGeneve.xml": {
@@ -132,6 +183,7 @@
        "output/VF/1543_10_14_MonsieurFalais.xml": {
               "persons": {
                      "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "David de Busanton": "https://www.wikidata.org/wiki/Q137660629",
                      "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
               },
               "places": {
@@ -140,7 +192,8 @@
                      "Cologne": "https://www.wikidata.org/wiki/Q365",
                      "Strasbourg": "https://www.wikidata.org/wiki/Q6602",
                      "Bâle": "https://www.wikidata.org/wiki/Q78",
-                     "Amsterdam": "https://www.wikidata.org/wiki/Q727"
+                     "Amsterdam": "https://www.wikidata.org/wiki/Q727",
+                     "Hainaut": "https://www.wikidata.org/wiki/Q137660629"
               }
        },
        "output/VF/1543_fin_MFalais.xml": {
@@ -151,6 +204,27 @@
               "places": {
                      "Genève": "https://www.wikidata.org/wiki/Q71",
                      "Fallais": "https://www.wikidata.org/wiki/Q1575050"
+              }
+       },
+       "output/VF/1544_06_24_MFallais.xml": {
+              "persons": {
+                     "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "David de Busanton": "https://www.wikidata.org/wiki/Q137660629",
+                     "Martin Bucer": "https://www.wikidata.org/wiki/Q318622",
+                     "David": "https://www.wikidata.org/wiki/Q41370",
+                     "Philistins": "https://www.wikidata.org/wiki/Q193776",
+                     "Abraham": "https://www.wikidata.org/wiki/Q9181",
+                     "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
+              },
+              "places": {
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Cologne": "https://www.wikidata.org/wiki/Q365",
+                     "Brabant": "https://www.wikidata.org/wiki/Q848831",
+                     "Pays-Bas": "https://www.wikidata.org/wiki/Q55",
+                     "Strasbourg": "https://www.wikidata.org/wiki/Q6602",
+                     "Spire": "https://www.wikidata.org/wiki/Q6829",
+                     "Jérusalem": "https://www.wikidata.org/wiki/Q1218",
+                     "Canaan": "https://www.wikidata.org/wiki/Q163329"
               }
        },
        "output/VF/1544_06_24_MmeDeFalais.xml": {
@@ -175,7 +249,6 @@
               "places": {
                      "Genève": "https://www.wikidata.org/wiki/Q71",
                      "Paris": "https://www.wikidata.org/wiki/Q90",
-                     "Guillaume Briçonnet": "https://www.wikidata.org/wiki/Q337551",
                      "Nérac": "https://www.wikidata.org/wiki/Q210769",
                      "Pays-Bas": "https://www.wikidata.org/wiki/Q55",
                      "Artois": "https://www.wikidata.org/wiki/Q159987",
@@ -188,7 +261,7 @@
        "output/VF/1545_05_31_MFallais.xml": {
               "persons": {
                      "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
-                     "David": "#",
+                     "David de Busanton": "https://www.wikidata.org/wiki/Q137660629",
                      "Jean Calvin": "#"
               },
               "places": {
@@ -201,6 +274,40 @@
                      "Cabrières": "https://www.wikidata.org/wiki/Q251047",
                      "Mérindol": "https://www.wikidata.org/wiki/Q470556",
                      "Worms": "https://www.wikidata.org/wiki/Q3852"
+              }
+       },
+       "output/VF/1545_06_22_MFallais.xml": {
+              "persons": {
+                     "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "Jean de Bourgogne": "https://www.wikidata.org/wiki/Q137660510",
+                     "David de Busanton": "https://www.wikidata.org/wiki/Q137660629",
+                     "Yolande de Brederode": "https://www.wikidata.org/wiki/Q56000839",
+                     "Jean Calvin": "#"
+              },
+              "places": {
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Strasbourg": "https://www.wikidata.org/wiki/Q6602",
+                     "strasbourg": "https://www.wikidata.org/wiki/Q6602",
+                     "Geneve": "https://www.wikidata.org/wiki/Q71",
+                     "Fromont": "https://www.wikidata.org/wiki/Q920581",
+                     "Han-sur-Sambre": "https://www.wikidata.org/wiki/Q2655059",
+                     "Hainaut": "https://www.wikidata.org/wiki/Q1129"
+              }
+       },
+       "output/VF/1545_08_05_MFallais.xml": {
+              "persons": {
+                     "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "Yolande de Brederode": "https://www.wikidata.org/wiki/Q56000839",
+                     "Nicolas": "#",
+                     "Maldonad": "#",
+                     "Saint-André": "#",
+                     "Jean Calvin": "#"
+              },
+              "places": {
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Strasbourg": "https://www.wikidata.org/wiki/Q6602",
+                     "Hanovre": "https://www.wikidata.org/wiki/Q1715",
+                     "Pays-Bas": "https://www.wikidata.org/wiki/Q55"
               }
        },
        "output/VF/1546_01_20_MadameDEBude.xml": {

@@ -1,12 +1,16 @@
-Ckeck for doubles and keep this out of two possible dates for an entity:
+Ckeck for doubles and keep the following, out of two possible dates for an entity (same for Spanish version):
 
-Sébastien Castellion (1515 - 1563)
+Wilhelm von Hohnstein (1466 - 1541)
 
-Renée de France (1510 - 1574)
+Sébastien Castellion (1515 - 1563) | Castellion
 
-Marie (- 0048)
+Renée de France (1510 - 1574) | Renata
 
-"name": "Augustin d’Hippone (0354 - 0430)",
+Marie (- 0048) | María
+
+Abraham
+
+"name": "Augustin d’Hippone (0354 - 0430)",   | (Hipona)
                      "wikiurl": "http://www.wikidata.org/entity/Q8018",
             ==>>     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Cappella%20Palatina%20%28Palermo%29%2016%2007%202019%2014.jpg",
 

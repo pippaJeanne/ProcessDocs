@@ -19,9 +19,8 @@
             <sourceDesc corresp="M_Fallais_1545-06-22">
                 <bibl>
                     Traducción de la versión modernizada de
-                    <title level="a" rend="underline">Lettre à Monsieur de Fallais (22 juin [1545])</title>
-                    editada y codificada en TEI por
-                    <editor><name><forename>Yanet</forename><surname>Hernández Pedraza</surname></name></editor>.
+                    <title level="a" rend="underline">Lettre à Monsieur de Fallais (22 juin [1545])</title> editada y codificada en TEI por
+                    <editor><name><forename>Yanet</forename> <surname>Hernández Pedraza</surname></name></editor>.
                 </bibl>
                 <notesStmt>
                     <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
@@ -36,7 +35,7 @@
                     <date when="1545-06-22">22 de junio [1545]</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</persName>
+                    <name type="individuo" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Señor de Fallais</name>
                     <settlement cert="high" key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Estrasburgo</settlement>
                 </correspAction>
                 <correspContext>
@@ -72,7 +71,7 @@
                     [Ahora bajo la cota Ms. fr. 194 (f. 38-39)]</hi>
                 <salute>Señor mío:</salute>
             </opener>
-            <p>Le escribo apresuradamente porque no he sido informado a tiempo, pero en breve compensaré esta falta con el placer de Dios. Por ahora, solo le informaré que después de haber considerado lo que me ha pedido, vemos que habrá un comerciante dispuesto cuando le plazca comprar<note n="1" place="bottom"><p>Se trata de la adquisición de una casa en <placeName key="Geneve" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName>, para el <persName key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956">Sr. de Falais</persName>.</p></note>. Pero hacer alguna compra, ni siquiera hablar de ella, a menos que usted estuviera allí para juzgar lo que le conviene, no nos parece muy correcto; por lo tanto, si solo depende de esto, lo mejor sería, en mi opinión, no decir palabra hasta que usted haya llegado. Aunque por ahora tiene dos lugares, uno de los cuales podría cambiar de dueño si no se previene a tiempo. Pero también creo que cuando habría dejado de venir, y que Dios no le enviara ningún impedimento, inmediatamente después de que pasara este calor, usted se pondría en camino.</p>
+            <p>Le escribo apresuradamente porque no he sido informado a tiempo, pero en breve compensaré esta falta con el placer de Dios. Por ahora, solo le informaré que después de haber considerado lo que me ha pedido, vemos que habrá un comerciante dispuesto cuando le plazca comprar<note n="1" place="bottom"><p>Se trata de la adquisición de una casa en <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName>, para el <persName key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956">Sr. de Falais</persName>.</p></note>. Pero hacer alguna compra, ni siquiera hablar de ella, a menos que usted estuviera allí para juzgar lo que le conviene, no nos parece muy correcto; por lo tanto, si solo depende de esto, lo mejor sería, en mi opinión, no decir palabra hasta que usted haya llegado. Aunque por ahora tiene dos lugares, uno de los cuales podría cambiar de dueño si no se previene a tiempo. Pero también creo que cuando habría dejado de venir, y que Dios no le enviara ningún impedimento, inmediatamente después de que pasara este calor, usted se pondría en camino.</p>
 
             <p>No me atrevo a decir lo contento que estaría si se tomara la decisión, para no serle sospechoso si le aconsejaba. Sin embargo, puedo protestar en verdad que el deseo que tengo de disfrutar del consuelo que espero no me impediría considerar lo que le sería bueno a usted. E incluso lo que más me incita a desear que usted estuviera aquí es para que esté en un lugar donde haya gente que quiera emplearse a su servicio. Me había dado cuenta que si el <persName type="titre" key="Jean de Bourgogne" ref="https://www.wikidata.org/wiki/Q137660510" corresp="#jean_M_Fromont">Señor de Fromont</persName><note n="2" place="bottom"><p><persName type="forename" key="Jean de Bourgogne" ref="https://www.wikidata.org/wiki/Q137660510">Jean</persName>, señor de <placeName key="Fromont" ref="https://www.wikidata.org/wiki/Q920581">Fromont</placeName> y de <placeName key="Han-sur-Sambre" ref="https://www.wikidata.org/wiki/Q2655059">Han-sur-Sambre</placeName>, hermano del <persName type="titre" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956">Sr. de Fallais</persName>.</p></note> hubiera venido, y que le complaciera venir a divertirse hasta aquí, como es más portátil, que su viaje le serviría de advertencia. Pero en tal caso rogaría que viniera directamente a nuestra casa.</p>
 

@@ -1,6 +1,34 @@
 {
        "persons": [
               {
+                     "name": "Abraham",
+                     "wikiurl": "http://www.wikidata.org/entity/Q9181",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/PikiWiki%20Israel%2047514%20Samaritan%20museum%20on%20mount%20Grizim%20-%20Left.jpg",
+                     "desc": "patriarche et prophète des religions juive, chrétienne et musulmane",
+                     "letters": [
+                            {
+                                   "slug": "1544_06_24_MFallais",
+                                   "date": "24 juin [1544]",
+                                   "headline": "Monsieur de Fallais"
+                            }
+                     ],
+                     "id": "#abraham"
+              },
+              {
+                     "name": "Albert de Brandebourg (1490 - 1545)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q60951",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Albrecht-von-Brandenburg-2.jpg",
+                     "desc": "cardinal catholique",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#evequeMayence"
+              },
+              {
                      "name": "Anne de Parthenay",
                      "wikiurl": "http://www.wikidata.org/entity/Q99539414",
                      "thumbnail": "",
@@ -43,10 +71,24 @@
                      "id": "#saint_augustin"
               },
               {
+                     "name": "Charles Quint (1500 - 1558)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q32500",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Charles%20V%2C%20Holy%20Roman%20Emperor%2C%20seated%20%281500%E2%80%931558%29%2C%20formerly%20attributed%20to%20Titian%20%28Alte%20Pinakothek%2C%20Munich%29.jpg",
+                     "desc": "roi des Espagnes et empereur du Saint-Empire d'origine flamande, au XVIe s.",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "charles-quint"
+              },
+              {
                      "name": "Charles d'Espeville",
                      "wikiurl": "http://www.wikidata.org/entity/Q133821751",
                      "thumbnail": "",
-                     "desc": "Pseudonyme adopté par Calvin durant sa retraite à Angoulême et son voyage en Italie (1534, 1536)",
+                     "desc": "pseudonyme adopté par Calvin durant sa retraite à Angoulême et son voyage en Italie (1534, 1536)",
                      "letters": [
                             {
                                    "slug": "1538_01_LouisduTillet",
@@ -76,6 +118,11 @@
                             {
                                    "slug": "1543_fin_MFalais",
                                    "date": "[fin 1543]",
+                                   "headline": "Monsieur de Fallais"
+                            },
+                            {
+                                   "slug": "1544_06_24_MFallais",
+                                   "date": "24 juin [1544]",
                                    "headline": "Monsieur de Fallais"
                             },
                             {
@@ -139,6 +186,133 @@
                      "id": "#cure"
               },
               {
+                     "name": "Daniel ( - )",
+                     "wikiurl": "http://www.wikidata.org/entity/Q171724",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo%20Buonarroti%20026.jpg",
+                     "desc": "personne de la Bible hébraïque, protagoniste du Livre de Daniel",
+                     "letters": [
+                            {
+                                   "slug": "1538_10_01_EgliseGeneve",
+                                   "date": "1er octobre 1538",
+                                   "headline": "Église de Genève"
+                            }
+                     ],
+                     "id": "#daniel"
+              },
+              {
+                     "name": "David ( - )",
+                     "wikiurl": "http://www.wikidata.org/entity/Q41370",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/King%20David%2C%20the%20King%20of%20Israel.jpg",
+                     "desc": "personnage de la Bible, deuxième roi d'Israël",
+                     "letters": [
+                            {
+                                   "slug": "1544_06_24_MFallais",
+                                   "date": "24 juin [1544]",
+                                   "headline": "Monsieur de Fallais"
+                            }
+                     ],
+                     "id": "#david"
+              },
+              {
+                     "name": "David de Busanton",
+                     "wikiurl": "http://www.wikidata.org/entity/Q137660629",
+                     "thumbnail": "",
+                     "desc": "Gentilhomme du Hainaut, réfugié à Genève ( - juillet 1545)",
+                     "letters": [
+                            {
+                                   "slug": "1543_10_14_MonsieurFalais",
+                                   "date": "[14 octobre 1543]",
+                                   "headline": "Monsieur de Fallais"
+                            },
+                            {
+                                   "slug": "1544_06_24_MFallais",
+                                   "date": "24 juin [1544]",
+                                   "headline": "Monsieur de Fallais"
+                            },
+                            {
+                                   "slug": "1545_05_31_MFallais",
+                                   "date": "31 mai 1545",
+                                   "headline": "Monsieur de Fallais"
+                            },
+                            {
+                                   "slug": "1545_06_22_MFallais",
+                                   "date": "22 juin [1545]",
+                                   "headline": "Monsieur de Fallais"
+                            }
+                     ],
+                     "id": "#david_busanton"
+              },
+              {
+                     "name": "Ferdinand Ier (1503 - 1564)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q150611",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Bocksberger%20%28I%29%20-%20Emperor%20Ferdinand%20I%20-%20WGA02326.jpg",
+                     "desc": "empereur du Saint Empire et roi de Hongrie",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#ferdinand"
+              },
+              {
+                     "name": "François Ier de France (1494 - 1547)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q129857",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ier%20Louvre.jpg",
+                     "desc": "roi de France de 1515 à 1547 (1494-1547)",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#francoisI"
+              },
+              {
+                     "name": "Friedrich Nausea",
+                     "wikiurl": "http://www.wikidata.org/entity/Q95603",
+                     "thumbnail": "",
+                     "desc": "Évêque catholique romain",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#nausea"
+              },
+              {
+                     "name": "Guillaume Farel (1489 - 1565)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q435456",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Guillielmus%20Farellus%20%28BM%201874%2C1212.456%29.jpg",
+                     "desc": "réformateur d'origine dauphinoise en Suisse romande",
+                     "letters": [
+                            {
+                                   "slug": "1538_10_01_EgliseGeneve",
+                                   "date": "1er octobre 1538",
+                                   "headline": "Église de Genève"
+                            }
+                     ],
+                     "id": "#farel"
+              },
+              {
+                     "name": "Guillaume III de Hohnstein (1466 - 1541)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q2575927",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Hohnstein%20Wilhelm1.jpg",
+                     "desc": "évêque de Strasbourg (1466-1541)",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#evequeStrasbourg"
+              },
+              {
                      "name": "Gérard Roussel",
                      "wikiurl": "http://www.wikidata.org/entity/Q1226841",
                      "thumbnail": "",
@@ -151,6 +325,34 @@
                             }
                      ],
                      "id": "#roussel"
+              },
+              {
+                     "name": "Hermann de Wied (1477 - 1552)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q95916",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Hermann-von-Wied.jpg",
+                     "desc": "archevêque allemand",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#archevequeCologne"
+              },
+              {
+                     "name": "Israélites",
+                     "wikiurl": "http://www.wikidata.org/entity/Q51669",
+                     "thumbnail": "",
+                     "desc": "peuple antique",
+                     "letters": [
+                            {
+                                   "slug": "1538_10_01_EgliseGeneve",
+                                   "date": "1er octobre 1538",
+                                   "headline": "Église de Genève"
+                            }
+                     ],
+                     "id": "#Israelites"
               },
               {
                      "name": "Jacques de Bourgogne",
@@ -169,8 +371,23 @@
                                    "headline": "Monsieur de Fallais"
                             },
                             {
+                                   "slug": "1544_06_24_MFallais",
+                                   "date": "24 juin [1544]",
+                                   "headline": "Monsieur de Fallais"
+                            },
+                            {
                                    "slug": "1545_05_31_MFallais",
                                    "date": "31 mai 1545",
+                                   "headline": "Monsieur de Fallais"
+                            },
+                            {
+                                   "slug": "1545_06_22_MFallais",
+                                   "date": "22 juin [1545]",
+                                   "headline": "Monsieur de Fallais"
+                            },
+                            {
+                                   "slug": "1545_08_05_MFallais",
+                                   "date": "5 août [1545]",
                                    "headline": "Monsieur de Fallais"
                             },
                             {
@@ -180,6 +397,20 @@
                             }
                      ],
                      "id": "#jacques-bourgogne"
+              },
+              {
+                     "name": "Jean Cochlaeus (1479 - 1552)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q64344",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Johannes-Cochlaeus.jpg",
+                     "desc": "humaniste et théologien allemand",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#cochleus"
               },
               {
                      "name": "Jean Trolliet",
@@ -194,6 +425,20 @@
                             }
                      ],
                      "id": "#trolliet"
+              },
+              {
+                     "name": "Jean de Bourgogne",
+                     "wikiurl": "http://www.wikidata.org/entity/Q137660510",
+                     "thumbnail": "",
+                     "desc": "Seigneur de Fromont et de Han-sur-Sambre (1525-1585), frère de Jacques de Bourgogne, Seigneur de Fallais",
+                     "letters": [
+                            {
+                                   "slug": "1545_06_22_MFallais",
+                                   "date": "22 juin [1545]",
+                                   "headline": "Monsieur de Fallais"
+                            }
+                     ],
+                     "id": "#jean_M_Fromont"
               },
               {
                      "name": "Jean du Tillet",
@@ -215,9 +460,65 @@
                      "id": "#jean_tillet"
               },
               {
-                     "name": "Jonas",
+                     "name": "Jean-Frédéric Ier de Saxe (1503 - 1554)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q506182",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/CranachElderJohannFriedrichSachsen.jpg",
+                     "desc": "dernier électeur de la branche ernestine de la Maison de Saxe",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#ducSaxon"
+              },
+              {
+                     "name": "Joachim II Hector (1505 - 1571)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q506527",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Joachim%20II%20of%20Brandenburg%20by%20Lucas%20Cranach%20the%20Younger.jpg",
+                     "desc": "électeur de Brandebourg",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#marquisBrandebourg"
+              },
+              {
+                     "name": "Johann Fabri (1478 - 1541)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q64159",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Stephansdom%20Wien%20Johann%20Fabri%20Epitaph.jpg",
+                     "desc": "Théologien catholique",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#faber"
+              },
+              {
+                     "name": "Johann III von Metzenhausen (1492 - 1540)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q119532",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Johann%20von%20Metzenhausen.jpg",
+                     "desc": "archevêque, prince-électeur de Trèves",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#eveque_Treves"
+              },
+              {
+                     "name": "Jonas ( - )",
                      "wikiurl": "http://www.wikidata.org/entity/Q2468262",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Jonah.jpg",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Sistine%20jonah.jpg",
                      "desc": "prophète biblique et coranique",
                      "letters": [
                             {
@@ -229,7 +530,7 @@
                      "id": "#jonas"
               },
               {
-                     "name": "Jérémie",
+                     "name": "Jérémie ( - )",
                      "wikiurl": "http://www.wikidata.org/entity/Q158825",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg",
                      "desc": "prophète du Tanakh dans l'hébraïque ou de l'Ancien Testament pour les chrétiens",
@@ -255,6 +556,20 @@
                             }
                      ],
                      "id": "#lactance"
+              },
+              {
+                     "name": "Louis IV du Palatinat (1424 - 1449)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q66918",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Ludwig%20IV.%20Hans%20Wertinger.jpg",
+                     "desc": "Électeur palatin du Rhin",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#palatin"
               },
               {
                      "name": "Louis du Tillet",
@@ -309,6 +624,62 @@
                      "id": "#vierge_marie"
               },
               {
+                     "name": "Martin Bucer (1491 - 1551)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q318622",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Buzer%20%28Bucer%29.jpg",
+                     "desc": "réformateur protestant alsacien",
+                     "letters": [
+                            {
+                                   "slug": "1544_06_24_MFallais",
+                                   "date": "24 juin [1544]",
+                                   "headline": "Monsieur de Fallais"
+                            }
+                     ],
+                     "id": "#bucer"
+              },
+              {
+                     "name": "Martin Luther (1483 - 1546)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q9554",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Lucas%20Cranach%20d.%C3%84.%20-%20Martin%20Luther%2C%201528%20%28Veste%20Coburg%29.jpg",
+                     "desc": "théologien allemand, père du protestantisme",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#luther"
+              },
+              {
+                     "name": "Monsieur du Tailly",
+                     "wikiurl": "http://www.wikidata.org/entity/Q137860491",
+                     "thumbnail": "",
+                     "desc": "gentilhomme français réfugié à Genève et partisan déclaré de la Réforme et de Jean Calvin",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#du-tailly"
+              },
+              {
+                     "name": "Nabuchodonosor II ( - )",
+                     "wikiurl": "http://www.wikidata.org/entity/Q12591",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Nebukadnessar%20II.jpg",
+                     "desc": "roi de Babylone entre 604 av. J.-C. et 562 av. J.-C.",
+                     "letters": [
+                            {
+                                   "slug": "1538_10_01_EgliseGeneve",
+                                   "date": "1er octobre 1538",
+                                   "headline": "Église de Genève"
+                            }
+                     ],
+                     "id": "#nabuchodonosor"
+              },
+              {
                      "name": "Nouveau converti",
                      "wikiurl": "",
                      "thumbnail": "",
@@ -323,11 +694,30 @@
                      "id": "#converti"
               },
               {
+                     "name": "Paul III (1468 - 1549)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q133001",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Pope%20Paul%20III%20Farnese%20%28by%20Titian%29%20-%20National%20Museum%20of%20Capodimonte.jpg",
+                     "desc": "220e pape de l’Église catholique, de 1534 à 1549",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#paulIII"
+              },
+              {
                      "name": "Paul de Tarse (0005 - 0066)",
                      "wikiurl": "http://www.wikidata.org/entity/Q9200",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Francesco%20Barbieri%20-%20Saint%20Paul.jpg",
                      "desc": "apôtre et missionnaire des premiers chrétiens (vers 5 après J.-C. – vers 64/65)",
                      "letters": [
+                            {
+                                   "slug": "1538_10_01_EgliseGeneve",
+                                   "date": "1er octobre 1538",
+                                   "headline": "Église de Genève"
+                            },
                             {
                                    "slug": "1542_05_fidelesLyon",
                                    "date": "mai 1542",
@@ -358,12 +748,31 @@
                      "desc": "Humaniste, philosophe et réformateur protestant allemand",
                      "letters": [
                             {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            },
+                            {
                                    "slug": "1552_10_06_SeigeursDeGeneve",
                                    "date": "[6 octobre 1552]",
                                    "headline": "Seigneurs de Genève"
                             }
                      ],
                      "id": "#melanchthon"
+              },
+              {
+                     "name": "Philistins",
+                     "wikiurl": "http://www.wikidata.org/entity/Q193776",
+                     "thumbnail": "",
+                     "desc": "peuple de l'Antiquité, appartient aux peuples de la mer",
+                     "letters": [
+                            {
+                                   "slug": "1544_06_24_MFallais",
+                                   "date": "24 juin [1544]",
+                                   "headline": "Monsieur de Fallais"
+                            }
+                     ],
+                     "id": "#philistins"
               },
               {
                      "name": "Pierre (0000 - 0065)",
@@ -383,7 +792,7 @@
                      "name": "Pierre Viret (1511 - 1571)",
                      "wikiurl": "http://www.wikidata.org/entity/Q123337",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/PierreViret.jpg",
-                     "desc": "Réformateur vaudois",
+                     "desc": "réformateur vaudois",
                      "letters": [
                             {
                                    "slug": "1541_02_19_SeigneursGeneve",
@@ -422,7 +831,7 @@
                      "id": "#madame-bude"
               },
               {
-                     "name": "Salomon",
+                     "name": "Salomon ( - )",
                      "wikiurl": "http://www.wikidata.org/entity/Q37085",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg",
                      "desc": "personnage biblique",
@@ -450,11 +859,30 @@
                      "id": "#castalion"
               },
               {
+                     "name": "Wilhelm IV, Duc de Bavière (1493 - 1550)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q60936",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Wertinger%20-%20Herzog%20Wilhelm%20IV.%20von%20Bayern%20R%C3%BCckseite%2C%20Wappen%20Bayern-Baden%20und%20Devise%20-%2017%20-%20Bavarian%20State%20Painting%20Collections.jpg",
+                     "desc": "duc de Bavière",
+                     "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            }
+                     ],
+                     "id": "#ducBaviere"
+              },
+              {
                      "name": "Wolfgang Fabricius Köpfel Capiton (1478 - 1541)",
                      "wikiurl": "http://www.wikidata.org/entity/Q1368362",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/WolfgangCapito.jpg",
                      "desc": "réformateur et théologien alsacien (1478-1541)",
                      "letters": [
+                            {
+                                   "slug": "1540_07_28_DuTailly",
+                                   "date": "28 juillet 1540",
+                                   "headline": "Monsieur du Tailly"
+                            },
                             {
                                    "slug": "1541_10_DuchesseFerrare",
                                    "date": "[octobre 1541]",
@@ -480,6 +908,16 @@
                                    "headline": "Madame de Fallais"
                             },
                             {
+                                   "slug": "1545_06_22_MFallais",
+                                   "date": "22 juin [1545]",
+                                   "headline": "Monsieur de Fallais"
+                            },
+                            {
+                                   "slug": "1545_08_05_MFallais",
+                                   "date": "5 août [1545]",
+                                   "headline": "Monsieur de Fallais"
+                            },
+                            {
                                    "slug": "1552_Monsieur-deFalais",
                                    "date": "[1552]",
                                    "headline": "Monsieur de Fallais"
@@ -491,7 +929,7 @@
                      "name": "Édouard VI d'Angleterre (1537 - 1553)",
                      "wikiurl": "http://www.wikidata.org/entity/Q83229",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20VI%20of%20England%20c.%201546.jpg",
-                     "desc": "roi d'Angleterre de 1547 à 1553",
+                     "desc": "roi d'Angleterre et d'Irlande de 1547 à 1553",
                      "letters": [
                             {
                                    "slug": "1553_03_12_RoiDAngleterre",
@@ -514,6 +952,20 @@
                             }
                      ],
                      "id": "#eglise_Lyon"
+              },
+              {
+                     "name": "Église protestante de Genève",
+                     "wikiurl": "http://www.wikidata.org/entity/Q13371956",
+                     "thumbnail": "",
+                     "desc": "organisation regroupant les chrétiens de tradition réformée du canton de Genève",
+                     "letters": [
+                            {
+                                   "slug": "1538_10_01_EgliseGeneve",
+                                   "date": "1er octobre 1538",
+                                   "headline": "Église de Genève"
+                            }
+                     ],
+                     "id": "#eglise-geneve"
               }
        ]
 }
