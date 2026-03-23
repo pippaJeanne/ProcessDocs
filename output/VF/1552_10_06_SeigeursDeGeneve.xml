@@ -73,12 +73,12 @@
  <correspDesc>
   <correspAction type="sent">
   <persName>Jean Calvin</persName>
-  <settlement cert="low" key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Genève]</settlement>
+  <settlement cert="medium" key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Genève]</settlement>
   <date when="1552-10-06">[6 octobre 1552]</date>
  </correspAction>
  <correspAction type="received">
   <name type="collectivité" key="Consistoire de Genève" ref="https://www.wikidata.org/wiki/Q2994627" corresp="#conseil-geneve">Seigneurs de Genève</name>
-  <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Genève]</settlement>
+  <settlement key="Genève" cert="high" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
  </correspAction>
  <correspContext>
   <ref type="prev" target="#">
@@ -105,7 +105,7 @@
 <opener>
 <address><addrLine>Aux <persName type="collectivité" key="Consistoire de Genève" ref="https://www.wikidata.org/wiki/Q2994627" corresp="#conseil-geneve">Seigneurs de Genève</persName><note n="*" place="bottom"><p>Au dos, de la main de Calvin : <hi rend="italic">La cause contre Trolliet.</hi> <persName type="surname" key="Jean Trolliet" ref="#">Trolliet</persName>, de Genève,<del> esprit inquiet et frondeur,</del> se fit d'abord ermite en <placeName key="Bourgogne" ref="https://www.wikidata.org/wiki/Q1173">Bourgogne</placeName>, et vécut en affectation de sainteté. Lassé bientôt de ce rôle, il reparut peu après à <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71">Genève</placeName> et sollicita les fonctions du ministère, dont il fut écarté par l'influence de Calvin auquel il voua une haine irréconciliable. Il se fit dès lors remarquer, dans les rangs du parti des libertins, par la violence de ses attaques contre le réformateur. Il incrimina ses écrits et s'offrit à prouver que, dans le livre de l'<title key="Institution de la religion chrétienne" ref="https://fr.wikipedia.org/wiki/Institution_de_la_religion_chrétienne" rend="italic">Institution chrétienne</title>, Calvin avait fait Dieu <hi rend="italic">auteur du péché</hi>. Ces accusations répétées à l'envi par les adversaires de la Réforme, et spécieusement revêtues de l'autorité de Mélanchthon, provoquèrent de vifs débats qui ne furent apaisés qu'à demi par la sentence des <persName type="collectivité" key="Consistoire de Genève" ref="https://www.wikidata.org/wiki/Q2994627">seigneurs de Genève</persName>, qui approuvèrent l'<title key="Institution de la religion chrétienne" ref="https://fr.wikipedia.org/wiki/Institution_de_la_religion_chrétienne" rend="italic">Institution chrétienne</title>, tout en déclarant <persName type="surname" key="Jean Trolliet" ref="#">Trolliet</persName> « homme de bien, » par ménagement pour le parti auquel il appartenait. Toutes les pièces relatives à la controverse de Calvin avec <persName type="surname" key="Jean Trolliet" ref="#">Trolliet</persName> se trouvent réunies au vol. 145 des Mss. de la Bibl. de Genève. <add>[Cette note a été legèrement éditée par l'éditrice du projet]</add></p></note></addrLine>
 </address>
-<dateline xml:id="opener">[Envoyée à <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Genève]</placeName>]
+<dateline xml:id="opener">[Envoyée à <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</placeName>]
 </dateline>
 <hi rend="bold"><label type='nature'>Minute originale</label> corrigé par Calvin. Bibl. de Genève. Vol. 145.</hi>
 <hi xml:id="editorNote"> 

@@ -16,7 +16,7 @@ from collections import defaultdict
 # This module will help us manage the xml structure and use xpath for retreiving the text 
 #import xml.etree.ElementTree as ET
 # path for the file
-file = "Translations_txt/1540_07_28_DuTailly.txt" #Change file path
+file = "Translations_txt/1551_01_19_Richard_Le_Fevre.txt" #Change file path
 # Open and read the file
 # parsing the file
 result = open(file).read()
@@ -63,7 +63,7 @@ simil["freq"] = freq
 simil["vector_val"] =vectors
 print(terms)
             
-output = "TextAna_output/1540_07_28_DuTailly.txt" #Change file path
+output = "Translations_txt/1551_01_19_Richard_Le_Fevre.txt" #Change file path
 #with open(output, "w", encoding="utf-8") as newfile:
  #   newfile.write(f"Liste de lemmas : {word_freq} \n\n Mots les plus fréquents : \n {common_words}")
 
@@ -92,7 +92,8 @@ sorted_simils=[[" <—> ".join(k), val] for k, val in simils.items()]
 sorted_simils = sorted(sorted_simils, key= lambda x:x[1], reverse=True)
 print(sorted_simils)
 mots = [key[0] for key in sorted_simils]
-simil_val = [value for value in sorted_simils[1]]
+print(mots)
+#simil_val = [value for value in sorted_simils[1]]
 
 # Most similar common words
 most_common_simils = []
@@ -105,9 +106,10 @@ print(most_common_simils)
 
 # Visualize most similar lemmas
 df = pd.DataFrame(sorted_simils)#, index=simils.keys())
-output_csv = "TextAna_output/1540_07_28_DuTailly.csv" #Change file path
+output_csv = "TextAna_output/1551_01_19_Richard_Le_Fevre.csv" #Change file path
 df.to_csv(output_csv)
 common_simils_df = pd.DataFrame(most_common_simils)
+print(common_simils_df)
 
 def plot_simils():
     plt.figure(figsize=(8, 6))
@@ -134,7 +136,8 @@ def plot_common_similsLemmes():
     plt.grid(True)
     plt.tight_layout()
     plt.show()
-plot_common_similsLemmes()
+if most_common_simils != []:
+    plot_common_similsLemmes()
 
 
 # Matrix of co-occurrence

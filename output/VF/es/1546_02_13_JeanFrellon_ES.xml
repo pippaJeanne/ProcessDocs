@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" n="Calvin_Frellon_1546_02_13_es">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Carta a Jean Frellon</title>
+<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza (Candidata al doctorado en literatura opción humanidades digitales - UdeM)</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+  <availability status="free">
+    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+    Distributed under a Creative Commons Attribution-ShareAlike
+         3.0 Unported License</licence>
+  </availability>
+</publicationStmt>
+<sourceDesc corresp="Frellon_1546_02_13">
+        <bibl>
+          Traducción de la versión modernizada de
+          <title level="a" rend="underline">Lettre à Jean Frellon (13 février 1546)</title> editada y codificada en TEI por <editor><name><forename>Yanet</forename> <surname>Hernández Pedraza</surname></name></editor>, basada en la edición de <editor>Jules Bonnet</editor>,
+          <title level="m">Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>, <pubPlace>Paris</pubPlace>, <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>, <date when="1854">1854</date>.
+        </bibl>
+ <notesStmt>
+          <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las citas en latín pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+ </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Juan Calvino
+  <addName type="pseudonym">Charles d'Espeville</addName></persName>
+  <settlement cert="high" key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
+  <date when="1546-02-13">13 de febrero de 1546</date>
+ </correspAction>
+ <correspAction type="received">
+   <name type="individuo" key="Jean Frellon II" ref="https://www.wikidata.org/wiki/Q3172136" corresp="#frellon">Jean Frellon</name>
+  <settlement cert="high" key="Lyon" ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">Lyon</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Juan Calvino responde a la solicitud de Jean Frellon, librero de Lyon, en relación con Miguel Servet.</desc>
+<list xml:id="tags">
+<term>respuesta</term>
+<term>solicitud</term>
+<term>último intento</term>
+</list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<opener>
+<address><addrLine>A <persName type="individuo" key="Jean Frellon II" ref="https://www.wikidata.org/wiki/Q3172136" corresp="#frellon">Jean Frellon</persName>, librero en <placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456">Lyon</placeName>
+  <note n="*" place="bottom">
+   <p>Este es el encabezado de esta carta, tomado de los archivos del antiguo arzobispado de <placeName key="Vienne" ref="https://www.wikidata.org/wiki/Q26849">Vienne</placeName>, y publicado por primera vez por el <persName key="Antoine Gachet d'Artigny" ref="https://www.wikidata.org/wiki/Q2853964" type="title">abad d'Artigny</persName>: A sire <persName type="fullname" key="Jean Frellon II" ref="https://www.wikidata.org/wiki/Q3172136">Jean Frellon</persName>, mercader de libros residente en <placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456">Lyon</placeName>, en la calle Mercière, insignia del Escudo de <placeName key="Cologne" ref="https://www.wikidata.org/wiki/Q365">Colonia</placeName>. — La persona misteriosa designada en esta carta no es otra que <persName key="Miguel Servet" ref="https://www.wikidata.org/wiki/Q185914">Miguel Servet</persName>, siete años antes del juicio que iba a dar a su nombre una tan fatal celebridad. Establecido como médico en <placeName key="Vienne" ref="https://www.wikidata.org/wiki/Q26849">Vienne</placeName> en <placeName key="Dauphiné" ref="https://www.wikidata.org/wiki/Q151999">Dauphiné</placeName>, este mantenía, bajo la cobertura de <persName key="Jean Frellon II" ref="https://www.wikidata.org/wiki/Q3172136">Jean Frellon</persName>, una correspondencia con Calvino, y acababa de enviar al reformador un extracto del libro que preparaba bajo el título de <title key="Christianismi restitutio" ref="https://www.wikidata.org/wiki/Q18204645" rend="italic">Christianismi restitutio</title>, expresando su deseo de ir a <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName>. Fue entonces cuando Calvino escribió a <persName key="Guillaume Farel" type="surname" ref="https://www.wikidata.org/wiki/Q435456">Farel</persName> la carta a menudo citada, en la que se observa el siguiente pasaje: <hi xml:lang="latinq" rend="italic">«Servetus nuper ad me scripsit, ac literis adjunxit longum volumen suorum deliriorum... Si mihi placeat, huc se venturum recipit. Sed nolo fidem meam interponere, nam si venerit, modo valeat mea authoritas, vivum exire non patiar.»</hi> <hi xml:lang="trad">[Servet me ha escrito recientemente, adjuntando a su carta un largo volumen de sus delirios… Si me place, él admite que vendrá aquí. Pero no quiero oponerle mi fe, pues si viene, mientras mi autoridad sea válida, no le dejaré volver vivo.]</hi> Carta del 13 de febrero de 1546. Se sabe cómo se llevó a cabo esta terrible amenaza siete años después.</p>
+  </note>
+</addrLine>
+</address>
+<dateline xml:id="opener">[Enviada a <placeName cert="high" key="Lyon" ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">Lyon</placeName>]</dateline>
+
+<hi rend="bold"><label type='nature'>Edición impresa</label>. Nouveaux Mémoires de l'abbé d'Artigny, t. II, p. 70.</hi>
+<hi xml:id="editorNote">
+[Edición impresa. Entrada bibliográfica completa: <bibl><author><persName key="Antoine Gachet d'Artigny" ref="https://www.wikidata.org/wiki/Q2853964" type="fullname"><surname>D'Artigny</surname>, <forename>Antoine Gachet</forename></persName></author>. <title level="m" key="Nouveaux mémoires d’histoire, de critique et de littérature." ref="https://books.google.ca/books?id=xs0TAAAAQAAJ" rend="italic">Nouveaux mémoires d’histoire, de critique et de littérature</title>. <biblScope unit="volume">Vol. 2</biblScope> <biblScope unit="page" from="70" to="71">(p. 70-71)</biblScope>. <title level="s">Nouveaux mémoires d’histoire, de critique et de littérature</title>. <publisher>Chez Debure l’aîné</publisher>, <date when="1749">1749</date>.</bibl>]</hi>
+<salute>Señor Jean:</salute>
+</opener>
+  <p>Como me trajeron sus últimas cartas a mi partida, no tuve tiempo de responder a lo que contenían. Desde mi regreso, en el primer momento de ocio que he tenido, he querido satisfacer su deseo; no es que tenga gran esperanza de sacar mucho provecho de tal hombre, viendo cómo está dispuesto; sino para intentar de nuevo si habrá algún medio de reducirlo, que será cuando Dios haya obrado tan bien en él que se convierta en otra persona. Como me había escrito con un espíritu tan arrogante, quise rebajar un poco su orgullo, hablándole más duramente que mi costumbre, pero no pude hacerlo de otra manera. Porque le aseguro que no hay lección más necesaria para él que aprender humildad, la cual le vendrá del espíritu de Dios, y de ninguna otra parte. Pero también debemos echar una mano. Si Dios nos concede la gracia a él y a nosotros de que la presente respuesta le sea provechosa, tendré motivos para regocijarme. Si continúa con el mismo estilo que ha mostrado ahora, perderá el tiempo si vuelve a solicitarme a trabajar en su favor, pues tengo otros asuntos que me apremian más de cerca. Y me daría vergüenza volverme a ocupar en ellos, no dudando que fuera un Satanás para distraerme de otras lecturas más útiles. Y, sin embargo, le ruego que se contente con lo que he hecho, si no ve mejor orden.</p>
+ <closer>
+    <dateline>
+     <date when="1546-02-13">Este 13 de febrero de 1546</date>.</dateline>
+    <salute>Su servidor y verdadero amigo,</salute>
+    <signed>
+      <persName key="Charles d'Espeville" ref="https://www.wikidata.org/wiki/Q133821751" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName>.
+    </signed>
+  </closer>
+  </body>
+ </text>
+</TEI>

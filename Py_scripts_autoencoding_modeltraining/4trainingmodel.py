@@ -22,7 +22,7 @@ sft_tuning_job = sft.train(
     train_dataset="gs://training-data-calvin/trainingdata_finetuning_expanded.jsonl",
     # The following parameters are optional
     #validation_dataset="gs://cloud-samples-data/ai-platform/generative_ai/gemini-2_0/text/sft_validation_data.jsonl",
-    tuned_model_display_name="CalvinFrenchSpanish_v2",
+    tuned_model_display_name="CalvinFrenchSpanish_v3",
 )
 
 # Polling for job completion

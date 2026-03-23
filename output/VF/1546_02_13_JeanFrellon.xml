@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="Frellon_1546_02_13">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Lettre à Jean Frellon</title> 
+<editor role="Modernisation et encodage">Yanet Hernández Pedraza (Candidate au doctorat en littérature option humanités numériques - UdeM)</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+<availability status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed under a Creative Commons Attribution-ShareAlike
+3.0 Unported License</licence>
+</availability>
+</publicationStmt>
+      
+<sourceDesc>
+  <bibl>
+     <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
+<author>
+        <name>
+           <forename>Jean</forename>
+           <surname>Calvin</surname>
+        </name>
+        <date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+</author>, éd.
+<editor>
+        <name>
+           <forename>Jules</forename>
+           <surname>Bonnet</surname>
+        </name>
+     </editor>,
+     <pubPlace>Paris</pubPlace>,
+<publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+<date when="1854">1854</date>.
+<affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+<facsimile corresp="174-176">                
+      
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f174/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f175/info.json"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f176/info.json"/>
+</facsimile>
+  </bibl>
+        
+<msDesc>
+<msIdentifier>
+    <settlement/>
+    <repository>D’Artigny, Antoine Gachet. Nouveaux mémoires d’histoire, de critique et de littérature. Vol. 2. Nouveaux mémoires d’histoire, de critique et de littérature. Chez Debure l’aîné, 1749.</repository>
+    <idno type="cote">p. 70-71</idno> 
+</msIdentifier>
+<facsimile>
+<graphic url="/JeanFrellon_page_1.png"/>
+<graphic url="/JeanFrellon_page_2.png"/>
+</facsimile>
+</msDesc>
+  <notesStmt>
+     <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 sauf indication contraire. Les notes appelées "éditoriales" (en vert) ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+  </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Jean Calvin
+    
+  <addName type="pseudonym">Charles d'Espeville</addName>
+</persName>
+  <settlement cert="high" key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
+  <date when="1546-02-13">13 de février 1546</date>
+ </correspAction>
+ <correspAction type="received">
+  <name type="individu" key="Jean Frellon II" ref="https://www.wikidata.org/wiki/Q3172136" corresp="#frellon">Jean Frellon</name>
+  <settlement cert="high" key="Lyon" ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">Lyon</settlement>
+ </correspAction>
+ <correspContext>
+               <ref type="prev" target="#">
+                  <persName/>
+                  <date from="1500" to="1600"/>
+               </ref>
+               <ref type="next" target="#">
+                  <persName/>
+                  <date/>
+               </ref>
+ </correspContext>
+ </correspDesc>
+ <desc>Jean Calvin répond à la sollicitation de Jean Frellon, libraire à Lyon, concernant Michel Servet.</desc>
+ <list xml:id="tags">
+ <term>réponse</term>
+ <term>sollicitation</term>
+ <term>dernier essai</term>
+ </list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+    <opener>
+        
+        <address>
+            <addrLine>À <persName type="individu" key="Jean Frellon II" ref="https://www.wikidata.org/wiki/Q3172136" corresp="#frellon">Jean Frellon</persName> libraire à <placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456">Lyon</placeName><note n="*" place="bottom"><p>Voici la suscription de cette lettre tirée des archives de l'ancien archevêché de <placeName key="Vienne" ref="https://www.wikidata.org/wiki/Q26849">Vienne</placeName>, et publiée pour la première fois par l'<persName key="Antoine Gachet d'Artigny" ref="https://www.wikidata.org/wiki/Q2853964" type="title">abbé d'Artigny</persName> : A sire <persName type="fullname" key="Jean Frellon II" ref="https://www.wikidata.org/wiki/Q3172136"><choice><orig>Jéhan</orig><reg type="modernisation">Jean</reg></choice> Frellon</persName>, marchand libraire demeurant à <placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456">Lyon</placeName>, en la rue Mercière, enseigne de l'<choice><orig>Escu</orig><reg type="modernisation">Écu</reg></choice> de <placeName key="Cologne" ref="https://www.wikidata.org/wiki/Q365"><choice><orig>Coulongne</orig><reg type="modernisation">Cologne</reg></choice></placeName>. — Le personnage mystérieux désigné dans cette lettre, n'est autre que <persName key="Michel Servet" ref="https://www.wikidata.org/wiki/Q185914">Michel Servet</persName>, sept ans avant le procès qui devait attacher une si fatale célébrité à son nom. Fixé, comme médecin, à <placeName key="Vienne" ref="https://www.wikidata.org/wiki/Q26849">Vienne</placeName> en <placeName key="Dauphiné" ref="https://www.wikidata.org/wiki/Q151999">Dauphiné</placeName>, il entretenait, sous le couvert de <persName key="Jean Frellon II" ref="https://www.wikidata.org/wiki/Q3172136">Jean Frellon</persName>, une correspondance avec Calvin, et il venait d'envoyer au réformateur un extrait de l'ouvrage qu'il préparait sous le titre de <title key="Christianismi restitutio" ref="https://www.wikidata.org/wiki/Q18204645" rend="italic">Christianismi restitutio</title>, en exprimant le désir de se rendre à <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71">Genève</placeName>. Ce fut alors que Calvin écrivit à <persName type="surname" key="Guillaume Farel" ref="https://www.wikidata.org/wiki/Q435456">Farel</persName> la lettre souvent citée, où l'on remarque ce passage <hi xml:lang="latinq" rend="italic">« Servetus nuper ad me scripsit, ac literis adjunxit longum volumen suorum deliriorum... Si mihi placeat, huc se venturum recipit. Sed nolo fidem meam interponere, nam si venerit, modo valeat mea authoritas, vivum exire non patiar. »</hi> <hi xml:lang="trad">[Servet m'a récemment écrit, en joignant à sa lettre un long volume de ses divagations… S'il me plaît, il admet qu'il viendra ici. Mais je ne veux pas lui opposer ma foi, car s'il vient, tant que mon autorité sera valable, je ne le laisserai pas repartir vivant.]</hi> Lettre du 13 février 1546. On sait comment cette menace terrible fut réalisée sept ans après.</p></note>
+            </addrLine>
+        </address>
+        <dateline xml:id="opener">[Envoyée à <placeName cert="high" key="Lyon" ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">Lyon</placeName>]</dateline> 
+        <hi rend="bold"><label type="nature">Imprimée</label>. Nouveaux Mémoires de l'abbé d'Artigny, t. II, p. 70.</hi>
+        <hi xml:id="editorNote">[Édition imprimée. Entrée bibliographique complète : <bibl><author><persName key="Antoine Gachet d'Artigny" ref="https://www.wikidata.org/wiki/Q2853964" type="fullname"><surname>D'Artigny</surname>, <forename>Antoine Gachet</forename></persName></author>. <title level="m" key="Nouveaux mémoires d’histoire, de critique et de littérature." ref="https://books.google.ca/books?id=xs0TAAAAQAAJ" rend="italic">Nouveaux mémoires d’histoire, de critique et de littérature</title>. <biblScope unit="volume">Vol. 2</biblScope> <biblScope unit="page" from="70" to="71">(p. 70-71)</biblScope>. <title level="s">Nouveaux mémoires d’histoire, de critique et de littérature</title>. <publisher>Chez Debure l’aîné</publisher>, <date when="1749">1749</date>.</bibl>]
+</hi>
+        <salute>Seigneur <choice><orig>Jéhan</orig><reg type="modernisation">Jean</reg></choice>,</salute>
+    </opener>
+      
+    <p><choice><orig>Pource</orig><reg type="modernisation">Parce</reg></choice> que vos lettres dernières me furent apportées sur mon <choice><orig>partement</orig><reg type="modernisation">départ</reg></choice>, je n'eus pas loisir de faire <choice><orig>response</orig><reg type="modernisation">réponse</reg></choice> a ce qui était enclos dedans. Depuis mon retour, au premier loisir que j'<choice><orig>ay</orig><reg type="modernisation">ai</reg></choice> eu, j'<choice><orig>ay</orig><reg type="modernisation">ai</reg></choice> bien voulu satisfaire à <choice><orig>vostre</orig><reg type="modernisation">votre</reg></choice> désir ; non pas que j'<choice><orig>aye</orig><reg type="modernisation">aie</reg></choice> grand espoir de profiter guères envers tel homme, selon que je le <choice><orig>voy</orig><reg type="modernisation">vois</reg></choice> disposé ; mais afin d'essayer encore s'il y aura quelque moyen de le réduire, qui sera, quand Dieu aura si bien <choice><orig>besongné</orig><reg type="modernisation">œuvré</reg></choice> en <choice><orig>luy</orig><reg type="modernisation">lui</reg></choice>, qu'il devienne tout <choice><orig>aultre</orig><reg type="modernisation">autre</reg></choice>. Pour ce qu'il m'avait <choice><orig>escrit</orig><reg type="modernisation">écrit</reg></choice> d'un <choice><orig>esperit</orig><reg type="modernisation">esprit</reg></choice> tant superbe, je <choice><orig>luy</orig><reg type="modernisation">lui</reg></choice> <choice><orig>ay</orig><reg type="modernisation">ai</reg></choice> bien voulu rabattre un petit de son orgueil, parlant à <choice><orig>luy</orig><reg type="modernisation">lui</reg></choice> plus durement que ma <choice><orig>coustume</orig><reg type="modernisation">coutume</reg></choice> ne porte, mais je ne l'ai <choice><orig>peu</orig><reg type="modernisation">pu</reg></choice> faire <choice><orig>aultrement</orig><reg type="modernisation">autrement</reg></choice>. Car je vous <choice><orig>asseure</orig><reg type="modernisation">assure</reg></choice> qu'il n'y a leçon qui <choice><orig>luy</orig><reg type="modernisation">lui</reg></choice> soit plus nécessaire que d'apprendre humilité, ce qui lui viendra de l'<choice><orig>esperit</orig><reg type="modernisation">esprit</reg></choice> de Dieu, non d'ailleurs. Mais nous y devons aussi tenir la main. Si Dieu nous <choice><orig>faict</orig><reg type="modernisation">fait</reg></choice> <choice><orig>ceste</orig><reg type="modernisation">cette</reg></choice> grâce à <choice><orig>luy</orig><reg type="modernisation">lui</reg></choice> et à nous, que la présente <choice><orig>response</orig><reg type="modernisation">réponse</reg></choice> <choice><orig>luy</orig><reg type="modernisation">lui</reg></choice> profite, j'<choice><orig>auray</orig><reg type="modernisation">aurai</reg></choice> de <choice><orig>quoy</orig><reg type="modernisation">quoi</reg></choice> me réjouir. S'il poursuit d'un tel style comme il a <choice><orig>faict</orig><reg type="modernisation">fait</reg></choice> maintenant, vous perdrez temps à me plus <choice><orig>soliciter</orig><reg type="modernisation">solliciter</reg></choice> à travailler envers <choice><orig>luy</orig><reg type="modernisation">lui</reg></choice>, car j'<choice><orig>ay</orig><reg type="modernisation">ai</reg></choice> d'<choice><orig>aultres</orig><reg type="modernisation">autres</reg></choice> affaires qui me pressent de plus près. Et <choice><orig>ferois conscience de</orig><reg type="modernisation">je ferais scrupule de</reg></choice> m'y plus occuper, ne <choice><orig>doubtant</orig><reg type="modernisation">doutant</reg></choice> pas que ce ne <choice><orig>fust</orig><reg type="modernisation">fût</reg></choice> un <choice><orig>Sathan</orig><reg type="modernisation">Satan</reg></choice> pour me distraire des <choice><orig>aultres</orig><reg type="modernisation">autres</reg></choice> lectures plus utiles. Et pourtant je vous <choice><orig>prye</orig><reg type="modernisation">prie</reg></choice> de vous contenter de ce que j'en <choice><orig>ay</orig><reg type="modernisation">ai</reg></choice> <choice><orig>faict</orig><reg type="modernisation">fait</reg></choice>, si vous n'y voyez meilleur ordre.</p>
+   
+ <closer>
+    <dateline>
+     <date when="1546-02-13">Ce 13 de février 1546</date>.</dateline> 
+    <salute><choice><orig>Vostre</orig><reg type="modernisation">Votre</reg></choice> serviteur et entier <choice><orig>amy</orig><reg type="modernisation">ami</reg></choice>,</salute>
+    <signed>
+      <persName key="Charles d'Espeville" ref="https://www.wikidata.org/wiki/Q133821751" type="pseudonym" corresp="#espeville">CHARLES D'ESPEVILLE</persName>.
+    </signed>
+  </closer>
+  </body>
+ </text>
+</TEI>

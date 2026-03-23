@@ -292,6 +292,21 @@
                      "Provincia de Henao": "https://www.wikidata.org/wiki/Q1129"
               }
        },
+       "output/VF/es/1545_06_JeanCavent_ES.xml": {
+              "persons": {
+                     "Jean Cavent": "#",
+                     "Christophe Fabri": "https://www.wikidata.org/wiki/Q96318836",
+                     "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "Pierre Viret": "https://www.wikidata.org/wiki/Q123337",
+                     "Juan Calvino": "#"
+              },
+              "places": {
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "Lausana": "https://www.wikidata.org/wiki/Q807",
+                     "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
+                     "Thonon": "https://www.wikidata.org/wiki/Q206165"
+              }
+       },
        "output/VF/es/1545_08_05_MFallais_ES.xml": {
               "persons": {
                      "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
@@ -318,6 +333,19 @@
                      "París": "https://www.wikidata.org/wiki/Q90"
               }
        },
+       "output/VF/es/1546_02_13_JeanFrellon_ES.xml": {
+              "persons": {
+                     "Jean Frellon II": "https://www.wikidata.org/wiki/Q3172136",
+                     "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
+              },
+              "places": {
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "Lyon": "https://www.wikidata.org/wiki/Q456",
+                     "Vienne": "https://www.wikidata.org/wiki/Q26849",
+                     "Cologne": "https://www.wikidata.org/wiki/Q365",
+                     "Dauphiné": "https://www.wikidata.org/wiki/Q151999"
+              }
+       },
        "output/VF/es/1548_06_NuevoCreyente.xml": {
               "persons": {
                      "Nuevo creyente": "#",
@@ -325,6 +353,31 @@
               },
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71"
+              }
+       },
+       "output/VF/es/1551_01_19_Richard_Le_Fevre_ES.xml": {
+              "persons": {
+                     "Richard Le Fèvre": "https://www.wikidata.org/wiki/Q138712526",
+                     "Zacarías": "https://www.wikidata.org/wiki/Q139464",
+                     "Santiago": "https://www.wikidata.org/wiki/Q43999",
+                     "María": "https://www.wikidata.org/wiki/Q345",
+                     "Pablo de Tarso": "https://www.wikidata.org/wiki/Q9200",
+                     "Abraham": "https://www.wikidata.org/wiki/Q9181",
+                     "Isaac": "https://www.wikidata.org/wiki/Q671872",
+                     "Jacob": "https://www.wikidata.org/wiki/Q289957",
+                     "Efraín": "https://www.wikidata.org/wiki/Q203251",
+                     "Manasés": "https://www.wikidata.org/wiki/Q1056931",
+                     "José": "https://www.wikidata.org/wiki/Q145746",
+                     "Ignacio de Antioquía": "https://www.wikidata.org/wiki/Q44170",
+                     "Jean Calvin": "#"
+              },
+              "places": {
+                     "Ginebra": "https://www.wikidata.org/wiki/Q71",
+                     "Lyon": "https://www.wikidata.org/wiki/Q456",
+                     "Rouen": "https://www.wikidata.org/wiki/Q30974",
+                     "Parlamento de París": "https://www.wikidata.org/wiki/Q1242473",
+                     "Grenoble": "https://www.wikidata.org/wiki/Q1289",
+                     "Egipto": "https://www.wikidata.org/wiki/Q79"
               }
        },
        "output/VF/es/1552_10_06_SenoresDeGinebra.xml": {

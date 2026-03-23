@@ -23,7 +23,7 @@ client = genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
 
 #####
     # To help in the encoding of the structure of set of letters given the template with the editorial protocol 
-for i in range(1,3): #number for last argument of range depends on number of letters in the 'text' doc plus 1 (no index 0).
+for i in range(1,2): #number for last argument of range depends on number of letters in the 'text' doc plus 1 (no index 0).
     template = open("templateEncodage.xml", "r").read()
     text = open("ToProcess.txt", "r").read()
     wikiLinks = open("WikiLinksPCalvin.md", "r").read()

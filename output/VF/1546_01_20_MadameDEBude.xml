@@ -74,7 +74,7 @@
  </correspAction>
  <correspAction type="received">
   <name type="individu" key="Roberte Le Lyeur" ref="https://www.wikidata.org/wiki/Q108743308" corresp="#madame-bude">Madame de Budé</name>
-  <settlement cert="low" key="Paris" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">Paris</settlement>
+  <settlement cert="low" key="Paris" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">[Paris]</settlement>
  </correspAction>
  <correspContext>
   <ref type="prev" target="#">
@@ -101,7 +101,7 @@
 <address><addrLine>À <persName type="individu" key="Roberte Le Lyeur" ref="https://www.wikidata.org/wiki/Q108743308" corresp="#madame-bude">Madame de Budé</persName><note n="*" place="bottom"><p>La lettre originale est sans suscription. Mais on croit généralement qu'elle fut adressée par Calvin à la veuve du célèbre Guillaume Budé, arrière-petit-fils du secrétaire du roi Charles V, et l'un des plus doctes personnages de la Renaissance. Guillaume Budé ayant déclaré dans son testament qu'il voulait être enseveli sans cérémonie, cette circonstance fit supposer qu'il était mort dans les croyances de la foi réformée. Sa veuve ne pouvant les professer librement à Paris, alla s'établir à Genève, à la sollicitation de Calvin (juin 1549). Elle était accompagnée de sa fille et de trois de ses fils, Louis, François et Jean de Budé, qui occupèrent un rang distingué dans la République. Le plus connu des trois frères est Jean de Budé, sieur de Vérace, ami particulier de Calvin et de Théodore de Bèze. Il fut reçu habitant de Genève le 27 juin 1549, bourgeois le 2 mai 1555, membre des deux conseils en 1559, remplit plusieurs missions importantes auprès des princes protestants d'Allemagne, et mourut en 1589, après avoir rendu d'éclatants services à sa nouvelle patrie, et ajouté ainsi à l'illustration de sa famille dont les descendants habitent encore à Genève. Galiffe : <hi rend="italic">Notices généalogiques des familles genevoises, t. III, p. 83 et suivantes</hi>.</p>
 </note></addrLine>
 </address>
-<dateline xml:id="opener">[Envoyée à <placeName cert="low" key="Paris" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">Paris</placeName>]
+<dateline xml:id="opener">[Envoyée à <placeName cert="low" key="Paris" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">[Paris]</placeName>]
 </dateline>
 <hi rend="bold"><label type='nature'>Orig. autographe</label>. Bibl. de Genève. Vol. 107.</hi>
 <hi xml:id="editorNote">
@@ -116,7 +116,7 @@
 
 <p>Pour faire fin, <choice><orig>sçachant</orig><reg>sachant</reg></choice> que toutes exhortations <choice><orig>seroient</orig><reg>seraient</reg></choice> vaines et inutiles de <choice><orig>moy</orig><reg>moi</reg></choice>, sinon que Dieu leur <choice><orig>donnat</orig><reg>donnât</reg></choice> vertu, les faisant entrer en votre cœur, je le <choice><orig>supplieray</orig><reg>supplierai</reg></choice> de vous instruire de <choice><orig>vraye</orig><reg>vraie</reg></choice> prudence pour juger ce qui vous sera expédient de faire, de vous donner constance ferme pour <choice><orig>obéyr</orig><reg>obéir</reg></choice> à sa volonté de vous tendre la main et se montrer <choice><orig>vostre</orig><reg>votre</reg></choice> conducteur, de vous faire <choice><orig>ceste</orig><reg>cette</reg></choice> grâce qu'en vous reposant sur <choice><orig>luy</orig><reg>lui</reg></choice> vous sentiez en tout et partout son assistance.</p>
  <closer>
-      <dateline>Ce <placeName></placeName> <date when="1546">20 ** 1546</date><note n="2" place="bottom"><p>Au dos, d'une main étrangère : De 46. Je pense que ceste lettre soit à Mme Budé.</p></note>.
+      <dateline>Ce <placeName></placeName> <date when="1546">20 ** 1546</date><note n="2" place="bottom"><p>Au dos, d'une main étrangère : De 46. Je pense que <choice><orig>ceste</orig><reg>cette</reg></choice> lettre soit à Mme Budé.</p></note>.
       </dateline> 
       <salute><choice><orig>Vostre</orig><reg>Votre</reg></choice> serviteur et humble frère,</salute>
       <signed><persName key="Charles d'Espeville" ref="https://www.wikidata.org/wiki/Q133821751" type="pseudonym" corresp="#espeville">CHARLES d'ESPEVILLE</persName></signed>

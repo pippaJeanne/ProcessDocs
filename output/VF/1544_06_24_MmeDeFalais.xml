@@ -64,7 +64,7 @@
   <addName type="pseudonym">Charles d'Espeville</addName> <!--si signée sous pseudonyme, enlever sinon-->
   </persName>
   <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
-  <date when="1544-06-24">24 juin (1544)</date>
+  <date when="1544-06-24">24 juin [1544]</date>
  </correspAction>
  <correspAction type="received">
   <name type="individu" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Madame de Fallais</name>

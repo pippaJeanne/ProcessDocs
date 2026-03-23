@@ -28,7 +28,7 @@ import json
 more_stopwords = ["tel", "telle", "tels", "telles", "tant", "d'un", "d'une", "c'est", "qu'il", "qu'elle", "afin", "est-ce", "qu'est-ce'", "auprès", "jusqu", "chez", "ci", "là", "quoiqu'", "puisque", "quand", "lorsque", "où", "or", "car", "ainsi", "moyen", "toutefois", "toutesfois", "plusieurs", "quelques", "peu", "moins", "plus", "beaucoup", "très", "autre", "autres", "chose", "choses", "fois", "quant", "quantes", "quante", "quantes", "entre", "parce", "parceque", "parce que", "falloir", "faut", "faudrait", "vouloir", "veux", "voudrais", "peux", "pourrais", "sembler", "semble", "sais", "savait", "savaient", "à", "de", "en", "du", "des", "la", "le", "les", "un", "une", "et", "ou", "au", "aux", "ce", "ces", "se", "sa", "son", "ses", "ne", "pas", "ni", "avoir", "être", "faire", "dit", "dire", "cela", "celui", "celle", "ceux", "celles", "lui", "leur", "leurs", "y", "là", "ici", "ci", "eusse", "eussent", "eût", "eûmes", "eûtes", "fusse", "fusses", "fût", "fûmes", "fûtes", "sois", "soit", "soyons", "soyez", "soient", "ayant", "été", "étée", "étées", "étés", "étant", "suis", "es", "est", "sommes", "êtes", "sont", "avais", "avait", "avions", "aviez", "avaient", "eus", "eut", "eûmes", "eûtes", "eurent", "ai", "as", "avons", "avez", "ont", "aurai", "auras", "aura", "aurons", "aurez", "auront", "aurais", "aurait", "aurions", "auriez", "auraient", "en", "n'en", "d'en", "n'en", "m'être", "t'être", "s'être", "se", "n'être"]
 stopword.extend(more_stopwords)
 
-file = open("Translations_txt/1540_07_28_DuTailly.txt", encoding="utf-8") #Change file path
+file = open("Translations_txt/1551_01_19_Richard_Le_Fevre.txt", encoding="utf-8") #Change file path
 text = file.read()
 list_of_text = text.split("\n")
 print(text)
@@ -118,7 +118,7 @@ def plot_keyw():
     plt.show()
 plot_keyw()
 
-output = "TextAna_output/1540_07_28_DuTailly.txt" #Change file path
+output = "TextAna_output/1551_01_19_Richard_Le_Fevre.txt" #Change file path
 with open(output, "w", encoding="utf-8") as newfile:
    newfile.write(f"Thématiques par LDA : {topics} \n\n Mots clés par TF-IDF : \n {keywords}")
 
@@ -148,7 +148,7 @@ print(trigram_data)
 #from difflib import SequenceMatcher
 from itertools import combinations
 from sklearn.metrics.pairwise import cosine_similarity
-file = open("Translations_txt/1540_07_28_DuTailly.txt", encoding="utf-8") #Change file path
+file = open("Translations_txt/1551_01_19_Richard_Le_Fevre.txt", encoding="utf-8") #Change file path
 text = file.read()
 #print(text)
 words = list(set(re.findall(r'\b\w+\b', text.lower())))

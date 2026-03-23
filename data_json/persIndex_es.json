@@ -6,7 +6,7 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Charles%20V%2C%20Holy%20Roman%20Emperor%2C%20seated%20%281500%E2%80%931558%29%2C%20formerly%20attributed%20to%20Titian%20%28Alte%20Pinakothek%2C%20Munich%29.jpg"
        },
        {
-              "name": "Jonás ( - )",
+              "name": "Jonás",
               "desc": "personaje de la Biblia y el Corán",
               "url": "http://www.wikidata.org/entity/Q2468262",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sistine%20jonah.jpg"
@@ -30,16 +30,16 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Albrecht-von-Brandenburg-2.jpg"
        },
        {
-              "name": "Friedrich Nausea",
-              "desc": "Obispo católico romano",
-              "url": "http://www.wikidata.org/entity/Q95603",
-              "img": ""
-       },
-       {
               "name": "Johann von Metzenhausen (1492 - 1540)",
               "desc": "arzobispo, príncipe elector de Tréveris",
               "url": "http://www.wikidata.org/entity/Q119532",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Johann%20von%20Metzenhausen.jpg"
+       },
+       {
+              "name": "Friedrich Nausea",
+              "desc": "Obispo católico romano",
+              "url": "http://www.wikidata.org/entity/Q95603",
+              "img": ""
        },
        {
               "name": "Johann Cochlaeus (1479 - 1552)",
@@ -78,13 +78,13 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Pope%20Paul%20III%20Farnese%20%28by%20Titian%29%20-%20National%20Museum%20of%20Capodimonte.jpg"
        },
        {
-              "name": "Daniel ( - )",
+              "name": "Daniel",
               "desc": "personaje bíblico",
               "url": "http://www.wikidata.org/entity/Q171724",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo%20Buonarroti%20026.jpg"
        },
        {
-              "name": "Nabucodonosor II ( - )",
+              "name": "Nabucodonosor II",
               "desc": "monarca babilónico",
               "url": "http://www.wikidata.org/entity/Q12591",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nebukadnessar%20II.jpg"
@@ -114,28 +114,28 @@
               "img": ""
        },
        {
-              "name": "Louis de Tillet",
-              "desc": "Sacerdote católico francés",
-              "url": "http://www.wikidata.org/entity/Q3263586",
-              "img": ""
-       },
-       {
-              "name": "Señor du Tailly",
-              "desc": "gentilhombre francés refugiado en Ginebra y simpatizante declarado de la Reforma y de Calvino",
-              "url": "http://www.wikidata.org/entity/Q137860491",
-              "img": ""
-       },
-       {
               "name": "Hermann von Wied (1477 - 1552)",
               "desc": "arzobispo alemán",
               "url": "http://www.wikidata.org/entity/Q95916",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hermann-von-Wied.jpg"
        },
        {
+              "name": "Louis de Tillet",
+              "desc": "Sacerdote católico francés",
+              "url": "http://www.wikidata.org/entity/Q3263586",
+              "img": ""
+       },
+       {
               "name": "Luis IV del Palatinado (1424 - 1449)",
               "desc": "Elector del Palatinado",
               "url": "http://www.wikidata.org/entity/Q66918",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ludwig%20IV.%20Hans%20Wertinger.jpg"
+       },
+       {
+              "name": "Señor du Tailly",
+              "desc": "gentilhombre francés refugiado en Ginebra y simpatizante declarado de la Reforma y de Calvino",
+              "url": "http://www.wikidata.org/entity/Q137860491",
+              "img": ""
        },
        {
               "name": "Wilhelm von Hohnstein (1466 - 1541)",
@@ -150,16 +150,22 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Guillielmus%20Farellus%20%28BM%201874%2C1212.456%29.jpg"
        },
        {
-              "name": "Salomón ( - )",
+              "name": "Salomón",
               "desc": "rey de Israel, personaje de la Biblia",
               "url": "http://www.wikidata.org/entity/Q37085",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg"
        },
        {
-              "name": "Francisco I de Francia (1494 - 1547)",
-              "desc": "rey de Francia",
-              "url": "http://www.wikidata.org/entity/Q129857",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ier%20Louvre.jpg"
+              "name": "Jeremías",
+              "desc": "profeta mayor hebreo",
+              "url": "http://www.wikidata.org/entity/Q158825",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg"
+       },
+       {
+              "name": "Pierre Viret (1511 - 1571)",
+              "desc": "Teólogo suizo",
+              "url": "http://www.wikidata.org/entity/Q123337",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20Zwitserse%20hervormer%20Pierre%20Viret%20Petrus%20Viretus%20Gallia%20nemo%20futur%20dulcius%20%28titel%20op%20object%29%2C%20RP-P-1910-4243.jpg"
        },
        {
               "name": "Lactancio (0240 - 0320)",
@@ -210,19 +216,13 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pope-peter%20pprubens.jpg"
        },
        {
-              "name": "Jeremías ( - )",
-              "desc": "profeta mayor hebreo",
-              "url": "http://www.wikidata.org/entity/Q158825",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg"
-       },
-       {
               "name": "Wolfgang Capito (1478 - 1541)",
               "desc": "reformador y teólogo alemán",
               "url": "http://www.wikidata.org/entity/Q1368362",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/WolfgangCapito.jpg"
        },
        {
-              "name": "David ( - )",
+              "name": "David",
               "desc": "monarca israelita",
               "url": "http://www.wikidata.org/entity/Q41370",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/King%20David%2C%20the%20King%20of%20Israel.jpg"
@@ -250,6 +250,12 @@
               "desc": "pueblo de la Antigüedad",
               "url": "http://www.wikidata.org/entity/Q193776",
               "img": ""
+       },
+       {
+              "name": "Francisco I de Francia (1494 - 1547)",
+              "desc": "rey de Francia (1515–1547)",
+              "url": "http://www.wikidata.org/entity/Q129857",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ier%20Louvre.jpg"
        },
        {
               "name": "Felipe Melanchthon (1497 - 1560)",
@@ -282,12 +288,6 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Clouet%20%28Attributed%29%20-%20Portrait%20of%20Marguerite%20of%20Navarre%20-%20Google%20Art%20Project.jpg"
        },
        {
-              "name": "Pierre Viret (1511 - 1571)",
-              "desc": "Teólogo suizo",
-              "url": "http://www.wikidata.org/entity/Q123337",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PierreViret.jpg"
-       },
-       {
               "name": "Gérard Roussel",
               "desc": "obispo católico",
               "url": "http://www.wikidata.org/entity/Q1226841",
@@ -306,10 +306,34 @@
               "img": ""
        },
        {
+              "name": "Santiago el Mayor (0001 - 0044)",
+              "desc": "apóstol de Jesús",
+              "url": "http://www.wikidata.org/entity/Q43999",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dijon%20fine%20arts%20museum%20mg%201626.jpg"
+       },
+       {
+              "name": "Richard Le Fèvre",
+              "desc": "Corresponsal de Juan Calvino y mártir de la iglesia reformada de Lyon (ejecutado en Lyon el 7 de julio de 1554)",
+              "url": "http://www.wikidata.org/entity/Q138712526",
+              "img": ""
+       },
+       {
               "name": "Antonio de Borbón (1518 - 1562)",
               "desc": "Rey de Navarra (1555-1562)",
               "url": "http://www.wikidata.org/entity/Q310334",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20-%20Portrait%20of%20Anthony%20of%20Bourbon%20%281518%E2%80%931562%29%2C%20King%20of%20Navarre%20-%20MNK%20XII-294%20-%20National%20Museum%20Krak%C3%B3w.jpg"
+       },
+       {
+              "name": "José",
+              "desc": "personaje bíblico, uno de los doce hijos de Jacob",
+              "url": "http://www.wikidata.org/entity/Q145746",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/JosephandhisBrothers.jpg"
+       },
+       {
+              "name": "Jacob",
+              "desc": "personaje bíblico",
+              "url": "http://www.wikidata.org/entity/Q289957",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cigoli%20Le%20Songe%20de%20Jacob%20Nancy%2022122007.jpg"
        },
        {
               "name": "Sebastián Castellion (1515 - 1563)",
@@ -318,9 +342,51 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/SebastianCastellio.jpg"
        },
        {
+              "name": "Isaac",
+              "desc": "segundo patriarca del pueblo de Israel",
+              "url": "http://www.wikidata.org/entity/Q671872",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mus%C3%A9e%20Unterlinden%20-%20chapiteau%20de%20l%27%C3%A9glise%20abbatiale%20d%27Alspach%20-%20les%20Justes%20dans%20le%20sein%20d%27Abraham%20%28XIIe%20si%C3%A8cle%29.jpg"
+       },
+       {
+              "name": "Manasés",
+              "desc": "personaje bíblico",
+              "url": "http://www.wikidata.org/entity/Q1056931",
+              "img": ""
+       },
+       {
+              "name": "Efraím",
+              "desc": "Hijo de Jose y su esposa Asenath , nieto de Jacob",
+              "url": "http://www.wikidata.org/entity/Q203251",
+              "img": ""
+       },
+       {
+              "name": "Christophe Fabri",
+              "desc": "Reformador de Bôle, Boudry y Pontareuse, nombrado pastor de Neuchâtel por el sínodo de Berna en 1532. Reformador itinerante en Ginebra y en Thonon.",
+              "url": "http://www.wikidata.org/entity/Q96318836",
+              "img": ""
+       },
+       {
               "name": "Eduardo VI de Inglaterra (1537 - 1553)",
               "desc": "Rey de Inglaterra (1547–1553)",
               "url": "http://www.wikidata.org/entity/Q83229",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20VI%20of%20England%20c.%201546.jpg"
+       },
+       {
+              "name": "Jean Frellon II",
+              "desc": "impresor-librero francés, natural de Lyon",
+              "url": "http://www.wikidata.org/entity/Q3172136",
+              "img": ""
+       },
+       {
+              "name": "Zacarías ( - 0100)",
+              "desc": "personaje bíblico, padre de Juan el Bautista",
+              "url": "http://www.wikidata.org/entity/Q139464",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Holy%20Cross%20Monastery%20in%20Jerusalem.%20Georgian%20frescoes%2001.JPG"
+       },
+       {
+              "name": "Ignacio de Antioquía (0035 - 0108)",
+              "desc": "padre apostólico, s. II",
+              "url": "http://www.wikidata.org/entity/Q44170",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hosios%20Loukas%20%28south%20west%20chapel%2C%20south%20side%29%20-%20Ignatios.jpg"
        }
 ]

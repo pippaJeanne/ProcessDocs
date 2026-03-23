@@ -6,7 +6,7 @@
               "img": ""
        },
        {
-              "name": "Nabuchodonosor II ( - )",
+              "name": "Nabuchodonosor II",
               "desc": "roi de Babylone entre 604 av. J.-C. et 562 av. J.-C.",
               "url": "http://www.wikidata.org/entity/Q12591",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nebukadnessar%20II.jpg"
@@ -48,19 +48,13 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Francesco%20Barbieri%20-%20Saint%20Paul.jpg"
        },
        {
-              "name": "Jonas ( - )",
+              "name": "Jonas",
               "desc": "prophète biblique et coranique",
               "url": "http://www.wikidata.org/entity/Q2468262",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sistine%20jonah.jpg"
        },
        {
-              "name": "Guillaume III de Hohnstein (1466 - 1541)",
-              "desc": "évêque de Strasbourg (1466-1541)",
-              "url": "http://www.wikidata.org/entity/Q2575927",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hohnstein%20Wilhelm1.jpg"
-       },
-       {
-              "name": "Daniel ( - )",
+              "name": "Daniel",
               "desc": "personne de la Bible hébraïque, protagoniste du Livre de Daniel",
               "url": "http://www.wikidata.org/entity/Q171724",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo%20Buonarroti%20026.jpg"
@@ -106,6 +100,12 @@
               "desc": "cardinal catholique",
               "url": "http://www.wikidata.org/entity/Q60951",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Albrecht-von-Brandenburg-2.jpg"
+       },
+       {
+              "name": "Guillaume III de Hohnstein (1466 - 1541)",
+              "desc": "évêque de Strasbourg (1466-1541)",
+              "url": "http://www.wikidata.org/entity/Q2575927",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hohnstein%20Wilhelm1.jpg"
        },
        {
               "name": "Johann Fabri (1478 - 1541)",
@@ -186,7 +186,7 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PikiWiki%20Israel%2047514%20Samaritan%20museum%20on%20mount%20Grizim%20-%20Left.jpg"
        },
        {
-              "name": "Salomon ( - )",
+              "name": "Salomon",
               "desc": "personnage biblique",
               "url": "http://www.wikidata.org/entity/Q37085",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg"
@@ -204,13 +204,25 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/WolfgangCapito.jpg"
        },
        {
+              "name": "Augustin d’Hippone (0354 - 0430)",
+              "desc": "théologien, philosophe chrétien et évêque d’Afrique du Nord, saint et docteur de l’Église catholique",
+              "url": "http://www.wikidata.org/entity/Q8018",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Augustine%20by%20Philippe%20de%20Champaigne.jpg"
+       },
+       {
+              "name": "Jérémie",
+              "desc": "prophète du Tanakh dans l'hébraïque ou de l'Ancien Testament pour les chrétiens",
+              "url": "http://www.wikidata.org/entity/Q158825",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg"
+       },
+       {
               "name": "Philistins",
               "desc": "peuple de l'Antiquité, appartient aux peuples de la mer",
               "url": "http://www.wikidata.org/entity/Q193776",
               "img": ""
        },
        {
-              "name": "David ( - )",
+              "name": "David",
               "desc": "personnage de la Bible, deuxième roi d'Israël",
               "url": "http://www.wikidata.org/entity/Q41370",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/King%20David%2C%20the%20King%20of%20Israel.jpg"
@@ -234,34 +246,22 @@
               "img": ""
        },
        {
+              "name": "François Ier de France (1494 - 1547)",
+              "desc": "roi de France de 1515 à 1547",
+              "url": "http://www.wikidata.org/entity/Q129857",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ier%20Louvre.jpg"
+       },
+       {
               "name": "Yolande de Brederode",
               "desc": "aristocrate de la maison des comtes de Hollande et épouse de Jacques de Bourgogne",
               "url": "http://www.wikidata.org/entity/Q56000839",
               "img": ""
        },
        {
-              "name": "Augustin d’Hippone (0354 - 0430)",
-              "desc": "théologien, philosophe chrétien et évêque d’Afrique du Nord, saint et docteur de l’Église catholique",
-              "url": "http://www.wikidata.org/entity/Q8018",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cappella%20Palatina%20%28Palermo%29%2016%2007%202019%2014.jpg"
-       },
-       {
               "name": "Martin Bucer (1491 - 1551)",
               "desc": "réformateur protestant alsacien",
               "url": "http://www.wikidata.org/entity/Q318622",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Buzer%20%28Bucer%29.jpg"
-       },
-       {
-              "name": "Pierre Viret (1511 - 1571)",
-              "desc": "réformateur vaudois",
-              "url": "http://www.wikidata.org/entity/Q123337",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PierreViret.jpg"
-       },
-       {
-              "name": "Jérémie ( - )",
-              "desc": "prophète du Tanakh dans l'hébraïque ou de l'Ancien Testament pour les chrétiens",
-              "url": "http://www.wikidata.org/entity/Q158825",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg"
        },
        {
               "name": "David de Busanton",
@@ -282,12 +282,6 @@
               "img": ""
        },
        {
-              "name": "François Ier de France (1494 - 1547)",
-              "desc": "roi de France de 1515 à 1547 (1494-1547)",
-              "url": "http://www.wikidata.org/entity/Q129857",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ier%20Louvre.jpg"
-       },
-       {
               "name": "Jean de Bourgogne",
               "desc": "Seigneur de Fromont et de Han-sur-Sambre (1525-1585), frère de Jacques de Bourgogne, Seigneur de Fallais",
               "url": "http://www.wikidata.org/entity/Q137660510",
@@ -300,9 +294,27 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Clouet%20%28Attributed%29%20-%20Portrait%20of%20Marguerite%20of%20Navarre%20-%20Google%20Art%20Project.jpg"
        },
        {
+              "name": "Pierre Viret (1511 - 1571)",
+              "desc": "réformateur vaudois",
+              "url": "http://www.wikidata.org/entity/Q123337",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20Zwitserse%20hervormer%20Pierre%20Viret%20Petrus%20Viretus%20Gallia%20nemo%20futur%20dulcius%20%28titel%20op%20object%29%2C%20RP-P-1910-4243.jpg"
+       },
+       {
+              "name": "Ignace d'Antioche (0035 - 0108)",
+              "desc": "patriarche d’Antioche, saint chrétien",
+              "url": "http://www.wikidata.org/entity/Q44170",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hosios%20Loukas%20%28south%20west%20chapel%2C%20south%20side%29%20-%20Ignatios.jpg"
+       },
+       {
               "name": "Roberte Le Lyeur",
               "desc": "épouse de Guillaume Budé",
               "url": "http://www.wikidata.org/entity/Q108743308",
+              "img": ""
+       },
+       {
+              "name": "Richard Le Fèvre",
+              "desc": "Correspondant de Jean Calvin et martyr de l'église réformée de Lyon (exécuté à Lyon le 7 juillet 1554)",
+              "url": "http://www.wikidata.org/entity/Q138712526",
               "img": ""
        },
        {
@@ -318,9 +330,63 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Unknown%20-%20Portrait%20of%20Anthony%20of%20Bourbon%20%281518%E2%80%931562%29%2C%20King%20of%20Navarre%20-%20MNK%20XII-294%20-%20National%20Museum%20Krak%C3%B3w.jpg"
        },
        {
+              "name": "Isaac",
+              "desc": "personnage de la Bible et du Coran, fils d'Abraham et de Sarah",
+              "url": "http://www.wikidata.org/entity/Q671872",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mus%C3%A9e%20Unterlinden%20-%20chapiteau%20de%20l%27%C3%A9glise%20abbatiale%20d%27Alspach%20-%20les%20Justes%20dans%20le%20sein%20d%27Abraham%20%28XIIe%20si%C3%A8cle%29.jpg"
+       },
+       {
+              "name": "Manassé",
+              "desc": "patriarche biblique",
+              "url": "http://www.wikidata.org/entity/Q1056931",
+              "img": ""
+       },
+       {
+              "name": "Jacob",
+              "desc": "personnage de la Bible et du Coran",
+              "url": "http://www.wikidata.org/entity/Q289957",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cigoli%20Le%20Songe%20de%20Jacob%20Nancy%2022122007.jpg"
+       },
+       {
+              "name": "Éphraïm",
+              "desc": "fils d'Asnath et de Joseph",
+              "url": "http://www.wikidata.org/entity/Q203251",
+              "img": ""
+       },
+       {
+              "name": "Jacques de Zébédée (0001 - 0044)",
+              "desc": "apôtre du Christ",
+              "url": "http://www.wikidata.org/entity/Q43999",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dijon%20fine%20arts%20museum%20mg%201626.jpg"
+       },
+       {
+              "name": "Joseph",
+              "desc": "fils de Jacob et Rachel, prophète de la Bible et du Coran",
+              "url": "http://www.wikidata.org/entity/Q145746",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/JosephandhisBrothers.jpg"
+       },
+       {
+              "name": "Zacharie ( - 0100)",
+              "desc": "personnage du Nouveau Testament",
+              "url": "http://www.wikidata.org/entity/Q139464",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Holy%20Cross%20Monastery%20in%20Jerusalem.%20Georgian%20frescoes%2001.JPG"
+       },
+       {
+              "name": "Christophe Fabri",
+              "desc": "Réformateur de Bôle, Boudry et Pontareuse, nommé par le synode de Berne pasteur à Neuchâtel en 1532. Réformateur itinérant à Genève et à Thonon.",
+              "url": "http://www.wikidata.org/entity/Q96318836",
+              "img": ""
+       },
+       {
               "name": "Sébastien Castellion (1515 - 1563)",
               "desc": "Humaniste, bibliste et théologien protestant français",
               "url": "http://www.wikidata.org/entity/Q919119",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/SebastianCastellio.jpg"
+       },
+       {
+              "name": "Jean Frellon II",
+              "desc": "imprimeur-libraire lyonnais",
+              "url": "http://www.wikidata.org/entity/Q3172136",
+              "img": ""
        }
 ]

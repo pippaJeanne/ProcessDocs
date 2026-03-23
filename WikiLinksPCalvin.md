@@ -53,9 +53,20 @@ Jacques Bernard =>
 <persName key="Jacques Bernard" ref="#">JACQUES BERNARD</persName>
 ```
 
+```xml
+<persName key="Jacques de Zébédée" ref="https://www.wikidata.org/wiki/Q43999" corresp="#saint_jacques">saint Jacques</persName>
+
+<persName key="Santiago el Mayor" ref="https://www.wikidata.org/wiki/Q43999" corresp="#saint_jacques">saint Jacques</persName>
+```
+
 Jean Trolliet => 
 ```xml
 <persName type="surname" ref="Jean Trolliet">Trolliet</persName>
+```
+
+Jean Frollet => https://www.wikidata.org/wiki/Q3172136
+```xml
+<persName type="individu" key="Jean Frellon II" ref="https://www.wikidata.org/wiki/Q3172136" corresp="#frellon">Jean Frellon</persName>
 ```
 
 Guillaume Farel => https://www.wikidata.org/wiki/Q435456
@@ -218,6 +229,26 @@ Salomon => https://www.wikidata.org/wiki/Q37085
 <persName key="Salomon" ref="https://www.wikidata.org/wiki/Q37085" corresp="#salomon">Salomon</persName>
 ```
 
+```xml
+<persName type="name" key="Isaac" ref="https://www.wikidata.org/wiki/Q671872" corresp="#isaac">Isaac</persName>
+```
+
+```xml
+<persName type="name" key="Jacob" ref="https://www.wikidata.org/wiki/Q289957" corresp="#jacob">Jacob</persName>
+```
+
+```xml
+<persName type="name" key="Ephraïm" ref="https://www.wikidata.org/wiki/Q203251" corresp="#ephraim">Ephraïm</persName>
+```
+
+```xml
+<persName type="name" key="Manassé" ref="https://www.wikidata.org/wiki/Q1056931" corresp="#manasse">Manassé</persName>
+```
+
+```xml
+<persName type="name" key="Joseph" ref="https://www.wikidata.org/wiki/Q145746" corresp="#joseph">Joseph</persName>
+```
+
 Daniel => https://www.wikidata.org/wiki/Q171724
 
 ```xml
@@ -302,6 +333,11 @@ Philistins =>  https://www.wikidata.org/wiki/Q193776
 ```xml
 <persName   key="David de Busanton"   ref="https://www.wikidata.org/wiki/Q137660629" type="forename" corresp="#david_busanton">David</persName>
 ```
+
+```xml
+<persName type="individu" key="Richard Le Fèvre" ref="https://www.wikidata.org/wiki/Q138712526" corresp="#lefevre">Richard Le Fèvre</persName>
+```
+
 ------
 
 ### Places
@@ -531,3 +567,7 @@ Libertins => https://www.wikidata.org/wiki/Q3237786
 
 -----
 
+```xml
+<hi xml:id="editorNote">[Édition imprimée. Entrée bibliographique complète : <bibl><author><persName key="Antoine Gachet d'Artigny" ref="https://www.wikidata.org/wiki/Q2853964" type="fullname"><surname>D'Artigny</surname>, <forename>Antoine Gachet</forename></persName></author>. <title level="m" key="Nouveaux mémoires d’histoire, de critique et de littérature." ref="https://books.google.ca/books?id=xs0TAAAAQAAJ" rend="italic">Nouveaux mémoires d’histoire, de critique et de littérature</title>. <biblScope unit="volume">Vol. 2</biblScope> <biblScope unit="page" from="70" to="71">(p. 70-71)</biblScope>. <title level="s">Nouveaux mémoires d’histoire, de critique et de littérature</title>. <publisher>Chez Debure l’aîné</publisher>, <date when="1749">1749</date>.</bibl>]
+</hi>
+```

@@ -294,6 +294,21 @@
                      "Hainaut": "https://www.wikidata.org/wiki/Q1129"
               }
        },
+       "output/VF/1545_06_JeanCavent.xml": {
+              "persons": {
+                     "Jean Cavent": "#",
+                     "Christophe Fabri": "https://www.wikidata.org/wiki/Q96318836",
+                     "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
+                     "Pierre Viret": "https://www.wikidata.org/wiki/Q123337",
+                     "Jean Calvin": "#"
+              },
+              "places": {
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Lausanne": "https://www.wikidata.org/wiki/Q807",
+                     "Strasbourg": "https://www.wikidata.org/wiki/Q6602",
+                     "Thonon": "https://www.wikidata.org/wiki/Q206165"
+              }
+       },
        "output/VF/1545_08_05_MFallais.xml": {
               "persons": {
                      "Jacques de Bourgogne": "https://www.wikidata.org/wiki/Q6120956",
@@ -320,12 +335,50 @@
                      "Paris": "https://www.wikidata.org/wiki/Q90"
               }
        },
+       "output/VF/1546_02_13_JeanFrellon.xml": {
+              "persons": {
+                     "Jean Frellon II": "https://www.wikidata.org/wiki/Q3172136",
+                     "Charles d'Espeville": "https://www.wikidata.org/wiki/Q133821751"
+              },
+              "places": {
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Lyon": "https://www.wikidata.org/wiki/Q456",
+                     "Vienne": "https://www.wikidata.org/wiki/Q26849",
+                     "Cologne": "https://www.wikidata.org/wiki/Q365",
+                     "Dauphiné": "https://www.wikidata.org/wiki/Q151999"
+              }
+       },
        "output/VF/1548_06_NouveauConverti.xml": {
               "persons": {
                      "Nouveau converti": "#"
               },
               "places": {
                      "Genève": "https://www.wikidata.org/wiki/Q71"
+              }
+       },
+       "output/VF/1551_01_19_Richard_Le_Fevre.xml": {
+              "persons": {
+                     "Richard Le Fèvre": "https://www.wikidata.org/wiki/Q138712526",
+                     "Zacharie": "https://www.wikidata.org/wiki/Q139464",
+                     "Jacques de Zébédée": "https://www.wikidata.org/wiki/Q43999",
+                     "Marie": "https://www.wikidata.org/wiki/Q345",
+                     "Paul de Tarse": "https://www.wikidata.org/wiki/Q9200",
+                     "Abraham": "https://www.wikidata.org/wiki/Q9181",
+                     "Isaac": "https://www.wikidata.org/wiki/Q671872",
+                     "Jacob": "https://www.wikidata.org/wiki/Q289957",
+                     "Ephraïm": "https://www.wikidata.org/wiki/Q203251",
+                     "Manassé": "https://www.wikidata.org/wiki/Q1056931",
+                     "Joseph": "https://www.wikidata.org/wiki/Q145746",
+                     "Ignace d'Antioche": "https://www.wikidata.org/wiki/Q44170",
+                     "Jean Calvin": "#"
+              },
+              "places": {
+                     "Genève": "https://www.wikidata.org/wiki/Q71",
+                     "Lyon": "https://www.wikidata.org/wiki/Q456",
+                     "Rouen": "https://www.wikidata.org/wiki/Q30974",
+                     "Parlement de Paris": "https://www.wikidata.org/wiki/Q1242473",
+                     "Grenoble": "https://www.wikidata.org/wiki/Q1289",
+                     "Égypte": "https://www.wikidata.org/wiki/Q79"
               }
        },
        "output/VF/1552_10_06_SeigeursDeGeneve.xml": {

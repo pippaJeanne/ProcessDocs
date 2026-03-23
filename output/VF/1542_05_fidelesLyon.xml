@@ -72,7 +72,7 @@
                <persName>Jean Calvin</persName>
                <settlement key="Genève"
                            ref="https://www.wikidata.org/wiki/Q71"
-                           corresp="#geneve">Villefranche</settlement>
+                           corresp="#geneve">Genève</settlement>
                <date when="1542-05">mai 1542</date>
             </correspAction>
             <correspAction type="received">
@@ -176,11 +176,8 @@
                   <p>Genève</p>
                </note>
                <date when="1542-05">(<choice><orig>may</orig><reg type="modernisation">mai</reg></choice> 1542)</date>. </dateline>
-            <salute/>
-            <signed>
-               <persName key="Jean Calvin"
-                         ref="#"
-                         type="fullname"><choice><orig>JÉHAN</orig><reg>JEAN</reg></choice> CALVIN</persName>.
+            <salute></salute>
+            <signed><persName type="fullname" key="Jean Calvin" ref="#"><choice><orig>JÉHAN</orig><reg>JEAN</reg></choice> CALVIN</persName>.
             </signed>
          </closer>
       </body>

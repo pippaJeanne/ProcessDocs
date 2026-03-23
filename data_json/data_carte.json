@@ -563,7 +563,7 @@
                             "month": "10",
                             "day": "14"
                      },
-                     "display_date": "14 octobre (1543)",
+                     "display_date": "14 octobre [1543]",
                      "text": {
                             "headline": "Madame de Fallais",
                             "text": "Encouragement de Calvin à Madame de Fallais qui partageait les sentiments de son époux à propos de la religion réformée."
@@ -759,7 +759,7 @@
                             "month": "06",
                             "day": "24"
                      },
-                     "display_date": "24 juin (1544)",
+                     "display_date": "24 juin [1544]",
                      "text": {
                             "headline": "Madame de Fallais",
                             "text": "Encouragement à Madame de Fallais dans sa nouvelle vie en liberté de conscience et de culte, après avoir suivi son mari à Cologne et à Strasbourg."
@@ -963,6 +963,50 @@
                      }
               },
               {
+                     "slug": "1545_06_JeanCavent",
+                     "places": [
+                            {
+                                   "name": "Lausanne",
+                                   "lat": "46.533333333",
+                                   "lon": "6.633333333"
+                            },
+                            {
+                                   "name": "Strasbourg",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Thonon",
+                                   "lat": "46.370555555",
+                                   "lon": "6.479722222"
+                            }
+                     ],
+                     "media": {
+                            "url": "/JeanCavent_page_1.png",
+                            "thumbnail": "/JeanCavent_page_1.png"
+                     },
+                     "start_date": {
+                            "year": "1545",
+                            "month": "06",
+                            "day": "01"
+                     },
+                     "display_date": "[juin 1545]",
+                     "text": {
+                            "headline": "Jean Cavent",
+                            "text": "Lettre de consolation et de conseil à Jean Cavent suite au décès de sa femme et de sa mère, et concernant l'aide pour ses enfants."
+                     },
+                     "scr_location": {
+                            "name": "[Genève]",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Lausanne]",
+                            "lat": "46.533333333",
+                            "lon": "6.633333333"
+                     }
+              },
+              {
                      "slug": "1545_08_05_MFallais",
                      "places": [
                             {
@@ -1046,6 +1090,60 @@
                      }
               },
               {
+                     "slug": "1546_02_13_JeanFrellon",
+                     "places": [
+                            {
+                                   "name": "Lyon",
+                                   "lat": "45.7675",
+                                   "lon": "4.835"
+                            },
+                            {
+                                   "name": "Vienne",
+                                   "lat": "45.525555555",
+                                   "lon": "4.874722222"
+                            },
+                            {
+                                   "name": "Cologne",
+                                   "lat": "50.942222222",
+                                   "lon": "6.957777777"
+                            },
+                            {
+                                   "name": "Dauphiné",
+                                   "lat": "45.383333333",
+                                   "lon": "5.733333333"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
+                     "media": {
+                            "url": "/JeanFrellon_page_1.png",
+                            "thumbnail": "/JeanFrellon_page_1.png"
+                     },
+                     "start_date": {
+                            "year": "1546",
+                            "month": "02",
+                            "day": "13"
+                     },
+                     "display_date": "13 de février 1546",
+                     "text": {
+                            "headline": "Jean Frellon",
+                            "text": "Jean Calvin répond à la sollicitation de Jean Frellon, libraire à Lyon, concernant Michel Servet."
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Lyon",
+                            "lat": "45.7675",
+                            "lon": "4.835"
+                     }
+              },
+              {
                      "slug": "1548_06_NouveauConverti",
                      "places": [
                             {
@@ -1077,6 +1175,65 @@
                             "name": "[Genève]",
                             "lat": "46.2",
                             "lon": "6.15"
+                     }
+              },
+              {
+                     "slug": "1551_01_19_Richard_Le_Fevre",
+                     "places": [
+                            {
+                                   "name": "Rouen",
+                                   "lat": "49.443055555",
+                                   "lon": "1.1025"
+                            },
+                            {
+                                   "name": "Parlement de Paris",
+                                   "lat": "48.856111111",
+                                   "lon": "2.345555555"
+                            },
+                            {
+                                   "name": "Grenoble",
+                                   "lat": "45.186944444",
+                                   "lon": "5.726388888"
+                            },
+                            {
+                                   "name": "Lyon",
+                                   "lat": "45.7675",
+                                   "lon": "4.835"
+                            },
+                            {
+                                   "name": "Égypte",
+                                   "lat": "27.0",
+                                   "lon": "29.0"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
+                     "media": {
+                            "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3227630/f607.jpeg",
+                            "thumbnail": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3227630/f607.jpeg"
+                     },
+                     "start_date": {
+                            "year": "1551",
+                            "month": "01",
+                            "day": "19"
+                     },
+                     "display_date": "19 de janvier 1551",
+                     "text": {
+                            "headline": "Richard Le Fèvre",
+                            "text": "Lettre de Jean Calvin à Richard Le Fèvre l'exhortant à la persévérance et à la foi pendant son emprisonnement, et offrant également des arguments doctrinaux pour répondre à ses accusateurs"
+                     },
+                     "scr_location": {
+                            "name": "Genève",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Lyon",
+                            "lat": "45.7675",
+                            "lon": "4.835"
                      }
               },
               {

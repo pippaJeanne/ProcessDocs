@@ -6,13 +6,8 @@ Sébastien Castellion (1515 - 1563) | Castellion
 
 Renée de France (1510 - 1574) | Renata
 
-Marie (- 0048) | María
-
 Abraham
 
-"name": "Augustin d’Hippone (0354 - 0430)",   | (Hipona)
-                     "wikiurl": "http://www.wikidata.org/entity/Q8018",
-            ==>>     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Cappella%20Palatina%20%28Palermo%29%2016%2007%202019%2014.jpg",
 
 ####
 Add coordinates for Saint-Siège | Santa Sede | Vatican City => The SPARQL query doesn't seem to return it even though it's present in Wikidata … and the value is wrong
@@ -20,3 +15,9 @@ Add coordinates for Saint-Siège | Santa Sede | Vatican City => The SPARQL query
                             "lat": "41.9029",
                             "lon": "12.4534"
                         },
+
+###
+
+// Add in persons(_es).json file 
+
+Jean Cavent = desc: "Diacre de l'église de Lausanne" | "Diácono de la iglesia de Lausana"

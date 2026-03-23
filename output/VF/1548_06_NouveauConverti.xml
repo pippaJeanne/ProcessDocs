@@ -90,7 +90,7 @@
 <opener>
 <address><addrLine>À un <persName type="individu" key="Nouveau converti" ref="#" corresp="#converti">nouveau converti</persName><note n="*" place="bottom"><p>Lettre sans indication de personne et d'année.</p></note></addrLine>
 </address>
-<dateline xml:id="opener">[Envoyée à <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</placeName>]
+<dateline xml:id="opener">[Envoyée à <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Genève]</placeName>]
 </dateline>
 <hi rend="bold"><label type='nature'>Minute originale</label>. Bibl. de Genève. Vol. 107 a.</hi>
 <hi xml:id="editorNote">

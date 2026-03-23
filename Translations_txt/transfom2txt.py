@@ -3,7 +3,7 @@ from saxonche import *
 from saxonche import PySaxonProcessor
 import re
 #path to input xml files
-docs = ["output/VF/1538_10_01_EgliseGeneve.xml", "output/VF/1540_07_28_DuTailly.xml"] #Change file path
+docs = ["output/VF/1551_01_19_Richard_Le_Fevre.xml"] #Change file path
 xsltfile = "Translations_txt/2txt.xslt"  #Change file path
 #path to xslt file : Translations_txt/2txt.xslt  /  Translations_txt/2txt_diplom.xslt / Translations_txt/txt4Ana.xslt
 

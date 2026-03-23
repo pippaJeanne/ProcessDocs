@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" n="Cavent_1545_06_es">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Carta a Jean Cavent</title>
+<editor role="Traducción y encodaje TEI">Yanet Hernández Pedraza (Candidata al doctorado en literatura opción humanidades digitales - UdeM)</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+  <availability status="free">
+    <licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+    Distributed under a Creative Commons Attribution-ShareAlike
+         3.0 Unported License</licence>
+  </availability>
+</publicationStmt>
+<sourceDesc corresp="Cavent_1545_06">
+    <bibl>
+        Traducción de la versión modernizada de
+        <title level="a" rend="underline">Lettre à Jean Cavent (juin 1545)</title> editada y codificada en TEI por <editor><name><forename>Yanet</forename> <surname>Hernández Pedraza</surname></name></editor>, basada en la edición de <editor>Jules Bonnet</editor>,
+        <title level="m">Lettres de Jean Calvin : lettres françaises. T. 1</title>, <pubPlace>Paris</pubPlace>, <publisher>Librarie de Ch. Meyrueis et compagnie</publisher>, <date when="1854">1854</date>.
+    </bibl>
+ <notesStmt>
+          <note>Las notas provienen de la edición de Jules Bonnet de 1854 a menos que se indique lo contrario. Las notas bajo la apelación "editoriales" (en verde) y las notas de las frases latinas pertenecen a la autora de este proyecto: Yanet Hernández Pedraza.</note>
+ </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName>Juan Calvino</persName>
+  <settlement key="Ginebra" cert="medium" corresp="#geneve" ref="https://www.wikidata.org/wiki/Q71">Ginebra</settlement>
+  <date when="1545-06">[junio de 1545]</date>
+ </correspAction>
+ <correspAction type="received">
+   <name type="individuo" key="Jean Cavent" ref="#" corresp="#cavent">Jean Cavent</name>
+  <settlement cert="medium" key="Lausana" ref="https://www.wikidata.org/wiki/Q807" corresp="#lausanne">Lausana</settlement>
+ </correspAction>
+ <correspContext>
+  <ref type="prev" target="#">
+     <persName/>
+     <date from="1500" to="1600"/>
+  </ref>
+  <ref type="next" target="#">
+     <persName/>
+     <date/>
+  </ref>
+</correspContext>
+ </correspDesc>
+ <desc>Carta de consuelo y consejo a Jean Cavent tras el fallecimiento de su esposa y de su madre, y con relación a la ayuda para sus hijos.</desc>
+<list xml:id="tags">
+<term>duelo</term>
+<term>consuelo</term>
+<term>hijos</term>
+<term>cautiverio</term>
+<term>noticias</term>
+</list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+    <opener>
+        <address><addrLine>A <persName type="individuo" key="Jean Cavent" ref="#" corresp="#cavent">Jean Cavent</persName><note n="*" place="bottom"><p>Al dorso: A mi buen hermano y amigo, el <persName type="title" key="Jean Cavent" ref="#">maestro Jean</persName> diácono de la iglesia de <placeName key="Lausana" ref="https://www.wikidata.org/wiki/Q807">Lausana</placeName>, o al <persName type="fullname" key="Pierre Viret" ref="https://www.wikidata.org/wiki/Q123337">maestro Pierre Viret</persName> para que se las entregue. - Abajo, de la mano de <persName type="surname" key="Pierre Viret" ref="https://www.wikidata.org/wiki/Q123337">Viret</persName>: Calvino a <persName type="fullname" key="Jean Cavent" ref="#">Jean Cavent</persName> diácono de <placeName key="Lausana" ref="https://www.wikidata.org/wiki/Q807">Lausana</placeName>. Carta sin fecha, pero escrita poco después del viaje de Calvino a <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>, y su visita al <persName type="title" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956">Sr. de Fallais</persName>, es decir, en junio de 1545.</p></note>
+        </addrLine>
+        </address>
+        <dateline xml:id="opener">[Enviada a <placeName cert="medium" key="Lausana" ref="https://www.wikidata.org/wiki/Q807" corresp="#lausanne">[Lausana]</placeName>]</dateline>
+        <hi rend="bold"><label type="nature">Autógrafo original</label>. Biblioteca de la Compagnie de Neuchâtel.</hi>
+        <hi xml:id="editorNote">[Ahora en los Archivos del Estado de Neuchâtel bajo la cota 1PAST-2.5]</hi>
+        <salute>Querido hermano:</salute>
+    </opener>
+    <p>Creo que el <persName type="title" key="Christophe Fabri" ref="https://www.wikidata.org/wiki/Q96318836" corresp="#fabri">maestro Christophe</persName><note n="1" place="bottom"><p><persName type="fullname" key="Christophe Fabri" ref="https://www.wikidata.org/wiki/Q96318836">Christophe Fabri</persName>, ministro de la iglesia de <placeName key="Thonon" ref="https://www.wikidata.org/wiki/Q206165">Thonon</placeName>.</p></note> ha cumplido con su deber de entregarle las cartas en las que se le pedían noticias de la muerte de su esposa y de su madre. Si esta partida le es dura, tiene ocasión de consolarse en nuestro Señor por el honor que les ha hecho de glorificar su nombre en su muerte, y por la constancia que les ha dado, como no dudo que le hará a usted el favor de considerar todas estas cosas. En cuanto a sus hijos, habría habido alguna manera por medio del <persName type="title" key="Jacques de Bourgogne" ref="https://www.wikidata.org/wiki/Q6120956" corresp="#jacques-bourgogne">Sr. de Fallais</persName>, y él lo habría hecho de buen grado en honor a Dios, y a petición mía. Pero él mismo está excluido del país, y lo encontré enfermo en <placeName key="Estrasburgo" ref="https://www.wikidata.org/wiki/Q6602">Estrasburgo</placeName>. Porque si la debilidad no le hubiera impedido hacerlo, habría venido por aquí<note n="2" place="bottom" type="editorial"><p>Encontramos un pequeño agujero a continuación en el manuscrito autógrafo original, y encima una palabra difícil de descifrar. Jules Bonnet la transcribió como «Car» (Porque) al comienzo de la frase -su posición en el manuscrito al final de la frase anterior lo justifica-, pero la transcribí como «| lugar» ya que me pareció más probable según los rasgos y la posición sobre el agujero y después de la frase «por aquí» (se leería «por este lugar» con la adición de «lugar»). (<ref target="#linkTransc">Véase la transcripción del mencionado manuscrito</ref>). Esto no cambia en nada el sentido de la oración.</p></note>. Por lo tanto, tendremos que indagar algún otro medio, y mientras tanto usted debe tener paciencia, encomendándolos solícitamente a Dios, que no permitirá que permanezcan mucho tiempo en este cautiverio. Por lo demás, le ruego que diga a nuestro hermano el  <persName key="Pierre Viret" ref="https://www.wikidata.org/wiki/Q123337" corresp="#viret">maestro Pierre</persName><note n="3" place="bottom"><p><persName key="Pierre Viret" ref="https://www.wikidata.org/wiki/Q123337">Pierre Viret</persName>, ministro de <placeName key="Lausana" ref="https://www.wikidata.org/wiki/Q807">Lausana</placeName>.</p></note> que no debe dejar de venir algún día, y con esto, después de haberme encomendado afectuosamente a ambos, y a todos nuestros amigos, ruego a nuestro buen Dios que les tenga en su protección, dirigiéndoles por su espíritu para que su servicio le sea agradable a él y útil a su Iglesia, que lo necesita mucho.</p>
+ <closer>
+    <dateline><date when="1545-06">(Junio de 1545.)</date>
+    </dateline>
+    <salute>Su muy buen hermano y amigo,</salute>
+    <signed>
+      <persName type="fullname" key="Juan Calvino" ref="#">JUAN CALVINO</persName>.
+    </signed>
+  </closer>
+  </body>
+ </text>
+</TEI>

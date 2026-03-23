@@ -12,13 +12,16 @@ import json
 import os
 client = genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
 
-# Using the tuned model for translation
+# Using the fine-tuned model for translation
 
 ## Model enpoint name: change every time the model is retuned
-tuned_model_endpoint = "projects/308230719741/locations/us-central1/endpoints/3209442555640938496"
+   # For reference
+# New Model Name => projects/308230719741/locations/us-central1/models/5016762594774482944@1
+# Old model endpoint => projects/308230719741/locations/us-central1/endpoints/3209442555640938496 
+tuned_model_endpoint = "projects/308230719741/locations/us-central1/endpoints/3120256219709702144"
 
 ### text to translate 
-texts = ["Translations_txt/1540_07_28_DuTailly.txt"] #Change file path(s)
+texts = ["Translations_txt/1551_01_19_Richard_Le_Fevre.txt"] #Change file path(s)
 
 for textfile in texts:
     print(f"Processing file: {textfile}")
@@ -43,4 +46,4 @@ for textfile in texts:
                 #print(response.text)
                 outfile.write(response.text)
                 time.sleep(20)  # To avoid hitting rate limits
-print("Translation with tuned model done!")
+print("Translation with fine-tuned model done!")

@@ -33,7 +33,7 @@
   <persName>Juan Calvino
   <addName type="pseudonym">Charles d'Espeville</addName></persName>
   <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
-  <date when="1543-10-14">14 de octubre de (1543)</date>
+  <date when="1543-10-14">14 de octubre de [1543]</date>
  </correspAction>
  <correspAction type="received">
   <name type="individuo" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande-brederode">Señora de Fallais</name>

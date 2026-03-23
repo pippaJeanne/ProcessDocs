@@ -10,6 +10,11 @@
                                    "slug": "1544_06_24_MFallais",
                                    "date": "24 juin [1544]",
                                    "headline": "Monsieur de Fallais"
+                            },
+                            {
+                                   "slug": "1551_01_19_Richard_Le_Fevre",
+                                   "date": "19 de janvier 1551",
+                                   "headline": "Richard Le Fèvre"
                             }
                      ],
                      "id": "#abraham"
@@ -59,7 +64,7 @@
               {
                      "name": "Augustin d’Hippone (0354 - 0430)",
                      "wikiurl": "http://www.wikidata.org/entity/Q8018",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Cappella%20Palatina%20%28Palermo%29%2016%2007%202019%2014.jpg",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Augustine%20by%20Philippe%20de%20Champaigne.jpg",
                      "desc": "théologien, philosophe chrétien et évêque d’Afrique du Nord, saint et docteur de l’Église catholique",
                      "letters": [
                             {
@@ -107,7 +112,7 @@
                             },
                             {
                                    "slug": "1543_10_14_MadameDeFalais",
-                                   "date": "14 octobre (1543)",
+                                   "date": "14 octobre [1543]",
                                    "headline": "Madame de Fallais"
                             },
                             {
@@ -127,16 +132,35 @@
                             },
                             {
                                    "slug": "1544_06_24_MmeDeFalais",
-                                   "date": "24 juin (1544)",
+                                   "date": "24 juin [1544]",
                                    "headline": "Madame de Fallais"
                             },
                             {
                                    "slug": "1546_01_20_MadameDEBude",
                                    "date": "[20 ** 1546]",
                                    "headline": "Madame de Budé"
+                            },
+                            {
+                                   "slug": "1546_02_13_JeanFrellon",
+                                   "date": "13 de février 1546",
+                                   "headline": "Jean Frellon"
                             }
                      ],
                      "id": "#espeville"
+              },
+              {
+                     "name": "Christophe Fabri",
+                     "wikiurl": "http://www.wikidata.org/entity/Q96318836",
+                     "thumbnail": "",
+                     "desc": "Réformateur de Bôle, Boudry et Pontareuse, nommé par le synode de Berne pasteur à Neuchâtel en 1532. Réformateur itinérant à Genève et à Thonon.",
+                     "letters": [
+                            {
+                                   "slug": "1545_06_JeanCavent",
+                                   "date": "[juin 1545]",
+                                   "headline": "Jean Cavent"
+                            }
+                     ],
+                     "id": "#fabri"
               },
               {
                      "name": "Consistoire de Genève",
@@ -186,7 +210,7 @@
                      "id": "#cure"
               },
               {
-                     "name": "Daniel ( - )",
+                     "name": "Daniel",
                      "wikiurl": "http://www.wikidata.org/entity/Q171724",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo%20Buonarroti%20026.jpg",
                      "desc": "personne de la Bible hébraïque, protagoniste du Livre de Daniel",
@@ -200,7 +224,7 @@
                      "id": "#daniel"
               },
               {
-                     "name": "David ( - )",
+                     "name": "David",
                      "wikiurl": "http://www.wikidata.org/entity/Q41370",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/King%20David%2C%20the%20King%20of%20Israel.jpg",
                      "desc": "personnage de la Bible, deuxième roi d'Israël",
@@ -260,7 +284,7 @@
                      "name": "François Ier de France (1494 - 1547)",
                      "wikiurl": "http://www.wikidata.org/entity/Q129857",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ier%20Louvre.jpg",
-                     "desc": "roi de France de 1515 à 1547 (1494-1547)",
+                     "desc": "roi de France de 1515 à 1547",
                      "letters": [
                             {
                                    "slug": "1540_07_28_DuTailly",
@@ -341,6 +365,34 @@
                      "id": "#archevequeCologne"
               },
               {
+                     "name": "Ignace d'Antioche (0035 - 0108)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q44170",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Hosios%20Loukas%20%28south%20west%20chapel%2C%20south%20side%29%20-%20Ignatios.jpg",
+                     "desc": "patriarche d’Antioche, saint chrétien",
+                     "letters": [
+                            {
+                                   "slug": "1551_01_19_Richard_Le_Fevre",
+                                   "date": "19 de janvier 1551",
+                                   "headline": "Richard Le Fèvre"
+                            }
+                     ],
+                     "id": "#ignace"
+              },
+              {
+                     "name": "Isaac",
+                     "wikiurl": "http://www.wikidata.org/entity/Q671872",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Mus%C3%A9e%20Unterlinden%20-%20chapiteau%20de%20l%27%C3%A9glise%20abbatiale%20d%27Alspach%20-%20les%20Justes%20dans%20le%20sein%20d%27Abraham%20%28XIIe%20si%C3%A8cle%29.jpg",
+                     "desc": "personnage de la Bible et du Coran, fils d'Abraham et de Sarah",
+                     "letters": [
+                            {
+                                   "slug": "1551_01_19_Richard_Le_Fevre",
+                                   "date": "19 de janvier 1551",
+                                   "headline": "Richard Le Fèvre"
+                            }
+                     ],
+                     "id": "#isaac"
+              },
+              {
                      "name": "Israélites",
                      "wikiurl": "http://www.wikidata.org/entity/Q51669",
                      "thumbnail": "",
@@ -353,6 +405,20 @@
                             }
                      ],
                      "id": "#Israelites"
+              },
+              {
+                     "name": "Jacob",
+                     "wikiurl": "http://www.wikidata.org/entity/Q289957",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Cigoli%20Le%20Songe%20de%20Jacob%20Nancy%2022122007.jpg",
+                     "desc": "personnage de la Bible et du Coran",
+                     "letters": [
+                            {
+                                   "slug": "1551_01_19_Richard_Le_Fevre",
+                                   "date": "19 de janvier 1551",
+                                   "headline": "Richard Le Fèvre"
+                            }
+                     ],
+                     "id": "#jacob"
               },
               {
                      "name": "Jacques de Bourgogne",
@@ -386,6 +452,11 @@
                                    "headline": "Monsieur de Fallais"
                             },
                             {
+                                   "slug": "1545_06_JeanCavent",
+                                   "date": "[juin 1545]",
+                                   "headline": "Jean Cavent"
+                            },
+                            {
                                    "slug": "1545_08_05_MFallais",
                                    "date": "5 août [1545]",
                                    "headline": "Monsieur de Fallais"
@@ -397,6 +468,34 @@
                             }
                      ],
                      "id": "#jacques-bourgogne"
+              },
+              {
+                     "name": "Jacques de Zébédée (0001 - 0044)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q43999",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Dijon%20fine%20arts%20museum%20mg%201626.jpg",
+                     "desc": "apôtre du Christ",
+                     "letters": [
+                            {
+                                   "slug": "1551_01_19_Richard_Le_Fevre",
+                                   "date": "19 de janvier 1551",
+                                   "headline": "Richard Le Fèvre"
+                            }
+                     ],
+                     "id": "#saint_jacques"
+              },
+              {
+                     "name": "Jean Cavent",
+                     "wikiurl": "",
+                     "thumbnail": "",
+                     "desc": "Diacre de l'église de Lausanne",
+                     "letters": [
+                            {
+                                   "slug": "1545_06_JeanCavent",
+                                   "date": "[juin 1545]",
+                                   "headline": "Jean Cavent"
+                            }
+                     ],
+                     "id": "#cavent"
               },
               {
                      "name": "Jean Cochlaeus (1479 - 1552)",
@@ -411,6 +510,20 @@
                             }
                      ],
                      "id": "#cochleus"
+              },
+              {
+                     "name": "Jean Frellon II",
+                     "wikiurl": "http://www.wikidata.org/entity/Q3172136",
+                     "thumbnail": "",
+                     "desc": "imprimeur-libraire lyonnais",
+                     "letters": [
+                            {
+                                   "slug": "1546_02_13_JeanFrellon",
+                                   "date": "13 de février 1546",
+                                   "headline": "Jean Frellon"
+                            }
+                     ],
+                     "id": "#frellon"
               },
               {
                      "name": "Jean Trolliet",
@@ -516,7 +629,7 @@
                      "id": "#eveque_Treves"
               },
               {
-                     "name": "Jonas ( - )",
+                     "name": "Jonas",
                      "wikiurl": "http://www.wikidata.org/entity/Q2468262",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Sistine%20jonah.jpg",
                      "desc": "prophète biblique et coranique",
@@ -530,7 +643,21 @@
                      "id": "#jonas"
               },
               {
-                     "name": "Jérémie ( - )",
+                     "name": "Joseph",
+                     "wikiurl": "http://www.wikidata.org/entity/Q145746",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/JosephandhisBrothers.jpg",
+                     "desc": "fils de Jacob et Rachel, prophète de la Bible et du Coran",
+                     "letters": [
+                            {
+                                   "slug": "1551_01_19_Richard_Le_Fevre",
+                                   "date": "19 de janvier 1551",
+                                   "headline": "Richard Le Fèvre"
+                            }
+                     ],
+                     "id": "#joseph"
+              },
+              {
+                     "name": "Jérémie",
                      "wikiurl": "http://www.wikidata.org/entity/Q158825",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20Immanuel%20in%20St%20Mark%27s%20Basilica-Jeremiah.jpg",
                      "desc": "prophète du Tanakh dans l'hébraïque ou de l'Ancien Testament pour les chrétiens",
@@ -596,6 +723,20 @@
                      "id": "#louis-tillet"
               },
               {
+                     "name": "Manassé",
+                     "wikiurl": "http://www.wikidata.org/entity/Q1056931",
+                     "thumbnail": "",
+                     "desc": "patriarche biblique",
+                     "letters": [
+                            {
+                                   "slug": "1551_01_19_Richard_Le_Fevre",
+                                   "date": "19 de janvier 1551",
+                                   "headline": "Richard Le Fèvre"
+                            }
+                     ],
+                     "id": "#manasse"
+              },
+              {
                      "name": "Marguerite de Valois-Angoulême (1492 - 1549)",
                      "wikiurl": "http://www.wikidata.org/entity/Q190058",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Clouet%20%28Attributed%29%20-%20Portrait%20of%20Marguerite%20of%20Navarre%20-%20Google%20Art%20Project.jpg",
@@ -619,6 +760,11 @@
                                    "slug": "1542_M_le_cureX",
                                    "date": "[1542]",
                                    "headline": "Monsieur le curé"
+                            },
+                            {
+                                   "slug": "1551_01_19_Richard_Le_Fevre",
+                                   "date": "19 de janvier 1551",
+                                   "headline": "Richard Le Fèvre"
                             }
                      ],
                      "id": "#vierge_marie"
@@ -666,7 +812,7 @@
                      "id": "#du-tailly"
               },
               {
-                     "name": "Nabuchodonosor II ( - )",
+                     "name": "Nabuchodonosor II",
                      "wikiurl": "http://www.wikidata.org/entity/Q12591",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Nebukadnessar%20II.jpg",
                      "desc": "roi de Babylone entre 604 av. J.-C. et 562 av. J.-C.",
@@ -734,6 +880,11 @@
                                    "headline": "Reine de Navarre"
                             },
                             {
+                                   "slug": "1551_01_19_Richard_Le_Fevre",
+                                   "date": "19 de janvier 1551",
+                                   "headline": "Richard Le Fèvre"
+                            },
+                            {
                                    "slug": "1552_10_06_SeigeursDeGeneve",
                                    "date": "[6 octobre 1552]",
                                    "headline": "Seigneurs de Genève"
@@ -791,13 +942,18 @@
               {
                      "name": "Pierre Viret (1511 - 1571)",
                      "wikiurl": "http://www.wikidata.org/entity/Q123337",
-                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/PierreViret.jpg",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20Zwitserse%20hervormer%20Pierre%20Viret%20Petrus%20Viretus%20Gallia%20nemo%20futur%20dulcius%20%28titel%20op%20object%29%2C%20RP-P-1910-4243.jpg",
                      "desc": "réformateur vaudois",
                      "letters": [
                             {
                                    "slug": "1541_02_19_SeigneursGeneve",
                                    "date": " 19 février 1541",
                                    "headline": "Seigneurs de Genève"
+                            },
+                            {
+                                   "slug": "1545_06_JeanCavent",
+                                   "date": "[juin 1545]",
+                                   "headline": "Jean Cavent"
                             }
                      ],
                      "id": "#viret"
@@ -817,6 +973,20 @@
                      "id": "#renee-de-france"
               },
               {
+                     "name": "Richard Le Fèvre",
+                     "wikiurl": "http://www.wikidata.org/entity/Q138712526",
+                     "thumbnail": "",
+                     "desc": "Correspondant de Jean Calvin et martyr de l'église réformée de Lyon (exécuté à Lyon le 7 juillet 1554)",
+                     "letters": [
+                            {
+                                   "slug": "1551_01_19_Richard_Le_Fevre",
+                                   "date": "19 de janvier 1551",
+                                   "headline": "Richard Le Fèvre"
+                            }
+                     ],
+                     "id": "#lefevre"
+              },
+              {
                      "name": "Roberte Le Lyeur",
                      "wikiurl": "http://www.wikidata.org/entity/Q108743308",
                      "thumbnail": "",
@@ -831,7 +1001,7 @@
                      "id": "#madame-bude"
               },
               {
-                     "name": "Salomon ( - )",
+                     "name": "Salomon",
                      "wikiurl": "http://www.wikidata.org/entity/Q37085",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg",
                      "desc": "personnage biblique",
@@ -899,12 +1069,12 @@
                      "letters": [
                             {
                                    "slug": "1543_10_14_MadameDeFalais",
-                                   "date": "14 octobre (1543)",
+                                   "date": "14 octobre [1543]",
                                    "headline": "Madame de Fallais"
                             },
                             {
                                    "slug": "1544_06_24_MmeDeFalais",
-                                   "date": "24 juin (1544)",
+                                   "date": "24 juin [1544]",
                                    "headline": "Madame de Fallais"
                             },
                             {
@@ -924,6 +1094,20 @@
                             }
                      ],
                      "id": "#jolande_brederode"
+              },
+              {
+                     "name": "Zacharie ( - 0100)",
+                     "wikiurl": "http://www.wikidata.org/entity/Q139464",
+                     "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Holy%20Cross%20Monastery%20in%20Jerusalem.%20Georgian%20frescoes%2001.JPG",
+                     "desc": "personnage du Nouveau Testament",
+                     "letters": [
+                            {
+                                   "slug": "1551_01_19_Richard_Le_Fevre",
+                                   "date": "19 de janvier 1551",
+                                   "headline": "Richard Le Fèvre"
+                            }
+                     ],
+                     "id": "#zacharie"
               },
               {
                      "name": "Édouard VI d'Angleterre (1537 - 1553)",
@@ -966,6 +1150,20 @@
                             }
                      ],
                      "id": "#eglise-geneve"
+              },
+              {
+                     "name": "Éphraïm",
+                     "wikiurl": "http://www.wikidata.org/entity/Q203251",
+                     "thumbnail": "",
+                     "desc": "fils d'Asnath et de Joseph",
+                     "letters": [
+                            {
+                                   "slug": "1551_01_19_Richard_Le_Fevre",
+                                   "date": "19 de janvier 1551",
+                                   "headline": "Richard Le Fèvre"
+                            }
+                     ],
+                     "id": "#ephraim"
               }
        ]
 }

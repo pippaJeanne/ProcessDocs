@@ -4,7 +4,7 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>Carta a los fieles de Lyon</title>
+<title>Carta a los Fieles de Lyon</title>
 <editor role="Traducción y codificación TEI">Yanet Hernández Pedraza</editor>
 </titleStmt>
 <publicationStmt>
@@ -34,7 +34,7 @@
  <correspDesc>
   <correspAction type="sent">
   <persName>Juan Calvino</persName>
-  <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Villefranche</settlement>
+  <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
   <date when="1542-05">mayo de 1542</date>
  </correspAction>
  <correspAction type="received">
@@ -100,7 +100,7 @@
      <note n="2" place="bottom" type="editorial"><p>Ginebra</p></note>
      <date when="1542-05">(mayo de 1542)</date>.
     </dateline> 
-    <salute/>
+    <salute></salute>
     <signed>
       <persName key="Jean Calvin" ref="#" type="fullname">JUAN CALVINO</persName>.
     </signed>

@@ -75,7 +75,7 @@ for f in files:
     names = list(perfile[f]["persons"].keys())
     if names is not None:
         for n in names:
-            if perfile[f]["persons"][n] == "#" and n != 'Jean Calvin': # n != 'Jean Calvin'  |  n != 'Juan Calvino'
+            if perfile[f]["persons"][n] == "#" and n != 'Juan Calvino': # n != 'Jean Calvin'  |  n != 'Juan Calvino'
                 print(n) 
                 name = n
                 obj1["name"] = name

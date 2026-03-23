@@ -61,7 +61,7 @@
   <correspAction type="sent">
   <persName>Jean Calvin<addName type="pseudonym">Charles d'Espeville</addName></persName>
   <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
-  <date when="1543-10-14">14 octobre (1543)</date>
+  <date when="1543-10-14">14 octobre [1543]</date>
  </correspAction>
  <correspAction type="received">
   <name type="individu" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Madame de Fallais</name>

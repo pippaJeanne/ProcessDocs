@@ -34,7 +34,7 @@
   <addName type="pseudonym">Charles D'Espeville</addName> <!--si firmada bajo seudónimo, sino borrar-->
   </persName>
   <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
-  <date when="1544-06-24">24 de junio de (1544)</date>
+  <date when="1544-06-24">24 de junio de [1544]</date>
  </correspAction>
  <correspAction type="received">
   <name type="individuo" key="Yolande de Brederode" ref="https://www.wikidata.org/wiki/Q56000839" corresp="#jolande_brederode">Señora de Fallais</name>

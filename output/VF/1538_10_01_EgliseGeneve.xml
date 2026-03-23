@@ -128,7 +128,7 @@
 <p>Je prie le Seigneur de toute consolation vous reconforter et <choice><orig>soustenir</orig><reg type="modernisation">soutenir</reg></choice> en bonne patience, cependant qu'il vous <choice><orig>veult</orig><reg type="modernisation">veut</reg></choice> <choice><orig>esprouver</orig><reg type="modernisation">éprouver</reg></choice> en ces tribulations, et vous <choice><orig>confermer</orig><reg type="modernisation">confirmer</reg></choice> en l'espérance des promesses qu'il <choice><orig>faict</orig><reg type="modernisation">fait</reg></choice> à ses serviteurs. C'est qu'il ne les tentera point <choice><orig>oultre</orig><reg type="modernisation">outre</reg></choice> ce qu'ils <choice><sic>pourrontendurer</sic><corr>pourront endurer</corr></choice>, mais <choice><orig>avecques</orig><reg type="modernisation">avec</reg></choice> l'affliction qu'il donnera la force et issue salutaire.</p>
  <closer>
     <dateline>De <placeName key="Strasbourg" ref="https://www.wikidata.org/wiki/Q6602" corresp="#strasbourg">Strasbourg</placeName>, ce <date when="1538-10-01">premier d'octobre 1538</date>.</dateline> 
-    <salute><choice><orig>Vostre</orig><reg type="modernisation">Votre</reg></choice> frère et serviteur en <choice><orig>nostre</orig><reg type="modernisation">notre</reg></choice> Seigneur</salute>
+    <salute><choice><orig>Vostre</orig><reg type="modernisation">Votre</reg></choice> frère et serviteur en <choice><orig>nostre</orig><reg type="modernisation">notre</reg></choice> Seigneur<add>,</add></salute>
     <signed>
       <persName type="fullname" key="Jean Calvin" ref="#">JEAN CALVIN</persName>.
     </signed>

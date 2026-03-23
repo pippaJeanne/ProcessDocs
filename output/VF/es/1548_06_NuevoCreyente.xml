@@ -36,7 +36,7 @@
  </correspAction>
  <correspAction type="received">
   <name type="individuo" ref="#" key="Nuevo creyente">Nuevo creyente</name>
-  <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
+  <settlement key="Ginebra" cert="low" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Ginebra]</settlement>
  </correspAction>
  <correspContext>
   <ref type="prev" target="#">
@@ -61,7 +61,7 @@
 <opener>
 <address><addrLine>A un <persName type="individuo" ref="#" key="Nuevo creyente" corresp="#converti">nuevo creyente</persName><note n="*" place="bottom"><p>Carta sin indicación de persona ni año.</p></note></addrLine>
 </address>
-<dateline xml:id="opener">[Enviada a <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</placeName>]
+<dateline xml:id="opener">[Enviada a <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Ginebra]</placeName>]
 </dateline>
 <hi rend="bold"><label type='nature'>Minuta original</label>. Bibl. de Ginebra. Vol. 107a.</hi>
 <hi xml:id="editorNote">

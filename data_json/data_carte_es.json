@@ -331,7 +331,7 @@
                      },
                      "display_date": " 29 de septiembre de 1541",
                      "text": {
-                            "headline": "A los señores de Neuchâtel",
+                            "headline": "Señores de Neuchâtel",
                             "text": "Carta de los ministros de Ginebra, entre los que se incluye Calvino, dirigida a los de Neuchâtel para persuadirles de no deponer a Guillaume Farel luego de haber censurado públicamente una dama de sociedad. Esta carta fue enviada con Pierre Viret y contiene instrucciones de Calvino para su intervención delante del Consistorio de Neuchâtel."
                      },
                      "scr_location": {
@@ -559,7 +559,7 @@
                             "month": "10",
                             "day": "14"
                      },
-                     "display_date": "14 de octubre de (1543)",
+                     "display_date": "14 de octubre de [1543]",
                      "text": {
                             "headline": "Señora de Fallais",
                             "text": "Calvino da aliento a la Señora de Fallais quien compartía los sentimientos de su esposo con respecto a la religión reformada."
@@ -679,7 +679,7 @@
                             "month": "06",
                             "day": "24"
                      },
-                     "display_date": "24 de junio de (1544)",
+                     "display_date": "24 de junio de [1544]",
                      "text": {
                             "headline": "Señora de Fallais",
                             "text": "Ánimo a la señora de Fallais en su nueva vida de libertad de conciencia y de culto luego de haber seguido a su marido a Colonia y a Estrasburgo."
@@ -866,6 +866,46 @@
                      }
               },
               {
+                     "slug": "1545_06_JeanCavent_ES",
+                     "places": [
+                            {
+                                   "name": "Lausana",
+                                   "lat": "46.533333333",
+                                   "lon": "6.633333333"
+                            },
+                            {
+                                   "name": "Estrasburgo",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
+                            {
+                                   "name": "Thonon",
+                                   "lat": "46.370555555",
+                                   "lon": "6.479722222"
+                            }
+                     ],
+                     "start_date": {
+                            "year": "1545",
+                            "month": "06",
+                            "day": "01"
+                     },
+                     "display_date": "[junio de 1545]",
+                     "text": {
+                            "headline": "Jean Cavent",
+                            "text": "Carta de consuelo y consejo a Jean Cavent tras el fallecimiento de su esposa y de su madre, y con relación a la ayuda para sus hijos."
+                     },
+                     "scr_location": {
+                            "name": "[Ginebra]",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "[Lausana]",
+                            "lat": "46.533333333",
+                            "lon": "6.633333333"
+                     }
+              },
+              {
                      "slug": "1545_08_05_MFallais_ES",
                      "places": [
                             {
@@ -941,6 +981,46 @@
                      }
               },
               {
+                     "slug": "1546_02_13_JeanFrellon_ES",
+                     "places": [
+                            {
+                                   "name": "Lyon",
+                                   "lat": "45.7675",
+                                   "lon": "4.835"
+                            },
+                            {
+                                   "name": "Vienne",
+                                   "lat": "45.525555555",
+                                   "lon": "4.874722222"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
+                     "start_date": {
+                            "year": "1546",
+                            "month": "02",
+                            "day": "13"
+                     },
+                     "display_date": "13 de febrero de 1546",
+                     "text": {
+                            "headline": "Jean Frellon",
+                            "text": "Juan Calvino responde a la solicitud de Jean Frellon, librero de Lyon, en relación con Miguel Servet."
+                     },
+                     "scr_location": {
+                            "name": "Ginebra",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Lyon",
+                            "lat": "45.7675",
+                            "lon": "4.835"
+                     }
+              },
+              {
                      "slug": "1548_06_NuevoCreyente",
                      "places": [
                             {
@@ -965,9 +1045,59 @@
                             "lon": "6.15"
                      },
                      "dest_location": {
+                            "name": "[Ginebra]",
+                            "lat": "46.2",
+                            "lon": "6.15"
+                     }
+              },
+              {
+                     "slug": "1551_01_19_Richard_Le_Fevre_ES",
+                     "places": [
+                            {
+                                   "name": "Parlamento de París",
+                                   "lat": "48.856111111",
+                                   "lon": "2.345555555"
+                            },
+                            {
+                                   "name": "Grenoble",
+                                   "lat": "45.186944444",
+                                   "lon": "5.726388888"
+                            },
+                            {
+                                   "name": "Lyon",
+                                   "lat": "45.7675",
+                                   "lon": "4.835"
+                            },
+                            {
+                                   "name": "Egipto",
+                                   "lat": "27.0",
+                                   "lon": "29.0"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            }
+                     ],
+                     "start_date": {
+                            "year": "1551",
+                            "month": "01",
+                            "day": "19"
+                     },
+                     "display_date": "19 de enero de 1551",
+                     "text": {
+                            "headline": "Richard Le Fèvre",
+                            "text": "Carta de Juan Calvino a Richard Le Fèvre exhortándole a la perseverancia y a la fe durante su encarcelamiento, y ofreciendo también argumentos doctrinales para responder a sus acusadores."
+                     },
+                     "scr_location": {
                             "name": "Ginebra",
                             "lat": "46.2",
                             "lon": "6.15"
+                     },
+                     "dest_location": {
+                            "name": "Lyon",
+                            "lat": "45.7675",
+                            "lon": "4.835"
                      }
               },
               {

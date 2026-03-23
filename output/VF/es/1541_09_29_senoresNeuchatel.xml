@@ -34,7 +34,7 @@
   <date when="1541-09-29"> 29 de septiembre de 1541</date>
  </correspAction>
  <correspAction type="received">
-  <name type="grupo" key="Consistorio de Neuchâtel" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-neuchatel">A los señores de Neuchâtel</name>
+  <name type="grupo" key="Consistorio de Neuchâtel" ref="https://www.wikidata.org/wiki/Q131694038" corresp="#conseil-neuchatel">Señores de Neuchâtel</name>
   <settlement key="Neuchâtel" ref="https://www.wikidata.org/wiki/Q69345" corresp="#neuchatel">Neuchâtel</settlement>
  </correspAction>
  <correspContext>

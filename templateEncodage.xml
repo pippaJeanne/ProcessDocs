@@ -41,7 +41,7 @@
 
 </facsimile>
   </bibl>
-        <!-- For manuscript | primary sources -->
+        <!-- For manuscript | primary sources (even printed ones - some adaptations are of course warranted)-->
 <msDesc>
 <msIdentifier>
     <settlement>Genève</settlement>
@@ -54,8 +54,7 @@
 </facsimile>
 </msDesc>
   <notesStmt>
-     <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 
-      sauf indication contraire. Les notes appelées "éditoriales" (en vert) ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+     <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 sauf indication contraire. Les notes appelées "éditoriales" (en vert) ainsi que les notes des phrases latines ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
   </notesStmt>
 </sourceDesc>
 </fileDesc>
@@ -101,7 +100,9 @@
         <note n="*" place="bottom"><p></p></note>
         </addrLine>
         </address>
-        <dateline xml:id="opener">[Envoyée à <placeName key="Strasbourg" cert="low|medium|high" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Strasbourg</placeName>] <!--<placeName key="Estrasburgo" cert="low|medium|high" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">[Estrasburgo]</placeName> => name of place in brackets if cert = low or medium--> 
+        <dateline xml:id="opener">[Envoyée à <placeName key="Strasbourg" cert="low|medium|high" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">Strasbourg</placeName>] 
+          <!-- For place of destination
+        <placeName key="Estrasburgo" cert="low|medium|high" corresp="#strasbourg" ref="https://www.wikidata.org/wiki/Q6602">[Estrasburgo]</placeName> => name of place in brackets if cert = low or medium--> 
         </dateline>
         <hi rend="bold"><label type='nature'>Copie|Orig. autographe| Minute originale </label>. Bibliothèque ...   </hi>
         <hi xml:id="editorNote">

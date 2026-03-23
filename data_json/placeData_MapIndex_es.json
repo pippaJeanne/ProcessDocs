@@ -504,6 +504,16 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/0%20Mons%20-%20Panorama%20vu%20du%20Mont%20H%C3%A9ribus%20%281%29.JPG"
        },
        {
+              "name": "Thonon-les-Bains",
+              "desc": "comuna francesa",
+              "url": "http://www.wikidata.org/entity/Q206165",
+              "coord": {
+                     "lat": "46.370555555",
+                     "lon": "6.479722222"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Thonon%20les%20bains%20-%20port%20de%20rives.JPG"
+       },
+       {
               "name": "Hannover",
               "desc": "capital del Estado federado (Bundesland) Baja Sajonia, en Alemania",
               "url": "http://www.wikidata.org/entity/Q1715",
@@ -512,6 +522,66 @@
                      "lon": "9.738611111"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Neues%20Rathaus%20Hannover%202013.jpg"
+       },
+       {
+              "name": "Vienne",
+              "desc": "comuna francesa",
+              "url": "http://www.wikidata.org/entity/Q26849",
+              "coord": {
+                     "lat": "45.525555555",
+                     "lon": "4.874722222"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Vienne%20panorama%202016-06.jpg"
+       },
+       {
+              "name": "Colonia",
+              "desc": "ciudad de Alemania",
+              "url": "http://www.wikidata.org/entity/Q365",
+              "coord": {
+                     "lat": "50.942222222",
+                     "lon": "6.957777777"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stadtbild%20K%C3%B6ln%20%2850MP%29.jpg"
+       },
+       {
+              "name": "Delfinado",
+              "desc": "antigua provincia francesa",
+              "url": "http://www.wikidata.org/entity/Q151999",
+              "coord": {
+                     "lat": "45.383333333",
+                     "lon": "5.733333333"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Vercors%20001.jpg"
+       },
+       {
+              "name": "Ruan",
+              "desc": "comuna francesa",
+              "url": "http://www.wikidata.org/entity/Q30974",
+              "coord": {
+                     "lat": "49.443055555",
+                     "lon": "1.1025"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Rouen%20mosaique.png"
+       },
+       {
+              "name": "Grenoble",
+              "desc": "ciudad y comuna, capital del departamento de Isère, región de Auvernia-Ródano-Alpes, Francia",
+              "url": "http://www.wikidata.org/entity/Q1289",
+              "coord": {
+                     "lat": "45.186944444",
+                     "lon": "5.726388888"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Grenoble%2001.JPG"
+       },
+       {
+              "name": "Egipto",
+              "desc": "país situado al noreste de África y al suroeste de Asia",
+              "url": "http://www.wikidata.org/entity/Q79",
+              "coord": {
+                     "lat": "27.0",
+                     "lon": "29.0"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/All%20Gizah%20Pyramids.jpg"
        },
        {
               "name": "Borgoña",
@@ -532,16 +602,6 @@
                      "lon": "6.258888888"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/OGolfpractice.jpg"
-       },
-       {
-              "name": "Thonon-les-Bains",
-              "desc": "comuna francesa",
-              "url": "http://www.wikidata.org/entity/Q206165",
-              "coord": {
-                     "lat": "46.370555555",
-                     "lon": "6.479722222"
-              },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Thonon%20les%20bains%20-%20port%20de%20rives.JPG"
        },
        {
               "name": "Londres",
