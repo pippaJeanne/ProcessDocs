@@ -14,7 +14,7 @@
     Distributed under a Creative Commons Attribution-ShareAlike
          3.0 Unported License</licence>
   </availability></publicationStmt>
-<sourceDesc corresp="Adressee_year_month_day">
+<sourceDesc corresp="Adressee_year_month_day"> <!-- value of 'corresp' has to match the value of the 'xml-id' attribute of the TEI tag in the FR reference xml file-->
         <bibl>
           Traducción de la versión modernizada de
           <title level="a" rend="underline">Lettre à l'Église de Genève (1er octobre 1538)</title> editada y codificada en TEI por <editor><name><forename>Yanet</forename> <surname>Hernández Pedraza</surname></name></editor>, basada en la edición de <editor>Jules Bonnet</editor>,

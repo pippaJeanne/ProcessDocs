@@ -24,6 +24,9 @@ routes/
 |   |   |-- [id]
 |   |   |   |-- +page.js
 |   |   |   |-- +page.svelte
+|   |-- pdf_genrator/ -> route for PDF generator page with the filters
+|   |   |-- +page.js
+|   |   |-- +page.svelte
 |   |-- search/
 |   |   |-- +server.js
 |   |-- tags/ -> thematic index

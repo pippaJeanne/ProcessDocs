@@ -9,4 +9,8 @@ lib/ -> internal files
 |-- xmles/ -> XML files of the Spanish translations
 |-- fr_es.js -> internationalization (i18n) file
 |-- search.ts -> definition file for 'flexsearch' functions
-|-- * several CSS files
+|-- blog.css -> css for letter pages
+|-- error.css -> css for error page
+|-- style.css  -> general styles
+|-- toc-css.css -> css for toc for PDF generation
+|-- pagedjs_css.css -> Pagedjs styles for PDF generation

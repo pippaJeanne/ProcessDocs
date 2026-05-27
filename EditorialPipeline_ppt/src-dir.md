@@ -1,3 +1,4 @@
 src/
 |-- lib/ -> internal files
-|-- routes/ -> routes 
+|-- routes/ -> routes
+static/ -> files exposed to the client

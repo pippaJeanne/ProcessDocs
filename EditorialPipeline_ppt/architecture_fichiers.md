@@ -10,7 +10,11 @@ src/
 |   |-- xmles/ -> fichiers XML des traductions espagnoles
 |   |-- fr_es.js -> fichier d'internationalisation (i18n)
 |   |-- search.ts -> fichier de définition des fonctions 'flexsearch'
-|   |-- * plusieurs fichiers css
+|   |-- blog.css -> css pour les pages de lettres
+|   |-- error.css -> css pour la page d'erreur
+|   |-- style.css  -> styles généraux
+|   |-- toc-css.css -> css pour la table des matières pour la génération des PDF
+|   |-- pagedjs_css.css -> styles de Pagedjs pour la génération des PDF
 |-- routes/
 |   |-- [lang = lang]/
 |   |   |-- +layout.server.js
@@ -37,6 +41,9 @@ src/
 |   |   |   |-- [id]
 |   |   |   |   |-- +page.js
 |   |   |   |   |-- +page.svelte
+|   |   |-- pdf_genrator/ -> route pour la page du générateur PDF avec les filtres
+|   |   |   |-- +page.js
+|   |   |   |-- +page.svelte
 |   |   |-- search/
 |   |   |   |-- +server.js
 |   |   |-- tags/ -> index thématique
@@ -55,3 +62,12 @@ src/
 |   |-- +error.svelte
 |   |-- +page.server.js
 |   |-- hooks.server.js -> logique de redirection basée sur la langue
+
+static/ -> fichiers exposés au client
+|-- pics_protocole/
+|   |-- plusieurs fichiers png pour la page du protocole de transcription
+|-- saxonjs3/
+|   |-- fichiers js de la bibliothèque saxonjs pour appliquer la transformation xslt côté client
+|-- xlst/
+|   |-- feuilles de transformation xslt et leurs fichiers sef.json compilés (compilés avec xslt3-he de saxonjs)
+|-- une série de fichiers js pour le fonctionnement global du site et des images, y compris quelques images de manuscrits/sources imprimées dont les institutions de conservation n'offrent pas de liens ARK ou d'images compatibles avec le protocole IIIF
