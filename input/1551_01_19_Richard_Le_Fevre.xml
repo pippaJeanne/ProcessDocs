@@ -1,0 +1,136 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="Lefevre_1551_01_19">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Lettre à Richard Le Fèvre</title>
+<editor role="Modernisation et encodage">Yanet Hernández Pedraza (Candidate au doctorat en littérature option humanités numériques - UdeM)</editor>
+</titleStmt>
+<publicationStmt>
+  <publisher>TEI Consortium</publisher>
+<availability status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed under a Creative Commons Attribution-ShareAlike
+3.0 Unported License</licence>
+</availability>
+</publicationStmt>
+      <!-- For printed source (Jules Bonnet's edition of 1854)-->
+<sourceDesc>
+  <bibl xml:id="bonnet1854">
+     <title>Lettres de Jean Calvin : lettres françaises. T. 1 / recueillies pour la première fois et publ. d'après les ms. originaux par Jules Bonnet</title>. Par
+<author>
+        <name>
+           <forename>Jean</forename>
+           <surname>Calvin</surname>
+        </name>
+        <date from="1509" to="1564">(1509-1564)</date>. Auteur du texte
+</author>, éd.
+<editor>
+        <name>
+           <forename>Jules</forename>
+           <surname>Bonnet</surname>
+        </name>
+     </editor>,
+     <pubPlace>Paris</pubPlace>,
+<publisher>Librarie de Ch. Meyrueis et compagnie</publisher>,
+<date when="1854">1854</date>.
+<affiliation>Provenance : Bibliothèque nationale de France</affiliation>
+<facsimile corresp="43-46"> <!-- The example range is 43-46. The provided text does not specify specific pages for this letter in Bonnet's edition. -->               
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k209248w/f43/info.json"/>
+</facsimile>
+  </bibl>
+        <!-- Additional printed source for this specific letter -->
+  <bibl xml:id="histmartyrs1597">
+      <title>Histoire des martyrs</title>,
+      <edition>Edit. de 1597</edition>,
+      <biblScope unit="volume">L. V</biblScope>,
+      <biblScope unit="page">p. 265</biblScope>.
+  </bibl>
+        <!-- For manuscript | primary sources (even printed ones - some adaptations are of course warranted)-->
+<msDesc>
+<msIdentifier>
+    <settlement>Genève</settlement>
+    <repository>Bibliothèque de Genève</repository>
+    <idno type="cote">Ms. Vol. 109</idno>
+</msIdentifier>
+<facsimile>
+<!-- No graphic URL provided for this manuscript -->
+<graphic url="#"/>
+</facsimile>
+<notesStmt>
+    <note type="origination">Lettre originale autographe.</note>
+</notesStmt>
+</msDesc>
+  <notesStmt>
+     <note>Les notes proviennent de l'édition de Jules Bonnet de 1854 sauf indication contraire. Les notes appelées "éditoriales" (en vert) ainsi que les annotations des passages en latin ont été produites par l'auteure de ce projet : Yanet Hernández Pedraza.</note>
+  </notesStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+ <correspDesc>
+  <correspAction type="sent">
+  <persName key="Jean Calvin" ref="https://www.wikidata.org/wiki/Q37563" corresp="#calvin">Jean Calvin</persName>
+  <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
+  <date when="1551-01-19">19 janvier 1551</date>
+ </correspAction>
+ <correspAction type="received">
+  <persName type="individu" key="Richard Le Fèvre" ref="https://www.wikidata.org/wiki/Q138712526" corresp="#lefevre">Richard Le Fèvre</persName>
+  <settlement cert="high" key="Lyon" ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">Lyon</settlement>
+ </correspAction>
+ <correspContext>
+               <!-- This is the first letter in the sequence, so no previous/next references -->
+               <ref type="prev" target="#"/>
+               <ref type="next" target="#"/>
+ </correspContext>
+ </correspDesc>
+ <desc>Lettre d'encouragement de Jean Calvin à Richard Le Fèvre, prisonnier à Lyon pour sa foi, l'exhortant à la persévérance et abordant des points de doctrine.</desc>
+ <list xml:id="tags">
+ <term>Justification par la foi</term>
+ <term>Intercession des saints</term>
+ <term>Sacrement de la Cène</term>
+ <term>Martyre</term>
+ </list>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+    <opener>
+        <address><addrLine>À <persName type="individu" key="Richard Le Fèvre" ref="https://www.wikidata.org/wiki/Q138712526" corresp="#lefevre">Richard Le Fèvre</persName><note n="*" place="bottom"><p><persName type="individu" key="Richard Le Fèvre" ref="https://www.wikidata.org/wiki/Q138712526" corresp="#lefevre">Richard Le Fèvre</persName>, natif de <placeName key="Rouen" ref="https://www.wikidata.org/wiki/Q30972" corresp="#rouen">Rouen</placeName>, un des martyrs de l'Eglise réformée de <placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">Lyon</placeName>. Saisi dans cette ville en 1551, et condamné à mort, il en appela au <placeName key="Parlement de Paris" ref="https://www.wikidata.org/wiki/Q1242473" corresp="#parlement-paris">parlement de Paris</placeName>, et fut délivré, durant le trajet, par des amis inconnus. Surpris, deux ans après, à <placeName key="Grenoble" ref="https://www.wikidata.org/wiki/Q660" corresp="#grenoble">Grenoble</placeName>, il fut ramené dans les cachots de <placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">Lyon</placeName>, vit sa première sentence confirmée par le <placeName key="Parlement de Paris" ref="https://www.wikidata.org/wiki/Q1242473" corresp="#parlement-paris">parlement de Paris</placeName>, et monta joyeusement sur le bûcher, <date when="1554-07-07">7 juillet 1554</date>. Il écrivait le <date when="1554-05-03">3 mai</date> à <persName key="Jean Calvin" ref="https://www.wikidata.org/wiki/Q37563" corresp="#calvin">Calvin</persName> « La présente est pour vous faire sçavoir que j'espère aller faire la Pentecoste au royaulme des cieux et aller aux nopces du Fils de Dieu…, si plus tost ne suis appelé de ce bon Seigneur et Maistre auquel je suis prest d'obéyr à sa voix, quand il dira : Venez, les bénicts de mon Père; possédez le royaulme qui vous est appareillé devant la fondation du monde… » (Lettre originale autographe. Bibl. de <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</placeName>. Vol. 109.) Durant sa première captivité à <placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456" corresp="#lyon">Lyon</placeName>, <persName type="individu" key="Richard Le Fèvre" ref="https://www.wikidata.org/wiki/Q138712526" corresp="#lefevre">Richard Le Fèvre</persName> avait consulté <persName key="Jean Calvin" ref="https://www.wikidata.org/wiki/Q37563" corresp="#calvin">Calvin</persName> sur quelques points de doctrine, et en avait reçu de pieuses exhortations.</p></note>
+        </addrLine>
+        </address>
+        <dateline xml:id="opener">[Envoyée à <placeName key="Lyon" cert="high" corresp="#lyon" ref="https://www.wikidata.org/wiki/Q456">Lyon</placeName>]</dateline>
+        <hi rend="bold"><label type='nature'>Orig. autographe</label>. Bibliothèque de <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</placeName>.</hi>
+        <hi xml:id="editorNote">[Maintenant sous la cote Ms. Vol. 109]</hi>
+        <salute>Très cher frère,</salute>
+    </opener>
+    <p>comme Dieu vous a appelé pour rendre tesmoignage de son Esvangile, ne doutez point aussi qu'il ne vous fortifie par la vertu de son Esprit; et que, comme desjà il a commencé il ne parface, se monstrant victorieux en vous contre ses ennemis. Il est vrai que les triomphes de Jésus-Christ sont mespriséz du monde car cependant que nous sommes en opprobre les meschants se glorifient en leur orgueil; mais tant y a qu'ils ne laissent point d'estre confus par la puissance de ceste vérité que Dieu nous a mis en la bouche, et aussy nous sommes soustenus en nos cœurs pour nous glorifier contre Sathan et tous ses suppôts, en attendant le jour que la gloire de Dieu sera pleinement révélée à la confusion des méchants et incrédules. Ce que vous avez senti et expérimenté jusques aujourd'hui de la bonté de Dieu vous doit confermer en certaine espérance qu'il ne vous défaudra non plus à l'avenir; cependant priez-le qu'il vous face sentir tousjours mieux quel thrésor c'est que la doctrine pour laquelle vous combattez, afin qu'au regard d'icelle vostre vie ne soit point précieuse. Ayez tousjours aussy les yeux levéz en haut à ce bon Seigneur Jésus, lequel sera vostre garant, puisque vous n'estes persécuté que pour son Nom. Pensez à ceste gloire immortelle laquelle il nous a acquise, afin de pouvoir endurer en patience les afflictions où vous estes. Priez ce bon Dieu continuellement qu'il vous donne telle issuë qu'il a promis à tous les siens ; et selon qu'il a voulu tirer vostre foy à l'examen, qu'il vous' face pratiquer la vertu de ses promesses. Et comme il est le Père de lumière, qu'il vous esclaire tellement que toutes les fumées que les malins vous mettront au-devant ne vous puissent esblouir les yeux, et que toutes leurs finesses et cautelles ne vous puissent obscurcir l'entendement, que tousjours vous ne contempliez le vray Soleil de justice, qui est le vray Fils de Dieu.</p>
+
+    <p>Quant est de respondre aux arguments, vous faites bien de respondre en toute simplicité, parlant selon la mesure de vostre foy comme il est escrit : <hi rend="italic">J'ay creu, pourtant je parleray</hi>. Vray est que toutes les subtilitéz qu'ils cuident avoir ne sont que sottises ridicules ; mais contentez-vous de ce que Dieu vous a départi de sa connoissance, pour rendre pur tesmoignage et sans feintise à la vérité. Car quelque risée qu'ils en facent, ce leur sera comme une foudre à leur confusion, quand ils n'orront que ce qui est fondé en Dieu et en sa parole. Au reste vous savez qui est celui qui a promis de donner bouche et sagesse aux siens à laquelle ses adversaires ne pourront résister. Demandez-lui qu'il vous conduise selon qu'il connaistra estre bon. Ils ne laisseront pas pour cela de vous tenir convaincu d'hérésie, mais autant en a-t-il esté fait à tous les apostres et prophètes, et à tous les martyrs. Le greffier n'escrira sinon ce qui luy viendra à plaisir; mais vostre confession ne laissera pas d'estre enregistrée devant Dieu et ses anges, et il la fera profiter aux siens selon qu'il est à désirer.</p>
+
+    <p>Je toucheray en brief quelques poincts sur lesquels ils ont tasché de vous molester. Pour vous donner à entendre que nous ne sommes point justifiéz par la seule grâce de Dieu, ils vous ont allégué que Zacharie et plusieurs autres sont nomméz justes. Or, sur cela il vous convient regarder comment Dieu les a acceptéz pour tels. S'il se trouve que c'est par sa bonté gratuite, en leur pardonnant tout ce qui étoit à redire en eux, et ne leur imputant point leurs fautes et vices, voilà tout le mérite exclud, car en disant que la seule foy en Christ nous justifie, nous entendons en premier lieu que nous sommes tous maudits, et qu'il n'y a que péchés en nous ; et que nous ne pouvons penser ne faire aucun bien, sinon autant que Dieu nous gouverne par son Saint-Esprit, comme membres du corps de son Fils. Davantage encores que Dieu nous face la grâce de cheminer en sa crainte, que nous sommes bien loin de nous acquitter de nostre debvoir. Or il est escrit : Que quiconque n'accomplira tout ce qui est commandé, sera maudit; et ainsy nous n'avons autre refuge qu'au sang de nostre Seigneur Jésus-Christ qui nous purge et lave au sacrifice de sa mort, qui est nostre sanctification. Par ce mesme moyen Dieu reçoit pour agréable les bonnes œuvres que nous faisons par sa vertu, combien qu'elles soient toujours entachées de quelques povretés. Ainsy quiconque se voudra appuyer sur ses mérites, il sera comme pendu en l'air pour bransler à tous vents. Bref ceux qui pensent mériter aucune chose, se font Dieu redevable, au lieu de quoy il nous faut tenir le tout de sa pure bonté. Nous serons riches et abondans en mérites, estans en Jésus-Christ ; estans hors de sa grâce, ne pensons point ayoir une goutte de bien. Si les ennemis vous allèguent ce mot de loyer, n'en soyez point troublé, car Dieu rend aux siens loyer, combien qu'ils n'en soyent point dignes mais d'autant qu'il accepte les œuvres qu'il a mis en eux, les ayant consacréz au sang de son Fils Jésus-Christ, afin que de là ils prennent leur valeur. Parquoy le loyer que Dieu promet à ses fidèles, présuppose la rémission de leurs péchéz, et le privilége qu'ils ont d'estre supportéz comme ses enfans. Et de faict ce mot de justifier emporte que Dieu nous tienne comme justes, afin de nous aimer, ce que nous obtenons par la seule foy ; car Jésus-Christ seul est la cause de nostre salut. Vray est que <persName key="Jacques de Zébédée" ref="https://www.wikidata.org/wiki/Q43999" corresp="#saint_jacques">saint Jacques</persName> le prend en autre signification quand il dit : Que lès oeuvres aydent la foy pour nous justifier; car il l'entend pour approuver par effect que nous le sommes ; comme aussy il ne dispute point sur quoy nostre salut est fondé, et en quoy il nous faut mettre nostre confiance, mais seulement comment est connue la vraye foy, afin que nul n'en abuse, se glorifiant en vain du titre seulement. S'ils retournoient à vous plus importuns sur ce poinct, j'espère que Dieu vous donnera de quoy pour les vaincre.</p>
+
+    <p>Quant à l'intercession de la vierge <persName key='Marie' ref="https://www.wikidata.org/wiki/Q345" type="forename" corresp="#vierge_marie">Marie</persName> et des saincts trespasséz, revenez tousjours à ce principe, que ce n'est point à nous à faire des advocats en paradis, mais à Dieu, lequel a ordonné Jésus-Christ un seul pour tous. Item, que nos prières doivent estre faites en foy, et par conséquent reiglées par la parole de Dieu comme dit <persName key="Paul de Tarse" ref="https://www.wikidata.org/wiki/Q9200" type="forename" corresp="#paul">sainct Paul</persName> au 10 des Romains. Or est-il ainsy qu'en toute la parole de Dieu il n'y a point une seule syllabe de ce qu'ils disent ; parquoy toutes leurs prières sont prophanes et desplaisantes à Dieu. S'ils vous répliquent plus qu'il ne nous est pas desfendu, la responce est facile. Qu'il nous est défendu de nous ingérer à rien faire de nostre propre sens, voire en chose beaucoup moindre ; mais sur tout que l'oraison est une chose beaucoup privilégiée, et trop sacrée pour nous y gouverner en nostre fantasie. Qui plus est, ils ne peuvent nier que ce qu'ils ont recours aux saincts, ne vienne d'une pure défiance que Jésus-Christ seul ne leur soit assez suffisant.</p>
+
+    <p>Quant à ce qu'ils vont répliquant que la charité des saincts n'est point diminuée, la responce est facile : que la charité se range et limite à ce que Dieu requiert d'un chascun. Or il veut que les vivans s'exercent à prier les uns pour les autres. Des trespasséz il n'en est nulle mention et en si grandes choses, il ne nous faut rien imaginer de nostre cerveau, mais nous tenir à ce qui nous est récité en l'Escriture.</p>
+
+    <p>Quant à ce que les adversaires allèguent, qu'il est dit en Genèse que le nom d'<persName type="name" key="Abraham" ref="https://www.wikidata.org/wiki/Q9181" corresp="#abraham">Abraham</persName> et <persName type="name" key="Isaac" ref="https://www.wikidata.org/wiki/Q671872" corresp="#isaac">Isaac</persName> doit estre invoqué après leur trespas ; vray est que le texte le porte ; mais c'est une pure moquerie de l'amener à ce propos. Cela est écrit au quarante-huitiesme de Genèse, où il est dit que <persName type="name" key="Jacob" ref="https://www.wikidata.org/wiki/Q289957" corresp="#jacob">Jacob</persName> bénissant <persName type="name" key="Ephraïm" ref="https://www.wikidata.org/wiki/Q203251" corresp="#ephraim">Ephraïm</persName> et <persName type="name" key="Manassé" ref="https://www.wikidata.org/wiki/Q1056931" corresp="#manasse">Manassé</persName> les enfans de <persName type="name" key="Joseph" ref="https://www.wikidata.org/wiki/Q145746" corresp="#joseph">Joseph</persName>, prie Dieu, que les noms de ses pères <persName type="name" key="Abraham" ref="https://www.wikidata.org/wiki/Q9181" corresp="#abraham">Abraham</persName> et <persName type="name" key="Isaac" ref="https://www.wikidata.org/wiki/Q671872" corresp="#isaac">Isaac</persName> et le sien soyent invoquéz sur ces deux enfans, comme sur les chefs des lignées descendantes de luy. Or c'est autant comme s'il disoit, qu'ils soyent réputéz et contez au nombre des douze lignées, et qu'ils facent deux testes comme s'ils estoyent ses enfans en premier degré ; joinct aussi qu'ils estoient néz en <placeName key="Egypte" ref="https://www.wikidata.org/wiki/Q794" corresp="#egypte">Egypte</placeName>. Il les joinct par sa prière au lignage que Dieu avoit béni et sanctifié, pource que de ce temps-là, ils en estoyent comme séparéz, selon l'apparence extérieure. Ainsy ceste façon de parler ne signifie sinon de porter le nom d'<persName type="name" key="Abraham" ref="https://www.wikidata.org/wiki/Q9181" corresp="#abraham">Abraham</persName>, et d'estre réclaméz de son lignage, comme il est dit au quatrième d'<persName key="Isaïe" ref="https://www.wikidata.org/wiki/Q188120" corresp="#isaie">Esaïe</persName> : Que le nom du mari est réclamé sur la femme, d'autant que la femme est sous l'ombre et conduite de son mari.</p>
+
+    <p>Sur ce qu'on vous allègue <persName key="Ignace d'Antioche" ref="https://www.wikidata.org/wiki/Q207860" corresp="#ignace">sainct Ignace</persName>, vous n'avez point à faire grande responce. Il y a une sentence là où il dit : Que Jésus-Christ luy est pour toute ancienneté. Armez-vous donc de ce seul mot, pour les ramener à la pure doctrine de l'Evangile.</p>
+
+    <p>Pource que j'ay usé de ce terme-là contre les papistes, ils prenent couleur de dire que j'aprouve et prise ce livre-là. Or afin que vous n'en soyez point estonné je vous asseure qu'il y a un amas de badinages si lourds, que les moines d'aujourd'hui n'escriroient point plus sottement. Mais pource que n'avez point connaissance de la langue latine, encores moins de la grecque en laquelle <persName key="Ignace d'Antioche" ref="https://www.wikidata.org/wiki/Q207860" corresp="#ignace">sainct Ignace</persName> a escrit (si nous avons quelque chose de luy à la vérité), vous n'avez que faire d'entrer en ceste dispute. Contentez-vous de leur respondre que ne pouvez faillir en suyvant Jésus-Christ, qui est la Lumière du monde. Quant aux docteurs anciens, ceux qui sont plus excitéz leur en pourront dire assez pour leur clorre la bouche. Que ce vous soit assez d'avoir vraye foy asseurée en la seule parole de Jésus-Christ lequel ne peut faillir ne mentir. Et mesme que c'est où les renvoyent tous les docteurs anciens, protestans de ne vouloir estre creus, sinon en tant que leur dire sera trouvé conforme à ce qui nous est enseigné de Dieu, et qui est contenu en sa parole.</p>
+
+    <p>Sur la matière du sacrement de la Cène, quand ils vous parleront de leur transsubstantiation, il y a responce propre : que toutes ces sentences qu'ils ameinent, encores qu'elles deussent estre entendues à leur sens, ne se peuvent appliquer à la messe. Car, comme il est dit : Cecy est mon corps et mon sang ; il est aussy quand et quand adjousté : Prenez, mangez et beuvez tous de ce calice. Or entre eux, il n'y en a qu'un qui mange tout ; et encores à Pâques, il n'en donne que la moitié au peuple. Mais qu'il y a encores un plus grand mal, qu'au lieu que Jésus-Christ dit : Prenez ; ils présument de faire un sacrifice qui doit estre unique et perpétuel. Et ainsy pour s'ayder de ces paroles, il faudroit qu'ils eussent l'usage de la Cène, ce qu'ils n'ont pas. Au reste, vous avez tousjours à protester que vous ne niez pas que Jésus-Christ ne nous donne son corps, moyennant que nous le cherchions au ciel. Sur toutes les cavillations qu'ils vous pourroyent amener, vous n'avez sinon à leur déclarer ce que vous avez veu et ouy, sachant bien que c'est Dieu de qui vous le tenez ; car nostre foy seroit bien maigre, si elle estoit fondée sur les hommes. Il n'y a donc rien meilleur, sinon de méditer continuellement la doctrine où gist la vraye substance de nostre chrestienté, afin qu'en temps et lieu vous puissiez monstrer que vous n'avez point creu en vain. Et comme j'ay dit du commencement, si les ennemis de vérité combattent par ambition, de vostre part montrez qu'il vous suffit de donner gloire à Dieu contre leurs ruses et sophisteries. Contentez-vous d'avoir pour vostre bouclier une simple confession de ce que Dieu a imprimé en vostre cœur. Tant moins vous faut-il tourmenter, s'ils usent de calomnies impudentes contre moy ou contre d'autres, puisqu'ils ont licence de mesdire sans raison ne propos. Portons patiemment tous les opprobres et vilenies, qu'ils nous jetteront dessus ; car nous ne sommes pas meilleurs que <persName key="Paul de Tarse" ref="https://www.wikidata.org/wiki/Q9200" type="forename" corresp="#paul">saint Paul</persName>, qui disoit qu'il nous faut cheminer par blasmes et par vitupères. Moyennant que nous facions ce qui est bon, quand on dira mal de nous, c'est assez pour nous descharger. Mais encores quand ils nous imposent telles calomnies, nous avons bien à rendre grâces à Dieu, quand nous avons nostre conscience pure devant luy et devant les hommes, et que nous sommes hors de toute suspicion mauvaise. Et d'autre part combien que nous soyons povres pécheurs, si pleins de povreté que nous avons à en gémir continuellement, toutesfois qu'il ne permette aux méchants de mesdire de nous, sinon en mentant ; voire pour les condamner de leur propre bouche, d'avoir controuvé de nous ce qu'ils ne doyvent point chercher loin, d'autant qu'il est en eux. Glorifions-nous donc en la grâce de Dieu avec toute humilité, quand nous voyons que ces povres malheureux, comme yvrongnes, se glorifient en leur turpitude. S'il vous fait mal de les ouyr détracter ainsy frauduleusement de moy, vous devez estre bien plus marri de les ouïr blasphémer contre nostre Sauveur et Maistre, auquel tout honneur apartient, quand avec toute l'innocence qui sera en nous, nous sommes dignes d'estre accabléz en toute confusion.</p>
+
+    <p>Or cependant consolez-vous en nostre bon Dieu, qui nous a fait la grâce de nous conjoindre totalement avec son Fils et que tous les diables d'enfer et tous les iniques du monde ne nous en peuvent séparer. Esjouissez-vous en ce que vous soutenez sa querelle, en bonne conscience, espérant qu'il vous donnera la force pour porter ce qui luy plaira que vous souffriez. Nous avons telle souvenance de vous en nos prières comme nous devons, en suppliant ce bon Dieu, puisqu'il luy a pleu vous employer à maintenir sa vérité, qu'il vous donne tout ce qui est nécessaire à un office tant honorable ; qu'il vous fortifie en vraye persévérance ; qu'il vous donne vraye prudence spirituelle, pour ne chercher sinon l'avancement de son nom, sans avoir égard à vous ; et qu'il se montre tellement vostre protecteur, que vous le sentiez à vostre consolation, et que les autres aussy l'aperçoivent pour estre esdifiéz. Tous les frères de par deçà vous saluent en nostre Seigneur, s'esjouissans de ce qu'il a besongné si puissamment en vous, ayans aussi compassion de vostre captivité, et désirant qu'il plaise à ce bon Dieu desployer sa bonté et mercy sur vous.</p>
+ <closer>
+    <dateline>De <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genesve</placeName>, ce <date when="1551-01-19">19 de janvier 1551</date>.</dateline> 
+    <salute>Vostre frère en nostre Seigneur,</salute>
+    <signed>
+      <persName type="fullname" key="Jean Calvin" ref="https://www.wikidata.org/wiki/Q37563" corresp="#calvin">JÉHAN CALVIN</persName>.
+    </signed>
+  </closer>
+</body>
+</text>
+</TEI>
+```

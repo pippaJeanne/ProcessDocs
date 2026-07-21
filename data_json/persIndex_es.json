@@ -18,10 +18,10 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Joachim%20II%20of%20Brandenburg%20by%20Lucas%20Cranach%20the%20Younger.jpg"
        },
        {
-              "name": "Fernando I de Habsburgo (1503 - 1564)",
-              "desc": "Trigésimo noveno Rey del Reino de Hungría y Emperador del Sacro Imperio Romano Germanico",
-              "url": "http://www.wikidata.org/entity/Q150611",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Bocksberger%20%28I%29%20-%20Emperor%20Ferdinand%20I%20-%20WGA02326.jpg"
+              "name": "Johann von Metzenhausen (1492 - 1540)",
+              "desc": "arzobispo, príncipe elector de Tréveris",
+              "url": "http://www.wikidata.org/entity/Q119532",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Johann%20von%20Metzenhausen.jpg"
        },
        {
               "name": "Alberto de Brandeburgo (1490 - 1545)",
@@ -30,16 +30,16 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Albrecht-von-Brandenburg-2.jpg"
        },
        {
-              "name": "Johann von Metzenhausen (1492 - 1540)",
-              "desc": "arzobispo, príncipe elector de Tréveris",
-              "url": "http://www.wikidata.org/entity/Q119532",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Johann%20von%20Metzenhausen.jpg"
-       },
-       {
               "name": "Friedrich Nausea",
               "desc": "Obispo católico romano",
               "url": "http://www.wikidata.org/entity/Q95603",
               "img": ""
+       },
+       {
+              "name": "Fernando I de Habsburgo (1503 - 1564)",
+              "desc": "Trigésimo noveno Rey del Reino de Hungría y Emperador del Sacro Imperio Romano Germanico",
+              "url": "http://www.wikidata.org/entity/Q150611",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Bocksberger%20%28I%29%20-%20Emperor%20Ferdinand%20I%20-%20WGA02326.jpg"
        },
        {
               "name": "Johann Cochlaeus (1479 - 1552)",
@@ -60,7 +60,7 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/CranachElderJohannFriedrichSachsen.jpg"
        },
        {
-              "name": "israelita",
+              "name": "Israelitas",
               "desc": "gentilicio que corresponde a los habitantes del antiguo reino de Israel",
               "url": "http://www.wikidata.org/entity/Q51669",
               "img": ""
@@ -114,16 +114,16 @@
               "img": ""
        },
        {
-              "name": "Hermann von Wied (1477 - 1552)",
-              "desc": "arzobispo alemán",
-              "url": "http://www.wikidata.org/entity/Q95916",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hermann-von-Wied.jpg"
-       },
-       {
               "name": "Louis de Tillet",
               "desc": "Sacerdote católico francés",
               "url": "http://www.wikidata.org/entity/Q3263586",
               "img": ""
+       },
+       {
+              "name": "Hermann von Wied (1477 - 1552)",
+              "desc": "arzobispo alemán",
+              "url": "http://www.wikidata.org/entity/Q95916",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hermann-von-Wied.jpg"
        },
        {
               "name": "Luis IV del Palatinado (1424 - 1449)",
@@ -172,12 +172,6 @@
               "desc": "escritor latino y apologista cristiano",
               "url": "http://www.wikidata.org/entity/Q209102",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lactantius.jpg"
-       },
-       {
-              "name": "Renata de Francia (1510 - 1574)",
-              "desc": "Aristócrata francesa",
-              "url": "http://www.wikidata.org/entity/Q235841",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Renee%20de%20france.jpg"
        },
        {
               "name": "Jacques de Bourgogne",
@@ -246,7 +240,7 @@
               "img": ""
        },
        {
-              "name": "filisteos",
+              "name": "Filisteos",
               "desc": "pueblo de la Antigüedad",
               "url": "http://www.wikidata.org/entity/Q193776",
               "img": ""
@@ -258,16 +252,16 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ier%20Louvre.jpg"
        },
        {
-              "name": "Felipe Melanchthon (1497 - 1560)",
-              "desc": "Humanista, filósofo y reformador protestante alemán",
-              "url": "http://www.wikidata.org/entity/Q76325",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg"
-       },
-       {
               "name": "Martín Bucero (1491 - 1551)",
               "desc": "teólogo y reformador protestante alemán",
               "url": "http://www.wikidata.org/entity/Q318622",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Buzer%20%28Bucer%29.jpg"
+       },
+       {
+              "name": "Felipe Melanchthon (1497 - 1560)",
+              "desc": "Humanista, filósofo y reformador protestante alemán",
+              "url": "http://www.wikidata.org/entity/Q76325",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg"
        },
        {
               "name": "Consistorio de Neuchâtel",
@@ -280,6 +274,12 @@
               "desc": "teólogo y fraile alemán",
               "url": "http://www.wikidata.org/entity/Q9554",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lucas%20Cranach%20d.%C3%84.%20-%20Martin%20Luther%2C%201528%20%28Veste%20Coburg%29.jpg"
+       },
+       {
+              "name": "Renata de Francia (1510 - 1574)",
+              "desc": "Aristócrata francesa",
+              "url": "http://www.wikidata.org/entity/Q235841",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Renee%20de%20france.jpg"
        },
        {
               "name": "Margarita de Angulema (1492 - 1549)",

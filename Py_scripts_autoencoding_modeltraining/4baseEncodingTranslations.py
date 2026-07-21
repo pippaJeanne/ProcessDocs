@@ -32,7 +32,7 @@ for doc in traslations:
             reference_content = open(ref, "r").read()
 
             response = client.models.generate_content(
-                model='gemini-2.5-flash', contents=f"En prenant le modèle d'encodage TEI dans {template} et la version original en français dans {reference_content}, prends la traduction dans {text} de la lettre et fais l'encodage TEI de la traduction en suivant strictement le modèle fourni dans {template}. Produis le contenu dans un fichier XML-TEI.")
+                model='gemini-2.5-flash', contents=f"En prenant le modèle d'encodage TEI dans {template} et la version originale en français dans {reference_content}, prends la traduction dans {text} de la lettre et fais l'encodage TEI de la traduction en suivant strictement le modèle fourni dans {template}. Produis le contenu dans un fichier XML-TEI.")
             with open(f"output/VF/es/{name}", "w", encoding="utf8") as outfile:
                 outfile.write(response.text)
             print("Done!")

@@ -47,7 +47,7 @@ C'est la phase semi-automatique où le travail éditorial humain est primordial 
 
 6. **Analyse thématique pour l'identification des thèmes** - Une analyse textuelle approfondie est réalisée pour identifier et valider les thèmes sous-jacents qui pourraient ne pas être évidents. Utilisant des techniques de traitement du langage naturel (fréquence des mots, analyse de co-occurrence, similarité sémantique, extraction de termes clés avec TF-IDF, et analyse stylométrique), le script génère des visualisations et des matrices de similarité. Ces analyses incluent l'étude des bigrammes/trigrammes, l'identification des patterns de co-occurrence dans une fenêtre contextuelle, et la comparaison de paragraphes similaires pour vérifier la cohérence. Les résultats (matrices de similarité, listes de co-occurrence, graphes PCA) servent de validation ou de complément aux décisions thématiques de l'éditeur, qui conserve l'autorité finale dans l'attribution des thèmes—particulièrement important pour les lettres courtes où les thèmes peuvent être implicites ou nuancés.
 
-7. **Traduction espagnole** - Le texte français modernisé est traduit à l'aide d'un modèle Gemini affiné entraîné sur les traductions des premières 15-18 lettres éditées et traduites. L'éditeur/traducteur révise et corrige le résultat. Les fragments de traduction sont alignés avec le français (ciblant ~5000 tokens par fragment) pour créer des données d'entraînement pour ré-affiner le modèle dans une forme de système de mémoire de traduction.
+7. **Traduction espagnole** - Le texte français modernisé est traduit à l'aide d'un modèle Gemini affiné entraîné sur les traductions des premières 15-18 lettres éditées et traduites. L'éditeur/traducteur révise et corrige le résultat. Les fragments de traduction sont alignés avec le français (ciblant ~4000 caratères par fragment) pour créer des données d'entraînement pour ré-affiner le modèle dans une forme de système de mémoire de traduction.
 
 8. **Encodage TEI de la version espagnole** - La traduction espagnole est encodée en TEI en utilisant une requête à l'API Gemini qui passe [le protocole d'encodage en espagnol](templateXMLes.xml) et le fichier TEI de référence en français. Le résultat est révisé et corrigé par l'éditeur, notamment les attributs de nom complet des entités nommées, la bibliographie, l'encodage et les annotations.
    **Note de validation** - Vérifier la correspondance FR-ES avant publication. Par exemple, si l'interface bilingue affiche la version française à la place de la traduction espagnole, cela indique généralement que la valeur de l'attribut `corresp` dans `sourceDesc` du fichier XML espagnol ne correspond pas à la valeur de l'attribut `xml:id` de l'élément `TEI` du fichier XML français de référence.
@@ -86,12 +86,12 @@ La plateforme de publication est organisée en deux répertoires principaux :
 - `xml/` - Fichiers XML en français
 - `xmles/` - Fichiers XML des traductions espagnoles
 - `fr_es.js` - Configuration d'internationalisation (i18n)
-- `search.ts` - Définitions des fonctions de recherche en texte intégral
+- `search.ts` - Définitions des fonctions de recherche en texte intégral (d'après le plugin `sveltekit-flexsearch`)
 - `*.css` - Feuilles de style : `blog.css` (pages de lettres), `error.css`, `style.css` (général), `toc-css.css` et `pagedjs_css.css` (génération PDF)
 
 **`src/routes/` - Logique de routage :**
 - `[lang = lang]/` - Structure de routage basée sur la langue contenant :
-  - `lettres/` - Affichage des lettres en français
+  - `lettres/` - Affichage des lettres en français (apparat critique | interface comparative)
   - `cartas/` - Affichage des traductions espagnoles
   - `carte/` - Carte interactive d'index des lieux
   - `categories/` - Filtrage par catégories thématiques
@@ -205,12 +205,12 @@ The publishing platform is organized into two main directories:
 - `xml/` - XML files in French
 - `xmles/` - Spanish translation XML files
 - `fr_es.js` - Internationalization (i18n) configuration
-- `search.ts` - Full-text search function definitions
+- `search.ts` - Full-text search function definitions (based on the plugin `sveltekit-flexsearch`)
 - `*.css` - Stylesheets: `blog.css` (letter pages), `error.css`, `style.css` (general), `toc-css.css` and `pagedjs_css.css` (PDF generation)
 
 **`src/routes/` - Routing Logic:**
 - `[lang = lang]/` - Language-based routing structure containing:
-  - `lettres/` - French letters display
+  - `lettres/` - French letters display (critical apparatus | comparative interface)
   - `cartas/` - Spanish translations display
   - `carte/` - Interactive place index map
   - `categories/` - Thematic category filtering

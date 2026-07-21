@@ -314,6 +314,20 @@
                      "id": "#ferdinand"
               },
               {
+                     "name": "Filisteos",
+                     "wikiurl": "http://www.wikidata.org/entity/Q193776",
+                     "thumbnail": "",
+                     "desc": "pueblo de la Antigüedad",
+                     "letters": [
+                            {
+                                   "slug": "1544_06_24_MFallais_ES",
+                                   "date": "24 de junio de [1544]",
+                                   "headline": "Señor de Fallais"
+                            }
+                     ],
+                     "id": "#philistins"
+              },
+              {
                      "name": "Francisco I de Francia (1494 - 1547)",
                      "wikiurl": "http://www.wikidata.org/entity/Q129857",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Ier%20Louvre.jpg",
@@ -398,6 +412,20 @@
                      "id": "#archevequeCologne"
               },
               {
+                     "name": "Iglesia de Lyon",
+                     "wikiurl": "",
+                     "thumbnail": "",
+                     "desc": "",
+                     "letters": [
+                            {
+                                   "slug": "1542_05_fielesLyon",
+                                   "date": "mayo de 1542",
+                                   "headline": "Fieles de Lyon"
+                            }
+                     ],
+                     "id": "#eglise_Lyon"
+              },
+              {
                      "name": "Iglesia protestante de Ginebra",
                      "wikiurl": "http://www.wikidata.org/entity/Q13371956",
                      "thumbnail": "",
@@ -438,6 +466,20 @@
                             }
                      ],
                      "id": "#isaac"
+              },
+              {
+                     "name": "Israelitas",
+                     "wikiurl": "http://www.wikidata.org/entity/Q51669",
+                     "thumbnail": "",
+                     "desc": "gentilicio que corresponde a los habitantes del antiguo reino de Israel",
+                     "letters": [
+                            {
+                                   "slug": "1538_10_01_EgliseGeneve_ES",
+                                   "date": "1ro de octubre de 1538",
+                                   "headline": "Iglesia de Ginebra"
+                            }
+                     ],
+                     "id": "#Israelites"
               },
               {
                      "name": "Jacob",
@@ -1122,34 +1164,6 @@
                             }
                      ],
                      "id": "#zacharie"
-              },
-              {
-                     "name": "filisteos",
-                     "wikiurl": "http://www.wikidata.org/entity/Q193776",
-                     "thumbnail": "",
-                     "desc": "pueblo de la Antigüedad",
-                     "letters": [
-                            {
-                                   "slug": "1544_06_24_MFallais_ES",
-                                   "date": "24 de junio de [1544]",
-                                   "headline": "Señor de Fallais"
-                            }
-                     ],
-                     "id": "#philistins"
-              },
-              {
-                     "name": "israelita",
-                     "wikiurl": "http://www.wikidata.org/entity/Q51669",
-                     "thumbnail": "",
-                     "desc": "gentilicio que corresponde a los habitantes del antiguo reino de Israel",
-                     "letters": [
-                            {
-                                   "slug": "1538_10_01_EgliseGeneve_ES",
-                                   "date": "1ro de octubre de 1538",
-                                   "headline": "Iglesia de Ginebra"
-                            }
-                     ],
-                     "id": "#Israelites"
               }
        ]
 }

@@ -161,7 +161,7 @@
        },
        {
               "name": "Fráncfort del Meno",
-              "desc": "ciudad del estado federado de Hesse (Alemania)",
+              "desc": "ciudad en Hesse, Alemania",
               "url": "http://www.wikidata.org/entity/Q1794",
               "coord": {
                      "lat": "50.110555555",
@@ -171,7 +171,7 @@
        },
        {
               "name": "Alemania",
-              "desc": "país de Europa central",
+              "desc": "país de Europa Occidental",
               "url": "http://www.wikidata.org/entity/Q183",
               "coord": {
                      "lat": "51.0",
@@ -271,7 +271,7 @@
        },
        {
               "name": "Francia",
-              "desc": "país de Europa Occidental y otros continentes a través de sus territorios de ultramar en América, África y Oceanía",
+              "desc": "país de Europa Occidental",
               "url": "http://www.wikidata.org/entity/Q142",
               "coord": {
                      "lat": "47.0",
@@ -362,20 +362,22 @@
               "img": ""
        },
        {
+              "name": "Países Bajos",
+              "desc": "uno de los cuatro países autónomos del Reino de los Países Bajos; con territorios en el Caribe.",
+              "url": "http://www.wikidata.org/entity/Q55",
+              "img": ""
+       },
+       {
+              "name": "Provincias Unidas de los Países Bajos",
+              "desc": "país de Europa (1581–1795)",
+              "url": "http://www.wikidata.org/entity/Q170072",
+              "img": ""
+       },
+       {
               "name": "Provincia de Brabante",
               "desc": "antigua provincia de Bélgica (1830-1995)",
               "url": "http://www.wikidata.org/entity/Q848831",
               "img": ""
-       },
-       {
-              "name": "Países Bajos",
-              "desc": "uno de los cuatro países autónomos del Reino de los Países Bajos; con territorios en el Caribe.",
-              "url": "http://www.wikidata.org/entity/Q55",
-              "coord": {
-                     "lat": "52.316666666",
-                     "lon": "5.55"
-              },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Karakteristieke%20boerderij%2C%20Aldlansdyk%20in%20Cornjum%2002.jpg"
        },
        {
               "name": "Espira",
@@ -392,8 +394,8 @@
               "desc": "ciudad en el Mediterráneo oriental, santa para las tres religiones abrahámicas",
               "url": "http://www.wikidata.org/entity/Q1218",
               "coord": {
-                     "lat": "31.778888888",
-                     "lon": "35.225555555"
+                     "lat": "31.776679",
+                     "lon": "35.234156"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20the%20Rock%20seen%20from%20the%20Mount%20of%20Olives%20%2812395649153%29%20%28cropped%29.jpg"
        },
@@ -575,7 +577,7 @@
        },
        {
               "name": "Egipto",
-              "desc": "país situado al noreste de África y al suroeste de Asia",
+              "desc": "país de África del Norte",
               "url": "http://www.wikidata.org/entity/Q79",
               "coord": {
                      "lat": "27.0",

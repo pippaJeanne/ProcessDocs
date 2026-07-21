@@ -34,7 +34,7 @@ print(len(wikilist))
 query_wiki = ""
 queryfile = ""
 urlWikidata = "https://query.wikidata.org/sparql"
-sparql_wiki = SPARQLWrapper(urlWikidata)
+sparql_wiki = SPARQLWrapper(urlWikidata, agent='Yanethern/0.0 (yhranlo@gmail.com) named_entities_extractor/0.0')
 persons = []
 
 # Seting limit of about 25 to avoir overloading the query and getting timeout error
@@ -87,7 +87,7 @@ for i in range(n+1):
               #print(pers)  
       persons.append(pers)
       qwiki = []
-      time.sleep(0.1) # To avoid overloading the server and getting timeout error
+      time.sleep(0.60) # To avoid overloading the server and getting timeout error
 
 
 jsonfile = []

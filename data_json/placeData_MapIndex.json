@@ -161,7 +161,7 @@
        },
        {
               "name": "Francfort-sur-le-Main",
-              "desc": "ville d’Allemagne",
+              "desc": "plus grande ville du Land de Hesse, Allemagne",
               "url": "http://www.wikidata.org/entity/Q1794",
               "coord": {
                      "lat": "50.110555555",
@@ -291,7 +291,7 @@
        },
        {
               "name": "Lyon",
-              "desc": "ville française d'Auvergne-Rhône-Alpes",
+              "desc": "ville française",
               "url": "http://www.wikidata.org/entity/Q456",
               "coord": {
                      "lat": "45.7675",
@@ -324,6 +324,18 @@
                      "lon": "5.1711"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/FallaisVillage.JPG"
+       },
+       {
+              "name": "Pays-Bas",
+              "desc": "un des quatre pays autonomes du Royaume des Pays-Bas ; avec des territoires dans les Caraïbes",
+              "url": "http://www.wikidata.org/entity/Q55",
+              "img": ""
+       },
+       {
+              "name": "Provinces-Unies",
+              "desc": "ancien pays européen ayant existé de 1581 à 1795 correspondant aux Pays-Bas aujourd'hui",
+              "url": "http://www.wikidata.org/entity/Q170072",
+              "img": ""
        },
        {
               "name": "Cologne",
@@ -362,16 +374,6 @@
               "img": ""
        },
        {
-              "name": "Pays-Bas",
-              "desc": "un des quatre pays autonomes du Royaume des Pays-Bas ; avec des territoires dans les Caraïbes",
-              "url": "http://www.wikidata.org/entity/Q55",
-              "coord": {
-                     "lat": "52.316666666",
-                     "lon": "5.55"
-              },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Karakteristieke%20boerderij%2C%20Aldlansdyk%20in%20Cornjum%2002.jpg"
-       },
-       {
               "name": "Spire",
               "desc": "ville d'Allemagne",
               "url": "http://www.wikidata.org/entity/Q6829",
@@ -386,8 +388,8 @@
               "desc": "ville du Proche-Orient, sainte pour les trois religions abrahamiques",
               "url": "http://www.wikidata.org/entity/Q1218",
               "coord": {
-                     "lat": "31.778888888",
-                     "lon": "35.225555555"
+                     "lat": "31.776679",
+                     "lon": "35.234156"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dome%20of%20the%20Rock%20seen%20from%20the%20Mount%20of%20Olives%20%2812395649153%29%20%28cropped%29.jpg"
        },
@@ -439,7 +441,7 @@
        },
        {
               "name": "île d'Oléron",
-              "desc": "île française, Charente-Maritime, Nouvelle-Aquitaine",
+              "desc": "île située dans le golfe de Gascogne, Charente-Maritime, Nouvelle-Aquitaine",
               "url": "http://www.wikidata.org/entity/Q292568",
               "coord": {
                      "lat": "45.925",
@@ -466,16 +468,6 @@
                      "lon": "5.20256"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Merindol.JPG"
-       },
-       {
-              "name": "Strasbourg",
-              "desc": "capitale de la région historique d'Alsace, préfecture du Bas-Rhin et de la région Grand Est",
-              "url": "http://www.wikidata.org/entity/Q6602",
-              "coord": {
-                     "lat": "48.573333333",
-                     "lon": "7.752222222"
-              },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Strasburg.jpg"
        },
        {
               "name": "Genève",

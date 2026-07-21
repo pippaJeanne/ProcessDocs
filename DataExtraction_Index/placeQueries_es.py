@@ -1,6 +1,7 @@
 
 #pip install SPARQLWrapper
 import json
+import time
 from SPARQLWrapper import SPARQLWrapper, JSON
 #get json file contianing the data
 placedata = {}
@@ -35,7 +36,7 @@ query_wiki = ""
 queryfile = ""
 # To execute query | Pass values for queries
 urlWikidata = "https://query.wikidata.org/sparql"
-sparql_wiki = SPARQLWrapper(urlWikidata)
+sparql_wiki = SPARQLWrapper(urlWikidata, agent='Yanethern/0.0 (yhranlo@gmail.com) named_entities_extractor/0.0')
 
 places = []
 
@@ -47,7 +48,7 @@ for i in range(n+1):
   if newlimit > len(wikilist):
     newlimit = len(wikilist)
   print("Executing query for items from " + str(i*limit) + " to " + str(newlimit))
-  for w in wikilist[i*limit : newlimit]: 
+  for w in wikilist[i*limit : newlimit]:
     item = uriswiki[w]
     q = "{BIND(wd:" + item + " AS ?item) \n  OPTIONAL{?item wdt:P625  ?coord; wdt:P18 ?img. \n BIND(geof:longitude(?coord) AS   ?lon) \n BIND(geof:latitude(?coord) AS   ?lat) \n}}"
     qwiki.append(q)
@@ -78,6 +79,7 @@ for i in range(n+1):
       places.append(place)
     #print(len(results['results']['bindings']), len(places))
     qwiki = []
+    time.sleep(0.60) # To avoid overloading the server and getting timeout error
 
 # Create file for with results
 jsonfile = places

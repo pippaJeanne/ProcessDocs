@@ -12,6 +12,8 @@ import json
 import os
 client = genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
 
+### To pocess only one letter uncomment next two blocks
+
 #template = open("templateEncodage.xml", "r").read()
 #text = open("ToProcess.txt", "r").read()
 #wikiLinks = open("WikiLinksPCalvin.md", "r").read()

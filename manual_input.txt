@@ -4,10 +4,9 @@ Wilhelm von Hohnstein (1466 - 1541)
 
 Sébastien Castellion (1515 - 1563) | Castellion
 
-Renée de France (1510 - 1574) | Renata
-
 Abraham
 
+** Clean all ( - )
 
 ####
 Add coordinates for Saint-Siège | Santa Sede | Vatican City => The SPARQL query doesn't seem to return it even though it's present in Wikidata … and the value is wrong

@@ -51,11 +51,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Estrasburgo",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      }
@@ -106,11 +108,13 @@
                      },
                      "scr_location": {
                             "name": "Estrasburgo",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      },
                      "dest_location": {
                             "name": "París",
+                            "cert": "high",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
                      }
@@ -141,11 +145,13 @@
                      },
                      "scr_location": {
                             "name": "Estrasburgo",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      },
                      "dest_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -186,11 +192,13 @@
                      },
                      "scr_location": {
                             "name": "Estrasburgo",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      },
                      "dest_location": {
                             "name": "París",
+                            "cert": "high",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
                      }
@@ -251,11 +259,13 @@
                      },
                      "scr_location": {
                             "name": "Estrasburgo",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      },
                      "dest_location": {
                             "name": "[Ginebra]",
+                            "cert": "medium",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -301,11 +311,13 @@
                      },
                      "scr_location": {
                             "name": "Estrasburgo",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      },
                      "dest_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -336,11 +348,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Neuchâtel",
+                            "cert": "high",
                             "lat": "46.990277777",
                             "lon": "6.930555555"
                      }
@@ -401,11 +415,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Ferrara]",
+                            "cert": "low",
                             "lat": "44.839166666",
                             "lon": "11.6175"
                      }
@@ -446,11 +462,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Lyon",
+                            "cert": "high",
                             "lat": "45.7675",
                             "lon": "4.835"
                      }
@@ -462,6 +480,11 @@
                                    "name": "Ginebra",
                                    "lat": "46.2",
                                    "lon": "6.15"
+                            },
+                            {
+                                   "name": "Francia",
+                                   "lat": "47.0",
+                                   "lon": "2.0"
                             },
                             {
                                    "name": "Tierra de Israel",
@@ -481,13 +504,15 @@
                      },
                      "scr_location": {
                             "name": "[Ginebra]",
+                            "cert": "low",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Ginebra]",
-                            "lat": "46.2",
-                            "lon": "6.15"
+                            "name": "[Francia]",
+                            "cert": "low",
+                            "lat": "47.0",
+                            "lon": "2.0"
                      }
               },
               {
@@ -536,11 +561,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Fallais]",
+                            "cert": "low",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
@@ -566,11 +593,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Fallais]",
+                            "cert": "low",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
@@ -596,11 +625,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Fallais]",
+                            "cert": "low",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
@@ -614,11 +645,6 @@
                                    "lon": "6.957777777"
                             },
                             {
-                                   "name": "Países Bajos",
-                                   "lat": "52.316666666",
-                                   "lon": "5.55"
-                            },
-                            {
                                    "name": "Estrasburgo",
                                    "lat": "48.573333333",
                                    "lon": "7.752222222"
@@ -630,8 +656,8 @@
                             },
                             {
                                    "name": "Jerusalén",
-                                   "lat": "31.778888888",
-                                   "lon": "35.225555555"
+                                   "lat": "31.776679",
+                                   "lon": "35.234156"
                             },
                             {
                                    "name": "Canaán",
@@ -656,11 +682,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Colonia",
+                            "cert": "high",
                             "lat": "50.942222222",
                             "lon": "6.957777777"
                      }
@@ -686,11 +714,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Colonia]",
+                            "name": "Colonia",
+                            "cert": "high",
                             "lat": "50.942222222",
                             "lon": "6.957777777"
                      }
@@ -702,11 +732,6 @@
                                    "name": "París",
                                    "lat": "48.856666666",
                                    "lon": "2.352222222"
-                            },
-                            {
-                                   "name": "Países Bajos",
-                                   "lat": "52.316666666",
-                                   "lon": "5.55"
                             },
                             {
                                    "name": "Francia",
@@ -741,11 +766,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[París]",
+                            "cert": "medium",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
                      }
@@ -811,11 +838,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Estrasburgo",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      }
@@ -856,11 +885,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Estrasburgo",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      }
@@ -872,6 +903,11 @@
                                    "name": "Lausana",
                                    "lat": "46.533333333",
                                    "lon": "6.633333333"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
                             },
                             {
                                    "name": "Estrasburgo",
@@ -896,11 +932,13 @@
                      },
                      "scr_location": {
                             "name": "[Ginebra]",
+                            "cert": "medium",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Lausana]",
+                            "name": "Lausana",
+                            "cert": "high",
                             "lat": "46.533333333",
                             "lon": "6.633333333"
                      }
@@ -922,11 +960,6 @@
                                    "name": "Hannover",
                                    "lat": "52.374444444",
                                    "lon": "9.738611111"
-                            },
-                            {
-                                   "name": "Países Bajos",
-                                   "lat": "52.316666666",
-                                   "lon": "5.55"
                             }
                      ],
                      "start_date": {
@@ -941,11 +974,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Estrasburgo",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      }
@@ -957,6 +992,16 @@
                                    "name": "París",
                                    "lat": "48.856666666",
                                    "lon": "2.352222222"
+                            },
+                            {
+                                   "name": "Ginebra",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Alemania",
+                                   "lat": "51.0",
+                                   "lon": "10.0"
                             }
                      ],
                      "start_date": {
@@ -971,11 +1016,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[París]",
+                            "cert": "medium",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
                      }
@@ -992,6 +1039,11 @@
                                    "name": "Vienne",
                                    "lat": "45.525555555",
                                    "lon": "4.874722222"
+                            },
+                            {
+                                   "name": "Colonia",
+                                   "lat": "50.942222222",
+                                   "lon": "6.957777777"
                             },
                             {
                                    "name": "Ginebra",
@@ -1011,11 +1063,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Lyon",
+                            "cert": "high",
                             "lat": "45.7675",
                             "lon": "4.835"
                      }
@@ -1041,11 +1095,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Ginebra]",
+                            "cert": "low",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -1087,15 +1143,17 @@
                      "display_date": "19 de enero de 1551",
                      "text": {
                             "headline": "Richard Le Fèvre",
-                            "text": "Carta de Juan Calvino a Richard Le Fèvre exhortándole a la perseverancia y a la fe durante su encarcelamiento, y ofreciendo también argumentos doctrinales para responder a sus acusadores."
+                            "text": "Carta de Juan Calvino a Richard Le Fèvre exhortándole a la perseverancia y a la fe durante su encarcelamiento en Lyon a causa de su fe, y ofreciendo también argumentos doctrinales para responder a sus acusadores."
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Lyon",
+                            "cert": "high",
                             "lat": "45.7675",
                             "lon": "4.835"
                      }
@@ -1126,11 +1184,13 @@
                      },
                      "scr_location": {
                             "name": "[Ginebra]",
+                            "cert": "medium",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -1176,11 +1236,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Veigy-Foncenex]",
+                            "cert": "medium",
                             "lat": "46.271944444",
                             "lon": "6.258888888"
                      }
@@ -1221,11 +1283,13 @@
                      },
                      "scr_location": {
                             "name": "Ginebra",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Londres]",
+                            "name": "Londres",
+                            "cert": "high",
                             "lat": "51.507222222",
                             "lon": "-0.1275"
                      }

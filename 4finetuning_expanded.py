@@ -24,30 +24,6 @@ out_f = open(output_jsonl, "a", encoding="utf8")
 setfr = []
 setes = []
 
-# Use / Uncomment if using XML files and not the txt files
-#with PySaxonProcessor(license=False) as proc:
-#                    xsltproc = proc.new_xslt30_processor()
-#                    dom = proc.parse_xml(xml_file_name=inputpathFr)
-#                    xslt = xsltproc.compile_stylesheet(stylesheet_file=xsltfileFr)
-#                    output = xslt.transform_to_string(xdm_node=dom)
-                   
-#                    txtOk = re.sub("\s+\n+\s", "\n\n", output)
-#                    txtOk1 = re.sub("\s{2,}", "\n", txtOk)
-#                    txtOK2 = re.sub("\n\n", "\n\n", txtOk1)
-#                    setfr = txtOk2.split("\n\n")
-                    
-
-#with PySaxonProcessor(license=False) as proc:
-#                    xsltproc = proc.new_xslt30_processor()
-#                    doc = proc.parse_xml(xml_file_name=inputpathEs)
-#                    xslt = xsltproc.compile_stylesheet(stylesheet_file=xsltfileEs)
-#                    output = xslt.transform_to_string(xdm_node=doc)
-                   
-#                    txtOk = re.sub("\s+\n+\s", "\n\n", output)
-#                    txtOkes1 = re.sub("\s{2,}", "\n", txtOk)
-#                    txtOKes2 = re.sub("\n\n", "\n\n", txtOkes1)
-#                    setes = txtOKes2.split("\n\n")
-
 # Use if using the txt files
 doc_fr = open(inputpathFr, "r").read()
 txtOK = re.sub("\n\n", "\n\n", doc_fr)
@@ -122,7 +98,31 @@ for i in range(len(setfr)):
                             print(f"output => {model_msg}")
                             out_f.write(json.dumps({"contents": [user_msg, model_msg]}, ensure_ascii=False) + "\n")
 print(f"Saved as jsonl.")
-                           
+
+# Use / Uncomment if using XML files and not the txt files
+#with PySaxonProcessor(license=False) as proc:
+#                    xsltproc = proc.new_xslt30_processor()
+#                    dom = proc.parse_xml(xml_file_name=inputpathFr)
+#                    xslt = xsltproc.compile_stylesheet(stylesheet_file=xsltfileFr)
+#                    output = xslt.transform_to_string(xdm_node=dom)
+                   
+#                    txtOk = re.sub("\s+\n+\s", "\n\n", output)
+#                    txtOk1 = re.sub("\s{2,}", "\n", txtOk)
+#                    txtOK2 = re.sub("\n\n", "\n\n", txtOk1)
+#                    setfr = txtOk2.split("\n\n")
+                    
+
+#with PySaxonProcessor(license=False) as proc:
+#                    xsltproc = proc.new_xslt30_processor()
+#                    doc = proc.parse_xml(xml_file_name=inputpathEs)
+#                    xslt = xsltproc.compile_stylesheet(stylesheet_file=xsltfileEs)
+#                    output = xslt.transform_to_string(xdm_node=doc)
+                   
+#                    txtOk = re.sub("\s+\n+\s", "\n\n", output)
+#                    txtOkes1 = re.sub("\s{2,}", "\n", txtOk)
+#                    txtOKes2 = re.sub("\n\n", "\n\n", txtOkes1)
+#                    setes = txtOKes2.split("\n\n")
+
 
 #jsonfile = json.dumps(training_data, indent=3, ensure_ascii = False)
 #outfile = open(outpath, 'w', encoding='utf8') 

@@ -18,7 +18,7 @@ client = genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
    # For reference
 # New Model Name => projects/308230719741/locations/us-central1/models/5016762594774482944@1
 # Old model endpoint => projects/308230719741/locations/us-central1/endpoints/3209442555640938496 
-tuned_model_endpoint = "projects/308230719741/locations/us-central1/endpoints/3120256219709702144"
+tuned_model_endpoint = os.environ.get('TUNED_MODEL_ENDPOINT')
 
 ### text to translate 
 texts = ["Translations_txt/1551_01_19_Richard_Le_Fevre.txt"] #Change file path(s)
@@ -37,7 +37,7 @@ for textfile in texts:
         for i in range(nloops+1):
             milestone = i * limit
             if milestone < len(text):
-                substring = text[milestone:milestone+limit]
+                substring = text[milestone-5:milestone+limit]
                 contents= substring
                 print(f"Processing chunk {i+1} with {len(contents)} characters.")
                 # 'tuned_model_endpoint' if not stored above | 'sft_tuning_job.tuned_model_endpoint_name' if model has just been tuned

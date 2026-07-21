@@ -6,7 +6,7 @@ with open("data_json/placeData_MapIndex_es.json", "r") as indexData:
   placedata = json.load(indexData)
 files =[]
 files_es = []
-dir = "output/VF"
+dir = "output/VF/xml"
 for file in listdir(dir): 
     if isfile(join(dir, file)):
         files.append(dir + "/" + file)
@@ -15,7 +15,7 @@ for f in files:
         files.remove(f)
 files.sort()
 
-dires = "output/VF/es"
+dires = "output/VF/xmles"
 for file in listdir(dires): 
     if isfile(join(dires, file)):
         files_es.append(dires + "/" + file)
@@ -37,6 +37,9 @@ def compile():
         filename = f[-1]
         slug = filename.replace(".xml", "")
         date_es = ""
+        corresp = ""
+        for el in root.findall(".//{http://www.tei-c.org/ns/1.0}sourceDesc"):
+            corresp = el.get('corresp')
         for el in root.findall(".//{http://www.tei-c.org/ns/1.0}correspAction[@type='sent']//{http://www.tei-c.org/ns/1.0}date"):
             date = el.get('when')
             date_es = date
@@ -78,12 +81,12 @@ def compile():
             f = file.split("/")
             filename = f[-1]
             slug = filename.replace(".xml", "")
-            date = ""
-            for el in root.findall(".//{http://www.tei-c.org/ns/1.0}correspAction[@type='sent']//{http://www.tei-c.org/ns/1.0}date"):
-                date = el.get('when')
+            xml_id = ""
+            for el in root.findall(".//{http://www.tei-c.org/ns/1.0}TEI"):
+                xml_id = el.get('xml:id')
 
             for el in root.findall(".//{http://www.tei-c.org/ns/1.0}facsimile[1]/{http://www.tei-c.org/ns/1.0}graphic[1]"):
-                if date_es == date:
+                if corresp == xml_id:
                     url = el.get('url')
                     img = url.replace("/info.json", ".jpeg").replace("iiif/", "")
                     if url is not None and img is not None:

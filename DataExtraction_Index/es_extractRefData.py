@@ -3,7 +3,7 @@ import json
 from os import listdir # install the "listdir" package (pip install dirlist)
 from os.path import isfile, join
 files =[]
-dir = "output/VF/es" # directory of the files to be processed
+dir = "output/VF/xmles" # directory of the files to be processed
 for file in listdir(dir): 
     if isfile(join(dir, file)):
         files.append(dir + "/" + file)

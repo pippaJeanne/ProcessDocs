@@ -79,7 +79,7 @@
                      "name": "Charles Quint (1500 - 1558)",
                      "wikiurl": "http://www.wikidata.org/entity/Q32500",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Charles%20V%2C%20Holy%20Roman%20Emperor%2C%20seated%20%281500%E2%80%931558%29%2C%20formerly%20attributed%20to%20Titian%20%28Alte%20Pinakothek%2C%20Munich%29.jpg",
-                     "desc": "roi des Espagnes et empereur du Saint-Empire d'origine flamande, au XVIe s.",
+                     "desc": "roi des Espagnes et empereur du Saint-Empire romain germanique d'origine flamande, XVIe siècle",
                      "letters": [
                             {
                                    "slug": "1540_07_28_DuTailly",
@@ -252,6 +252,11 @@
                                    "slug": "1544_06_24_MFallais",
                                    "date": "24 juin [1544]",
                                    "headline": "Monsieur de Fallais"
+                            },
+                            {
+                                   "slug": "1544_06_24_MmeDeFalais",
+                                   "date": "24 juin [1544]",
+                                   "headline": "Madame de Fallais"
                             },
                             {
                                    "slug": "1545_05_31_MFallais",
@@ -787,7 +792,7 @@
                      "name": "Martin Luther (1483 - 1546)",
                      "wikiurl": "http://www.wikidata.org/entity/Q9554",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/Lucas%20Cranach%20d.%C3%84.%20-%20Martin%20Luther%2C%201528%20%28Veste%20Coburg%29.jpg",
-                     "desc": "théologien allemand, père du protestantisme",
+                     "desc": "théologien allemand, père du protestantisme (1483-1546)",
                      "letters": [
                             {
                                    "slug": "1540_07_28_DuTailly",
@@ -896,7 +901,7 @@
                      "name": "Philippe Mélanchthon (1497 - 1560)",
                      "wikiurl": "http://www.wikidata.org/entity/Q76325",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg",
-                     "desc": "Humaniste, philosophe et réformateur protestant allemand",
+                     "desc": "humaniste, philosophe et réformateur protestant allemand",
                      "letters": [
                             {
                                    "slug": "1540_07_28_DuTailly",
@@ -1004,7 +1009,7 @@
                      "name": "Salomon",
                      "wikiurl": "http://www.wikidata.org/entity/Q37085",
                      "thumbnail": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg",
-                     "desc": "personnage biblique",
+                     "desc": "personnage biblique, troisième roi d'Israël, fils de David",
                      "letters": [
                             {
                                    "slug": "1542_05_fidelesLyon",

@@ -60,11 +60,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Strasbourg",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      }
@@ -124,11 +126,13 @@
                      },
                      "scr_location": {
                             "name": "Strasbourg",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      },
                      "dest_location": {
                             "name": "Paris",
+                            "cert": "high",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
                      }
@@ -168,11 +172,13 @@
                      },
                      "scr_location": {
                             "name": "Strasbourg",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      },
                      "dest_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -217,11 +223,13 @@
                      },
                      "scr_location": {
                             "name": "Strasbourg",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      },
                      "dest_location": {
                             "name": "Paris",
+                            "cert": "high",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
                      }
@@ -286,11 +294,13 @@
                      },
                      "scr_location": {
                             "name": "Strasbourg",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      },
                      "dest_location": {
                             "name": "[Genève]",
+                            "cert": "medium",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -340,11 +350,13 @@
                      },
                      "scr_location": {
                             "name": "Strasbourg",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      },
                      "dest_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -379,11 +391,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Neuchâtel",
+                            "cert": "high",
                             "lat": "46.990277777",
                             "lon": "6.930555555"
                      }
@@ -448,11 +462,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Ferrare]",
+                            "cert": "low",
                             "lat": "44.839166666",
                             "lon": "11.6175"
                      }
@@ -497,11 +513,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Lyon",
+                            "cert": "high",
                             "lat": "45.7675",
                             "lon": "4.835"
                      }
@@ -513,6 +531,11 @@
                                    "name": "Genève",
                                    "lat": "46.2",
                                    "lon": "6.15"
+                            },
+                            {
+                                   "name": "France",
+                                   "lat": "47.0",
+                                   "lon": "2.0"
                             },
                             {
                                    "name": "Terre d'Israël",
@@ -536,13 +559,15 @@
                      },
                      "scr_location": {
                             "name": "[Genève]",
+                            "cert": "low",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Genève]",
-                            "lat": "46.2",
-                            "lon": "6.15"
+                            "name": "[France]",
+                            "cert": "low",
+                            "lat": "47.0",
+                            "lon": "2.0"
                      }
               },
               {
@@ -570,11 +595,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Fallais]",
+                            "cert": "low",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
@@ -634,11 +661,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Fallais]",
+                            "cert": "low",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
@@ -668,11 +697,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Fallais]",
+                            "cert": "low",
                             "lat": "50.6111",
                             "lon": "5.1711"
                      }
@@ -686,11 +717,6 @@
                                    "lon": "6.957777777"
                             },
                             {
-                                   "name": "Pays-Bas",
-                                   "lat": "52.316666666",
-                                   "lon": "5.55"
-                            },
-                            {
                                    "name": "Strasbourg",
                                    "lat": "48.573333333",
                                    "lon": "7.752222222"
@@ -702,8 +728,8 @@
                             },
                             {
                                    "name": "Jérusalem",
-                                   "lat": "31.778888888",
-                                   "lon": "35.225555555"
+                                   "lat": "31.776679",
+                                   "lon": "35.234156"
                             },
                             {
                                    "name": "Canaan",
@@ -732,11 +758,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Cologne",
+                            "cert": "high",
                             "lat": "50.942222222",
                             "lon": "6.957777777"
                      }
@@ -762,15 +790,17 @@
                      "display_date": "24 juin [1544]",
                      "text": {
                             "headline": "Madame de Fallais",
-                            "text": "Encouragement à Madame de Fallais dans sa nouvelle vie en liberté de conscience et de culte, après avoir suivi son mari à Cologne et à Strasbourg."
+                            "text": "Encouragement à Madame de Fallais dans sa nouvelle vie en liberté de conscience et de culte, après avoir suivi son mari à Cologne."
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Cologne]",
+                            "name": "Cologne",
+                            "cert": "high",
                             "lat": "50.942222222",
                             "lon": "6.957777777"
                      }
@@ -787,11 +817,6 @@
                                    "name": "Paris",
                                    "lat": "48.856666666",
                                    "lon": "2.352222222"
-                            },
-                            {
-                                   "name": "Pays-Bas",
-                                   "lat": "52.316666666",
-                                   "lon": "5.55"
                             },
                             {
                                    "name": "Artois",
@@ -835,11 +860,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Paris]",
+                            "cert": "medium",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
                      }
@@ -909,11 +936,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Strasbourg",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      }
@@ -921,6 +950,11 @@
               {
                      "slug": "1545_06_22_MFallais",
                      "places": [
+                            {
+                                   "name": "Strasbourg",
+                                   "lat": "48.573333333",
+                                   "lon": "7.752222222"
+                            },
                             {
                                    "name": "Fromont",
                                    "lat": "48.255555555",
@@ -930,11 +964,6 @@
                                    "name": "Hainaut",
                                    "lat": "50.5",
                                    "lon": "3.916666666"
-                            },
-                            {
-                                   "name": "Strasbourg",
-                                   "lat": "48.573333333",
-                                   "lon": "7.752222222"
                             }
                      ],
                      "media": {
@@ -949,15 +978,17 @@
                      "display_date": "22 juin [1545]",
                      "text": {
                             "headline": "Monsieur de Fallais",
-                            "text": "Calvin donne conseil à M. de Fallais concernant l'achat d'une demeure à Genève."
+                            "text": "Calvin donne conseil à Monsieur de Fallais concernant l'achat d'une demeure à Genève."
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Strasbourg",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      }
@@ -969,6 +1000,11 @@
                                    "name": "Lausanne",
                                    "lat": "46.533333333",
                                    "lon": "6.633333333"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
                             },
                             {
                                    "name": "Strasbourg",
@@ -997,11 +1033,13 @@
                      },
                      "scr_location": {
                             "name": "[Genève]",
+                            "cert": "medium",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Lausanne]",
+                            "name": "Lausanne",
+                            "cert": "high",
                             "lat": "46.533333333",
                             "lon": "6.633333333"
                      }
@@ -1023,11 +1061,6 @@
                                    "name": "Hanovre",
                                    "lat": "52.374444444",
                                    "lon": "9.738611111"
-                            },
-                            {
-                                   "name": "Pays-Bas",
-                                   "lat": "52.316666666",
-                                   "lon": "5.55"
                             }
                      ],
                      "media": {
@@ -1046,11 +1079,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Strasbourg",
+                            "cert": "high",
                             "lat": "48.573333333",
                             "lon": "7.752222222"
                      }
@@ -1062,6 +1097,16 @@
                                    "name": "Paris",
                                    "lat": "48.856666666",
                                    "lon": "2.352222222"
+                            },
+                            {
+                                   "name": "Genève",
+                                   "lat": "46.2",
+                                   "lon": "6.15"
+                            },
+                            {
+                                   "name": "Allemagne",
+                                   "lat": "51.0",
+                                   "lon": "10.0"
                             }
                      ],
                      "media": {
@@ -1080,11 +1125,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Paris]",
+                            "cert": "medium",
                             "lat": "48.856666666",
                             "lon": "2.352222222"
                      }
@@ -1134,11 +1181,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Lyon",
+                            "cert": "high",
                             "lat": "45.7675",
                             "lon": "4.835"
                      }
@@ -1168,11 +1217,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Genève]",
+                            "cert": "low",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -1223,15 +1274,17 @@
                      "display_date": "19 de janvier 1551",
                      "text": {
                             "headline": "Richard Le Fèvre",
-                            "text": "Lettre de Jean Calvin à Richard Le Fèvre l'exhortant à la persévérance et à la foi pendant son emprisonnement, et offrant également des arguments doctrinaux pour répondre à ses accusateurs"
+                            "text": "Lettre de Jean Calvin à Richard Le Fèvre l'exhortant à la persévérance et à la foi pendant son emprisonnement à Lyon pour sa foi, et offrant également des arguments doctrinaux pour répondre à ses accusateurs."
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Lyon",
+                            "cert": "high",
                             "lat": "45.7675",
                             "lon": "4.835"
                      }
@@ -1266,11 +1319,13 @@
                      },
                      "scr_location": {
                             "name": "[Genève]",
+                            "cert": "medium",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
@@ -1316,15 +1371,17 @@
                      "display_date": "[1552]",
                      "text": {
                             "headline": "Monsieur de Fallais",
-                            "text": "Dernière lettre de Calvin à M. de Fallais. Rupture de Calvin avec M. de Fallais quand ce dernier prit ouvertement le parti de Jérôme Bolsec contre Calvin."
+                            "text": "Dernière lettre de Calvin à M. de Fallais qui marque la rupture de Calvin avec M. de Fallais quand ce dernier prit ouvertement le parti de Jérôme Bolsec contre Calvin."
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
                             "name": "[Veigy-Foncenex]",
+                            "cert": "medium",
                             "lat": "46.271944444",
                             "lon": "6.258888888"
                      }
@@ -1369,11 +1426,13 @@
                      },
                      "scr_location": {
                             "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      },
                      "dest_location": {
-                            "name": "[Londres]",
+                            "name": "Londres",
+                            "cert": "high",
                             "lat": "51.507222222",
                             "lon": "-0.1275"
                      }

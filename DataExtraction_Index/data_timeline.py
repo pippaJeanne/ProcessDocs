@@ -5,7 +5,7 @@ from os.path import isfile, join
 with open("data_json/placeData_MapIndex.json", "r") as indexData:
   placedata = json.load(indexData)
 files =[]
-dir = "output/VF"
+dir = "output/VF/xml"
 for file in listdir(dir): 
     if isfile(join(dir, file)):
         files.append(dir + "/" + file)

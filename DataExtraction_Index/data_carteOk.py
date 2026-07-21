@@ -5,7 +5,7 @@ from os.path import isfile, join
 with open("data_json/placeData_MapIndex.json", "r") as indexData:
   placedata = json.load(indexData)
 files =[]
-dir = "output/VF"
+dir = "output/VF/xml"
 for file in listdir(dir): 
     if isfile(join(dir, file)):
         files.append(dir + "/" + file)
@@ -74,7 +74,11 @@ for file in files:
         placeSrc = el.get('key')
         cert = el.get('cert')
         print(placeSrc)
+        if cert is None:
+            cert = "high"
         obj["scr_location"]["name"] = f"[{placeSrc}]" if cert == "low" or cert == "medium" else placeSrc
+        obj["scr_location"]["cert"] = cert
+
         for place in placedata:
             if placeSrc.__contains__(place["name"]):
                 obj["scr_location"]["lat"] = place["coord"]["lat"]
@@ -84,7 +88,10 @@ for file in files:
         placeD = el.get('key')
         cert = el.get('cert')
         print(placeD)
+        if cert is None:
+            cert = "high"
         obj["dest_location"]["name"] = f"[{placeD}]" if cert == "low" or cert == "medium" else placeD
+        obj["dest_location"]["cert"] = cert
         for place in placedata:
             if placeD.__contains__(place["name"]):
                 obj["dest_location"]["lat"] = place["coord"]["lat"]

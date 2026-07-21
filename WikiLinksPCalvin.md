@@ -1,4 +1,14 @@
+---
+title: Liste de liens Wikidata
+---
+
 ### People
+
+Jules Bonnet (for annotations only) => https://www.wikidata.org/wiki/Q3188439
+
+```xml
+<persName key="Jules Bonnet" ref="https://www.wikidata.org/wiki/Q3188439">Jules Bonnet</persName>
+```
 
 Charles d'Espeville => https://www.wikidata.org/wiki/Q133821751
 ```xml
@@ -28,6 +38,8 @@ Wolfgang Fabricius Köpfel Capiton | Wolfgang Capito=> https://www.wikidata.org/
 Charles Quint | Carlos V => https://www.wikidata.org/wiki/Q32500
 ```xml
 <persName type="name" key="Charles Quint" ref="https://www.wikidata.org/wiki/Q32500" corresp="charles-quint">Charles Quint</persName>
+
+<persName type="name" key="Carlos I de España" ref="https://www.wikidata.org/wiki/Q32500" corresp="charles-quint">Carlos V</persName>
 ```
 
 Conseil de Genève | Consistorio de Ginebra => https://www.wikidata.org/wiki/Q2994627
@@ -104,6 +116,16 @@ Anne de Parthenay => https://www.wikidata.org/wiki/Q99539414
 Madame de Budé  = Roberte Le Lyeur => https://www.wikidata.org/wiki/Q108743308
 ```xml
 <persName type="individu" key="Roberte Le Lyeur" ref="https://www.wikidata.org/wiki/Q108743308" corresp="#madame-bude">Madame de Budé</persName>
+```
+
+Guillaume Budé => https://www.wikidata.org/wiki/Q353668
+```xml
+<persName key="Guillaume Budé" ref="https://www.wikidata.org/wiki/Q353668">Guillaume Budé</persName>
+```
+
+Jean Budé => https://www.wikidata.org/wiki/Q110212357
+```xml
+<persName key="Jean Budé" ref="https://www.wikidata.org/wiki/Q110212357" corresp="#jean-bude">Jean Budé</persName>
 ```
 
 M. de Fallais | Jacques de Bourgogne => https://www.wikidata.org/wiki/Q6120956
@@ -323,7 +345,7 @@ Philistins =>  https://www.wikidata.org/wiki/Q193776
 ```xml
 <persName type="collectivité" key="Philistins" ref="https://www.wikidata.org/wiki/Q193776" corresp="#philistins">Philistins</persName>
 
-<persName type="collectivité" key="filisteos" ref="https://www.wikidata.org/wiki/Q193776" corresp="#philistins">filisteos</persName>
+<persName type="collectivité" key="Filisteos" ref="https://www.wikidata.org/wiki/Q193776" corresp="#philistins">filisteos</persName>
 ```
 
 ```xml
@@ -354,7 +376,7 @@ Fallais => https://www.wikidata.org/wiki/Q1575050
 
 Cologne => https://www.wikidata.org/wiki/Q365
 ```xml
-<placeName cert="low" key="Cologne" ref="https://www.wikidata.org/wiki/Q365" corresp="#Cologne">Cologne</placeName> 
+<placeName key="Cologne" ref="https://www.wikidata.org/wiki/Q365" corresp="#Cologne">Cologne</placeName> 
 ```
 
 Paris => https://www.wikidata.org/wiki/Q90
@@ -535,6 +557,11 @@ Jérusalem | Jerusalén =>  https://www.wikidata.org/wiki/Q1218
 <placeName key="Jerusalén" ref="https://www.wikidata.org/wiki/Q1218">Jerusalén</placeName>
 ```
 
+```xml
+<placeName key="Allemagne" ref="https://www.wikidata.org/wiki/Q183">Allemagne</placeName>
+
+<placeName key="Alemania" ref="https://www.wikidata.org/wiki/Q183">Alemania</placeName>
+```
 
 ----
 

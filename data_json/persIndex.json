@@ -18,12 +18,6 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Joachim%20II%20of%20Brandenburg%20by%20Lucas%20Cranach%20the%20Younger.jpg"
        },
        {
-              "name": "Charles Quint (1500 - 1558)",
-              "desc": "roi des Espagnes et empereur du Saint-Empire d'origine flamande, au XVIe s.",
-              "url": "http://www.wikidata.org/entity/Q32500",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Charles%20V%2C%20Holy%20Roman%20Emperor%2C%20seated%20%281500%E2%80%931558%29%2C%20formerly%20attributed%20to%20Titian%20%28Alte%20Pinakothek%2C%20Munich%29.jpg"
-       },
-       {
               "name": "Louis IV du Palatinat (1424 - 1449)",
               "desc": "Électeur palatin du Rhin",
               "url": "http://www.wikidata.org/entity/Q66918",
@@ -90,12 +84,6 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Pope%20Paul%20III%20Farnese%20%28by%20Titian%29%20-%20National%20Museum%20of%20Capodimonte.jpg"
        },
        {
-              "name": "Ferdinand Ier (1503 - 1564)",
-              "desc": "empereur du Saint Empire et roi de Hongrie",
-              "url": "http://www.wikidata.org/entity/Q150611",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Bocksberger%20%28I%29%20-%20Emperor%20Ferdinand%20I%20-%20WGA02326.jpg"
-       },
-       {
               "name": "Albert de Brandebourg (1490 - 1545)",
               "desc": "cardinal catholique",
               "url": "http://www.wikidata.org/entity/Q60951",
@@ -112,6 +100,12 @@
               "desc": "Théologien catholique",
               "url": "http://www.wikidata.org/entity/Q64159",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stephansdom%20Wien%20Johann%20Fabri%20Epitaph.jpg"
+       },
+       {
+              "name": "Ferdinand Ier (1503 - 1564)",
+              "desc": "empereur du Saint Empire et roi de Hongrie",
+              "url": "http://www.wikidata.org/entity/Q150611",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Bocksberger%20%28I%29%20-%20Emperor%20Ferdinand%20I%20-%20WGA02326.jpg"
        },
        {
               "name": "Monsieur du Tailly",
@@ -136,6 +130,12 @@
               "desc": "archevêque allemand",
               "url": "http://www.wikidata.org/entity/Q95916",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hermann-von-Wied.jpg"
+       },
+       {
+              "name": "Charles Quint (1500 - 1558)",
+              "desc": "roi des Espagnes et empereur du Saint-Empire romain germanique d'origine flamande, XVIe siècle",
+              "url": "http://www.wikidata.org/entity/Q32500",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Charles%20V%2C%20Holy%20Roman%20Emperor%2C%20seated%20%281500%E2%80%931558%29%2C%20formerly%20attributed%20to%20Titian%20%28Alte%20Pinakothek%2C%20Munich%29.jpg"
        },
        {
               "name": "Jean-Frédéric Ier de Saxe (1503 - 1554)",
@@ -168,18 +168,6 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Renee%20de%20france.jpg"
        },
        {
-              "name": "Philippe Mélanchthon (1497 - 1560)",
-              "desc": "Humaniste, philosophe et réformateur protestant allemand",
-              "url": "http://www.wikidata.org/entity/Q76325",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg"
-       },
-       {
-              "name": "Martin Luther (1483 - 1546)",
-              "desc": "théologien allemand, père du protestantisme",
-              "url": "http://www.wikidata.org/entity/Q9554",
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lucas%20Cranach%20d.%C3%84.%20-%20Martin%20Luther%2C%201528%20%28Veste%20Coburg%29.jpg"
-       },
-       {
               "name": "Abraham",
               "desc": "patriarche et prophète des religions juive, chrétienne et musulmane",
               "url": "http://www.wikidata.org/entity/Q9181",
@@ -187,7 +175,7 @@
        },
        {
               "name": "Salomon",
-              "desc": "personnage biblique",
+              "desc": "personnage biblique, troisième roi d'Israël, fils de David",
               "url": "http://www.wikidata.org/entity/Q37085",
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/087.King%20Solomon%20in%20Old%20Age.jpg"
        },
@@ -286,6 +274,18 @@
               "desc": "Seigneur de Fromont et de Han-sur-Sambre (1525-1585), frère de Jacques de Bourgogne, Seigneur de Fallais",
               "url": "http://www.wikidata.org/entity/Q137660510",
               "img": ""
+       },
+       {
+              "name": "Philippe Mélanchthon (1497 - 1560)",
+              "desc": "humaniste, philosophe et réformateur protestant allemand",
+              "url": "http://www.wikidata.org/entity/Q76325",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PhilippMelanchthon.jpg"
+       },
+       {
+              "name": "Martin Luther (1483 - 1546)",
+              "desc": "théologien allemand, père du protestantisme (1483-1546)",
+              "url": "http://www.wikidata.org/entity/Q9554",
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lucas%20Cranach%20d.%C3%84.%20-%20Martin%20Luther%2C%201528%20%28Veste%20Coburg%29.jpg"
        },
        {
               "name": "Marguerite de Valois-Angoulême (1492 - 1549)",
