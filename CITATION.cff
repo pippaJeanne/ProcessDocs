@@ -1,0 +1,15 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Hernández Pedraza
+  given-names: Yanet
+orcid: https://orcid.org/0009-0008-1499-1542
+title: Process Docs
+abstract: "This repository contains the complete pipeline for processing and pre-publishing Lettres de Calvin (*Calvin's Letters*), a bilingual critical digital edition (French-Spanish) of John Calvin's French correspondence. The pipeline automates much of the editorial workflow while maintaining human oversight and control at critical stages."
+keywords:
+  - "http://onto.nerc.ac.uk/vocab/pipeline"
+  - "http://onto.nerc.ac.uk/vocab/semi-automation"
+  - "http://onto.nerc.ac.uk/vocab/editorial-workflow"
+  - "http://onto.nerc.ac.uk/vocab/data-curation"
+version: v1.0.1
+date-released: 2026-07-29
