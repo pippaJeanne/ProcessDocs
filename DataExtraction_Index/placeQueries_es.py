@@ -1,5 +1,5 @@
 
-#pip install SPARQLWrapper
+#pip install SPARQLWrapper (using v2.0.0)
 import json
 import time
 from SPARQLWrapper import SPARQLWrapper, JSON

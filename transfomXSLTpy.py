@@ -1,4 +1,4 @@
-# pip install saxonche
+# pip install saxonche (version 12.7.0)
 from saxonche import *
 from saxonche import PySaxonProcessor
 import os
