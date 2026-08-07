@@ -327,14 +327,14 @@
        ],
        "era_es": {
               "start_date": {
-                     "1553": 1538,
-                     "03": 1,
-                     "12": 1
+                     "year": 1538,
+                     "month": 1,
+                     "day": 1
               },
               "end_date": {
-                     "1553": 1554,
-                     "03": 1,
-                     "12": 1
+                     "year": 1554,
+                     "month": 12,
+                     "day": 31
               },
               "text": "<h2>Cartas en orden cronológico</h2>"
        }
