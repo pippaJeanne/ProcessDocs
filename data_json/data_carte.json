@@ -299,8 +299,8 @@
                             "lon": "7.752222222"
                      },
                      "dest_location": {
-                            "name": "[Genève]",
-                            "cert": "medium",
+                            "name": "Genève",
+                            "cert": "high",
                             "lat": "46.2",
                             "lon": "6.15"
                      }
