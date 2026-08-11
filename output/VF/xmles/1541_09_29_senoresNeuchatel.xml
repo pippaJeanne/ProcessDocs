@@ -89,7 +89,7 @@
 <p>Luego, en su nombre, él podrá añadir lo que le plazca, después de haber declarado estas cosas en nuestro nombre.</p>
 </postscript>
  <closer>
-      <signed><persName key="Juan Calvino">JUAN CALVINO</persName></signed>
+      <signed><persName key="Juan Calvino" ref="#" type="fullname">JUAN CALVINO</persName></signed>
       </closer>
   </body>
  </text>

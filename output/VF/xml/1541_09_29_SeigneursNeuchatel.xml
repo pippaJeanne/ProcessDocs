@@ -125,7 +125,7 @@
 <p>Puis en son nom, il pourra <choice><orig>adjouster</orig><reg>ajouter</reg></choice> ce que bon <choice><orig>luy</orig><reg>lui</reg></choice> semblera, après avoir exposé ces choses de <choice><orig>par nous</orig><reg>notre part</reg></choice>.</p>
 </postscript>
 <closer>
-<signed><persName key="Jean Calvin"><choice><orig>JÉHAN</orig><reg>JEAN</reg></choice> CALVIN</persName></signed>
+<signed><persName key="Jean Calvin" ref="#" type="fullname"><choice><orig>JÉHAN</orig><reg>JEAN</reg></choice> CALVIN</persName></signed>
 </closer>
   </body>
  </text>
