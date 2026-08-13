@@ -35,7 +35,7 @@
   <correspAction type="sent">
   <persName>Juan Calvino</persName>
   <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
-  <date when="1542-05">mayo de 1542</date>
+  <date when="1542-05">[mayo de 1542]</date>
  </correspAction>
  <correspAction type="received">
    <name type="grupo" key="Iglesia de Lyon" ref="#" corresp="#eglise_Lyon">Fieles de Lyon</name>
@@ -67,8 +67,7 @@
 <body>
 <opener>
 <address><addrLine>A los <persName type="grupo" key="Iglesia de Lyon" ref="#" corresp="#eglise_Lyon">fieles de Lyon</persName>
-<note n="*" place="bottom" type="source">
-                     <p>Al dorso: Carta contra el Carme. Sin fecha. Una carta latina de Calvino a <persName key="Guillaume Farel" ref="https://www.wikidata.org/wiki/Q380482" type="surname">Farel</persName>, del 10 de mayo de 1542, sobre el mismo tema, nos da la fecha desconocida, y nos informa que este carmelita, que se unió a la Reforma, era de <placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456">Lyon</placeName> «<hi xml:lang="latinq" rend="italic">Venit Carmelita lugdunensis a quo non frustra timuimus</hi>». <hi xml:lang="trad">[Ha llegado un carmelita de Lyon, a quien no hemos temido en vano.]</hi> Juan Calvino advierte a los fieles de esta ciudad que se cuiden de este falso hermano.</p>
+<note n="*" place="bottom" type="source"><p>Al dorso: Carta contra el Carme. Sin fecha. Una carta latina de Calvino a <persName key="Guillaume Farel" ref="https://www.wikidata.org/wiki/Q380482" type="surname">Farel</persName>, del 10 de mayo de 1542, sobre el mismo tema, nos da la fecha desconocida, y nos informa que este carmelita, que se unió a la Reforma, era de <placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456">Lyon</placeName> «<hi xml:lang="latinq" rend="italic">Venit Carmelita lugdunensis a quo non frustra timuimus</hi>». <hi xml:lang="trad">[Ha llegado un carmelita de Lyon, a quien no hemos temido en vano.]</hi> Juan Calvino advierte a los fieles de esta ciudad que se cuiden de este falso hermano.</p>
               <p>La <persName type="grupo" key="Iglesia de Lyon" ref="#">Iglesia de <placeName key="Lyon" ref="https://www.wikidata.org/wiki/Q456">Lyon</placeName></persName>, una de las más gloriosas de la Reforma francesa, se originó en las predicaciones de un antiguo monje jacobino, <persName key="Alexandre Camus" ref="https://www.wikidata.org/wiki/Q2833517">Alexandre Camus</persName>, apodado <persName key="Alexandre Camus" ref="https://www.wikidata.org/wiki/Q2833517">Laurent de la Croix</persName>, que fue martirizado en <placeName key="París" ref="https://www.wikidata.org/wiki/Q90">París</placeName> en 1535. Los primeros miembros de esta Iglesia fueron comerciantes «algunos orfebres y otros de la ciudad», que se reunían en secreto. La obra iniciada por <persName key="Alexandre Camus" ref="https://www.wikidata.org/wiki/Q2833517">Alexandre Camus</persName>, fue continuada valientemente por <persName cert="low" key="Jean Le Fèvre" ref="https://www.wikidata.org/wiki/Q3173076">Jean Fabri (Le Fèvre)</persName> que encontró continuadores piadosos en los ministros <persName type="fullname" key="Pierre Fournelet" ref="#">Pierre Fournelet</persName> y <persName key="Claude Monnier" type="fullname" ref="#">Claude Monnier</persName>, antes de la época de las grandes persecuciones.</p>
                   </note></addrLine>
 </address>
