@@ -81,10 +81,7 @@ def compile():
             f = file.split("/")
             filename = f[-1]
             slug = filename.replace(".xml", "")
-            xml_id = ""
-            for el in root.findall(".//{http://www.tei-c.org/ns/1.0}TEI"):
-                xml_id = el.get('xml:id')
-
+            xml_id = root.getroot().get("{http://www.w3.org/XML/1998/namespace}id")
             for el in root.findall(".//{http://www.tei-c.org/ns/1.0}facsimile[1]/{http://www.tei-c.org/ns/1.0}graphic[1]"):
                 if corresp == xml_id:
                     url = el.get('url')
@@ -98,20 +95,19 @@ def compile():
                         obj["background"]["url"] = img
                         obj["background"]["color"] = "#5e5e52"
 
-        # print(obj)
         arr.append(obj)
 
     result["events_es"] = arr
     result["era_es"] = {
         "start_date" : {
-            year : 1538,
-            month : 1,
-            day : 1
+            "year" : 1538,
+            "month" : 1,
+            "day" : 1
         },
         "end_date" : {
-            year : 1554,
-            month : 1,
-            day : 1
+            "year" : 1554,
+            "month" : 1,
+            "day" : 1
         },
         "text" : "<h2>Cartas en orden cronológico</h2>"
     }
@@ -121,7 +117,7 @@ def compile():
     return result
 
 jsonfile = compile()
-print(jsonfile)
+#print(jsonfile)
 json_obj = json.dumps(jsonfile, indent=7, ensure_ascii = False)
 with open("data_json/data_timeline_es.json", "w") as outfile:
     outfile.write(json_obj)

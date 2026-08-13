@@ -67,7 +67,7 @@
                      "lat": "42.5",
                      "lon": "12.5"
               },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Colosseo%202020.jpg"
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Satellite%20image%20of%20Italy%20in%20March%202003.jpg"
        },
        {
               "name": "París",
@@ -108,16 +108,6 @@
                      "lon": "7.247222222"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Picswiss%20BE-98-20%20Biel-%20Stadthaus%20und%20Polizei%20%28Burgplatz%29.jpg"
-       },
-       {
-              "name": "Ginebra",
-              "desc": "ciudad y municipio político, así como capital del cantón homónimo en Suiza",
-              "url": "http://www.wikidata.org/entity/Q71",
-              "coord": {
-                     "lat": "46.2",
-                     "lon": "6.15"
-              },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Geneva%20from%20Mount%20Sal%C3%A8ve.jpg"
        },
        {
               "name": "Israel",
@@ -336,6 +326,32 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/FallaisVillage.JPG"
        },
        {
+              "name": "Breda",
+              "desc": "ciudad de los Países Bajos",
+              "url": "http://www.wikidata.org/entity/Q40844",
+              "coord": {
+                     "lat": "51.588888888",
+                     "lon": "4.775833333"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Breda%20kasteel.jpg"
+       },
+       {
+              "name": "Provincia de Brabante",
+              "desc": "antigua provincia de Bélgica (1830-1995)",
+              "url": "http://www.wikidata.org/entity/Q848831",
+              "img": ""
+       },
+       {
+              "name": "Borgoña",
+              "desc": "región de Francia",
+              "url": "http://www.wikidata.org/entity/Q1173",
+              "coord": {
+                     "lat": "47.0",
+                     "lon": "4.5"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Chateau%20Tanlay%20facade%20cour%20grand%20chateau.jpg"
+       },
+       {
               "name": "Colonia",
               "desc": "ciudad de Alemania",
               "url": "http://www.wikidata.org/entity/Q365",
@@ -536,16 +552,6 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Vienne%20panorama%202016-06.jpg"
        },
        {
-              "name": "Colonia",
-              "desc": "ciudad de Alemania",
-              "url": "http://www.wikidata.org/entity/Q365",
-              "coord": {
-                     "lat": "50.942222222",
-                     "lon": "6.957777777"
-              },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stadtbild%20K%C3%B6ln%20%2850MP%29.jpg"
-       },
-       {
               "name": "Delfinado",
               "desc": "antigua provincia francesa",
               "url": "http://www.wikidata.org/entity/Q151999",
@@ -586,16 +592,6 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/All%20Gizah%20Pyramids.jpg"
        },
        {
-              "name": "Borgoña",
-              "desc": "región de Francia",
-              "url": "http://www.wikidata.org/entity/Q1173",
-              "coord": {
-                     "lat": "47.0",
-                     "lon": "4.5"
-              },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Chateau%20Tanlay%20facade%20cour%20grand%20chateau.jpg"
-       },
-       {
               "name": "Veigy-Foncenex",
               "desc": "comuna francesa",
               "url": "http://www.wikidata.org/entity/Q774121",
@@ -614,6 +610,16 @@
                      "lon": "-0.1275"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20Skyline%20%28125508655%29.jpeg"
+       },
+       {
+              "name": "Inglaterra",
+              "desc": "país del noroeste de Europa, parte del Reino Unido",
+              "url": "http://www.wikidata.org/entity/Q21",
+              "coord": {
+                     "lat": "53.0",
+                     "lon": "-1.0"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/England%20satellite%20image.png"
        },
        {
               "name": "Noyon",

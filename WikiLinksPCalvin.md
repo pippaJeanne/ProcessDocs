@@ -562,7 +562,10 @@ Jérusalem | Jerusalén =>  https://www.wikidata.org/wiki/Q1218
 
 <placeName key="Alemania" ref="https://www.wikidata.org/wiki/Q183">Alemania</placeName>
 ```
-
+```xml
+<placeName key="Angleterre" ref="https://www.wikidata.org/wiki/Q21">Angleterre</placeName>
+<placeName key="Inglaterra" ref="https://www.wikidata.org/wiki/Q21">Inglaterra</placeName>
+```
 ----
 
 ### Organizations

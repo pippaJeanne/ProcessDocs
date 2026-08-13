@@ -60,7 +60,7 @@
   <persName>Jean Calvin
   </persName>
   <settlement key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Genève</settlement>
-  <date when="1548-06-13">13 juin [1548]</date>
+  <date when="1548-06-13">13 juin [1548?]</date>
  </correspAction>
  <correspAction type="received">
   <name type="individu" key="Nouveau converti" ref="#">Nouveau converti</name>
@@ -89,7 +89,7 @@
 <opener>
 <address><addrLine>À un <persName type="individu" key="Nouveau converti" ref="#" corresp="#converti">nouveau converti</persName><note n="*" place="bottom"><p>Lettre sans indication de personne et d'année.</p></note></addrLine>
 </address>
-<dateline xml:id="opener">[Envoyée à <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Genève]<note n="1" place="bottom" type="editorial"><p>On présume qu'il s'agit d'un nouveau converti de sa congrégation à <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71">Genève</placeName>. [Note éditoriale]</p></note></placeName>]
+<dateline xml:id="opener">[Envoyée à <placeName key="Genève" cert="low" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Genève]</placeName><note n="1" place="bottom" type="editorial"><p>On présume que le destinataire est un nouveau converti de sa congrégation à <placeName key="Genève" ref="https://www.wikidata.org/wiki/Q71">Genève</placeName>. [Note éditoriale]</p></note>]
 </dateline>
 <hi rend="bold"><label type='nature'>Minute originale</label>. Bibl. de Genève. Vol. 107 a.</hi>
 <hi xml:id="editorNote">

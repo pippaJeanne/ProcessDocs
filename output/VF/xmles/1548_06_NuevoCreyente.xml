@@ -32,7 +32,7 @@
   <correspAction type="sent">
   <persName>Juan Calvino</persName>
   <settlement key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">Ginebra</settlement>
-  <date when="1548-06-13">13 de junio de [1548]</date>
+  <date when="1548-06-13">13 de junio de [1548?]</date>
  </correspAction>
  <correspAction type="received">
   <name type="individuo" ref="#" key="Nuevo creyente">Nuevo creyente</name>
@@ -61,7 +61,7 @@
 <opener>
 <address><addrLine>A un <persName type="individuo" ref="#" key="Nuevo creyente" corresp="#converti">nuevo creyente</persName><note n="*" place="bottom"><p>Carta sin indicación de persona ni año.</p></note></addrLine>
 </address>
-<dateline xml:id="opener">[Enviada a <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Ginebra]<note n="1" place="bottom" type="editorial"><p>Se presume que se trata de un nuevo creyente de sa congragación de <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName>. [Nota editorial]</p></note></placeName>]
+<dateline xml:id="opener">[Enviada a <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71" corresp="#geneve">[Ginebra]</placeName><note n="1" place="bottom" type="editorial"><p>Se presume que el destinatario es un nuevo creyente de su congregación de <placeName key="Ginebra" ref="https://www.wikidata.org/wiki/Q71">Ginebra</placeName>. [Nota editorial]</p></note>]
 </dateline>
 <hi rend="bold"><label type='nature'>Minuta original</label>. Bibl. de Ginebra. Vol. 107a.</hi>
 <hi xml:id="editorNote">

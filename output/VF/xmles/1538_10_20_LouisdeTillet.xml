@@ -76,7 +76,7 @@
                   </note>
                </addrLine>
             </address>
-            <dateline xml:id="opener">[Enviada a <placeName key="París" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">París<note n="1" place="bottom" type="editorial"><p>Se sabe que <persName key="Louis de Tillet" ref="https://www.wikidata.org/wiki/Q3263586">Louis de Tillet</persName> se encontraba en <placeName key="París" ref="https://www.wikidata.org/wiki/Q90">París</placeName> ya que su última carta la escribió desde <placeName key="París" ref="https://www.wikidata.org/wiki/Q90">París</placeName> según la copia manuscrita (Véase el primer folio manuscrito en la sección Manuscritos que contiene el final de dicha carta) [Nota editorial]</p></note></placeName>]
+            <dateline xml:id="opener">[Enviada a <placeName key="París" ref="https://www.wikidata.org/wiki/Q90" corresp="#paris">París</placeName><note n="1" place="bottom" type="editorial"><p>Se sabe que <persName key="Louis de Tillet" ref="https://www.wikidata.org/wiki/Q3263586">Louis de Tillet</persName> se encontraba en <placeName key="París" ref="https://www.wikidata.org/wiki/Q90">París</placeName> ya que su última carta la escribió desde <placeName key="París" ref="https://www.wikidata.org/wiki/Q90">París</placeName> según la copia manuscrita (Véase el primer folio manuscrito en la sección Manuscritos que contiene el final de dicha carta) [Nota editorial]</p></note>]
             </dateline>
             <hi rend="bold">
                <label type="nature">Copia</label>. Biblioteca Imperial de París. Mss. français. Fonds Baluze. 8069-5.</hi>

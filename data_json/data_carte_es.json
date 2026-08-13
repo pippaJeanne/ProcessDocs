@@ -519,6 +519,21 @@
                      "slug": "1543_10_14_SenorFalais",
                      "places": [
                             {
+                                   "name": "Fallais",
+                                   "lat": "50.6111",
+                                   "lon": "5.1711"
+                            },
+                            {
+                                   "name": "Breda",
+                                   "lat": "51.588888888",
+                                   "lon": "4.775833333"
+                            },
+                            {
+                                   "name": "Borgoña",
+                                   "lat": "47.0",
+                                   "lon": "4.5"
+                            },
+                            {
                                    "name": "Colonia",
                                    "lat": "50.942222222",
                                    "lon": "6.957777777"
@@ -542,11 +557,6 @@
                                    "name": "Ámsterdam",
                                    "lat": "52.366666666",
                                    "lon": "4.883333333"
-                            },
-                            {
-                                   "name": "Fallais",
-                                   "lat": "50.6111",
-                                   "lon": "5.1711"
                             }
                      ],
                      "start_date": {
@@ -1041,11 +1051,6 @@
                                    "lon": "4.874722222"
                             },
                             {
-                                   "name": "Colonia",
-                                   "lat": "50.942222222",
-                                   "lon": "6.957777777"
-                            },
-                            {
                                    "name": "Ginebra",
                                    "lat": "46.2",
                                    "lon": "6.15"
@@ -1088,7 +1093,7 @@
                             "month": "06",
                             "day": "13"
                      },
-                     "display_date": "13 de junio de [1548]",
+                     "display_date": "13 de junio de [1548?]",
                      "text": {
                             "headline": "Nuevo creyente",
                             "text": "Respuesta a una pregunta acerca de la misa y aliento en la fe."
@@ -1250,6 +1255,11 @@
               {
                      "slug": "1553_03_12_ReyInglaterra",
                      "places": [
+                            {
+                                   "name": "Inglaterra",
+                                   "lat": "53.0",
+                                   "lon": "-1.0"
+                            },
                             {
                                    "name": "Londres",
                                    "lat": "51.507222222",

@@ -179,6 +179,9 @@
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
                      "Fallais": "https://www.wikidata.org/wiki/Q1575050",
+                     "Breda": "https://www.wikidata.org/wiki/Q40844",
+                     "Provincia de Brabante": "https://www.wikidata.org/wiki/Q848831",
+                     "Borgoña": "https://www.wikidata.org/wiki/Q1173",
                      "Colonia": "https://www.wikidata.org/wiki/Q365",
                      "Estrasburgo": "https://www.wikidata.org/wiki/Q6602",
                      "Basilea": "https://www.wikidata.org/wiki/Q78",
@@ -345,7 +348,6 @@
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
                      "Lyon": "https://www.wikidata.org/wiki/Q456",
                      "Vienne": "https://www.wikidata.org/wiki/Q26849",
-                     "Colonia": "https://www.wikidata.org/wiki/Q365",
                      "Dauphiné": "https://www.wikidata.org/wiki/Q151999"
               }
        },
@@ -419,6 +421,7 @@
               "places": {
                      "Ginebra": "https://www.wikidata.org/wiki/Q71",
                      "Londres": "https://www.wikidata.org/wiki/Q84",
+                     "Inglaterra": "https://www.wikidata.org/wiki/Q21",
                      "París": "https://www.wikidata.org/wiki/Q90",
                      "Noyon": "https://www.wikidata.org/wiki/Q49831"
               }

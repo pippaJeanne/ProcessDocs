@@ -192,6 +192,9 @@
               "places": {
                      "Genève": "https://www.wikidata.org/wiki/Q71",
                      "Fallais": "https://www.wikidata.org/wiki/Q1575050",
+                     "Bréda": "https://www.wikidata.org/wiki/Q40844",
+                     "Brabant": "https://www.wikidata.org/wiki/Q848831",
+                     "Bourgogne": "https://www.wikidata.org/wiki/Q1173",
                      "Cologne": "https://www.wikidata.org/wiki/Q365",
                      "Strasbourg": "https://www.wikidata.org/wiki/Q6602",
                      "Bâle": "https://www.wikidata.org/wiki/Q78",
@@ -348,7 +351,6 @@
                      "Genève": "https://www.wikidata.org/wiki/Q71",
                      "Lyon": "https://www.wikidata.org/wiki/Q456",
                      "Vienne": "https://www.wikidata.org/wiki/Q26849",
-                     "Cologne": "https://www.wikidata.org/wiki/Q365",
                      "Dauphiné": "https://www.wikidata.org/wiki/Q151999"
               }
        },
@@ -421,6 +423,7 @@
               "places": {
                      "Genève": "https://www.wikidata.org/wiki/Q71",
                      "Londres": "https://www.wikidata.org/wiki/Q84",
+                     "Angleterre": "https://www.wikidata.org/wiki/Q21",
                      "Paris": "https://www.wikidata.org/wiki/Q90",
                      "Noyon": "https://www.wikidata.org/wiki/Q49831"
               }

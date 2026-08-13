@@ -67,7 +67,7 @@
                      "lat": "42.5",
                      "lon": "12.5"
               },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Colosseo%202020.jpg"
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Satellite%20image%20of%20Italy%20in%20March%202003.jpg"
        },
        {
               "name": "France",
@@ -291,7 +291,7 @@
        },
        {
               "name": "Lyon",
-              "desc": "ville française",
+              "desc": "commune française (chef-lieu du département du Rhône et de la région Auvergne-Rhone-Alpes)",
               "url": "http://www.wikidata.org/entity/Q456",
               "coord": {
                      "lat": "45.7675",
@@ -338,6 +338,32 @@
               "img": ""
        },
        {
+              "name": "Bréda",
+              "desc": "ville au Brabant-Septentrional, aux Pays-Bas",
+              "url": "http://www.wikidata.org/entity/Q40844",
+              "coord": {
+                     "lat": "51.588888888",
+                     "lon": "4.775833333"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Breda%20kasteel.jpg"
+       },
+       {
+              "name": "Brabant",
+              "desc": "province de Belgique jusqu'à sa scission en 1995",
+              "url": "http://www.wikidata.org/entity/Q848831",
+              "img": ""
+       },
+       {
+              "name": "Bourgogne",
+              "desc": "ancienne région administrative française",
+              "url": "http://www.wikidata.org/entity/Q1173",
+              "coord": {
+                     "lat": "47.0",
+                     "lon": "4.5"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Chateau%20Tanlay%20facade%20cour%20grand%20chateau.jpg"
+       },
+       {
               "name": "Cologne",
               "desc": "ville d'Allemagne",
               "url": "http://www.wikidata.org/entity/Q365",
@@ -366,12 +392,6 @@
                      "lon": "3.916666666"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/0%20Mons%20-%20Panorama%20vu%20du%20Mont%20H%C3%A9ribus%20%281%29.JPG"
-       },
-       {
-              "name": "Brabant",
-              "desc": "province de Belgique jusqu'à sa scission en 1995",
-              "url": "http://www.wikidata.org/entity/Q848831",
-              "img": ""
        },
        {
               "name": "Spire",
@@ -570,16 +590,6 @@
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/All%20Gizah%20Pyramids.jpg"
        },
        {
-              "name": "Bourgogne",
-              "desc": "ancienne région administrative française",
-              "url": "http://www.wikidata.org/entity/Q1173",
-              "coord": {
-                     "lat": "47.0",
-                     "lon": "4.5"
-              },
-              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Chateau%20Tanlay%20facade%20cour%20grand%20chateau.jpg"
-       },
-       {
               "name": "Veigy-Foncenex",
               "desc": "commune française du département de la Haute-Savoie",
               "url": "http://www.wikidata.org/entity/Q774121",
@@ -598,6 +608,16 @@
                      "lon": "-0.1275"
               },
               "img": "http://commons.wikimedia.org/wiki/Special:FilePath/London%20Skyline%20%28125508655%29.jpeg"
+       },
+       {
+              "name": "Angleterre",
+              "desc": "pays du nord-ouest de l'Europe, faisant partie du Royaume-Uni",
+              "url": "http://www.wikidata.org/entity/Q21",
+              "coord": {
+                     "lat": "53.0",
+                     "lon": "-1.0"
+              },
+              "img": "http://commons.wikimedia.org/wiki/Special:FilePath/England%20satellite%20image.png"
        },
        {
               "name": "Noyon",

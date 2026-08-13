@@ -610,6 +610,21 @@
                      "slug": "1543_10_14_MonsieurFalais",
                      "places": [
                             {
+                                   "name": "Fallais",
+                                   "lat": "50.6111",
+                                   "lon": "5.1711"
+                            },
+                            {
+                                   "name": "Bréda",
+                                   "lat": "51.588888888",
+                                   "lon": "4.775833333"
+                            },
+                            {
+                                   "name": "Bourgogne",
+                                   "lat": "47.0",
+                                   "lon": "4.5"
+                            },
+                            {
                                    "name": "Cologne",
                                    "lat": "50.942222222",
                                    "lon": "6.957777777"
@@ -633,11 +648,6 @@
                                    "name": "Amsterdam",
                                    "lat": "52.366666666",
                                    "lon": "4.883333333"
-                            },
-                            {
-                                   "name": "Fallais",
-                                   "lat": "50.6111",
-                                   "lon": "5.1711"
                             },
                             {
                                    "name": "Hainaut",
@@ -1150,11 +1160,6 @@
                                    "lon": "4.874722222"
                             },
                             {
-                                   "name": "Cologne",
-                                   "lat": "50.942222222",
-                                   "lon": "6.957777777"
-                            },
-                            {
                                    "name": "Dauphiné",
                                    "lat": "45.383333333",
                                    "lon": "5.733333333"
@@ -1210,7 +1215,7 @@
                             "month": "06",
                             "day": "13"
                      },
-                     "display_date": "13 juin [1548]",
+                     "display_date": "13 juin [1548?]",
                      "text": {
                             "headline": "Nouveau converti",
                             "text": "Réponse à une question sur la messe et encouragement dans la foi."
@@ -1389,6 +1394,11 @@
               {
                      "slug": "1553_03_12_RoiDAngleterre",
                      "places": [
+                            {
+                                   "name": "Angleterre",
+                                   "lat": "53.0",
+                                   "lon": "-1.0"
+                            },
                             {
                                    "name": "Londres",
                                    "lat": "51.507222222",

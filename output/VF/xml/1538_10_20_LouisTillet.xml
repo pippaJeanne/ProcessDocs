@@ -118,7 +118,7 @@
             <dateline xml:id="opener">
           [Envoyée à <placeName key="Paris" cert="high"
                           ref="https://www.wikidata.org/wiki/Q90"
-                          corresp="#paris">Paris<note n="1" place="bottom" type="editorial"><p>On sait que <persName key="Louis du Tillet" ref="https://www.wikidata.org/wiki/Q3263586">Louis du Tillet</persName> se trouvait à <placeName key="Paris" cert="high" ref="https://www.wikidata.org/wiki/Q90">Paris</placeName> car sa dernière lettre a été écrite depuis <placeName key="Paris" cert="high" ref="https://www.wikidata.org/wiki/Q90">Paris</placeName> d'après la copie manuscrite (Voir le premier feuillet manuscrit dans la section Manuscrit qui contient la fin de cette lettre) [Note éditoriale]</p></note></placeName>]
+                          corresp="#paris">Paris</placeName><note n="1" place="bottom" type="editorial"><p>On sait que <persName key="Louis du Tillet" ref="https://www.wikidata.org/wiki/Q3263586">Louis du Tillet</persName> se trouvait à <placeName key="Paris" cert="high" ref="https://www.wikidata.org/wiki/Q90">Paris</placeName> car sa dernière lettre a été écrite depuis <placeName key="Paris" cert="high" ref="https://www.wikidata.org/wiki/Q90">Paris</placeName> d'après la copie manuscrite (Voir le premier feuillet manuscrit dans la section Manuscrit qui contient la fin de cette lettre) [Note éditoriale]</p></note>]
         </dateline>
             <hi rend="bold">
                <label type="nature">Copie</label>. Bibliothèque impériale de Paris. Mss. français. Fonds Baluze. 8069-5.</hi>
